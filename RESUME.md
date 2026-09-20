@@ -1,26 +1,32 @@
-# Resume checkpoint
+# Resume checkpoint 002
 
-## State
+Status: engineering feasibility NOT PASSED. Stop before detailed CAD under the accepted plan. The user has requested no questions; continue evidence work within the original requirements if resumed. Do not change the budget, target, rules, or fabricate a final design.
 
-- Requirements accepted on 2026-09-20.
-- Feasibility gate pending. No architecture or purchased interfaces frozen. This is checkpoint 001, not a completed feasibility report.
-- Fusion inspected: blank unsaved design; destination `Default Project / Codex Benchy Printer` exists and was empty. No CAD edits performed.
-- Original CreativeTools single-part STL downloaded from its official GitHub repository, linked by 3dbenchy.com.
-- Installed OrcaSlicer CLI identifies version 2.3.2. `--help` alone returns no text; `--debug 5` confirms CLI execution.
-- Private GitHub repository created and verified: https://github.com/Logan13603/codex-benchy-printer . Initial requirements commit: 67487a8a97530fdc8ecf3f69c56462504935d9ca.
-- Reproducible OrcaSlicer 2.3.2 analysis slice completed: 192 layers, unscaled original mesh, nominal 0.50-mm extrusion widths, 0.25-mm layers, 2 walls, 3 top/bottom layers, 10% rectilinear infill. Full settings audit pending.
-- Preliminary arithmetic: 8757.07 mm3 deposition, 10.859 g PLA at density 1.24 g/cm3, 77.63 m extruding path. A 55-second print requires at least 159.22 mm3/s average over the ENTIRE print; peak flow must exceed that. At a hypothetical 75 mm3/s continuous cap, extrusion alone takes 116.76 seconds. These are properties of this slice, not proof of an absolute optimum or global impossibility.
-- Usage check at checkpoint: 89% of five-hour window consumed, 19% weekly consumed. End cleanly and await user resume. No reset credits used.
+## Completed
 
-## Next operation
+- Private repository created: https://github.com/Logan13603/codex-benchy-printer . Previous remote checkpoint commit 0a9c6dd61903e5eabe0e7aa201c81a733ede6563.
+- Official original mesh, checksum and OrcaSlicer 2.3.2 profiles preserved.
+- Actual Annex announcement rules found: https://www.youtube.com/watch?v=7zkKcFtLAks . Corrected prior mistaken video identity.
+- Five trial slices, width audit, six analytical motion tests, flow/heat/duct calculations, toolhead COM/inertia, architecture screening and candidate cost report.
+- Candidate reference: $643.90 delivered estimate; 4.08 kg approximate installed mass; 136 g short-Bowden head and 89.7 g bed.
+- No compliant toolpath, validated 55-second prediction, full torque/path model, or measured flow established. Detailed CAD, final BOM, wiring, firmware and fabrication files withheld.
 
-1. Verify checkpoint archive SHA256 and repository main commit before continuing. Extract if local project is unavailable.
-2. Audit effective settings in analysis.3mf and analysis.gcode (especially bridge width, thin features, shell thickness, minimum layers, and actual original-model geometry). Read the rules sources; original Annex video fetch failed, so do not claim current Annex rule certification.
-3. Add an explicit reslice runner: run slicing/prepare_slice.py, then Orca CLI with --debug 2 --slice 0 --load-settings "machine.json;process.json" --load-filaments filament.json --outputdir slicing --export-3mf analysis.3mf and the original STL. Use resolved full paths. Extract Metadata/plate_1.gcode from the 3MF as slicing/analysis.gcode. CLI emits plate_1.gcode too.
-4. Implement and test acceleration/corner/flow-limited path analysis; compare nozzle widths 0.4–0.5 mm and permissible infill combinations without deleting model features.
-5. Compare miniature CoreXY, independent Cartesian/light bed, crossed gantry, and delta using documented masses, force planes, reflected rotor inertia, torque-speed data, and CPAP system curve. Source a genuine >160 mm3/s small-nozzle candidate or establish that evidence is insufficient under $500 delivered. Complete priced candidate BOM and uncertainty ledger.
-6. Resolve feasibility gate. If unsupported, publish the evidence and stop before detailed CAD. Do not silently relax budget/rules or make a slower printer.
+## Fusion state
 
-## Persistence
+Default Project / Codex Benchy Printer was verified empty. Last inspected design: Untitled, blank, unsaved; mm/g units. No Fusion cloud version, F3D, STEP or manufacturing export exists. Refresh app/window identity before any future UI interaction. Use computer use, not Fusion MCP.
 
-Save each completed milestone locally and remotely. At 15% remaining usage, begin checkpoint/export; aim to end by 10%. Record exact next operation, remote commit, source/model hashes, and Fusion version. Do not consume reset credits.
+## Exact next operation
+
+1. Verify checkpoint-002.zip SHA256 against the remote backup manifest, then verify extracted validation/file-manifest.json. Read FEASIBILITY.md and RULES.md before doing new work.
+2. Audit Orca width violations by role and segment, plus combined infill height and local shell/thin-feature coverage. Do not remove required geometry to hide a violation. Compare a second slicer if useful.
+3. Validate timing against a pinned real Klipper planner and a small independently known G-code case; investigate the high short-segment/corner time before drawing a stronger performance conclusion. Optimize seams, infill, orientations and tolerated path simplification only within the frozen rules.
+4. Only if a promising compliant path emerges, evaluate 16/20/24/32T pulley torque limits, all four kinematics, uncertain hose force and flow on that same path. Complete delivered quotes and material-specific small-nozzle flow evidence. Gate requires <=55s nominal and credible sub-60s margin within $500.
+5. Keep the gate unpassed otherwise. The existing feasibility report documents limits and alternatives; there is no authorization to quietly build a slower or more expensive printer.
+
+## Backups and usage
+
+Checkpoint 001 ZIP: SHA256 526cec3baf37acf965a8713ee20881712d9fd734f1362b7cb1fc6485a03a7555; Git blob f5813bc5fc68393a76b05d70683075c532bd5182. Remote Git blob matched the locally calculated content identifier. Connector binary fetch >1MB returned empty content, so full remote redownload/extract was not verified. Browser upload was blocked by extension file-URL permission; connector upload succeeded. No permission change needed for that route.
+
+Checkpoint 002 details are in backups/checkpoint-002-manifest.json remotely and outputs/checkpoint-002-manifest.json locally. The manifest records the source commit, archive checksum, byte length and Git blob. Recheck before calling a backup independently restored. ZIP and file hashes verified locally; remote content identity verification is recorded separately.
+
+Usage last observed during report assembly: 74% five-hour, 33% weekly. Save/verify remote before ending this turn. At >=85% consumed start checkpointing; finish by roughly 90%. No reset credits used. Do not exhaust remaining usage deliberately or schedule an automatic restart.

@@ -1,0 +1,26 @@
+[
+  {
+    "variant": "width-0.40",
+    "sha256": "1d46a9b6323367b4c7a10548854ba287e582ea4e6a7fbafbbbe5b40f9afbe8ec",
+    "nozzle_mm": 0.4,
+    "nominal_width_mm": 0.4,
+    "thin_wall_detection": true,
+    "returncode": 0
+  },
+  {
+    "variant": "width-0.45",
+    "sha256": "7573a397c9f4288a3eac06c661c9c8164d28177535b7131ec54e9aca85ba5512",
+    "nozzle_mm": 0.45,
+    "nominal_width_mm": 0.45,
+    "thin_wall_detection": true,
+    "returncode": 0
+  },
+  {
+    "variant": "width-0.50",
+    "sha256": "48b65483a146e7ea3ea96205ac6f4b58b17ebfa491456243e2e4450e3e34f9f6",
+    "nozzle_mm": 0.5,
+    "nominal_width_mm": 0.5,
+    "thin_wall_detection": true,
+    "returncode": 0
+  }
+]

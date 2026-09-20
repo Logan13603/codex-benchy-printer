@@ -1,29 +1,23 @@
 # Codex Benchy Printer
 
-Purpose-built FDM printer study: 50–55-second full-size SpeedBoatRace Benchy, maximum $500 delivered in the continental US.
+Purpose-built printer investigation: a full-size SpeedBoatRace Benchy in 50�55 seconds, hardware/fabrication/tax/shipping <=$500.
 
-**Status: feasibility investigation; not a released or validated printer design.** Detailed Fusion CAD is conditional on passing the engineering gate. No hardware purchases are authorized or necessary for this digital investigation.
+**Checkpoint 002: feasibility gate not passed. No detailed CAD or manufacturing release.**
 
-## Requirements
+Read the [feasibility report](engineering/FEASIBILITY.md), [architecture comparison](engineering/ARCHITECTURES.md), [candidate BOM](purchasing/CANDIDATE-BOM.md), and [resume instructions](RESUME.md).
 
-- Original unscaled Benchy; documented SpeedBoatRace settings.
-- Budget includes printer, external CPAP blower and hose, host, electrical hardware, custom-part materials, tax and shipping. Existing FDM printer, hand tools and labor excluded.
-- Manufacture with FDM and hand tools, or cost essential outsourced work explicitly.
-- Fusion location: `Default Project / Codex Benchy Printer`; use native computer interaction, not Fusion MCP.
-- Stop before detailed CAD if 55-second nominal performance with credible sub-60-second margin is not supported within budget.
+The trial slices require roughly 151�159 mm3/s averaged over 55 seconds and have generated-width violations. The current costed reference is $643.90 delivered estimate. These results do not prove universal impossibility; they do not support proceeding to detailed CAD.
 
-## Organization
-
-| Directory | Purpose |
+| Folder | Contents / release status |
 |---|---|
-| engineering | Reproducible calculations, architecture decision, assumptions |
-| purchasing | Candidate BOM, current sources, cost and mass estimates |
-| slicing | Original model provenance, pinned profiles and toolpath evidence |
-| validation | Tests, results, source register, backup manifests |
-| cad | Native Fusion archives and assembly exports after gate passes |
-| manufacturing | Released printable files and drawings after gate passes |
-| electronics | Wiring and pin assignments after parts are frozen |
-| firmware | Configuration after hardware selection |
-| assembly | Assembly and commissioning instructions after design release |
+| engineering | Calculations, assumptions, timing scenarios and gate report |
+| purchasing | Dated candidate prices, cost and mass estimate |
+| slicing | Original mesh, rules, pinned trial profiles, reproducible runners |
+| validation | Tests, evidence, file hashes and backup status |
+| cad | Reserved for native Fusion archives after gate passes |
+| manufacturing | Reserved for drawings and printable parts |
+| electronics | Reserved for hardware-specific wiring |
+| firmware | Reserved for validated hardware configuration |
+| assembly | Reserved for released assembly and commissioning instructions |
 
-Start with [RESUME.md](RESUME.md). Candidate specifications are not manufacturing instructions. Calculated, manufacturer-claimed, simulated, and measured evidence must remain distinguishable.
+Fusion destination verified: `Default Project / Codex Benchy Printer`. No CAD edits have been made. All G-code here is analytical evidence, not ready to print. No parts purchased.

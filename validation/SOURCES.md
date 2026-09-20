@@ -3,7 +3,7 @@
 - Original model: https://www.3dbenchy.com/download/ links https://github.com/CreativeTools/3DBenchy . Commit and SHA256 in slicing/provenance.json. Preserve attribution. No new license is granted for third-party assets.
 - Model dimensions: https://www.3dbenchy.com/wp-content/uploads/2015/04/3DBenchy_Broschure_3DBenchy.com_.pdf . Nominal 60 x 31 x 48 mm; downloaded mesh bounds independently verified.
 - Primary event rules: https://ee30.euskalencounter.org/es/hardware/speedboatrace-imprime-el-benchy-mas-rapido.html . Event organizer specifies nozzle <=0.5 mm, layers <=0.25 mm, 2 walls, 3 top/bottom layers, 10% infill, permitted unfilled materials and stepper motors. This is the 2022 event, not verified current Annex adjudication.
-- Original Annex challenge video linked there: https://www.youtube.com/watch?v=JdVZZ4i2dS8 . Fetch unsuccessful. Original timing convention and latest rule revisions remain unverified. Apply an additional <=0.5-mm line-width cap conservatively. Do not claim official competition certification yet.
+- Incorrect earlier announcement identification (superseded by RULES.md): https://www.youtube.com/watch?v=JdVZZ4i2dS8 . Fetch unsuccessful. Original timing convention and latest rule revisions remain unverified. Apply an additional <=0.5-mm line-width cap conservatively. Do not claim official competition certification yet.
 - OrcaSlicer source: https://github.com/OrcaSlicer/OrcaSlicer/tree/v2.3.2 . Installed binary reports 2.3.2. CLI requires compatible_printers matching machine system name; flattened local profiles use from=system solely for CLI compatibility, not because they are vendor-certified machine profiles.
 - Motor candidate manufacturer drawing: https://cdn.shopify.com/s/files/1/0239/9287/files/LDO-42STH48-2504AC_RevA.pdf?v=1643851583 . Dimensions/rotor inertia still require inspection.
 - Manufacturer torque test: https://cdn.shopify.com/s/files/1/0239/9287/files/LDO-42STH48-2504AC_Torque_Curve.pdf?v=1645112191 . 24 V, 2.5 A, full-step. Published running torque: 239 mNm at 5000 full-step pulses/s (1500 RPM), 168 mNm at 7000 pulses/s (2100 RPM). Do not transfer to a lower-current driver without derating/evidence.
@@ -12,3 +12,17 @@
 - Klipper: https://www.klipper3d.org/Resonance_Compensation.html and https://www.klipper3d.org/Pressure_Advance.html . Measured tuning required; no frequencies or pressure-advance values have been established.
 
 No architecture, complete delivered BOM, thermal performance, or hardware configuration has been validated at this checkpoint.
+
+## Checkpoint 002 corrections and additions
+
+Actual Annex announcement: https://www.youtube.com/watch?v=7zkKcFtLAks . Public description retrieved directly; rules paraphrased in slicing/RULES.md. JdVZZ4i2dS8 is a Josh Murrah print, not the announcement.
+
+Motor drawing inspected: rotor inertia84.5g cm2; reference weight350g; 42.3mm maximum flange, 31mm mount spacing, 48mm maximum body, 5mm shaft. All newly estimated toolhead masses are clearly marked.
+
+Store variant snapshots in purchasing/source-price-snapshot.json supersede the earlier unknown UHF price: Rapido2 UHF Black $99.00, CPAP kit $69.99, separate hose $14.66, selected LDO motor $17.99, SKR Pico $39.85. Commodity allowances are not quoted sources.
+
+Original Rapido flow test: https://trianglelab.net/u_file/2111/01/file/Rapidohot-endMaximumPracticalFlowRateTest-5d73.pdf . It does not validate Rapido2 or the target nozzle.
+
+Klipper kinematics: https://www.klipper3d.org/Kinematics.html . Source consulted https://github.com/Klipper3d/klipper/blob/master/klippy/toolhead.py . A commit-pinned firmware cross-validation is still pending.
+
+Orca 2.3.2 configuration source: https://github.com/OrcaSlicer/OrcaSlicer/blob/v2.3.2/src/libslic3r/PrintConfig.cpp . Gap fill can vary width; nominal width is not a global maximum.

@@ -1,0 +1,2 @@
+[2026-09-20 17:44:53.124534] [0x00006c90] [warning] cli mode, Current OrcaSlicer Version 2.3.2
+[2026-09-20 17:44:53.294534] [0x00006c90] [warning] no filament colors found in projects

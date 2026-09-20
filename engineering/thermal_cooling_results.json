@@ -1,0 +1,102 @@
+{
+  "thermal": [
+    {
+      "flow_mm3_s": 75,
+      "feed_mm_s": 31.18137660575909,
+      "mass_g_s": 0.093,
+      "sensible_heat_W_range": [
+        29.992500000000003,
+        39.99
+      ]
+    },
+    {
+      "flow_mm3_s": 100,
+      "feed_mm_s": 41.575168807678786,
+      "mass_g_s": 0.124,
+      "sensible_heat_W_range": [
+        39.99,
+        53.32
+      ]
+    },
+    {
+      "flow_mm3_s": 150,
+      "feed_mm_s": 62.36275321151818,
+      "mass_g_s": 0.186,
+      "sensible_heat_W_range": [
+        59.98500000000001,
+        79.98
+      ]
+    },
+    {
+      "flow_mm3_s": 160,
+      "feed_mm_s": 66.52027009228605,
+      "mass_g_s": 0.1984,
+      "sensible_heat_W_range": [
+        63.983999999999995,
+        85.312
+      ]
+    },
+    {
+      "flow_mm3_s": 200,
+      "feed_mm_s": 83.15033761535757,
+      "mass_g_s": 0.248,
+      "sensible_heat_W_range": [
+        79.98,
+        106.64
+      ]
+    }
+  ],
+  "duct_sensitivity": [
+    {
+      "flow_L_s": 2,
+      "hose_speed_m_s": 11.317684842090337,
+      "system_pressure_Pa_range": [
+        1103.4636965370664,
+        1241.8008859367383
+      ],
+      "outlet_speed_m_s": 25.0,
+      "bulk_air_W_per_K": 2.412,
+      "outlet_momentum_force_N": 0.05999999999999999
+    },
+    {
+      "flow_L_s": 3,
+      "hose_speed_m_s": 16.976527263135505,
+      "system_pressure_Pa_range": [
+        2482.7933172084,
+        2794.0519933576616
+      ],
+      "outlet_speed_m_s": 37.5,
+      "bulk_air_W_per_K": 3.618,
+      "outlet_momentum_force_N": 0.13499999999999998
+    },
+    {
+      "flow_L_s": 4,
+      "hose_speed_m_s": 22.635369684180674,
+      "system_pressure_Pa_range": [
+        4413.854786148266,
+        4967.203543746953
+      ],
+      "outlet_speed_m_s": 50.0,
+      "bulk_air_W_per_K": 4.824,
+      "outlet_momentum_force_N": 0.23999999999999996
+    },
+    {
+      "flow_L_s": 5,
+      "hose_speed_m_s": 28.294212105225842,
+      "system_pressure_Pa_range": [
+        6896.648103356666,
+        7761.2555371046155
+      ],
+      "outlet_speed_m_s": 62.49999999999999,
+      "bulk_air_W_per_K": 6.03,
+      "outlet_momentum_force_N": 0.375
+    }
+  ],
+  "not_validated": [
+    "Polymer cp bracket excludes phase-transition enthalpy and heater losses.",
+    "No measured nozzle pressure/temperature or filament formulation data.",
+    "Full blower pressure-flow curve at each PWM setting not digitized.",
+    "No heat-transfer coefficient, printed-part temperature field, or hose-force measurement.",
+    "Heat-removal capacity of air is not proof of cooling at the nozzle or on bridges."
+  ]
+}

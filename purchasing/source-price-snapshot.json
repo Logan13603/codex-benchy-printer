@@ -1,0 +1,160 @@
+{
+  "cpap": {
+    "source": "https://biqu.equipment/products/universal-turbo-kit.js",
+    "retrieved_date": "2026-09-20",
+    "title": "BIQU Universal Turbo Kit",
+    "currency": "USD",
+    "price_unit": "cents",
+    "variants": [
+      {
+        "id": 41311385157730,
+        "title": "Universal Turbo Kit",
+        "sku": "1060000677",
+        "price": 6999,
+        "available": true,
+        "weight": 320
+      },
+      {
+        "id": 41311385190498,
+        "title": "Fan Pipe",
+        "sku": "3020030069",
+        "price": 1466,
+        "available": true,
+        "weight": 320
+      }
+    ],
+    "weight_warning": "Shopify weight may be shipping/placeholder weight; not CAD mass."
+  },
+  "rapido2": {
+    "source": "https://www.phaetus.com/products/rapido2.js",
+    "retrieved_date": "2026-09-20",
+    "title": "Rapido Hotend 2",
+    "currency": "USD",
+    "price_unit": "cents",
+    "variants": [
+      {
+        "id": 45177211060501,
+        "title": "HF  Blue",
+        "sku": "R01.18.6158D01.02.15.03.00",
+        "price": 8900,
+        "available": true,
+        "weight": 500
+      },
+      {
+        "id": 45177211191573,
+        "title": "UHF   Black",
+        "sku": "R01.18.6158D01.03.15.03.00",
+        "price": 9900,
+        "available": true,
+        "weight": 500
+      },
+      {
+        "id": 49937739514133,
+        "title": "Rapido 2 HF Silicone Sock Black",
+        "sku": "R01.14.7508A00.04.72.00.08",
+        "price": 400,
+        "available": true,
+        "weight": 500
+      },
+      {
+        "id": 49937739546901,
+        "title": "Rapido 2 UHF Silicone Sock Black",
+        "sku": "R01.14.7508A00.05.72.00.08",
+        "price": 500,
+        "available": true,
+        "weight": 500
+      }
+    ],
+    "weight_warning": "Shopify weight may be shipping/placeholder weight; not CAD mass."
+  },
+  "motor": {
+    "source": "https://www.filastruder.com/products/ldo-stepper-motors-nema-17.js",
+    "retrieved_date": "2026-09-20",
+    "title": "LDO Stepper Motors (NEMA17)",
+    "currency": "USD",
+    "price_unit": "cents",
+    "variants": [
+      {
+        "id": 17240374935623,
+        "title": "42STH25-1404MAC",
+        "sku": "LDO-42STH25-1404MAC",
+        "price": 1699,
+        "available": true,
+        "weight": 318
+      },
+      {
+        "id": 39580977791047,
+        "title": "42STH48-2504AC",
+        "sku": "LDO-42STH48-2504AC",
+        "price": 1799,
+        "available": true,
+        "weight": 318
+      }
+    ],
+    "weight_warning": "Shopify weight may be shipping/placeholder weight; not CAD mass."
+  },
+  "pico": {
+    "source": "https://biqu.equipment/products/btt-skr-pico-v1-0.js",
+    "retrieved_date": "2026-09-20",
+    "title": "BTT SKR Pico V1.0 Control Board Compatible with Raspberry Pi or BTT Pi for Voron V0",
+    "currency": "USD",
+    "price_unit": "cents",
+    "variants": [
+      {
+        "id": 40565262155874,
+        "title": "Default Title",
+        "sku": "1060000513",
+        "price": 3985,
+        "available": true,
+        "weight": 200
+      }
+    ],
+    "weight_warning": "Shopify weight may be shipping/placeholder weight; not CAD mass."
+  },
+  "host": {
+    "source": "https://biqu.equipment/products/bigtreetech-btt-pi-v1-2.js",
+    "retrieved_date": "2026-09-20",
+    "title": "BIGTREETECH BTT Pi V1.2.1",
+    "currency": "USD",
+    "price_unit": "cents",
+    "variants": [
+      {
+        "id": 40326121980002,
+        "title": "BTT Pi V1.2.1",
+        "sku": "1020000455",
+        "price": 6599,
+        "available": true,
+        "weight": 0
+      },
+      {
+        "id": 40326122012770,
+        "title": "BTT Pi + Cloud 3D Print",
+        "sku": "1020000434",
+        "price": 6699,
+        "available": false,
+        "weight": 0
+      },
+      {
+        "id": 40332289867874,
+        "title": "CAN Adapter V1.0",
+        "sku": "1030000115",
+        "price": 1113,
+        "available": true,
+        "weight": 0
+      },
+      {
+        "id": 40367541157986,
+        "title": "BTT Pi V1.2.1 + TFT35 SPI",
+        "sku": "1020000455*1+1040000035*1",
+        "price": 8299,
+        "available": true,
+        "weight": 0
+      }
+    ],
+    "weight_warning": "Shopify weight may be shipping/placeholder weight; not CAD mass."
+  },
+  "goliath": {
+    "source": "https://www.fabreeko.com/products/vz-bot-goliath-hot-end-by-mellow.js",
+    "error": "HTTP Error 404: Not Found"
+  }
+}

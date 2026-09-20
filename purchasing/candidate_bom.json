@@ -1,0 +1,243 @@
+{
+  "status": "Candidate cost study; not a purchasing or manufacturing release",
+  "date": "2026-09-20",
+  "items": [
+    {
+      "part_number": "CBP-P101",
+      "revision": "A-study",
+      "description": "LDO-42STH48-2504AC XY motors",
+      "quantity": 2,
+      "unit_estimate_USD": 17.99,
+      "line_USD": 35.98,
+      "unit_installed_mass_g": 350,
+      "evidence": "Sourced variant 39580977791047; manufacturer 350 g reference"
+    },
+    {
+      "part_number": "CBP-P102",
+      "revision": "A-study",
+      "description": "LDO-42STH25-1404MAC E/Z motors",
+      "quantity": 2,
+      "unit_estimate_USD": 16.99,
+      "line_USD": 33.98,
+      "unit_installed_mass_g": 150,
+      "evidence": "Sourced variant 17240374935623; mass estimate, E/Z suitability unverified"
+    },
+    {
+      "part_number": "CBP-P103",
+      "revision": "A-study",
+      "description": "Phaetus Rapido 2 UHF Black",
+      "quantity": 1,
+      "unit_estimate_USD": 99,
+      "line_USD": 99,
+      "unit_installed_mass_g": 44.5,
+      "evidence": "Sourced variant 45177211191573; installed mass estimate"
+    },
+    {
+      "part_number": "CBP-P104",
+      "revision": "A-study",
+      "description": "BIQU Universal Turbo Kit SKU1060000677",
+      "quantity": 1,
+      "unit_estimate_USD": 69.99,
+      "line_USD": 69.99,
+      "unit_installed_mass_g": 185,
+      "evidence": "Sourced variant 41311385157730; installed kit mass estimate"
+    },
+    {
+      "part_number": "CBP-P105",
+      "revision": "A-study",
+      "description": "BIQU fan pipe SKU3020030069",
+      "quantity": 1,
+      "unit_estimate_USD": 14.66,
+      "line_USD": 14.66,
+      "unit_installed_mass_g": 100,
+      "evidence": "Sourced variant 41311385190498; trim length and installed mass estimate"
+    },
+    {
+      "part_number": "CBP-P106",
+      "revision": "A-study",
+      "description": "BTT SKR Pico V1.0 SKU1060000513",
+      "quantity": 1,
+      "unit_estimate_USD": 39.85,
+      "line_USD": 39.85,
+      "unit_installed_mass_g": 70,
+      "evidence": "Sourced variant 40565262155874; mass estimate"
+    },
+    {
+      "part_number": "CBP-P107",
+      "revision": "A-study",
+      "description": "Raspberry Pi Zero 2 W",
+      "quantity": 1,
+      "unit_estimate_USD": 15,
+      "line_USD": 15,
+      "unit_installed_mass_g": 11,
+      "evidence": "Manufacturer advertised price; US reseller stock/cart pending"
+    },
+    {
+      "part_number": "CBP-P108",
+      "revision": "A-study",
+      "description": "Host microSD, USB data cable, 24V-to-5V regulator",
+      "quantity": 1,
+      "unit_estimate_USD": 14,
+      "line_USD": 14,
+      "unit_installed_mass_g": 30,
+      "evidence": "Allowance; search 32GB high endurance microSD, USB OTG, regulated 5V 3A buck"
+    },
+    {
+      "part_number": "CBP-P109",
+      "revision": "A-study",
+      "description": "Mean Well LRS-350-24 PSU candidate",
+      "quantity": 1,
+      "unit_estimate_USD": 35,
+      "line_USD": 35,
+      "unit_installed_mass_g": 900,
+      "evidence": "Allowance; exact supply seller/revision not quoted"
+    },
+    {
+      "part_number": "CBP-P110",
+      "revision": "A-study",
+      "description": "MGN7H 150mm rail with carriage",
+      "quantity": 3,
+      "unit_estimate_USD": 12,
+      "line_USD": 36,
+      "unit_installed_mass_g": 110,
+      "evidence": "Allowance; generic supplier, preload and accuracy unverified"
+    },
+    {
+      "part_number": "CBP-P111",
+      "revision": "A-study",
+      "description": "2GT 6mm belts, two 20T 5mm-bore pulleys, idlers",
+      "quantity": 1,
+      "unit_estimate_USD": 18,
+      "line_USD": 18,
+      "unit_installed_mass_g": 50,
+      "evidence": "Allowance; 1m belt; final lengths and tooth engagement not frozen"
+    },
+    {
+      "part_number": "CBP-P112",
+      "revision": "A-study",
+      "description": "Remote dual-drive geared extruder mechanism",
+      "quantity": 1,
+      "unit_estimate_USD": 14,
+      "line_USD": 14,
+      "unit_installed_mass_g": 50,
+      "evidence": "Allowance; search BMG dual drive gear kit; housing printed; no motor included"
+    },
+    {
+      "part_number": "CBP-P113",
+      "revision": "A-study",
+      "description": "Small 24V bed heater and thermistor",
+      "quantity": 1,
+      "unit_estimate_USD": 12,
+      "line_USD": 12,
+      "unit_installed_mass_g": 12,
+      "evidence": "Allowance; search 60x40 silicone heater 20-30W NTC100K"
+    },
+    {
+      "part_number": "CBP-P114",
+      "revision": "A-study",
+      "description": "75x45x1.5mm aluminum bed material",
+      "quantity": 1,
+      "unit_estimate_USD": 6,
+      "line_USD": 6,
+      "unit_installed_mass_g": 13.66875,
+      "evidence": "Allowance for stock and waste; installed volume*rho=13.669g"
+    },
+    {
+      "part_number": "CBP-P115",
+      "revision": "A-study",
+      "description": "Adhesive build surface film",
+      "quantity": 1,
+      "unit_estimate_USD": 6,
+      "line_USD": 6,
+      "unit_installed_mass_g": 5,
+      "evidence": "Allowance; no magnetic sheet"
+    },
+    {
+      "part_number": "CBP-P116",
+      "revision": "A-study",
+      "description": "Short T8 lead screw, nut and coupler",
+      "quantity": 1,
+      "unit_estimate_USD": 8,
+      "line_USD": 8,
+      "unit_installed_mass_g": 100,
+      "evidence": "Allowance; hand cut; exact lead and usable stroke unfrozen"
+    },
+    {
+      "part_number": "CBP-P117",
+      "revision": "A-study",
+      "description": "Short aluminum frame profiles, base and gusset material",
+      "quantity": 1,
+      "unit_estimate_USD": 32,
+      "line_USD": 32,
+      "unit_installed_mass_g": 700,
+      "evidence": "Allowance; envelope study only, stock/cutting waste included in cost"
+    },
+    {
+      "part_number": "CBP-P118",
+      "revision": "A-study",
+      "description": "M2/M3/M5 fasteners, washers, inserts, feet",
+      "quantity": 1,
+      "unit_estimate_USD": 18,
+      "line_USD": 18,
+      "unit_installed_mass_g": 100,
+      "evidence": "Allowance; final fastener schedule unavailable before CAD"
+    },
+    {
+      "part_number": "CBP-P119",
+      "revision": "A-study",
+      "description": "Printed-part filament and fabrication waste",
+      "quantity": 1,
+      "unit_estimate_USD": 12,
+      "line_USD": 12,
+      "unit_installed_mass_g": 150,
+      "evidence": "Allowance; custom bracket, duct, tensioner and enclosure material; installed mass excludes waste"
+    },
+    {
+      "part_number": "CBP-P120",
+      "revision": "A-study",
+      "description": "Compatible 0.5mm brass nozzle",
+      "quantity": 1,
+      "unit_estimate_USD": 10,
+      "line_USD": 10,
+      "unit_installed_mass_g": 0,
+      "evidence": "Allowance; replaces nozzle included in hotend mass; exact thread must be frozen"
+    },
+    {
+      "part_number": "CBP-P121",
+      "revision": "A-study",
+      "description": "Heat sink fan and electronics fan",
+      "quantity": 1,
+      "unit_estimate_USD": 7,
+      "line_USD": 7,
+      "unit_installed_mass_g": 35,
+      "evidence": "Allowance; 24V 2510 and 4010 search terms"
+    },
+    {
+      "part_number": "CBP-P122",
+      "revision": "A-study",
+      "description": "AC cord, fused switch, ground leads, DC wire/connectors, strain relief",
+      "quantity": 1,
+      "unit_estimate_USD": 24,
+      "line_USD": 24,
+      "unit_installed_mass_g": 180,
+      "evidence": "Allowance; final protection/wire schedule not released"
+    },
+    {
+      "part_number": "CBP-P123",
+      "revision": "A-study",
+      "description": "Three mechanical endstops and accelerometer module",
+      "quantity": 1,
+      "unit_estimate_USD": 8,
+      "line_USD": 8,
+      "unit_installed_mass_g": 15,
+      "evidence": "Allowance; search microswitch endstop and ADXL345"
+    }
+  ],
+  "subtotal_USD": 568.46,
+  "shipping_allowance_USD": 25,
+  "tax_assumption_percent": 8.5,
+  "tax_USD": 50.44,
+  "delivered_estimate_USD": 643.9,
+  "installed_mass_estimate_g": 4081.16875,
+  "uncertainty": "Tax location unknown; allowance rows are not live quotes. No checkout verified."
+}

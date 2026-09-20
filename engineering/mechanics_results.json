@@ -1,0 +1,474 @@
+{
+  "status": "pre-CAD estimates; no measured complete toolhead",
+  "coordinate_system": "X travel; Y forward of carriage; Z up; belt force through origin",
+  "items": [
+    {
+      "name": "rail carriage",
+      "mass_g": 26,
+      "centroid_mm": [
+        0,
+        0,
+        0
+      ],
+      "inertia_box_mm": [
+        17,
+        23,
+        8
+      ]
+    },
+    {
+      "name": "aluminum saddle",
+      "mass_g": 8,
+      "centroid_mm": [
+        0,
+        2,
+        0
+      ],
+      "inertia_box_mm": [
+        30,
+        3,
+        35
+      ]
+    },
+    {
+      "name": "heat sink",
+      "mass_g": 15,
+      "centroid_mm": [
+        0,
+        13,
+        -4
+      ],
+      "inertia_box_mm": [
+        22,
+        16,
+        20
+      ]
+    },
+    {
+      "name": "heat break",
+      "mass_g": 2,
+      "centroid_mm": [
+        0,
+        15,
+        -15
+      ],
+      "inertia_box_mm": [
+        7,
+        7,
+        10
+      ]
+    },
+    {
+      "name": "heater block and heater",
+      "mass_g": 21,
+      "centroid_mm": [
+        0,
+        15,
+        -24
+      ],
+      "inertia_box_mm": [
+        18,
+        18,
+        15
+      ]
+    },
+    {
+      "name": "nozzle",
+      "mass_g": 5,
+      "centroid_mm": [
+        0,
+        15,
+        -34
+      ],
+      "inertia_box_mm": [
+        7,
+        7,
+        9
+      ]
+    },
+    {
+      "name": "silicone sock",
+      "mass_g": 1.5,
+      "centroid_mm": [
+        0,
+        15,
+        -24
+      ],
+      "inertia_box_mm": [
+        20,
+        20,
+        16
+      ]
+    },
+    {
+      "name": "heat sink fan",
+      "mass_g": 7,
+      "centroid_mm": [
+        0,
+        -12,
+        -4
+      ],
+      "inertia_box_mm": [
+        25,
+        10,
+        25
+      ]
+    },
+    {
+      "name": "CPAP duct",
+      "mass_g": 10,
+      "centroid_mm": [
+        0,
+        4,
+        -20
+      ],
+      "inertia_box_mm": [
+        40,
+        26,
+        28
+      ]
+    },
+    {
+      "name": "fasteners and inserts",
+      "mass_g": 9,
+      "centroid_mm": [
+        0,
+        3,
+        -3
+      ],
+      "inertia_box_mm": [
+        28,
+        22,
+        28
+      ]
+    },
+    {
+      "name": "supported hose segment",
+      "mass_g": 18,
+      "centroid_mm": [
+        0,
+        0,
+        30
+      ],
+      "inertia_box_mm": [
+        18,
+        18,
+        60
+      ]
+    },
+    {
+      "name": "moving wires",
+      "mass_g": 6,
+      "centroid_mm": [
+        0,
+        -4,
+        15
+      ],
+      "inertia_box_mm": [
+        8,
+        8,
+        40
+      ]
+    },
+    {
+      "name": "PTFE segment",
+      "mass_g": 2,
+      "centroid_mm": [
+        0,
+        12,
+        15
+      ],
+      "inertia_box_mm": [
+        4,
+        4,
+        30
+      ]
+    },
+    {
+      "name": "PTFE coupling",
+      "mass_g": 2,
+      "centroid_mm": [
+        0,
+        12,
+        8
+      ],
+      "inertia_box_mm": [
+        9,
+        9,
+        9
+      ]
+    },
+    {
+      "name": "contained filament",
+      "mass_g": 0.5,
+      "centroid_mm": [
+        0,
+        14,
+        0
+      ],
+      "inertia_box_mm": [
+        2,
+        2,
+        35
+      ]
+    },
+    {
+      "name": "belt clamps",
+      "mass_g": 3,
+      "centroid_mm": [
+        0,
+        0,
+        0
+      ],
+      "inertia_box_mm": [
+        24,
+        5,
+        8
+      ]
+    }
+  ],
+  "bowden_toolhead": {
+    "mass_g": 136.0,
+    "com_mm": [
+      0.0,
+      4.908088235294118,
+      -2.786764705882353
+    ],
+    "I_com_diagonal_kg_m2": [
+      6.225312561274512e-05,
+      5.610377450980393e-05,
+      1.7031351102941175e-05
+    ],
+    "moment_at_origin_Nm_for_100m_s2_X": [
+      0,
+      -0.0379,
+      -0.06675000000000002
+    ]
+  },
+  "direct_drive_option": {
+    "mass_g": 254.0,
+    "com_mm": [
+      0.0,
+      1.8248031496062993,
+      9.65748031496063
+    ],
+    "I_com_diagonal_kg_m2": [
+      0.00013271652952755907,
+      0.00011731282578740157,
+      4.888037040682415e-05
+    ],
+    "moment_at_origin_Nm_for_100m_s2_X": [
+      0,
+      0.2453,
+      -0.04635
+    ]
+  },
+  "pulley_sensitivity": [
+    {
+      "teeth": 16,
+      "radius_m": 0.005092958178940651,
+      "rotor_reflected_mass_kg": 0.3257740515203323,
+      "rpm_at_1500mm_s": 2812.5,
+      "max_single_axis_speed_in_curve_mm_s": 1120.0
+    },
+    {
+      "teeth": 20,
+      "radius_m": 0.006366197723675814,
+      "rotor_reflected_mass_kg": 0.20849539297301267,
+      "rpm_at_1500mm_s": 2250.0,
+      "max_single_axis_speed_in_curve_mm_s": 1400.0000000000002
+    },
+    {
+      "teeth": 24,
+      "radius_m": 0.007639437268410976,
+      "rotor_reflected_mass_kg": 0.14478846734236991,
+      "rpm_at_1500mm_s": 1875.0,
+      "max_single_axis_speed_in_curve_mm_s": 1680.0
+    },
+    {
+      "teeth": 32,
+      "radius_m": 0.010185916357881302,
+      "rotor_reflected_mass_kg": 0.08144351288008307,
+      "rpm_at_1500mm_s": 1406.25,
+      "max_single_axis_speed_in_curve_mm_s": 2240.0
+    }
+  ],
+  "motor_force_table": [
+    {
+      "rpm": 60.0,
+      "v_mm_s": 40.0,
+      "measured_running_torque_Nm": 0.401,
+      "force_after_30pct_reserve_N": 44.092252893132745,
+      "cartesian_X_accel_mm_s2_with_2N_drag": 118738.50472391662
+    },
+    {
+      "rpm": 180.0,
+      "v_mm_s": 120.0,
+      "measured_running_torque_Nm": 0.42,
+      "force_after_30pct_reserve_N": 46.18141200776995,
+      "cartesian_X_accel_mm_s2_with_2N_drag": 124631.83692526416
+    },
+    {
+      "rpm": 300.0,
+      "v_mm_s": 200.0,
+      "measured_running_torque_Nm": 0.451,
+      "force_after_30pct_reserve_N": 49.59004003691488,
+      "cartesian_X_accel_mm_s2_with_2N_drag": 134247.27367483123
+    },
+    {
+      "rpm": 420.0,
+      "v_mm_s": 280.0,
+      "measured_running_torque_Nm": 0.47100000000000003,
+      "force_after_30pct_reserve_N": 51.78915489442773,
+      "cartesian_X_accel_mm_s2_with_2N_drag": 140450.7812551971
+    },
+    {
+      "rpm": 540.0,
+      "v_mm_s": 360.0,
+      "measured_running_torque_Nm": 0.492,
+      "force_after_30pct_reserve_N": 54.09822549481623,
+      "cartesian_X_accel_mm_s2_with_2N_drag": 146964.46421458124
+    },
+    {
+      "rpm": 660.0,
+      "v_mm_s": 440.0,
+      "measured_running_torque_Nm": 0.47800000000000004,
+      "force_after_30pct_reserve_N": 52.55884509455723,
+      "cartesian_X_accel_mm_s2_with_2N_drag": 142622.0089083251
+    },
+    {
+      "rpm": 780.0,
+      "v_mm_s": 520.0,
+      "measured_running_torque_Nm": 0.43,
+      "force_after_30pct_reserve_N": 47.280969436526384,
+      "cartesian_X_accel_mm_s2_with_2N_drag": 127733.59071544709
+    },
+    {
+      "rpm": 900.0,
+      "v_mm_s": 600.0,
+      "measured_running_torque_Nm": 0.386,
+      "force_after_30pct_reserve_N": 42.4429167499981,
+      "cartesian_X_accel_mm_s2_with_2N_drag": 114085.87403864221
+    },
+    {
+      "rpm": 1020.0,
+      "v_mm_s": 680.0,
+      "measured_running_torque_Nm": 0.34700000000000003,
+      "force_after_30pct_reserve_N": 38.15464277784803,
+      "cartesian_X_accel_mm_s2_with_2N_drag": 101989.0342569288
+    },
+    {
+      "rpm": 1140.0,
+      "v_mm_s": 760.0,
+      "measured_running_torque_Nm": 0.314,
+      "force_after_30pct_reserve_N": 34.52610326295182,
+      "cartesian_X_accel_mm_s2_with_2N_drag": 91753.24674932516
+    },
+    {
+      "rpm": 1260.0,
+      "v_mm_s": 840.0,
+      "measured_running_torque_Nm": 0.28700000000000003,
+      "force_after_30pct_reserve_N": 31.55729820530947,
+      "cartesian_X_accel_mm_s2_with_2N_drag": 83378.51151583127
+    },
+    {
+      "rpm": 1380.0,
+      "v_mm_s": 920.0,
+      "measured_running_torque_Nm": 0.261,
+      "force_after_30pct_reserve_N": 28.698448890542757,
+      "cartesian_X_accel_mm_s2_with_2N_drag": 75313.95166135566
+    },
+    {
+      "rpm": 1500.0,
+      "v_mm_s": 1000.0,
+      "measured_running_torque_Nm": 0.23900000000000002,
+      "force_after_30pct_reserve_N": 26.279422547278614,
+      "cartesian_X_accel_mm_s2_with_2N_drag": 68490.09332295321
+    },
+    {
+      "rpm": 1620.0,
+      "v_mm_s": 1080.0,
+      "measured_running_torque_Nm": 0.224,
+      "force_after_30pct_reserve_N": 24.630086404143974,
+      "cartesian_X_accel_mm_s2_with_2N_drag": 63837.46263767883
+    },
+    {
+      "rpm": 1740.0,
+      "v_mm_s": 1160.0,
+      "measured_running_torque_Nm": 0.20500000000000002,
+      "force_after_30pct_reserve_N": 22.540927289506765,
+      "cartesian_X_accel_mm_s2_with_2N_drag": 57944.13043633129
+    },
+    {
+      "rpm": 1860.0,
+      "v_mm_s": 1240.0,
+      "measured_running_torque_Nm": 0.194,
+      "force_after_30pct_reserve_N": 21.33141411787469,
+      "cartesian_X_accel_mm_s2_with_2N_drag": 54532.201267130054
+    },
+    {
+      "rpm": 1980.0,
+      "v_mm_s": 1320.0,
+      "measured_running_torque_Nm": 0.181,
+      "force_after_30pct_reserve_N": 19.901989460491336,
+      "cartesian_X_accel_mm_s2_with_2N_drag": 50499.92133989226
+    },
+    {
+      "rpm": 2100.0,
+      "v_mm_s": 1400.0000000000002,
+      "measured_running_torque_Nm": 0.168,
+      "force_after_30pct_reserve_N": 18.472564803107982,
+      "cartesian_X_accel_mm_s2_with_2N_drag": 46467.641412654455
+    }
+  ],
+  "bed_estimates": {
+    "al_plate_g": 13.668750000000001,
+    "surface_g": 5,
+    "heater_g": 8,
+    "carrier_g": 12,
+    "carriage_g": 26,
+    "fasteners_g": 7,
+    "moving_wires_g": 4,
+    "clamp_g": 3,
+    "printed_model_g": 11
+  },
+  "bed_total_g": 89.66875,
+  "stiffness_sensitivity": [
+    {
+      "effective_mass_kg": 0.35,
+      "stiffness_N_m": 10000,
+      "natural_frequency_Hz": 26.902095463038055,
+      "deflection_at_20N_mm": 2.0
+    },
+    {
+      "effective_mass_kg": 0.35,
+      "stiffness_N_m": 40000,
+      "natural_frequency_Hz": 53.80419092607611,
+      "deflection_at_20N_mm": 0.5
+    },
+    {
+      "effective_mass_kg": 0.35,
+      "stiffness_N_m": 100000,
+      "natural_frequency_Hz": 85.07189549448236,
+      "deflection_at_20N_mm": 0.2
+    },
+    {
+      "effective_mass_kg": 0.6,
+      "stiffness_N_m": 10000,
+      "natural_frequency_Hz": 20.546814802049997,
+      "deflection_at_20N_mm": 2.0
+    },
+    {
+      "effective_mass_kg": 0.6,
+      "stiffness_N_m": 40000,
+      "natural_frequency_Hz": 41.093629604099995,
+      "deflection_at_20N_mm": 0.5
+    },
+    {
+      "effective_mass_kg": 0.6,
+      "stiffness_N_m": 100000,
+      "natural_frequency_Hz": 64.97473343613969,
+      "deflection_at_20N_mm": 0.2
+    }
+  ]
+}
