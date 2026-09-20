@@ -1,3 +1,16 @@
+# Current checkpoint 003 � supersedes budget and transmission assumptions below
+
+User updated scope: $400 in additional delivered spending; already owns Pi, CPAP fan, hose, SD, cord, 9mm belts and pulleys, and some screws. Prefer 9mm drive. Ask no questions; continue useful digital evidence work. Final usage reserve requested: approximately 1%, replacing the previous 10% reserve. Latest observed at start of this turn: 7% remaining; checkpoint immediately to allow clean ending. No reset credits used.
+
+Read purchasing/OWNED-HARDWARE-REVISION.md first. Existing reference now estimates $505.40 delivered; $391.64 is only a target allocation to source. Existing blower identity/driver, Pi supply, belt pitch/tooth counts and full fastener inventory are unknown. Do not use old purchased-model masses or CPAP curves as measurements of owned parts.
+
+Exact next operation: verify checkpoint 003 delta manifest and its parent checkpoint 002. Source real parts against the $391.64 allocation while continuing the compliant-slicing and planner-validation work below. Recalculate 9mm transmission inertia and geometry once dimensions are available. No detailed CAD until $400 incremental spend AND <=55s nominal with sub-60s margin are supported. Fusion state unchanged: blank, unsaved, no exports.
+
+Checkpoint 003 is a text-only incremental archive to apply over checkpoint 002. Previous remote head: b31e36595334245d34058900442f1a55002c6dcf. Its parent preserves every trial model and binary; Git history and manifest preserve revised documents.
+
+---
+Historical checkpoint 002 follows; its $500 and 10% reserve instructions are superseded above.
+
 # Resume checkpoint 002
 
 Status: engineering feasibility NOT PASSED. Stop before detailed CAD under the accepted plan. The user has requested no questions; continue evidence work within the original requirements if resumed. Do not change the budget, target, rules, or fabricate a final design.

@@ -1,3 +1,5 @@
+**Checkpoint 003 update:** Budget is now **$400 in new delivered spending**, crediting user-owned Pi/CPAP/hose/SD/cord/9mm belts/pulleys and some screws. Same-reference estimate becomes **$505.40**; a **$391.64 sourcing allocation** is not yet quoted or performance-validated. Use **9mm transmission** as the preferred basis. [Current budget and engineering changes](purchasing/OWNED-HARDWARE-REVISION.md). Historical $500/$643.90/6mm references below describe checkpoint 002, not current requirements.
+
 # Codex Benchy Printer
 
 Purpose-built printer investigation: a full-size SpeedBoatRace Benchy in 50�55 seconds, hardware/fabrication/tax/shipping <=$500.

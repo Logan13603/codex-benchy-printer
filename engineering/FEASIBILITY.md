@@ -1,3 +1,5 @@
+**Checkpoint 003 update:** Budget is now **$400 in new delivered spending**, crediting user-owned Pi/CPAP/hose/SD/cord/9mm belts/pulleys and some screws. Same-reference estimate becomes **$505.40**; a **$391.64 sourcing allocation** is not yet quoted or performance-validated. Use **9mm transmission** as the preferred basis. [Current budget and engineering changes](../purchasing/OWNED-HARDWARE-REVISION.md). Historical $500/$643.90/6mm references below describe checkpoint 002, not current requirements.
+
 # Feasibility checkpoint 002 — 2026-09-20
 
 **Gate NOT PASSED. Stop before detailed Fusion CAD.** The evidence gathered does not support a reliable 50–55-second full-size compliant Benchy for $500 delivered. This is an evidence-limited engineering result, not proof that every possible custom printer is incapable of it. No finished printer, manufacturing files or validated firmware are being claimed.

@@ -4,7 +4,7 @@
   "items": [
     {
       "part_number": "CBP-P101",
-      "revision": "A-study",
+      "revision": "B-study",
       "description": "LDO-42STH48-2504AC XY motors",
       "quantity": 2,
       "unit_estimate_USD": 17.99,
@@ -14,7 +14,7 @@
     },
     {
       "part_number": "CBP-P102",
-      "revision": "A-study",
+      "revision": "B-study",
       "description": "LDO-42STH25-1404MAC E/Z motors",
       "quantity": 2,
       "unit_estimate_USD": 16.99,
@@ -24,7 +24,7 @@
     },
     {
       "part_number": "CBP-P103",
-      "revision": "A-study",
+      "revision": "B-study",
       "description": "Phaetus Rapido 2 UHF Black",
       "quantity": 1,
       "unit_estimate_USD": 99,
@@ -34,27 +34,31 @@
     },
     {
       "part_number": "CBP-P104",
-      "revision": "A-study",
-      "description": "BIQU Universal Turbo Kit SKU1060000677",
+      "revision": "B-study",
+      "description": "User-owned CPAP blower/system",
       "quantity": 1,
-      "unit_estimate_USD": 69.99,
-      "line_USD": 69.99,
+      "unit_estimate_USD": 0,
+      "line_USD": 0,
       "unit_installed_mass_g": 185,
-      "evidence": "Sourced variant 41311385157730; installed kit mass estimate"
+      "evidence": "Existing CPAP blower; zero new purchase cost. Model, voltage, driver and filter not identified; earlier BIQU curve is only a reference.",
+      "previous_line_USD": 69.99,
+      "mass_status": "Earlier reference mass retained only for sensitivity; actual owned item not identified"
     },
     {
       "part_number": "CBP-P105",
-      "revision": "A-study",
-      "description": "BIQU fan pipe SKU3020030069",
+      "revision": "B-study",
+      "description": "User-owned fan pipe",
       "quantity": 1,
-      "unit_estimate_USD": 14.66,
-      "line_USD": 14.66,
+      "unit_estimate_USD": 0,
+      "line_USD": 0,
       "unit_installed_mass_g": 100,
-      "evidence": "Sourced variant 41311385190498; trim length and installed mass estimate"
+      "evidence": "Existing fan pipe; diameter, length and installed mass not verified.",
+      "previous_line_USD": 14.66,
+      "mass_status": "Earlier reference mass retained only for sensitivity; actual owned item not identified"
     },
     {
       "part_number": "CBP-P106",
-      "revision": "A-study",
+      "revision": "B-study",
       "description": "BTT SKR Pico V1.0 SKU1060000513",
       "quantity": 1,
       "unit_estimate_USD": 39.85,
@@ -64,27 +68,31 @@
     },
     {
       "part_number": "CBP-P107",
-      "revision": "A-study",
-      "description": "Raspberry Pi Zero 2 W",
+      "revision": "B-study",
+      "description": "User-owned Raspberry Pi",
       "quantity": 1,
-      "unit_estimate_USD": 15,
-      "line_USD": 15,
+      "unit_estimate_USD": 0,
+      "line_USD": 0,
       "unit_installed_mass_g": 11,
-      "evidence": "Manufacturer advertised price; US reseller stock/cart pending"
+      "evidence": "Existing Raspberry Pi; model, supply and installed mass unverified.",
+      "previous_line_USD": 15,
+      "mass_status": "Earlier reference mass retained only for sensitivity; actual owned item not identified"
     },
     {
       "part_number": "CBP-P108",
-      "revision": "A-study",
+      "revision": "B-study",
       "description": "Host microSD, USB data cable, 24V-to-5V regulator",
       "quantity": 1,
-      "unit_estimate_USD": 14,
-      "line_USD": 14,
+      "unit_estimate_USD": 6,
+      "line_USD": 6,
       "unit_installed_mass_g": 30,
-      "evidence": "Allowance; search 32GB high endurance microSD, USB OTG, regulated 5V 3A buck"
+      "evidence": "Existing SD card and cord credited $8 of earlier $14 bundle. Retain $6 power/connection allowance until supply/data-cable compatibility is known.",
+      "previous_line_USD": 14,
+      "mass_status": "Earlier reference mass retained only for sensitivity; actual owned item not identified"
     },
     {
       "part_number": "CBP-P109",
-      "revision": "A-study",
+      "revision": "B-study",
       "description": "Mean Well LRS-350-24 PSU candidate",
       "quantity": 1,
       "unit_estimate_USD": 35,
@@ -94,7 +102,7 @@
     },
     {
       "part_number": "CBP-P110",
-      "revision": "A-study",
+      "revision": "B-study",
       "description": "MGN7H 150mm rail with carriage",
       "quantity": 3,
       "unit_estimate_USD": 12,
@@ -104,17 +112,19 @@
     },
     {
       "part_number": "CBP-P111",
-      "revision": "A-study",
-      "description": "2GT 6mm belts, two 20T 5mm-bore pulleys, idlers",
+      "revision": "B-study",
+      "description": "User-owned 9mm belts/pulleys; remaining idlers/spacers allowance",
       "quantity": 1,
-      "unit_estimate_USD": 18,
-      "line_USD": 18,
+      "unit_estimate_USD": 6,
+      "line_USD": 6,
       "unit_installed_mass_g": 50,
-      "evidence": "Allowance; 1m belt; final lengths and tooth engagement not frozen"
+      "evidence": "Existing 9mm belts and pulleys credited $12 of earlier $18 bundle. Retain $6 for idlers/spacers; pitch, length, tooth counts, bore and idler inventory unknown.",
+      "previous_line_USD": 18,
+      "mass_status": "Earlier reference mass retained only for sensitivity; actual owned item not identified"
     },
     {
       "part_number": "CBP-P112",
-      "revision": "A-study",
+      "revision": "B-study",
       "description": "Remote dual-drive geared extruder mechanism",
       "quantity": 1,
       "unit_estimate_USD": 14,
@@ -124,7 +134,7 @@
     },
     {
       "part_number": "CBP-P113",
-      "revision": "A-study",
+      "revision": "B-study",
       "description": "Small 24V bed heater and thermistor",
       "quantity": 1,
       "unit_estimate_USD": 12,
@@ -134,7 +144,7 @@
     },
     {
       "part_number": "CBP-P114",
-      "revision": "A-study",
+      "revision": "B-study",
       "description": "75x45x1.5mm aluminum bed material",
       "quantity": 1,
       "unit_estimate_USD": 6,
@@ -144,7 +154,7 @@
     },
     {
       "part_number": "CBP-P115",
-      "revision": "A-study",
+      "revision": "B-study",
       "description": "Adhesive build surface film",
       "quantity": 1,
       "unit_estimate_USD": 6,
@@ -154,7 +164,7 @@
     },
     {
       "part_number": "CBP-P116",
-      "revision": "A-study",
+      "revision": "B-study",
       "description": "Short T8 lead screw, nut and coupler",
       "quantity": 1,
       "unit_estimate_USD": 8,
@@ -164,7 +174,7 @@
     },
     {
       "part_number": "CBP-P117",
-      "revision": "A-study",
+      "revision": "B-study",
       "description": "Short aluminum frame profiles, base and gusset material",
       "quantity": 1,
       "unit_estimate_USD": 32,
@@ -174,17 +184,19 @@
     },
     {
       "part_number": "CBP-P118",
-      "revision": "A-study",
+      "revision": "B-study",
       "description": "M2/M3/M5 fasteners, washers, inserts, feet",
       "quantity": 1,
-      "unit_estimate_USD": 18,
-      "line_USD": 18,
+      "unit_estimate_USD": 10,
+      "line_USD": 10,
       "unit_installed_mass_g": 100,
-      "evidence": "Allowance; final fastener schedule unavailable before CAD"
+      "evidence": "User has some screws: provisional $8 inventory credit; retain $10 for missing lengths, washers, inserts and feet. No complete inventory assumed.",
+      "previous_line_USD": 18,
+      "mass_status": "Earlier reference mass retained only for sensitivity; actual owned item not identified"
     },
     {
       "part_number": "CBP-P119",
-      "revision": "A-study",
+      "revision": "B-study",
       "description": "Printed-part filament and fabrication waste",
       "quantity": 1,
       "unit_estimate_USD": 12,
@@ -194,7 +206,7 @@
     },
     {
       "part_number": "CBP-P120",
-      "revision": "A-study",
+      "revision": "B-study",
       "description": "Compatible 0.5mm brass nozzle",
       "quantity": 1,
       "unit_estimate_USD": 10,
@@ -204,7 +216,7 @@
     },
     {
       "part_number": "CBP-P121",
-      "revision": "A-study",
+      "revision": "B-study",
       "description": "Heat sink fan and electronics fan",
       "quantity": 1,
       "unit_estimate_USD": 7,
@@ -214,7 +226,7 @@
     },
     {
       "part_number": "CBP-P122",
-      "revision": "A-study",
+      "revision": "B-study",
       "description": "AC cord, fused switch, ground leads, DC wire/connectors, strain relief",
       "quantity": 1,
       "unit_estimate_USD": 24,
@@ -224,7 +236,7 @@
     },
     {
       "part_number": "CBP-P123",
-      "revision": "A-study",
+      "revision": "B-study",
       "description": "Three mechanical endstops and accelerometer module",
       "quantity": 1,
       "unit_estimate_USD": 8,
@@ -233,11 +245,14 @@
       "evidence": "Allowance; search microswitch endstop and ADXL345"
     }
   ],
-  "subtotal_USD": 568.46,
+  "subtotal_USD": 440.81,
   "shipping_allowance_USD": 25,
   "tax_assumption_percent": 8.5,
-  "tax_USD": 50.44,
-  "delivered_estimate_USD": 643.9,
+  "tax_USD": 39.59,
+  "delivered_estimate_USD": 505.4,
   "installed_mass_estimate_g": 4081.16875,
-  "uncertainty": "Tax location unknown; allowance rows are not live quotes. No checkout verified."
+  "uncertainty": "Tax location unknown; allowance rows are not live quotes. No checkout verified.",
+  "budget_new_spend_USD": 400,
+  "budget_basis": "Incremental delivered spend; explicitly owned hardware costs zero. Owned hardware still contributes mass and performance limits.",
+  "installed_mass_status": "4.08kg is superseded reference estimate, not a recalculated mass for unknown owned parts or 9mm transmission."
 }

@@ -1,0 +1,39 @@
+{
+  "checkpoint": "003-delta",
+  "base_checkpoint": "002",
+  "base_commit": "b31e36595334245d34058900442f1a55002c6dcf",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "bc65a3ddcbefe7ecd612fc2f71526e05f76ef30df3e422a79566b6330470a397"
+    },
+    {
+      "path": "RESUME.md",
+      "sha256": "c885e0cec735bfbd08b3b437e2edc5011643797ce80aa61231fc4130a485c222"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "192f4cf4d1af75eb3995cc31cda3d0103676f54c012588befd13920d0158d360"
+    },
+    {
+      "path": "engineering/FEASIBILITY.md",
+      "sha256": "ef4c85da9a204a967f7415058660d49280c11247572f79c91971997cf35b6bfe"
+    },
+    {
+      "path": "engineering/ARCHITECTURES.md",
+      "sha256": "d6e4922d939169e3c2e2f463a9201c5ef9816e4b38b840bc8f2ab532966b6723"
+    },
+    {
+      "path": "purchasing/CANDIDATE-BOM.md",
+      "sha256": "8672c6de09aa07e9d07b7295eb52991f51e5c3dcb71ee8aaf4b66ce74c5f069c"
+    },
+    {
+      "path": "purchasing/candidate_bom.json",
+      "sha256": "8aec1818b7082da08ec01d577eae7ff848b5b1fa02e897d01e57309337777ee7"
+    },
+    {
+      "path": "purchasing/OWNED-HARDWARE-REVISION.md",
+      "sha256": "b312bc68b1f57f5302f6f970d3b14734316ee3ea636acc903be41c022b84dadd"
+    }
+  ]
+}

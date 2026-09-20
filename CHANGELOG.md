@@ -1,3 +1,7 @@
+# v0.3-study � owned-hardware revision
+
+Adopt $400 incremental delivered budget, credit explicitly owned hardware and some screws, prefer 9mm transmission, and preserve a 1% usage reserve per updated user instruction. Repriced reference $505.40; unquoted target allocation $391.64. Gate remains unpassed.
+
 # Changes
 
 ## v0.2-study � checkpoint 002, 2026-09-20

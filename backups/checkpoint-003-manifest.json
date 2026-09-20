@@ -1,0 +1,10 @@
+{
+  "checkpoint": "003-delta",
+  "base_commit": "b31e36595334245d34058900442f1a55002c6dcf",
+  "archive": "backups/checkpoint-003-delta.zip",
+  "sha256": "f28edb56ce282d88dfa2959c560c20fbd79d05d445d6c6c2740dbcde666a2998",
+  "git_blob_sha": "b95264b146f2d2f9b2182e565de81a68cfb0c4a7",
+  "bytes": 20150,
+  "verification": "Local ZIP CRC passed; remote content identifier matches locally calculated Git blob. Full remote archive redownload not verified.",
+  "fusion_version": null
+}
