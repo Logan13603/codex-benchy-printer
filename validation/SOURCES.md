@@ -1,0 +1,14 @@
+# Sources and evidence status — 2026-09-20
+
+- Original model: https://www.3dbenchy.com/download/ links https://github.com/CreativeTools/3DBenchy . Commit and SHA256 in slicing/provenance.json. Preserve attribution. No new license is granted for third-party assets.
+- Model dimensions: https://www.3dbenchy.com/wp-content/uploads/2015/04/3DBenchy_Broschure_3DBenchy.com_.pdf . Nominal 60 x 31 x 48 mm; downloaded mesh bounds independently verified.
+- Primary event rules: https://ee30.euskalencounter.org/es/hardware/speedboatrace-imprime-el-benchy-mas-rapido.html . Event organizer specifies nozzle <=0.5 mm, layers <=0.25 mm, 2 walls, 3 top/bottom layers, 10% infill, permitted unfilled materials and stepper motors. This is the 2022 event, not verified current Annex adjudication.
+- Original Annex challenge video linked there: https://www.youtube.com/watch?v=JdVZZ4i2dS8 . Fetch unsuccessful. Original timing convention and latest rule revisions remain unverified. Apply an additional <=0.5-mm line-width cap conservatively. Do not claim official competition certification yet.
+- OrcaSlicer source: https://github.com/OrcaSlicer/OrcaSlicer/tree/v2.3.2 . Installed binary reports 2.3.2. CLI requires compatible_printers matching machine system name; flattened local profiles use from=system solely for CLI compatibility, not because they are vendor-certified machine profiles.
+- Motor candidate manufacturer drawing: https://cdn.shopify.com/s/files/1/0239/9287/files/LDO-42STH48-2504AC_RevA.pdf?v=1643851583 . Dimensions/rotor inertia still require inspection.
+- Manufacturer torque test: https://cdn.shopify.com/s/files/1/0239/9287/files/LDO-42STH48-2504AC_Torque_Curve.pdf?v=1645112191 . 24 V, 2.5 A, full-step. Published running torque: 239 mNm at 5000 full-step pulses/s (1500 RPM), 168 mNm at 7000 pulses/s (2100 RPM). Do not transfer to a lower-current driver without derating/evidence.
+- CPAP primary documentation: https://global.bttwiki.com/Universal%20Turbo%20Kit.html and https://github.com/bigtreetech/Universal-Turbo-Kit . WS7040-24-V200 with external WS2403DY01V04 driver and adapter. Maximum flow and maximum static pressure are different endpoints; do not use both simultaneously. Actual hose/duct operating point uncalculated.
+- Hotend candidate: https://www.phaetus.com/products/rapido2 . Displayed $89 applies to selected HF Blue, not a verified UHF price. Do not use it as a confirmed UHF BOM price. Relevant small-nozzle high-flow performance is still unverified.
+- Klipper: https://www.klipper3d.org/Resonance_Compensation.html and https://www.klipper3d.org/Pressure_Advance.html . Measured tuning required; no frequencies or pressure-advance values have been established.
+
+No architecture, complete delivered BOM, thermal performance, or hardware configuration has been validated at this checkpoint.

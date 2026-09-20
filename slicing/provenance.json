@@ -1,0 +1,28 @@
+{
+  "model": "Original CreativeTools single-part 3DBenchy",
+  "source": "https://github.com/CreativeTools/3DBenchy",
+  "commit": "b542785f9642ab39db8a778a0ccc934b3ebd829a",
+  "sha256": "6ab57f1c3f8e86bc3cbd302c6fa6270acf06277c6335454e922419c25d42e97e",
+  "triangles": 225706,
+  "bounds_mm": [
+    [
+      -29.176000595092773,
+      -15.501999855041504,
+      0.0
+    ],
+    [
+      30.825000762939453,
+      15.501999855041504,
+      48.0
+    ]
+  ],
+  "dimensions_mm": [
+    60.00100135803223,
+    31.003999710083008,
+    48.0
+  ],
+  "scale": 1,
+  "slicer": "OrcaSlicer 2.3.2",
+  "profile_origin": "Installed Orca Voron generic defaults flattened, then overridden; no printer architecture is copied or selected.",
+  "warning": "Analytical toolpath only. Deliberately unattainable speed and flow caps expose motion/flow requirements. Do not print."
+}

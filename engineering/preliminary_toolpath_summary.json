@@ -1,0 +1,19 @@
+{
+  "status": "preliminary toolpath arithmetic; settings audit and dynamic simulation pending",
+  "gcode_sha256": "96ce8d35e21de31a426ab5a85bc8ae10788dcbcaf198fa3f2e0e9fc9065e0436",
+  "deposition_filament_mm": 3640.7652900001262,
+  "deposition_volume_mm3": 8757.066764639787,
+  "PLA_mass_g_at_1_24": 10.858762788153335,
+  "extruding_path_mm": 77633.85169318061,
+  "nonextruding_path_mm": 15265.31216236742,
+  "extruding_segments": 49647,
+  "minimum_mean_flow_for_55s_mm3_s": 159.2193957207234,
+  "minimum_mean_flow_for_60s_mm3_s": 145.95111274399645,
+  "ideal_flow_only_time_at_75mm3_s": 116.76089019519716,
+  "limitations": [
+    "Excludes stationary priming/unretraction from deposition volume.",
+    "Flow-only time assumes continuous deposition, infinite acceleration and zero travel time.",
+    "75 mm3/s is a hypothetical cap, not validated capability with a 0.5-mm nozzle.",
+    "Not proof of global impossibility or a final feasibility decision."
+  ]
+}
