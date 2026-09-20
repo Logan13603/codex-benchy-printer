@@ -1,0 +1,14 @@
+{
+  "checkpoint": "002",
+  "date": "2026-09-20",
+  "archive": "backups/checkpoint-002.zip",
+  "bytes": 21509241,
+  "sha256": "f3c0a5a6026987f287460418e533deb415d309eca5ea7b020cf2d235faea78d7",
+  "git_blob_sha": "72d62dda47156ba17316bf75dcdfea99d89daf5b",
+  "local_verification": "ZIP CRC, per-file SHA256 and complete archive SHA256 passed",
+  "remote_verification": "GitHub returned the same Git blob SHA1 independently calculated over the local archive bytes. Remote manifest fetched after commit. Full remote archive download/extraction remains unverified.",
+  "fusion_version": null,
+  "fusion_state": "Blank unsaved design; no CAD checkpoint",
+  "source_commit": "ae14654a63fcca73ba1fae2655d80d25ea51594a",
+  "files": 62
+}
