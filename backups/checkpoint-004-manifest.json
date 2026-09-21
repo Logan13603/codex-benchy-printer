@@ -1,0 +1,16 @@
+{
+  "checkpoint": "004",
+  "date": "2026-09-20",
+  "snapshot_type": "complete",
+  "archive": "backups/checkpoint-004.zip",
+  "bytes": 23865469,
+  "sha256": "1b9abcb52930bc2a85b24e1cf67f8939f034180977a2d395d39b2daed617cf57",
+  "git_blob_sha": "b17f59881a4201066b098411f93b7e8822d26cda",
+  "local_verification": "ZIP CRC, all per-file SHA256, archive SHA256, Markdown links, UTF-8 and BOM arithmetic passed",
+  "remote_verification": "Uploaded ZIP Git blob matches locally calculated identifier; source files committed. Manifest readback to be checked after publication. Full remote redownload/extraction not verified.",
+  "fusion_version": null,
+  "fusion_state": "Blank unsaved design; no CAD checkpoint",
+  "source_commit": "8c1e5e89e21b5fc478557e8ce51e8d9c3f33fa84",
+  "files": 97,
+  "previous_checkpoint_commit": "7d6120393d9c92f2b8c1c5d383e40a4243eb6950"
+}
