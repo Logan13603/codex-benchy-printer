@@ -7,7 +7,7 @@
   "sha256": "82eb8d315c3d07ca5b522850e12c8b7d4f1fe7c93e17be33d2f99e92031d7946",
   "git_blob_sha": "c7810cada0e7b3377a3f1a7db41a8dd74231652b",
   "local_verification": "ZIP CRC, all per-file SHA256, archive SHA256, Markdown links, UTF-8 and BOM arithmetic passed",
-  "remote_verification": "Uploaded ZIP and both new binary Git blob identities match local calculations; source tree committed. Manifest readback pending. Full remote ZIP download/restore not verified.",
+  "remote_verification": "Remote ZIP and new binary Git blob identities matched local calculations; manifest readback passed. Full remote ZIP redownload/extraction not verified.",
   "fusion_version": null,
   "fusion_state": "Blank unsaved design; no CAD checkpoint",
   "source_commit": "ad9de81f3f2260b6134e8a79238d9c10b35d879c",
