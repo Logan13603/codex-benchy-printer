@@ -1,8 +1,6 @@
-**Checkpoint 003 update:** Budget is now **$400 in new delivered spending**, crediting user-owned Pi/CPAP/hose/SD/cord/9mm belts/pulleys and some screws. Same-reference estimate becomes **$505.40**; a **$391.64 sourcing allocation** is not yet quoted or performance-validated. Use **9mm transmission** as the preferred basis. [Current budget and engineering changes](../purchasing/OWNED-HARDWARE-REVISION.md). Historical $500/$643.90/6mm references below describe checkpoint 002, not current requirements.
-
 # Architecture comparison — revision A, pre-CAD
 
-No architecture is selected for manufacture. These are screening envelopes and mass estimates; the common nozzle/toolpath bottleneck prevents a supported 55-second selection. All four would use the same unscaled model and frozen rules. A compliant production toolpath has not yet passed the width audit, so the present timing study is shared screening evidence, not an architecture ranking certified by simulation.
+No architecture is selected for manufacture. These are screening envelopes and mass estimates; the common nozzle/toolpath bottleneck prevents a supported 55-second selection. All four would use the same unscaled model and frozen rules. Checkpoint 004 adds same-path torque screening and two Cura slices with no definite width violations; complete feature/physical compliance remains unverified. See TRANSMISSION-SCREEN.md for current results. The envelope table below preserves the original 136 g head study; the preferred 9 mm case adds a 4 g clamp/saddle allowance to reach 140 g.
 
 | Candidate | Screening geometry | Estimated translating mass | Motor / belt implications | Main limitation |
 |---|---|---|---|---|

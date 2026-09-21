@@ -1,0 +1,18 @@
+{
+  "repository": "https://github.com/Klipper3d/klipper",
+  "commit": "ce7002bedf37e938bb483572949f3703ac6476cb",
+  "retrieved": "2026-09-20",
+  "license": "GNU GPLv3; see COPYING",
+  "files": [
+    {
+      "upstream_path": "klippy/toolhead.py",
+      "local_file": "toolhead.py",
+      "sha256": "911d675604003f9cffc1356562de17c85c9bead3d744e53922a0d77d5dee1e3b"
+    },
+    {
+      "upstream_path": "COPYING",
+      "local_file": "COPYING",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    }
+  ]
+}

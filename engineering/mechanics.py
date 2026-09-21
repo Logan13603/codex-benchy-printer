@@ -41,6 +41,12 @@ def run():
     bare=mass_properties(ITEMS)
     direct=mass_properties(ITEMS+[('direct-drive motor',90,(0,-6,24),(36,36,20)),
                                 ('drive gears housing',28,(0,12,24),(26,22,26))])
+    # Additional clamp/saddle mass allowance for 9 mm belts, placed at force origin.
+    # This is an explicit sensitivity allowance, not a measured purchased part.
+    wide_items=ITEMS+[('9mm clamp/saddle extra allowance',4,(0,0,0),(30,9,8))]
+    wide=mass_properties(wide_items)
+    wide_direct=mass_properties(wide_items+[('direct-drive motor',90,(0,-6,24),(36,36,20)),
+                                          ('drive gears housing',28,(0,12,24),(26,22,26))])
     J=84.5e-7 # g cm2 -> kg m2: 1e-7
     # Manufacturer curve, 24V, 2.5A, full step. No extrapolation.
     curve=list(zip([200,600,1000,1400,1800,2200,2600,3000,3400,3800,4200,4600,5000,5400,5800,6200,6600,7000],
@@ -69,6 +75,8 @@ def run():
             'coordinate_system':'X travel; Y forward of carriage; Z up; belt force through origin',
             'items':[dict(name=n,mass_g=m,centroid_mm=p,inertia_box_mm=b) for n,m,p,b in ITEMS],
             'bowden_toolhead':bare,'direct_drive_option':direct,'pulley_sensitivity':pulley,
+            '9mm_bowden_toolhead':wide,'9mm_direct_drive_option':wide_direct,
+            '9mm_extra_item':dict(name=wide_items[-1][0],mass_g=4,centroid_mm=[0,0,0],inertia_box_mm=[30,9,8]),
             'motor_force_table':table,'bed_estimates':bed,'bed_total_g':sum(bed.values()),
             'stiffness_sensitivity':f}
     (ROOT/'engineering/mechanics_results.json').write_text(json.dumps(result,indent=2)+'\n')

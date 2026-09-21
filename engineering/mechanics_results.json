@@ -293,6 +293,56 @@
       "max_single_axis_speed_in_curve_mm_s": 2240.0
     }
   ],
+  "9mm_bowden_toolhead": {
+    "mass_g": 140.0,
+    "com_mm": [
+      0.0,
+      4.767857142857143,
+      -2.7071428571428573
+    ],
+    "I_com_diagonal_kg_m2": [
+      6.242523988095238e-05,
+      5.645528452380953e-05,
+      1.745195535714286e-05
+    ],
+    "moment_at_origin_Nm_for_100m_s2_X": [
+      0,
+      -0.0379,
+      -0.06675000000000002
+    ]
+  },
+  "9mm_direct_drive_option": {
+    "mass_g": 258.0,
+    "com_mm": [
+      0.0,
+      1.7965116279069768,
+      9.507751937984496
+    ],
+    "I_com_diagonal_kg_m2": [
+      0.0001331452596899225,
+      0.00011800144282945737,
+      4.922048352713179e-05
+    ],
+    "moment_at_origin_Nm_for_100m_s2_X": [
+      0,
+      0.2453,
+      -0.04635
+    ]
+  },
+  "9mm_extra_item": {
+    "name": "9mm clamp/saddle extra allowance",
+    "mass_g": 4,
+    "centroid_mm": [
+      0,
+      0,
+      0
+    ],
+    "inertia_box_mm": [
+      30,
+      9,
+      8
+    ]
+  },
   "motor_force_table": [
     {
       "rpm": 60.0,

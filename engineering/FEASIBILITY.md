@@ -1,55 +1,74 @@
-**Checkpoint 003 update:** Budget is now **$400 in new delivered spending**, crediting user-owned Pi/CPAP/hose/SD/cord/9mm belts/pulleys and some screws. Same-reference estimate becomes **$505.40**; a **$391.64 sourcing allocation** is not yet quoted or performance-validated. Use **9mm transmission** as the preferred basis. [Current budget and engineering changes](../purchasing/OWNED-HARDWARE-REVISION.md). Historical $500/$643.90/6mm references below describe checkpoint 002, not current requirements.
+# Feasibility report — checkpoint 004
 
-# Feasibility checkpoint 002 — 2026-09-20
+Updated 2026-09-20. **Gate NOT PASSED: stop before detailed Fusion CAD.** The tested designs and paths do not support a reliable 50–55-second full-size Benchy within **$400 of additional delivered spending**. This is a conclusion about the evidence collected, not proof that every possible printer or toolpath is incapable of the target.
 
-**Gate NOT PASSED. Stop before detailed Fusion CAD.** The evidence gathered does not support a reliable 50–55-second full-size compliant Benchy for $500 delivered. This is an evidence-limited engineering result, not proof that every possible custom printer is incapable of it. No finished printer, manufacturing files or validated firmware are being claimed.
+Your existing Pi, CPAP fan, hose, SD card, cord, 9 mm belts/pulleys and some screws receive purchase credits. They still contribute mass and performance limits. Their exact identities and dimensions are not assumed. No questions or purchases are needed to preserve this checkpoint.
 
-## What is established
+## What changed in this checkpoint
 
-The private repository is [Logan13603/codex-benchy-printer](https://github.com/Logan13603/codex-benchy-printer). The original CreativeTools mesh is preserved at scale 1 with a recorded checksum. OrcaSlicer 2.3.2 generated all five trial paths. The [rules checklist](../slicing/RULES.md) now cites the actual Annex announcement. Fusion's `Default Project / Codex Benchy Printer` destination was verified; its inspected design remains blank and unsaved.
+- Tested a second slicer: pinned CuraEngine 4.13.1, chosen for an independent fixed-width comparison. OrcaSlicer 2.3.2 trials remain preserved.
+- Audited extrusion quantities independently and removed optional inter-wall gap filling while retaining thin-outline printing. Two Cura trials have **zero definite width violations** after accounting for G-code rounding. This is narrower than a complete competition-compliance claim.
+- Simplified the path with a 0.25 mm resolution threshold and 0.05 mm maximum-deviation setting. The model remains unchanged. A repeated slice produced identical G-code bytes.
+- Loaded unmodified, commit-pinned Klipper `Move` and `LookAheadQueue` classes. Four checked slices agree with the numerical timing study within one microsecond under shared caps. Finite lookahead and minimum-cruise-ratio checks are recorded separately.
+- Compared four motion architectures on the same simplified Cura path using published running torque and rotor inertia, 16/20/24/32T pulley scenarios, and explicit 9 mm hardware mass allowances.
 
-| Trial | Deposited volume mm³ | Extruding path m | Minimum whole-print mean flow for 55 s, mm³/s |
-|---|---:|---:|---:|
-| Initial 0.50 mm nominal widths | 8757 | 77.63 | 159.2 |
-| 0.40 mm, thin-feature detection | 8305 | 92.59 | 151.0 |
-| 0.45 mm, thin-feature detection | 8574 | 85.97 | 155.9 |
-| 0.50 mm, thin-feature detection | 8752 | 77.57 | 159.1 |
-| Combined infill, no retractions, thinner internal bridges | 8469 | 73.41 | 154.0 |
+## Toolpaths and timing
 
-These are **trial paths, not certified compliant profiles**. Generated width annotations reach 0.736–0.866 mm in the width trials, exceeding the 0.5 mm cap; the combined trial reaches 0.836 mm. The nominal width setting is not an effective maximum for all Orca gap/thin-feature paths. Small-feature and local shell coverage audits remain incomplete. We did not delete gap fill or model features merely to make the audit pass.
+The [frozen rules](../slicing/RULES.md) use the public [Annex announcement](https://www.youtube.com/watch?v=7zkKcFtLAks): original model at full size, nozzle/width no more than 0.5 mm, layers no more than 0.25 mm, two walls, three top/bottom layers, 10% infill, and permitted unfilled filament. Combining pairs of infill layers is allowed. Latest Discord-only amendments and organizer adjudication are not verified.
 
-## Motion and flow
+Project timing runs from first deposition to last, including intervening travel and Z motion; machine starts preheated and homed. Physical success remains three consecutive complete compliant prints under 60 seconds, targeting 50–55 seconds.
 
-Volume comes from positive deposited filament length times pi*1.75²/4; stationary unretractions are excluded. Dividing by 55 s is a necessary average for each particular slice, not a universal minimum for all legal slicing strategies. Peak flow must be higher because some time is spent traveling and changing layers.
+| Trial | Volume mm³ | Extruding / travel distance | Average flow needed for 55 s | Optimistic modeled time |
+|---|---:|---:|---:|---:|
+| Orca combined infill, no retraction | 8,469 | 73.41 / 13.90 m | 154.0 mm³/s | 168.52 s; width audit fails |
+| Cura fixed width, no optional gap fill | 8,924 | 69.01 / 18.42 m | 162.25 mm³/s | 192.04 s |
+| Cura, same settings plus simplification | 8,919 | 68.96 / 18.38 m | 162.17 mm³/s | **181.18 s** |
 
-Even the optimistic combined trial takes **112.9 s at 75 mm³/s**, or **84.7 s at 100 mm³/s**, from extrusion alone with zero travel and infinite acceleration. 75 and 100 are comparison caps, not claims that the chosen hotend achieves them through a 0.5 mm nozzle.
+All times above assume **2,000 mm/s velocity, 100,000 mm/s² acceleration, 100 mm/s square-corner velocity, 200 mm³/s flow**, no minimum-cruise restriction, and no retractions. These are artificial comparison caps, not established hardware capabilities. The simplified trial takes approximately 99.29 s on walls, 31.13 s on skin, 6.02 s on infill and 44.75 s on travel. Dense corners and repeated short motions dominate; raising the advertised maximum speed alone has little effect.
 
-The acceleration/junction model includes XY/Z paths, pure extrusion barriers, forward/backward velocity propagation and triangular/trapezoidal moves. Six analytical checks pass: single triangular and trapezoidal moves, straight-line partition invariance, reversal, a flow bound and corner slowdown. It is **not a Klipper emulator**: finite lookahead, extrusion-ratio junction constraints, shaping, minimum cruise ratio, pressure advance, heater behavior and actual torque-limited acceleration remain outside it. Feed-rate commands are deliberately superseded by the comparison caps, and minimum cruise ratio is effectively zero. See [model source and limitations](path_model.py) and [full results](path_results.json).
+The simplified path needs **118.92 s at a 75 mm³/s flow cap**, or **89.19 s at 100 mm³/s**, from deposited volume alone with zero travel and infinite acceleration. These are bounds for this slice, not universal bounds for every legal slice. At 150 mm³/s, extrusion alone consumes 59.46 s, leaving essentially no margin for travel.
 
-For the combined trial, assuming 200 mm³/s, 2000 mm/s, 100,000 mm/s² and 100 mm/s square-corner velocity gives **168.5 s**. These aggressive limits are not established capabilities. At 1500 mm/s, 50,000 mm/s² and 20 mm/s square-corner velocity, the same trial is **282.2 s**. Changing nozzle path planning, simplifying corners within dimensional tolerance, or using a different slicer could change these times. They are not predictions of an assembled machine and must not be used as a proof of impossibility.
+A deliberately extreme sensitivity case with 3,000 mm/s, 1,000,000 mm/s² and a 400 mm³/s requested cap still gives 71.74 s. The model's separate 150 mm/s filament-feed cap limits actual peak flow to 360.79 mm³/s. This case is not a viable recommendation; it illustrates how far the current path remains from the target. [Full timing results](cura-path-results.json).
 
-[Architecture comparison](ARCHITECTURES.md) covers miniature CoreXY, independent light-bed Cartesian, crossed gantry and delta, including rotor inertia and direct-drive/Bowden balance. None has a complete, validated motion/torque model at the target. No nominal architecture is frozen.
+The planner cross-check validates arithmetic, not mechanics or the complete firmware. Extrusion-ratio junction limits, input-shaper delay, pressure advance, thermal behavior and actual hardware are outside that comparison. The parsers agree on Cura deposited volume; independent re-slicing agrees byte for byte. CLI header time/volume/bounds are placeholders and were not used. [Validation details](../validation/NUMERICAL-VERIFICATION.md).
 
-## Heat and cooling
+![Calculated trial times and the target](figures/timing-comparison.png)
 
-At 160 mm³/s of 1.75 mm PLA, filament feed is 66.5 mm/s and mass flow about 0.198 g/s. Assuming specific heat 1.5–2.0 J/g/K, heating from 25 to 240 C requires **64–85 W of sensible heat alone**. At 200 mm³/s this becomes 80–107 W. Heater losses and phase-transition enthalpy are additional. A heater's rated watts cannot establish nozzle flow or extrusion force. Polymer formulation, pressure and residence time are unmeasured.
+Green band: 50–55-second target. Dashed line: 60 seconds.
 
-The [published original Rapido test](https://trianglelab.net/u_file/2111/01/file/Rapidohot-endMaximumPracticalFlowRateTest-5d73.pdf) used PETG at 265 C and large 0.8/1.2 mm nozzles, reporting roughly 42–64 mm³/s for the tested combinations. It is not a test of Rapido 2 UHF through a 0.5 mm nozzle and cannot be extrapolated to the required flow. A suitable documented small-nozzle result has not been established for the costed candidate.
+## Motion architecture and toolhead
 
-The [BIQU CPAP manual](https://ae01.alicdn.com/kf/Sb960b719f4e440b5ab5695711f920f235.pdf) identifies WS7040-24-V200 with its external driver. Maximum free-air flow and maximum static pressure are distinct operating points. Our assumed 0.6 m, 15 mm-ID hose, four 10x2 mm outlets and uncertain corrugation/turn losses require about **2.5–2.8 kPa at 3 L/s**, or **4.4–5.0 kPa at 4 L/s**. The system would not deliver its advertised free-air flow through those outlets.
+| Architecture | Best tested pulley at 200 mm³/s | Transmission-screen time | Main qualification |
+|---|---:|---:|---|
+| Independent Cartesian, lightweight moving bed | 32T | 228.52 s | Short belts and light bed; adhesion and hot-boat inertia remain concerns |
+| Miniature CoreXY | 24T | 280.83 s | Includes both motors' force and inertia; diagonal motor speed matters |
+| Crossed gantry Cartesian | 16T | 290.35 s | Additional synchronized moving hardware and guide alignment |
+| Delta, center linearization | 32T | 199.38 s | Omits changing Jacobian and velocity-squared forces; not a full-path prediction |
 
-At 4 L/s, bulk air heat capacity is 4.82 W/K, but the local transfer coefficient and bridge temperature are unknown. Proposed routing would suspend the hose above the carriage with a slack loop and symmetrical outlets below an insulated heater. Supported hose mass is included in the analytical toolhead; hose spring force is not measured. [Thermal/duct calculations](thermal_cooling_results.json) expose these assumptions.
+These are screening scenarios, not calibrated machine times or a definitive ranking. Torque minima across each permitted motor-speed range make the acceleration caps conservative, while omitted flex and dynamics make other aspects optimistic. All use the same path and hypothetical flow cap; controller equivalence to the published motor test remains unverified. [Comparison and equations](TRANSMISSION-SCREEN.md).
 
-## Delivered cost
+No architecture is selected for manufacture. The independent Cartesian remains the simplest budget investigation; CoreXY may protect the growing print better. Delta cannot be selected from a favorable center-only model. None currently supports the gate.
 
-The [candidate BOM](../purchasing/CANDIDATE-BOM.md) totals **$643.90 delivered estimate**: $568.46 parts/materials, $25 shipping allowance and $50.44 estimated tax. It includes CPAP/hose, host/storage/power, supply, wiring/protection, motors, mechanics, materials and fasteners. Installed mass is approximately 4.08 kg; moving-head estimate 136 g and bed estimate 89.7 g are included subsets.
+The preferred 9 mm belt case budgets **140 g** for the short-Bowden head, including a provisional 4 g wider-clamp/saddle allowance. Analytical center of mass is **(0, +4.77, −2.71) mm** relative to the carriage/belt origin: X travel, Y forward, Z up. Direct drive adds 118 g, reaching 258 g. Every component mass and position is listed in [mass calculations](mechanics_results.json); these are not CAD or measured masses. Bed estimate is 89.7 g including an 11 g finished boat. Installed machine mass cannot be finalized while owned-part identities remain unknown.
 
-Major motor, hotend, CPAP and board variant prices were retrieved from sellers; commodity rows remain allowances. The Pi Zero 2 W uses the manufacturer's advertised $15, not a verified delivered reseller cart. This is not a complete purchasing release. Even free shipping and no tax would leave this particular reference above $500; it is not a lower bound on all possible hardware combinations.
+For the same belt material and span, increasing width from 6 to 9 mm ideally increases axial stiffness by 50%; it also increases belt mass. It does not change RPM or rotor inertia at the same tooth count. Actual belt stiffness, tension, rail preload, hose drag, frame deflection and resonances remain unmeasured. No input-shaper frequency is presented as validated.
 
-## Concrete routes forward
+## Extrusion, heat and cooling
 
-1. **Retain $500 and treat speed as a measured outcome.** Develop a lower-cost light-bed test machine only after a revised scope authorizes a slower target. The present model suggests a minutes-scale investigation; it does not justify promising a specific slower time.
-2. **Retain 55 s and validate the critical subsystems first.** Obtain a compliant optimized path, then demonstrate its peak/average flow with the exact <=0.5 mm nozzle and filament. Measure extrusion force, temperature and cooling while operating. Price the resulting heater/extruder and a motor/driver combination with appropriate high-RPM torque before committing CAD. A higher budget alone does not guarantee success.
-3. **Continue digital feasibility work within the original scope.** Resolve the width audit, compare a second slicer, validate the timing model against a pinned Klipper planner, and optimize pulley size and all four kinematics on the same compliant path. This may improve or strengthen the gate result. It must not silently become detailed CAD while the gate is unpassed.
+At 160 mm³/s, 1.75 mm filament feeds at 66.5 mm/s. With assumed PLA density 1.24 g/cm³ and specific heat 1.5–2.0 J/g/K, heating from 25 to 240°C requires **64–85 W of sensible heat alone**. At 200 mm³/s it requires 80–107 W. Heat loss and phase-transition enthalpy add demand. Heater watts cannot establish melt quality, nozzle pressure or extrusion-force bandwidth.
 
-No build firmware or wiring pin map is released because the architecture, drivers, heater and purchased interfaces are not frozen. No unmeasured PID, pressure advance or shaper frequencies are presented as calibrated settings. Physical acceptance remains three consecutive complete compliant prints under 60 s, with a 50–55 s target; no physical test has occurred.
+No retrieved test demonstrates the required flow through a compliant small nozzle for the costed hotend. The [original Rapido test](https://trianglelab.net/u_file/2111/01/file/Rapidohot-endMaximumPracticalFlowRateTest-5d73.pdf) uses different hardware and 0.8/1.2 mm nozzles. It does not establish the capability of Rapido 2 UHF at 0.5 mm.
+
+The cheaper [Trianglelab CHCB-OT](https://trianglelab.net/products/trianglelab-chcb-ot-hotend-updated-kit-k1-hotend-for-sprite-extruder-creality-k1-3d-printer-creality-k1-max-cr-m4-printer) shows a $25.18 option and nominal 67 W heater. That listing neither establishes a complete standalone toolhead nor the required small-nozzle flow. It is not substituted into a claimed working $400 design.
+
+For the assumed 0.6 m, 15 mm-ID CPAP hose and four 10×2 mm outlets, estimated losses are **2.5–2.8 kPa at 3 L/s**, or **4.4–5.0 kPa at 4 L/s**. A manufacturer's free-air maximum is not the installed operating flow. Your blower's curve and hose dimensions are unknown; the BIQU reference must not be treated as your blower. Hose support and symmetric ducts remain analytical concepts, with no manufactured duct or validated cooling performance. [Thermal and duct model](thermal_cooling_results.json).
+
+## Budget and decision
+
+The [reference BOM](../purchasing/CANDIDATE-BOM.md) is **$505.40 estimated delivered**: $440.81 new parts/materials, $25 shipping allowance and $39.59 estimated tax. This already credits your owned parts. The separate **$391.64 allocation is a sourcing target**, with only $8.36 margin; it is not a quoted, compatible, performance-qualified bill of materials.
+
+A $25.18 hotend substitution alone would reduce the arithmetic estimate to about $425.30 before accounting for compatibility changes. It does not solve either gate. Shipping, tax and several commodity rows remain allowances. No checkout is represented as verified.
+
+The accepted stop condition applies. Detailed CAD, exact manufacturing drawings, final pin assignments and build firmware are withheld because an unsupported design would falsely imply a buildable record machine. No slower or more expensive substitute is being committed.
+
+Concrete routes forward are: (1) retain the target and obtain a substantially faster compliant path plus exact small-nozzle flow/force evidence before CAD; (2) retain the $400 budget and explicitly change the project to a test printer whose speed is measured; or (3) validate the hotend/extruder and motor/driver subsystems first, then price the proven combination. Increasing the budget alone does not establish success. No physical results have been measured.

@@ -1,5 +1,5 @@
 {
-  "checkpoint": "002",
+  "checkpoint": "004",
   "files": [
     {
       "path": ".gitignore",
@@ -8,48 +8,78 @@
     },
     {
       "path": "assembly/README.md",
-      "bytes": 163,
-      "sha256": "8403dedae58545dbdbaa4a06636ff61d7351a391be64c4ba9410b5e17acf965f"
+      "bytes": 167,
+      "sha256": "59ff8f4e4271cfb62ef6afd99d72c1c0721af9f01739170f1cef83ce401c2d9a"
     },
     {
       "path": "cad/README.md",
-      "bytes": 153,
-      "sha256": "5bc5fbb03b1fd7f377afd217f6d8c1fd0e5bd2b07218acb67a078f133544512a"
+      "bytes": 157,
+      "sha256": "a9c4beef2519d6e08bd2ab2b1ef8936a8d58c1672a3cf849f0c84eadfb062d76"
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 686,
-      "sha256": "c82c94ef96fae0240b867934aa2fbe0d3db1c538827ea2a7398fa5841494856c"
+      "bytes": 1668,
+      "sha256": "22414ab8fb91e60e25af28bfd182dbce85f774cdaf619a061c8ef46b23197794"
     },
     {
       "path": "electronics/README.md",
-      "bytes": 169,
-      "sha256": "84f8be0b3fe2b7b70567030ece4c49dc1f3a0b7615bdca7f0eb4b9722a8a8f88"
+      "bytes": 173,
+      "sha256": "d6a805fa02d47969141ba56ab39502a7d62af5ff4b6b8fa9b54a8b5ffeed37dc"
+    },
+    {
+      "path": "engineering/architecture-path-results.json",
+      "bytes": 26602,
+      "sha256": "44255acbaeae92d3a7dc42abcd53c39c9c1e4aa06a339e01a07c48e640aec522"
+    },
+    {
+      "path": "engineering/architecture_path_screen.py",
+      "bytes": 6687,
+      "sha256": "38f029d45871a5b359b2283dbf6400e4024ac491f74f2ea5e40e877d9a39c9e3"
     },
     {
       "path": "engineering/ARCHITECTURES.md",
-      "bytes": 6220,
-      "sha256": "811b854b4e4d2d2b04128bb5a1738d6e98ed0906e0a1891b978cdc7a15086ac6"
+      "bytes": 6420,
+      "sha256": "d9e00f8871057373fd04856c81f32918d455670e3d3ea925d44189889b984694"
+    },
+    {
+      "path": "engineering/audit_cura.py",
+      "bytes": 3871,
+      "sha256": "bc557f8f6a18736a40202e89ee0bcb943af28ba7a75b70159baa78b75c352ae9"
+    },
+    {
+      "path": "engineering/cura-path-results.json",
+      "bytes": 7611,
+      "sha256": "f2c43dee2f5167fe3bc811a453235f572896351a842ccfd96e22a21fd354d10a"
+    },
+    {
+      "path": "engineering/cura_study.py",
+      "bytes": 967,
+      "sha256": "4775b61601b57869c2f10233ed50fb6283b1de34bdf952b055f8012a81568932"
     },
     {
       "path": "engineering/FEASIBILITY.md",
-      "bytes": 7950,
-      "sha256": "74d4949d8cc311d8d46de68f2fffada8a853e37c480acae0a6567bd31ee14100"
+      "bytes": 10024,
+      "sha256": "368b74b406a84c8d4e85d271040c86fe14051e8d9fa79f246e1b1b864a466446"
+    },
+    {
+      "path": "engineering/figures/timing-comparison.png",
+      "bytes": 45137,
+      "sha256": "c7e4562908564a9d73e3b29aaccbea975a1a0e8805c45bac9f4cf16d1da4ec29"
     },
     {
       "path": "engineering/mechanics.py",
-      "bytes": 4162,
-      "sha256": "3e95d69373eb2114f0d48373ca2675c4fc403d5ce3ad7279d7ea59bb7b051103"
+      "bytes": 4817,
+      "sha256": "f9226244c533e0fa11ecea750bdb9b61ed30a028a97a6b5b77344c2149673037"
     },
     {
       "path": "engineering/mechanics_results.json",
-      "bytes": 10753,
-      "sha256": "7433dd8d14fbc71209e60eb210b7c205f5e3a91332ff749555063333a4da26d5"
+      "bytes": 11719,
+      "sha256": "001e0379fffd83e1376becbc2f937a684dba996a6dd1bfb1c04883e1a328e44e"
     },
     {
       "path": "engineering/path_model.py",
-      "bytes": 6793,
-      "sha256": "b13102dc5ade9788dd100e5767865050efc2fe4402c1ffdec84be27ca9187d96"
+      "bytes": 6995,
+      "sha256": "714b13e847020d2dc4788937ccc94b34f65e2a2134cc56bf4ca4851eee0c50e6"
     },
     {
       "path": "engineering/path_results.json",
@@ -63,8 +93,8 @@
     },
     {
       "path": "engineering/test_path_model.py",
-      "bytes": 1366,
-      "sha256": "89fb88516742c23ea62a33ce2ef5c6bed986a2f5c78a90b6d4301439cbbd7d0c"
+      "bytes": 1554,
+      "sha256": "321b1a1576ddec33c8939f5a2fb3183490ef741dfb4f247e55b2e8c5797b7c41"
     },
     {
       "path": "engineering/thermal_cooling.py",
@@ -82,24 +112,44 @@
       "sha256": "9b420757ef22afe8acd6b10c7cc99a0c0fb9704eb376d94385c21f4cac1196b8"
     },
     {
+      "path": "engineering/TRANSMISSION-SCREEN.md",
+      "bytes": 3566,
+      "sha256": "16a3a032cabda18f1c4e7f11fe91541594b7608864dedb5c25e527e3881be074"
+    },
+    {
+      "path": "engineering/validate_klipper_planner.py",
+      "bytes": 4076,
+      "sha256": "b3c092daf7d32eeda890dc941286124d604af1686511c39e148fdd844531d5aa"
+    },
+    {
       "path": "firmware/README.md",
-      "bytes": 163,
-      "sha256": "badb0cbe32c7774f19eccde27c85312bf15830f4f4fe50322c347ebfe23b60f4"
+      "bytes": 167,
+      "sha256": "c25d74753e4cc0d77fdd1cd058bdef63c04c0cbefec06dae5e2b2163eeb740cb"
     },
     {
       "path": "manufacturing/README.md",
-      "bytes": 173,
-      "sha256": "78e4fe5702835be4f204c548b2ca7127e5810ada9dd9aae1e60bfb74f3fe4b00"
+      "bytes": 177,
+      "sha256": "9983db64f1542ce7f1e5cb0232b08312b299191cb82b52f0bd8b5e92b1b39a02"
+    },
+    {
+      "path": "purchasing/ALTERNATIVES-004.md",
+      "bytes": 1698,
+      "sha256": "26d055790527d2b628b74107479475f63b22cd09a76eba6cccd363f34df41d7a"
     },
     {
       "path": "purchasing/CANDIDATE-BOM.md",
-      "bytes": 5217,
-      "sha256": "4bdb0234ab53262b0800dccbeb544034f47c9adef96f57953749ebd374f04e6f"
+      "bytes": 3940,
+      "sha256": "15c7ae2245f18b9a03701376ab9b55d7eb62173ee57e5b335e86b361dc7b3ae0"
     },
     {
       "path": "purchasing/candidate_bom.json",
-      "bytes": 8234,
-      "sha256": "ef8cb6971239909949fd8d3af9b8258b0b18ec54d5d515403842cc3c7678b60e"
+      "bytes": 9737,
+      "sha256": "8aec1818b7082da08ec01d577eae7ff848b5b1fa02e897d01e57309337777ee7"
+    },
+    {
+      "path": "purchasing/OWNED-HARDWARE-REVISION.md",
+      "bytes": 3627,
+      "sha256": "4bfa4e04b83c8ee805505ec8d4c78e4e629edfe7131305e75f76c1bf8cfb6856"
     },
     {
       "path": "purchasing/source-price-snapshot.json",
@@ -108,13 +158,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 1577,
-      "sha256": "2a7bb365b06a61ad53c511a88faed491edcbd190f596fd1886e380ad3b87a440"
+      "bytes": 2269,
+      "sha256": "1a393c5e99c5458aec6ff79472d2bce65e35e59b73ccd2ffad923595c0511265"
     },
     {
       "path": "RESUME.md",
-      "bytes": 3800,
-      "sha256": "d626d596bfed1135c104e3561fb61068d7c912c80d8014807f5962fe2cf0d324"
+      "bytes": 4219,
+      "sha256": "155d1bcda749267f9d789a41535a0ed33188db3de268f508e74ef1d681731fff"
     },
     {
       "path": "slicing/analysis.3mf",
@@ -125,6 +175,71 @@
       "path": "slicing/analysis.gcode",
       "bytes": 1881464,
       "sha256": "96ce8d35e21de31a426ab5a85bc8ae10788dcbcaf198fa3f2e0e9fc9065e0436"
+    },
+    {
+      "path": "slicing/cura-4.13.1/analysis.gcode",
+      "bytes": 3004557,
+      "sha256": "032cfc7698558cc9e07d57e229b05928982784d74d824fc04a5c14c1662119ea"
+    },
+    {
+      "path": "slicing/cura-4.13.1/provenance.json",
+      "bytes": 766,
+      "sha256": "9e4d4e2a899666af74808f1bca07861c5ddf21308797c9e54e162f27684c3af2"
+    },
+    {
+      "path": "slicing/cura-4.13.1/settings.json",
+      "bytes": 3359,
+      "sha256": "2f9a8889f71e8412202c76fd8de83929e5c120a7b15a793a280d0f44651c4878"
+    },
+    {
+      "path": "slicing/cura-4.13.1/slice-log.txt",
+      "bytes": 24964,
+      "sha256": "d485c033fd31a7ef7845bcc6b444421a859a464f2243091185f59753c8d1dbfe"
+    },
+    {
+      "path": "slicing/cura-4.13.1-no-gap/analysis.gcode",
+      "bytes": 2952666,
+      "sha256": "292b6c01d7263fcfa42b071379ccd54e4c5f4c226a2bf8b8dbea8f4c6faa780e"
+    },
+    {
+      "path": "slicing/cura-4.13.1-no-gap/provenance.json",
+      "bytes": 766,
+      "sha256": "9e4d4e2a899666af74808f1bca07861c5ddf21308797c9e54e162f27684c3af2"
+    },
+    {
+      "path": "slicing/cura-4.13.1-no-gap/settings.json",
+      "bytes": 3356,
+      "sha256": "e25461bc42f8ec0cdcf73d824a36784f12a0e98b1aea1b677483cbf970d66992"
+    },
+    {
+      "path": "slicing/cura-4.13.1-no-gap/slice-log.txt",
+      "bytes": 24955,
+      "sha256": "b3092e3b76c71db1db53532a348a7c0138adf340f3ca50e0baaaecf0d128d63a"
+    },
+    {
+      "path": "slicing/cura-4.13.1-simplified/analysis.gcode",
+      "bytes": 2067031,
+      "sha256": "0c9b7be63971d47e277d7d356e355679426fbcb2a8689739ef0f186c0d45722d"
+    },
+    {
+      "path": "slicing/cura-4.13.1-simplified/provenance.json",
+      "bytes": 966,
+      "sha256": "d64e2723f96090910de8631a69b5a21a1df0484092689cf4f2b5d268a8d38b91"
+    },
+    {
+      "path": "slicing/cura-4.13.1-simplified/settings.json",
+      "bytes": 3356,
+      "sha256": "a3436565b01bb8e8462cf6b01c6b6c8c72b60de85379655001ef9fd4231e04d3"
+    },
+    {
+      "path": "slicing/cura-4.13.1-simplified/slice-log.txt",
+      "bytes": 24955,
+      "sha256": "7cc6ab6499c035180ac582656edf9052bb438c0a49637b6e478d9c01bda2cd8a"
+    },
+    {
+      "path": "slicing/CURA-REPRODUCTION.md",
+      "bytes": 2593,
+      "sha256": "5feff017ad5cef3e1216b9c467f6df793b22415df807fe09e633b089a94f5591"
     },
     {
       "path": "slicing/filament.json",
@@ -177,14 +292,39 @@
       "sha256": "636ed966e7473dffaae352c24d7c42094af12db1f93dc5d9aed12ebdd477c3fe"
     },
     {
+      "path": "slicing/reslice_cura.py",
+      "bytes": 1973,
+      "sha256": "f16974feae41e808b0c11bf724562f2954517e24849176368bc6397060ff4eea"
+    },
+    {
       "path": "slicing/RULES.md",
-      "bytes": 2490,
-      "sha256": "eac2242345394a5434112ffef6c5021cfa04f6f811a0d0a414599cfff7bd7a8f"
+      "bytes": 2602,
+      "sha256": "340e25aa78ec3783ef0807b44e336fd249f620c3812448b4ac958ceddef719ad"
     },
     {
       "path": "slicing/THIRD-PARTY.md",
-      "bytes": 591,
-      "sha256": "596e675c7c4bd6827348223aa5031a7c70c7c033d6b227bae636ad46c3b4c41d"
+      "bytes": 994,
+      "sha256": "55865fd7fab82eeca86c60aeaa9825ab214bfb5da357876ec52360d610a7e7b9"
+    },
+    {
+      "path": "slicing/third_party/cura-4.13.1/fdmextruder.def.json",
+      "bytes": 11345,
+      "sha256": "5caba7d75fac22caeda3042aba7a46f45db6fec224c8534e86ae05ec1346c2be"
+    },
+    {
+      "path": "slicing/third_party/cura-4.13.1/fdmprinter.def.json",
+      "bytes": 457532,
+      "sha256": "8814ad3475ba05088b2d0df73c0c42e3b72e7bd9444dcf53338f43a4acf5d92d"
+    },
+    {
+      "path": "slicing/third_party/cura-4.13.1/LICENSE",
+      "bytes": 7635,
+      "sha256": "f361bfaa2b63576ba829b3fb608f3f8baf5c25df51ebaba8c3554a7f3108e87d"
+    },
+    {
+      "path": "slicing/third_party/cura-4.13.1/PROVENANCE.json",
+      "bytes": 783,
+      "sha256": "66d38beb026bb133c38557241b21a13f0c2e9d96f92bbf9460c13030ca697089"
     },
     {
       "path": "slicing/variants/combined-no-retraction/analysis.3mf",
@@ -292,9 +432,29 @@
       "sha256": "f59ac1e0e5028e9d734bb6cd5d622d9e7df32756606a4df14504e74686fa7a48"
     },
     {
+      "path": "validation/checkpoint-003-manifest.json",
+      "bytes": 1266,
+      "sha256": "f0d53e102e4c515c8f7ef2e1faeaa230ea5917d0caf45cb111111a754eac7a1c"
+    },
+    {
       "path": "validation/CHECKPOINT.md",
-      "bytes": 724,
-      "sha256": "ce30f738f9f72b7571d37116fedfae7098704e4b14bd58d1ed6fa0141a56b97f"
+      "bytes": 1785,
+      "sha256": "318aca54996040e175d7831487e1e732ebd04d86ada2b62879d457f61a5364d4"
+    },
+    {
+      "path": "validation/cura-width-audit.json",
+      "bytes": 26182,
+      "sha256": "7488b8896360ed67671a4a6c4fc2b160a98fde70e739c85bcbe6fc8f3d686e27"
+    },
+    {
+      "path": "validation/klipper-planner-comparison.json",
+      "bytes": 7832,
+      "sha256": "690a398f4e670a6caa96628bee72067b479397a10e5b8a9832be0dd50b8088eb"
+    },
+    {
+      "path": "validation/NUMERICAL-VERIFICATION.md",
+      "bytes": 2584,
+      "sha256": "dbebdb7c83faf6d7a4a113ea037a9294c09c80fa974863b9e5736768a8c2b136"
     },
     {
       "path": "validation/slice-log.txt",
@@ -303,8 +463,23 @@
     },
     {
       "path": "validation/SOURCES.md",
-      "bytes": 4170,
-      "sha256": "1d6046d3bab3bed63baff4a792c7e21a443da015220bc7008a1097b27c5be8e6"
+      "bytes": 3494,
+      "sha256": "beaa3d5983839f319fc211794fc2bb53fb6573f6ef2f018a29f6d908837b4672"
+    },
+    {
+      "path": "validation/third_party/klipper/COPYING",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "validation/third_party/klipper/PROVENANCE.json",
+      "bytes": 555,
+      "sha256": "a25db20c588c42ae57495623406b4b3c8f88670aa042bd274044abec68fbc87f"
+    },
+    {
+      "path": "validation/third_party/klipper/toolhead.py",
+      "bytes": 28868,
+      "sha256": "911d675604003f9cffc1356562de17c85c9bead3d744e53922a0d77d5dee1e3b"
     }
   ]
 }

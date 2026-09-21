@@ -1,25 +1,22 @@
-**Checkpoint 003 update:** Budget is now **$400 in new delivered spending**, crediting user-owned Pi/CPAP/hose/SD/cord/9mm belts/pulleys and some screws. Same-reference estimate becomes **$505.40**; a **$391.64 sourcing allocation** is not yet quoted or performance-validated. Use **9mm transmission** as the preferred basis. [Current budget and engineering changes](purchasing/OWNED-HARDWARE-REVISION.md). Historical $500/$643.90/6mm references below describe checkpoint 002, not current requirements.
-
 # Codex Benchy Printer
 
-Purpose-built printer investigation: a full-size SpeedBoatRace Benchy in 50�55 seconds, hardware/fabrication/tax/shipping <=$500.
+**Checkpoint 004: feasibility gate not passed.** Target: a full-size SpeedBoatRace Benchy in 50–55 seconds, with at most **$400 in new delivered spending**, using the owner's existing Pi, CPAP blower/hose, SD/cord, 9 mm belts/pulleys and some screws.
 
-**Checkpoint 002: feasibility gate not passed. No detailed CAD or manufacturing release.**
+[Open the feasibility report](engineering/FEASIBILITY.md) · [Cost study](purchasing/CANDIDATE-BOM.md) · [Resume state](RESUME.md)
 
-Read the [feasibility report](engineering/FEASIBILITY.md), [architecture comparison](engineering/ARCHITECTURES.md), [candidate BOM](purchasing/CANDIDATE-BOM.md), and [resume instructions](RESUME.md).
+The latest fixed-width trial takes **181.18 seconds** under aggressive, unproven motion/flow assumptions. Its numerical width audit finds no definite violations, but does not certify every local feature or physical print. A pinned Klipper planner independently reproduces the timing arithmetic. The reference parts list remains **$505.40 estimated delivered** after owned-part credits; a cheaper complete system with adequate flow is not established.
 
-The trial slices require roughly 151�159 mm3/s averaged over 55 seconds and have generated-width violations. The current costed reference is $643.90 delivered estimate. These results do not prove universal impossibility; they do not support proceeding to detailed CAD.
+No detailed CAD, final wiring, build firmware or manufacturing release exists. This follows the accepted instruction to stop before detailed CAD if performance and budget cannot be supported together. It does not establish universal impossibility.
 
-| Folder | Contents / release status |
+| Folder | Contents |
 |---|---|
-| engineering | Calculations, assumptions, timing scenarios and gate report |
-| purchasing | Dated candidate prices, cost and mass estimate |
-| slicing | Original mesh, rules, pinned trial profiles, reproducible runners |
-| validation | Tests, evidence, file hashes and backup status |
-| cad | Reserved for native Fusion archives after gate passes |
-| manufacturing | Reserved for drawings and printable parts |
-| electronics | Reserved for hardware-specific wiring |
-| firmware | Reserved for validated hardware configuration |
-| assembly | Reserved for released assembly and commissioning instructions |
+| engineering | Feasibility, four-architecture comparison, mass/COM, torque, timing, heat and duct calculations |
+| purchasing | Candidate parts, owned-inventory credits, prices and cost assumptions |
+| slicing | Unchanged original mesh, rules, profiles, trial G-code and reproducible slicing tools |
+| validation | Planner verification, width audits, third-party provenance, checksums and backup status |
+| cad / manufacturing | Reserved for gated Fusion and fabrication deliverables |
+| electronics / firmware / assembly | Reserved for the selected hardware and released build instructions |
 
-Fusion destination verified: `Default Project / Codex Benchy Printer`. No CAD edits have been made. All G-code here is analytical evidence, not ready to print. No parts purchased.
+Fusion destination: **Default Project / Codex Benchy Printer**. Last verified design: blank and unsaved. All trial G-code is analysis evidence and must not be sent to a printer. No parts have been purchased.
+
+Checkpoint 004 is a complete local snapshot. Historical checkpoints remain in Git history and `backups/`; see [backup verification](validation/CHECKPOINT.md). Large native CAD archives will use release assets when CAD exists; interim engineering ZIPs are currently stored in the private repository.

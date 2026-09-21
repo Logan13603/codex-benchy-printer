@@ -1,0 +1,22 @@
+{
+  "engine_version": "Cura_SteamEngine 4.13.1",
+  "binary_sha256": "f42183d83643ee52d80a99bbda8a68dd8b0c8670ee2095711b88abbfa25bb7fc",
+  "download": {
+    "url": "https://github.com/Ultimaker/Cura/releases/download/4.13.1/Ultimaker_Cura-4.13.1-amd64.exe",
+    "bytes": 205747736,
+    "sha256": "8de0c18a61a29cac9cbcd5b6d1db1de925f3ea36d67d50e0aabef81d66a91538",
+    "release_tag": "4.13.1"
+  },
+  "returncode": 0,
+  "definition_sha256": {
+    "fdmprinter.def.json": "8814ad3475ba05088b2d0df73c0c42e3b72e7bd9444dcf53338f43a4acf5d92d",
+    "fdmextruder.def.json": "5caba7d75fac22caeda3042aba7a46f45db6fec224c8534e86ae05ec1346c2be"
+  },
+  "reason": "Independent pre-Arachne fixed-width engine comparison; not a recommended installed slicer upgrade.",
+  "parent_trial": "cura-4.13.1-no-gap",
+  "changed_settings": {
+    "meshfix_maximum_resolution": 0.25,
+    "meshfix_maximum_deviation": 0.05,
+    "meshfix_maximum_travel_resolution": 0.25
+  }
+}

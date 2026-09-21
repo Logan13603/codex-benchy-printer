@@ -1,4 +1,4 @@
-# Revised budget � checkpoint 003, 2026-09-20
+# Revised budget — checkpoint 003, 2026-09-20
 
 **New requirement: at most $400 of additional delivered spending.** The owned Pi, CPAP blower, hose, SD card, cord, and 9mm belts/pulleys have zero acquisition cost. They remain part of the machine's mass and capability. No new hardware is being ordered.
 
@@ -28,4 +28,5 @@ For identical belt construction and free span, tensile stiffness EA/L scales wit
 
 ## Performance gate
 
-The 50�55-second full-size compliant Benchy target remains unchanged. Cost credits and wider belts do not resolve the generated-width violations, missing small-nozzle flow evidence, or unvalidated timing. Fusion remains blank; detailed CAD stays conditional on the gate. Continue the existing digital investigations and source the allocation above on resume; no questions are required now.
+The 50–55-second full-size compliant Benchy target remains unchanged. Cost credits and wider belts do not resolve the generated-width violations, missing small-nozzle flow evidence, or unvalidated timing. Fusion remains blank; detailed CAD stays conditional on the gate. Continue the existing digital investigations and source the allocation above on resume; no questions are required now.
+

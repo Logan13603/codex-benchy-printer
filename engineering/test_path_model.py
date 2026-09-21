@@ -25,5 +25,8 @@ class Kinematics(unittest.TestCase):
         straight=duration([line(10),line(10)],accel=1000)['seconds']
         corner=duration([line(10),line(10,(0.,1.,0.))],accel=1000)['seconds']
         self.assertGreater(corner,straight)
+    def test_external_axis_acceleration_cap(self):
+        t=duration([line(10)],vmax=1000,accel=100,axis_caps=[(1000,25)])['seconds']
+        self.assertAlmostEqual(t,2*math.sqrt(10/25))
 
 if __name__=='__main__': unittest.main()

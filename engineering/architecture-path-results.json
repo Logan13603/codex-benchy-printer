@@ -1,0 +1,740 @@
+{
+  "status": "screening scenarios; no selected architecture or build release",
+  "gcode_sha256": "0c9b7be63971d47e277d7d356e355679426fbcb2a8689739ef0f186c0d45722d",
+  "summary": {
+    "volume_mm3": 8919.340116582047,
+    "mass_g": 11.059981744561739,
+    "extrusion_path_mm": 68961.94027899616,
+    "travel_path_mm": 18381.317945651845,
+    "pure_e_moves": 0,
+    "minimum_average_flow_55s": 162.16982030149177,
+    "minimum_average_flow_60s": 148.65566860970077,
+    "ideal_flow_only_s": {
+      "50": 178.38680233164095,
+      "75": 118.92453488776063,
+      "100": 89.19340116582048,
+      "150": 59.462267443880314,
+      "200": 44.59670058291024
+    },
+    "nominal_width_min_mm": null,
+    "nominal_width_max_mm": null,
+    "layer_count": 192,
+    "volume_by_role_mm3": {
+      "WALL-INNER": 2916.0766985896084,
+      "WALL-OUTER": 3270.0895005118145,
+      "SKIN": 1987.878615293443,
+      "FILL": 745.2953021871315
+    }
+  },
+  "motor_curve": "https://cdn.shopify.com/s/files/1/0239/9287/files/LDO-42STH48-2504AC_Torque_Curve.pdf?v=1645112191",
+  "curve_conditions": "24 V, 2.5 A, full step, 200 steps/revolution; actual driver equivalence unverified",
+  "pulley_assumption": "2 mm pitch, 9 mm belt; user pulley tooth count and pitch unknown",
+  "assumed_9mm_pulley_idler_reflected_mass_kg_per_motor": 0.015,
+  "rotor_inertia_kg_m2": 8.45e-06,
+  "translating_mass_kg": {
+    "cartesian": [
+      0.14,
+      0.09
+    ],
+    "corexy": [
+      0.14,
+      0.325
+    ],
+    "crossed": [
+      0.235,
+      0.235
+    ]
+  },
+  "runs": [
+    {
+      "architecture": "cartesian",
+      "teeth": 16,
+      "min_segment_accel_mm_s2": 43868.22861423301,
+      "max_segment_accel_mm_s2": 100000.0,
+      "scenarios": [
+        {
+          "seconds": 267.70122627710685,
+          "deposition_seconds": 205.4968913452462,
+          "peak_velocity_mm_s": 1315.910960416888,
+          "peak_flow_mm3_s": 75.00000000000003,
+          "shortest_layer_s": 0.12042074465323199,
+          "assumed_flow_cap_mm3_s": 75,
+          "assumed_vmax_mm_s": 2000,
+          "assumed_accel_mm_s2": 100000,
+          "assumed_scv_mm_s": 100,
+          "first_layer_cap_mm_s": null,
+          "corexy_belt_limit": false
+        },
+        {
+          "seconds": 254.17607735834767,
+          "deposition_seconds": 192.00075082058964,
+          "peak_velocity_mm_s": 1315.910960416888,
+          "peak_flow_mm3_s": 200.00000000000006,
+          "shortest_layer_s": 0.12042074465323199,
+          "assumed_flow_cap_mm3_s": 200,
+          "assumed_vmax_mm_s": 2000,
+          "assumed_accel_mm_s2": 100000,
+          "assumed_scv_mm_s": 100,
+          "first_layer_cap_mm_s": null,
+          "corexy_belt_limit": false
+        }
+      ]
+    },
+    {
+      "architecture": "cartesian",
+      "teeth": 20,
+      "min_segment_accel_mm_s2": 45317.12126632364,
+      "max_segment_accel_mm_s2": 100000.0,
+      "scenarios": [
+        {
+          "seconds": 262.75552545231074,
+          "deposition_seconds": 201.93202489545195,
+          "peak_velocity_mm_s": 1390.346870561035,
+          "peak_flow_mm3_s": 75.00000000000003,
+          "shortest_layer_s": 0.11783449804087992,
+          "assumed_flow_cap_mm3_s": 75,
+          "assumed_vmax_mm_s": 2000,
+          "assumed_accel_mm_s2": 100000,
+          "assumed_scv_mm_s": 100,
+          "first_layer_cap_mm_s": null,
+          "corexy_belt_limit": false
+        },
+        {
+          "seconds": 248.50238074583302,
+          "deposition_seconds": 187.70855744469253,
+          "peak_velocity_mm_s": 1390.346870561035,
+          "peak_flow_mm3_s": 200.00000000000006,
+          "shortest_layer_s": 0.11783449804087992,
+          "assumed_flow_cap_mm3_s": 200,
+          "assumed_vmax_mm_s": 2000,
+          "assumed_accel_mm_s2": 100000,
+          "assumed_scv_mm_s": 100,
+          "first_layer_cap_mm_s": null,
+          "corexy_belt_limit": false
+        }
+      ]
+    },
+    {
+      "architecture": "cartesian",
+      "teeth": 24,
+      "min_segment_accel_mm_s2": 44677.5158541831,
+      "max_segment_accel_mm_s2": 100000.0,
+      "scenarios": [
+        {
+          "seconds": 259.4119612966593,
+          "deposition_seconds": 199.25343708784823,
+          "peak_velocity_mm_s": 1380.5106270718222,
+          "peak_flow_mm3_s": 75.00000000000003,
+          "shortest_layer_s": 0.11623273246668062,
+          "assumed_flow_cap_mm3_s": 75,
+          "assumed_vmax_mm_s": 2000,
+          "assumed_accel_mm_s2": 100000,
+          "assumed_scv_mm_s": 100,
+          "first_layer_cap_mm_s": null,
+          "corexy_belt_limit": false
+        },
+        {
+          "seconds": 244.0594342326712,
+          "deposition_seconds": 183.93197968840732,
+          "peak_velocity_mm_s": 1385.7741034789726,
+          "peak_flow_mm3_s": 200.00000000000006,
+          "shortest_layer_s": 0.11623273246668062,
+          "assumed_flow_cap_mm3_s": 200,
+          "assumed_vmax_mm_s": 2000,
+          "assumed_accel_mm_s2": 100000,
+          "assumed_scv_mm_s": 100,
+          "first_layer_cap_mm_s": null,
+          "corexy_belt_limit": false
+        }
+      ]
+    },
+    {
+      "architecture": "cartesian",
+      "teeth": 32,
+      "min_segment_accel_mm_s2": 47455.14006977338,
+      "max_segment_accel_mm_s2": 100000.0,
+      "scenarios": [
+        {
+          "seconds": 246.7135248900158,
+          "deposition_seconds": 190.23397844209873,
+          "peak_velocity_mm_s": 1566.446428918837,
+          "peak_flow_mm3_s": 75.00000000000003,
+          "shortest_layer_s": 0.10764759104445704,
+          "assumed_flow_cap_mm3_s": 75,
+          "assumed_vmax_mm_s": 2000,
+          "assumed_accel_mm_s2": 100000,
+          "assumed_scv_mm_s": 100,
+          "first_layer_cap_mm_s": null,
+          "corexy_belt_limit": false
+        },
+        {
+          "seconds": 228.52146220628447,
+          "deposition_seconds": 172.07567308696056,
+          "peak_velocity_mm_s": 1567.3150587616888,
+          "peak_flow_mm3_s": 200.00000000000006,
+          "shortest_layer_s": 0.10764759104445704,
+          "assumed_flow_cap_mm3_s": 200,
+          "assumed_vmax_mm_s": 2000,
+          "assumed_accel_mm_s2": 100000,
+          "assumed_scv_mm_s": 100,
+          "first_layer_cap_mm_s": null,
+          "corexy_belt_limit": false
+        }
+      ]
+    },
+    {
+      "architecture": "corexy",
+      "teeth": 16,
+      "min_segment_accel_mm_s2": 32465.6837467563,
+      "max_segment_accel_mm_s2": 100000.0,
+      "scenarios": [
+        {
+          "seconds": 297.3692190806932,
+          "deposition_seconds": 226.96325453695292,
+          "peak_velocity_mm_s": 1107.5727459314116,
+          "peak_flow_mm3_s": 75.00000000000003,
+          "shortest_layer_s": 0.14350947497764321,
+          "assumed_flow_cap_mm3_s": 75,
+          "assumed_vmax_mm_s": 2000,
+          "assumed_accel_mm_s2": 100000,
+          "assumed_scv_mm_s": 100,
+          "first_layer_cap_mm_s": null,
+          "corexy_belt_limit": false
+        },
+        {
+          "seconds": 288.2500240190025,
+          "deposition_seconds": 217.864973098418,
+          "peak_velocity_mm_s": 1107.5727459314116,
+          "peak_flow_mm3_s": 197.9902975101388,
+          "shortest_layer_s": 0.14350947497764321,
+          "assumed_flow_cap_mm3_s": 200,
+          "assumed_vmax_mm_s": 2000,
+          "assumed_accel_mm_s2": 100000,
+          "assumed_scv_mm_s": 100,
+          "first_layer_cap_mm_s": null,
+          "corexy_belt_limit": false
+        }
+      ]
+    },
+    {
+      "architecture": "corexy",
+      "teeth": 20,
+      "min_segment_accel_mm_s2": 33970.768044485885,
+      "max_segment_accel_mm_s2": 100000.0,
+      "scenarios": [
+        {
+          "seconds": 291.14070369122607,
+          "deposition_seconds": 222.48427505802465,
+          "peak_velocity_mm_s": 1380.8117625514199,
+          "peak_flow_mm3_s": 75.00000000000003,
+          "shortest_layer_s": 0.14049433485882878,
+          "assumed_flow_cap_mm3_s": 75,
+          "assumed_vmax_mm_s": 2000,
+          "assumed_accel_mm_s2": 100000,
+          "assumed_scv_mm_s": 100,
+          "first_layer_cap_mm_s": null,
+          "corexy_belt_limit": false
+        },
+        {
+          "seconds": 281.0381537950919,
+          "deposition_seconds": 212.4035811969676,
+          "peak_velocity_mm_s": 1380.8117625514199,
+          "peak_flow_mm3_s": 200.00000000000006,
+          "shortest_layer_s": 0.14049433485882878,
+          "assumed_flow_cap_mm3_s": 200,
+          "assumed_vmax_mm_s": 2000,
+          "assumed_accel_mm_s2": 100000,
+          "assumed_scv_mm_s": 100,
+          "first_layer_cap_mm_s": null,
+          "corexy_belt_limit": false
+        }
+      ]
+    },
+    {
+      "architecture": "corexy",
+      "teeth": 24,
+      "min_segment_accel_mm_s2": 33838.21303348681,
+      "max_segment_accel_mm_s2": 100000.0,
+      "scenarios": [
+        {
+          "seconds": 291.06486766066763,
+          "deposition_seconds": 222.50589782191776,
+          "peak_velocity_mm_s": 1429.7839751764539,
+          "peak_flow_mm3_s": 75.00000000000003,
+          "shortest_layer_s": 0.14049777135911626,
+          "assumed_flow_cap_mm3_s": 75,
+          "assumed_vmax_mm_s": 2000,
+          "assumed_accel_mm_s2": 100000,
+          "assumed_scv_mm_s": 100,
+          "first_layer_cap_mm_s": null,
+          "corexy_belt_limit": false
+        },
+        {
+          "seconds": 280.83477810454144,
+          "deposition_seconds": 212.29773431949369,
+          "peak_velocity_mm_s": 1429.7839751764539,
+          "peak_flow_mm3_s": 200.00000000000006,
+          "shortest_layer_s": 0.14049777135911626,
+          "assumed_flow_cap_mm3_s": 200,
+          "assumed_vmax_mm_s": 2000,
+          "assumed_accel_mm_s2": 100000,
+          "assumed_scv_mm_s": 100,
+          "first_layer_cap_mm_s": null,
+          "corexy_belt_limit": false
+        }
+      ]
+    },
+    {
+      "architecture": "corexy",
+      "teeth": 32,
+      "min_segment_accel_mm_s2": 31009.19561015015,
+      "max_segment_accel_mm_s2": 100000.0,
+      "scenarios": [
+        {
+          "seconds": 293.8114035372314,
+          "deposition_seconds": 224.11202191575697,
+          "peak_velocity_mm_s": 1506.3997712562648,
+          "peak_flow_mm3_s": 75.00000000000003,
+          "shortest_layer_s": 0.14526813349706302,
+          "assumed_flow_cap_mm3_s": 75,
+          "assumed_vmax_mm_s": 2000,
+          "assumed_accel_mm_s2": 100000,
+          "assumed_scv_mm_s": 100,
+          "first_layer_cap_mm_s": null,
+          "corexy_belt_limit": false
+        },
+        {
+          "seconds": 283.73994300252843,
+          "deposition_seconds": 214.06147292178287,
+          "peak_velocity_mm_s": 1506.3997712562648,
+          "peak_flow_mm3_s": 200.00000000000006,
+          "shortest_layer_s": 0.14526813349706302,
+          "assumed_flow_cap_mm3_s": 200,
+          "assumed_vmax_mm_s": 2000,
+          "assumed_accel_mm_s2": 100000,
+          "assumed_scv_mm_s": 100,
+          "first_layer_cap_mm_s": null,
+          "corexy_belt_limit": false
+        }
+      ]
+    },
+    {
+      "architecture": "crossed",
+      "teeth": 16,
+      "min_segment_accel_mm_s2": 34816.126492960364,
+      "max_segment_accel_mm_s2": 100000.0,
+      "scenarios": [
+        {
+          "seconds": 300.0175114310925,
+          "deposition_seconds": 229.127094927756,
+          "peak_velocity_mm_s": 1218.6290965007986,
+          "peak_flow_mm3_s": 75.00000000000003,
+          "shortest_layer_s": 0.13641296423663368,
+          "assumed_flow_cap_mm3_s": 75,
+          "assumed_vmax_mm_s": 2000,
+          "assumed_accel_mm_s2": 100000,
+          "assumed_scv_mm_s": 100,
+          "first_layer_cap_mm_s": null,
+          "corexy_belt_limit": false
+        },
+        {
+          "seconds": 290.3498437072736,
+          "deposition_seconds": 219.48418535048242,
+          "peak_velocity_mm_s": 1218.6290965007986,
+          "peak_flow_mm3_s": 200.00000000000006,
+          "shortest_layer_s": 0.13641296423663368,
+          "assumed_flow_cap_mm3_s": 200,
+          "assumed_vmax_mm_s": 2000,
+          "assumed_accel_mm_s2": 100000,
+          "assumed_scv_mm_s": 100,
+          "first_layer_cap_mm_s": null,
+          "corexy_belt_limit": false
+        }
+      ]
+    },
+    {
+      "architecture": "crossed",
+      "teeth": 20,
+      "min_segment_accel_mm_s2": 33721.02386238476,
+      "max_segment_accel_mm_s2": 100000.0,
+      "scenarios": [
+        {
+          "seconds": 304.1919600865645,
+          "deposition_seconds": 232.21561510632662,
+          "peak_velocity_mm_s": 1199.3113153787679,
+          "peak_flow_mm3_s": 75.00000000000003,
+          "shortest_layer_s": 0.13832262957456093,
+          "assumed_flow_cap_mm3_s": 75,
+          "assumed_vmax_mm_s": 2000,
+          "assumed_accel_mm_s2": 100000,
+          "assumed_scv_mm_s": 100,
+          "first_layer_cap_mm_s": null,
+          "corexy_belt_limit": false
+        },
+        {
+          "seconds": 294.9568976009437,
+          "deposition_seconds": 223.004778871206,
+          "peak_velocity_mm_s": 1199.3113153787679,
+          "peak_flow_mm3_s": 200.00000000000006,
+          "shortest_layer_s": 0.13832262957456093,
+          "assumed_flow_cap_mm3_s": 200,
+          "assumed_vmax_mm_s": 2000,
+          "assumed_accel_mm_s2": 100000,
+          "assumed_scv_mm_s": 100,
+          "first_layer_cap_mm_s": null,
+          "corexy_belt_limit": false
+        }
+      ]
+    },
+    {
+      "architecture": "crossed",
+      "teeth": 24,
+      "min_segment_accel_mm_s2": 31530.526443870902,
+      "max_segment_accel_mm_s2": 100000.0,
+      "scenarios": [
+        {
+          "seconds": 308.5412698759155,
+          "deposition_seconds": 235.0731085085367,
+          "peak_velocity_mm_s": 1159.705429222009,
+          "peak_flow_mm3_s": 75.00000000000003,
+          "shortest_layer_s": 0.1405680665291317,
+          "assumed_flow_cap_mm3_s": 75,
+          "assumed_vmax_mm_s": 2000,
+          "assumed_accel_mm_s2": 100000,
+          "assumed_scv_mm_s": 100,
+          "first_layer_cap_mm_s": null,
+          "corexy_belt_limit": false
+        },
+        {
+          "seconds": 299.11999271573654,
+          "deposition_seconds": 225.6770726789413,
+          "peak_velocity_mm_s": 1163.698198863935,
+          "peak_flow_mm3_s": 200.00000000000006,
+          "shortest_layer_s": 0.1405680665291317,
+          "assumed_flow_cap_mm3_s": 200,
+          "assumed_vmax_mm_s": 2000,
+          "assumed_accel_mm_s2": 100000,
+          "assumed_scv_mm_s": 100,
+          "first_layer_cap_mm_s": null,
+          "corexy_belt_limit": false
+        }
+      ]
+    },
+    {
+      "architecture": "crossed",
+      "teeth": 32,
+      "min_segment_accel_mm_s2": 31043.46771340795,
+      "max_segment_accel_mm_s2": 100000.0,
+      "scenarios": [
+        {
+          "seconds": 303.7911566326345,
+          "deposition_seconds": 231.6864574760596,
+          "peak_velocity_mm_s": 1266.9004629387725,
+          "peak_flow_mm3_s": 75.00000000000003,
+          "shortest_layer_s": 0.13535327520659293,
+          "assumed_flow_cap_mm3_s": 75,
+          "assumed_vmax_mm_s": 2000,
+          "assumed_accel_mm_s2": 100000,
+          "assumed_scv_mm_s": 100,
+          "first_layer_cap_mm_s": null,
+          "corexy_belt_limit": false
+        },
+        {
+          "seconds": 293.2302849257528,
+          "deposition_seconds": 221.15276749451658,
+          "peak_velocity_mm_s": 1267.9873361291106,
+          "peak_flow_mm3_s": 200.00000000000006,
+          "shortest_layer_s": 0.13535327520659293,
+          "assumed_flow_cap_mm3_s": 200,
+          "assumed_vmax_mm_s": 2000,
+          "assumed_accel_mm_s2": 100000,
+          "assumed_scv_mm_s": 100,
+          "first_layer_cap_mm_s": null,
+          "corexy_belt_limit": false
+        }
+      ]
+    },
+    {
+      "architecture": "delta-center",
+      "teeth": 16,
+      "min_segment_accel_mm_s2": 51057.43691767574,
+      "max_segment_accel_mm_s2": 100000.0,
+      "scenarios": [
+        {
+          "seconds": 259.16942502401173,
+          "deposition_seconds": 199.34459428124916,
+          "peak_velocity_mm_s": 1474.6276864126805,
+          "peak_flow_mm3_s": 75.00000000000003,
+          "shortest_layer_s": 0.12022373041961704,
+          "assumed_flow_cap_mm3_s": 75,
+          "assumed_vmax_mm_s": 2000,
+          "assumed_accel_mm_s2": 100000,
+          "assumed_scv_mm_s": 100,
+          "first_layer_cap_mm_s": null,
+          "corexy_belt_limit": false
+        },
+        {
+          "seconds": 244.70883499222387,
+          "deposition_seconds": 184.91196318622193,
+          "peak_velocity_mm_s": 1474.6276864126805,
+          "peak_flow_mm3_s": 200.00000000000006,
+          "shortest_layer_s": 0.12022373041961704,
+          "assumed_flow_cap_mm3_s": 200,
+          "assumed_vmax_mm_s": 2000,
+          "assumed_accel_mm_s2": 100000,
+          "assumed_scv_mm_s": 100,
+          "first_layer_cap_mm_s": null,
+          "corexy_belt_limit": false
+        }
+      ]
+    },
+    {
+      "architecture": "delta-center",
+      "teeth": 20,
+      "min_segment_accel_mm_s2": 56431.14216305746,
+      "max_segment_accel_mm_s2": 100000.0,
+      "scenarios": [
+        {
+          "seconds": 245.0262647766779,
+          "deposition_seconds": 189.15349332297257,
+          "peak_velocity_mm_s": 1643.0164175115356,
+          "peak_flow_mm3_s": 75.00000000000003,
+          "shortest_layer_s": 0.1136344712364453,
+          "assumed_flow_cap_mm3_s": 75,
+          "assumed_vmax_mm_s": 2000,
+          "assumed_accel_mm_s2": 100000,
+          "assumed_scv_mm_s": 100,
+          "first_layer_cap_mm_s": null,
+          "corexy_belt_limit": false
+        },
+        {
+          "seconds": 227.8653967235385,
+          "deposition_seconds": 172.02284061446468,
+          "peak_velocity_mm_s": 1643.0164175115356,
+          "peak_flow_mm3_s": 200.00000000000006,
+          "shortest_layer_s": 0.1136344712364453,
+          "assumed_flow_cap_mm3_s": 200,
+          "assumed_vmax_mm_s": 2000,
+          "assumed_accel_mm_s2": 100000,
+          "assumed_scv_mm_s": 100,
+          "first_layer_cap_mm_s": null,
+          "corexy_belt_limit": false
+        }
+      ]
+    },
+    {
+      "architecture": "delta-center",
+      "teeth": 24,
+      "min_segment_accel_mm_s2": 64515.380274829724,
+      "max_segment_accel_mm_s2": 100000.0,
+      "scenarios": [
+        {
+          "seconds": 233.30239626662404,
+          "deposition_seconds": 180.77406279420376,
+          "peak_velocity_mm_s": 1750.9413607881506,
+          "peak_flow_mm3_s": 75.00000000000003,
+          "shortest_layer_s": 0.10745863950929659,
+          "assumed_flow_cap_mm3_s": 75,
+          "assumed_vmax_mm_s": 2000,
+          "assumed_accel_mm_s2": 100000,
+          "assumed_scv_mm_s": 100,
+          "first_layer_cap_mm_s": null,
+          "corexy_belt_limit": false
+        },
+        {
+          "seconds": 213.6870873282057,
+          "deposition_seconds": 161.19123675017337,
+          "peak_velocity_mm_s": 1750.9413607881506,
+          "peak_flow_mm3_s": 200.00000000000006,
+          "shortest_layer_s": 0.10745863950929659,
+          "assumed_flow_cap_mm3_s": 200,
+          "assumed_vmax_mm_s": 2000,
+          "assumed_accel_mm_s2": 100000,
+          "assumed_scv_mm_s": 100,
+          "first_layer_cap_mm_s": null,
+          "corexy_belt_limit": false
+        }
+      ]
+    },
+    {
+      "architecture": "delta-center",
+      "teeth": 32,
+      "min_segment_accel_mm_s2": 74582.99482991498,
+      "max_segment_accel_mm_s2": 100000.0,
+      "scenarios": [
+        {
+          "seconds": 221.75312262257265,
+          "deposition_seconds": 172.59864339954106,
+          "peak_velocity_mm_s": 1871.8498200746174,
+          "peak_flow_mm3_s": 75.00000000000003,
+          "shortest_layer_s": 0.10120006797136274,
+          "assumed_flow_cap_mm3_s": 75,
+          "assumed_vmax_mm_s": 2000,
+          "assumed_accel_mm_s2": 100000,
+          "assumed_scv_mm_s": 100,
+          "first_layer_cap_mm_s": null,
+          "corexy_belt_limit": false
+        },
+        {
+          "seconds": 199.38393073667024,
+          "deposition_seconds": 150.26403355438165,
+          "peak_velocity_mm_s": 1871.8498200746174,
+          "peak_flow_mm3_s": 200.00000000000006,
+          "shortest_layer_s": 0.10120006797136274,
+          "assumed_flow_cap_mm3_s": 200,
+          "assumed_vmax_mm_s": 2000,
+          "assumed_accel_mm_s2": 100000,
+          "assumed_scv_mm_s": 100,
+          "first_layer_cap_mm_s": null,
+          "corexy_belt_limit": false
+        }
+      ]
+    }
+  ],
+  "mass_drag_sensitivity": [
+    {
+      "architecture": "cartesian",
+      "teeth": 20,
+      "translating_mass_scale": 0.75,
+      "drag_N_per_motor": 1.0,
+      "seconds": 230.8009693056469,
+      "deposition_seconds": 174.14937784563392,
+      "peak_velocity_mm_s": 1506.2688197317214,
+      "peak_flow_mm3_s": 200.00000000000006,
+      "shortest_layer_s": 0.11071907174573577,
+      "assumed_flow_cap_mm3_s": 200,
+      "assumed_vmax_mm_s": 2000,
+      "assumed_accel_mm_s2": 100000,
+      "assumed_scv_mm_s": 100,
+      "first_layer_cap_mm_s": null,
+      "corexy_belt_limit": false
+    },
+    {
+      "architecture": "cartesian",
+      "teeth": 20,
+      "translating_mass_scale": 1.25,
+      "drag_N_per_motor": 4.0,
+      "seconds": 275.98950326497334,
+      "deposition_seconds": 208.75615112068277,
+      "peak_velocity_mm_s": 1244.676691193618,
+      "peak_flow_mm3_s": 200.00000000000006,
+      "shortest_layer_s": 0.12895676402014128,
+      "assumed_flow_cap_mm3_s": 200,
+      "assumed_vmax_mm_s": 2000,
+      "assumed_accel_mm_s2": 100000,
+      "assumed_scv_mm_s": 100,
+      "first_layer_cap_mm_s": null,
+      "corexy_belt_limit": false
+    },
+    {
+      "architecture": "corexy",
+      "teeth": 20,
+      "translating_mass_scale": 0.75,
+      "drag_N_per_motor": 1.0,
+      "seconds": 261.2908629670146,
+      "deposition_seconds": 197.26668757655756,
+      "peak_velocity_mm_s": 1384.4659324142644,
+      "peak_flow_mm3_s": 200.00000000000006,
+      "shortest_layer_s": 0.13169839325409582,
+      "assumed_flow_cap_mm3_s": 200,
+      "assumed_vmax_mm_s": 2000,
+      "assumed_accel_mm_s2": 100000,
+      "assumed_scv_mm_s": 100,
+      "first_layer_cap_mm_s": null,
+      "corexy_belt_limit": false
+    },
+    {
+      "architecture": "corexy",
+      "teeth": 20,
+      "translating_mass_scale": 1.25,
+      "drag_N_per_motor": 4.0,
+      "seconds": 311.91437127479367,
+      "deposition_seconds": 236.0562327114202,
+      "peak_velocity_mm_s": 1264.695874935422,
+      "peak_flow_mm3_s": 200.00000000000006,
+      "shortest_layer_s": 0.15419418658108205,
+      "assumed_flow_cap_mm3_s": 200,
+      "assumed_vmax_mm_s": 2000,
+      "assumed_accel_mm_s2": 100000,
+      "assumed_scv_mm_s": 100,
+      "first_layer_cap_mm_s": null,
+      "corexy_belt_limit": false
+    },
+    {
+      "architecture": "crossed",
+      "teeth": 20,
+      "translating_mass_scale": 0.75,
+      "drag_N_per_motor": 1.0,
+      "seconds": 269.01591751211174,
+      "deposition_seconds": 203.18514063850122,
+      "peak_velocity_mm_s": 1316.9005595767205,
+      "peak_flow_mm3_s": 200.00000000000006,
+      "shortest_layer_s": 0.12756294506466725,
+      "assumed_flow_cap_mm3_s": 200,
+      "assumed_vmax_mm_s": 2000,
+      "assumed_accel_mm_s2": 100000,
+      "assumed_scv_mm_s": 100,
+      "first_layer_cap_mm_s": null,
+      "corexy_belt_limit": false
+    },
+    {
+      "architecture": "crossed",
+      "teeth": 20,
+      "translating_mass_scale": 1.25,
+      "drag_N_per_motor": 4.0,
+      "seconds": 332.5321398728307,
+      "deposition_seconds": 251.72519283978517,
+      "peak_velocity_mm_s": 1062.0997968410227,
+      "peak_flow_mm3_s": 200.00000000000006,
+      "shortest_layer_s": 0.15387780740035498,
+      "assumed_flow_cap_mm3_s": 200,
+      "assumed_vmax_mm_s": 2000,
+      "assumed_accel_mm_s2": 100000,
+      "assumed_scv_mm_s": 100,
+      "first_layer_cap_mm_s": null,
+      "corexy_belt_limit": false
+    },
+    {
+      "architecture": "delta-center",
+      "teeth": 20,
+      "translating_mass_scale": 0.75,
+      "drag_N_per_motor": 1.0,
+      "seconds": 205.3080054942916,
+      "deposition_seconds": 154.77425619020414,
+      "peak_velocity_mm_s": 1822.9191400590332,
+      "peak_flow_mm3_s": 200.00000000000006,
+      "shortest_layer_s": 0.1038860118585308,
+      "assumed_flow_cap_mm3_s": 200,
+      "assumed_vmax_mm_s": 2000,
+      "assumed_accel_mm_s2": 100000,
+      "assumed_scv_mm_s": 100,
+      "first_layer_cap_mm_s": null,
+      "corexy_belt_limit": false
+    },
+    {
+      "architecture": "delta-center",
+      "teeth": 20,
+      "translating_mass_scale": 1.25,
+      "drag_N_per_motor": 4.0,
+      "seconds": 258.0824464350248,
+      "deposition_seconds": 195.13650110441745,
+      "peak_velocity_mm_s": 1455.9273742139449,
+      "peak_flow_mm3_s": 200.00000000000006,
+      "shortest_layer_s": 0.1267276492509737,
+      "assumed_flow_cap_mm3_s": 200,
+      "assumed_vmax_mm_s": 2000,
+      "assumed_accel_mm_s2": 100000,
+      "assumed_scv_mm_s": 100,
+      "first_layer_cap_mm_s": null,
+      "corexy_belt_limit": false
+    }
+  ],
+  "limitations": [
+    "Acceleration caps use torque minima up to allowed segment speed, including speeds never reached; conservative within that torque model.",
+    "All cases assume the documented full-step current/voltage curve is available. This is not verified for the candidate controller.",
+    "Delta is linearized at workspace center; Jacobian variation, velocity-squared forces and tilt stiffness are omitted. Delta time is not a nominal prediction.",
+    "No belt compliance, frame flex, actual hose drag curve, thermal droop, pressure advance, input shaping or extrusion-ratio junction checks.",
+    "Short Bowden only; direct drive adds the independently tabulated toolhead mass and has not been shown to improve this path.",
+    "No architecture-specific delivered BOM is frozen; reference cost is for a two-XY-motor Cartesian/CoreXY-class layout, not a delta quote."
+  ]
+}

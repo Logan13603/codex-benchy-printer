@@ -1,4 +1,4 @@
-# Candidate BOM � revision B, incremental spending
+# Candidate BOM — revision B, incremental spending
 
 Read [owned-hardware revision and $400 allocation](OWNED-HARDWARE-REVISION.md). These are screening candidates/allowances, not a manufacturing release. Original price sources remain in source-price-snapshot.json.
 
@@ -29,3 +29,4 @@ Read [owned-hardware revision and $400 allocation](OWNED-HARDWARE-REVISION.md). 
 | CBP-P123 | Three mechanical endstops and accelerometer module | 1 | 8.00 | Allowance; search microswitch endstop and ADXL345 |
 
 **New delivered estimate: $505.40. Target: $400.** A $391.64 allocation is documented separately and remains unquoted and unvalidated. Installed masses in the JSON retain historical reference estimates; they must not be treated as identified owned-component masses.
+

@@ -1,0 +1,210 @@
+{
+  "analytical_tests": [
+    {
+      "name": "triangle",
+      "study_seconds": 0.6324555320336759,
+      "klipper_seconds": 0.6324555320336759,
+      "passed": true
+    },
+    {
+      "name": "trapezoid",
+      "study_seconds": 10.1,
+      "klipper_seconds": 10.1,
+      "passed": true
+    },
+    {
+      "name": "reversal",
+      "study_seconds": 1.2649110640673518,
+      "klipper_seconds": 1.2649110640673518,
+      "passed": true
+    }
+  ],
+  "trials": {
+    "combined-no-retraction": {
+      "gcode_sha256": "1b6776367d9566ddc1d516d85f23c8c9b76b27c770b6577aa092e4c634368b79",
+      "study_seconds": 168.52494946988244,
+      "planner_runs": [
+        {
+          "seconds": 168.5249493377582,
+          "move_count": 40583,
+          "by_role_seconds": {
+            "Outer wall": 51.44380580473094,
+            "travel": 26.543517775510157,
+            "Inner wall": 41.76526477708852,
+            "Bottom surface": 1.508998444054154,
+            "Gap infill": 7.287481427683231,
+            "Internal solid infill": 16.254744852381197,
+            "Top surface": 5.8620764725663665,
+            "Bridge": 2.5049438289997115,
+            "Sparse infill": 9.049599415823078,
+            "Overhang wall": 0.30506876811220485,
+            "Internal Bridge": 5.999447770809298
+          },
+          "minimum_cruise_ratio": 0,
+          "finite_queue": false,
+          "upstream_commit": "ce7002bedf37e938bb483572949f3703ac6476cb"
+        },
+        {
+          "seconds": 168.5249493377582,
+          "move_count": 40583,
+          "by_role_seconds": {
+            "Outer wall": 51.44380580473094,
+            "travel": 26.543517775510157,
+            "Inner wall": 41.76526477708852,
+            "Bottom surface": 1.508998444054154,
+            "Gap infill": 7.287481427683231,
+            "Internal solid infill": 16.254744852381197,
+            "Top surface": 5.8620764725663665,
+            "Bridge": 2.5049438289997115,
+            "Sparse infill": 9.049599415823078,
+            "Overhang wall": 0.30506876811220485,
+            "Internal Bridge": 5.999447770809298
+          },
+          "minimum_cruise_ratio": 0,
+          "finite_queue": true,
+          "upstream_commit": "ce7002bedf37e938bb483572949f3703ac6476cb"
+        },
+        {
+          "seconds": 178.0733722383891,
+          "move_count": 40583,
+          "by_role_seconds": {
+            "Outer wall": 54.40141899618655,
+            "travel": 27.960063474266278,
+            "Inner wall": 44.20398359321417,
+            "Bottom surface": 1.5977819734467174,
+            "Gap infill": 7.652068108853785,
+            "Internal solid infill": 17.17854107786128,
+            "Top surface": 6.2400892695486645,
+            "Bridge": 2.662183048132875,
+            "Sparse infill": 9.476116543264498,
+            "Overhang wall": 0.32677041688039005,
+            "Internal Bridge": 6.374355736734344
+          },
+          "minimum_cruise_ratio": 0.5,
+          "finite_queue": true,
+          "upstream_commit": "ce7002bedf37e938bb483572949f3703ac6476cb"
+        }
+      ],
+      "difference_s_unlimited_queue": -1.3212425642450398e-07
+    },
+    "width-0.50": {
+      "gcode_sha256": "48b65483a146e7ea3ea96205ac6f4b58b17ebfa491456243e2e4450e3e34f9f6",
+      "study_seconds": 222.6524316632179,
+      "planner_runs": [
+        {
+          "seconds": 222.6524313088818,
+          "move_count": 55617,
+          "by_role_seconds": {
+            "Outer wall": 52.55566895183406,
+            "pure-E": 36.046536749999255,
+            "travel": 34.288236369658975,
+            "Inner wall": 42.51151659330464,
+            "Bottom surface": 1.5476558006414363,
+            "Gap infill": 8.175486911746985,
+            "Top surface": 5.902938871712777,
+            "Internal solid infill": 16.439147583556416,
+            "Bridge": 2.5223963723434677,
+            "Sparse infill": 17.391230583514393,
+            "Overhang wall": 0.32463116080705867,
+            "Internal Bridge": 4.946985359761947
+          },
+          "minimum_cruise_ratio": 0,
+          "finite_queue": false,
+          "upstream_commit": "ce7002bedf37e938bb483572949f3703ac6476cb"
+        },
+        {
+          "seconds": 222.6524313088818,
+          "move_count": 55617,
+          "by_role_seconds": {
+            "Outer wall": 52.55566895183406,
+            "pure-E": 36.046536749999255,
+            "travel": 34.288236369658975,
+            "Inner wall": 42.51151659330464,
+            "Bottom surface": 1.5476558006414363,
+            "Gap infill": 8.175486911746985,
+            "Top surface": 5.902938871712777,
+            "Internal solid infill": 16.439147583556416,
+            "Bridge": 2.5223963723434677,
+            "Sparse infill": 17.391230583514393,
+            "Overhang wall": 0.32463116080705867,
+            "Internal Bridge": 4.946985359761947
+          },
+          "minimum_cruise_ratio": 0,
+          "finite_queue": true,
+          "upstream_commit": "ce7002bedf37e938bb483572949f3703ac6476cb"
+        },
+        {
+          "seconds": 233.29196683915893,
+          "move_count": 55617,
+          "by_role_seconds": {
+            "Outer wall": 55.53739499311362,
+            "pure-E": 36.046536749999255,
+            "travel": 36.12433992898829,
+            "Inner wall": 44.97342630689569,
+            "Bottom surface": 1.640164780943739,
+            "Gap infill": 8.599109096795418,
+            "Top surface": 6.282868591281703,
+            "Internal solid infill": 17.364018508286016,
+            "Bridge": 2.6809565624160796,
+            "Sparse infill": 18.493587206087103,
+            "Overhang wall": 0.3459833110124802,
+            "Internal Bridge": 5.203580803339379
+          },
+          "minimum_cruise_ratio": 0.5,
+          "finite_queue": true,
+          "upstream_commit": "ce7002bedf37e938bb483572949f3703ac6476cb"
+        }
+      ],
+      "difference_s_unlimited_queue": -3.543360946878238e-07
+    },
+    "cura-4.13.1-no-gap": {
+      "gcode_sha256": "292b6c01d7263fcfa42b071379ccd54e4c5f4c226a2bf8b8dbea8f4c6faa780e",
+      "study_seconds": 192.04359407438042,
+      "planner_runs": [
+        {
+          "seconds": 192.04359422752367,
+          "move_count": 101363,
+          "by_role_seconds": {
+            "WALL-INNER": 49.68882668075903,
+            "travel": 45.22102969724483,
+            "WALL-OUTER": 59.31186497625337,
+            "SKIN": 31.669401336832408,
+            "FILL": 6.1524715364343665
+          },
+          "minimum_cruise_ratio": 0,
+          "finite_queue": false,
+          "upstream_commit": "ce7002bedf37e938bb483572949f3703ac6476cb"
+        },
+        {
+          "seconds": 192.04359422752367,
+          "move_count": 101363,
+          "by_role_seconds": {
+            "WALL-INNER": 49.68882668075903,
+            "travel": 45.22102969724483,
+            "WALL-OUTER": 59.31186497625337,
+            "SKIN": 31.669401336832408,
+            "FILL": 6.1524715364343665
+          },
+          "minimum_cruise_ratio": 0,
+          "finite_queue": true,
+          "upstream_commit": "ce7002bedf37e938bb483572949f3703ac6476cb"
+        },
+        {
+          "seconds": 202.89240283605355,
+          "move_count": 101363,
+          "by_role_seconds": {
+            "WALL-INNER": 52.5961798958183,
+            "travel": 47.661309066242886,
+            "WALL-OUTER": 62.70611883969711,
+            "SKIN": 33.63470295608655,
+            "FILL": 6.2940920782093865
+          },
+          "minimum_cruise_ratio": 0.5,
+          "finite_queue": true,
+          "upstream_commit": "ce7002bedf37e938bb483572949f3703ac6476cb"
+        }
+      ],
+      "difference_s_unlimited_queue": 1.5314324741666496e-07
+    }
+  }
+}

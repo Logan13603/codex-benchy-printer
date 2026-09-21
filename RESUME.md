@@ -1,45 +1,32 @@
-# Current checkpoint 003 � supersedes budget and transmission assumptions below
+# Resume checkpoint 004
 
-User updated scope: $400 in additional delivered spending; already owns Pi, CPAP fan, hose, SD, cord, 9mm belts and pulleys, and some screws. Prefer 9mm drive. Ask no questions; continue useful digital evidence work. Final usage reserve requested: approximately 1%, replacing the previous 10% reserve. Latest observed at start of this turn: 7% remaining; checkpoint immediately to allow clean ending. No reset credits used.
+**Feasibility gate NOT PASSED. No detailed CAD authorized under the accepted gate until performance and budget are supported together.** Read engineering/FEASIBILITY.md first. Do not quietly change the target or budget.
 
-Read purchasing/OWNED-HARDWARE-REVISION.md first. Existing reference now estimates $505.40 delivered; $391.64 is only a target allocation to source. Existing blower identity/driver, Pi supply, belt pitch/tooth counts and full fastener inventory are unknown. Do not use old purchased-model masses or CPAP curves as measurements of owned parts.
+Current target: 50–55-second full-size SpeedBoatRace Benchy; physical acceptance is three consecutive compliant prints under 60 seconds. Budget: $400 NEW delivered spending. Owner has Pi, CPAP fan, fan pipe, SD, cord, 9 mm belts/pulleys and some screws. Prefer 9 mm. Exact models, pulley pitch/teeth/bore, hose geometry and fastener inventory are unknown. Ask no questions; make bounded assumptions explicit. User requested stopping with about 1% five-hour usage remaining; check usage at milestones and checkpoint early enough. No reset credit is authorized or used.
 
-Exact next operation: verify checkpoint 003 delta manifest and its parent checkpoint 002. Source real parts against the $391.64 allocation while continuing the compliant-slicing and planner-validation work below. Recalculate 9mm transmission inertia and geometry once dimensions are available. No detailed CAD until $400 incremental spend AND <=55s nominal with sub-60s margin are supported. Fusion state unchanged: blank, unsaved, no exports.
+## Completed at this checkpoint
 
-Checkpoint 003 is a text-only incremental archive to apply over checkpoint 002. Previous remote head: b31e36595334245d34058900442f1a55002c6dcf. Its parent preserves every trial model and binary; Git history and manifest preserve revised documents.
-
----
-Historical checkpoint 002 follows; its $500 and 10% reserve instructions are superseded above.
-
-# Resume checkpoint 002
-
-Status: engineering feasibility NOT PASSED. Stop before detailed CAD under the accepted plan. The user has requested no questions; continue evidence work within the original requirements if resumed. Do not change the budget, target, rules, or fabricate a final design.
-
-## Completed
-
-- Private repository created: https://github.com/Logan13603/codex-benchy-printer . Previous remote checkpoint commit 0a9c6dd61903e5eabe0e7aa201c81a733ede6563.
-- Official original mesh, checksum and OrcaSlicer 2.3.2 profiles preserved.
-- Actual Annex announcement rules found: https://www.youtube.com/watch?v=7zkKcFtLAks . Corrected prior mistaken video identity.
-- Five trial slices, width audit, six analytical motion tests, flow/heat/duct calculations, toolhead COM/inertia, architecture screening and candidate cost report.
-- Candidate reference: $643.90 delivered estimate; 4.08 kg approximate installed mass; 136 g short-Bowden head and 89.7 g bed.
-- No compliant toolpath, validated 55-second prediction, full torque/path model, or measured flow established. Detailed CAD, final BOM, wiring, firmware and fabrication files withheld.
+- Prior checkpoint 003 delta archive SHA256 matched its remote manifest at resume. Its parent checkpoint 002 remains preserved.
+- Current budget reference $505.40; $391.64 is an unquoted allocation, not a validated BOM.
+- Original mesh, checksum, frozen public rules and Orca 2.3.2 trials preserved.
+- Pinned CuraEngine 4.13.1 study: no-gap and simplified variants have zero definite numerical width violations; local feature coverage and physical compliance remain open.
+- Simplified G-code is byte-identical on re-slicing. Optimistic time 181.18 s at artificial 2,000 mm/s, 100,000 mm/s², SCV100 and Q200. Pinned Klipper planner agrees within one microsecond.
+- Same-path torque/pulley screen covers Cartesian, CoreXY, crossed gantry and center-linearized delta. No design selected. Direct-drive and Bowden mass/COM options are calculated; preferred 9 mm Bowden allowance totals 140 g.
+- No physical testing, purchases, manufacturing release or usable printer.cfg.
 
 ## Fusion state
 
-Default Project / Codex Benchy Printer was verified empty. Last inspected design: Untitled, blank, unsaved; mm/g units. No Fusion cloud version, F3D, STEP or manufacturing export exists. Refresh app/window identity before any future UI interaction. Use computer use, not Fusion MCP.
+Verified destination: Default Project / Codex Benchy Printer. Last inspected design: Untitled, blank, unsaved, mm/g. No Fusion edits were made in checkpoint 004. No cloud version, F3D, STEP or manufacturing export exists. Refresh the app/window identity before any UI work. Use computer use, never Fusion MCP for this request.
 
-## Exact next operation
+## Exact next operation on resume
 
-1. Verify checkpoint-002.zip SHA256 against the remote backup manifest, then verify extracted validation/file-manifest.json. Read FEASIBILITY.md and RULES.md before doing new work.
-2. Audit Orca width violations by role and segment, plus combined infill height and local shell/thin-feature coverage. Do not remove required geometry to hide a violation. Compare a second slicer if useful.
-3. Validate timing against a pinned real Klipper planner and a small independently known G-code case; investigate the high short-segment/corner time before drawing a stronger performance conclusion. Optimize seams, infill, orientations and tolerated path simplification only within the frozen rules.
-4. Only if a promising compliant path emerges, evaluate 16/20/24/32T pulley torque limits, all four kinematics, uncertain hose force and flow on that same path. Complete delivered quotes and material-specific small-nozzle flow evidence. Gate requires <=55s nominal and credible sub-60s margin within $500.
-5. Keep the gate unpassed otherwise. The existing feasibility report documents limits and alternatives; there is no authorization to quietly build a slower or more expensive printer.
+1. Read the remote checkpoint-004 manifest and compare local archive SHA256. Verify the extracted validation/file-manifest.json. Remote Git blob identity and full remote download/restore are separate checks; see validation/CHECKPOINT.md.
+2. Reassess the unpassed gate using new evidence only. Remaining useful digital work is to audit simplified Cura local shell/combined-infill coverage, or find a substantially different compliant path and demonstrate a major time improvement. Repeating the same capped scenarios does not justify CAD.
+3. Any promising path still needs exact <=0.5 mm nozzle/filament flow and extrusion-force evidence, actual motor/driver equivalence, complete delivered quotes and full nonlinear dynamics before architecture selection. Delta-center results cannot be promoted to nominal times. Owned parts cannot inherit BIQU or Pi Zero specifications without identification.
+4. Keep detailed CAD withheld if no candidate supports <=55 s nominal with credible sub-60 s uncertainty margin and <=$400 new delivered spending. The requested stop-at-feasibility outcome is documented; do not fabricate downstream deliverables.
 
-## Backups and usage
+## Runtime and reproduction
 
-Checkpoint 001 ZIP: SHA256 526cec3baf37acf965a8713ee20881712d9fd734f1362b7cb1fc6485a03a7555; Git blob f5813bc5fc68393a76b05d70683075c532bd5182. Remote Git blob matched the locally calculated content identifier. Connector binary fetch >1MB returned empty content, so full remote redownload/extract was not verified. Browser upload was blocked by extension file-URL permission; connector upload succeeded. No permission change needed for that route.
+Bundled Python is under C:/Users/logan/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe. Engineering tools use standard Python; figures additionally use matplotlib installed only in this task's work/python-libs. Cura extracted runtime is in work/cura413; its official installer/hash and reproducible runner are documented in slicing/CURA-REPRODUCTION.md. Runtime binaries are excluded from backups. Shared calculation files and immutable original model are in outputs/codex-benchy-printer.
 
-Checkpoint 002 details are in backups/checkpoint-002-manifest.json remotely and outputs/checkpoint-002-manifest.json locally. The manifest records the source commit, archive checksum, byte length and Git blob. Recheck before calling a backup independently restored. ZIP and file hashes verified locally; remote content identity verification is recorded separately.
-
-Usage last observed during report assembly: 74% five-hour, 33% weekly. Save/verify remote before ending this turn. At >=85% consumed start checkpointing; finish by roughly 90%. No reset credits used. Do not exhaust remaining usage deliberately or schedule an automatic restart.
+Repository: https://github.com/Logan13603/codex-benchy-printer . Checkpoint 003 parent head: 7d6120393d9c92f2b8c1c5d383e40a4243eb6950. Checkpoint 004 source commit and ZIP/blob identifiers are recorded in the external backup manifest after publication, avoiding a self-referential archive checksum.

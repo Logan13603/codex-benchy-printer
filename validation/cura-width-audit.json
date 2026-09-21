@@ -1,0 +1,1320 @@
+{
+  "cura-4.13.1": {
+    "path": "slicing\\cura-4.13.1\\analysis.gcode",
+    "sha256": "032cfc7698558cc9e07d57e229b05928982784d74d824fc04a5c14c1662119ea",
+    "max_permitted_width_mm": 0.5,
+    "deposition_volume_mm3": 9040.940801437326,
+    "roles": {
+      "WALL-INNER": {
+        "volume_mm3": 2915.3367136206084,
+        "segments": 35096,
+        "path_mm": 23674.316046513006,
+        "largest_raw_area_mm2": 0.12653628944029657
+      },
+      "WALL-OUTER": {
+        "volume_mm3": 3270.5693782990556,
+        "segments": 49736,
+        "path_mm": 26228.604114202997,
+        "largest_raw_area_mm2": 0.12653628944015077
+      },
+      "SKIN": {
+        "volume_mm3": 2105.0022527830592,
+        "segments": 7872,
+        "path_mm": 17540.495599620004,
+        "largest_raw_area_mm2": 0.2685529877977695
+      },
+      "FILL": {
+        "volume_mm3": 750.0324567351031,
+        "segments": 883,
+        "path_mm": 3194.4595797524194,
+        "largest_raw_area_mm2": 0.2501035153979533
+      }
+    },
+    "layers": [
+      0.25,
+      0.5,
+      0.75,
+      1.0,
+      1.25,
+      1.5,
+      1.75,
+      2.0,
+      2.25,
+      2.5,
+      2.75,
+      3.0,
+      3.25,
+      3.5,
+      3.75,
+      4.0,
+      4.25,
+      4.5,
+      4.75,
+      5.0,
+      5.25,
+      5.5,
+      5.75,
+      6.0,
+      6.25,
+      6.5,
+      6.75,
+      7.0,
+      7.25,
+      7.5,
+      7.75,
+      8.0,
+      8.25,
+      8.5,
+      8.75,
+      9.0,
+      9.25,
+      9.5,
+      9.75,
+      10.0,
+      10.25,
+      10.5,
+      10.75,
+      11.0,
+      11.25,
+      11.5,
+      11.75,
+      12.0,
+      12.25,
+      12.5,
+      12.75,
+      13.0,
+      13.25,
+      13.5,
+      13.75,
+      14.0,
+      14.25,
+      14.5,
+      14.75,
+      15.0,
+      15.25,
+      15.5,
+      15.75,
+      16.0,
+      16.25,
+      16.5,
+      16.75,
+      17.0,
+      17.25,
+      17.5,
+      17.75,
+      18.0,
+      18.25,
+      18.5,
+      18.75,
+      19.0,
+      19.25,
+      19.5,
+      19.75,
+      20.0,
+      20.25,
+      20.5,
+      20.75,
+      21.0,
+      21.25,
+      21.5,
+      21.75,
+      22.0,
+      22.25,
+      22.5,
+      22.75,
+      23.0,
+      23.25,
+      23.5,
+      23.75,
+      24.0,
+      24.25,
+      24.5,
+      24.75,
+      25.0,
+      25.25,
+      25.5,
+      25.75,
+      26.0,
+      26.25,
+      26.5,
+      26.75,
+      27.0,
+      27.25,
+      27.5,
+      27.75,
+      28.0,
+      28.25,
+      28.5,
+      28.75,
+      29.0,
+      29.25,
+      29.5,
+      29.75,
+      30.0,
+      30.25,
+      30.5,
+      30.75,
+      31.0,
+      31.25,
+      31.5,
+      31.75,
+      32.0,
+      32.25,
+      32.5,
+      32.75,
+      33.0,
+      33.25,
+      33.5,
+      33.75,
+      34.0,
+      34.25,
+      34.5,
+      34.75,
+      35.0,
+      35.25,
+      35.5,
+      35.75,
+      36.0,
+      36.25,
+      36.5,
+      36.75,
+      37.0,
+      37.25,
+      37.5,
+      37.75,
+      38.0,
+      38.25,
+      38.5,
+      38.75,
+      39.0,
+      39.25,
+      39.5,
+      39.75,
+      40.0,
+      40.25,
+      40.5,
+      40.75,
+      41.0,
+      41.25,
+      41.5,
+      41.75,
+      42.0,
+      42.25,
+      42.5,
+      42.75,
+      43.0,
+      43.25,
+      43.5,
+      43.75,
+      44.0,
+      44.25,
+      44.5,
+      44.75,
+      45.0,
+      45.25,
+      45.5,
+      45.75,
+      46.0,
+      46.25,
+      46.5,
+      46.75,
+      47.0,
+      47.25,
+      47.5,
+      47.75,
+      48.0
+    ],
+    "certain_width_violations": [
+      {
+        "line": 68167,
+        "role": "SKIN",
+        "minimum_width_mm": 0.9138166337053483,
+        "z": 21.25
+      },
+      {
+        "line": 68168,
+        "role": "SKIN",
+        "minimum_width_mm": 0.9149657584805602,
+        "z": 21.25
+      },
+      {
+        "line": 70688,
+        "role": "SKIN",
+        "minimum_width_mm": 1.0703998668097834,
+        "z": 22.25
+      },
+      {
+        "line": 71670,
+        "role": "SKIN",
+        "minimum_width_mm": 0.8529827613144263,
+        "z": 22.5
+      },
+      {
+        "line": 71831,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5646364667714648,
+        "z": 22.75
+      },
+      {
+        "line": 71832,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5673565428188606,
+        "z": 22.75
+      },
+      {
+        "line": 71833,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5646214369314828,
+        "z": 22.75
+      },
+      {
+        "line": 72458,
+        "role": "SKIN",
+        "minimum_width_mm": 0.689074495971642,
+        "z": 23.0
+      },
+      {
+        "line": 72459,
+        "role": "SKIN",
+        "minimum_width_mm": 0.6911775842319311,
+        "z": 23.0
+      },
+      {
+        "line": 72460,
+        "role": "SKIN",
+        "minimum_width_mm": 0.6879393953023273,
+        "z": 23.0
+      },
+      {
+        "line": 74302,
+        "role": "SKIN",
+        "minimum_width_mm": 0.6624606902366414,
+        "z": 23.75
+      },
+      {
+        "line": 74303,
+        "role": "SKIN",
+        "minimum_width_mm": 0.6641422125959995,
+        "z": 23.75
+      },
+      {
+        "line": 74304,
+        "role": "SKIN",
+        "minimum_width_mm": 0.6609668879173497,
+        "z": 23.75
+      },
+      {
+        "line": 75510,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5895671107600635,
+        "z": 24.25
+      },
+      {
+        "line": 75511,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5929267946973716,
+        "z": 24.25
+      },
+      {
+        "line": 75512,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5895588680701759,
+        "z": 24.25
+      },
+      {
+        "line": 78023,
+        "role": "SKIN",
+        "minimum_width_mm": 0.7158349150244931,
+        "z": 25.25
+      },
+      {
+        "line": 79259,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5229082478255497,
+        "z": 26.0
+      },
+      {
+        "line": 79260,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5242619286225323,
+        "z": 26.0
+      },
+      {
+        "line": 79261,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5246998437414223,
+        "z": 26.0
+      },
+      {
+        "line": 84482,
+        "role": "SKIN",
+        "minimum_width_mm": 0.6355530139226565,
+        "z": 33.25
+      },
+      {
+        "line": 87351,
+        "role": "SKIN",
+        "minimum_width_mm": 0.8952463229508959,
+        "z": 37.0
+      },
+      {
+        "line": 95977,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5047504421905312,
+        "z": 41.75
+      },
+      {
+        "line": 95978,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5075992384604427,
+        "z": 41.75
+      },
+      {
+        "line": 95979,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5071090601455343,
+        "z": 41.75
+      },
+      {
+        "line": 95980,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5063099834719824,
+        "z": 41.75
+      },
+      {
+        "line": 96221,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5157196796441856,
+        "z": 42.0
+      },
+      {
+        "line": 96222,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5167525268248842,
+        "z": 42.0
+      },
+      {
+        "line": 96223,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5167703350492763,
+        "z": 42.0
+      },
+      {
+        "line": 96224,
+        "role": "SKIN",
+        "minimum_width_mm": 0.516841435997811,
+        "z": 42.0
+      },
+      {
+        "line": 96225,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5163156559557087,
+        "z": 42.0
+      },
+      {
+        "line": 96226,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5154621432249783,
+        "z": 42.0
+      },
+      {
+        "line": 96468,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5265470001848729,
+        "z": 42.25
+      },
+      {
+        "line": 96469,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5295734853349434,
+        "z": 42.25
+      },
+      {
+        "line": 96470,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5289199528089154,
+        "z": 42.25
+      },
+      {
+        "line": 96471,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5282374812861494,
+        "z": 42.25
+      },
+      {
+        "line": 96710,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5362901690400471,
+        "z": 42.5
+      },
+      {
+        "line": 96711,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5374060413218361,
+        "z": 42.5
+      },
+      {
+        "line": 96712,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5375067178120994,
+        "z": 42.5
+      },
+      {
+        "line": 96713,
+        "role": "SKIN",
+        "minimum_width_mm": 0.537483761336764,
+        "z": 42.5
+      },
+      {
+        "line": 96714,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5368556237215473,
+        "z": 42.5
+      },
+      {
+        "line": 96715,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5361431643106543,
+        "z": 42.5
+      },
+      {
+        "line": 96945,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5471151295879975,
+        "z": 42.75
+      },
+      {
+        "line": 96946,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5500145496767259,
+        "z": 42.75
+      },
+      {
+        "line": 96947,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5494400048170877,
+        "z": 42.75
+      },
+      {
+        "line": 96948,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5485760367153487,
+        "z": 42.75
+      },
+      {
+        "line": 97187,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5575007115056761,
+        "z": 43.0
+      },
+      {
+        "line": 97188,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5585507674639152,
+        "z": 43.0
+      },
+      {
+        "line": 97189,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5586750760974001,
+        "z": 43.0
+      },
+      {
+        "line": 97190,
+        "role": "SKIN",
+        "minimum_width_mm": 0.558687431816881,
+        "z": 43.0
+      },
+      {
+        "line": 97191,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5580391302792074,
+        "z": 43.0
+      },
+      {
+        "line": 97192,
+        "role": "SKIN",
+        "minimum_width_mm": 0.557271406161057,
+        "z": 43.0
+      },
+      {
+        "line": 97443,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5611237890420517,
+        "z": 43.25
+      },
+      {
+        "line": 97444,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5628927704620805,
+        "z": 43.25
+      },
+      {
+        "line": 97445,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5630267048328483,
+        "z": 43.25
+      },
+      {
+        "line": 97446,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5627515723690852,
+        "z": 43.25
+      },
+      {
+        "line": 97447,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5625077383609262,
+        "z": 43.25
+      },
+      {
+        "line": 97449,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5006935356496843,
+        "z": 43.25
+      },
+      {
+        "line": 97450,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5007450728960039,
+        "z": 43.25
+      },
+      {
+        "line": 97451,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5007468075546615,
+        "z": 43.25
+      },
+      {
+        "line": 97455,
+        "role": "SKIN",
+        "minimum_width_mm": 0.6477507853510475,
+        "z": 43.25
+      },
+      {
+        "line": 97456,
+        "role": "SKIN",
+        "minimum_width_mm": 0.649697354123994,
+        "z": 43.25
+      },
+      {
+        "line": 97457,
+        "role": "SKIN",
+        "minimum_width_mm": 0.6463706134669055,
+        "z": 43.25
+      },
+      {
+        "line": 97680,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5778421863570623,
+        "z": 43.5
+      },
+      {
+        "line": 97681,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5790081550400118,
+        "z": 43.5
+      },
+      {
+        "line": 97682,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5791345295634596,
+        "z": 43.5
+      },
+      {
+        "line": 97683,
+        "role": "SKIN",
+        "minimum_width_mm": 0.579172038132285,
+        "z": 43.5
+      },
+      {
+        "line": 97684,
+        "role": "SKIN",
+        "minimum_width_mm": 0.578462550673185,
+        "z": 43.5
+      },
+      {
+        "line": 97685,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5777596883398947,
+        "z": 43.5
+      },
+      {
+        "line": 97689,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5129051211232288,
+        "z": 43.5
+      },
+      {
+        "line": 97690,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5140068125680544,
+        "z": 43.5
+      },
+      {
+        "line": 97691,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5140418648309426,
+        "z": 43.5
+      },
+      {
+        "line": 97692,
+        "role": "SKIN",
+        "minimum_width_mm": 0.514091005898205,
+        "z": 43.5
+      },
+      {
+        "line": 97693,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5136595987887792,
+        "z": 43.5
+      },
+      {
+        "line": 97694,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5129688182152985,
+        "z": 43.5
+      },
+      {
+        "line": 97695,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5142546181020552,
+        "z": 43.5
+      },
+      {
+        "line": 97938,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5164118586964743,
+        "z": 43.75
+      },
+      {
+        "line": 97939,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5164043125270729,
+        "z": 43.75
+      },
+      {
+        "line": 97940,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5164697142563297,
+        "z": 43.75
+      },
+      {
+        "line": 97944,
+        "role": "SKIN",
+        "minimum_width_mm": 0.6735778474405448,
+        "z": 43.75
+      },
+      {
+        "line": 97945,
+        "role": "SKIN",
+        "minimum_width_mm": 0.6757076589503992,
+        "z": 43.75
+      },
+      {
+        "line": 97946,
+        "role": "SKIN",
+        "minimum_width_mm": 0.6723069522130697,
+        "z": 43.75
+      },
+      {
+        "line": 98171,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5988342729766798,
+        "z": 44.0
+      },
+      {
+        "line": 98172,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5998984950853252,
+        "z": 44.0
+      },
+      {
+        "line": 98173,
+        "role": "SKIN",
+        "minimum_width_mm": 0.6000653990079985,
+        "z": 44.0
+      },
+      {
+        "line": 98174,
+        "role": "SKIN",
+        "minimum_width_mm": 0.6000065595199311,
+        "z": 44.0
+      },
+      {
+        "line": 98175,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5994358863935442,
+        "z": 44.0
+      },
+      {
+        "line": 98176,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5985741141719902,
+        "z": 44.0
+      },
+      {
+        "line": 98180,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5332350211048928,
+        "z": 44.0
+      },
+      {
+        "line": 98181,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5346055728324993,
+        "z": 44.0
+      },
+      {
+        "line": 98182,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5347116817884352,
+        "z": 44.0
+      },
+      {
+        "line": 98183,
+        "role": "SKIN",
+        "minimum_width_mm": 0.53471425190394,
+        "z": 44.0
+      },
+      {
+        "line": 98184,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5341672524413054,
+        "z": 44.0
+      },
+      {
+        "line": 98185,
+        "role": "SKIN",
+        "minimum_width_mm": 0.5334999413174679,
+        "z": 44.0
+      },
+      {
+        "line": 98186,
+        "role": "SKIN",
+        "minimum_width_mm": 0.534854278181274,
+        "z": 44.0
+      }
+    ],
+    "bounds_mm": [
+      [
+        10.25,
+        24.748,
+        0.25
+      ],
+      [
+        69.748,
+        55.252,
+        48.0
+      ]
+    ],
+    "layer_count": 192,
+    "layer_steps_mm": [
+      0.25
+    ],
+    "limitations": [
+      "Flow audit uses Cura rectangular cross section and permitted .5mm combined infill thickness.",
+      "Does not certify local infill stacking, two-wall coverage of every narrow feature, actual bead width, or physical dimensional accuracy.",
+      "Header TIME:6666 and Filament used:0 are CLI placeholders, not measured values.",
+      "No-gap variant omits optional fill between walls, while retaining thin-outline printing; physical pinholes/coverage require inspection."
+    ]
+  },
+  "cura-4.13.1-no-gap": {
+    "path": "slicing\\cura-4.13.1-no-gap\\analysis.gcode",
+    "sha256": "292b6c01d7263fcfa42b071379ccd54e4c5f4c226a2bf8b8dbea8f4c6faa780e",
+    "max_permitted_width_mm": 0.5,
+    "deposition_volume_mm3": 8923.71599779206,
+    "roles": {
+      "WALL-INNER": {
+        "volume_mm3": 2915.3275013910256,
+        "segments": 35097,
+        "path_mm": 23674.321046513007,
+        "largest_raw_area_mm2": 0.12653628944029657
+      },
+      "WALL-OUTER": {
+        "volume_mm3": 3270.5693782990556,
+        "segments": 49736,
+        "path_mm": 26228.604114202997,
+        "largest_raw_area_mm2": 0.12653628944015077
+      },
+      "SKIN": {
+        "volume_mm3": 1987.7866613673516,
+        "segments": 6794,
+        "path_mm": 15911.677887755464,
+        "largest_raw_area_mm2": 0.1262772984587038
+      },
+      "FILL": {
+        "volume_mm3": 750.0324567351031,
+        "segments": 883,
+        "path_mm": 3194.4595797524194,
+        "largest_raw_area_mm2": 0.2501035153979533
+      }
+    },
+    "layers": [
+      0.25,
+      0.5,
+      0.75,
+      1.0,
+      1.25,
+      1.5,
+      1.75,
+      2.0,
+      2.25,
+      2.5,
+      2.75,
+      3.0,
+      3.25,
+      3.5,
+      3.75,
+      4.0,
+      4.25,
+      4.5,
+      4.75,
+      5.0,
+      5.25,
+      5.5,
+      5.75,
+      6.0,
+      6.25,
+      6.5,
+      6.75,
+      7.0,
+      7.25,
+      7.5,
+      7.75,
+      8.0,
+      8.25,
+      8.5,
+      8.75,
+      9.0,
+      9.25,
+      9.5,
+      9.75,
+      10.0,
+      10.25,
+      10.5,
+      10.75,
+      11.0,
+      11.25,
+      11.5,
+      11.75,
+      12.0,
+      12.25,
+      12.5,
+      12.75,
+      13.0,
+      13.25,
+      13.5,
+      13.75,
+      14.0,
+      14.25,
+      14.5,
+      14.75,
+      15.0,
+      15.25,
+      15.5,
+      15.75,
+      16.0,
+      16.25,
+      16.5,
+      16.75,
+      17.0,
+      17.25,
+      17.5,
+      17.75,
+      18.0,
+      18.25,
+      18.5,
+      18.75,
+      19.0,
+      19.25,
+      19.5,
+      19.75,
+      20.0,
+      20.25,
+      20.5,
+      20.75,
+      21.0,
+      21.25,
+      21.5,
+      21.75,
+      22.0,
+      22.25,
+      22.5,
+      22.75,
+      23.0,
+      23.25,
+      23.5,
+      23.75,
+      24.0,
+      24.25,
+      24.5,
+      24.75,
+      25.0,
+      25.25,
+      25.5,
+      25.75,
+      26.0,
+      26.25,
+      26.5,
+      26.75,
+      27.0,
+      27.25,
+      27.5,
+      27.75,
+      28.0,
+      28.25,
+      28.5,
+      28.75,
+      29.0,
+      29.25,
+      29.5,
+      29.75,
+      30.0,
+      30.25,
+      30.5,
+      30.75,
+      31.0,
+      31.25,
+      31.5,
+      31.75,
+      32.0,
+      32.25,
+      32.5,
+      32.75,
+      33.0,
+      33.25,
+      33.5,
+      33.75,
+      34.0,
+      34.25,
+      34.5,
+      34.75,
+      35.0,
+      35.25,
+      35.5,
+      35.75,
+      36.0,
+      36.25,
+      36.5,
+      36.75,
+      37.0,
+      37.25,
+      37.5,
+      37.75,
+      38.0,
+      38.25,
+      38.5,
+      38.75,
+      39.0,
+      39.25,
+      39.5,
+      39.75,
+      40.0,
+      40.25,
+      40.5,
+      40.75,
+      41.0,
+      41.25,
+      41.5,
+      41.75,
+      42.0,
+      42.25,
+      42.5,
+      42.75,
+      43.0,
+      43.25,
+      43.5,
+      43.75,
+      44.0,
+      44.25,
+      44.5,
+      44.75,
+      45.0,
+      45.25,
+      45.5,
+      45.75,
+      46.0,
+      46.25,
+      46.5,
+      46.75,
+      47.0,
+      47.25,
+      47.5,
+      47.75,
+      48.0
+    ],
+    "certain_width_violations": [],
+    "bounds_mm": [
+      [
+        10.25,
+        24.748,
+        0.25
+      ],
+      [
+        69.748,
+        55.252,
+        48.0
+      ]
+    ],
+    "layer_count": 192,
+    "layer_steps_mm": [
+      0.25
+    ],
+    "limitations": [
+      "Flow audit uses Cura rectangular cross section and permitted .5mm combined infill thickness.",
+      "Does not certify local infill stacking, two-wall coverage of every narrow feature, actual bead width, or physical dimensional accuracy.",
+      "Header TIME:6666 and Filament used:0 are CLI placeholders, not measured values.",
+      "No-gap variant omits optional fill between walls, while retaining thin-outline printing; physical pinholes/coverage require inspection."
+    ]
+  },
+  "cura-4.13.1-simplified": {
+    "path": "slicing\\cura-4.13.1-simplified\\analysis.gcode",
+    "sha256": "0c9b7be63971d47e277d7d356e355679426fbcb2a8689739ef0f186c0d45722d",
+    "max_permitted_width_mm": 0.5,
+    "deposition_volume_mm3": 8919.340116581909,
+    "roles": {
+      "WALL-INNER": {
+        "volume_mm3": 2916.0766985896084,
+        "segments": 24385,
+        "path_mm": 23674.21899938088,
+        "largest_raw_area_mm2": 0.12653628944029657
+      },
+      "WALL-OUTER": {
+        "volume_mm3": 3270.0895005118145,
+        "segments": 31245,
+        "path_mm": 26218.69404606456,
+        "largest_raw_area_mm2": 0.12615567915047693
+      },
+      "SKIN": {
+        "volume_mm3": 1987.878615293443,
+        "segments": 5293,
+        "path_mm": 15912.41694488851,
+        "largest_raw_area_mm2": 0.1262772984587038
+      },
+      "FILL": {
+        "volume_mm3": 745.2953021871315,
+        "segments": 779,
+        "path_mm": 3156.610288662486,
+        "largest_raw_area_mm2": 0.2501035153979533
+      }
+    },
+    "layers": [
+      0.25,
+      0.5,
+      0.75,
+      1.0,
+      1.25,
+      1.5,
+      1.75,
+      2.0,
+      2.25,
+      2.5,
+      2.75,
+      3.0,
+      3.25,
+      3.5,
+      3.75,
+      4.0,
+      4.25,
+      4.5,
+      4.75,
+      5.0,
+      5.25,
+      5.5,
+      5.75,
+      6.0,
+      6.25,
+      6.5,
+      6.75,
+      7.0,
+      7.25,
+      7.5,
+      7.75,
+      8.0,
+      8.25,
+      8.5,
+      8.75,
+      9.0,
+      9.25,
+      9.5,
+      9.75,
+      10.0,
+      10.25,
+      10.5,
+      10.75,
+      11.0,
+      11.25,
+      11.5,
+      11.75,
+      12.0,
+      12.25,
+      12.5,
+      12.75,
+      13.0,
+      13.25,
+      13.5,
+      13.75,
+      14.0,
+      14.25,
+      14.5,
+      14.75,
+      15.0,
+      15.25,
+      15.5,
+      15.75,
+      16.0,
+      16.25,
+      16.5,
+      16.75,
+      17.0,
+      17.25,
+      17.5,
+      17.75,
+      18.0,
+      18.25,
+      18.5,
+      18.75,
+      19.0,
+      19.25,
+      19.5,
+      19.75,
+      20.0,
+      20.25,
+      20.5,
+      20.75,
+      21.0,
+      21.25,
+      21.5,
+      21.75,
+      22.0,
+      22.25,
+      22.5,
+      22.75,
+      23.0,
+      23.25,
+      23.5,
+      23.75,
+      24.0,
+      24.25,
+      24.5,
+      24.75,
+      25.0,
+      25.25,
+      25.5,
+      25.75,
+      26.0,
+      26.25,
+      26.5,
+      26.75,
+      27.0,
+      27.25,
+      27.5,
+      27.75,
+      28.0,
+      28.25,
+      28.5,
+      28.75,
+      29.0,
+      29.25,
+      29.5,
+      29.75,
+      30.0,
+      30.25,
+      30.5,
+      30.75,
+      31.0,
+      31.25,
+      31.5,
+      31.75,
+      32.0,
+      32.25,
+      32.5,
+      32.75,
+      33.0,
+      33.25,
+      33.5,
+      33.75,
+      34.0,
+      34.25,
+      34.5,
+      34.75,
+      35.0,
+      35.25,
+      35.5,
+      35.75,
+      36.0,
+      36.25,
+      36.5,
+      36.75,
+      37.0,
+      37.25,
+      37.5,
+      37.75,
+      38.0,
+      38.25,
+      38.5,
+      38.75,
+      39.0,
+      39.25,
+      39.5,
+      39.75,
+      40.0,
+      40.25,
+      40.5,
+      40.75,
+      41.0,
+      41.25,
+      41.5,
+      41.75,
+      42.0,
+      42.25,
+      42.5,
+      42.75,
+      43.0,
+      43.25,
+      43.5,
+      43.75,
+      44.0,
+      44.25,
+      44.5,
+      44.75,
+      45.0,
+      45.25,
+      45.5,
+      45.75,
+      46.0,
+      46.25,
+      46.5,
+      46.75,
+      47.0,
+      47.25,
+      47.5,
+      47.75,
+      48.0
+    ],
+    "certain_width_violations": [],
+    "bounds_mm": [
+      [
+        10.25,
+        24.748,
+        0.25
+      ],
+      [
+        69.748,
+        55.252,
+        48.0
+      ]
+    ],
+    "layer_count": 192,
+    "layer_steps_mm": [
+      0.25
+    ],
+    "limitations": [
+      "Flow audit uses Cura rectangular cross section and permitted .5mm combined infill thickness.",
+      "Does not certify local infill stacking, two-wall coverage of every narrow feature, actual bead width, or physical dimensional accuracy.",
+      "Header TIME:6666 and Filament used:0 are CLI placeholders, not measured values.",
+      "No-gap variant omits optional fill between walls, while retaining thin-outline printing; physical pinholes/coverage require inspection."
+    ]
+  }
+}

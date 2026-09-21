@@ -6,7 +6,7 @@ Primary source: [Annex Engineering challenge announcement](https://www.youtube.c
 |---|---|---|
 | Model | Original single-part CreativeTools mesh, scale 1:1, normal upright orientation | File hash and bounds in provenance.json |
 | Filament | Plain PLA selected; allowed families also include PLA+, PETG, ASA, ABS/ABS+. No filled, metallic or silk material | Formulation and spool not frozen |
-| Nozzle and width | Each <=0.50 mm | Nominal profiles pass; generated width audit FAILS |
+| Nozzle and width | Each <=0.50 mm | Orca generated-width audit fails; Cura no-gap/simplified have zero definite numerical violations; physical/local coverage audit remains open |
 | Layer height | <=0.25 mm | 192 layers, 48 mm height; base profiles 0.25 mm |
 | Infill exception | Combining pairs of infill layers is permitted | Separate optimistic trial; verify effective toolpath height |
 | Shells | Two walls; three top and three bottom layers | Profile values verified; local small-feature coverage not certified |

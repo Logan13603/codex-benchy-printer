@@ -57,10 +57,10 @@ def parse(path):
     return moves[dep[0]:dep[-1]+1]
 
 def duration(moves, flow=100., vmax=1500., accel=50000., scv=20.,
-             first_layer_cap=None, honor_feed=False, corexy=False):
+             first_layer_cap=None, honor_feed=False, corexy=False, axis_caps=None):
     n=len(moves); limits=[]; aa=[]
     jd=scv**2*(math.sqrt(2)-1)/accel
-    for m in moves:
+    for index,m in enumerate(moves):
         if not m.xyz:
             v=min(40.,m.feed); a=5000.
         else:
@@ -75,6 +75,8 @@ def duration(moves, flow=100., vmax=1500., accel=50000., scv=20.,
                 if ratio>0: v=min(v,vmax/ratio)
             if first_layer_cap is not None and m.z<=0.251 and m.e>0:
                 v=min(v,first_layer_cap)
+            if axis_caps is not None:
+                v=min(v,axis_caps[index][0]); a=min(a,axis_caps[index][1])
         limits.append(v*v); aa.append(a)
     junction=[0.]*(n+1)
     for i in range(1,n):
@@ -119,8 +121,8 @@ def summarize(moves):
                 pure_e_moves=sum(not m.xyz for m in moves),
                 minimum_average_flow_55s=volume/55,minimum_average_flow_60s=volume/60,
                 ideal_flow_only_s={str(q):volume/q for q in (50,75,100,150,200)},
-                nominal_width_min_mm=min(m.width for m in dep),
-                nominal_width_max_mm=max(m.width for m in dep),
+                nominal_width_min_mm=min((m.width for m in dep if m.width>0),default=None),
+                nominal_width_max_mm=max((m.width for m in dep if m.width>0),default=None),
                 layer_count=len(set(m.z for m in dep)),volume_by_role_mm3=roles)
 
 def run():
