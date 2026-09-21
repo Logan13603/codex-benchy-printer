@@ -1,11 +1,11 @@
-# Checkpoint 004 verification and backups
+# Checkpoint 005 verification and backups
 
-Feasibility gate remains unpassed. Numerical validation is detailed in NUMERICAL-VERIFICATION.md. All CAD, hardware, wiring and physical-performance acceptance checks remain pending because no design is released.
+Revision C removes the hard budget cap and preserves new timing and motor requirements. It does not pass the performance gate. No CAD, cloud version, native archive, STEP, hardware or physical-performance result exists.
 
-Checkpoint 004 is a complete snapshot, superseding the checkpoint 002 + 003-delta restore chain. `validation/file-manifest.json` lists SHA256 hashes of the snapshot files, excluding itself. The external `backups/checkpoint-004-manifest.json` links the complete ZIP, its SHA256 and Git blob, the source Git commit, and the absence of a Fusion version. Archive creation checks every file hash and ZIP CRC locally.
+Checkpoint 005 is a complete engineering snapshot. validation/file-manifest.json lists per-file SHA256 hashes excluding itself. The external backups/checkpoint-005-manifest.json links the ZIP SHA256, Git blob identity and complete source commit. Earlier snapshots are preserved. The packaging step checks ZIP CRC, all archived hashes, Markdown links, UTF-8 and historical BOM arithmetic.
 
-The remote publishing step compares returned Git blob identifiers with locally calculated Git content identifiers and reads back the manifest. This verifies remote content identity. **Full remote ZIP redownload and extraction are not verified**: the connector's large-file fetch has returned no binary content. Do not call this an independently demonstrated remote restore. A later resume should repeat the identifier checks and perform a full download/restore if a supported route becomes available.
+Remote verification compares returned Git content identifiers and reads back the manifest. **Full remote ZIP redownload and extraction are not verified**; the connector previously returned metadata without binary content for large files. Do not describe identifier verification as a demonstrated downloaded restore. The external manifest records exactly what succeeded during publication.
 
-The GitHub connector has file/tree/commit tools but no release-asset creation tool in this session. Interim engineering ZIPs are stored under the private repository's backups directory. Native CAD release assets remain a future requirement when CAD exists; no F3D or STEP is being represented as backed up now. Earlier checkpoints and rejected trials are preserved, not overwritten.
+The connector has no release-asset creation tool in this session. Interim engineering ZIPs remain in the private repository backups directory. Native CAD release assets are a future requirement when CAD exists. No CAD has been represented as backed up.
 
-No Fusion changes in this checkpoint. Last verified cloud folder: Default Project / Codex Benchy Printer; last inspected design blank and unsaved. No paid services, parts orders, resets or external messages were used.
+Fusion remained blank and unsaved; attempted layout command search did not create geometry. Other window input was detected and UI work stopped. No purchases, reset credits or messages to others occurred.

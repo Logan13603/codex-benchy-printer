@@ -1,3 +1,11 @@
+# Numerical verification — checkpoint 005 additions
+
+`engineering/expanded_study.py` checks ideal-drive scaling and load/rotor inertia equivalence, then compares the hypothetical 51.748792767 s case to pinned Klipper planner classes within 0.00001 s. Finite queue gives the same rounded time; minimum cruise ratio 0.5 gives 52.603027 s. The same hardware/thermal/quality exclusions below remain. The new scenario is not a measured or validated printer capability.
+
+The ideal-axis formula is verified algebraically by differentiating acceleration with respect to pulley radius: its maximum occurs at r²=nJ/M. Four identical motors double that ideal maximum relative to one, rather than quadrupling it, after the optimum radius is adjusted. This is not a CoreXY/delta model.
+
+Historical checkpoint 004 checks follow.
+
 # Numerical verification — checkpoint 004
 
 Results are calculated or reproduced digitally. None is a physical machine measurement.

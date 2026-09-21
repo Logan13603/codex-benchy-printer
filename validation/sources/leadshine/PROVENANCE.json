@@ -1,0 +1,14 @@
+{
+  "source": "https://www.leadshine.com/upfiles/downloads/8f66e29fa95d747093441b0b5a08db35_1759218411154.pdf",
+  "retrieved": "2026-09-21",
+  "original_bytes": 46059179,
+  "original_sha256": "e8faaf19f467c0de3eb30ff0ced0536489f67cb08610ed0c5bdc4f9815eb9062",
+  "excerpt_original_pdf_page_indices_zero_based": [
+    25,
+    26
+  ],
+  "printed_pages": "47-50",
+  "excerpt_sha256": "5973b038edc22eff6a3e77059b664dbbc0d9fcb36ac8996c88f31ea79d4c0b37",
+  "copyright": "Leadshine manufacturer catalog; source reference excerpt, not project-authored content.",
+  "interpretation": "Read rotor inertia units as 1e-4 kg m2. 86CM120 operating curve is lower than its holding torque; 9 Nm near 200 rpm is an approximate visual screening value, not a certified curve table."
+}

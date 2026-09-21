@@ -1,22 +1,22 @@
 # Codex Benchy Printer
 
-**Checkpoint 004: feasibility gate not passed.** Target: a full-size SpeedBoatRace Benchy in 50–55 seconds, with at most **$400 in new delivered spending**, using the owner's existing Pi, CPAP blower/hose, SD/cord, 9 mm belts/pulleys and some screws.
+**Checkpoint 005: budget cap removed; optimize the cheapest credible sub-minute design.** Target: full-size compliant SpeedBoatRace Benchy in 50–55 seconds, then three consecutive physical prints under 60 seconds.
 
-[Open the feasibility report](engineering/FEASIBILITY.md) · [Cost study](purchasing/CANDIDATE-BOM.md) · [Resume state](RESUME.md)
+[Open the current feasibility report](engineering/FEASIBILITY.md) · [Design basis](engineering/DESIGN-BASIS-C.md) · [Resume state](RESUME.md)
 
-The latest fixed-width trial takes **181.18 seconds** under aggressive, unproven motion/flow assumptions. Its numerical width audit finds no definite violations, but does not certify every local feature or physical print. A pinned Klipper planner independently reproduces the timing arithmetic. The reference parts list remains **$505.40 estimated delivered** after owned-part credits; a cheaper complete system with adequate flow is not established.
+The expanded study calculates **51.75 seconds** at hypothetical 204 g acceleration and 300 mm³/s flow. A pinned Klipper planner reproduces the arithmetic. Hardware capability and physical quality remain unproven; a combined shortfall case takes **70.29 seconds**. The preferred direction is a stationary-XY hotend and a very light XY bed. The detailed mechanism is still being engineered.
 
-No detailed CAD, final wiring, build firmware or manufacturing release exists. This follows the accepted instruction to stop before detailed CAD if performance and budget cannot be supported together. It does not establish universal impossibility.
+Existing Pi, CPAP blower/hose, SD/cord, 9 mm belts/pulleys and some screws remain credited. There is no current validated total price. Earlier $400 caps and conventional-printer cost studies are historical.
 
 | Folder | Contents |
 |---|---|
-| engineering | Feasibility, four-architecture comparison, mass/COM, torque, timing, heat and duct calculations |
-| purchasing | Candidate parts, owned-inventory credits, prices and cost assumptions |
-| slicing | Unchanged original mesh, rules, profiles, trial G-code and reproducible slicing tools |
-| validation | Planner verification, width audits, third-party provenance, checksums and backup status |
-| cad / manufacturing | Reserved for gated Fusion and fabrication deliverables |
-| electronics / firmware / assembly | Reserved for the selected hardware and released build instructions |
+| engineering | Current feasibility, architecture studies, mass/COM, timing, torque, heat and cooling calculations |
+| purchasing | Historical candidate pricing and owned-inventory credits; no frozen new BOM |
+| slicing | Original mesh, frozen public rules, slicer trials and reproduction tools |
+| validation | Planner checks, width audits, primary-source provenance and backup manifests |
+| cad / manufacturing | Reserved for the gated Fusion and fabrication deliverables |
+| electronics / firmware / assembly | Reserved for selected hardware and released instructions |
 
-Fusion destination: **Default Project / Codex Benchy Printer**. Last verified design: blank and unsaved. All trial G-code is analysis evidence and must not be sent to a printer. No parts have been purchased.
+Fusion destination: **Default Project / Codex Benchy Printer**. No detailed CAD, wiring release, build firmware, parts purchase or physical result exists. All trial G-code is analysis evidence, not printer-ready output.
 
-Checkpoint 004 is a complete local snapshot. Historical checkpoints remain in Git history and `backups/`; see [backup verification](validation/CHECKPOINT.md). Large native CAD archives will use release assets when CAD exists; interim engineering ZIPs are currently stored in the private repository.
+Checkpoint 005 preserves the revised study; [backup status](validation/CHECKPOINT.md) distinguishes remote content-identity verification from a full download/restore. Historical checkpoints remain in Git history and backups.

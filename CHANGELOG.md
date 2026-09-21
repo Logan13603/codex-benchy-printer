@@ -1,3 +1,9 @@
+# Checkpoint 005 — 2026-09-21
+
+User removed the hard budget; lowest credible cost remains the objective. Expanded the same-path study to 0.5–3 million mm/s², found a hypothetical 51.75-second scenario, validated planner arithmetic, and quantified first-layer/flow/velocity uncertainty. Added primary motor catalog evidence, ideal torque/inertia bounds and a load-angle accuracy warning. Preferred study direction is stationary-XY hotend/light XY bed; detailed mechanism, cost and performance gate remain unresolved. No CAD or hardware capability is claimed.
+
+Earlier budget caps are historical and superseded by design basis C.
+
 # Checkpoint 004 — 2026-09-20
 
 Validated timing against pinned Klipper planner classes; added independent Cura fixed-width trials, rounding-aware extrusion-width audit, a controlled simplification trial and byte-identical re-slicing. Added a shared-path four-architecture torque/pulley screen, 9 mm head mass allowance, additional low-cost hotend evidence and current mobile report. Converted legacy Windows text to UTF-8. $400 new-spend target, owned-part credits and 1% requested usage reserve remain current. Gate not passed; no detailed CAD or physical machine result.

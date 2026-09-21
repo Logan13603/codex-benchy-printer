@@ -1,5 +1,5 @@
 {
-  "checkpoint": "004",
+  "checkpoint": "005",
   "files": [
     {
       "path": ".gitignore",
@@ -18,8 +18,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 1668,
-      "sha256": "22414ab8fb91e60e25af28bfd182dbce85f774cdaf619a061c8ef46b23197794"
+      "bytes": 2308,
+      "sha256": "b3dd5604fc6944019e7235cc79ea32149f0c6d20ad15461b9a9d8528531e35db"
     },
     {
       "path": "electronics/README.md",
@@ -57,9 +57,34 @@
       "sha256": "4775b61601b57869c2f10233ed50fb6283b1de34bdf952b055f8012a81568932"
     },
     {
-      "path": "engineering/FEASIBILITY.md",
+      "path": "engineering/DESIGN-BASIS-C.md",
+      "bytes": 1870,
+      "sha256": "eac14d2818a0d1585f59a7c9390cf594338e598c96b672ccea53bbd498d5369c"
+    },
+    {
+      "path": "engineering/expanded-path-results.json",
+      "bytes": 34454,
+      "sha256": "88f0699bf2daa9e6be89cdcbcc5777b79bdba95ab0d77b27a77146ca83ed83b2"
+    },
+    {
+      "path": "engineering/expanded_study.py",
+      "bytes": 5753,
+      "sha256": "6a552fa265805b86dc4ff65c52e42d450d6cd5cc4511776e1d3cc6f723a9ef3c"
+    },
+    {
+      "path": "engineering/FEASIBILITY-CHECKPOINT-004.md",
       "bytes": 10024,
       "sha256": "368b74b406a84c8d4e85d271040c86fe14051e8d9fa79f246e1b1b864a466446"
+    },
+    {
+      "path": "engineering/FEASIBILITY.md",
+      "bytes": 8330,
+      "sha256": "585baadd57923041d0bbea7e71fb741e67461e0c9f7ca5be1bfb088bc68347b5"
+    },
+    {
+      "path": "engineering/figures/rev-c-timing.png",
+      "bytes": 123975,
+      "sha256": "0a0044231162cc9521cb99a212cc01399d6c3c0143d3fcbcdb6b7391fb9b34b8"
     },
     {
       "path": "engineering/figures/timing-comparison.png",
@@ -158,13 +183,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 2269,
-      "sha256": "1a393c5e99c5458aec6ff79472d2bce65e35e59b73ccd2ffad923595c0511265"
+      "bytes": 2059,
+      "sha256": "b32b8e89a3b125b9b456d89c7fa8a0680c3012cfde9674d41b31d3dc2656b39b"
     },
     {
       "path": "RESUME.md",
-      "bytes": 4219,
-      "sha256": "155d1bcda749267f9d789a41535a0ed33188db3de268f508e74ef1d681731fff"
+      "bytes": 5498,
+      "sha256": "d28323e2b52e576c5412cb647064a802a8e5f5b6fe9df699d3e10a167c14bedc"
     },
     {
       "path": "slicing/analysis.3mf",
@@ -438,8 +463,8 @@
     },
     {
       "path": "validation/CHECKPOINT.md",
-      "bytes": 1785,
-      "sha256": "318aca54996040e175d7831487e1e732ebd04d86ada2b62879d457f61a5364d4"
+      "bytes": 1513,
+      "sha256": "1a6bbd3829934e16b3916b339c940d67aabe6fa82cf5253a655ccb06710e3e64"
     },
     {
       "path": "validation/cura-width-audit.json",
@@ -453,13 +478,23 @@
     },
     {
       "path": "validation/NUMERICAL-VERIFICATION.md",
-      "bytes": 2584,
-      "sha256": "dbebdb7c83faf6d7a4a113ea037a9294c09c80fa974863b9e5736768a8c2b136"
+      "bytes": 3411,
+      "sha256": "0f41bf761caa0450b237f0d025556fbc3aedc1d7b90436798ae6b9cd01ea0dbd"
     },
     {
       "path": "validation/slice-log.txt",
       "bytes": 186,
       "sha256": "f34ded9e47cfdae866f51ab48018ab18b8c440089a757d8f20d5841e1160c408"
+    },
+    {
+      "path": "validation/sources/leadshine/motor-catalog-excerpt.pdf",
+      "bytes": 830099,
+      "sha256": "5973b038edc22eff6a3e77059b664dbbc0d9fcb36ac8996c88f31ea79d4c0b37"
+    },
+    {
+      "path": "validation/sources/leadshine/PROVENANCE.json",
+      "bytes": 779,
+      "sha256": "7a14120110b5f3941e20bab4193865287e21861b722aeea01833683ddbf79d62"
     },
     {
       "path": "validation/SOURCES.md",
