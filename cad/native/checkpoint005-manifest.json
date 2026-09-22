@@ -1,0 +1,25 @@
+{
+  "revision": "RevE-development",
+  "checkpoint": 5,
+  "created_utc_date": "2026-09-22",
+  "fusion_project": "Default Project / Codex Benchy Printer",
+  "fusion_design": "Codex Benchy Printer Main",
+  "fusion_version": 7,
+  "fusion_version_id": "urn:adsk.wipprod:fs.file:vf.wAwg5QGJR0iXFu87oGiFbA?version=7",
+  "release_status": "development; not manufacturing-ready or physically validated",
+  "remote_git_commit": null,
+  "remote_verification": "pending upload/readback",
+  "files": [
+    {
+      "path": "cad/native/CBP-0000-RevE-CAD-checkpoint005.f3d",
+      "bytes": 724636,
+      "sha256": "d98a245d0ea577ce6f85d75a9fc4aeec7786f474032212c61b5d4772f02a2a88"
+    },
+    {
+      "path": "cad/native/CBP-0000-RevE-CAD-checkpoint005.step",
+      "bytes": 290009,
+      "sha256": "da77e498337dec9f8a3333576f6cee6b1022b294c827ee6add9fd77a91b511c4"
+    }
+  ]
+}
+

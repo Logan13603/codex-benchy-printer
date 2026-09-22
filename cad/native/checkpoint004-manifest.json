@@ -7,8 +7,8 @@
   "fusion_version": 6,
   "fusion_version_id": "urn:adsk.wipprod:fs.file:vf.wAwg5QGJR0iXFu87oGiFbA?version=6",
   "release_status": "development; not manufacturing-ready or physically validated",
-  "remote_git_commit": null,
-  "remote_verification": "pending upload/readback",
+  "remote_git_commit": "648945b33b9ed43231adca59cbc333c1f56658e1",
+  "remote_verification": "both CAD binary blob SHAs and selected source/status paths were read back from GitHub main; full Fusion archive reopen remains unverified",
   "files": [
     {
       "path": "cad/native/CBP-0000-RevE-CAD-checkpoint004.f3d",

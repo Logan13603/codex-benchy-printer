@@ -1,4 +1,10 @@
-# Resume — CAD development checkpoint 004, 2026-09-22
+# Resume — CAD development checkpoint 005, 2026-09-22
+
+**Current saved CAD:** Fusion cloud version **7**, in Default Project / Codex Benchy Printer. Checkpoint005 adds nine Ø2.3 clearance holes to each X rail shim and eighteen Ø1.6 × 4 mm blind M2 tap pilots in the base, aligned with the rail's 15 mm hole pitch. Candidate M2×12 screws pass through each 4.8 mm rail and 2 mm shim into the base; exact screw head/counterbore fit and purchased rail end pattern remain to be checked. Fusion audit: **93/93 sketch instances fully constrained**, **67 parameters**, **172 timeline items**. Native F3D and STEP exports are in `cad/native/`, parameter snapshot `cad/CBP-0000-RevE-parameters-checkpoint005.csv`. See checkpoint005 manifest.
+
+**Exact next operation:** model the 9 mm belt/motor and idler mounting interfaces with actual belt pitch and pulley tooth counts from the owner's stock (still unidentified). Create XY motion joints/travel states and check interference. Then complete Z/toolhead, CPAP cooling, electronics and harness. Do not claim the printer can achieve the simulated 53.54-second toolpath until torque/flow/cooling measurements support it. Recheck usage; checkpoint by 15% remaining and stop cleanly near 1% without using reset credits.
+
+## Previous checkpoint 004
 
 **Current saved CAD:** Fusion cloud version **6** in Default Project / Codex Benchy Printer. Checkpoint004 adds the HIWIN MGN7 2.3 mm rail holes and 4.2 mm counterbores at 15 mm pitch; MGN7H four-hole M2×2.5 mounting pilots; 22 × 24 mm widened monolithic bridge ends; and matching bridge/stage clearance holes. The 110 mm Y rail is a custom-cut development length with 10 mm end margins. Audit: **57/57 sketches fully constrained**, **65 parameters**, **118 timeline items**. The native Fusion and STEP exports are in `cad/native/`; see checkpoint004 manifest. These are still development proxies: raceways, screws, joints, motors, belts, Z, hotend, cooling and wiring are incomplete. Physical performance remains unvalidated.
 

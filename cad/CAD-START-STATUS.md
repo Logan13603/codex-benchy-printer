@@ -1,4 +1,10 @@
-# CAD progress — development checkpoint 004, 2026-09-22
+# CAD progress — development checkpoint 005, 2026-09-22
+
+Fusion cloud version **7** now aligns the two X rails, matched 2 mm shims and the 12 mm aluminum base with nine 15 mm-pitch M2 mounting positions per rail. The shims have Ø2.3 clearance; the base has Ø1.6 × 4 mm blind pilots for M2 tapping. The fully constrained sketch audit reads **93/93**, with **67 parameters** and **172 timeline items**. [Native/STEP checkpoint](native/checkpoint005-manifest.json) and the [frozen parameter snapshot](CBP-0000-RevE-parameters-checkpoint005.csv) are included. M2×12 is an assembly candidate, pending actual rail screw-head and supplier-end-pattern measurement.
+
+The X-rail/base connection is now represented as actual geometry, but no bolts or joints are modeled yet. The Y rail's seven through-holes are aligned to bridge holes, but captive nuts or a different fastening method still need design. The drive system, Z, extrusion, cooling, electronics and harness remain absent. This is not a build release.
+
+## Previous checkpoint 004
 
 The saved Fusion assembly is now cloud version **6**, with **57 fully constrained sketches**, **65 user parameters** and **118 feature timeline entries**. It includes detailed mounting geometry for the three MGN7 rails (Ø2.3 through, Ø4.2 × 2.4 counterbores at 15 mm pitch), MGN7H block M2 pilot interfaces, enlarged ends of the lightweight crossbridge, eight X-block clearance holes, seven Y-rail clearance holes and four Y-block stage clearance holes. See [checkpoint004 manifest](native/checkpoint004-manifest.json) and the [Fusion source scripts](fusion/). The 110 mm Y rail uses 10 mm end margins, so it is a custom-cut length; confirm the actual supplier's end-hole arrangement.
 
