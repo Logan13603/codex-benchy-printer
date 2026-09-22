@@ -1,0 +1,101 @@
+{
+  "status": "Optimistic two-head Y-partition; no collisions or seam validation",
+  "runs": [
+    {
+      "flow_per_head_mm3_s": 150,
+      "velocity_mm_s": 2400,
+      "acceleration_mm_s2": 500000,
+      "scv_mm_s": 100,
+      "minimum_layer_floor_s": 0.2,
+      "seconds": 74.82758980482664
+    },
+    {
+      "flow_per_head_mm3_s": 150,
+      "velocity_mm_s": 2400,
+      "acceleration_mm_s2": 500000,
+      "scv_mm_s": 250,
+      "minimum_layer_floor_s": 0.2,
+      "seconds": 70.77508074376709
+    },
+    {
+      "flow_per_head_mm3_s": 150,
+      "velocity_mm_s": 2400,
+      "acceleration_mm_s2": 500000,
+      "scv_mm_s": 500,
+      "minimum_layer_floor_s": 0.2,
+      "seconds": 68.42816320379652
+    },
+    {
+      "flow_per_head_mm3_s": 150,
+      "velocity_mm_s": 2400,
+      "acceleration_mm_s2": 1000000,
+      "scv_mm_s": 100,
+      "minimum_layer_floor_s": 0.2,
+      "seconds": 66.81764310143943
+    },
+    {
+      "flow_per_head_mm3_s": 150,
+      "velocity_mm_s": 2400,
+      "acceleration_mm_s2": 1000000,
+      "scv_mm_s": 250,
+      "minimum_layer_floor_s": 0.2,
+      "seconds": 64.43592559252596
+    },
+    {
+      "flow_per_head_mm3_s": 150,
+      "velocity_mm_s": 2400,
+      "acceleration_mm_s2": 1000000,
+      "scv_mm_s": 500,
+      "minimum_layer_floor_s": 0.2,
+      "seconds": 62.68243635494324
+    },
+    {
+      "flow_per_head_mm3_s": 200,
+      "velocity_mm_s": 2400,
+      "acceleration_mm_s2": 500000,
+      "scv_mm_s": 100,
+      "minimum_layer_floor_s": 0.2,
+      "seconds": 71.44902093049329
+    },
+    {
+      "flow_per_head_mm3_s": 200,
+      "velocity_mm_s": 2400,
+      "acceleration_mm_s2": 500000,
+      "scv_mm_s": 250,
+      "minimum_layer_floor_s": 0.2,
+      "seconds": 67.399932423311
+    },
+    {
+      "flow_per_head_mm3_s": 200,
+      "velocity_mm_s": 2400,
+      "acceleration_mm_s2": 500000,
+      "scv_mm_s": 500,
+      "minimum_layer_floor_s": 0.2,
+      "seconds": 64.96980354956614
+    },
+    {
+      "flow_per_head_mm3_s": 200,
+      "velocity_mm_s": 2400,
+      "acceleration_mm_s2": 1000000,
+      "scv_mm_s": 100,
+      "minimum_layer_floor_s": 0.2,
+      "seconds": 62.563875433306606
+    },
+    {
+      "flow_per_head_mm3_s": 200,
+      "velocity_mm_s": 2400,
+      "acceleration_mm_s2": 1000000,
+      "scv_mm_s": 250,
+      "minimum_layer_floor_s": 0.2,
+      "seconds": 60.08348458845953
+    },
+    {
+      "flow_per_head_mm3_s": 200,
+      "velocity_mm_s": 2400,
+      "acceleration_mm_s2": 1000000,
+      "scv_mm_s": 500,
+      "minimum_layer_floor_s": 0.2,
+      "seconds": 58.23945174681099
+    }
+  ]
+}

@@ -1,3 +1,7 @@
+# Checkpoint 007 — 2026-09-21
+
+Verified remote checkpoint006. Added stroke-specific spatial bounds, cable yaw/tension/rotor dynamics with independent LP checks, three fixed-width Cura re-slices and two-to-four-head scheduling screens. Preserved rejected alternatives and updated mobile report. Converted blank Fusion document to Hybrid Design; no geometry or save. Weekly usage became the limiting allowance. Performance gate remains unpassed; no hard budget.
+
 # Checkpoint 006 — 2026-09-21
 
 Completed and verified remote checkpoint 005 backup. Recovered primary creator transcript and selected motor/specification frames; identified material-reducing slice differences, special winch firmware and continuous smoothing. Added pinned Kalico polynomial source, numerical convolution, inertial-load sensitivity, cooling-time floors and timestep verification. No CAD geometry was made; performance gate remains unpassed and budget cap remains removed.

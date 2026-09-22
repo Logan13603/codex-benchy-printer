@@ -1,0 +1,439 @@
+{
+  "status": "Cable mechanism screening, not a selected or validated printer",
+  "dt_s": 0.0001,
+  "moving_mass_kg": 0.06,
+  "minimum_tension_N": 5.0,
+  "anchors_mm": [
+    [
+      -150.0,
+      -150.0
+    ],
+    [
+      150.0,
+      -150.0
+    ],
+    [
+      150.0,
+      150.0
+    ],
+    [
+      -150.0,
+      150.0
+    ]
+  ],
+  "bed_attachment_mm": [
+    [
+      -95.0,
+      -55.0
+    ],
+    [
+      95.0,
+      -55.0
+    ],
+    [
+      95.0,
+      55.0
+    ],
+    [
+      -95.0,
+      55.0
+    ]
+  ],
+  "working_xy_half_range_mm": [
+    32.0,
+    17.0
+  ],
+  "normalized_yaw_length_mm": 100.0,
+  "radial_layout": {
+    "grid_points": 2275,
+    "rank_deficient_points": 2275,
+    "points_without_strictly_positive_self_stress": 0,
+    "minimum_normalized_singular_value": 0.0,
+    "maximum_normalized_condition_number": null,
+    "length_range_mm": [
+      100.26464980241045,
+      169.33103672983282
+    ]
+  },
+  "rectangular_layout": {
+    "grid_points": 2275,
+    "rank_deficient_points": 0,
+    "points_without_strictly_positive_self_stress": 0,
+    "minimum_normalized_singular_value": 0.9459509305963524,
+    "maximum_normalized_condition_number": 1.976201011485582,
+    "length_range_mm": [
+      81.3203541556479,
+      141.82030884185804
+    ]
+  },
+  "length_second_derivative_max_error_m_s2": 4.647167043714262e-05,
+  "independent_linear_program_checks": [
+    {
+      "expected_from_linear_program_Nm": 0.125,
+      "nullspace_allocator_Nm": 0.12500000001776357
+    },
+    {
+      "expected_from_linear_program_Nm": 4.011177887057266,
+      "nullspace_allocator_Nm": 4.011177887077585
+    },
+    {
+      "expected_from_linear_program_Nm": 10.483042130970851,
+      "nullspace_allocator_Nm": 10.483042130993558
+    }
+  ],
+  "rpm_curve_reference_Nm": 2.2,
+  "rpm_curve_reference_note": "Constant comparison only, NOT verified available torque at each RPM/current/voltage.",
+  "runs": [
+    {
+      "radius_mm": 25.0,
+      "peak_abs_motor_torque_Nm": [
+        8.797300095340244,
+        7.854140982138645,
+        9.095803470329063,
+        8.40692387863236
+      ],
+      "peak_motor_rpm": [
+        916.7311542043515,
+        916.4507734464461,
+        916.7168948684309,
+        916.3803465722648
+      ],
+      "minimum_cable_tension_N": 5.000000000354419,
+      "maximum_cable_tension_N": 234.28291625770396,
+      "sample_fraction_any_motor_above_2p2Nm": 0.3930893245866376,
+      "max_equilibrium_residual_N_or_Nm": 1.7053025658242404e-13,
+      "max_power_balance_residual_W": 3.410605131648481e-13,
+      "peak_at_speed": [
+        {
+          "torque_Nm": 8.797300095340244,
+          "rpm": 145.54153859818737
+        },
+        {
+          "torque_Nm": 7.854140982138645,
+          "rpm": -104.63386021794959
+        },
+        {
+          "torque_Nm": 9.095803470329063,
+          "rpm": 244.11063631361193
+        },
+        {
+          "torque_Nm": 8.40692387863236,
+          "rpm": 125.14743276566891
+        }
+      ],
+      "smoother_frequency_Hz": 200
+    },
+    {
+      "radius_mm": 40.0,
+      "peak_abs_motor_torque_Nm": [
+        11.026991273786006,
+        10.05246617822479,
+        11.542532670790703,
+        10.50836906773229
+      ],
+      "peak_motor_rpm": [
+        572.9569713777197,
+        572.7817334040288,
+        572.9480592927694,
+        572.7377166076654
+      ],
+      "minimum_cable_tension_N": 5.000000000354419,
+      "maximum_cable_tension_N": 234.28291625770396,
+      "sample_fraction_any_motor_above_2p2Nm": 0.45082009480907426,
+      "max_equilibrium_residual_N_or_Nm": 1.7053025658242404e-13,
+      "max_power_balance_residual_W": 1.9895196601282805e-13,
+      "peak_at_speed": [
+        {
+          "torque_Nm": 11.026991273786006,
+          "rpm": 90.9634616238671
+        },
+        {
+          "torque_Nm": 10.05246617822479,
+          "rpm": 59.725433222945156
+        },
+        {
+          "torque_Nm": 11.542532670790703,
+          "rpm": 152.5691476960075
+        },
+        {
+          "torque_Nm": 10.50836906773229,
+          "rpm": 78.21714547854307
+        }
+      ],
+      "smoother_frequency_Hz": 200
+    },
+    {
+      "radius_mm": 60.0,
+      "peak_abs_motor_torque_Nm": [
+        14.911913791684146,
+        13.790782298545782,
+        15.705490842865652,
+        14.190593591940585
+      ],
+      "peak_motor_rpm": [
+        381.97131425181317,
+        381.8544889360192,
+        381.9653728618463,
+        381.8251444051103
+      ],
+      "minimum_cable_tension_N": 5.000000000354419,
+      "maximum_cable_tension_N": 234.28291625770396,
+      "sample_fraction_any_motor_above_2p2Nm": 0.548881554957218,
+      "max_equilibrium_residual_N_or_Nm": 1.7053025658242404e-13,
+      "max_power_balance_residual_W": 1.9895196601282805e-13,
+      "peak_at_speed": [
+        {
+          "torque_Nm": 14.911913791684146,
+          "rpm": 60.64230774924474
+        },
+        {
+          "torque_Nm": 13.790782298545782,
+          "rpm": 39.81695548196344
+        },
+        {
+          "torque_Nm": 15.705490842865652,
+          "rpm": 101.71276513067167
+        },
+        {
+          "torque_Nm": 14.190593591940585,
+          "rpm": 52.14476365236205
+        }
+      ],
+      "smoother_frequency_Hz": 200
+    },
+    {
+      "radius_mm": 25.0,
+      "peak_abs_motor_torque_Nm": [
+        10.69343592233346,
+        10.677926654170523,
+        10.008446955815266,
+        10.541148796843586
+      ],
+      "peak_motor_rpm": [
+        916.7312043708686,
+        916.7319556357214,
+        916.7323669494592,
+        916.7201754393488
+      ],
+      "minimum_cable_tension_N": 5.0000000003513225,
+      "maximum_cable_tension_N": 277.9689565574488,
+      "sample_fraction_any_motor_above_2p2Nm": 0.4694227843811811,
+      "max_equilibrium_residual_N_or_Nm": 2.6290081223123707e-13,
+      "max_power_balance_residual_W": 3.410605131648481e-13,
+      "peak_at_speed": [
+        {
+          "torque_Nm": 10.69343592233346,
+          "rpm": -93.61093356938709
+        },
+        {
+          "torque_Nm": 10.677926654170523,
+          "rpm": 157.08939319588833
+        },
+        {
+          "torque_Nm": 10.008446955815266,
+          "rpm": -89.67760290595439
+        },
+        {
+          "torque_Nm": 10.541148796843586,
+          "rpm": 96.52089376900227
+        }
+      ],
+      "smoother_frequency_Hz": 400
+    },
+    {
+      "radius_mm": 40.0,
+      "peak_abs_motor_torque_Nm": [
+        13.232329520001667,
+        13.412255845441903,
+        12.651776393703509,
+        13.25035082133716
+      ],
+      "peak_motor_rpm": [
+        572.9570027317928,
+        572.957472272326,
+        572.9577293434121,
+        572.9501096495931
+      ],
+      "minimum_cable_tension_N": 5.0000000003513225,
+      "maximum_cable_tension_N": 277.9689565574488,
+      "sample_fraction_any_motor_above_2p2Nm": 0.5026575270817295,
+      "max_equilibrium_residual_N_or_Nm": 2.6290081223123707e-13,
+      "max_power_balance_residual_W": 3.410605131648481e-13,
+      "peak_at_speed": [
+        {
+          "torque_Nm": 13.232329520001667,
+          "rpm": -36.235871499903894
+        },
+        {
+          "torque_Nm": 13.412255845441903,
+          "rpm": 53.0734776258155
+        },
+        {
+          "torque_Nm": 12.651776393703509,
+          "rpm": -216.93264740097268
+        },
+        {
+          "torque_Nm": 13.25035082133716,
+          "rpm": 14.520203324140171
+        }
+      ],
+      "smoother_frequency_Hz": 400
+    },
+    {
+      "radius_mm": 60.0,
+      "peak_abs_motor_torque_Nm": [
+        17.833181784339477,
+        18.419496669537704,
+        17.573995352188877,
+        18.037755025873942
+      ],
+      "peak_motor_rpm": [
+        381.97133515452856,
+        381.9716481815506,
+        381.9718195622747,
+        381.96673976639534
+      ],
+      "minimum_cable_tension_N": 5.0000000003513225,
+      "maximum_cable_tension_N": 277.9689565574488,
+      "sample_fraction_any_motor_above_2p2Nm": 0.5508871315282531,
+      "max_equilibrium_residual_N_or_Nm": 2.6290081223123707e-13,
+      "max_power_balance_residual_W": 3.410605131648481e-13,
+      "peak_at_speed": [
+        {
+          "torque_Nm": 17.833181784339477,
+          "rpm": -10.215046094146237
+        },
+        {
+          "torque_Nm": 18.419496669537704,
+          "rpm": 35.38231841721033
+        },
+        {
+          "torque_Nm": 17.573995352188877,
+          "rpm": -144.6217649339818
+        },
+        {
+          "torque_Nm": 18.037755025873942,
+          "rpm": 9.680135549426781
+        }
+      ],
+      "smoother_frequency_Hz": 400
+    },
+    {
+      "radius_mm": 25.0,
+      "peak_abs_motor_torque_Nm": [
+        12.906112015838923,
+        13.958301518576366,
+        13.680806041688413,
+        12.743421974859181
+      ],
+      "peak_motor_rpm": [
+        916.7312310137447,
+        916.7324527992844,
+        916.732369027005,
+        916.7317991784083
+      ],
+      "minimum_cable_tension_N": 5.000000000349883,
+      "maximum_cable_tension_N": 342.5696233626339,
+      "sample_fraction_any_motor_above_2p2Nm": 0.46207637029315674,
+      "max_equilibrium_residual_N_or_Nm": 2.7000623958883807e-13,
+      "max_power_balance_residual_W": 4.547473508864641e-13,
+      "peak_at_speed": [
+        {
+          "torque_Nm": 12.906112015838923,
+          "rpm": 14.113312700666162
+        },
+        {
+          "torque_Nm": 13.958301518576366,
+          "rpm": 375.55802083350284
+        },
+        {
+          "torque_Nm": 13.680806041688413,
+          "rpm": -375.7532678254785
+        },
+        {
+          "torque_Nm": 12.743421974859181,
+          "rpm": -220.33718680830077
+        }
+      ],
+      "smoother_frequency_Hz": 800
+    },
+    {
+      "radius_mm": 40.0,
+      "peak_abs_motor_torque_Nm": [
+        15.446473682642862,
+        17.16029805146548,
+        17.099085337810948,
+        15.549714513283025
+      ],
+      "peak_motor_rpm": [
+        572.9570193835905,
+        572.9577829995528,
+        572.9577306418781,
+        572.9573744865052
+      ],
+      "minimum_cable_tension_N": 5.000000000349883,
+      "maximum_cable_tension_N": 342.5696233626339,
+      "sample_fraction_any_motor_above_2p2Nm": 0.481984802554762,
+      "max_equilibrium_residual_N_or_Nm": 2.7000623958883807e-13,
+      "max_power_balance_residual_W": 3.979039320256561e-13,
+      "peak_at_speed": [
+        {
+          "torque_Nm": 15.446473682642862,
+          "rpm": 8.820820437916352
+        },
+        {
+          "torque_Nm": 17.16029805146548,
+          "rpm": 167.29668029837586
+        },
+        {
+          "torque_Nm": 17.099085337810948,
+          "rpm": -234.84579239092406
+        },
+        {
+          "torque_Nm": 15.549714513283025,
+          "rpm": -137.71074175518797
+        }
+      ],
+      "smoother_frequency_Hz": 800
+    },
+    {
+      "radius_mm": 60.0,
+      "peak_abs_motor_torque_Nm": [
+        20.859044802616346,
+        23.120724177419227,
+        23.089758172907388,
+        21.446125831256893
+      ],
+      "peak_motor_rpm": [
+        381.971346255727,
+        381.9718553330352,
+        381.97182042791883,
+        381.97158299100346
+      ],
+      "minimum_cable_tension_N": 5.000000000349883,
+      "maximum_cable_tension_N": 342.5696233626339,
+      "sample_fraction_any_motor_above_2p2Nm": 0.5095766741683948,
+      "max_equilibrium_residual_N_or_Nm": 2.7000623958883807e-13,
+      "max_power_balance_residual_W": 3.979039320256561e-13,
+      "peak_at_speed": [
+        {
+          "torque_Nm": 20.859044802616346,
+          "rpm": -167.03226436047638
+        },
+        {
+          "torque_Nm": 23.120724177419227,
+          "rpm": 111.53112019891726
+        },
+        {
+          "torque_Nm": 23.089758172907388,
+          "rpm": -156.56386159394935
+        },
+        {
+          "torque_Nm": 21.446125831256893,
+          "rpm": -166.29839804030206
+        }
+      ],
+      "smoother_frequency_Hz": 800
+    }
+  ]
+}

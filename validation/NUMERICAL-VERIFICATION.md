@@ -1,3 +1,7 @@
+# Checkpoint 007 additions
+
+Spatial study checks known offset-line and right-angle distances and preserved stroke volume. Cable study checks a finite-difference length Hessian, force/moment equilibrium, mechanical power balance and three independent scipy.optimize.linprog solutions. New width trials preserve model/engine/definition hashes, independent deposited-volume parsing and rounding-aware width audits. Parallel partitioning conserves original deposited volume within1e-6mm³. All remain numerical screening with exclusions documented in engineering/GEOMETRY-AND-ALTERNATIVES.md. SciPy1.18.1 and NumPy2.5.3 were used. No manufacturing or full physical simulation is certified.
+
 # Checkpoint 006 additions
 
 See engineering/SMOOTHING-STUDY.md for kernel integration, centroid identity, endpoint handling, three-resolution comparison and limits. Primary Kalico source is archived and hashed under validation/third_party/kalico. No full firmware or physical validation is claimed.

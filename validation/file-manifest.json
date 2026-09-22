@@ -1,5 +1,5 @@
 {
-  "checkpoint": "006",
+  "checkpoint": "007",
   "files": [
     {
       "path": ".gitignore",
@@ -13,13 +13,13 @@
     },
     {
       "path": "cad/README.md",
-      "bytes": 157,
-      "sha256": "a9c4beef2519d6e08bd2ab2b1ef8936a8d58c1672a3cf849f0c84eadfb062d76"
+      "bytes": 566,
+      "sha256": "b4dee1e2affd08e3f730895aaab9ab57c7cfa7505da03d14301c26f2c9c5c353"
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 2802,
-      "sha256": "962828295351cfb0632352360d8572335008e227f5de900298f27c438bd00a1a"
+      "bytes": 3269,
+      "sha256": "630dcac57bcdc24967a4f725c818efee331665affe357f982e509e1ee59ce10a"
     },
     {
       "path": "electronics/README.md",
@@ -47,6 +47,16 @@
       "sha256": "bc557f8f6a18736a40202e89ee0bcb943af28ba7a75b70159baa78b75c352ae9"
     },
     {
+      "path": "engineering/cable-results.json",
+      "bytes": 12250,
+      "sha256": "138a35c7d4fb2f0ae0343fba690098de7e66835172c6e7e98949c723e0cf061d"
+    },
+    {
+      "path": "engineering/cable_geometry.py",
+      "bytes": 9114,
+      "sha256": "57b469378de9e243f30d582b71491be5cb0e538174e120682dfeaa363d2cf28a"
+    },
+    {
       "path": "engineering/cura-path-results.json",
       "bytes": 7611,
       "sha256": "f2c43dee2f5167fe3bc811a453235f572896351a842ccfd96e22a21fd354d10a"
@@ -58,8 +68,8 @@
     },
     {
       "path": "engineering/DESIGN-BASIS-C.md",
-      "bytes": 1870,
-      "sha256": "eac14d2818a0d1585f59a7c9390cf594338e598c96b672ccea53bbd498d5369c"
+      "bytes": 2020,
+      "sha256": "40b85eebd01507ff2c78421f2a9188957fe06c05523efa84725a93e6f27d7f8c"
     },
     {
       "path": "engineering/expanded-path-results.json",
@@ -77,9 +87,14 @@
       "sha256": "368b74b406a84c8d4e85d271040c86fe14051e8d9fa79f246e1b1b864a466446"
     },
     {
-      "path": "engineering/FEASIBILITY.md",
+      "path": "engineering/FEASIBILITY-CHECKPOINT-006.md",
       "bytes": 9032,
       "sha256": "348e379ede91b07c6528f4b24ca88e834a563d9efbef8529113ae02620fe5e17"
+    },
+    {
+      "path": "engineering/FEASIBILITY.md",
+      "bytes": 3016,
+      "sha256": "a274e528c97624a6cd8b8a66f04a2667d06a303f3171bc4bd977ded3c8a61bd8"
     },
     {
       "path": "engineering/figures/rev-c-timing.png",
@@ -87,9 +102,19 @@
       "sha256": "0a0044231162cc9521cb99a212cc01399d6c3c0143d3fcbcdb6b7391fb9b34b8"
     },
     {
+      "path": "engineering/figures/spatial-smoothing.png",
+      "bytes": 252810,
+      "sha256": "7f0e45e7af5cff15172ac1d7571c903be1c443f7300b85521a19b35fd6db11ca"
+    },
+    {
       "path": "engineering/figures/timing-comparison.png",
       "bytes": 45137,
       "sha256": "c7e4562908564a9d73e3b29aaccbea975a1a0e8805c45bac9f4cf16d1da4ec29"
+    },
+    {
+      "path": "engineering/GEOMETRY-AND-ALTERNATIVES.md",
+      "bytes": 8523,
+      "sha256": "b2cc8ac374a549a2f0112c42d2dce6fd6d7c5b43f22dd5da328806237a633f5f"
     },
     {
       "path": "engineering/mechanics.py",
@@ -100,6 +125,21 @@
       "path": "engineering/mechanics_results.json",
       "bytes": 11719,
       "sha256": "001e0379fffd83e1376becbc2f937a684dba996a6dd1bfb1c04883e1a328e44e"
+    },
+    {
+      "path": "engineering/parallel-head-expanded-results.json",
+      "bytes": 2678,
+      "sha256": "47fb56ddd572632c2326fdb894cdc3099e5c01360d158d080b99605dcac0a657"
+    },
+    {
+      "path": "engineering/parallel-head-results.json",
+      "bytes": 195828,
+      "sha256": "64b3664d259587b0f8e28c7f2f5afbe2c0ae9dfc3560f667f5c2c391282cee9a"
+    },
+    {
+      "path": "engineering/parallel_heads.py",
+      "bytes": 5552,
+      "sha256": "87e341f62e4ce9a5c0fea2d9eb52bc032aced1a6d5720fba29eaf98c9dcdd4ff"
     },
     {
       "path": "engineering/path_model.py",
@@ -142,6 +182,16 @@
       "sha256": "78227b11ef01ab7615d8e7b6cdc56b8d20baf6fe246a8072fc952595022875b3"
     },
     {
+      "path": "engineering/spatial-results.json",
+      "bytes": 31180,
+      "sha256": "05d0c1e2f00759f7a19928a0d775db9b845fa3fcecac27a2f2b025265b9b797f"
+    },
+    {
+      "path": "engineering/spatial_study.py",
+      "bytes": 8569,
+      "sha256": "25c415dfaae7c368cd098da9ac2e791d27108aad212ce3a0631c12cd3c460d93"
+    },
+    {
       "path": "engineering/test_path_model.py",
       "bytes": 1554,
       "sha256": "321b1a1576ddec33c8939f5a2fb3183490ef741dfb4f247e55b2e8c5797b7c41"
@@ -170,6 +220,16 @@
       "path": "engineering/validate_klipper_planner.py",
       "bytes": 4076,
       "sha256": "b3c092daf7d32eeda890dc941286124d604af1686511c39e148fdd844531d5aa"
+    },
+    {
+      "path": "engineering/width-study-results.json",
+      "bytes": 59825,
+      "sha256": "842509647553b067c1cd40143c9dfdba49cb0128b2e641933b2dd1c8318ffb8c"
+    },
+    {
+      "path": "engineering/width_optimize.py",
+      "bytes": 3218,
+      "sha256": "d3008e3d81b039c6ac37bcc6f48185f81aa37c84a25c4ad0e4b5c2a18c12ca33"
     },
     {
       "path": "firmware/README.md",
@@ -208,13 +268,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 2270,
-      "sha256": "1e0feeaaabf4a606b4c264ca01c5cd063ab9df401acd26838812c648dd8522ba"
+      "bytes": 2287,
+      "sha256": "f222c8663053cbba72fbd184474a6bfb15ca57bf73603b69744f4ae6f93a562f"
     },
     {
       "path": "RESUME.md",
-      "bytes": 7121,
-      "sha256": "28166f8081fdf59635cc4a4af5ca8c5664c669aecf88323f5d6f5181e0f9d937"
+      "bytes": 4928,
+      "sha256": "89c3a8c5115a0a3e56b8c072941b10a7479ed9e2b5f7dd3b846c4040c86c1581"
     },
     {
       "path": "slicing/analysis.3mf",
@@ -290,6 +350,66 @@
       "path": "slicing/CURA-REPRODUCTION.md",
       "bytes": 2593,
       "sha256": "5feff017ad5cef3e1216b9c467f6df793b22415df807fe09e633b089a94f5591"
+    },
+    {
+      "path": "slicing/cura-width-study/outer-040-inner-050/analysis.gcode",
+      "bytes": 2131419,
+      "sha256": "ab9c5a421c830b3418b745e33a86bebf94948d3ec5cce27b0196d549f7f433e4"
+    },
+    {
+      "path": "slicing/cura-width-study/outer-040-inner-050/provenance.json",
+      "bytes": 1048,
+      "sha256": "7689c40a2a2adfa08132cdbcf40ded7baef73878d13b6096a2fa14f2a2d97894"
+    },
+    {
+      "path": "slicing/cura-width-study/outer-040-inner-050/settings.json",
+      "bytes": 3357,
+      "sha256": "ef2d99c7919ec09eded3278bd064d2e5393f2356eac484379e6457246008da55"
+    },
+    {
+      "path": "slicing/cura-width-study/outer-040-inner-050/slice-log.txt",
+      "bytes": 24958,
+      "sha256": "9b529eaf33f1b0ae9d0df55d413c3607f1912fbcf35a06a78bbda3466ddcb80c"
+    },
+    {
+      "path": "slicing/cura-width-study/walls-040/analysis.gcode",
+      "bytes": 2160243,
+      "sha256": "88b4968dac1570761ccdf62386d72684a8dd80a4285c491f10ecaef86626d93c"
+    },
+    {
+      "path": "slicing/cura-width-study/walls-040/provenance.json",
+      "bytes": 1047,
+      "sha256": "a4191b332b3fafba6155b869e6894f86955f5ab9686c09eccee135fc1e03cf99"
+    },
+    {
+      "path": "slicing/cura-width-study/walls-040/settings.json",
+      "bytes": 3356,
+      "sha256": "ec5427f4cebfa7b390674be00ed1cf4fdd00bca6748bcb9cc6800a49647fd459"
+    },
+    {
+      "path": "slicing/cura-width-study/walls-040/slice-log.txt",
+      "bytes": 24955,
+      "sha256": "08daa1291900aa24b39f6418ac096d17dea354595d902f9e4003af1b30d9369e"
+    },
+    {
+      "path": "slicing/cura-width-study/walls-045/analysis.gcode",
+      "bytes": 2122150,
+      "sha256": "da3249ed5619c558d3d4d536882ecf335429e54ee83f810c5634d4905c4ae40d"
+    },
+    {
+      "path": "slicing/cura-width-study/walls-045/provenance.json",
+      "bytes": 1050,
+      "sha256": "3a25cefe912b2f6d58da020c78b49eeee3c12166ef239b298cf5727cbef6c4a6"
+    },
+    {
+      "path": "slicing/cura-width-study/walls-045/settings.json",
+      "bytes": 3359,
+      "sha256": "35e4f17f85cab77468dd904daa546baa876c3af982064991b1ce70203a8dc8a0"
+    },
+    {
+      "path": "slicing/cura-width-study/walls-045/slice-log.txt",
+      "bytes": 24964,
+      "sha256": "6e2103582f6372d03714c04a15e10ede22a02024688b0fd631414dd17b892110"
     },
     {
       "path": "slicing/filament.json",
@@ -488,8 +608,8 @@
     },
     {
       "path": "validation/CHECKPOINT.md",
-      "bytes": 1563,
-      "sha256": "6edf2b80359ed060d0f790cf9258c859a62ef6c6cabd9b7f70c9d3a2c2f835a1"
+      "bytes": 1653,
+      "sha256": "6a52356acbcf23b536a64ddf0f69338af7b0f53088f98b5e6ae8a36cb1b7258d"
     },
     {
       "path": "validation/cura-width-audit.json",
@@ -503,8 +623,8 @@
     },
     {
       "path": "validation/NUMERICAL-VERIFICATION.md",
-      "bytes": 3715,
-      "sha256": "483acb194cc39e057b2955b94a076f4f35eb7f8864d39b45d4df78bfdd645761"
+      "bytes": 4406,
+      "sha256": "b7984825bb2617b5742bc54756ea620377293874cbfe3b5d28a3f5753678c5a7"
     },
     {
       "path": "validation/slice-log.txt",
