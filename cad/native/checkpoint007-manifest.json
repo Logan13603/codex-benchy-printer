@@ -7,8 +7,8 @@
   "fusion_version": 9,
   "fusion_version_id": "urn:adsk.wipprod:fs.file:vf.wAwg5QGJR0iXFu87oGiFbA?version=9",
   "release_status": "corrected development assembly; not manufacturing-ready or physically validated",
-  "remote_git_commit": null,
-  "remote_verification": "pending upload/readback",
+  "remote_git_commit": "b7be2e330d58356b501a2bef0784b02b157aecf7",
+  "remote_verification": "both CAD binary blob SHAs and RESUME/manifest paths read back from GitHub main; full native archive reopen remains unverified",
   "correction": "Rear portal column and beam occurrence transforms corrected and verified by readback and screenshot; checkpoint006 and earlier are superseded for assembly position",
   "files": [
     {
