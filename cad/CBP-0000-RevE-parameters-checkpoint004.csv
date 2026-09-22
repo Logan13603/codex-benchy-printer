@@ -1,0 +1,67 @@
+Name,Unit,Expression,ValueInternal,Comments
+base_x,mm,300 mm,30.0,
+base_y,mm,260 mm,26.0,
+base_t,mm,12 mm,1.2000000000000002,
+base_bolt_inset,mm,20 mm,2.0,Edge to mounting hole center
+base_mount_d,mm,9 mm,0.9,M8 clearance through holes
+base_corner_r,mm,8 mm,0.8,Outside vertical corner radius
+travel_x,mm,64 mm,6.4,Nominal useful X travel
+travel_y,mm,40 mm,4.0,Nominal useful Y travel
+travel_z,mm,60 mm,6.0,Useful nozzle Z range
+bed_x,mm,76 mm,7.6000000000000005,Build surface X
+bed_y,mm,50 mm,5.0,Build surface Y
+bed_t,mm,3 mm,0.30000000000000004,Development bed carrier thickness
+bed_surface_t,mm,0.25 mm,0.025,Build surface film allowance
+stage_x,mm,112 mm,11.200000000000001,Planar carrier outer X envelope; provisional
+stage_y,mm,84 mm,8.4,Planar carrier outer Y envelope; provisional
+stage_t,mm,2 mm,0.2,Carrier material thickness; provisional
+guide_x,mm,320 mm,32.0,Planar guide envelope X
+guide_y,mm,260 mm,26.0,Planar guide envelope Y
+guide_t,mm,6 mm,0.6000000000000001,Guide plate stock allowance
+guide_gap,mm,0.08 mm,0.008,Prototype capture clearance; must verify fabrication
+aperture_x,mm,bed_x + travel_x + 8 mm,14.8,Minimum bed and boat swept aperture X
+aperture_y,mm,bed_y + travel_y + 8 mm,9.8,Minimum bed and boat swept aperture Y
+tower_span,mm,220 mm,22.0,Z tower outside support span
+tower_y,mm,90 mm,9.0,Tower axis Y from machine origin
+tower_h,mm,180 mm,18.0,Tower support height above base
+tower_section,mm,40 mm,4.0,Structural column nominal section
+motor_flange,mm,56.4 mm,5.640000000000001,Nanotec SCB5618L4204-B reference envelope only
+motor_body_l,mm,76.5 mm,7.65,Motor reference body length
+motor_shaft_d,mm,8 mm,0.8,Motor reference shaft diameter
+drum_r,mm,25 mm,2.5,Drive drum pitch radius; adjustable development parameter
+belt_w,mm,9 mm,0.9,Owned belt width; pitch and interfaces unconfirmed
+anchor_x,mm,150 mm,15.0,Drive anchor reference X offset
+anchor_y,mm,150 mm,15.0,Drive anchor reference Y offset
+hose_od,mm,22 mm,2.2,Provisional hose outside diameter; owned hose to be identified
+hotend_z_envelope,mm,180 mm,18.0,Stationary XY extrusion envelope allowance
+toolhead_xy_envelope,mm,140 mm,14.0,Multi-input extrusion service envelope
+nozzle_d,mm,0.5 mm,0.05,Maximum nozzle under retained race rules
+fastener_m3_clear,mm,3.4 mm,0.34,Ordinary M3 clearance
+fastener_m5_clear,mm,5.5 mm,0.55,Ordinary M5 clearance
+fastener_m6_clear,mm,6.6 mm,0.66,Ordinary M6 clearance
+x_rail_l,mm,130 mm,13.0,X rail cut length; MGN7 candidate
+y_rail_l,mm,110 mm,11.0,Y rail cut length; MGN7 candidate
+x_rail_sep,mm,120 mm,12.0,Center-to-center X rail spacing
+mgn7_rail_w,mm,7 mm,0.7000000000000001,HIWIN MGN7 rail envelope width
+mgn7_rail_h,mm,4.8 mm,0.48,HIWIN MGN7 rail envelope height
+mgn7h_block_l,mm,30.8 mm,3.08,HIWIN MGN7H block overall length
+mgn7h_block_w,mm,17 mm,1.7000000000000002,HIWIN MGN7H block overall width
+mgn7h_block_cap_h,mm,3.2 mm,0.32000000000000006,8 mm overall assembly height less 4.8 mm rail height; proxy cap only
+bridge_w,mm,10 mm,1.0,X moving bridge X-section
+bridge_span,mm,140 mm,14.0,X moving bridge length along machine Y
+bridge_h,mm,10 mm,1.0,X moving bridge vertical envelope
+x_shim_w,mm,12 mm,1.2000000000000002,Machined X-rail support strip width across machine Y
+x_shim_t,mm,2 mm,0.2,Matched X-rail shim thickness; reference until measured
+tower_center_span,mm,180 mm,18.0,Center-to-center distance of two rear Z columns
+mgn7_rail_hole_d,mm,2.3 mm,0.22999999999999998,HIWIN MGN7 rail mounting through hole diameter
+mgn7_rail_pitch,mm,15 mm,1.5,HIWIN MGN7 rail mounting hole pitch
+mgn7_counterbore_d,mm,4.2 mm,0.42000000000000004,HIWIN MGN7 rail counterbore diameter
+mgn7_counterbore_depth,mm,2.4 mm,0.24,HIWIN MGN7 rail counterbore depth from top
+mgn7h_tap_pilot_d,mm,1.6 mm,0.16000000000000003,"Pilot for nominal M2 tap, simplified"
+mgn7h_mount_thread_depth,mm,2.5 mm,0.25,HIWIN MGN7H block M2 thread depth
+mgn7h_mount_B,mm,12 mm,1.2000000000000002,HIWIN MGN7H mounting transverse spacing
+mgn7h_mount_C,mm,13 mm,1.3,HIWIN MGN7H mounting longitudinal spacing
+bridge_pad_w,mm,22 mm,2.2,Monolithic bridge end pad width along X
+bridge_pad_l,mm,24 mm,2.4000000000000004,Monolithic bridge end pad length along Y
+m2_carriage_clearance_d,mm,2.2 mm,0.22000000000000003,M2 clearance in bridge and stage
+
