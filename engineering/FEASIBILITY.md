@@ -1,5 +1,7 @@
 # Feasibility report — checkpoint 008
 
+**2026-09-22 update:** the user authorized CAD development despite the unresolved gate. The numerical results below remain unvalidated; they no longer prohibit development CAD. [Current CAD state](../cad/CAD-START-STATUS.md).
+
 **The latest bridge-aware slice calculates 53.54 seconds. CAD readiness is still not supported.** The objective remains the cheapest credible full-size, compliant 50–55-second Benchy printer, with no hard budget cap. Your instruction keeps all CAD behind the performance gate.
 
 This checkpoint makes three concrete improvements:

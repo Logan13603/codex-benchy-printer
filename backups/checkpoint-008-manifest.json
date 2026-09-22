@@ -7,7 +7,7 @@
   "sha256": "a317f2b6ae94c9f81159e77796d5b3ecffd6488316607f9d3fc3e3984c2b196c",
   "git_blob_sha": "0f402532aa482f633efa471135bf8f3f4742dbcc",
   "local_verification": "ZIP CRC, all per-file SHA256, archive SHA256, Markdown links, UTF-8 and BOM arithmetic passed",
-  "remote_verification": "Archive upload Git blob identity matched local calculation; manifest/path readback pending. Full remote ZIP redownload/extraction not verified.",
+  "remote_verification": "Remote archive Git blob identity, manifest and report readback verified. Full remote ZIP redownload/extraction not verified.",
   "fusion_version": null,
   "fusion_state": "Blank unsaved Hybrid Design; no CAD geometry or cloud save",
   "source_commit": "283eea4993b78da072f2c8730b06ad910c4736f2",

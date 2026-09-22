@@ -1,5 +1,7 @@
 # Codex Benchy Printer
 
+**2026-09-22: CAD development is now authorized despite the unresolved performance gate.** [Current CAD state](cad/CAD-START-STATUS.md). Earlier numerical conclusions below remain unvalidated.
+
 **Checkpoint 008: improved toolpaths, more complete extrusion checks, no CAD release yet.** Target: the cheapest credible full-size compliant SpeedBoatRace Benchy printer for 50–55-second prints, with three consecutive physical prints under 60 seconds. There is no hard budget cap.
 
 [Open the current feasibility report](engineering/FEASIBILITY.md) · [Latest engineering study](engineering/EXTRUSION-AND-TOOLPATH.md) · [Resume state](RESUME.md)

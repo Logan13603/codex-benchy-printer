@@ -1,0 +1,41 @@
+Name,Unit,Expression,Value,Comments,Favorite
+base_x,mm,400 mm,400,Base plate X; Rev D development chassis,TRUE
+base_y,mm,400 mm,400,Base plate Y,TRUE
+base_t,mm,12 mm,12,Aluminum base stock thickness,TRUE
+base_bolt_inset,mm,20 mm,20,Edge to mounting hole center,TRUE
+base_mount_d,mm,9 mm,9,M8 clearance through holes,TRUE
+base_corner_r,mm,8 mm,8,Outside vertical corner radius,TRUE
+travel_x,mm,64 mm,64,Nominal useful X travel,TRUE
+travel_y,mm,40 mm,40,Nominal useful Y travel,TRUE
+travel_z,mm,60 mm,60,Useful nozzle Z range,TRUE
+bed_x,mm,76 mm,76,Build surface X,TRUE
+bed_y,mm,50 mm,50,Build surface Y,TRUE
+bed_t,mm,3 mm,3,Development bed carrier thickness,TRUE
+bed_surface_t,mm,0.25 mm,0.25,Build surface film allowance,TRUE
+stage_x,mm,220 mm,220,Planar carrier outer X envelope; provisional,TRUE
+stage_y,mm,150 mm,150,Planar carrier outer Y envelope; provisional,TRUE
+stage_t,mm,3 mm,3,Carrier material thickness; provisional,TRUE
+guide_x,mm,320 mm,320,Planar guide envelope X,TRUE
+guide_y,mm,260 mm,260,Planar guide envelope Y,TRUE
+guide_t,mm,6 mm,6,Guide plate stock allowance,TRUE
+guide_gap,mm,0.08 mm,0.08,Prototype capture clearance; must verify fabrication,TRUE
+aperture_x,mm,bed_x+travel_x+8 mm,148,Minimum bed and boat swept aperture X,TRUE
+aperture_y,mm,bed_y+travel_y+8 mm,98,Minimum bed and boat swept aperture Y,TRUE
+tower_span,mm,320 mm,320,Z tower outside support span,TRUE
+tower_y,mm,150 mm,150,Tower axis Y from machine origin,TRUE
+tower_h,mm,280 mm,280,Tower support height above base,TRUE
+tower_section,mm,40 mm,40,Structural column nominal section,TRUE
+motor_flange,mm,56.4 mm,56.4,Nanotec SCB5618L4204-B reference envelope only,TRUE
+motor_body_l,mm,76.5 mm,76.5,Motor reference body length,TRUE
+motor_shaft_d,mm,8 mm,8,Motor reference shaft diameter,TRUE
+drum_r,mm,25 mm,25,Drive drum pitch radius; adjustable development parameter,TRUE
+belt_w,mm,9 mm,9,Owned belt width; pitch and interfaces unconfirmed,TRUE
+anchor_x,mm,150 mm,150,Drive anchor reference X offset,TRUE
+anchor_y,mm,150 mm,150,Drive anchor reference Y offset,TRUE
+hose_od,mm,22 mm,22,Provisional hose outside diameter; owned hose to be identified,TRUE
+hotend_z_envelope,mm,180 mm,180,Stationary XY extrusion envelope allowance,TRUE
+toolhead_xy_envelope,mm,140 mm,140,Multi-input extrusion service envelope,TRUE
+nozzle_d,mm,0.5 mm,0.5,Maximum nozzle under retained race rules,TRUE
+fastener_m3_clear,mm,3.4 mm,3.4,Ordinary M3 clearance,TRUE
+fastener_m5_clear,mm,5.5 mm,5.5,Ordinary M5 clearance,TRUE
+fastener_m6_clear,mm,6.6 mm,6.6,Ordinary M6 clearance,TRUE

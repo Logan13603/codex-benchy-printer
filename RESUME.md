@@ -1,4 +1,18 @@
-# Resume checkpoint 008 — revision C
+# Resume — CAD development authorized, 2026-09-22
+
+Latest user instruction supersedes the old no-CAD gate: proceed with CAD development and retain honest labels for unvalidated performance. Do not refuse CAD merely because the earlier gate remains unpassed.
+
+The user saved **Codex Benchy Printer Main** in **Default Project / Codex Benchy Printer**. Computer use verified the saved blank Hybrid Design, mm/g. No components, sketches or bodies exist yet.
+
+Prepared input: `cad/CBP-0000-RevD-parameters.csv`, 40 named dimensional parameters in Fusion's native import format. It has NOT been imported. Dimensions and purchased-part envelopes remain provisional development inputs.
+
+Current UI blocker: Import Parameters overlay is open. Selecting the local file and a later Escape recovery both failed with `failed to activate captured window`, after refreshing the window connection. Only Fusion's main window was returned. No further app input after failed recovery.
+
+Exact next step: after the user dismisses Import or imports the prepared file, reacquire Fusion, inspect the actual state, verify any imported parameters, and create the named frame component and dimension-driven base sketch. Avoid reopening the problematic Import overlay if parameters can be entered directly. Use computer use, not Fusion MCP or generated CAD scripts. Save cloud versions and native/STEP exports at completed geometry checkpoints.
+
+Latest complete engineering archive remains checkpoint008. No native CAD or STEP backup exists. Earlier engineering notes below are historical; their instruction to block all CAD has been superseded.
+
+# Historical resume checkpoint 008 — revision C
 
 ## Final checkpoint update — read first
 
