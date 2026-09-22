@@ -1,4 +1,10 @@
-# Resume — CAD development checkpoint 002, 2026-09-22
+# Resume — CAD development checkpoint 003, 2026-09-22
+
+**Current verified CAD:** Fusion cloud version **5**, in Default Project / Codex Benchy Printer. RevE compacts the base to 300 × 260 × 12 mm and the rear portal to 180 mm column height, 180 mm column center spacing and 220 mm beam span. All 18 sketches remain fully constrained; 54 user parameters and 52 timeline entries were audited. This is development geometry. The previous RevD checkpoint 002 remains available. Exported RevE F3D/STEP are `cad/native/CBP-0000-RevE-CAD-checkpoint003.f3d` and `.step`; see checkpoint003 manifest for hashes and verification state. The revised frame has only nominal 8 mm swept-stage clearance from the rear columns, before fasteners and belts. Resolve that before manufacturing.
+
+**Exact next operation:** add actual MGN7 rail mounting/counterbore holes (official HIWIN drawing: 15 mm pitch, 2.3 mm through, 4.2 mm counterbore; custom 110 mm Y rail uses 10 mm end margin), then carriage mounting and a kinematic travel check. Continue with belt/motor and Z/toolhead components. Keep purchased interfaces and component mass assumptions explicit; this CAD does not validate a sub-minute Benchy. Save Fusion cloud and export F3D/STEP again after a completed mechanical milestone. Recheck five-hour usage and stop cleanly near 1% remaining without redeeming reset credits.
+
+## Previous checkpoint 002
 
 The user now prefers the **Fusion MCP** for faster CAD work and explicitly authorized that change. Do not return to the old computer-use-only restriction. No performance gate blocks development CAD; keep the 53.54-second simulation clearly unvalidated.
 
