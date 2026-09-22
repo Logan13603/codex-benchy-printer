@@ -1,5 +1,5 @@
 {
-  "checkpoint": "007",
+  "checkpoint": "008",
   "files": [
     {
       "path": ".gitignore",
@@ -47,6 +47,21 @@
       "sha256": "bc557f8f6a18736a40202e89ee0bcb943af28ba7a75b70159baa78b75c352ae9"
     },
     {
+      "path": "engineering/bridge-trial-results.json",
+      "bytes": 12014,
+      "sha256": "3b2a93cfa25c35d62b9f4a9d3960769dd27f781836754477171202a814b0fae2"
+    },
+    {
+      "path": "engineering/bridge_support_screen.py",
+      "bytes": 5914,
+      "sha256": "f4bcaf34d32e3467f61ff96fe94cc9037b3d8dcba12b62ba311323f1bbd4db43"
+    },
+    {
+      "path": "engineering/bridge_trial.py",
+      "bytes": 3601,
+      "sha256": "541fc9a1da699af0fc6b440fc3ac6f0b8391213bb2f52987f9f7faa8218da72e"
+    },
+    {
       "path": "engineering/cable-results.json",
       "bytes": 12250,
       "sha256": "138a35c7d4fb2f0ae0343fba690098de7e66835172c6e7e98949c723e0cf061d"
@@ -55,6 +70,16 @@
       "path": "engineering/cable_geometry.py",
       "bytes": 9114,
       "sha256": "57b469378de9e243f30d582b71491be5cb0e538174e120682dfeaa363d2cf28a"
+    },
+    {
+      "path": "engineering/concentric-motion-results.json",
+      "bytes": 26233,
+      "sha256": "4151ad5c026658119b1f6386482cb1512a1dbb7982e086193558b2ef480169fb"
+    },
+    {
+      "path": "engineering/concentric_motion.py",
+      "bytes": 1929,
+      "sha256": "73cb08ce7b7927cb960f96f0c37f09d4226fbab4df813dce35c47c435ea45353"
     },
     {
       "path": "engineering/cura-path-results.json",
@@ -82,6 +107,31 @@
       "sha256": "6a552fa265805b86dc4ff65c52e42d450d6cd5cc4511776e1d3cc6f723a9ef3c"
     },
     {
+      "path": "engineering/EXTRUSION-AND-TOOLPATH.md",
+      "bytes": 11695,
+      "sha256": "e4cb2c5091caa1d0749425c744e5f5b2394345b734b0775b5b755fe3b64c24ea"
+    },
+    {
+      "path": "engineering/extrusion-concentric-results.json",
+      "bytes": 21915,
+      "sha256": "f594da9121f08a24d12d8b04c2b73e2117222a23072db262130514d91e1d35ad"
+    },
+    {
+      "path": "engineering/extrusion-dynamics-fine-results.json",
+      "bytes": 21885,
+      "sha256": "96e5c152addb82e9b4c8bb2bb1d49aee363ad99570d30e6615b36c034bf80894"
+    },
+    {
+      "path": "engineering/extrusion-dynamics-results.json",
+      "bytes": 21908,
+      "sha256": "f8f7c1266fb4154ef0a1c180ef2fb50f0a145a3fed200e33105cec7211e32398"
+    },
+    {
+      "path": "engineering/extrusion_dynamics.py",
+      "bytes": 9446,
+      "sha256": "774b4f6f2f4218cfbac314a1953ec0957094f0cf8e6634679cdb05a08994c0fe"
+    },
+    {
       "path": "engineering/FEASIBILITY-CHECKPOINT-004.md",
       "bytes": 10024,
       "sha256": "368b74b406a84c8d4e85d271040c86fe14051e8d9fa79f246e1b1b864a466446"
@@ -92,9 +142,24 @@
       "sha256": "348e379ede91b07c6528f4b24ca88e834a563d9efbef8529113ae02620fe5e17"
     },
     {
-      "path": "engineering/FEASIBILITY.md",
+      "path": "engineering/FEASIBILITY-CHECKPOINT-007.md",
       "bytes": 3016,
       "sha256": "a274e528c97624a6cd8b8a66f04a2667d06a303f3171bc4bd977ded3c8a61bd8"
+    },
+    {
+      "path": "engineering/FEASIBILITY.md",
+      "bytes": 2732,
+      "sha256": "de7d35b84eb16d4359733feec0334a18d52f0b98f97da112a14d004678ab46aa"
+    },
+    {
+      "path": "engineering/figures/bridge-corrected-support-008.png",
+      "bytes": 47922,
+      "sha256": "d4b7d30b5bbee927b7ec5dae8d6c9ad1ae37883df38b382dcfa2d3c828244030"
+    },
+    {
+      "path": "engineering/figures/concentric-support-008.png",
+      "bytes": 89010,
+      "sha256": "a6a415ee61ae4f6a706a48e09fe399db607dfcec298baf468ffaa956e9c47116"
     },
     {
       "path": "engineering/figures/rev-c-timing.png",
@@ -110,6 +175,11 @@
       "path": "engineering/figures/timing-comparison.png",
       "bytes": 45137,
       "sha256": "c7e4562908564a9d73e3b29aaccbea975a1a0e8805c45bac9f4cf16d1da4ec29"
+    },
+    {
+      "path": "engineering/figures/toolpath-progress-008.png",
+      "bytes": 90689,
+      "sha256": "2084abaa823979ef03f46fdabe1a011033d9609c37eab1e21753ccb09e53aaec"
     },
     {
       "path": "engineering/GEOMETRY-AND-ALTERNATIVES.md",
@@ -150,6 +220,11 @@
       "path": "engineering/path_results.json",
       "bytes": 58347,
       "sha256": "14d9681d8189b9a06cf522b898ffc0bb63d4fd3449f4e5dcc66b67d5c4bb6cbd"
+    },
+    {
+      "path": "engineering/plot_progress.py",
+      "bytes": 2182,
+      "sha256": "fc3f3a82086010c7de73ec5f2b96ebd7a1d9a92e96d6254299f99959cb618d0e"
     },
     {
       "path": "engineering/preliminary_toolpath_summary.json",
@@ -217,9 +292,24 @@
       "sha256": "16a3a032cabda18f1c4e7f11fe91541594b7608864dedb5c25e527e3881be074"
     },
     {
+      "path": "engineering/travel-study-results.json",
+      "bytes": 57030,
+      "sha256": "f20701249f3372b3cc94c3c54421f66c32684d890b8f172a2d6d12194231e669"
+    },
+    {
+      "path": "engineering/travel_optimize.py",
+      "bytes": 3373,
+      "sha256": "7afbf43539d9b466c35ccbee810ad5a3d92e56873ff66a7bbb012ae2bc41a6a2"
+    },
+    {
       "path": "engineering/validate_klipper_planner.py",
       "bytes": 4076,
       "sha256": "b3c092daf7d32eeda890dc941286124d604af1686511c39e148fdd844531d5aa"
+    },
+    {
+      "path": "engineering/verify_extrusion.py",
+      "bytes": 2549,
+      "sha256": "4a9d7b9b3c3036cdebb9ccbb7655f8093d63994162e29d0698033ccc14daeca0"
     },
     {
       "path": "engineering/width-study-results.json",
@@ -257,6 +347,11 @@
       "sha256": "8aec1818b7082da08ec01d577eae7ff848b5b1fa02e897d01e57309337777ee7"
     },
     {
+      "path": "purchasing/HIGH-FLOW-SOURCE-AUDIT.md",
+      "bytes": 4397,
+      "sha256": "4e41c68a22e156d7aff2101a5d269a2ac9b752e0ea475a8d245110e145bc79d6"
+    },
+    {
       "path": "purchasing/OWNED-HARDWARE-REVISION.md",
       "bytes": 3627,
       "sha256": "4bfa4e04b83c8ee805505ec8d4c78e4e629edfe7131305e75f76c1bf8cfb6856"
@@ -268,13 +363,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 2287,
-      "sha256": "f222c8663053cbba72fbd184474a6bfb15ca57bf73603b69744f4ae6f93a562f"
+      "bytes": 1976,
+      "sha256": "e7c9963a291a6f2c055c311f671031aa6e09a286266ccddebdd796ae3e0a67d5"
     },
     {
       "path": "RESUME.md",
-      "bytes": 4928,
-      "sha256": "89c3a8c5115a0a3e56b8c072941b10a7479ed9e2b5f7dd3b846c4040c86c1581"
+      "bytes": 5926,
+      "sha256": "008cb04022e3fc4326491b43919de27587cb75ab8720682f7291b5cfda2f274a"
     },
     {
       "path": "slicing/analysis.3mf",
@@ -350,6 +445,126 @@
       "path": "slicing/CURA-REPRODUCTION.md",
       "bytes": 2593,
       "sha256": "5feff017ad5cef3e1216b9c467f6df793b22415df807fe09e633b089a94f5591"
+    },
+    {
+      "path": "slicing/cura-travel-study/concentric-bridges/analysis.gcode",
+      "bytes": 2106653,
+      "sha256": "1f433cc376e53d6a91ca1b6878e1910c85140c5e84e500d589a1906728327ded"
+    },
+    {
+      "path": "slicing/cura-travel-study/concentric-bridges/provenance.json",
+      "bytes": 1537,
+      "sha256": "4c5cc099d5796c2a12def9c157061c9808a3a8ca0ad6d987bf3a725e565adcfa"
+    },
+    {
+      "path": "slicing/cura-travel-study/concentric-bridges/settings.json",
+      "bytes": 3931,
+      "sha256": "ea28ca371557ca2a98abf7da5b00f453a5d41274ada1b12a362a494e5c7b267f"
+    },
+    {
+      "path": "slicing/cura-travel-study/concentric-bridges/slice-log.txt",
+      "bytes": 26038,
+      "sha256": "7477a4196ba23ca9de98ff37760f54068a49fd891b7ea9bac21cbc10cf78a81b"
+    },
+    {
+      "path": "slicing/cura-travel-study/concentric-skin/analysis.gcode",
+      "bytes": 2095552,
+      "sha256": "e9fcd9d6b5c791c2b7bdb9e7fd62d14bec1d5ffc50b72c67e11e5dae2cb9f196"
+    },
+    {
+      "path": "slicing/cura-travel-study/concentric-skin/provenance.json",
+      "bytes": 1075,
+      "sha256": "6998f2493047d96949369c6b205c1e59d1df77fb7a7535d04753e398202de838"
+    },
+    {
+      "path": "slicing/cura-travel-study/concentric-skin/settings.json",
+      "bytes": 3495,
+      "sha256": "ae35d5a008e5d9227201d004996ee40e27b8e5a76e1c2ee477a556a72edaad26"
+    },
+    {
+      "path": "slicing/cura-travel-study/concentric-skin/slice-log.txt",
+      "bytes": 25209,
+      "sha256": "e6a96d71742391061e98f223574b2c64d1a153890c94678b8356f6a348fb5d12"
+    },
+    {
+      "path": "slicing/cura-travel-study/direct-travel/analysis.gcode",
+      "bytes": 1993362,
+      "sha256": "64b43f0157c2d3f05e31d1f88fb6459aeff7d03a07a14d47ed19c2dfb6a1b6f4"
+    },
+    {
+      "path": "slicing/cura-travel-study/direct-travel/provenance.json",
+      "bytes": 1005,
+      "sha256": "aff56abceecee925e9356a2c5b288c1128a6a616072f7eb5ca87509771a242ba"
+    },
+    {
+      "path": "slicing/cura-travel-study/direct-travel/settings.json",
+      "bytes": 3429,
+      "sha256": "f9f154f48badc2ef948d9fd373c4bd71f438e5fe8390f3b471c2ccbbc8e0e62f"
+    },
+    {
+      "path": "slicing/cura-travel-study/direct-travel/slice-log.txt",
+      "bytes": 25088,
+      "sha256": "cdc52c2fa685c52d4d4237498d83bddb9c5d48aa7eb52985e4fd5cde420ad157"
+    },
+    {
+      "path": "slicing/cura-travel-study/lines-0/analysis.gcode",
+      "bytes": 1927182,
+      "sha256": "6a7268e0f7638458456c0cca5b4cce631b5b2a4d99ae440dde4e3bf392176999"
+    },
+    {
+      "path": "slicing/cura-travel-study/lines-0/provenance.json",
+      "bytes": 1061,
+      "sha256": "1f4c275588e1a7ffebbf5aa759eed967dacd408eb626d9b19d7e117ce0e6ec6e"
+    },
+    {
+      "path": "slicing/cura-travel-study/lines-0/settings.json",
+      "bytes": 3481,
+      "sha256": "3cdf376befcab8e9cf4829029c62d122409b798f3c0e1418b69a5ac99fb96079"
+    },
+    {
+      "path": "slicing/cura-travel-study/lines-0/slice-log.txt",
+      "bytes": 25176,
+      "sha256": "d934db69eb943f9595cc69f5c785f229572f8ab564f048e3867b61bb237023d2"
+    },
+    {
+      "path": "slicing/cura-travel-study/lines-90/analysis.gcode",
+      "bytes": 1950383,
+      "sha256": "4f4884cd0d141dd0e5751424aebd415c613fcf6c4d5fd05691fb82c9de9208b8"
+    },
+    {
+      "path": "slicing/cura-travel-study/lines-90/provenance.json",
+      "bytes": 1063,
+      "sha256": "ac453c91917d7ff01dfa7c4e349615c25837e1ef3b1e965a7e7d3567ea29ed5a"
+    },
+    {
+      "path": "slicing/cura-travel-study/lines-90/settings.json",
+      "bytes": 3483,
+      "sha256": "a1c1767bfe5ea582418ca6c96f68710579628f15da72a581421483aec51581c5"
+    },
+    {
+      "path": "slicing/cura-travel-study/lines-90/slice-log.txt",
+      "bytes": 25182,
+      "sha256": "62a152f55785632dd865344d81a9ebe3165a8a46b0cd5a5c8dbf9cba7ad46544"
+    },
+    {
+      "path": "slicing/cura-travel-study/zigzag-0/analysis.gcode",
+      "bytes": 2016642,
+      "sha256": "21ed9f17470d9e9493cc77d1e91f34d475f4fe93e967f804c5b91a07da015f27"
+    },
+    {
+      "path": "slicing/cura-travel-study/zigzag-0/provenance.json",
+      "bytes": 1131,
+      "sha256": "a48b7694eeddf30fa1db6d1f6f8078108475221228ac429a4ab1557b133082ef"
+    },
+    {
+      "path": "slicing/cura-travel-study/zigzag-0/settings.json",
+      "bytes": 3517,
+      "sha256": "390ed33ad15a42aeefca93f619c7ab07c039aac627085768bbda8e7d5144992a"
+    },
+    {
+      "path": "slicing/cura-travel-study/zigzag-0/slice-log.txt",
+      "bytes": 25242,
+      "sha256": "d0ea09389d04c07eac647dfa9068788b050e63056e8f65794d4dc7985c0eca6e"
     },
     {
       "path": "slicing/cura-width-study/outer-040-inner-050/analysis.gcode",
@@ -602,19 +817,34 @@
       "sha256": "f59ac1e0e5028e9d734bb6cd5d622d9e7df32756606a4df14504e74686fa7a48"
     },
     {
+      "path": "validation/bridge-corrected-support-screen.json",
+      "bytes": 6074,
+      "sha256": "525cde477d5f0e786342d9815efdbd2d5ec0d981a1b3583482a41d75dca2c6c1"
+    },
+    {
       "path": "validation/checkpoint-003-manifest.json",
       "bytes": 1266,
       "sha256": "f0d53e102e4c515c8f7ef2e1faeaa230ea5917d0caf45cb111111a754eac7a1c"
     },
     {
       "path": "validation/CHECKPOINT.md",
-      "bytes": 1653,
-      "sha256": "6a52356acbcf23b536a64ddf0f69338af7b0f53088f98b5e6ae8a36cb1b7258d"
+      "bytes": 1889,
+      "sha256": "13713cbffdba343332f15ee02305165eadfef9713d6b7e3df7de3e36bc42b072"
+    },
+    {
+      "path": "validation/concentric-support-screen.json",
+      "bytes": 5853,
+      "sha256": "23cb9aa8c9c5fd72969255a6ddb33c13f797574597697afe4b8ac72e83922012"
     },
     {
       "path": "validation/cura-width-audit.json",
       "bytes": 26182,
       "sha256": "7488b8896360ed67671a4a6c4fc2b160a98fde70e739c85bcbe6fc8f3d686e27"
+    },
+    {
+      "path": "validation/extrusion-oracle.json",
+      "bytes": 1047,
+      "sha256": "6f8e42c5b1285b8babe9a95338427621c7c7d1b875c50444c947d96c5791b4b3"
     },
     {
       "path": "validation/klipper-planner-comparison.json",
@@ -625,6 +855,11 @@
       "path": "validation/NUMERICAL-VERIFICATION.md",
       "bytes": 4406,
       "sha256": "b7984825bb2617b5742bc54756ea620377293874cbfe3b5d28a3f5753678c5a7"
+    },
+    {
+      "path": "validation/PRE-CAD-GATE.md",
+      "bytes": 6983,
+      "sha256": "21cd838d00902442cab224fa571db8f4e617da9e399dcb362c9b7140cedf9bc7"
     },
     {
       "path": "validation/slice-log.txt",
@@ -672,9 +907,19 @@
       "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
     },
     {
+      "path": "validation/third_party/klipper/extruder.py",
+      "bytes": 16086,
+      "sha256": "a38c3fb0f7c658fab4f2a52de1f633141bb4ba935c2925e84099871748ce6ef5"
+    },
+    {
+      "path": "validation/third_party/klipper/kin_extruder.c",
+      "bytes": 7511,
+      "sha256": "4a352a7a287b782a47d813e94b85e33bfd662cdd8877f8507e2f60d847cd9538"
+    },
+    {
       "path": "validation/third_party/klipper/PROVENANCE.json",
-      "bytes": 555,
-      "sha256": "a25db20c588c42ae57495623406b4b3c8f88670aa042bd274044abec68fbc87f"
+      "bytes": 1164,
+      "sha256": "dc3d08a9203577d95eff322d8c9b78e39b99f96dfc77b78951e2b15965100161"
     },
     {
       "path": "validation/third_party/klipper/toolhead.py",

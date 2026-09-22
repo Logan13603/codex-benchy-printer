@@ -1,24 +1,20 @@
 # Codex Benchy Printer
 
-**Checkpoint 007: budget cap removed; optimize the cheapest credible sub-minute design.** Target: full-size compliant SpeedBoatRace Benchy in 50–55 seconds, then three consecutive physical prints under 60 seconds.
+**Checkpoint 008: improved toolpaths, more complete extrusion checks, no CAD release yet.** Target: the cheapest credible full-size compliant SpeedBoatRace Benchy printer for 50–55-second prints, with three consecutive physical prints under 60 seconds. There is no hard budget cap.
 
-[Open the current feasibility report](engineering/FEASIBILITY.md) · [Design basis](engineering/DESIGN-BASIS-C.md) · [Resume state](RESUME.md)
+[Open the current feasibility report](engineering/FEASIBILITY.md) · [Latest engineering study](engineering/EXTRUSION-AND-TOOLPATH.md) · [Resume state](RESUME.md)
 
-[New geometry and alternatives study](engineering/GEOMETRY-AND-ALTERNATIVES.md) adds spatial accuracy, yaw/tension dynamics, three thinner-wall slices and independent-head scheduling. No build-ready architecture is selected.
+The latest bridge-aware slice calculates **53.54 seconds** at unproven motion/flow limits. A0.20-second layer floor gives60.38 seconds. The initially faster concentric slice was rejected after finding unsupported roof loops. Full bridge coverage, motor tracking, extrusion response and installed CPAP cooling remain unresolved, so the pre-CAD gate stays in effect.
 
-The expanded study calculates **51.75 seconds** at hypothetical 204 g acceleration and 300 mm³/s flow. A pinned Klipper planner reproduces the arithmetic. Hardware capability and physical quality remain unproven; a combined shortfall case takes **70.29 seconds**. The preferred direction is a stationary-XY hotend and a very light XY bed. The detailed mechanism is still being engineered.
-
-Existing Pi, CPAP blower/hose, SD/cord, 9 mm belts/pulleys and some screws remain credited. There is no current validated total price. Earlier $400 caps and conventional-printer cost studies are historical.
+Existing Pi, CPAP blower/hose, SD/cord,9 mm belts/pulleys and some screws remain credited. No purchased interface or complete delivered-price estimate is frozen. The old $400/$500 budgets and conventional-printer BOMs remain historical.
 
 | Folder | Contents |
 |---|---|
-| engineering | Current feasibility, architecture studies, mass/COM, timing, torque, heat and cooling calculations |
-| purchasing | Historical candidate pricing and owned-inventory credits; no frozen new BOM |
-| slicing | Original mesh, frozen public rules, slicer trials and reproduction tools |
-| validation | Planner checks, width audits, primary-source provenance and backup manifests |
-| cad / manufacturing | Reserved for the gated Fusion and fabrication deliverables |
+| engineering | Feasibility, architecture, mass/COM, path timing, extrusion dynamics, torque and heat studies |
+| purchasing | Source audit, historical candidate prices and inventory credits |
+| slicing | Original mesh, rules, pinned slicer trials and reproducible settings |
+| validation | Numerical checks, source provenance, pre-CAD gate and backup manifests |
+| cad / manufacturing | Reserved for gated Fusion assembly and fabrication deliverables |
 | electronics / firmware / assembly | Reserved for selected hardware and released instructions |
 
-Fusion destination: **Default Project / Codex Benchy Printer**. No detailed CAD, wiring release, build firmware, parts purchase or physical result exists. All trial G-code is analysis evidence, not printer-ready output.
-
-Checkpoint 007 preserves the revised study; [backup status](validation/CHECKPOINT.md) distinguishes remote content-identity verification from a full download/restore. Historical checkpoints remain in Git history and backups.
+Fusion destination: Default Project / Codex Benchy Printer. No geometry or cloud save exists. All trial G-code is analysis evidence and is not printer-ready. [Backup verification](validation/CHECKPOINT.md) distinguishes remote content-identity checking from a complete remote download/restore.

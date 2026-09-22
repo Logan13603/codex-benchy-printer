@@ -1,24 +1,23 @@
-# Feasibility report — revision C, checkpoint 007
+# Feasibility report — checkpoint 008
 
-**There is no hard budget cap. The objective remains the cheapest credible printer for a full-size, compliant 50–55-second Benchy.** Existing Pi, CPAP blower/hose, SD/cord, 9 mm belts/pulleys and some screws remain credited.
+**The latest bridge-aware slice calculates 53.54 seconds. CAD readiness is still not supported.** The objective remains the cheapest credible full-size, compliant 50–55-second Benchy printer, with no hard budget cap. Your instruction keeps all CAD behind the performance gate.
 
-The latest calculations rule out several shortcuts, but **a supported sub-minute design has not yet been established**. Detailed manufacturing CAD and final parts selection remain pending under the accepted performance gate.
+This checkpoint makes three concrete improvements:
 
-- Strong motion smoothing removes millimeters of commanded outer-wall geometry. The 800 Hz sensitivity preserves it better, but its drive demand is still high.
-- A four-cable bed model now includes yaw, varying cable geometry, tension allocation and rotor inertia. The tested geometry needs approximately 9.1–14.0 Nm per motor at 25 mm drum radius; it is not selected.
-- Three thinner-wall slices reduce material but take 56.34–57.60 seconds at the same extreme assumed limits, versus 54.30 seconds for the baseline.
-- Two independent heads reach a hypothetical 58.24 seconds only at extreme caps, before collision delays and seam validation. This lacks the target margin.
+- Adding Klipper's previously omitted extrusion-junction check raises the old54.30-second estimate to58.66 seconds.
+- Five optimized slices reduce travel and find an initially promising52.91-second concentric-skin path.
+- A geometry check catches closed roof loops over the empty cabin. A sixth, bridge-aware slice corrects the roof path while preserving full bridge density and flow, and calculates **53.54 seconds**. The52.91-second slice is retained as a rejected candidate.
 
-[Read the full new geometry and alternatives report](GEOMETRY-AND-ALTERNATIVES.md).
+![Calculated timing progress](figures/toolpath-progress-008.png)
 
-![Calculated effect of smoothing on the chimney perimeter](figures/spatial-smoothing.png)
+**This is a simulation at unproven hardware limits, not an expected physical print time.** It assumes2400mm/s,2,000,000mm/s² and300mm³/s. A0.10-second layer floor gives55.15 seconds; a0.20-second floor gives60.38 seconds. Q200 instead of300 gives64.50 seconds before cooling delays.
 
-The earlier single-head calculation of **54.30 seconds** assumes V2400 mm/s, A2,000,000 mm/s², SCV500, Q300 mm³/s and a 300 mm/s first-layer cap. Adding a 0.20-second minimum-layer floor raises it to **61.29 seconds**. This is not a predicted physical printer time. The [smoothing/cooling study](SMOOTHING-STUDY.md) explains the limits; [checkpoint 006](FEASIBILITY-CHECKPOINT-006.md) preserves the detailed prior requirements report.
+The related uncorrected slice already exceeded the tested drive arrangement's supported motor torque, and pressure-advance calculations expose large transient filament-feed demands. The corrected slice needs those checks repeated. Purchased hotend evidence does not substantiate300mm³/s through the permitted nozzle, and the owned CPAP's installed cooling performance remains unknown. One geometric support flag and full shell/bridge coverage also remain to inspect.
 
-The preferred research direction remains a hotend stationary in XY and a lightweight XY bed, with the hotend/cooling assembly lifted slowly in Z. The moving boat needs at least 124.001 × 65.004 mm swept clearance for the currently studied ±32 × ±17 mm travel. Actual bed supports, yaw restraint and stiffness are unresolved.
+**Decision: no CAD yet.** There is useful toolpath progress, but the combined motion, extrusion, cooling and geometry evidence does not yet justify confidence in sub-minute performance. The preferred research direction remains a stationary-XY hotend and a very light guided XY bed.
 
-**CAD status:** Fusion's blank document was converted to Hybrid Design for eventual component organization. Repeated input/focus changes prevented reliable reference-layout creation. No component, sketch, geometry, cloud save, native archive or STEP export exists. The verified destination remains Default Project / Codex Benchy Printer. This blank document is not a printer assembly or a CAD backup.
+[Complete calculations and bridge correction](EXTRUSION-AND-TOOLPATH.md) · [Remaining gate](../validation/PRE-CAD-GATE.md) · [Purchased-hardware evidence](../purchasing/HIGH-FLOW-SOURCE-AUDIT.md)
 
-No parts have been purchased. No final delivered price, hardware pinout, usable printer.cfg or physically validated settings are claimed. The former $400/$500 prices are historical. Physical acceptance still requires three consecutive compliant Benchys under 60 seconds.
+No parts purchased; no complete printer price, CAD assembly, manufacturing release, wiring or runnable printer.cfg exists yet. Fusion's last observed state remains a blank unsaved Hybrid Design; no geometry or CAD backup is claimed. The verified destination is Default Project / Codex Benchy Printer. Physical success requires three consecutive compliant Benchys under60 seconds.
 
-[Rules and original-model provenance](../slicing/RULES.md) · [Design basis](DESIGN-BASIS-C.md) · [Resume instructions](../RESUME.md) · [Backup verification](../validation/CHECKPOINT.md)
+[Previous report](FEASIBILITY-CHECKPOINT-007.md) · [Rules/model](../slicing/RULES.md) · [Resume state](../RESUME.md) · [Backup verification](../validation/CHECKPOINT.md)

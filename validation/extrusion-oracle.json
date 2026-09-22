@@ -1,0 +1,34 @@
+{
+  "status": "Independent piecewise-polynomial Gaussian integration oracle; not physical validation",
+  "checks": [
+    {
+      "smooth_time_s": 0.04,
+      "pa_s": 0.04,
+      "dt_s": 2.5e-05,
+      "points_checked": 58,
+      "max_abs_position_error_mm": 6.690231066386332e-05
+    },
+    {
+      "smooth_time_s": 0.01,
+      "pa_s": 0.04,
+      "dt_s": 2.5e-05,
+      "points_checked": 58,
+      "max_abs_position_error_mm": 0.00017660937578511948
+    },
+    {
+      "smooth_time_s": 0.004,
+      "pa_s": 0.04,
+      "dt_s": 2.5e-05,
+      "points_checked": 58,
+      "max_abs_position_error_mm": 0.00038922040198485774
+    },
+    {
+      "smooth_time_s": 0.001,
+      "pa_s": 0.04,
+      "dt_s": 2.5e-05,
+      "points_checked": 58,
+      "max_abs_position_error_mm": 0.0008913013189157937
+    }
+  ],
+  "method": "Each trapezoid and triangle-center boundary splits the integral; 3-point Gauss exactly integrates each cubic piece. Compare dt25us convolution including max-speed neighborhood and rest tails."
+}

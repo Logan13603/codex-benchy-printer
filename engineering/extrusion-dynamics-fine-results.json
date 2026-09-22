@@ -1,0 +1,693 @@
+{
+  "status": "Pinned extrusion checks and uncalibrated linear-pressure sensitivity, not printer validation",
+  "gcode_sha256": "0c9b7be63971d47e277d7d356e355679426fbcb2a8689739ef0f186c0d45722d",
+  "tests": [
+    "Unmodified extrusion junction gives 20 mm/s for ratio jump .05 at E-corner 1.",
+    "Extrude-only speed/acceleration limits applied; overextrusion rejected.",
+    "Triangular kernel has unit area and preserves an interior linear ramp."
+  ],
+  "caps": {
+    "v_mm_s": 2400,
+    "a_mm_s2": 2000000,
+    "scv_mm_s": 500,
+    "q_mm3_s": 300,
+    "first_mm_s": 300
+  },
+  "timing": [
+    {
+      "extruder_instantaneous_corner_velocity_mm_s": null,
+      "mcr": 0.0,
+      "finite_queue": true,
+      "seconds": 54.29852323780627,
+      "deposition_seconds": 40.47459581769277,
+      "by_role_seconds": {
+        "WALL-INNER": 13.199883328425258,
+        "travel": 13.823927420113579,
+        "WALL-OUTER": 15.064583629709672,
+        "SKIN": 9.539285679813865,
+        "FILL": 2.6708431797449244
+      },
+      "cooling_floor_s": [
+        {
+          "floor_s": 0.1,
+          "seconds": 56.08104231643258
+        },
+        {
+          "floor_s": 0.15,
+          "seconds": 57.85218628008629
+        },
+        {
+          "floor_s": 0.2,
+          "seconds": 61.28657453799001
+        },
+        {
+          "floor_s": 0.24,
+          "seconds": 64.83918856585493
+        }
+      ]
+    },
+    {
+      "extruder_instantaneous_corner_velocity_mm_s": null,
+      "mcr": 0.5,
+      "finite_queue": true,
+      "seconds": 55.13966355997437,
+      "deposition_seconds": 41.11903376182892,
+      "by_role_seconds": {
+        "WALL-INNER": 13.413641757391868,
+        "travel": 14.020629798145933,
+        "WALL-OUTER": 15.373199382343303,
+        "SKIN": 9.652996788550427,
+        "FILL": 2.6791958335435164
+      },
+      "cooling_floor_s": [
+        {
+          "floor_s": 0.1,
+          "seconds": 56.90888627081755
+        },
+        {
+          "floor_s": 0.15,
+          "seconds": 58.626408088540224
+        },
+        {
+          "floor_s": 0.2,
+          "seconds": 61.94635010150438
+        },
+        {
+          "floor_s": 0.24,
+          "seconds": 65.43763389173162
+        }
+      ]
+    },
+    {
+      "extruder_instantaneous_corner_velocity_mm_s": 1.0,
+      "mcr": 0.0,
+      "finite_queue": true,
+      "seconds": 58.655819538208775,
+      "deposition_seconds": 42.975123203531396,
+      "by_role_seconds": {
+        "WALL-INNER": 13.729226262300221,
+        "travel": 15.680696334677943,
+        "WALL-OUTER": 15.574289892998241,
+        "SKIN": 10.737914014118001,
+        "FILL": 2.933693034115601
+      },
+      "cooling_floor_s": [
+        {
+          "floor_s": 0.1,
+          "seconds": 60.26346757636879
+        },
+        {
+          "floor_s": 0.15,
+          "seconds": 61.9622580522716
+        },
+        {
+          "floor_s": 0.2,
+          "seconds": 65.11300781063905
+        },
+        {
+          "floor_s": 0.24,
+          "seconds": 68.42997671360443
+        }
+      ]
+    },
+    {
+      "extruder_instantaneous_corner_velocity_mm_s": 1.0,
+      "mcr": 0.5,
+      "finite_queue": true,
+      "seconds": 59.75108063957549,
+      "deposition_seconds": 43.74655542491585,
+      "by_role_seconds": {
+        "WALL-INNER": 13.976159521232637,
+        "travel": 16.004525214660216,
+        "WALL-OUTER": 15.907052179173698,
+        "SKIN": 10.905366164911708,
+        "FILL": 2.957977559597755
+      },
+      "cooling_floor_s": [
+        {
+          "floor_s": 0.1,
+          "seconds": 61.334792780561166
+        },
+        {
+          "floor_s": 0.15,
+          "seconds": 63.02166575508658
+        },
+        {
+          "floor_s": 0.2,
+          "seconds": 66.02372032974351
+        },
+        {
+          "floor_s": 0.24,
+          "seconds": 69.24794622096316
+        }
+      ]
+    },
+    {
+      "extruder_instantaneous_corner_velocity_mm_s": 5.0,
+      "mcr": 0.0,
+      "finite_queue": true,
+      "seconds": 57.72271558891957,
+      "deposition_seconds": 42.367850363540896,
+      "by_role_seconds": {
+        "WALL-INNER": 13.51736458933502,
+        "travel": 15.354865225379424,
+        "WALL-OUTER": 15.411751473296777,
+        "SKIN": 10.542371717747343,
+        "FILL": 2.8963625831623507
+      },
+      "cooling_floor_s": [
+        {
+          "floor_s": 0.1,
+          "seconds": 59.399480666436936
+        },
+        {
+          "floor_s": 0.15,
+          "seconds": 61.114204019821585
+        },
+        {
+          "floor_s": 0.2,
+          "seconds": 64.33040206493332
+        },
+        {
+          "floor_s": 0.24,
+          "seconds": 67.70304082696305
+        }
+      ]
+    },
+    {
+      "extruder_instantaneous_corner_velocity_mm_s": 5.0,
+      "mcr": 0.5,
+      "finite_queue": true,
+      "seconds": 58.79151678370578,
+      "deposition_seconds": 43.11784955192867,
+      "by_role_seconds": {
+        "WALL-INNER": 13.753815664043088,
+        "travel": 15.67366723177763,
+        "WALL-OUTER": 15.735997863535248,
+        "SKIN": 10.708020096317057,
+        "FILL": 2.920015928033587
+      },
+      "cooling_floor_s": [
+        {
+          "floor_s": 0.1,
+          "seconds": 60.44896274931033
+        },
+        {
+          "floor_s": 0.15,
+          "seconds": 62.14371564228845
+        },
+        {
+          "floor_s": 0.2,
+          "seconds": 65.21718321349566
+        },
+        {
+          "floor_s": 0.24,
+          "seconds": 68.50113863241914
+        }
+      ]
+    },
+    {
+      "extruder_instantaneous_corner_velocity_mm_s": 10.0,
+      "mcr": 0.0,
+      "finite_queue": true,
+      "seconds": 56.8692508573391,
+      "deposition_seconds": 41.87383392308618,
+      "by_role_seconds": {
+        "WALL-INNER": 13.400790197593215,
+        "travel": 14.995416934253562,
+        "WALL-OUTER": 15.300165146559946,
+        "SKIN": 10.318407313180115,
+        "FILL": 2.8544712657531717
+      },
+      "cooling_floor_s": [
+        {
+          "floor_s": 0.1,
+          "seconds": 58.58298791840992
+        },
+        {
+          "floor_s": 0.15,
+          "seconds": 60.309899453423476
+        },
+        {
+          "floor_s": 0.2,
+          "seconds": 63.579837086710874
+        },
+        {
+          "floor_s": 0.24,
+          "seconds": 67.00651622994354
+        }
+      ]
+    },
+    {
+      "extruder_instantaneous_corner_velocity_mm_s": 10.0,
+      "mcr": 0.5,
+      "finite_queue": true,
+      "seconds": 57.906962996207795,
+      "deposition_seconds": 42.605033293740526,
+      "by_role_seconds": {
+        "WALL-INNER": 13.63094130874292,
+        "travel": 15.301929702468174,
+        "WALL-OUTER": 15.61872015583781,
+        "SKIN": 10.478954044409228,
+        "FILL": 2.8764177847506245
+      },
+      "cooling_floor_s": [
+        {
+          "floor_s": 0.1,
+          "seconds": 59.602809502395054
+        },
+        {
+          "floor_s": 0.15,
+          "seconds": 61.301466601201135
+        },
+        {
+          "floor_s": 0.2,
+          "seconds": 64.43418002215064
+        },
+        {
+          "floor_s": 0.24,
+          "seconds": 67.77604113796917
+        }
+      ]
+    },
+    {
+      "extruder_instantaneous_corner_velocity_mm_s": 25.0,
+      "mcr": 0.0,
+      "finite_queue": true,
+      "seconds": 55.41146196459264,
+      "deposition_seconds": 41.087617249238974,
+      "by_role_seconds": {
+        "WALL-INNER": 13.265298965595605,
+        "travel": 14.323844715353959,
+        "WALL-OUTER": 15.14473948944163,
+        "SKIN": 9.917090112718551,
+        "FILL": 2.7604886814840146
+      },
+      "cooling_floor_s": [
+        {
+          "floor_s": 0.1,
+          "seconds": 57.18249529928189
+        },
+        {
+          "floor_s": 0.15,
+          "seconds": 58.93700386076701
+        },
+        {
+          "floor_s": 0.2,
+          "seconds": 62.3059591379757
+        },
+        {
+          "floor_s": 0.24,
+          "seconds": 65.82336152872494
+        }
+      ]
+    },
+    {
+      "extruder_instantaneous_corner_velocity_mm_s": 25.0,
+      "mcr": 0.5,
+      "finite_queue": true,
+      "seconds": 56.3643054635452,
+      "deposition_seconds": 41.77850784908675,
+      "by_role_seconds": {
+        "WALL-INNER": 13.486965486567131,
+        "travel": 14.585797614458803,
+        "WALL-OUTER": 15.456742709402155,
+        "SKIN": 10.058452397912308,
+        "FILL": 2.7763472552051915
+      },
+      "cooling_floor_s": [
+        {
+          "floor_s": 0.1,
+          "seconds": 58.120868687322776
+        },
+        {
+          "floor_s": 0.15,
+          "seconds": 59.82910577160982
+        },
+        {
+          "floor_s": 0.2,
+          "seconds": 63.076410579173015
+        },
+        {
+          "floor_s": 0.24,
+          "seconds": 66.51989843233486
+        }
+      ]
+    },
+    {
+      "extruder_instantaneous_corner_velocity_mm_s": 100.0,
+      "mcr": 0.0,
+      "finite_queue": true,
+      "seconds": 54.309058965236154,
+      "deposition_seconds": 40.477769306402735,
+      "by_role_seconds": {
+        "WALL-INNER": 13.200233756678154,
+        "travel": 13.831289658833498,
+        "WALL-OUTER": 15.064634573315894,
+        "SKIN": 9.54051458145001,
+        "FILL": 2.6723863949595743
+      },
+      "cooling_floor_s": [
+        {
+          "floor_s": 0.1,
+          "seconds": 56.091552372645175
+        },
+        {
+          "floor_s": 0.15,
+          "seconds": 57.8626491738267
+        },
+        {
+          "floor_s": 0.2,
+          "seconds": 61.29677421052065
+        },
+        {
+          "floor_s": 0.24,
+          "seconds": 64.849231241387
+        }
+      ]
+    },
+    {
+      "extruder_instantaneous_corner_velocity_mm_s": 100.0,
+      "mcr": 0.5,
+      "finite_queue": true,
+      "seconds": 55.15147862427048,
+      "deposition_seconds": 41.122744219838744,
+      "by_role_seconds": {
+        "WALL-INNER": 13.414138109197705,
+        "travel": 14.028734404432226,
+        "WALL-OUTER": 15.373212345965316,
+        "SKIN": 9.654486303604447,
+        "FILL": 2.680907461071426
+      },
+      "cooling_floor_s": [
+        {
+          "floor_s": 0.1,
+          "seconds": 56.92066943367093
+        },
+        {
+          "floor_s": 0.15,
+          "seconds": 58.63819125139361
+        },
+        {
+          "floor_s": 0.2,
+          "seconds": 61.95786543838597
+        },
+        {
+          "floor_s": 0.24,
+          "seconds": 65.44891556307117
+        }
+      ]
+    }
+  ],
+  "pressure_case": "Default E instantaneous corner=1, MCR0; PA values are sensitivities, not settings.",
+  "pressure_advance": [
+    {
+      "pa_s": 0.01,
+      "smooth_time_s": 0.04,
+      "time_step_s": 1e-05,
+      "input_total_volume_mm3": 8919.339870140842,
+      "output_total_volume_mm3": 8919.339870140686,
+      "matched_model_output_during_travel_fraction": 0.1442343231017041,
+      "by_role": {
+        "FILL": {
+          "nominal_volume_mm3": 745.2957707251068,
+          "matched_model_output_mm3": 543.0441041691979,
+          "ratio": 0.7286289893217348
+        },
+        "SKIN": {
+          "nominal_volume_mm3": 1987.8783446504815,
+          "matched_model_output_mm3": 1608.5578107982608,
+          "ratio": 0.8091832254861075
+        },
+        "WALL-INNER": {
+          "nominal_volume_mm3": 2916.076475810562,
+          "matched_model_output_mm3": 2589.651267867206,
+          "ratio": 0.888060134687441
+        },
+        "WALL-OUTER": {
+          "nominal_volume_mm3": 3270.0892789546915,
+          "matched_model_output_mm3": 2891.611738622239,
+          "ratio": 0.88426079288776
+        }
+      },
+      "peak_abs_feed_mm_s": 138.3148302124937,
+      "min_feed_mm_s": -14.750439072486186,
+      "max_feed_mm_s": 138.3148302124937,
+      "peak_abs_feed_accel_mm_s2": 11840.114098049524,
+      "four_equal_inputs_peak_abs_feed_mm_s_each": 34.57870755312342,
+      "four_equal_inputs_peak_abs_feed_accel_mm_s2_each": 2960.028524512381
+    },
+    {
+      "pa_s": 0.04,
+      "smooth_time_s": 0.04,
+      "time_step_s": 1e-05,
+      "input_total_volume_mm3": 8919.339870140842,
+      "output_total_volume_mm3": 8919.339870140686,
+      "matched_model_output_during_travel_fraction": 0.1442343231017041,
+      "by_role": {
+        "FILL": {
+          "nominal_volume_mm3": 745.2957707251068,
+          "matched_model_output_mm3": 543.0441041691979,
+          "ratio": 0.7286289893217348
+        },
+        "SKIN": {
+          "nominal_volume_mm3": 1987.8783446504815,
+          "matched_model_output_mm3": 1608.5578107982608,
+          "ratio": 0.8091832254861075
+        },
+        "WALL-INNER": {
+          "nominal_volume_mm3": 2916.076475810562,
+          "matched_model_output_mm3": 2589.651267867206,
+          "ratio": 0.888060134687441
+        },
+        "WALL-OUTER": {
+          "nominal_volume_mm3": 3270.0892789546915,
+          "matched_model_output_mm3": 2891.611738622239,
+          "ratio": 0.88426079288776
+        }
+      },
+      "peak_abs_feed_mm_s": 308.9706189939534,
+      "min_feed_mm_s": -177.84774383358123,
+      "max_feed_mm_s": 308.9706189939534,
+      "peak_abs_feed_accel_mm_s2": 30545.29628343516,
+      "four_equal_inputs_peak_abs_feed_mm_s_each": 77.24265474848835,
+      "four_equal_inputs_peak_abs_feed_accel_mm_s2_each": 7636.32407085879
+    },
+    {
+      "pa_s": 0.01,
+      "smooth_time_s": 0.01,
+      "time_step_s": 1e-05,
+      "input_total_volume_mm3": 8919.339870140842,
+      "output_total_volume_mm3": 8919.339870140711,
+      "matched_model_output_during_travel_fraction": 0.0752320662915585,
+      "by_role": {
+        "FILL": {
+          "nominal_volume_mm3": 745.2957707251068,
+          "matched_model_output_mm3": 632.7333673334739,
+          "ratio": 0.8489694859235286
+        },
+        "SKIN": {
+          "nominal_volume_mm3": 1987.8783446504815,
+          "matched_model_output_mm3": 1681.2455607160016,
+          "ratio": 0.8457487175914713
+        },
+        "WALL-INNER": {
+          "nominal_volume_mm3": 2916.076475810562,
+          "matched_model_output_mm3": 2803.071167244943,
+          "ratio": 0.9612474811607238
+        },
+        "WALL-OUTER": {
+          "nominal_volume_mm3": 3270.0892789546915,
+          "matched_model_output_mm3": 3131.2694064589264,
+          "ratio": 0.9575485986302674
+        }
+      },
+      "peak_abs_feed_mm_s": 306.081402595737,
+      "min_feed_mm_s": -181.35656437152645,
+      "max_feed_mm_s": 306.081402595737,
+      "peak_abs_feed_accel_mm_s2": 121535.48510696054,
+      "four_equal_inputs_peak_abs_feed_mm_s_each": 76.52035064893425,
+      "four_equal_inputs_peak_abs_feed_accel_mm_s2_each": 30383.871276740134
+    },
+    {
+      "pa_s": 0.04,
+      "smooth_time_s": 0.01,
+      "time_step_s": 1e-05,
+      "input_total_volume_mm3": 8919.339870140842,
+      "output_total_volume_mm3": 8919.339870140711,
+      "matched_model_output_during_travel_fraction": 0.0752320662915585,
+      "by_role": {
+        "FILL": {
+          "nominal_volume_mm3": 745.2957707251068,
+          "matched_model_output_mm3": 632.7333673334739,
+          "ratio": 0.8489694859235286
+        },
+        "SKIN": {
+          "nominal_volume_mm3": 1987.8783446504815,
+          "matched_model_output_mm3": 1681.2455607160016,
+          "ratio": 0.8457487175914713
+        },
+        "WALL-INNER": {
+          "nominal_volume_mm3": 2916.076475810562,
+          "matched_model_output_mm3": 2803.071167244943,
+          "ratio": 0.9612474811607238
+        },
+        "WALL-OUTER": {
+          "nominal_volume_mm3": 3270.0892789546915,
+          "matched_model_output_mm3": 3131.2694064589264,
+          "ratio": 0.9575485986302674
+        }
+      },
+      "peak_abs_feed_mm_s": 1030.6704991307925,
+      "min_feed_mm_s": -905.945894544402,
+      "max_feed_mm_s": 1030.6704991307925,
+      "peak_abs_feed_accel_mm_s2": 420847.5060352157,
+      "four_equal_inputs_peak_abs_feed_mm_s_each": 257.6676247826981,
+      "four_equal_inputs_peak_abs_feed_accel_mm_s2_each": 105211.87650880392
+    },
+    {
+      "pa_s": 0.01,
+      "smooth_time_s": 0.004,
+      "time_step_s": 1e-05,
+      "input_total_volume_mm3": 8919.339870140842,
+      "output_total_volume_mm3": 8919.339870140857,
+      "matched_model_output_during_travel_fraction": 0.031635031750488325,
+      "by_role": {
+        "FILL": {
+          "nominal_volume_mm3": 745.2957707251068,
+          "matched_model_output_mm3": 702.2345426128811,
+          "ratio": 0.9422226318682435
+        },
+        "SKIN": {
+          "nominal_volume_mm3": 1987.8783446504815,
+          "matched_model_output_mm3": 1827.6505275926056,
+          "ratio": 0.9193975740572555
+        },
+        "WALL-INNER": {
+          "nominal_volume_mm3": 2916.076475810562,
+          "matched_model_output_mm3": 2880.1130827461434,
+          "ratio": 0.98766719824986
+        },
+        "WALL-OUTER": {
+          "nominal_volume_mm3": 3270.0892789546915,
+          "matched_model_output_mm3": 3227.178117203925,
+          "ratio": 0.9868776788368043
+        }
+      },
+      "peak_abs_feed_mm_s": 640.8135273659354,
+      "min_feed_mm_s": -516.0904702222524,
+      "max_feed_mm_s": 640.8135273659354,
+      "peak_abs_feed_accel_mm_s2": 665348.2324736586,
+      "four_equal_inputs_peak_abs_feed_mm_s_each": 160.20338184148386,
+      "four_equal_inputs_peak_abs_feed_accel_mm_s2_each": 166337.05811841466
+    },
+    {
+      "pa_s": 0.04,
+      "smooth_time_s": 0.004,
+      "time_step_s": 1e-05,
+      "input_total_volume_mm3": 8919.339870140842,
+      "output_total_volume_mm3": 8919.339870140857,
+      "matched_model_output_during_travel_fraction": 0.031635031750488325,
+      "by_role": {
+        "FILL": {
+          "nominal_volume_mm3": 745.2957707251068,
+          "matched_model_output_mm3": 702.2345426128811,
+          "ratio": 0.9422226318682435
+        },
+        "SKIN": {
+          "nominal_volume_mm3": 1987.8783446504815,
+          "matched_model_output_mm3": 1827.6505275926056,
+          "ratio": 0.9193975740572555
+        },
+        "WALL-INNER": {
+          "nominal_volume_mm3": 2916.076475810562,
+          "matched_model_output_mm3": 2880.1130827461434,
+          "ratio": 0.98766719824986
+        },
+        "WALL-OUTER": {
+          "nominal_volume_mm3": 3270.0892789546915,
+          "matched_model_output_mm3": 3227.178117203925,
+          "ratio": 0.9868776788368043
+        }
+      },
+      "peak_abs_feed_mm_s": 2370.177297052578,
+      "min_feed_mm_s": -2245.452393049163,
+      "max_feed_mm_s": 2370.177297052578,
+      "peak_abs_feed_accel_mm_s2": 2535841.8230325696,
+      "four_equal_inputs_peak_abs_feed_mm_s_each": 592.5443242631445,
+      "four_equal_inputs_peak_abs_feed_accel_mm_s2_each": 633960.4557581424
+    },
+    {
+      "pa_s": 0.01,
+      "smooth_time_s": 0.001,
+      "time_step_s": 1e-05,
+      "input_total_volume_mm3": 8919.339870140842,
+      "output_total_volume_mm3": 8919.339870140857,
+      "matched_model_output_during_travel_fraction": 0.0029467202905800556,
+      "by_role": {
+        "FILL": {
+          "nominal_volume_mm3": 745.2957707251068,
+          "matched_model_output_mm3": 740.3135726287995,
+          "ratio": 0.993315139717672
+        },
+        "SKIN": {
+          "nominal_volume_mm3": 1987.8783446504815,
+          "matched_model_output_mm3": 1973.0512772995087,
+          "ratio": 0.9925412601878413
+        },
+        "WALL-INNER": {
+          "nominal_volume_mm3": 2916.076475810562,
+          "matched_model_output_mm3": 2913.0104477331893,
+          "ratio": 0.9989485776169431
+        },
+        "WALL-OUTER": {
+          "nominal_volume_mm3": 3270.0892789546915,
+          "matched_model_output_mm3": 3266.6817727054336,
+          "ratio": 0.9989579776089944
+        }
+      },
+      "peak_abs_feed_mm_s": 1809.2644404987366,
+      "min_feed_mm_s": -1684.5221539369957,
+      "max_feed_mm_s": 1809.2644404987366,
+      "peak_abs_feed_accel_mm_s2": 8179115.868642837,
+      "four_equal_inputs_peak_abs_feed_mm_s_each": 452.31611012468414,
+      "four_equal_inputs_peak_abs_feed_accel_mm_s2_each": 2044778.9671607092
+    },
+    {
+      "pa_s": 0.04,
+      "smooth_time_s": 0.001,
+      "time_step_s": 1e-05,
+      "input_total_volume_mm3": 8919.339870140842,
+      "output_total_volume_mm3": 8919.339870140857,
+      "matched_model_output_during_travel_fraction": 0.0029467202905800556,
+      "by_role": {
+        "FILL": {
+          "nominal_volume_mm3": 745.2957707251068,
+          "matched_model_output_mm3": 740.3135726287995,
+          "ratio": 0.993315139717672
+        },
+        "SKIN": {
+          "nominal_volume_mm3": 1987.8783446504815,
+          "matched_model_output_mm3": 1973.0512772995087,
+          "ratio": 0.9925412601878413
+        },
+        "WALL-INNER": {
+          "nominal_volume_mm3": 2916.076475810562,
+          "matched_model_output_mm3": 2913.0104477331893,
+          "ratio": 0.9989485776169431
+        },
+        "WALL-OUTER": {
+          "nominal_volume_mm3": 3270.0892789546915,
+          "matched_model_output_mm3": 3266.6817727054336,
+          "ratio": 0.9989579776089944
+        }
+      },
+      "peak_abs_feed_mm_s": 7046.991624224574,
+      "min_feed_mm_s": -6922.205289055227,
+      "max_feed_mm_s": 7046.991624224574,
+      "peak_abs_feed_accel_mm_s2": 32723895.035360325,
+      "four_equal_inputs_peak_abs_feed_mm_s_each": 1761.7479060561434,
+      "four_equal_inputs_peak_abs_feed_accel_mm_s2_each": 8180973.758840081
+    }
+  ]
+}

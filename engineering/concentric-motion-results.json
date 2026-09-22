@@ -1,0 +1,618 @@
+{
+  "status": "Unvalidated geometry/drive screen for new concentric-skin candidate",
+  "gcode_sha256": "e9fcd9d6b5c791c2b7bdb9e7fd62d14bec1d5ffc50b72c67e11e5dae2cb9f196",
+  "time_s": 52.91207384384717,
+  "dt_s": 2.5e-05,
+  "fixture": "Two Nanotec SCB5618L4204-B motors per independent Cartesian axis; 60g axis load; 30mm-radius 7.5g drum. No transmission elasticity or electrical dynamics.",
+  "runs": [
+    {
+      "frequency_Hz": 200,
+      "smoother_duration_ms": 4.012499999999999,
+      "dynamics": {
+        "max_xy_error_during_deposition_mm": 1.7242331073231525,
+        "p95_xy_error_during_deposition_mm": 1.3086382549922875,
+        "max_abs_axis_accel_mm_s2": [
+          1972256.4320318268,
+          1956218.3810265304
+        ],
+        "max_abs_axis_speed_mm_s": [
+          2400.0000001703015,
+          2400.0000003412224
+        ],
+        "max_abs_motor_rpm": [
+          763.9437268953064,
+          763.9437269497121
+        ],
+        "max_abs_inertial_torque_Nm_per_motor": [
+          5.152519928683149,
+          5.110620520431811
+        ],
+        "time_fraction_above_2Nm_either_axis": 0.21317865534473937
+      },
+      "spatial": {
+        "stroke_count": 2349,
+        "raw_deposition_length_mm": 68877.78737892609,
+        "smoothed_deposition_interval_length_mm": 58443.59722367131,
+        "unchanged_volume_global_length_ratio": 1.178534358782225,
+        "by_role": {
+          "FILL": {
+            "ref_to_smoothed_lower_mm": 1.3070580063878465,
+            "ref_to_smoothed_upper_mm": 1.357055002875335,
+            "smoothed_to_ref_lower_mm": 1.1862165425040097,
+            "smoothed_to_ref_upper_mm": 1.2075443714309568
+          },
+          "SKIN": {
+            "ref_to_smoothed_lower_mm": 1.6800182160779202,
+            "ref_to_smoothed_upper_mm": 1.7300095449987436,
+            "smoothed_to_ref_lower_mm": 1.4720276326636783,
+            "smoothed_to_ref_upper_mm": 1.522018569026451
+          },
+          "WALL-INNER": {
+            "ref_to_smoothed_lower_mm": 1.583115663780977,
+            "ref_to_smoothed_upper_mm": 1.6153142213617464,
+            "smoothed_to_ref_lower_mm": 1.437919758394853,
+            "smoothed_to_ref_upper_mm": 1.4747339684323661
+          },
+          "WALL-OUTER": {
+            "ref_to_smoothed_lower_mm": 1.560533339816036,
+            "ref_to_smoothed_upper_mm": 1.6085685683422837,
+            "smoothed_to_ref_lower_mm": 1.422159132383048,
+            "smoothed_to_ref_upper_mm": 1.4605018929761524
+          }
+        },
+        "worst_strokes": [
+          {
+            "stroke": 204,
+            "role": "SKIN",
+            "layer_z_mm": 1.5,
+            "raw_length_mm": 36.85261868720464,
+            "smoothed_length_mm": 29.7463046142865,
+            "unchanged_volume_length_ratio": 1.238897374482783,
+            "ref_to_smoothed_lower_mm": 1.6800182160779202,
+            "ref_to_smoothed_upper_mm": 1.7300095449987436,
+            "smoothed_to_ref_lower_mm": 0.7265685446832268,
+            "smoothed_to_ref_upper_mm": 0.7765598736040504
+          },
+          {
+            "stroke": 1170,
+            "role": "SKIN",
+            "layer_z_mm": 14.75,
+            "raw_length_mm": 44.755848671010284,
+            "smoothed_length_mm": 34.717550390473626,
+            "unchanged_volume_length_ratio": 1.2891418941611483,
+            "ref_to_smoothed_lower_mm": 1.6625551006232864,
+            "ref_to_smoothed_upper_mm": 1.7125310503549138,
+            "smoothed_to_ref_lower_mm": 0.5723288541282885,
+            "smoothed_to_ref_upper_mm": 0.6223048038599158
+          },
+          {
+            "stroke": 1235,
+            "role": "SKIN",
+            "layer_z_mm": 15.75,
+            "raw_length_mm": 37.03682315731997,
+            "smoothed_length_mm": 32.614820022327905,
+            "unchanged_volume_length_ratio": 1.135582631820896,
+            "ref_to_smoothed_lower_mm": 1.6624347748327197,
+            "ref_to_smoothed_upper_mm": 1.712428892517977,
+            "smoothed_to_ref_lower_mm": 0.8446279468550895,
+            "smoothed_to_ref_upper_mm": 0.8946220645403467
+          },
+          {
+            "stroke": 1184,
+            "role": "SKIN",
+            "layer_z_mm": 15.0,
+            "raw_length_mm": 44.977371953239675,
+            "smoothed_length_mm": 34.651070914484684,
+            "unchanged_volume_length_ratio": 1.2980081355707376,
+            "ref_to_smoothed_lower_mm": 1.6606741805211014,
+            "ref_to_smoothed_upper_mm": 1.7106354606335692,
+            "smoothed_to_ref_lower_mm": 0.8825551931137161,
+            "smoothed_to_ref_upper_mm": 0.932516473226184
+          },
+          {
+            "stroke": 205,
+            "role": "SKIN",
+            "layer_z_mm": 1.5,
+            "raw_length_mm": 40.8843529577309,
+            "smoothed_length_mm": 34.07486387966987,
+            "unchanged_volume_length_ratio": 1.1998390691187406,
+            "ref_to_smoothed_lower_mm": 1.6589766574141092,
+            "ref_to_smoothed_upper_mm": 1.7089596148438222,
+            "smoothed_to_ref_lower_mm": 0.8624297403654348,
+            "smoothed_to_ref_upper_mm": 0.9124126977951481
+          },
+          {
+            "stroke": 1220,
+            "role": "SKIN",
+            "layer_z_mm": 15.5,
+            "raw_length_mm": 38.6301057185588,
+            "smoothed_length_mm": 32.968476405215945,
+            "unchanged_volume_length_ratio": 1.1717285701576168,
+            "ref_to_smoothed_lower_mm": 1.6556949892501929,
+            "ref_to_smoothed_upper_mm": 1.705677668270977,
+            "smoothed_to_ref_lower_mm": 0.21521204316056025,
+            "smoothed_to_ref_upper_mm": 0.26519472218134443
+          },
+          {
+            "stroke": 1207,
+            "role": "SKIN",
+            "layer_z_mm": 15.25,
+            "raw_length_mm": 40.08829591968077,
+            "smoothed_length_mm": 35.164676801493314,
+            "unchanged_volume_length_ratio": 1.1400160492297875,
+            "ref_to_smoothed_lower_mm": 1.6516172278829298,
+            "ref_to_smoothed_upper_mm": 1.7015949729140134,
+            "smoothed_to_ref_lower_mm": 0.8080337636713469,
+            "smoothed_to_ref_upper_mm": 0.8580115087024305
+          },
+          {
+            "stroke": 1245,
+            "role": "SKIN",
+            "layer_z_mm": 16.0,
+            "raw_length_mm": 35.31399689750663,
+            "smoothed_length_mm": 31.04386851583771,
+            "unchanged_volume_length_ratio": 1.1375514259600223,
+            "ref_to_smoothed_lower_mm": 1.6492318939619826,
+            "ref_to_smoothed_upper_mm": 1.699223275134619,
+            "smoothed_to_ref_lower_mm": 0.6953102729172994,
+            "smoothed_to_ref_upper_mm": 0.7453016540899359
+          },
+          {
+            "stroke": 170,
+            "role": "SKIN",
+            "layer_z_mm": 1.0,
+            "raw_length_mm": 42.54614591640716,
+            "smoothed_length_mm": 35.6878803465901,
+            "unchanged_volume_length_ratio": 1.1921735195033054,
+            "ref_to_smoothed_lower_mm": 1.64701330003621,
+            "ref_to_smoothed_upper_mm": 1.6969880988821353,
+            "smoothed_to_ref_lower_mm": 0.9071987905725198,
+            "smoothed_to_ref_upper_mm": 0.9571735894184453
+          },
+          {
+            "stroke": 1288,
+            "role": "SKIN",
+            "layer_z_mm": 16.75,
+            "raw_length_mm": 29.22165109051785,
+            "smoothed_length_mm": 23.506458622328886,
+            "unchanged_volume_length_ratio": 1.2431328580801226,
+            "ref_to_smoothed_lower_mm": 1.6457310460495582,
+            "ref_to_smoothed_upper_mm": 1.695683014488857,
+            "smoothed_to_ref_lower_mm": 0.21379920094148205,
+            "smoothed_to_ref_upper_mm": 0.26375116938078086
+          },
+          {
+            "stroke": 1261,
+            "role": "SKIN",
+            "layer_z_mm": 16.25,
+            "raw_length_mm": 33.440094273642714,
+            "smoothed_length_mm": 28.841832300394877,
+            "unchanged_volume_length_ratio": 1.159430299897586,
+            "ref_to_smoothed_lower_mm": 1.6449401078880306,
+            "ref_to_smoothed_upper_mm": 1.6949360931646242,
+            "smoothed_to_ref_lower_mm": 0.7806832080843146,
+            "smoothed_to_ref_upper_mm": 0.8306791933609082
+          },
+          {
+            "stroke": 1346,
+            "role": "SKIN",
+            "layer_z_mm": 18.0,
+            "raw_length_mm": 15.971025650192544,
+            "smoothed_length_mm": 10.318279782848313,
+            "unchanged_volume_length_ratio": 1.5478380104347023,
+            "ref_to_smoothed_lower_mm": 1.6430393081726569,
+            "ref_to_smoothed_upper_mm": 1.68624475306755,
+            "smoothed_to_ref_lower_mm": 0.21565223556069207,
+            "smoothed_to_ref_upper_mm": 0.25885768045558516
+          }
+        ]
+      }
+    },
+    {
+      "frequency_Hz": 400,
+      "smoother_duration_ms": 2.0062499999999996,
+      "dynamics": {
+        "max_xy_error_during_deposition_mm": 0.5437806423869659,
+        "p95_xy_error_during_deposition_mm": 0.4456974200561494,
+        "max_abs_axis_accel_mm_s2": [
+          2249208.5410088957,
+          2236855.967058916
+        ],
+        "max_abs_axis_speed_mm_s": [
+          2400.000000171651,
+          2400.000000341773
+        ],
+        "max_abs_motor_rpm": [
+          763.943726895736,
+          763.9437269498875
+        ],
+        "max_abs_inertial_torque_Nm_per_motor": [
+          5.876057313385741,
+          5.843786213941419
+        ],
+        "time_fraction_above_2Nm_either_axis": 0.37711666004404476
+      },
+      "spatial": {
+        "stroke_count": 2349,
+        "raw_deposition_length_mm": 68877.78737892609,
+        "smoothed_deposition_interval_length_mm": 64182.49275437614,
+        "unchanged_volume_global_length_ratio": 1.0731553796534308,
+        "by_role": {
+          "FILL": {
+            "ref_to_smoothed_lower_mm": 0.48723120840504974,
+            "ref_to_smoothed_upper_mm": 0.5272462706370048,
+            "smoothed_to_ref_lower_mm": 0.36642793278629643,
+            "smoothed_to_ref_upper_mm": 0.41638638154761015
+          },
+          "SKIN": {
+            "ref_to_smoothed_lower_mm": 0.5167632964827554,
+            "ref_to_smoothed_upper_mm": 0.5667541431058459,
+            "smoothed_to_ref_lower_mm": 0.44110392229174306,
+            "smoothed_to_ref_upper_mm": 0.49109110954614316
+          },
+          "WALL-INNER": {
+            "ref_to_smoothed_lower_mm": 0.49522878925061997,
+            "ref_to_smoothed_upper_mm": 0.5450977716328123,
+            "smoothed_to_ref_lower_mm": 0.47925131869829274,
+            "smoothed_to_ref_upper_mm": 0.5292477557960467
+          },
+          "WALL-OUTER": {
+            "ref_to_smoothed_lower_mm": 0.5156383890612063,
+            "ref_to_smoothed_upper_mm": 0.5655901743678291,
+            "smoothed_to_ref_lower_mm": 0.46364815764525336,
+            "smoothed_to_ref_upper_mm": 0.5136373663221615
+          }
+        },
+        "worst_strokes": [
+          {
+            "stroke": 186,
+            "role": "SKIN",
+            "layer_z_mm": 1.25,
+            "raw_length_mm": 35.574590189163466,
+            "smoothed_length_mm": 33.23276963934402,
+            "unchanged_volume_length_ratio": 1.0704672097822079,
+            "ref_to_smoothed_lower_mm": 0.5167632964827554,
+            "ref_to_smoothed_upper_mm": 0.5667541431058459,
+            "smoothed_to_ref_lower_mm": 0.25036792509257777,
+            "smoothed_to_ref_upper_mm": 0.30035877171566827
+          },
+          {
+            "stroke": 1630,
+            "role": "WALL-OUTER",
+            "layer_z_mm": 23.75,
+            "raw_length_mm": 67.93730271705712,
+            "smoothed_length_mm": 65.2013667864034,
+            "unchanged_volume_length_ratio": 1.0419613278908173,
+            "ref_to_smoothed_lower_mm": 0.5156383890612063,
+            "ref_to_smoothed_upper_mm": 0.5655901743678291,
+            "smoothed_to_ref_lower_mm": 0.361915380311914,
+            "smoothed_to_ref_upper_mm": 0.4118671656185368
+          },
+          {
+            "stroke": 1586,
+            "role": "WALL-OUTER",
+            "layer_z_mm": 22.75,
+            "raw_length_mm": 28.160072819626333,
+            "smoothed_length_mm": 25.97588153121864,
+            "unchanged_volume_length_ratio": 1.0840853576338751,
+            "ref_to_smoothed_lower_mm": 0.5140940024886701,
+            "ref_to_smoothed_upper_mm": 0.5640166452776072,
+            "smoothed_to_ref_lower_mm": 0.3646373567962259,
+            "smoothed_to_ref_upper_mm": 0.41455999958516304
+          },
+          {
+            "stroke": 205,
+            "role": "SKIN",
+            "layer_z_mm": 1.5,
+            "raw_length_mm": 40.8843529577309,
+            "smoothed_length_mm": 38.65087025099052,
+            "unchanged_volume_length_ratio": 1.0577860910307224,
+            "ref_to_smoothed_lower_mm": 0.5137636108712086,
+            "ref_to_smoothed_upper_mm": 0.5637465721785598,
+            "smoothed_to_ref_lower_mm": 0.34649392975254106,
+            "smoothed_to_ref_upper_mm": 0.39647689105989226
+          },
+          {
+            "stroke": 204,
+            "role": "SKIN",
+            "layer_z_mm": 1.5,
+            "raw_length_mm": 36.85261868720464,
+            "smoothed_length_mm": 34.60280616105092,
+            "unchanged_volume_length_ratio": 1.0650182102481074,
+            "ref_to_smoothed_lower_mm": 0.513038383970948,
+            "ref_to_smoothed_upper_mm": 0.5630299435762627,
+            "smoothed_to_ref_lower_mm": 0.3101323377104664,
+            "smoothed_to_ref_upper_mm": 0.360123897315781
+          },
+          {
+            "stroke": 455,
+            "role": "WALL-OUTER",
+            "layer_z_mm": 5.0,
+            "raw_length_mm": 7.381792638401187,
+            "smoothed_length_mm": 5.463284297716335,
+            "unchanged_volume_length_ratio": 1.3511639219446794,
+            "ref_to_smoothed_lower_mm": 0.5128844127733362,
+            "ref_to_smoothed_upper_mm": 0.5482293014416055,
+            "smoothed_to_ref_lower_mm": 0.41510846358278974,
+            "smoothed_to_ref_upper_mm": 0.45045335225105915
+          },
+          {
+            "stroke": 152,
+            "role": "SKIN",
+            "layer_z_mm": 0.75,
+            "raw_length_mm": 37.40388031332547,
+            "smoothed_length_mm": 35.14858124752314,
+            "unchanged_volume_length_ratio": 1.064164725452788,
+            "ref_to_smoothed_lower_mm": 0.5116293563099119,
+            "ref_to_smoothed_upper_mm": 0.5615950811309065,
+            "smoothed_to_ref_lower_mm": 0.3134855578651765,
+            "smoothed_to_ref_upper_mm": 0.363451282686171
+          },
+          {
+            "stroke": 170,
+            "role": "SKIN",
+            "layer_z_mm": 1.0,
+            "raw_length_mm": 42.54614591640716,
+            "smoothed_length_mm": 40.30342033740971,
+            "unchanged_volume_length_ratio": 1.0556460359994744,
+            "ref_to_smoothed_lower_mm": 0.5113119468929035,
+            "ref_to_smoothed_upper_mm": 0.561286746440585,
+            "smoothed_to_ref_lower_mm": 0.3416506506012951,
+            "smoothed_to_ref_upper_mm": 0.39162545014897654
+          },
+          {
+            "stroke": 1651,
+            "role": "WALL-OUTER",
+            "layer_z_mm": 24.25,
+            "raw_length_mm": 60.41675735387605,
+            "smoothed_length_mm": 57.296110175664815,
+            "unchanged_volume_length_ratio": 1.054465253725665,
+            "ref_to_smoothed_lower_mm": 0.5112913651447655,
+            "ref_to_smoothed_upper_mm": 0.5612450661607156,
+            "smoothed_to_ref_lower_mm": 0.354976919688739,
+            "smoothed_to_ref_upper_mm": 0.4049306207046891
+          },
+          {
+            "stroke": 168,
+            "role": "SKIN",
+            "layer_z_mm": 1.0,
+            "raw_length_mm": 34.35535285268043,
+            "smoothed_length_mm": 31.98357474031649,
+            "unchanged_volume_length_ratio": 1.074156129564036,
+            "ref_to_smoothed_lower_mm": 0.5110679486805875,
+            "ref_to_smoothed_upper_mm": 0.560998954853213,
+            "smoothed_to_ref_lower_mm": 0.22041203983007496,
+            "smoothed_to_ref_upper_mm": 0.2703430460027006
+          },
+          {
+            "stroke": 1693,
+            "role": "WALL-OUTER",
+            "layer_z_mm": 25.25,
+            "raw_length_mm": 44.368382488043196,
+            "smoothed_length_mm": 41.2710828320838,
+            "unchanged_volume_length_ratio": 1.0750476954666084,
+            "ref_to_smoothed_lower_mm": 0.5102319294823261,
+            "ref_to_smoothed_upper_mm": 0.5601793568216598,
+            "smoothed_to_ref_lower_mm": 0.37169945139479166,
+            "smoothed_to_ref_upper_mm": 0.4216468787341252
+          },
+          {
+            "stroke": 1609,
+            "role": "WALL-OUTER",
+            "layer_z_mm": 23.25,
+            "raw_length_mm": 76.3236324198159,
+            "smoothed_length_mm": 72.19121977686837,
+            "unchanged_volume_length_ratio": 1.057242593430616,
+            "ref_to_smoothed_lower_mm": 0.5101681824125248,
+            "ref_to_smoothed_upper_mm": 0.5600859388159628,
+            "smoothed_to_ref_lower_mm": 0.40326116730682615,
+            "smoothed_to_ref_upper_mm": 0.4531789237102641
+          }
+        ]
+      }
+    },
+    {
+      "frequency_Hz": 800,
+      "smoother_duration_ms": 1.0031249999999998,
+      "dynamics": {
+        "max_xy_error_during_deposition_mm": 0.18344034320259608,
+        "p95_xy_error_during_deposition_mm": 0.13672427123225936,
+        "max_abs_axis_accel_mm_s2": [
+          3081150.9636696316,
+          3032721.8496026373
+        ],
+        "max_abs_axis_speed_mm_s": [
+          2400.000000174849,
+          2400.0000003403875
+        ],
+        "max_abs_motor_rpm": [
+          763.9437268967538,
+          763.9437269494465
+        ],
+        "max_abs_inertial_torque_Nm_per_motor": [
+          8.049506892586914,
+          7.922985832086891
+        ],
+        "time_fraction_above_2Nm_either_axis": 0.41623344009850305
+      },
+      "spatial": {
+        "stroke_count": 2349,
+        "raw_deposition_length_mm": 68877.78737892609,
+        "smoothed_deposition_interval_length_mm": 66986.00794190809,
+        "unchanged_volume_global_length_ratio": 1.0282414118282523,
+        "by_role": {
+          "FILL": {
+            "ref_to_smoothed_lower_mm": 0.1556746236373929,
+            "ref_to_smoothed_upper_mm": 0.20155863066920265,
+            "smoothed_to_ref_lower_mm": 0.11560913103773945,
+            "smoothed_to_ref_upper_mm": 0.16174286641311464
+          },
+          "SKIN": {
+            "ref_to_smoothed_lower_mm": 0.16958531005434757,
+            "ref_to_smoothed_upper_mm": 0.2049352667589502,
+            "smoothed_to_ref_lower_mm": 0.131855990616647,
+            "smoothed_to_ref_upper_mm": 0.18182165905746153
+          },
+          "WALL-INNER": {
+            "ref_to_smoothed_lower_mm": 0.1678378478748832,
+            "ref_to_smoothed_upper_mm": 0.202195717173919,
+            "smoothed_to_ref_lower_mm": 0.13038600703849648,
+            "smoothed_to_ref_upper_mm": 0.1803832568514825
+          },
+          "WALL-OUTER": {
+            "ref_to_smoothed_lower_mm": 0.1641581384180557,
+            "ref_to_smoothed_upper_mm": 0.20261912314096164,
+            "smoothed_to_ref_lower_mm": 0.12685917676891192,
+            "smoothed_to_ref_upper_mm": 0.17685593001978153
+          }
+        },
+        "worst_strokes": [
+          {
+            "stroke": 2124,
+            "role": "SKIN",
+            "layer_z_mm": 38.0,
+            "raw_length_mm": 3.799160677218218,
+            "smoothed_length_mm": 3.2341314016341753,
+            "unchanged_volume_length_ratio": 1.174708199950855,
+            "ref_to_smoothed_lower_mm": 0.16958531005434757,
+            "ref_to_smoothed_upper_mm": 0.20126907382356912,
+            "smoothed_to_ref_lower_mm": 0.11022779680735814,
+            "smoothed_to_ref_upper_mm": 0.1419115605765797
+          },
+          {
+            "stroke": 2116,
+            "role": "SKIN",
+            "layer_z_mm": 38.0,
+            "raw_length_mm": 3.8077872110498765,
+            "smoothed_length_mm": 3.209705603640728,
+            "unchanged_volume_length_ratio": 1.1863353469959215,
+            "ref_to_smoothed_lower_mm": 0.16910341094487694,
+            "ref_to_smoothed_upper_mm": 0.2016077767181084,
+            "smoothed_to_ref_lower_mm": 0.10819339819249996,
+            "smoothed_to_ref_upper_mm": 0.14069776396573141
+          },
+          {
+            "stroke": 1680,
+            "role": "WALL-INNER",
+            "layer_z_mm": 25.0,
+            "raw_length_mm": 2.0440004042036426,
+            "smoothed_length_mm": 1.7216725665946009,
+            "unchanged_volume_length_ratio": 1.1872178507476558,
+            "ref_to_smoothed_lower_mm": 0.1678378478748832,
+            "ref_to_smoothed_upper_mm": 0.20044714116754345,
+            "smoothed_to_ref_lower_mm": 0.10353244156786767,
+            "smoothed_to_ref_upper_mm": 0.1361417348605279
+          },
+          {
+            "stroke": 734,
+            "role": "SKIN",
+            "layer_z_mm": 8.0,
+            "raw_length_mm": 2.899293833017053,
+            "smoothed_length_mm": 2.2589055830877394,
+            "unchanged_volume_length_ratio": 1.2834949166197354,
+            "ref_to_smoothed_lower_mm": 0.16619758587135353,
+            "ref_to_smoothed_upper_mm": 0.1973695624019657,
+            "smoothed_to_ref_lower_mm": 0.10578666197460375,
+            "smoothed_to_ref_upper_mm": 0.13695863850521595
+          },
+          {
+            "stroke": 571,
+            "role": "SKIN",
+            "layer_z_mm": 6.25,
+            "raw_length_mm": 4.198000000000015,
+            "smoothed_length_mm": 3.551890440767078,
+            "unchanged_volume_length_ratio": 1.1819058245201393,
+            "ref_to_smoothed_lower_mm": 0.1654215564057878,
+            "ref_to_smoothed_upper_mm": 0.20088653660721664,
+            "smoothed_to_ref_lower_mm": 0.10652707811086379,
+            "smoothed_to_ref_upper_mm": 0.14199205831229264
+          },
+          {
+            "stroke": 527,
+            "role": "SKIN",
+            "layer_z_mm": 6.0,
+            "raw_length_mm": 4.198000000000015,
+            "smoothed_length_mm": 3.5381233724829153,
+            "unchanged_volume_length_ratio": 1.186504696995352,
+            "ref_to_smoothed_lower_mm": 0.16530289008667598,
+            "ref_to_smoothed_upper_mm": 0.20077214135394197,
+            "smoothed_to_ref_lower_mm": 0.10625406800860376,
+            "smoothed_to_ref_upper_mm": 0.14172331927586973
+          },
+          {
+            "stroke": 587,
+            "role": "SKIN",
+            "layer_z_mm": 6.5,
+            "raw_length_mm": 4.198000000000015,
+            "smoothed_length_mm": 3.5318837542722887,
+            "unchanged_volume_length_ratio": 1.1886008408181523,
+            "ref_to_smoothed_lower_mm": 0.16521952761538142,
+            "ref_to_smoothed_upper_mm": 0.20069238042878662,
+            "smoothed_to_ref_lower_mm": 0.1053866968435023,
+            "smoothed_to_ref_upper_mm": 0.1408595496569075
+          },
+          {
+            "stroke": 1395,
+            "role": "WALL-OUTER",
+            "layer_z_mm": 19.0,
+            "raw_length_mm": 2.8940635582010943,
+            "smoothed_length_mm": 2.5059708414930673,
+            "unchanged_volume_length_ratio": 1.1548672116539074,
+            "ref_to_smoothed_lower_mm": 0.1641581384180557,
+            "ref_to_smoothed_upper_mm": 0.20020841142537632,
+            "smoothed_to_ref_lower_mm": 0.11536539140796104,
+            "smoothed_to_ref_upper_mm": 0.15141566441528165
+          },
+          {
+            "stroke": 753,
+            "role": "SKIN",
+            "layer_z_mm": 8.0,
+            "raw_length_mm": 4.885418548966058,
+            "smoothed_length_mm": 4.348715142365921,
+            "unchanged_volume_length_ratio": 1.1234165469638333,
+            "ref_to_smoothed_lower_mm": 0.163785400063172,
+            "ref_to_smoothed_upper_mm": 0.20132879217141994,
+            "smoothed_to_ref_lower_mm": 0.09914738174611512,
+            "smoothed_to_ref_upper_mm": 0.1366907738543631
+          },
+          {
+            "stroke": 419,
+            "role": "SKIN",
+            "layer_z_mm": 4.5,
+            "raw_length_mm": 7.362476994945153,
+            "smoothed_length_mm": 6.678507091109878,
+            "unchanged_volume_length_ratio": 1.102413592514672,
+            "ref_to_smoothed_lower_mm": 0.163458423211159,
+            "ref_to_smoothed_upper_mm": 0.2049352667589502,
+            "smoothed_to_ref_lower_mm": 0.11337500503407318,
+            "smoothed_to_ref_upper_mm": 0.15485184858186438
+          },
+          {
+            "stroke": 749,
+            "role": "SKIN",
+            "layer_z_mm": 8.0,
+            "raw_length_mm": 4.978129829211775,
+            "smoothed_length_mm": 4.36997006067787,
+            "unchanged_volume_length_ratio": 1.1391679485418642,
+            "ref_to_smoothed_lower_mm": 0.1633778791809838,
+            "ref_to_smoothed_upper_mm": 0.20116147404257897,
+            "smoothed_to_ref_lower_mm": 0.09648599019000269,
+            "smoothed_to_ref_upper_mm": 0.13426958505159786
+          },
+          {
+            "stroke": 735,
+            "role": "SKIN",
+            "layer_z_mm": 8.0,
+            "raw_length_mm": 6.906427369761422,
+            "smoothed_length_mm": 6.23267003172699,
+            "unchanged_volume_length_ratio": 1.1081009157559627,
+            "ref_to_smoothed_lower_mm": 0.1627272620283815,
+            "ref_to_smoothed_upper_mm": 0.20166421061866924,
+            "smoothed_to_ref_lower_mm": 0.10848844791914292,
+            "smoothed_to_ref_upper_mm": 0.14742539650943065
+          }
+        ]
+      }
+    }
+  ]
+}

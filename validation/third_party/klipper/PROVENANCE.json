@@ -13,6 +13,18 @@
       "upstream_path": "COPYING",
       "local_file": "COPYING",
       "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "file": "extruder.py",
+      "url": "https://raw.githubusercontent.com/Klipper3d/klipper/ce7002bedf37e938bb483572949f3703ac6476cb/klippy/kinematics/extruder.py",
+      "sha256": "a38c3fb0f7c658fab4f2a52de1f633141bb4ba935c2925e84099871748ce6ef5",
+      "retrieved": "2026-09-21"
+    },
+    {
+      "file": "kin_extruder.c",
+      "url": "https://raw.githubusercontent.com/Klipper3d/klipper/ce7002bedf37e938bb483572949f3703ac6476cb/klippy/chelper/kin_extruder.c",
+      "sha256": "4a352a7a287b782a47d813e94b85e33bfd662cdd8877f8507e2f60d847cd9538",
+      "retrieved": "2026-09-21"
     }
   ]
 }

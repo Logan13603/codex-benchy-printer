@@ -1,0 +1,468 @@
+{
+  "status": "Unvalidated slicer optimizations; not ready to print",
+  "trials": [
+    {
+      "name": "concentric-bridges",
+      "changed_settings": {
+        "retraction_combing": "off",
+        "optimize_wall_printing_order": true,
+        "top_bottom_pattern": "concentric",
+        "infill_angles": "[0]",
+        "bridge_settings_enabled": true,
+        "bridge_wall_coast": 0,
+        "bridge_wall_material_flow": 100,
+        "bridge_skin_material_flow": 100,
+        "bridge_skin_material_flow_2": 100,
+        "bridge_skin_material_flow_3": 100,
+        "bridge_skin_density": 100,
+        "bridge_skin_density_2": 100,
+        "bridge_skin_density_3": 100,
+        "bridge_wall_speed": 1500,
+        "bridge_skin_speed": 1500,
+        "bridge_skin_speed_2": 1500,
+        "bridge_skin_speed_3": 1500
+      },
+      "summary": {
+        "volume_mm3": 8935.38654571589,
+        "mass_g": 11.079879316687704,
+        "extrusion_path_mm": 69136.1793902072,
+        "travel_path_mm": 13753.378400755093,
+        "pure_e_moves": 0,
+        "minimum_average_flow_55s": 162.46157355847072,
+        "minimum_average_flow_60s": 148.92310909526483,
+        "ideal_flow_only_s": {
+          "50": 178.7077309143178,
+          "75": 119.13848727621186,
+          "100": 89.3538654571589,
+          "150": 59.56924363810593,
+          "200": 44.67693272857945
+        },
+        "nominal_width_min_mm": null,
+        "nominal_width_max_mm": null,
+        "layer_count": 192,
+        "volume_by_role_mm3": {
+          "WALL-INNER": 2918.114212866277,
+          "WALL-OUTER": 3269.773855371304,
+          "SKIN": 2012.2839762119886,
+          "FILL": 735.2145012663057
+        }
+      },
+      "audit": {
+        "path": "slicing\\cura-travel-study\\concentric-bridges\\analysis.gcode",
+        "sha256": "1f433cc376e53d6a91ca1b6878e1910c85140c5e84e500d589a1906728327ded",
+        "max_permitted_width_mm": 0.5,
+        "deposition_volume_mm3": 8935.386545715757,
+        "roles": {
+          "WALL-INNER": {
+            "volume_mm3": 2918.114212866277,
+            "segments": 24354,
+            "path_mm": 23678.881168971882,
+            "largest_raw_area_mm2": 0.12653628944029657
+          },
+          "WALL-OUTER": {
+            "volume_mm3": 3269.773855371304,
+            "segments": 31347,
+            "path_mm": 26218.694158508417,
+            "largest_raw_area_mm2": 0.1262772984587038
+          },
+          "SKIN": {
+            "volume_mm3": 2012.2839762119886,
+            "segments": 11762,
+            "path_mm": 16107.689948045045,
+            "largest_raw_area_mm2": 0.12633159323264448
+          },
+          "FILL": {
+            "volume_mm3": 735.2145012663057,
+            "segments": 726,
+            "path_mm": 3130.9141146821125,
+            "largest_raw_area_mm2": 0.25001013055743415
+          }
+        },
+        "layers": [
+          0.25,
+          0.5,
+          0.75,
+          1.0,
+          1.25,
+          1.5,
+          1.75,
+          2.0,
+          2.25,
+          2.5,
+          2.75,
+          3.0,
+          3.25,
+          3.5,
+          3.75,
+          4.0,
+          4.25,
+          4.5,
+          4.75,
+          5.0,
+          5.25,
+          5.5,
+          5.75,
+          6.0,
+          6.25,
+          6.5,
+          6.75,
+          7.0,
+          7.25,
+          7.5,
+          7.75,
+          8.0,
+          8.25,
+          8.5,
+          8.75,
+          9.0,
+          9.25,
+          9.5,
+          9.75,
+          10.0,
+          10.25,
+          10.5,
+          10.75,
+          11.0,
+          11.25,
+          11.5,
+          11.75,
+          12.0,
+          12.25,
+          12.5,
+          12.75,
+          13.0,
+          13.25,
+          13.5,
+          13.75,
+          14.0,
+          14.25,
+          14.5,
+          14.75,
+          15.0,
+          15.25,
+          15.5,
+          15.75,
+          16.0,
+          16.25,
+          16.5,
+          16.75,
+          17.0,
+          17.25,
+          17.5,
+          17.75,
+          18.0,
+          18.25,
+          18.5,
+          18.75,
+          19.0,
+          19.25,
+          19.5,
+          19.75,
+          20.0,
+          20.25,
+          20.5,
+          20.75,
+          21.0,
+          21.25,
+          21.5,
+          21.75,
+          22.0,
+          22.25,
+          22.5,
+          22.75,
+          23.0,
+          23.25,
+          23.5,
+          23.75,
+          24.0,
+          24.25,
+          24.5,
+          24.75,
+          25.0,
+          25.25,
+          25.5,
+          25.75,
+          26.0,
+          26.25,
+          26.5,
+          26.75,
+          27.0,
+          27.25,
+          27.5,
+          27.75,
+          28.0,
+          28.25,
+          28.5,
+          28.75,
+          29.0,
+          29.25,
+          29.5,
+          29.75,
+          30.0,
+          30.25,
+          30.5,
+          30.75,
+          31.0,
+          31.25,
+          31.5,
+          31.75,
+          32.0,
+          32.25,
+          32.5,
+          32.75,
+          33.0,
+          33.25,
+          33.5,
+          33.75,
+          34.0,
+          34.25,
+          34.5,
+          34.75,
+          35.0,
+          35.25,
+          35.5,
+          35.75,
+          36.0,
+          36.25,
+          36.5,
+          36.75,
+          37.0,
+          37.25,
+          37.5,
+          37.75,
+          38.0,
+          38.25,
+          38.5,
+          38.75,
+          39.0,
+          39.25,
+          39.5,
+          39.75,
+          40.0,
+          40.25,
+          40.5,
+          40.75,
+          41.0,
+          41.25,
+          41.5,
+          41.75,
+          42.0,
+          42.25,
+          42.5,
+          42.75,
+          43.0,
+          43.25,
+          43.5,
+          43.75,
+          44.0,
+          44.25,
+          44.5,
+          44.75,
+          45.0,
+          45.25,
+          45.5,
+          45.75,
+          46.0,
+          46.25,
+          46.5,
+          46.75,
+          47.0,
+          47.25,
+          47.5,
+          47.75,
+          48.0
+        ],
+        "certain_width_violations": [],
+        "bounds_mm": [
+          [
+            10.25,
+            24.748,
+            0.25
+          ],
+          [
+            69.748,
+            55.252,
+            48.0
+          ]
+        ],
+        "layer_count": 192,
+        "layer_steps_mm": [
+          0.25
+        ],
+        "limitations": [
+          "Flow audit uses Cura rectangular cross section and permitted .5mm combined infill thickness.",
+          "Does not certify local infill stacking, two-wall coverage of every narrow feature, actual bead width, or physical dimensional accuracy.",
+          "Header TIME:6666 and Filament used:0 are CLI placeholders, not measured values.",
+          "No-gap variant omits optional fill between walls, while retaining thin-outline printing; physical pinholes/coverage require inspection."
+        ]
+      },
+      "timing": [
+        {
+          "q_mm3_s": 300,
+          "a_mm_s2": 2000000,
+          "scv_mm_s": 500,
+          "e_corner_mm_s": 1,
+          "seconds": 53.53608057459735,
+          "deposition_seconds": 42.11141392701365,
+          "by_role_seconds": {
+            "WALL-INNER": 13.784406764401647,
+            "travel": 11.42466664758404,
+            "WALL-OUTER": 15.598750366429009,
+            "SKIN": 9.878230529361511,
+            "FILL": 2.8500262668221956
+          },
+          "cooling_floor_s": [
+            {
+              "floor_s": 0.1,
+              "seconds": 55.14753810732805
+            },
+            {
+              "floor_s": 0.15,
+              "seconds": 56.88924550661816
+            },
+            {
+              "floor_s": 0.2,
+              "seconds": 60.382551991170736
+            },
+            {
+              "floor_s": 0.24,
+              "seconds": 63.90986421076373
+            }
+          ]
+        },
+        {
+          "q_mm3_s": 300,
+          "a_mm_s2": 2000000,
+          "scv_mm_s": 500,
+          "e_corner_mm_s": 10,
+          "seconds": 52.3401584122189,
+          "deposition_seconds": 41.28774441399113,
+          "by_role_seconds": {
+            "WALL-INNER": 13.423343608982185,
+            "travel": 11.052413998227962,
+            "WALL-OUTER": 15.316773041673502,
+            "SKIN": 9.769167362788524,
+            "FILL": 2.778460400547479
+          },
+          "cooling_floor_s": [
+            {
+              "floor_s": 0.1,
+              "seconds": 54.068456083655065
+            },
+            {
+              "floor_s": 0.15,
+              "seconds": 55.851560523851354
+            },
+            {
+              "floor_s": 0.2,
+              "seconds": 59.44699516213603
+            },
+            {
+              "floor_s": 0.24,
+              "seconds": 63.04978290430123
+            }
+          ]
+        },
+        {
+          "q_mm3_s": 300,
+          "a_mm_s2": 1000000,
+          "scv_mm_s": 100,
+          "e_corner_mm_s": 1,
+          "seconds": 71.2101995120186,
+          "deposition_seconds": 55.891856017562525,
+          "by_role_seconds": {
+            "WALL-INNER": 18.552204610173938,
+            "travel": 15.318343494455151,
+            "WALL-OUTER": 21.53384835950695,
+            "SKIN": 12.677156828462758,
+            "FILL": 3.1286462194198914
+          },
+          "cooling_floor_s": [
+            {
+              "floor_s": 0.1,
+              "seconds": 72.1223633545911
+            },
+            {
+              "floor_s": 0.15,
+              "seconds": 73.67934538087263
+            },
+            {
+              "floor_s": 0.2,
+              "seconds": 75.48683084265734
+            },
+            {
+              "floor_s": 0.24,
+              "seconds": 77.67929417684222
+            }
+          ]
+        },
+        {
+          "q_mm3_s": 200,
+          "a_mm_s2": 2000000,
+          "scv_mm_s": 500,
+          "e_corner_mm_s": 1,
+          "seconds": 64.5032013188999,
+          "deposition_seconds": 53.0785346713159,
+          "by_role_seconds": {
+            "WALL-INNER": 17.347029532915244,
+            "travel": 11.42466664758404,
+            "WALL-OUTER": 19.359675266644306,
+            "SKIN": 12.376788938214576,
+            "FILL": 3.995040933542403
+          },
+          "cooling_floor_s": [
+            {
+              "floor_s": 0.1,
+              "seconds": 65.92300904989433
+            },
+            {
+              "floor_s": 0.15,
+              "seconds": 67.51254664314473
+            },
+            {
+              "floor_s": 0.2,
+              "seconds": 70.037983559384
+            },
+            {
+              "floor_s": 0.24,
+              "seconds": 73.15707439461698
+            }
+          ]
+        },
+        {
+          "q_mm3_s": 150,
+          "a_mm_s2": 500000,
+          "scv_mm_s": 50,
+          "e_corner_mm_s": 1,
+          "seconds": 108.45950843175125,
+          "deposition_seconds": 89.46262406809305,
+          "by_role_seconds": {
+            "WALL-INNER": 29.60410776986185,
+            "travel": 18.996884363657852,
+            "WALL-OUTER": 34.36739141594169,
+            "SKIN": 19.800710188757957,
+            "FILL": 5.69041469353182
+          },
+          "cooling_floor_s": [
+            {
+              "floor_s": 0.1,
+              "seconds": 108.86475756345767
+            },
+            {
+              "floor_s": 0.15,
+              "seconds": 109.94229158495429
+            },
+            {
+              "floor_s": 0.2,
+              "seconds": 111.50339692311523
+            },
+            {
+              "floor_s": 0.24,
+              "seconds": 112.78339692311523
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

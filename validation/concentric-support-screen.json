@@ -1,0 +1,240 @@
+{
+  "status": "Model-volume support screen only; not slicer compliance or physical bridge validation",
+  "gcode_sha256": "e9fcd9d6b5c791c2b7bdb9e7fd62d14bec1d5ffc50b72c67e11e5dae2cb9f196",
+  "mesh_to_gcode_xy_offset_mm": [
+    39.17549991607666,
+    40.0
+  ],
+  "layer_section_assumption": "Cura layer center Z-0.125; preceding layer center Z-0.375. Mesh recentered to80x80 bed bbox center.",
+  "sample_spacing_max_mm": 0.25,
+  "skin_strokes_total": 519,
+  "closed_strokes_over_half_outside_prior_model": 14,
+  "closed_flags": [
+    {
+      "stroke": 189,
+      "z_mm": 2.75,
+      "length_mm": 6.513002852348493,
+      "closed": true,
+      "unsupported_length_fraction": 1.0
+    },
+    {
+      "stroke": 399,
+      "z_mm": 36.75,
+      "length_mm": 6.043894583911143,
+      "closed": true,
+      "unsupported_length_fraction": 1.0
+    },
+    {
+      "stroke": 400,
+      "z_mm": 36.75,
+      "length_mm": 13.095110973600155,
+      "closed": true,
+      "unsupported_length_fraction": 1.0
+    },
+    {
+      "stroke": 401,
+      "z_mm": 36.75,
+      "length_mm": 17.102244517606184,
+      "closed": true,
+      "unsupported_length_fraction": 1.0
+    },
+    {
+      "stroke": 402,
+      "z_mm": 36.75,
+      "length_mm": 21.10937806193829,
+      "closed": true,
+      "unsupported_length_fraction": 1.0
+    },
+    {
+      "stroke": 403,
+      "z_mm": 36.75,
+      "length_mm": 25.114399948120543,
+      "closed": true,
+      "unsupported_length_fraction": 1.0
+    },
+    {
+      "stroke": 404,
+      "z_mm": 36.75,
+      "length_mm": 29.121533475228173,
+      "closed": true,
+      "unsupported_length_fraction": 1.0
+    },
+    {
+      "stroke": 405,
+      "z_mm": 36.75,
+      "length_mm": 33.12761125580071,
+      "closed": true,
+      "unsupported_length_fraction": 1.0
+    },
+    {
+      "stroke": 406,
+      "z_mm": 36.75,
+      "length_mm": 37.13263333324168,
+      "closed": true,
+      "unsupported_length_fraction": 1.0
+    },
+    {
+      "stroke": 407,
+      "z_mm": 36.75,
+      "length_mm": 41.13765551307779,
+      "closed": true,
+      "unsupported_length_fraction": 1.0
+    },
+    {
+      "stroke": 408,
+      "z_mm": 36.75,
+      "length_mm": 45.14267777250133,
+      "closed": true,
+      "unsupported_length_fraction": 1.0
+    },
+    {
+      "stroke": 409,
+      "z_mm": 36.75,
+      "length_mm": 49.147700095010094,
+      "closed": true,
+      "unsupported_length_fraction": 1.0
+    },
+    {
+      "stroke": 410,
+      "z_mm": 36.75,
+      "length_mm": 53.152722468369134,
+      "closed": true,
+      "unsupported_length_fraction": 1.0
+    },
+    {
+      "stroke": 411,
+      "z_mm": 36.75,
+      "length_mm": 57.157744883315274,
+      "closed": true,
+      "unsupported_length_fraction": 1.0
+    }
+  ],
+  "worst_candidates": [
+    {
+      "stroke": 411,
+      "z_mm": 36.75,
+      "length_mm": 57.157744883315274,
+      "closed": true,
+      "unsupported_length_fraction": 1.0
+    },
+    {
+      "stroke": 410,
+      "z_mm": 36.75,
+      "length_mm": 53.152722468369134,
+      "closed": true,
+      "unsupported_length_fraction": 1.0
+    },
+    {
+      "stroke": 409,
+      "z_mm": 36.75,
+      "length_mm": 49.147700095010094,
+      "closed": true,
+      "unsupported_length_fraction": 1.0
+    },
+    {
+      "stroke": 408,
+      "z_mm": 36.75,
+      "length_mm": 45.14267777250133,
+      "closed": true,
+      "unsupported_length_fraction": 1.0
+    },
+    {
+      "stroke": 407,
+      "z_mm": 36.75,
+      "length_mm": 41.13765551307779,
+      "closed": true,
+      "unsupported_length_fraction": 1.0
+    },
+    {
+      "stroke": 406,
+      "z_mm": 36.75,
+      "length_mm": 37.13263333324168,
+      "closed": true,
+      "unsupported_length_fraction": 1.0
+    },
+    {
+      "stroke": 405,
+      "z_mm": 36.75,
+      "length_mm": 33.12761125580071,
+      "closed": true,
+      "unsupported_length_fraction": 1.0
+    },
+    {
+      "stroke": 404,
+      "z_mm": 36.75,
+      "length_mm": 29.121533475228173,
+      "closed": true,
+      "unsupported_length_fraction": 1.0
+    },
+    {
+      "stroke": 403,
+      "z_mm": 36.75,
+      "length_mm": 25.114399948120543,
+      "closed": true,
+      "unsupported_length_fraction": 1.0
+    },
+    {
+      "stroke": 402,
+      "z_mm": 36.75,
+      "length_mm": 21.10937806193829,
+      "closed": true,
+      "unsupported_length_fraction": 1.0
+    },
+    {
+      "stroke": 401,
+      "z_mm": 36.75,
+      "length_mm": 17.102244517606184,
+      "closed": true,
+      "unsupported_length_fraction": 1.0
+    },
+    {
+      "stroke": 400,
+      "z_mm": 36.75,
+      "length_mm": 13.095110973600155,
+      "closed": true,
+      "unsupported_length_fraction": 1.0
+    },
+    {
+      "stroke": 398,
+      "z_mm": 23.25,
+      "length_mm": 12.374999999999998,
+      "closed": false,
+      "unsupported_length_fraction": 1.0
+    },
+    {
+      "stroke": 189,
+      "z_mm": 2.75,
+      "length_mm": 6.513002852348493,
+      "closed": true,
+      "unsupported_length_fraction": 1.0
+    },
+    {
+      "stroke": 399,
+      "z_mm": 36.75,
+      "length_mm": 6.043894583911143,
+      "closed": true,
+      "unsupported_length_fraction": 1.0
+    },
+    {
+      "stroke": 190,
+      "z_mm": 2.75,
+      "length_mm": 10.513001660412158,
+      "closed": true,
+      "unsupported_length_fraction": 0.27984399075305905
+    },
+    {
+      "stroke": 192,
+      "z_mm": 2.75,
+      "length_mm": 18.513001008257,
+      "closed": true,
+      "unsupported_length_fraction": 0.08039910074358982
+    },
+    {
+      "stroke": 191,
+      "z_mm": 2.75,
+      "length_mm": 14.513001247093726,
+      "closed": true,
+      "unsupported_length_fraction": 0.10223937117123032
+    }
+  ]
+}
