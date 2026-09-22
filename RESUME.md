@@ -1,4 +1,10 @@
-# Resume — CAD development checkpoint 005, 2026-09-22
+# Resume — CAD development checkpoint 006, 2026-09-22
+
+**Current saved CAD:** Fusion cloud version **8**, Default Project / Codex Benchy Printer. Checkpoint006 adds a central rear Z mast (20 × 20 × 137 mm), a 125 mm MGN12 rail envelope, and an MGN12H upper-cap envelope in the organized `10_FRAME` and `40_Z_AXIS` groups. It is arranged for a nominal 60 mm vertical carriage stroke; the Z drive, rail fasteners, true raceway geometry, carriage adapter and hotend are not yet modeled. HIWIN's catalog gives the MGN12H block as 27 × 45.4 mm, 54 g, and the MGN12 rail as 12 × 8 mm, 0.65 kg/m. All **96/96 sketch instances** are fully constrained; there are **76 parameters** and **181 timeline entries**. Native/STEP files and parameter snapshot are checkpoint006 artifacts. The modeled clearance between the mast bottom and existing bed surface is 9.75 mm, but travel/interference still requires a full joint sweep.
+
+**Exact next operation:** add actual Z rail mounting holes and carriage adapter, then Z lead screw, motor mount, and nozzle/hotend stack. Recheck moving-bed clearance at all XY extremes. Model the 9 mm belt and motor interfaces after identifying the owner's belt pitch/pulleys (currently unknown); use a clearly marked assumption if proceeding without that identity. Complete CPAP duct, electronics and harness, then recompute mass and feasibility. Do not claim the simulated 53.54 s slice is validated. Recheck five-hour usage, save/backup every milestone, and stop cleanly near 1% remaining without using reset credits.
+
+## Previous checkpoint 005
 
 **Current saved CAD:** Fusion cloud version **7**, in Default Project / Codex Benchy Printer. Checkpoint005 adds nine Ø2.3 clearance holes to each X rail shim and eighteen Ø1.6 × 4 mm blind M2 tap pilots in the base, aligned with the rail's 15 mm hole pitch. Candidate M2×12 screws pass through each 4.8 mm rail and 2 mm shim into the base; exact screw head/counterbore fit and purchased rail end pattern remain to be checked. Fusion audit: **93/93 sketch instances fully constrained**, **67 parameters**, **172 timeline items**. Native F3D and STEP exports are in `cad/native/`, parameter snapshot `cad/CBP-0000-RevE-parameters-checkpoint005.csv`. See checkpoint005 manifest.
 

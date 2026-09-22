@@ -1,4 +1,10 @@
-# CAD progress — development checkpoint 005, 2026-09-22
+# CAD progress — development checkpoint 006, 2026-09-22
+
+Fusion cloud version **8** adds the first Z guide placement. A fixed 20 × 20 × 137 mm mast touches the rear beam, starting at machine height 55 mm. Its front face carries a 125 mm MGN12 rail envelope, and the MGN12H cap envelope is positioned for a 60 mm carriage travel. These are reference bodies based on [HIWIN MGN12 dimensions and masses](https://www.hiwin.com/wp-content/uploads/Linear_Guideway-E-1.pdf), not a connected Z mechanism. The rail, block, mounting, screw drive, nozzle adapter and hotend still need detail. The latest audit found **96 fully constrained sketch instances**, 76 parameters and 181 timeline items. [Checkpoint006 native and STEP files](native/checkpoint006-manifest.json) plus [parameter snapshot](CBP-0000-RevE-parameters-checkpoint006.csv) are available.
+
+The fixed mast begins 9.75 mm above the nominal bed surface; the bed's XY travel and printed part envelope need a swept interference check. Do not manufacture the Z mast from this checkpoint.
+
+## Previous checkpoint 005
 
 Fusion cloud version **7** now aligns the two X rails, matched 2 mm shims and the 12 mm aluminum base with nine 15 mm-pitch M2 mounting positions per rail. The shims have Ø2.3 clearance; the base has Ø1.6 × 4 mm blind pilots for M2 tapping. The fully constrained sketch audit reads **93/93**, with **67 parameters** and **172 timeline items**. [Native/STEP checkpoint](native/checkpoint005-manifest.json) and the [frozen parameter snapshot](CBP-0000-RevE-parameters-checkpoint005.csv) are included. M2×12 is an assembly candidate, pending actual rail screw-head and supplier-end-pattern measurement.
 
