@@ -1,4 +1,16 @@
-# Resume — CAD development authorized, 2026-09-22
+# Resume — CAD development checkpoint 002, 2026-09-22
+
+The user now prefers the **Fusion MCP** for faster CAD work and explicitly authorized that change. Do not return to the old computer-use-only restriction. No performance gate blocks development CAD; keep the 53.54-second simulation clearly unvalidated.
+
+Native Fusion design **Codex Benchy Printer Main** is saved in **Default Project / Codex Benchy Printer**, cloud version **4** (`urn:adsk.wipprod:fs.file:vf.wAwg5QGJR0iXFu87oGiFbA?version=4`). The active document was verified unmodified after save. Geometry checkpoint 002 has eight organized top-level groups, 16 solid body instances, 18 fully constrained sketches and 53 user parameters. The base aperture and four mounting holes are real cuts; MGN7 rail/carriage models are preliminary envelopes. See [CAD status](cad/CAD-START-STATUS.md).
+
+Local native/STEP files: `cad/native/CBP-0000-RevD-CAD-checkpoint002.f3d` and `.step`. Hashes and sizes are in `cad/native/checkpoint002-manifest.json`. Fusion construction scripts are in `cad/fusion/`. These are development backups, not manufacturing release files. Check remote GitHub commit and file readback before claiming the latest CAD is backed up there.
+
+**Exact next CAD operation:** detail the MGN7 rail mounting holes and block shape, attach the rails to the two 2 mm shims and create the X and Y carriage joints. Then place the two 9 mm belt loops and motor/idler interfaces around the 130 mm X and 110 mm Y rails. Audit 64 × 40 mm usable travel and all moving-mass/interference conditions before making the Z/toolhead/cooling assembly. Use Fusion MCP scripts with verified readbacks and keep sketches fully constrained. Save Fusion cloud and export F3D/STEP at each completed geometry milestone.
+
+Five-hour usage was 98% remaining at start of this turn. Recheck at milestones; checkpoint by ~15% remaining and stop cleanly near the user's requested 1% without consuming reset credits.
+
+## Historical CAD-start note — superseded
 
 Latest user instruction supersedes the old no-CAD gate: proceed with CAD development and retain honest labels for unvalidated performance. Do not refuse CAD merely because the earlier gate remains unpassed.
 
@@ -48,3 +60,4 @@ No Fusion action this checkpoint. Last observed window1968006 was a blank unsave
 Latest preceding remote checkpoint 007:head7d10429bdbd7b52956206bcdc869afdc47658bcc, treecb136c8c350c731e814d95caa73360d62659b198, sourceed11f7c564772f185d3da9394c982a11abd16a05. ZIP26,838,125bytes, SHA256274c686f54411f87c84ecf74d76de31539340b736606c4aa6fc3c6182e83e409. The008 external manifest supersedes these publication pointers after upload and records exactly what was verified. Full remote ZIP redownload/extraction was not verified for007.
 
 Private repohttps://github.com/Logan13603/codex-benchy-printer . Engineering rootoutputs/codex-benchy-printer. PythonC:/Users/logan/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe. Numerical dependencieswork/python-libs; Curaenginework/cura413/CuraEngine.exe. Intermediate research downloads and runtime binaries are excluded from archives. Always write/readUTF-8 explicitly and preserve100644Git file mode.
+

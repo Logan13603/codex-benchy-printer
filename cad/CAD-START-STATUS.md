@@ -1,13 +1,12 @@
-# CAD start — 2026-09-22
+# CAD progress — development checkpoint 002, 2026-09-22
 
-The user authorized CAD development despite unresolved performance evidence. The sub-minute time remains an unvalidated calculation.
+The user authorized Fusion MCP scripting on 2026-09-22 to accelerate the CAD. Native design **Codex Benchy Printer Main** is saved in **Default Project / Codex Benchy Printer**, verified Fusion cloud version **4** (`urn:adsk.wipprod:fs.file:vf.wAwg5QGJR0iXFu87oGiFbA?version=4`). Fusion's native coordinate convention in this design is machine X = Fusion X, machine Y = Fusion −Z, machine Z = Fusion Y.
 
-Fusion design **Codex Benchy Printer Main** is saved in **Default Project / Codex Benchy Printer**, with a blank Hybrid Design and mm/g units. No geometry has been created yet.
+Current organized tree: `10_FRAME`, `20_XY_MOTION`, `30_BED`, `40_Z_AXIS`, `50_TOOLHEAD`, `60_CPAP_COOLING`, `70_ELECTRONICS`, and `80_HARNESS`. The first three groups contain sixteen solid body instances: a 400 × 400 × 12 mm base with a 148 × 98 mm sweep aperture and four Ø9 mounting holes, two 40 mm Z-column envelopes and crossbeam, two matched rail shims, a low crossed-guide arrangement, a 112 × 84 × 2 mm carbon-stage stock envelope, a 76 × 50 × 3 mm bed substrate, and a 0.25 mm build-surface film. The purchased MGN7 rail/carriage models are **envelope proxies**; raceways, rail mounting holes, fasteners and exact supplier variant remain to be detailed. The Fusion audit found **18 sketches, all fully constrained**, 53 user parameters, and an editable feature timeline.
 
-[Prepared parameter file](CBP-0000-RevD-parameters.csv): 40 named parameters with units, expressions and comments, using Fusion's native CSV import format. The 400 × 400 × 12 mm base, 64 × 40 × 60 mm travel and reference guide/toolhead envelopes are editable development inputs, not released manufacturing dimensions.
+This is development geometry, **not a build-ready or performance-validated printer**. The guide mechanism is not yet joined or belted; motors, Z motion, toolhead, extruder, hotend, CPAP duct, electronics, harness, service clearances and manufacturing details remain. Reference dimension and mass assumptions are in the CSV and CAD scripts. The sub-minute time calculation still depends on unproven motion, flow and cooling limits.
 
-The Import Parameters overlay currently blocks computer control with `failed to activate captured window`. Fresh window selection did not resolve it; Escape failed too. The parameters have not been imported. Once this overlay is dismissed or the file imported manually, continue with named components, fully constrained sketches and an editable feature history. No Fusion MCP was used.
+[Native Fusion and STEP checkpoint files](native/) are accompanied by [hash/backup manifest](native/checkpoint002-manifest.json). Source scripts are in [fusion/](fusion/). Reopen the exported F3D and verify local geometry before release; the exports currently demonstrate a recoverable development checkpoint, not manufacturing acceptance.
 
-Intended component groups: master layout, frame, planar motion, bed, Z structure, extrusion, CPAP cooling, electronics and harness. The research direction remains a lightweight XY bed with extrusion and cooling mass stationary in XY. Drive and guide interfaces are not frozen.
+Next CAD sequence: finish rail and carriage interfaces plus attachment/kinematic joints; then belt/motor routing; Z carriage and stationary-XY hotend; CPAP duct and hose support; wiring and electronics. After each stage, audit constraint status, interference, moving mass and toolhead center of mass, save Fusion cloud and export native/STEP backups.
 
-The latest complete engineering backup is checkpoint008. These CAD-start records and the parameter file are ordinary versioned repository files. There is no native CAD archive or STEP export yet.

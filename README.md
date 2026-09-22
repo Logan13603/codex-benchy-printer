@@ -1,22 +1,19 @@
 # Codex Benchy Printer
 
-**2026-09-22: CAD development is now authorized despite the unresolved performance gate.** [Current CAD state](cad/CAD-START-STATUS.md). Earlier numerical conclusions below remain unvalidated.
+**Development CAD is in progress.** The saved Fusion assembly is in **Default Project / Codex Benchy Printer**, design **Codex Benchy Printer Main**. [Current CAD state and backups](cad/CAD-START-STATUS.md) · [Resume instructions](RESUME.md).
 
-**Checkpoint 008: improved toolpaths, more complete extrusion checks, no CAD release yet.** Target: the cheapest credible full-size compliant SpeedBoatRace Benchy printer for 50–55-second prints, with three consecutive physical prints under 60 seconds. There is no hard budget cap.
+The objective is a full-size compliant SpeedBoatRace Benchy in 50–55 seconds, with three consecutive physical prints under 60 seconds. There is no hard budget cap; the design should still be the cheapest credible path. The user's Pi, CPAP blower/hose, SD/cord, 9 mm belts/pulleys and usable screws are existing inventory.
 
-[Open the current feasibility report](engineering/FEASIBILITY.md) · [Latest engineering study](engineering/EXTRUSION-AND-TOOLPATH.md) · [Resume state](RESUME.md)
-
-The latest bridge-aware slice calculates **53.54 seconds** at unproven motion/flow limits. A0.20-second layer floor gives60.38 seconds. The initially faster concentric slice was rejected after finding unsupported roof loops. Full bridge coverage, motor tracking, extrusion response and installed CPAP cooling remain unresolved, so the pre-CAD gate stays in effect.
-
-Existing Pi, CPAP blower/hose, SD/cord,9 mm belts/pulleys and some screws remain credited. No purchased interface or complete delivered-price estimate is frozen. The old $400/$500 budgets and conventional-printer BOMs remain historical.
+The latest bridge-aware slice calculates **53.54 seconds** only at unproven 2400 mm/s, 2,000,000 mm/s² and 300 mm³/s limits. A 0.20-second layer floor gives **60.38 seconds**. This is a numerical scenario, not expected physical performance. [Feasibility report](engineering/FEASIBILITY.md) documents the limitations. The user explicitly authorized CAD development before those limits were physically validated.
 
 | Folder | Contents |
 |---|---|
-| engineering | Feasibility, architecture, mass/COM, path timing, extrusion dynamics, torque and heat studies |
-| purchasing | Source audit, historical candidate prices and inventory credits |
-| slicing | Original mesh, rules, pinned slicer trials and reproducible settings |
-| validation | Numerical checks, source provenance, pre-CAD gate and backup manifests |
-| cad / manufacturing | Reserved for gated Fusion assembly and fabrication deliverables |
-| electronics / firmware / assembly | Reserved for selected hardware and released instructions |
+| engineering | Architecture, mass, timing, extrusion, torque and heat studies |
+| purchasing | Source audit, candidate prices and existing-inventory credits |
+| slicing | Original mesh, rules and reproducible analysis slices |
+| cad | Parametric Fusion assembly scripts, native archives, STEP checkpoints, CAD status |
+| validation | Numerical checks, provenance and backup evidence |
+| manufacturing / electronics / firmware / assembly | To be completed before a build release |
 
-Fusion destination: Default Project / Codex Benchy Printer. No geometry or cloud save exists. All trial G-code is analysis evidence and is not printer-ready. [Backup verification](validation/CHECKPOINT.md) distinguishes remote content-identity checking from a complete remote download/restore.
+The current CAD is a development checkpoint. No purchasing release, complete build package, printer-ready G-code or physical validation is claimed.
+

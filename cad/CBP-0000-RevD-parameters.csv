@@ -12,9 +12,9 @@ bed_x,mm,76 mm,76,Build surface X,TRUE
 bed_y,mm,50 mm,50,Build surface Y,TRUE
 bed_t,mm,3 mm,3,Development bed carrier thickness,TRUE
 bed_surface_t,mm,0.25 mm,0.25,Build surface film allowance,TRUE
-stage_x,mm,220 mm,220,Planar carrier outer X envelope; provisional,TRUE
-stage_y,mm,150 mm,150,Planar carrier outer Y envelope; provisional,TRUE
-stage_t,mm,3 mm,3,Carrier material thickness; provisional,TRUE
+stage_x,mm,112 mm,112,Lightweight moving-bed carrier outer X; development,TRUE
+stage_y,mm,84 mm,84,Lightweight moving-bed carrier outer Y; development,TRUE
+stage_t,mm,2 mm,2,Carbon stage stock thickness; development,TRUE
 guide_x,mm,320 mm,320,Planar guide envelope X,TRUE
 guide_y,mm,260 mm,260,Planar guide envelope Y,TRUE
 guide_t,mm,6 mm,6,Guide plate stock allowance,TRUE
@@ -39,3 +39,17 @@ nozzle_d,mm,0.5 mm,0.5,Maximum nozzle under retained race rules,TRUE
 fastener_m3_clear,mm,3.4 mm,3.4,Ordinary M3 clearance,TRUE
 fastener_m5_clear,mm,5.5 mm,5.5,Ordinary M5 clearance,TRUE
 fastener_m6_clear,mm,6.6 mm,6.6,Ordinary M6 clearance,TRUE
+x_rail_l,mm,130 mm,130,X rail cut length; MGN7 candidate,TRUE
+y_rail_l,mm,110 mm,110,Y rail cut length; MGN7 candidate,TRUE
+x_rail_sep,mm,120 mm,120,Center-to-center X rail spacing,TRUE
+mgn7_rail_w,mm,7 mm,7,HIWIN MGN7 rail envelope width,TRUE
+mgn7_rail_h,mm,4.8 mm,4.8,HIWIN MGN7 rail envelope height,TRUE
+mgn7h_block_l,mm,30.8 mm,30.8,HIWIN MGN7H block overall length,TRUE
+mgn7h_block_w,mm,17 mm,17,HIWIN MGN7H block overall width,TRUE
+mgn7h_block_cap_h,mm,3.2 mm,3.2,Proxy upper cap; 8 mm overall assembly less 4.8 mm rail,TRUE
+bridge_w,mm,10 mm,10,X moving bridge section width,TRUE
+bridge_span,mm,140 mm,140,X moving bridge length along machine Y,TRUE
+bridge_h,mm,10 mm,10,X moving bridge vertical envelope,TRUE
+x_shim_w,mm,12 mm,12,Machined X rail alignment strip width,TRUE
+x_shim_t,mm,2 mm,2,Matched X rail shim thickness,TRUE
+

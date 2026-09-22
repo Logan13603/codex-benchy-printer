@@ -1,6 +1,6 @@
 # Feasibility report — checkpoint 008
 
-**2026-09-22 update:** the user authorized CAD development despite the unresolved gate. The numerical results below remain unvalidated; they no longer prohibit development CAD. [Current CAD state](../cad/CAD-START-STATUS.md).
+**2026-09-22 CAD update:** the user authorized CAD development despite the unresolved gate and later authorized Fusion MCP scripting. A native Fusion assembly with frame and moving-bed guide development geometry is saved and backed up locally; [current CAD state](../cad/CAD-START-STATUS.md). The numerical results below remain unvalidated. References in this checkpoint to "no CAD yet" and a binding pre-CAD gate are historical findings from before the user's override.
 
 **The latest bridge-aware slice calculates 53.54 seconds. CAD readiness is still not supported.** The objective remains the cheapest credible full-size, compliant 50–55-second Benchy printer, with no hard budget cap. Your instruction keeps all CAD behind the performance gate.
 
@@ -23,3 +23,4 @@ The related uncorrected slice already exceeded the tested drive arrangement's su
 No parts purchased; no complete printer price, CAD assembly, manufacturing release, wiring or runnable printer.cfg exists yet. Fusion's last observed state remains a blank unsaved Hybrid Design; no geometry or CAD backup is claimed. The verified destination is Default Project / Codex Benchy Printer. Physical success requires three consecutive compliant Benchys under60 seconds.
 
 [Previous report](FEASIBILITY-CHECKPOINT-007.md) · [Rules/model](../slicing/RULES.md) · [Resume state](../RESUME.md) · [Backup verification](../validation/CHECKPOINT.md)
+
