@@ -7,8 +7,8 @@
   "fusion_version": 8,
   "fusion_version_id": "urn:adsk.wipprod:fs.file:vf.wAwg5QGJR0iXFu87oGiFbA?version=8",
   "release_status": "development; not manufacturing-ready or physically validated",
-  "remote_git_commit": null,
-  "remote_verification": "pending upload/readback",
+  "remote_git_commit": "13224141b90b66c8b1541c10cd9264a98246e827",
+  "remote_verification": "both CAD binary blob SHAs and selected source/status paths were read back from GitHub main; visual audit later found the rear portal misplaced, so this checkpoint is superseded by 007",
   "files": [
     {
       "path": "cad/native/CBP-0000-RevE-CAD-checkpoint006.f3d",

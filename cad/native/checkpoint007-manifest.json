@@ -1,0 +1,26 @@
+{
+  "revision": "RevE-development",
+  "checkpoint": 7,
+  "created_utc_date": "2026-09-22",
+  "fusion_project": "Default Project / Codex Benchy Printer",
+  "fusion_design": "Codex Benchy Printer Main",
+  "fusion_version": 9,
+  "fusion_version_id": "urn:adsk.wipprod:fs.file:vf.wAwg5QGJR0iXFu87oGiFbA?version=9",
+  "release_status": "corrected development assembly; not manufacturing-ready or physically validated",
+  "remote_git_commit": null,
+  "remote_verification": "pending upload/readback",
+  "correction": "Rear portal column and beam occurrence transforms corrected and verified by readback and screenshot; checkpoint006 and earlier are superseded for assembly position",
+  "files": [
+    {
+      "path": "cad/native/CBP-0000-RevE-CAD-checkpoint007.f3d",
+      "bytes": 762022,
+      "sha256": "4748b3ee675ff29882ca4dd39cf7b7224c12bd63e1a78f9bae48d13719949eb6"
+    },
+    {
+      "path": "cad/native/CBP-0000-RevE-CAD-checkpoint007.step",
+      "bytes": 314314,
+      "sha256": "c10458e59996f3100bbf99d9a942c80b82b6cf02834d33f2074847a44186420a"
+    }
+  ]
+}
+

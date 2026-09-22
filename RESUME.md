@@ -1,4 +1,10 @@
-# Resume — CAD development checkpoint 006, 2026-09-22
+# Resume — CAD development checkpoint 007, 2026-09-22
+
+**Start here:** Fusion cloud version **9** is the latest corrected assembly. The visual audit after checkpoint006 showed that the RevE rear columns and crossbeam had retained their old 400 mm-frame occurrence positions, leaving the beam floating. Checkpoint007 explicitly repositions both column centers to Fusion X ±90 mm, Y 12 mm, Z −90 mm and the beam to X 0, Y 152 mm, Z −90 mm. Save/readback and a second screenshot confirmed the beam meets the columns. Checkpoint006 and earlier are superseded for assembly position. Latest native F3D/STEP: `cad/native/CBP-0000-RevE-CAD-checkpoint007.*`; see manifest. The rest of the geometry and 96 fully constrained sketch instances are unchanged. This is still incomplete development CAD, with no drive, hotend, cooling, electronics or firmware package.
+
+**Exact next operation:** verify checkpoint007 export by opening a copy and checking the three corrected occurrence transforms; then model actual Z rail/mast fastening, Z screw/motor, carriage adapter and hotend. Follow with XY motors/belts, CPAP duct, joints and electrical packaging. Resolve the unknown owned 9 mm belt pitch/pulley dimensions by measurement or explicit provisional assumptions. Keep performance unvalidated. Check usage and stop cleanly near 1% without resetting credits.
+
+## Previous checkpoint 006
 
 **Current saved CAD:** Fusion cloud version **8**, Default Project / Codex Benchy Printer. Checkpoint006 adds a central rear Z mast (20 × 20 × 137 mm), a 125 mm MGN12 rail envelope, and an MGN12H upper-cap envelope in the organized `10_FRAME` and `40_Z_AXIS` groups. It is arranged for a nominal 60 mm vertical carriage stroke; the Z drive, rail fasteners, true raceway geometry, carriage adapter and hotend are not yet modeled. HIWIN's catalog gives the MGN12H block as 27 × 45.4 mm, 54 g, and the MGN12 rail as 12 × 8 mm, 0.65 kg/m. All **96/96 sketch instances** are fully constrained; there are **76 parameters** and **181 timeline entries**. Native/STEP files and parameter snapshot are checkpoint006 artifacts. The modeled clearance between the mast bottom and existing bed surface is 9.75 mm, but travel/interference still requires a full joint sweep.
 

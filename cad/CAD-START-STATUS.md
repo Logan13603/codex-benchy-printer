@@ -1,4 +1,8 @@
-# CAD progress — development checkpoint 006, 2026-09-22
+# CAD progress — development checkpoint 007, 2026-09-22
+
+**Use checkpoint007 / Fusion cloud version 9.** A visual audit found the compact-frame columns and crossbeam remained at their old occurrence positions despite updated dimensional parameters. The corrected version places column centers at machine X ±90 mm, machine Y +90 mm, vertical 12 mm; the crossbeam spans the columns at vertical 152–192 mm. A second screenshot and readback verified their contact. Checkpoint006 and earlier have an incorrectly placed rear portal and must not be used for assembly. All previous dimensional geometry remains otherwise unchanged. This is still development CAD, not a printer build release. [Latest native and STEP backups](native/checkpoint007-manifest.json).
+
+## Previous checkpoint 006
 
 Fusion cloud version **8** adds the first Z guide placement. A fixed 20 × 20 × 137 mm mast touches the rear beam, starting at machine height 55 mm. Its front face carries a 125 mm MGN12 rail envelope, and the MGN12H cap envelope is positioned for a 60 mm carriage travel. These are reference bodies based on [HIWIN MGN12 dimensions and masses](https://www.hiwin.com/wp-content/uploads/Linear_Guideway-E-1.pdf), not a connected Z mechanism. The rail, block, mounting, screw drive, nozzle adapter and hotend still need detail. The latest audit found **96 fully constrained sketch instances**, 76 parameters and 181 timeline items. [Checkpoint006 native and STEP files](native/checkpoint006-manifest.json) plus [parameter snapshot](CBP-0000-RevE-parameters-checkpoint006.csv) are available.
 
