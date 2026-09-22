@@ -1,8 +1,10 @@
 # Codex Benchy Printer
 
-**Checkpoint 005: budget cap removed; optimize the cheapest credible sub-minute design.** Target: full-size compliant SpeedBoatRace Benchy in 50–55 seconds, then three consecutive physical prints under 60 seconds.
+**Checkpoint 006: budget cap removed; optimize the cheapest credible sub-minute design.** Target: full-size compliant SpeedBoatRace Benchy in 50–55 seconds, then three consecutive physical prints under 60 seconds.
 
 [Open the current feasibility report](engineering/FEASIBILITY.md) · [Design basis](engineering/DESIGN-BASIS-C.md) · [Resume state](RESUME.md)
+
+[New smoothing and cooling study](engineering/SMOOTHING-STUDY.md): adding a 0.20-second layer-time floor raises the first-layer-limited scenario to **61.29 seconds**. No build-ready architecture is selected.
 
 The expanded study calculates **51.75 seconds** at hypothetical 204 g acceleration and 300 mm³/s flow. A pinned Klipper planner reproduces the arithmetic. Hardware capability and physical quality remain unproven; a combined shortfall case takes **70.29 seconds**. The preferred direction is a stationary-XY hotend and a very light XY bed. The detailed mechanism is still being engineered.
 
@@ -19,4 +21,4 @@ Existing Pi, CPAP blower/hose, SD/cord, 9 mm belts/pulleys and some screws remai
 
 Fusion destination: **Default Project / Codex Benchy Printer**. No detailed CAD, wiring release, build firmware, parts purchase or physical result exists. All trial G-code is analysis evidence, not printer-ready output.
 
-Checkpoint 005 preserves the revised study; [backup status](validation/CHECKPOINT.md) distinguishes remote content-identity verification from a full download/restore. Historical checkpoints remain in Git history and backups.
+Checkpoint 006 preserves the revised study; [backup status](validation/CHECKPOINT.md) distinguishes remote content-identity verification from a full download/restore. Historical checkpoints remain in Git history and backups.

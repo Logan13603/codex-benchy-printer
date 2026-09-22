@@ -1,0 +1,17 @@
+{
+  "repository": "https://github.com/KalicoCrew/kalico",
+  "branch": "bleeding-edge-v2",
+  "commit": "e0a57a0b55c65d8b9112c812a01bd32f88476618",
+  "retrieved": "2026-09-21",
+  "license": "GPLv3",
+  "files": [
+    {
+      "file": "shaper_defs.py",
+      "sha256": "96b4516c1d611a7ce1a0b2e15cde254ae8bd1da8de5861b29a85c96817beb836"
+    },
+    {
+      "file": "winch.py",
+      "sha256": "3a1b64abbaa7e1a0cc045d650a96bb748f836a0b234e9478412dc76da8575034"
+    }
+  ]
+}

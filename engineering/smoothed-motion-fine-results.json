@@ -1,0 +1,294 @@
+{
+  "status": "Uncalibrated smoothing sensitivity, not a machine prediction",
+  "sample_interval_s": 2.5e-05,
+  "gcode_sha256": "0c9b7be63971d47e277d7d356e355679426fbcb2a8689739ef0f186c0d45722d",
+  "kalico_commit": "e0a57a0b55c65d8b9112c812a01bd32f88476618",
+  "base_time_s": 54.298523237807956,
+  "caps": {
+    "velocity_mm_s": 2400,
+    "accel_mm_s2": 2000000,
+    "scv_mm_s": 500,
+    "flow_mm3_s": 300,
+    "first_layer_mm_s": 300
+  },
+  "cooling_floor_lower_bounds": [
+    {
+      "minimum_layer_s": 0.1,
+      "time_s": 56.08104231643258
+    },
+    {
+      "minimum_layer_s": 0.15,
+      "time_s": 57.85218628008629
+    },
+    {
+      "minimum_layer_s": 0.2,
+      "time_s": 61.28657453799001
+    },
+    {
+      "minimum_layer_s": 0.24,
+      "time_s": 64.83918856585493
+    }
+  ],
+  "fixture_assumptions": {
+    "kinematics": "independent Cartesian",
+    "motors_per_axis": 2,
+    "moving_mass_per_axis_kg": 0.06,
+    "rotor_inertia_kg_m2": 4.8e-05,
+    "drum_radius_m": 0.03,
+    "drum_mass_kg": 0.0075,
+    "drum_inertia_factor": 0.5,
+    "excluded": "friction, belts, bearings, nonuniform sharing, compliance, motor electrical dynamics and torque-speed margin"
+  },
+  "runs": [
+    {
+      "smoother": "smooth_zv",
+      "frequency_Hz": 50,
+      "duration_ms": 16.049999999999997,
+      "centroid_ms": -0.7840271849773448,
+      "max_xy_error_during_deposition_mm": 10.409493401859693,
+      "p95_xy_error_during_deposition_mm": 7.550436025240953,
+      "max_abs_axis_accel_mm_s2": [
+        814511.6045778167,
+        786557.3319087116
+      ],
+      "max_abs_axis_speed_mm_s": [
+        2380.0522667057676,
+        2145.824567011862
+      ],
+      "max_abs_motor_rpm": [
+        757.594166126586,
+        683.0371736959278
+      ],
+      "max_abs_inertial_torque_Nm_per_motor": [
+        2.127911566959546,
+        2.054881029611509
+      ],
+      "time_fraction_above_2Nm_either_axis": 0.00011188149217681327
+    },
+    {
+      "smoother": "smooth_zv",
+      "frequency_Hz": 100,
+      "duration_ms": 8.024999999999999,
+      "centroid_ms": -0.39201359244973516,
+      "max_xy_error_during_deposition_mm": 4.710588216764155,
+      "p95_xy_error_during_deposition_mm": 3.410055013531471,
+      "max_abs_axis_accel_mm_s2": [
+        1410230.6743306592,
+        1387938.9460466723
+      ],
+      "max_abs_axis_speed_mm_s": [
+        2399.847202797858,
+        2400.000000170568
+      ],
+      "max_abs_motor_rpm": [
+        763.8950899810745,
+        763.9437268953911
+      ],
+      "max_abs_inertial_torque_Nm_per_motor": [
+        3.684227636688848,
+        3.625990496546932
+      ],
+      "time_fraction_above_2Nm_either_axis": 0.06002741326767164
+    },
+    {
+      "smoother": "smooth_zv",
+      "frequency_Hz": 200,
+      "duration_ms": 4.012499999999999,
+      "centroid_ms": -0.1960068407033684,
+      "max_xy_error_during_deposition_mm": 1.8415447864404506,
+      "p95_xy_error_during_deposition_mm": 1.3628651187476652,
+      "max_abs_axis_accel_mm_s2": [
+        2049652.7383190964,
+        1927248.7623668064
+      ],
+      "max_abs_axis_speed_mm_s": [
+        2399.9999903724497,
+        2400.000000343372
+      ],
+      "max_abs_motor_rpm": [
+        763.9437237765532,
+        763.9437269503964
+      ],
+      "max_abs_inertial_torque_Nm_per_motor": [
+        5.35471777885864,
+        5.034937391683282
+      ],
+      "time_fraction_above_2Nm_either_axis": 0.22387440542814008
+    },
+    {
+      "smoother": "smooth_zv",
+      "frequency_Hz": 400,
+      "duration_ms": 2.0062499999999996,
+      "centroid_ms": -0.09800351075794586,
+      "max_xy_error_during_deposition_mm": 0.5756325804358134,
+      "p95_xy_error_during_deposition_mm": 0.45675098463840896,
+      "max_abs_axis_accel_mm_s2": [
+        2472750.557947734,
+        2431810.915165755
+      ],
+      "max_abs_axis_speed_mm_s": [
+        2400.0000001711182,
+        2400.0000003456275
+      ],
+      "max_abs_motor_rpm": [
+        763.9437268955662,
+        763.9437269511143
+      ],
+      "max_abs_inertial_torque_Nm_per_motor": [
+        6.460060832638455,
+        6.3531060158705355
+      ],
+      "time_fraction_above_2Nm_either_axis": 0.390093008972159
+    },
+    {
+      "smoother": "smooth_zv",
+      "frequency_Hz": 800,
+      "duration_ms": 1.0031249999999998,
+      "centroid_ms": -0.04900194778558098,
+      "max_xy_error_during_deposition_mm": 0.1831105636419471,
+      "p95_xy_error_during_deposition_mm": 0.1434793200670447,
+      "max_abs_axis_accel_mm_s2": [
+        3571817.13528405,
+        3325758.2433126504
+      ],
+      "max_abs_axis_speed_mm_s": [
+        2400.0000001732146,
+        2400.0000003430164
+      ],
+      "max_abs_motor_rpm": [
+        763.9437268962336,
+        763.9437269502831
+      ],
+      "max_abs_inertial_torque_Nm_per_motor": [
+        9.331372265929582,
+        8.6885434106543
+      ],
+      "time_fraction_above_2Nm_either_axis": 0.42620586839145264
+    },
+    {
+      "smoother": "smooth_mzv",
+      "frequency_Hz": 50,
+      "duration_ms": 19.125,
+      "centroid_ms": -1.1476953002920554,
+      "max_xy_error_during_deposition_mm": 10.548933779831701,
+      "p95_xy_error_during_deposition_mm": 7.341910446653006,
+      "max_abs_axis_accel_mm_s2": [
+        936024.7567315127,
+        885327.5749661549
+      ],
+      "max_abs_axis_speed_mm_s": [
+        2328.4488393795755,
+        1747.9770184511522
+      ],
+      "max_abs_motor_rpm": [
+        741.1682850476923,
+        556.398365795068
+      ],
+      "max_abs_inertial_torque_Nm_per_motor": [
+        2.4453646769610775,
+        2.3129182895990796
+      ],
+      "time_fraction_above_2Nm_either_axis": 0.001423611414858875
+    },
+    {
+      "smoother": "smooth_mzv",
+      "frequency_Hz": 100,
+      "duration_ms": 9.5625,
+      "centroid_ms": -0.573847683795928,
+      "max_xy_error_during_deposition_mm": 4.805763956731807,
+      "p95_xy_error_during_deposition_mm": 3.4493259212637852,
+      "max_abs_axis_accel_mm_s2": [
+        1253570.4829517158,
+        1305459.5133077384
+      ],
+      "max_abs_axis_speed_mm_s": [
+        2399.847202811394,
+        2396.722016126489
+      ],
+      "max_abs_motor_rpm": [
+        763.8950899853832,
+        762.9003121674081
+      ],
+      "max_abs_inertial_torque_Nm_per_motor": [
+        3.2749528867113575,
+        3.4105129785164667
+      ],
+      "time_fraction_above_2Nm_either_axis": 0.027090514889677023
+    },
+    {
+      "smoother": "smooth_mzv",
+      "frequency_Hz": 200,
+      "duration_ms": 4.78125,
+      "centroid_ms": -0.2869237061331316,
+      "max_xy_error_during_deposition_mm": 2.0139738036997343,
+      "p95_xy_error_during_deposition_mm": 1.466264845319146,
+      "max_abs_axis_accel_mm_s2": [
+        1790244.087112569,
+        1669586.270643108
+      ],
+      "max_abs_axis_speed_mm_s": [
+        2399.86397665362,
+        2400.0000003421283
+      ],
+      "max_abs_motor_rpm": [
+        763.900429265193,
+        763.9437269500005
+      ],
+      "max_abs_inertial_torque_Nm_per_motor": [
+        4.677012677581587,
+        4.36179413205512
+      ],
+      "time_fraction_above_2Nm_either_axis": 0.13643004114752658
+    },
+    {
+      "smoother": "smooth_mzv",
+      "frequency_Hz": 400,
+      "duration_ms": 2.390625,
+      "centroid_ms": -0.14346145658323947,
+      "max_xy_error_during_deposition_mm": 0.6844341881251818,
+      "p95_xy_error_during_deposition_mm": 0.5203199687547075,
+      "max_abs_axis_accel_mm_s2": [
+        2511480.9507361003,
+        2437712.19676745
+      ],
+      "max_abs_axis_speed_mm_s": [
+        2400.0000001720778,
+        2400.0000003426435
+      ],
+      "max_abs_motor_rpm": [
+        763.9437268958717,
+        763.9437269501645
+      ],
+      "max_abs_inertial_torque_Nm_per_motor": [
+        6.561243983798063,
+        6.368523114054963
+      ],
+      "time_fraction_above_2Nm_either_axis": 0.32817650203205334
+    },
+    {
+      "smoother": "smooth_mzv",
+      "frequency_Hz": 800,
+      "duration_ms": 1.1953125,
+      "centroid_ms": -0.07173001530234453,
+      "max_xy_error_during_deposition_mm": 0.21186250955023697,
+      "p95_xy_error_during_deposition_mm": 0.1638934423948666,
+      "max_abs_axis_accel_mm_s2": [
+        3468714.1118979524,
+        3408575.5899013747
+      ],
+      "max_abs_axis_speed_mm_s": [
+        2400.000000171829,
+        2400.000000357423
+      ],
+      "max_abs_motor_rpm": [
+        763.9437268957927,
+        763.9437269548688
+      ],
+      "max_abs_inertial_torque_Nm_per_motor": [
+        9.062015617333401,
+        8.904903728617343
+      ],
+      "time_fraction_above_2Nm_either_axis": 0.39715903885050285
+    }
+  ]
+}

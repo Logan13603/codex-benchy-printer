@@ -1,5 +1,5 @@
 {
-  "checkpoint": "005",
+  "checkpoint": "006",
   "files": [
     {
       "path": ".gitignore",
@@ -18,8 +18,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 2308,
-      "sha256": "b3dd5604fc6944019e7235cc79ea32149f0c6d20ad15461b9a9d8528531e35db"
+      "bytes": 2802,
+      "sha256": "962828295351cfb0632352360d8572335008e227f5de900298f27c438bd00a1a"
     },
     {
       "path": "electronics/README.md",
@@ -78,8 +78,8 @@
     },
     {
       "path": "engineering/FEASIBILITY.md",
-      "bytes": 8330,
-      "sha256": "585baadd57923041d0bbea7e71fb741e67461e0c9f7ca5be1bfb088bc68347b5"
+      "bytes": 9032,
+      "sha256": "348e379ede91b07c6528f4b24ca88e834a563d9efbef8529113ae02620fe5e17"
     },
     {
       "path": "engineering/figures/rev-c-timing.png",
@@ -115,6 +115,31 @@
       "path": "engineering/preliminary_toolpath_summary.json",
       "bytes": 980,
       "sha256": "166a5308610c717a85ae661e8bfadb75488c0fad374d6d8957df352297725c85"
+    },
+    {
+      "path": "engineering/smoothed-motion-fine-results.json",
+      "bytes": 8863,
+      "sha256": "75d5a35b84d69d6438ba1d5cfcd7e0611a63efb530f096d68b9db3976409c162"
+    },
+    {
+      "path": "engineering/smoothed-motion-finest-results.json",
+      "bytes": 8869,
+      "sha256": "a395d290d53b42c8cc68bb1dcec1cce6dc583d729ea29ab394b33c800d62cb85"
+    },
+    {
+      "path": "engineering/smoothed-motion-results.json",
+      "bytes": 8888,
+      "sha256": "4536ced9d173680486f44226ac5cfb20d8c4efb51a11f0aec379ee809a30f8da"
+    },
+    {
+      "path": "engineering/smoothed_motion.py",
+      "bytes": 7948,
+      "sha256": "15a39a1534bac53dbc2144cdb3ba8c1ce3b9628460b284cae5a1b17400f4c26f"
+    },
+    {
+      "path": "engineering/SMOOTHING-STUDY.md",
+      "bytes": 6337,
+      "sha256": "78227b11ef01ab7615d8e7b6cdc56b8d20baf6fe246a8072fc952595022875b3"
     },
     {
       "path": "engineering/test_path_model.py",
@@ -183,13 +208,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 2059,
-      "sha256": "b32b8e89a3b125b9b456d89c7fa8a0680c3012cfde9674d41b31d3dc2656b39b"
+      "bytes": 2270,
+      "sha256": "1e0feeaaabf4a606b4c264ca01c5cd063ab9df401acd26838812c648dd8522ba"
     },
     {
       "path": "RESUME.md",
-      "bytes": 5498,
-      "sha256": "d28323e2b52e576c5412cb647064a802a8e5f5b6fe9df699d3e10a167c14bedc"
+      "bytes": 7121,
+      "sha256": "28166f8081fdf59635cc4a4af5ca8c5664c669aecf88323f5d6f5181e0f9d937"
     },
     {
       "path": "slicing/analysis.3mf",
@@ -463,8 +488,8 @@
     },
     {
       "path": "validation/CHECKPOINT.md",
-      "bytes": 1513,
-      "sha256": "1a6bbd3829934e16b3916b339c940d67aabe6fa82cf5253a655ccb06710e3e64"
+      "bytes": 1563,
+      "sha256": "6edf2b80359ed060d0f790cf9258c859a62ef6c6cabd9b7f70c9d3a2c2f835a1"
     },
     {
       "path": "validation/cura-width-audit.json",
@@ -478,8 +503,8 @@
     },
     {
       "path": "validation/NUMERICAL-VERIFICATION.md",
-      "bytes": 3411,
-      "sha256": "0f41bf761caa0450b237f0d025556fbc3aedc1d7b90436798ae6b9cd01ea0dbd"
+      "bytes": 3715,
+      "sha256": "483acb194cc39e057b2955b94a076f4f35eb7f8864d39b45d4df78bfdd645761"
     },
     {
       "path": "validation/slice-log.txt",
@@ -500,6 +525,26 @@
       "path": "validation/SOURCES.md",
       "bytes": 3494,
       "sha256": "beaa3d5983839f319fc211794fc2bb53fb6573f6ef2f018a29f6d908837b4672"
+    },
+    {
+      "path": "validation/third_party/kalico/COPYING",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "validation/third_party/kalico/PROVENANCE.json",
+      "bytes": 482,
+      "sha256": "7abb2a7427afb4a1fd5f0521e46ff2ae135f577984d63e9e5cfd0c40c17394f2"
+    },
+    {
+      "path": "validation/third_party/kalico/shaper_defs.py",
+      "bytes": 9639,
+      "sha256": "96b4516c1d611a7ce1a0b2e15cde254ae8bd1da8de5861b29a85c96817beb836"
+    },
+    {
+      "path": "validation/third_party/kalico/winch.py",
+      "bytes": 2459,
+      "sha256": "3a1b64abbaa7e1a0cc045d650a96bb748f836a0b234e9478412dc76da8575034"
     },
     {
       "path": "validation/third_party/klipper/COPYING",

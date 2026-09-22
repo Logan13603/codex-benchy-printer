@@ -1,3 +1,7 @@
+# Checkpoint 006 additions
+
+See engineering/SMOOTHING-STUDY.md for kernel integration, centroid identity, endpoint handling, three-resolution comparison and limits. Primary Kalico source is archived and hashed under validation/third_party/kalico. No full firmware or physical validation is claimed.
+
 # Numerical verification — checkpoint 005 additions
 
 `engineering/expanded_study.py` checks ideal-drive scaling and load/rotor inertia equivalence, then compares the hypothetical 51.748792767 s case to pinned Klipper planner classes within 0.00001 s. Finite queue gives the same rounded time; minimum cruise ratio 0.5 gives 52.603027 s. The same hardware/thermal/quality exclusions below remain. The new scenario is not a measured or validated printer capability.

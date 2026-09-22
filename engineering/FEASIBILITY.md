@@ -1,8 +1,14 @@
-# Feasibility report — revision C, checkpoint 005
+# Feasibility report — revision C, checkpoint 006
 
 **The $400/$500 spending caps are removed. The objective is now the cheapest credible printer for a full-size, compliant 50–55-second Benchy.** Existing Pi, CPAP blower/hose, SD/cord, 9 mm belts/pulleys and some screws remain credited. Their exact specifications are not known.
 
 The new direction is a hotend that stays stationary in XY, with a very light XY moving bed and a slow Z lift for the hotend/cooling assembly. This removes the high-flow hotend, extruders and supported cooling hose from XY acceleration. The detailed mechanism and purchased parts are not yet selected. The earlier conventional 24 V printer is not the current design.
+
+## Checkpoint 006 update
+
+The [new motion-smoothing study](SMOOTHING-STUDY.md) adds recovered primary evidence, actual Kalico polynomial kernels and sampling checks. The first-layer-limited case calculates 54.30 s, but a 0.20 s layer-time floor raises it to **61.29 s** (0.24 s gives 64.84 s). Smoothing reduces inertia demand while changing the commanded path. The current hardware/performance gate remains unpassed.
+
+The creator's source is now accessible: its material-reducing slice modifications and special winch firmware are not validation of this project's stricter slice. Historical statements below about failed access describe the earlier attempt and are superseded by the new study.
 
 ## What changed
 

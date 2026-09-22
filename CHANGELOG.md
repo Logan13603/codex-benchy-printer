@@ -1,3 +1,7 @@
+# Checkpoint 006 — 2026-09-21
+
+Completed and verified remote checkpoint 005 backup. Recovered primary creator transcript and selected motor/specification frames; identified material-reducing slice differences, special winch firmware and continuous smoothing. Added pinned Kalico polynomial source, numerical convolution, inertial-load sensitivity, cooling-time floors and timestep verification. No CAD geometry was made; performance gate remains unpassed and budget cap remains removed.
+
 # Checkpoint 005 — 2026-09-21
 
 User removed the hard budget; lowest credible cost remains the objective. Expanded the same-path study to 0.5–3 million mm/s², found a hypothetical 51.75-second scenario, validated planner arithmetic, and quantified first-layer/flow/velocity uncertainty. Added primary motor catalog evidence, ideal torque/inertia bounds and a load-angle accuracy warning. Preferred study direction is stationary-XY hotend/light XY bed; detailed mechanism, cost and performance gate remain unresolved. No CAD or hardware capability is claimed.
