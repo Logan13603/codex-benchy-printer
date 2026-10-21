@@ -77,4 +77,3 @@ def run(_context: str):
     _block_pilots(y, [(sx*6, sz*6.5) for sx in [-1, 1]
                       for sz in [-1, 1]],
                   'SK-P204-02_FOUR_M2_PILOTS')
-

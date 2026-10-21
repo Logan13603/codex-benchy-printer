@@ -33,4 +33,3 @@ def run(_context: str):
         assert sketch.isFullyConstrained
         print(name, 'annular counterbores', profiles.count,
               'volume_cm3', comp.bRepBodies.item(0).volume)
-

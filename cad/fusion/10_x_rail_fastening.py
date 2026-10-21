@@ -91,4 +91,3 @@ def run(_context: str):
                 '-base_m2_tap_depth', top_y=1.2)
     print('shim cm3', shim.bRepBodies.item(0).volume,
           'base cm3', base.bRepBodies.item(0).volume)
-

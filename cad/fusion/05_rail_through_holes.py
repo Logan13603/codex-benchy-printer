@@ -65,4 +65,3 @@ def run(_context: str):
                 'SK-P201-02_NINE_MGN7_MOUNT_HOLES')
     _rail_holes(design, y, False, list(range(-45, 46, 15)),
                 'SK-P203-02_SEVEN_MGN7_MOUNT_HOLES')
-

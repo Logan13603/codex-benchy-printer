@@ -68,9 +68,9 @@ def build():
             for z in [272.5,287.5]:s=drill(s,2.5,3,(side*106,y,z),(side,0,0))
         add('CBP-P202_MGN9H_Y_BLOCK_'+hand,s,'steel',motion='gantry',mass=26,notes='Catalog26g;15Zx16Y mount pattern, M3x3blind.')
     # Carbon beam is a hollow stock tube; all rail clearance holes are real.
-    s=block(158,20,20,0,0,280).cut(block(158.2,17,17,0,0,280))
+    s=block(150,20,20,0,0,280).cut(block(150.2,17,17,0,0,280))
     for i in range(9):s=drill(s,2.3,1.5,(-60+15*i,-10,280),(0,1,0))
-    add('CBP-M202_CARBON_X_TUBE_158',s,'carbon','cnc','gantry',notes='20x20x1.5 closed158tube; ends±79clearfixedbeltreturnsby1.85mm; no transverse belt ports. density1.6g/cm3assumed.')
+    add('CBP-M202_CARBON_X_TUBE_150',s,'carbon','cnc','gantry',notes='20x20x1.5 closed150tube; ends±75 clear inner fixed belt envelopes by1.60mm at CX88.75. No transverse belt ports. Density1.6g/cm3assumed; tolerance margin must be verified.')
     s=block(140,2,8,0,-7.5,280)
     for i in range(9):s=drill(s,1.6,2,(-60+15*i,-8.5,280),(0,1,0))
     add('CBP-M204_BONDED_M2_STRIP',s,'6061','cnc','gantry',notes='M2through tapped; bonded inside carbon. Bond coupon required.')

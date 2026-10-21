@@ -20,4 +20,3 @@ def run(_context: str):
             first.component, moved(0, 1.2, 6.0))
     print('rail shims', len([o for o in frame.occurrences
                              if o.component == first.component]))
-

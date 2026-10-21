@@ -62,4 +62,3 @@ def run(_context: str):
         feat.name = 'JOIN-BRIDGE-END-PAD-' + suffix
     print('bridge body cm3', bridge.bRepBodies.item(0).volume,
           'sketches', bridge.sketches.count)
-

@@ -85,4 +85,3 @@ def run(_context: str):
              'stage_t')
     _through(bridge, [(0, z) for z in range(-45, 46, 15)],
              'SK-2200-04_M2_YRAIL_CLEAR', 'bridge_h')
-

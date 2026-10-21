@@ -10,6 +10,7 @@ features; their native interfaces are deliberately not replaced with a solid
 monolithic toolhead import.
 """
 import os
+import json
 
 
 def _exp(x):
@@ -26,6 +27,23 @@ def _pin(s, p, x, y):
     a, b = val(x), val(y)
     if abs(a) < 1e-8 and abs(b) < 1e-8:
         s.geometricConstraints.addCoincident(p, s.originPoint)
+        return
+    if abs(a)>1e-8 and abs(b)>1e-8:
+        # Fusion's solver can reject two origin-distance dimensions on a
+        # freestanding polygon vertex. A constrained coordinate datum gives
+        # the same two driving coordinates without fixing any geometry.
+        reference=next((q for q in s.sketchPoints if q!=p and q.isFullyConstrained
+                        and abs(q.geometry.y-b)<1e-7),None)
+        if reference is None:
+            reference=s.sketchPoints.add(adsk.core.Point3D.create(0,b,0))
+            s.geometricConstraints.addVerticalPoints(s.originPoint,reference)
+            s.sketchDimensions.addDistanceDimension(s.originPoint,reference,
+                ori.VerticalDimensionOrientation,
+                adsk.core.Point3D.create(.5,b/2,0)).parameter.expression=_abs_exp(y)
+        s.geometricConstraints.addHorizontalPoints(reference,p)
+        s.sketchDimensions.addDistanceDimension(s.originPoint,p,
+            ori.HorizontalDimensionOrientation,
+            adsk.core.Point3D.create(a/2,b+.5,0)).parameter.expression=_abs_exp(x)
         return
     if abs(a) < 1e-8:
         s.geometricConstraints.addVerticalPoints(s.originPoint, p)
@@ -64,14 +82,14 @@ def _plane(c, name, xyz, normal=(0, 0, 1)):
         assert i.setByAngle(axis, vi(str(angle) + ' deg'), c.xYConstructionPlane)
         base = c.constructionPlanes.add(i)
         base.name = 'PL-' + name + '-ANGLE'
-        base.isVisible = False
+        base.isLightBulbOn = False
     n = base.geometry.normal
     offset = _projection(n, xyz)
     i = c.constructionPlanes.createInput()
     assert i.setByOffset(base, vi(offset))
     p = c.constructionPlanes.add(i)
     p.name = 'PL-' + name
-    p.isVisible = False
+    p.isLightBulbOn = False
     return p
 
 
@@ -114,10 +132,11 @@ def _poly(c, name, xyz, normal, world_points):
             pt = s.originPoint
         else:
             pt = s.sketchPoints.add(adsk.core.Point3D.create(val(ux), val(uy), 0))
-            _pin(s, pt, ux, uy)
-        pts.append(pt)
-    for i, pt in enumerate(pts):
-        s.sketchCurves.sketchLines.addByTwoPoints(pt, pts[(i + 1) % len(pts)])
+        pts.append((pt,ux,uy))
+    for i, (pt,ux,uy) in enumerate(pts):
+        s.sketchCurves.sketchLines.addByTwoPoints(pt, pts[(i + 1) % len(pts)][0])
+    for pt,ux,uy in pts:
+        if pt!=s.originPoint:_pin(s,pt,ux,uy)
     assert s.isFullyConstrained, name
     return s
 
@@ -183,11 +202,11 @@ def _sections(side):
     a = math.radians(17)
     return [
         ((side * 8, -14, 331), (0, 0, -1), 10, 12),
-        ((side * 24, -26, 315), (side * r, 0, -r), 10, 12),
-        ((side * 42, -38, 297), (0, 0, -1), 10, 12),
-        ((side * 42, -38, 247), (0, 0, -1), 10, 12),
-        ((side * 38, -38, 237), (-side * .5, 0, -math.sqrt(.75)), 14, 7),
-        ((side * 27, -38, 231), (-side * math.sqrt(.75), 0, -.5), 16, 4),
+        ((side * 24, -38, 315), (side * r, 0, -r), 10, 12),
+        ((side * 42, -62, 301), (0, 0, -1), 10, 12),
+        ((side * 42, -62, 247), (0, 0, -1), 10, 12),
+        ((side * 38, -55, 237), (-side * .5, 0, -math.sqrt(.75)), 14, 8),
+        ((side * 27, -40, 231), (-side * math.sqrt(.75), 0, -.5), 16, 5),
         ((side * 12, -38, 228.8), (-side * math.cos(a), 0, -math.sin(a)), 16, 3),
     ]
 
@@ -201,7 +220,7 @@ def _carrier(parent):
     op = adsk.fusion.FeatureOperations
     cut, new, join = op.CutFeatureOperation, op.NewBodyFeatureOperation, op.JoinFeatureOperation
     c = _new(parent, 'CBP-P401_R1_AL_CARRIAGE_SPINE')
-    _box(c, 'SPINE', 36, 3, 46.26, (0, -19.5, 279.13), new)
+    _box(c, 'SPINE', 36, 3, 54, (0, -19.5, 283), new)
     for x in (-6.5, 6.5):
         for z in (274, 286):
             _cyl(c, 'MGN7-' + str(x) + '-' + str(z), 2.2, 4, (x, -17.5, z), (0, -1, 0), cut)
@@ -209,7 +228,7 @@ def _carrier(parent):
         _cyl(c, 'PLATFORM-' + str(x), 3.3, 4, (x, -17.5, 297.26), (0, -1, 0), cut)
         _cyl(c, 'GUARD-TAP-M2-' + str(x), 1.6, 4, (x, -17.5, 260), (0, -1, 0), cut)
     for x in (-11, 11):
-        _cyl(c, 'BRIDGE-TAP-M3-' + str(x), 2.5, 4, (x, -17.5, 292), (0, -1, 0), cut)
+        _cyl(c, 'BRIDGE-TAP-M3-' + str(x), 2.5, 4, (x, -17.5, 306), (0, -1, 0), cut)
     for x in (-15, 15):
         _cyl(c, 'WIRE-TAP-M2-' + str(x), 1.6, 4, (x, -17.5, 294), (0, -1, 0), cut)
     c = _new(parent, 'CBP-P402_R1_AL_HOTEND_PLATFORM')
@@ -226,13 +245,16 @@ def _carrier(parent):
     for x in (-11, 11):
         _cyl(c, 'BRIDGE-HEAD-RELIEF-' + str(x), 6.4, 1, (x, -29.8, 'rf_hotend_mount_z'), (0, 0, 1), cut)
     c = _new(parent, 'CBP-P403_R1_DUCT_SUPPORT_BRIDGE')
-    _box(c, 'BRIDGE', 104, 6.8, 7, (0, -24.4, 292), new)
-    _box(c, 'PLATFORM-CLEARANCE', 34, 9, 5, (0, -24.4, 296.76), cut)
-    _box(c, 'GOLIATH-FLANGE-CLEARANCE', 13, 4, 9, (0, -27.1, 292), cut)
-    for x in (-11, 11, -42, 42):
-        _cyl(c, 'M3-' + str(x), 3.3, 8, (x, -28.4, 292), (0, 1, 0), cut)
+    _box(c, 'BRIDGE-CROSSBAR', 114, 6.8, 8, (0, -24.4, 306), new)
+    for x in (-11, 11):
+        _cyl(c, 'SPINE-M3-' + str(x), 3.3, 8, (x, -28.4, 306), (0, 1, 0), cut)
+    for side in (-1, 1):
+        _box(c, 'FORWARD-ARM-' + str(side), 8, 28.5, 7, (side * 52, -35.25, 306), join)
+        _box(c, 'FRONT-LEG-' + str(side), 8, 6.8, 18, (side * 52, -46.1, 300.5), join)
+        _box(c, 'BOSS-FOOT-' + str(side), 18, 9.1, 7, (side * 47, -47.25, 295), join)
+        _cyl(c, 'DUCT-M3-' + str(side), 3.3, 10, (side * 42, -52.4, 295), (0, 1, 0), cut)
     for x in (-25, 25):
-        _box(c, 'LIGHTEN-' + str(x), 18, 8, 3, (x, -24.4, 292), cut)
+        _box(c, 'LIGHTEN-' + str(x), 18, 8, 4, (x, -24.4, 306), cut)
     c = _new(parent, 'CBP-P405_R1_REAR_THERMAL_WIRE_GUARD')
     _box(c, 'GUARD', 24, .5, 20, (0, -22.75, 253), new)
     for x in (-10, 10):
@@ -252,12 +274,12 @@ def _carrier(parent):
 
 def _flange(c, side, z, name):
     op = adsk.fusion.FeatureOperations
-    _box(c, name, 37, 20.2, 2, (side * 42, -38, z), op.JoinFeatureOperation)
-    _box(c, name + '-FLOW', 12, 10, 4, (side * 42, -38, z), op.CutFeatureOperation)
-    for x in (-15.5, 15.5):
+    _box(c, name, 41, 20.2, 2, (side * 42, -62, z), op.JoinFeatureOperation)
+    _box(c, name + '-FLOW', 12, 10, 4, (side * 42, -62, z), op.CutFeatureOperation)
+    for x in (-17.5, 17.5):
         for y in (-7.1, 7.1):
             _cyl(c, name + '-M2p5-' + str(x) + '-' + str(y), 2.7, 4,
-                 (side * 42 + x, -38 + y, z - 2), (0, 0, 1), op.CutFeatureOperation)
+                 (side * 42 + x, -62 + y, z - 2), (0, 0, 1), op.CutFeatureOperation)
 
 
 def _fork(parent, front):
@@ -272,18 +294,18 @@ def _fork(parent, front):
     for side in (-1, 1):
         sec = _sections(side)[:3]
         _loft(c, 'FORK-FLOW-' + str(side), sec, op.CutFeatureOperation)
-        _flange(c, side, 298, 'FLANGE-' + str(side))
+        _flange(c, side, 302, 'FLANGE-' + str(side))
     for x in (-16, 16):
         _box(c, 'INLET-SEAM-PAD-' + str(x), 10, 6, 8, (x, -14, 339), op.JoinFeatureOperation)
         _cyl(c, 'INLET-SEAM-M2p5-' + str(x), 2.7, 8, (x, -18, 339), (0, 1, 0), op.CutFeatureOperation)
         _hexcut(c, 'INLET-NUT-' + str(x), 5, 2, (x, -11, 339), (0, -1, 0))
     for side in (-1, 1):
         x = side * 39
-        _box(c, 'ARM-SEAM-PAD-' + str(side), 22, 6, 8, (x, -26, 315), op.JoinFeatureOperation)
-        _cyl(c, 'ARM-SEAM-M2p5-' + str(side), 2.7, 8, (x, -30, 315), (0, 1, 0), op.CutFeatureOperation)
-        _hexcut(c, 'ARM-NUT-' + str(side), 5, 2, (x, -23, 315), (0, -1, 0))
-    yz = ([(-38, 190), (150, 190), (150, 400), (-14, 400), (-14, 331), (-26, 315), (-38, 297)]
-          if front else [(-150, 190), (-38, 190), (-38, 297), (-26, 315), (-14, 331), (-14, 400), (-150, 400)])
+        _box(c, 'ARM-SEAM-PAD-' + str(side), 22, 6, 8, (x, -38, 315), op.JoinFeatureOperation)
+        _cyl(c, 'ARM-SEAM-M2p5-' + str(side), 2.7, 8, (x, -42, 315), (0, 1, 0), op.CutFeatureOperation)
+        _hexcut(c, 'ARM-NUT-' + str(side), 5, 2, (x, -35, 315), (0, -1, 0))
+    yz = ([(-62, 190), (150, 190), (150, 400), (-14, 400), (-14, 331), (-38, 315), (-62, 301)]
+          if front else [(-150, 190), (-62, 190), (-62, 301), (-38, 315), (-14, 331), (-14, 400), (-150, 400)])
     s = _poly(c, 'MEDIAN-SPLIT', (-110, 0, 0), (1, 0, 0), [(-110, y, z) for y, z in yz])
     extrude(c, s, '220 mm', op.CutFeatureOperation, 'CUT-MEDIAN-SPLIT')
     return c
@@ -299,15 +321,18 @@ def _lower(parent, side, front):
     p, n, w, h = inner[-1]
     inner[-1] = (tuple(p[i] + n[i] * .25 for i in range(3)), n, w, h)
     _loft(c, 'DUCT-FLOW', inner, op.CutFeatureOperation)
-    _flange(c, side, 296, 'FLANGE')
+    _flange(c, side, 300, 'FLANGE')
     for z in (248, 271, 289):
-        _box(c, 'SEAM-PAD-' + str(z), 8, 5, 6, (side * 52.4, -38, z), op.JoinFeatureOperation)
-        _cyl(c, 'SEAM-M2p5-' + str(z), 2.7, 7, (side * 52.4, -41.5, z), (0, 1, 0), op.CutFeatureOperation)
-        _hexcut(c, 'SEAM-NUT-' + str(z), 5, 2, (side * 52.4, -35.5, z), (0, -1, 0))
-    _box(c, 'SUPPORT-BOSS', 10, 4, 10, (side * 42, -29.8, 292), op.JoinFeatureOperation)
-    _cyl(c, 'SUPPORT-M3', 3.3, 3.7, (side * 42, -27.8, 292), (0, -1, 0), op.CutFeatureOperation)
-    _hexcut(c, 'SUPPORT-NUT', 5.5, 2.4, (side * 42, -27.8, 292), (0, -1, 0))
-    _box(c, 'SPLIT', 220, 200, 200, (0, 62 if front else -138, 275), op.CutFeatureOperation)
+        _box(c, 'SEAM-PAD-' + str(z), 8, 5, 6, (side * 52.4, -62, z), op.JoinFeatureOperation)
+        _cyl(c, 'SEAM-M2p5-' + str(z), 2.7, 7, (side * 52.4, -65.5, z), (0, 1, 0), op.CutFeatureOperation)
+        _hexcut(c, 'SEAM-NUT-' + str(z), 5, 2, (side * 52.4, -59.5, z), (0, -1, 0))
+    _box(c, 'SUPPORT-BOSS', 10, 4, 10, (side * 42, -53.8, 295), op.JoinFeatureOperation)
+    _cyl(c, 'SUPPORT-M3', 3.3, 3.7, (side * 42, -51.8, 295), (0, -1, 0), op.CutFeatureOperation)
+    _hexcut(c, 'SUPPORT-NUT', 5.5, 2.4, (side * 42, -51.8, 295), (0, -1, 0))
+    yz = ([(-38, 180), (150, 180), (150, 330), (-62, 330), (-62, 247), (-55, 237), (-40, 231), (-38, 228.8)]
+          if front else [(-160, 180), (-38, 180), (-38, 228.8), (-40, 231), (-55, 237), (-62, 247), (-62, 330), (-160, 330)])
+    s = _poly(c, 'MEDIAN-SPLIT', (-110, 0, 0), (1, 0, 0), [(-110, y, z) for y, z in yz])
+    extrude(c, s, '220 mm', op.CutFeatureOperation, 'CUT-MEDIAN-SPLIT')
     return c
 
 
@@ -336,7 +361,10 @@ def _import_hardware(parent, export_folder):
     app = adsk.core.Application.get()
     prefix = ('CBP-H', 'CBP-C401', 'CBP-C402', 'CBP-C403')
     assert os.path.isdir(export_folder), 'Run 04_toolhead_cq.py standalone export first'
-    for filename in sorted(os.listdir(export_folder)):
+    manifest_path = os.path.join(export_folder, 'toolhead-components.json')
+    with open(manifest_path, 'r', encoding='utf-8') as handle:
+        current_files = [row['name'] + '.step' for row in json.load(handle)]
+    for filename in sorted(current_files):
         if filename.lower().endswith('.step') and filename.startswith(prefix):
             name = filename[:-5]
             if any(o.component.name == name for o in parent.occurrences):
@@ -366,3 +394,4 @@ def run(_context: str):
     d.computeAll()
     audit(d)
     print('Native RevF Bowden custom toolhead built. Verify loft correspondence, interference, materials and fully constrained sketches before release.')
+

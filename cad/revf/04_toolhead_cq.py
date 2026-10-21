@@ -15,6 +15,10 @@ NOZZLE = (0.0, -38.0, 225.0)
 MOUNT_Z = 294.26
 PLATE_T = 6.0
 WALL = 1.2
+TRUNK_Y = -62.0
+DUCT_SPLIT_Z = 301.0
+SUPPORT_Z = 295.0
+BRIDGE_Z = 306.0
 PARTS = []
 
 
@@ -86,11 +90,11 @@ def branch_sections(side):
     a = math.radians(17)
     return [
         ((side * 8, -14, 331), (0, 0, -1), 10, 12),
-        ((side * 24, -26, 315), (side * rt2, 0, -rt2), 10, 12),
-        ((side * 42, -38, 297), (0, 0, -1), 10, 12),
-        ((side * 42, -38, 247), (0, 0, -1), 10, 12),
-        ((side * 38, -38, 237), (-side * .5, 0, -math.sqrt(.75)), 14, 7),
-        ((side * 27, -38, 231), (-side * math.sqrt(.75), 0, -.5), 16, 4),
+        ((side * 24, -38, 315), (side * rt2, 0, -rt2), 10, 12),
+        ((side * 42, TRUNK_Y, DUCT_SPLIT_Z), (0, 0, -1), 10, 12),
+        ((side * 42, TRUNK_Y, 247), (0, 0, -1), 10, 12),
+        ((side * 38, -55, 237), (-side * .5, 0, -math.sqrt(.75)), 14, 8),
+        ((side * 27, -40, 231), (-side * math.sqrt(.75), 0, -.5), 16, 5),
         ((side * 12, -38, 228.8), (-side * math.cos(a), 0, -math.sin(a)), 16, 3),
     ]
 
@@ -111,54 +115,48 @@ def make_air_system():
         ins[-1] = (p.toTuple(), last[1], last[2], last[3])
         inner = inner.fuse(tube_loft(ins))
     air = outer.cut(inner)
-    # Each branch has three seam bolts, with tabs extending outboard of the
-    # airflow. The shell will be split at Y=-38 over the lower trunks, whereas
-    # the sloping inlet portion requires a second split plane at Y=-14.
-    # A single global center split cannot intersect both offset centerlines.
-    # Manufacture as complete left/right branches split in their own vertical
-    # median surfaces; the robust implementation below uses a vertical X=0
-    # split for the inlet fork, and Y=-38 for each lower trunk module.
-    # The inlet fork is a separate front/back part cut at Y=-14; lower ducts
-    # attach via rectangular four-screw flanges at Z=297.
-    top = air.intersect(block(200, 200, 100, (0, -20, 347)))
-    lower_cut = block(200, 200, 100, (0, -38, 247))
+    # Forward trunks keep the entire flange/fastener envelope in front of the
+    # moving idlers. Matching median-surface covers expose every duct for support
+    # removal. The fork/trunk module split is at Z301, above the support bosses.
+    top = air.intersect(block(200, 200, 100, (0, -20, DUCT_SPLIT_Z + 50)))
+    lower_cut = block(200, 200, 110, (0, -38, DUCT_SPLIT_Z - 55))
     lower = air.intersect(lower_cut)
-    # Z=297 mating flanges, outer 37 x 20.2, four M2.5 on 31x14.2 mm.
+    # Z301 mating flanges, outer 41 x 20.2, four M2.5 on 35x14.2 mm.
     # Wide ears keep the nuts clear of the inward-sloping fork immediately above.
     # 2 mm top and lower flange plates have shared free flow apertures.
     for side in (-1, 1):
-        for zc, dest in [(298, "top"), (296, "lower")]:
-            flange = block(37, 20.2, 2, (side * 42, -38, zc))
-            flange = flange.cut(block(12, 10, 4, (side * 42, -38, zc)))
-            for xx in (-15.5, 15.5):
+        for zc, dest in [(DUCT_SPLIT_Z + 1, "top"), (DUCT_SPLIT_Z - 1, "lower")]:
+            flange = block(41, 20.2, 2, (side * 42, TRUNK_Y, zc))
+            flange = flange.cut(block(12, 10, 4, (side * 42, TRUNK_Y, zc)))
+            for xx in (-17.5, 17.5):
                 for yy in (-7.1, 7.1):
-                    flange = drill(flange, 2.7, 4, (side * 42 + xx, -38 + yy, zc - 2))
+                    flange = drill(flange, 2.7, 4, (side * 42 + xx, TRUNK_Y + yy, zc - 2))
             if dest == "top":
                 top = top.fuse(flange)
             else:
                 lower = lower.fuse(flange)
         # Outboard trunk seam tabs, split halves 2.5 mm each.
         for z in (248, 271, 289):
-            lower = lower.fuse(block(8, 5, 6, (side * 52.4, -38, z)))
-            lower = drill(lower, 2.7, 7, (side * 52.4, -41.5, z), (0, 1, 0))
-            lower = lower.cut(hex_prism(5.0, 2, (side * 52.4, -35.5, z), (0, -1, 0)))
+            lower = lower.fuse(block(8, 5, 6, (side * 52.4, TRUNK_Y, z)))
+            lower = drill(lower, 2.7, 7, (side * 52.4, TRUNK_Y - 3.5, z), (0, 1, 0))
+            lower = lower.cut(hex_prism(5.0, 2, (side * 52.4, TRUNK_Y + 2.5, z), (0, -1, 0)))
         # Rear boss engages M3 nut without perforating the 1.2 mm air wall.
-        lower = lower.fuse(block(10, 4, 10, (side * 42, -29.8, 292)))
-        lower = drill(lower, 3.3, 3.7, (side * 42, -27.8, 292), (0, -1, 0))
-        lower = lower.cut(hex_prism(5.5, 2.4, (side * 42, -27.8, 292), (0, -1, 0)))
+        lower = lower.fuse(block(10, 4, 10, (side * 42, TRUNK_Y + 8.2, SUPPORT_Z)))
+        lower = drill(lower, 3.3, 3.7, (side * 42, TRUNK_Y + 10.2, SUPPORT_Z), (0, -1, 0))
+        lower = lower.cut(hex_prism(5.5, 2.4, (side * 42, TRUNK_Y + 10.2, SUPPORT_Z), (0, -1, 0)))
     # Paired bolt pads provide positive assembly at the inlet and arm midpoints.
     for x in (-16, 16):
         top = top.fuse(block(10, 6, 8, (x, -14, 339)))
         top = drill(top, 2.7, 8, (x, -18, 339), (0, 1, 0))
         top = top.cut(hex_prism(5, 2, (x, -11, 339), (0, -1, 0)))
     for side in (-1, 1):
-        top = top.fuse(block(22, 6, 8, (side * 39, -26, 315)))
-        top = drill(top, 2.7, 8, (side * 39, -30, 315), (0, 1, 0))
-        top = top.cut(hex_prism(5, 2, (side * 39, -23, 315), (0, -1, 0)))
+        top = top.fuse(block(22, 6, 8, (side * 39, -38, 315)))
+        top = drill(top, 2.7, 8, (side * 39, -42, 315), (0, 1, 0))
+        top = top.cut(hex_prism(5, 2, (side * 39, -35, 315), (0, -1, 0)))
     # The seam follows the branch median Y(Z), rather than cutting at one global
     # Y. This exposes both angled arms for support removal and internal sealing.
     front_mask = cq.Workplane("YZ").polyline([
-        (-150, 190), (-38, 190), (-38, 297), (-26, 315),
+        (-150, 190), (TRUNK_Y, 190), (TRUNK_Y, DUCT_SPLIT_Z), (-38, 315),
         (-14, 331), (-14, 400), (-150, 400)]).close().extrude(110, both=True).val()
     front_top = top.intersect(front_mask)
     rear_top = top.cut(front_mask)
@@ -167,48 +165,52 @@ def make_air_system():
     add("CBP-P412_R1_CPAP_FORK_REAR", rear_top, "PA12", "printed",
         "Matching median-surface cover; both arm channels open for support removal; mating faces need thin sealant", 1.01)
     for side, word in [(-1, "LEFT"), (1, "RIGHT")]:
-        side_lower = lower.intersect(block(100, 150, 100, (side * 50, -38, 247)))
-        front = side_lower.intersect(block(200, 100, 120, (0, -88, 247)))
-        rear = side_lower.intersect(block(200, 100, 120, (0, 12, 247)))
+        side_lower = lower.intersect(block(100, 180, 120, (side * 50, -38, 247)))
+        lower_front_mask = cq.Workplane("YZ").polyline([
+            (-160, 180), (-38, 180), (-38, 228.8), (-40, 231),
+            (-55, 237), (TRUNK_Y, 247), (TRUNK_Y, 330), (-160, 330)
+        ]).close().extrude(110, both=True).val()
+        front = side_lower.intersect(lower_front_mask)
+        rear = side_lower.cut(lower_front_mask)
         add("CBP-P41" + ("3" if side < 0 else "5") + "_R1_" + word + "_DUCT_FRONT", front, "PA12", "printed",
-            "1.2 mm nominal wall; open seam Y=-38 faces print bed; opposed 16x3 mm outlet aims down 17 deg; lower outer lip >=226.2 mm", 1.01)
+            "1.2 mm nominal section wall; open median seam follows Y(Z); opposed16x3 mm outlet down17deg; outer lip>=226.2 mm; trunk Y=-62 clears moving idlers", 1.01)
         add("CBP-P41" + ("4" if side < 0 else "6") + "_R1_" + word + "_DUCT_REAR", rear, "PA12", "printed",
             "Three M2.5 seam bolts, captive nuts; M3 support nut pocket does not enter airflow", 1.01)
         for z in (248, 271, 289):
             screw("CBP-H41_%s_SEAM_%d_M2p5x8" % (word, z), 2.5, 8,
-                  (side * 52.4, -40.5, z), (0, 1, 0), 4.5, 2.5)
+                  (side * 52.4, TRUNK_Y - 2.5, z), (0, 1, 0), 4.5, 2.5)
             nut("CBP-H42_%s_SEAM_%d_M2p5" % (word, z), 2.5,
-                (side * 52.4, -35.5, z), (0, -1, 0))
-        for i, xx in enumerate((-15.5, 15.5)):
+                (side * 52.4, TRUNK_Y + 2.5, z), (0, -1, 0))
+        for i, xx in enumerate((-17.5, 17.5)):
             for j, yy in enumerate((-7.1, 7.1)):
                 screw("CBP-H43_%s_FLANGE_%d%d_M2p5x8" % (word, i, j), 2.5, 8,
-                      (side * 42 + xx, -38 + yy, 295), (0, 0, 1), 4.5, 2.5)
+                      (side * 42 + xx, TRUNK_Y + yy, DUCT_SPLIT_Z - 2), (0, 0, 1), 4.5, 2.5)
                 nut("CBP-H44_%s_FLANGE_%d%d_M2p5" % (word, i, j), 2.5,
-                    (side * 42 + xx, -38 + yy, 299), (0, 0, 1))
-        screw("CBP-H45_%s_SUPPORT_M3x10" % word, 3, 10,
-              (side * 42, -21, 292), (0, -1, 0))
+                    (side * 42 + xx, TRUNK_Y + yy, DUCT_SPLIT_Z + 2), (0, 0, 1))
+        screw("CBP-H45_%s_SUPPORT_M3x12" % word, 3, 12,
+              (side * 42, -42.7, SUPPORT_Z), (0, -1, 0))
         nut("CBP-H46_%s_SUPPORT_M3" % word, 3,
-            (side * 42, -27.8, 292), (0, -1, 0))
+            (side * 42, TRUNK_Y + 10.2, SUPPORT_Z), (0, -1, 0))
     for side in (-1, 1):
         screw("CBP-H47_FORK_%s_M2p5x10" % side, 2.5, 10,
               (side * 16, -17, 339), (0, 1, 0), 4.5, 2.5)
         nut("CBP-H48_FORK_%s_M2p5" % side, 2.5,
             (side * 16, -11, 339), (0, -1, 0))
         screw("CBP-H49_FORK_ARM_%s_M2p5x10" % side, 2.5, 10,
-              (side * 39, -29, 315), (0, 1, 0), 4.5, 2.5)
+              (side * 39, -41, 315), (0, 1, 0), 4.5, 2.5)
         nut("CBP-H50_FORK_ARM_%s_M2p5" % side, 2.5,
-            (side * 39, -23, 315), (0, -1, 0))
+            (side * 39, -35, 315), (0, -1, 0))
 
 
 def make_carrier():
-    spine = block(36, 3, 46.26, (0, -19.5, 279.13))
+    spine = block(36, 3, 54, (0, -19.5, 283))
     for x in (-6.5, 6.5):
         for z in (274, 286):
             spine = drill(spine, 2.2, 4, (x, -17.5, z), (0, -1, 0))
     for x in (-10, 10):
         spine = drill(spine, 3.3, 4, (x, -17.5, 297.26), (0, -1, 0))
     for x in (-11, 11):
-        spine = drill(spine, 2.5, 4, (x, -17.5, 292), (0, -1, 0))
+        spine = drill(spine, 2.5, 4, (x, -17.5, BRIDGE_Z), (0, -1, 0))
     for x in (-10, 10):
         spine = drill(spine, 1.6, 4, (x, -17.5, 260), (0, -1, 0))
     for x in (-15, 15):
@@ -230,20 +232,21 @@ def make_carrier():
         plate = drill(plate, 6.4, 1, (x, -29.8, MOUNT_Z))
     add("CBP-P402_R1_AL_HOTEND_PLATFORM", plate, "6061-T6", "cnc",
         "6 mm plate; center M6x1 THRU; four maker-pattern M2.5 clearance holes; rear 2x M3x.5 tapped depth8/drill10; fan top 2x M3 tapped4/drill4.5; underside 2x D6.4 x1 screw-head reliefs. Confirm maker hotend mount thread before release", 2.70)
-    brace = block(104, 6.8, 7, (0, -24.4, 292))
-    # Clear the aluminum platform without dropping into the upper belt envelope
-    # Z277.8..286.8. The central bridge remains 5.76 mm tall after this notch.
-    brace = brace.cut(block(34, 9, 5, (0, -24.4, 296.76)))
-    # Maker STEP has an upper flange that projects to Y=-27.1. Clear it by
-    # 2 mm without moving the hotend or weakening the two mounting pads.
-    brace = brace.cut(block(13, 4, 9, (0, -27.1, 292)))
-    for x in (-11, 11, -42, 42):
-        brace = drill(brace, 3.3, 8, (x, -28.4, 292), (0, 1, 0))
+    # A real U bridge passes above the belts/idlers and drops only at forward
+    # bosses. Rear envelope remains Y=-21 for 2 mm nominal portal clearance.
+    brace = block(114, 6.8, 8, (0, -24.4, BRIDGE_Z))
+    for x in (-11, 11):
+        brace = drill(brace, 3.3, 8, (x, -28.4, BRIDGE_Z), (0, 1, 0))
+    for side in (-1, 1):
+        brace = brace.fuse(block(8, 28.5, 7, (side * 52, -35.25, BRIDGE_Z)))
+        brace = brace.fuse(block(8, 6.8, 18, (side * 52, -46.1, 300.5)))
+        brace = brace.fuse(block(18, 9.1, 7, (side * 47, -47.25, SUPPORT_Z)))
+        brace = drill(brace, 3.3, 10, (side * 42, -52.4, SUPPORT_Z), (0, 1, 0))
     # Two service windows reduce mass while retaining continuous top/bottom rails.
     for x in (-25, 25):
-        brace = brace.cut(block(18, 8, 3, (x, -24.4, 292)))
+        brace = brace.cut(block(18, 8, 4, (x, -24.4, BRIDGE_Z)))
     add("CBP-P403_R1_DUCT_SUPPORT_BRIDGE", brace, "PA12-CF", "printed",
-        "Attaches to tapped aluminum spine with 2x M3x10 + .5 mm washers; duct mounting M3x10 each side", 1.08)
+        "Overhead U bridge: arms atX+/-52, minZ302.5 / forward feet minZ291.5; rearY=-21 clears portal. Two spine M3x10+DIN433 washers atZ306; forward bosses M3x12 atZ295 have unobstructed rear-facing driver access", 1.08)
     # Purchased coupler is an interface proxy, not an invented certified part.
     fitting = cylinder(3, 6, (0, -38, 294.26))
     fitting = fitting.fuse(hex_prism(8, 5, (0, -38, 300.26)))
@@ -270,11 +273,11 @@ def make_carrier():
         screw("CBP-H403_%d_PLATFORM_M3x10" % i, 3, 10,
               (x, -18, 297.26), (0, -1, 0))
     for i, x in enumerate((-11, 11)):
-        washer = cylinder(3, .5, (x, -28.3, 292), (0, 1, 0))
-        washer = drill(washer, 3.2, .7, (x, -28.4, 292), (0, 1, 0))
+        washer = cylinder(3, .5, (x, -28.3, BRIDGE_Z), (0, 1, 0))
+        washer = drill(washer, 3.2, .7, (x, -28.4, BRIDGE_Z), (0, 1, 0))
         add("CBP-H404_%d_BRIDGE_WASHER" % i, washer, "Steel", "fastener", "M3 DIN433 small washer OD6 / t.5 mm", 7.85)
         screw("CBP-H405_%d_BRIDGE_M3x10" % i, 3, 10,
-              (x, -28.3, 292), (0, 1, 0))
+              (x, -28.3, BRIDGE_Z), (0, 1, 0))
     for i, x in enumerate((-6.5, 6.5)):
         for j, z in enumerate((274, 286)):
             screw("CBP-H409_%d%d_CARRIAGE_M2x5" % (i, j), 2, 5,
@@ -397,7 +400,79 @@ def export_standalone(folder):
     return rows
 
 
+def expected_thread_pair(a, b):
+    """Explicit mates, not a blanket exemption for all screws and nuts."""
+    x, y = a["name"], b["name"]
+    if "PC4_M6_THROUGH_COUPLER" in x and "AL_HOTEND_PLATFORM" in y:
+        return True
+    if "PC4_M6_THROUGH_COUPLER" in y and "AL_HOTEND_PLATFORM" in x:
+        return True
+    for screw_prefix, mate in [
+        ("CBP-H402_", "CBP-C404_R1_GOLIATH_AIR_MAKER_STEP"),
+        ("CBP-H403_", "CBP-P402_R1_AL_HOTEND_PLATFORM"),
+        ("CBP-H405_", "CBP-P401_R1_AL_CARRIAGE_SPINE"),
+        ("CBP-H408_", "CBP-P402_R1_AL_HOTEND_PLATFORM"),
+        ("CBP-H411_", "CBP-P401_R1_AL_CARRIAGE_SPINE"),
+        ("CBP-H413_", "CBP-P401_R1_AL_CARRIAGE_SPINE"),
+    ]:
+        if (x.startswith(screw_prefix) and y == mate) or (y.startswith(screw_prefix) and x == mate):
+            return True
+    for sp, np in [("CBP-H41_", "CBP-H42_"), ("CBP-H43_", "CBP-H44_"),
+                   ("CBP-H45_", "CBP-H46_"), ("CBP-H47_", "CBP-H48_"),
+                   ("CBP-H49_", "CBP-H50_"), ("CBP-H406_", "CBP-H407_")]:
+        for first, second in [(x, y), (y, x)]:
+            if first.startswith(sp) and second.startswith(np):
+                # Pair identifiers precede their final nominal hardware size.
+                left = first[len(sp):].rsplit("_M", 1)[0]
+                right = second[len(np):].rsplit("_M", 1)[0]
+                if left == right:
+                    return True
+    return False
+
+
+def audit_self(folder=None):
+    """Full solid check including hardware; intended thread overlaps listed."""
+    parts = build()
+    invalid = [p["name"] for p in parts if not p["shape"].isValid() or len(p["shape"].Solids()) != 1]
+    bb = {p["name"]: p["shape"].BoundingBox() for p in parts}
+    overlaps, expected = [], []
+    for i, a in enumerate(parts):
+        p = bb[a["name"]]
+        for b in parts[i + 1:]:
+            q = bb[b["name"]]
+            if min(p.xmax, q.xmax) - max(p.xmin, q.xmin) < 1e-5 or min(p.ymax, q.ymax) - max(p.ymin, q.ymin) < 1e-5 or min(p.zmax, q.zmax) - max(p.zmin, q.zmin) < 1e-5:
+                continue
+            v = a["shape"].intersect(b["shape"]).Volume()
+            if v > .05:
+                row = dict(a=a["name"], b=b["name"], volume_mm3=v)
+                (expected if expected_thread_pair(a, b) else overlaps).append(row)
+    masses = [(p.get("mass_override_g", p["shape"].Volume() * p.get("density_g_cm3", 0) / 1000), p["shape"].Center()) for p in parts]
+    mass = sum(m for m, _ in masses)
+    com = [sum(m * c.toTuple()[j] for m, c in masses) / mass for j in range(3)]
+    sections = branch_sections(1)
+    projected = []
+    for i, (a, b) in enumerate(zip(sections[:-1], sections[1:])):
+        direction = (cq.Vector(*b[0]) - cq.Vector(*a[0])).normalized()
+        values = [abs(direction.dot(cq.Vector(*s[1]).normalized())) * s[2] * s[3] for s in (a, b)]
+        projected.append(dict(segment=i, clear_section_areas_mm2=[a[2] * a[3], b[2] * b[3]],
+                              endpoint_projected_area_mm2=values))
+    report = dict(part_count=len(parts), invalid_or_multisolid=invalid,
+                  unexpected_overlaps=overlaps, expected_simplified_thread_overlaps=expected,
+                  assumed_mass_g=mass, assumed_com_mm=com,
+                  mass_scope="Excludes MGN7H carriage block, cable/hose supported mass; hotend80g/fan8g/coupler5g remain estimates; mixed-part COM uses geometric proxy",
+                  nominal_section_wall_mm=WALL, minimum_clear_section_area_mm2=min(s[2] * s[3] for s in sections),
+                  geometric_flow_screen=projected,
+                  wall_status="1.2mm at defined section edges; not a global minimum-thickness or CFD certification",
+                  native_status="Native builder not executed; geometry audit applies to CadQuery solids only")
+    if folder:
+        Path(folder).mkdir(parents=True, exist_ok=True)
+        (Path(folder) / "04-toolhead-self-audit.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
+    return report
+
+
 if __name__ == "__main__":
     import sys
     rows = export_standalone(sys.argv[1] if len(sys.argv) > 1 else "outputs/codex-benchy-printer/cad/revf/generated/toolhead")
     print("Exported", len(rows), "named parts")
+    report = audit_self(sys.argv[1] if len(sys.argv) > 1 else "outputs/codex-benchy-printer/cad/revf/generated/toolhead")
+    print("Self audit", len(report["unexpected_overlaps"]), "unexpected overlaps", len(report["invalid_or_multisolid"]), "invalid/multisolid", report["assumed_mass_g"], "g", report["assumed_com_mm"])

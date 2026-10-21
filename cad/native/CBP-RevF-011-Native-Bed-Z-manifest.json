@@ -1,0 +1,1817 @@
+{
+  "status": "DEVELOPMENT_NOT_MANUFACTURING_RELEASE",
+  "utc": "2026-10-21T13:11:05.674169+00:00",
+  "document": "Codex Benchy Printer RevF Detailed Bowden",
+  "fusion_data_id": "urn:adsk.wipprod:dm.lineage:KBbymbG_SICh0kr8e2I17A",
+  "fusion_version": 2,
+  "components": [
+    {
+      "name": "Codex Benchy Printer RevF Detailed Bowden",
+      "bodies": 0,
+      "occurrences": 8
+    },
+    {
+      "name": "20_XY_MOTION",
+      "bodies": 0,
+      "occurrences": 2
+    },
+    {
+      "name": "21_Y_RAILS_FIXED",
+      "bodies": 0,
+      "occurrences": 4
+    },
+    {
+      "name": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "CBP-P201_MGN9_RAIL_200",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "22_Y_GANTRY",
+      "bodies": 0,
+      "occurrences": 8
+    },
+    {
+      "name": "CBP-P202_MGN9H_MOUNT_CAP",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "CBP-M202_CARBON_X_TUBE_190",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "CBP-M203R_Y_END_SOCKET",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "CBP-M203L_Y_END_SOCKET",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "CBP-P203_MGN7_X_RAIL_180",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "CBP-M204_X_RAIL_THREAD_STRIP",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "23_X_CARRIAGE",
+      "bodies": 0,
+      "occurrences": 1
+    },
+    {
+      "name": "CBP-P204_MGN7H_MOUNT_CAP",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "30_BED_Z",
+      "bodies": 0,
+      "occurrences": 2
+    },
+    {
+      "name": "31_Z_FIXED",
+      "bodies": 0,
+      "occurrences": 10
+    },
+    {
+      "name": "CBP-F105_HFS5_2020_Z_POST_240",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "CBP-Z301_RAIL_ADAPTER_AL4",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "CBP-P301_MGN9_Z_RAIL_200",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "CBP-Z306_Z_MOTOR_BRIDGE_AL6",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "CBP-Z307_Z_MOTOR_RISER_HOLD",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "CBP-P305_LDO_Z_MOTOR_PROXY",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "CBP-P306_TR8X8_SCREW_ENVELOPE",
+      "bodies": 2,
+      "occurrences": 0
+    },
+    {
+      "name": "32_Z_MOVING",
+      "bodies": 0,
+      "occurrences": 14
+    },
+    {
+      "name": "CBP-P302_MGN9H_Z_MOUNT_CAP",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "CBP-Z302_SIDE_PLATE_L",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "CBP-Z302_SIDE_PLATE_R",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "CBP-Z304_AL_BED_100",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "CBP-P303_MAGNET_STACK_ALLOWANCE",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "CBP-P304_STEEL_PEI_STACK_ALLOWANCE",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "CBP-Z305_SILICONE_SPACER_1",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "CBP-Z305_SILICONE_SPACER_2",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "CBP-Z305_SILICONE_SPACER_3",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "CBP-Z308_REAR_ARM_ANGLE",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "CBP-Z309_FLOATING_NUT_CASSETTE_HOLD",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "CBP-Z310_NUT_COVER_HOLD",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "40_TOOLHEAD",
+      "bodies": 0,
+      "occurrences": 1
+    },
+    {
+      "name": "CBP-P501_GOLIATH_AIR_VENDOR",
+      "bodies": 0,
+      "occurrences": 1
+    },
+    {
+      "name": "Goliath Mockup AIR",
+      "bodies": 0,
+      "occurrences": 1
+    },
+    {
+      "name": "LSD Air cooled_1",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "50_CPAP_COOLING",
+      "bodies": 0,
+      "occurrences": 0
+    },
+    {
+      "name": "60_ELECTRONICS",
+      "bodies": 0,
+      "occurrences": 1
+    },
+    {
+      "name": "CBP-P502_SHERPA_MICRO_VENDOR",
+      "bodies": 0,
+      "occurrences": 1
+    },
+    {
+      "name": "sherpa_micro_r9",
+      "bodies": 0,
+      "occurrences": 15
+    },
+    {
+      "name": "drive_core^sherpa_micro_r9",
+      "bodies": 0,
+      "occurrences": 7
+    },
+    {
+      "name": "shaft^drive_core_sherpa_micro_r9",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "0.5mm_shim^drive_core_sherpa_micro_r9",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "sherpa_mini_gear_50t_sl_7mm^drive_core_sherpa_micro_r9",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "filament_gear^drive_core_sherpa_micro_r9",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "MR85-2RS^drive_core_sherpa_micro_r9",
+      "bodies": 3,
+      "occurrences": 0
+    },
+    {
+      "name": "m3_set_screw^drive_core_sherpa_micro_r9",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "housing^sherpa_micro_r9_FDM",
+      "bodies": 0,
+      "occurrences": 4
+    },
+    {
+      "name": "housing_core^housing_sherpa_micro_r9_FDM",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "housing_front^housing_sherpa_micro_r9_FDM",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "housing_rear_nema14^housing_sherpa_micro_r9_FDM",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "idler_arm_long^housing_sherpa_micro_r9_FDM",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "idler_pin^sherpa_micro_r9",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "idler_gear_assy^sherpa_micro_r9",
+      "bodies": 0,
+      "occurrences": 4
+    },
+    {
+      "name": "idler_gear^idler_gear_assy_sherpa_micro_r9",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "shaft^idler_gear_assy_sherpa_micro_r9",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "needle_bearing^idler_gear_assy_sherpa_micro_r9",
+      "bodies": 8,
+      "occurrences": 0
+    },
+    {
+      "name": "NEMA14_10t^sherpa_micro_r9",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "socket button head screw_iso_ISO 7380 - M3 x 12 - 12N",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "socket button head screw_iso_ISO 7380 - M3 x 8 - 8N",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "socket button head cap screw_am_B18.3.4M - 3 x 0.5 x 20 SBHCS --N",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "socket button head cap screw_am_B18.3.4M - 3 x 0.5 x 18 SBHCS --N",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "insert_m3x5x4",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "thumbscrew",
+      "bodies": 0,
+      "occurrences": 2
+    },
+    {
+      "name": "thumbscrew^thumbscrew",
+      "bodies": 2,
+      "occurrences": 0
+    },
+    {
+      "name": "spring^thumbscrew",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "70_WIRING",
+      "bodies": 0,
+      "occurrences": 0
+    },
+    {
+      "name": "80_FASTENERS",
+      "bodies": 0,
+      "occurrences": 0
+    },
+    {
+      "name": "10_FRAME",
+      "bodies": 0,
+      "occurrences": 12
+    },
+    {
+      "name": "CBP-F101_HFS5_2020_240",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "CBP-F102_HFS5_2020_260",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "CBP-F103_HFS5_2040_240",
+      "bodies": 1,
+      "occurrences": 0
+    },
+    {
+      "name": "CBP-F104_HFS5_2020_280",
+      "bodies": 1,
+      "occurrences": 0
+    }
+  ],
+  "sketches": [
+    {
+      "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+      "sketch": "SK-CBP-M201-OUTLINE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-PILOT--90",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-PILOT--70",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-PILOT--50",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-PILOT--30",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-PILOT--10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-PILOT-10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-PILOT-30",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-PILOT-50",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-PILOT-70",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-PILOT-90",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+      "sketch": "SK-TSLOT-M5--100--10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+      "sketch": "SK-TSLOT-M5--100-10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+      "sketch": "SK-TSLOT-M5-0--10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+      "sketch": "SK-TSLOT-M5-0-10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+      "sketch": "SK-TSLOT-M5-100--10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+      "sketch": "SK-TSLOT-M5-100-10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-OUTLINE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-H1",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-CB1",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-H2",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-CB2",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-H3",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-CB3",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-H4",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-CB4",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-H5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-CB5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-H6",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-CB6",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-H7",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-CB7",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-H8",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-CB8",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-H9",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-CB9",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-H10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-CB10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P202_MGN9H_MOUNT_CAP",
+      "sketch": "SK-CBP-P202-OUTLINE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P202_MGN9H_MOUNT_CAP",
+      "sketch": "SK-CBP-P202-MOUNT--8.0--7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P202_MGN9H_MOUNT_CAP",
+      "sketch": "SK-CBP-P202-MOUNT--8.0-7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P202_MGN9H_MOUNT_CAP",
+      "sketch": "SK-CBP-P202-MOUNT-8.0--7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P202_MGN9H_MOUNT_CAP",
+      "sketch": "SK-CBP-P202-MOUNT-8.0-7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M202_CARBON_X_TUBE_190",
+      "sketch": "SK-CBP-M202-OUTLINE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M202_CARBON_X_TUBE_190",
+      "sketch": "SK-HOLLOW",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203R_Y_END_SOCKET",
+      "sketch": "SK-CBP-M203R-OUTLINE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203R_Y_END_SOCKET",
+      "sketch": "SK-CARBON-SOCKET",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203R_Y_END_SOCKET",
+      "sketch": "SK-CARRIAGE-M3--8--7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203R_Y_END_SOCKET",
+      "sketch": "SK-HEAD-ACCESS--8--7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203R_Y_END_SOCKET",
+      "sketch": "SK-CARRIAGE-M3--8-7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203R_Y_END_SOCKET",
+      "sketch": "SK-HEAD-ACCESS--8-7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203R_Y_END_SOCKET",
+      "sketch": "SK-CARRIAGE-M3-8--7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203R_Y_END_SOCKET",
+      "sketch": "SK-HEAD-ACCESS-8--7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203R_Y_END_SOCKET",
+      "sketch": "SK-CARRIAGE-M3-8-7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203R_Y_END_SOCKET",
+      "sketch": "SK-HEAD-ACCESS-8-7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203L_Y_END_SOCKET",
+      "sketch": "SK-CBP-M203L-OUTLINE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203L_Y_END_SOCKET",
+      "sketch": "SK-CARBON-SOCKET",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203L_Y_END_SOCKET",
+      "sketch": "SK-CARRIAGE-M3--8--7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203L_Y_END_SOCKET",
+      "sketch": "SK-HEAD-ACCESS--8--7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203L_Y_END_SOCKET",
+      "sketch": "SK-CARRIAGE-M3--8-7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203L_Y_END_SOCKET",
+      "sketch": "SK-HEAD-ACCESS--8-7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203L_Y_END_SOCKET",
+      "sketch": "SK-CARRIAGE-M3-8--7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203L_Y_END_SOCKET",
+      "sketch": "SK-HEAD-ACCESS-8--7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203L_Y_END_SOCKET",
+      "sketch": "SK-CARRIAGE-M3-8-7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203L_Y_END_SOCKET",
+      "sketch": "SK-HEAD-ACCESS-8-7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-OUTLINE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-H1",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-CB1",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-H2",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-CB2",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-H3",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-CB3",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-H4",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-CB4",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-H5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-CB5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-H6",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-CB6",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-H7",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-CB7",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-H8",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-CB8",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-H9",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-CB9",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-H10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-CB10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-H11",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-CB11",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-H12",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-CB12",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+      "sketch": "SK-CBP-M204-OUTLINE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+      "sketch": "SK-M2-TAP-1",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+      "sketch": "SK-M2-TAP-2",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+      "sketch": "SK-M2-TAP-3",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+      "sketch": "SK-M2-TAP-4",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+      "sketch": "SK-M2-TAP-5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+      "sketch": "SK-M2-TAP-6",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+      "sketch": "SK-M2-TAP-7",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+      "sketch": "SK-M2-TAP-8",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+      "sketch": "SK-M2-TAP-9",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+      "sketch": "SK-M2-TAP-10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+      "sketch": "SK-M2-TAP-11",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+      "sketch": "SK-M2-TAP-12",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P204_MGN7H_MOUNT_CAP",
+      "sketch": "SK-CBP-P204-OUTLINE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P204_MGN7H_MOUNT_CAP",
+      "sketch": "SK-CBP-P204-MOUNT--6.5--6.0",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P204_MGN7H_MOUNT_CAP",
+      "sketch": "SK-CBP-P204-MOUNT--6.5-6.0",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P204_MGN7H_MOUNT_CAP",
+      "sketch": "SK-CBP-P204-MOUNT-6.5--6.0",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P204_MGN7H_MOUNT_CAP",
+      "sketch": "SK-CBP-P204-MOUNT-6.5-6.0",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F105_HFS5_2020_Z_POST_240",
+      "sketch": "SK-CBP-F105-OUTLINE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F105_HFS5_2020_Z_POST_240",
+      "sketch": "SK-SUPPLIER-HFS5-SECTION-0",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F105_HFS5_2020_Z_POST_240",
+      "sketch": "SK-SUPPLIER-HFS5-SECTION-1",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F105_HFS5_2020_Z_POST_240",
+      "sketch": "SK-SUPPLIER-HFS5-SECTION-2",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F105_HFS5_2020_Z_POST_240",
+      "sketch": "SK-SUPPLIER-HFS5-SECTION-3",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F105_HFS5_2020_Z_POST_240",
+      "sketch": "SK-CENTER-BORE-M5-TAP-REF",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+      "sketch": "SK-CBP-Z301-OUTLINE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-TAP-55",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-TAP-75",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-TAP-95",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-TAP-115",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-TAP-135",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-TAP-155",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-TAP-175",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-TAP-195",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-TAP-215",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-TAP-235",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+      "sketch": "SK-END-M5-30",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+      "sketch": "SK-END-M5-255",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-CBP-P301-OUTLINE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-THRU-0",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-COUNTERBORE-0",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-THRU-1",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-COUNTERBORE-1",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-THRU-2",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-COUNTERBORE-2",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-THRU-3",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-COUNTERBORE-3",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-THRU-4",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-COUNTERBORE-4",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-THRU-5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-COUNTERBORE-5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-THRU-6",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-COUNTERBORE-6",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-THRU-7",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-COUNTERBORE-7",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-THRU-8",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-COUNTERBORE-8",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-THRU-9",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-COUNTERBORE-9",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z306_Z_MOTOR_BRIDGE_AL6",
+      "sketch": "SK-CBP-Z306",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z306_Z_MOTOR_BRIDGE_AL6",
+      "sketch": "SK-MOTOR-BODY",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z306_Z_MOTOR_BRIDGE_AL6",
+      "sketch": "SK-FRAME-M5--130-30",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z306_Z_MOTOR_BRIDGE_AL6",
+      "sketch": "SK-FRAME-M5--130-80",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z306_Z_MOTOR_BRIDGE_AL6",
+      "sketch": "SK-FRAME-M5-130-30",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z306_Z_MOTOR_BRIDGE_AL6",
+      "sketch": "SK-FRAME-M5-130-80",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z306_Z_MOTOR_BRIDGE_AL6",
+      "sketch": "SK-RISER-M4--28-27",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z306_Z_MOTOR_BRIDGE_AL6",
+      "sketch": "SK-RISER-M4--28-83",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z306_Z_MOTOR_BRIDGE_AL6",
+      "sketch": "SK-RISER-M4-28-27",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z306_Z_MOTOR_BRIDGE_AL6",
+      "sketch": "SK-RISER-M4-28-83",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z307_Z_MOTOR_RISER_HOLD",
+      "sketch": "SK-CBP-Z307",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z307_Z_MOTOR_RISER_HOLD",
+      "sketch": "SK-RISER-BODY",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z307_Z_MOTOR_RISER_HOLD",
+      "sketch": "SK-PILOT-HOLD",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z307_Z_MOTOR_RISER_HOLD",
+      "sketch": "SK-MOTOR-M3--15.5-39.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z307_Z_MOTOR_RISER_HOLD",
+      "sketch": "SK-MOTOR-M3--15.5-70.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z307_Z_MOTOR_RISER_HOLD",
+      "sketch": "SK-MOTOR-M3-15.5-39.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z307_Z_MOTOR_RISER_HOLD",
+      "sketch": "SK-MOTOR-M3-15.5-70.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z307_Z_MOTOR_RISER_HOLD",
+      "sketch": "SK-BRIDGE-M4--28-27",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z307_Z_MOTOR_RISER_HOLD",
+      "sketch": "SK-BRIDGE-M4--28-83",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z307_Z_MOTOR_RISER_HOLD",
+      "sketch": "SK-BRIDGE-M4-28-27",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z307_Z_MOTOR_RISER_HOLD",
+      "sketch": "SK-BRIDGE-M4-28-83",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P305_LDO_Z_MOTOR_PROXY",
+      "sketch": "SK-CBP-P305",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P305_LDO_Z_MOTOR_PROXY",
+      "sketch": "SK-MOTOR-THREAD--15.5-39.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P305_LDO_Z_MOTOR_PROXY",
+      "sketch": "SK-MOTOR-THREAD--15.5-70.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P305_LDO_Z_MOTOR_PROXY",
+      "sketch": "SK-MOTOR-THREAD-15.5-39.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P305_LDO_Z_MOTOR_PROXY",
+      "sketch": "SK-MOTOR-THREAD-15.5-70.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P306_TR8X8_SCREW_ENVELOPE",
+      "sketch": "SK-CBP-P306",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P302_MGN9H_Z_MOUNT_CAP",
+      "sketch": "SK-CBP-P302-OUTLINE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P302_MGN9H_Z_MOUNT_CAP",
+      "sketch": "SK-M3-BLOCK--8--7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P302_MGN9H_Z_MOUNT_CAP",
+      "sketch": "SK-M3-BLOCK--8-7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P302_MGN9H_Z_MOUNT_CAP",
+      "sketch": "SK-M3-BLOCK-8--7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P302_MGN9H_Z_MOUNT_CAP",
+      "sketch": "SK-M3-BLOCK-8-7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z302_SIDE_PLATE_L",
+      "sketch": "SK-CBP-Z302L",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z302_SIDE_PLATE_L",
+      "sketch": "SK-MGN-M3--45.5-195",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z302_SIDE_PLATE_L",
+      "sketch": "SK-MGN-M3--45.5-211",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z302_SIDE_PLATE_L",
+      "sketch": "SK-MGN-M3--30.5-195",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z302_SIDE_PLATE_L",
+      "sketch": "SK-MGN-M3--30.5-211",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z302_SIDE_PLATE_L",
+      "sketch": "SK-YOKE-M4--55",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z302_SIDE_PLATE_L",
+      "sketch": "SK-YOKE-M4--21",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z302_SIDE_PLATE_R",
+      "sketch": "SK-CBP-Z302R",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z302_SIDE_PLATE_R",
+      "sketch": "SK-MGN-M3--45.5-195",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z302_SIDE_PLATE_R",
+      "sketch": "SK-MGN-M3--45.5-211",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z302_SIDE_PLATE_R",
+      "sketch": "SK-MGN-M3--30.5-195",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z302_SIDE_PLATE_R",
+      "sketch": "SK-MGN-M3--30.5-211",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z302_SIDE_PLATE_R",
+      "sketch": "SK-YOKE-M4--55",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z302_SIDE_PLATE_R",
+      "sketch": "SK-YOKE-M4--21",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-CBP-Z303-MAIN",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-FRONT-FINGER--42",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-FRONT-FINGER-42",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-REAR-NUT-ARM",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-WINDOW--65",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-WINDOW-0",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-WINDOW-65",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-LEVEL-LEFT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-LEVEL-RIGHT-X-END1",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-LEVEL-RIGHT-X-END2",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-LEVEL-RIGHT-X-WEB",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-LEVEL-REAR-Y-END1",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-LEVEL-REAR-Y-END2",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-LEVEL-REAR-Y-WEB",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-M4-END-TAP--101--55",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-M4-END-TAP--101--21",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-M4-END-TAP-94--55",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-M4-END-TAP-94--21",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-BLOCK-HEAD-SCALLOP--101--45.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-BLOCK-HEAD-SCALLOP--101--30.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-BLOCK-HEAD-SCALLOP-97--45.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-BLOCK-HEAD-SCALLOP-97--30.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-CASSETTE-M3-TAP--16-43",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-CASSETTE-M3-TAP--16-67",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-CASSETTE-M3-TAP-16-43",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-CASSETTE-M3-TAP-16-67",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-NUT-BODY-HOLD",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-ANGLE-M3--10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-ANGLE-M3-20",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z304_AL_BED_100",
+      "sketch": "SK-CBP-Z304",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z304_AL_BED_100",
+      "sketch": "SK-M3-LEVEL-TAP--42",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z304_AL_BED_100",
+      "sketch": "SK-M3-LEVEL-TAP-42",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z304_AL_BED_100",
+      "sketch": "SK-M3-LEVEL-TAP-0",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P303_MAGNET_STACK_ALLOWANCE",
+      "sketch": "SK-CBP-P303_MAGNET_STACK_ALLOWANCE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P304_STEEL_PEI_STACK_ALLOWANCE",
+      "sketch": "SK-CBP-P304_STEEL_PEI_STACK_ALLOWANCE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z305_SILICONE_SPACER_1",
+      "sketch": "SK-CBP-Z305-1",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z305_SILICONE_SPACER_1",
+      "sketch": "SK-M3-CENTER",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z305_SILICONE_SPACER_2",
+      "sketch": "SK-CBP-Z305-2",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z305_SILICONE_SPACER_2",
+      "sketch": "SK-M3-CENTER",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z305_SILICONE_SPACER_3",
+      "sketch": "SK-CBP-Z305-3",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z305_SILICONE_SPACER_3",
+      "sketch": "SK-M3-CENTER",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z308_REAR_ARM_ANGLE",
+      "sketch": "SK-ANGLE-FOOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z308_REAR_ARM_ANGLE",
+      "sketch": "SK-ANGLE-WALL",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z308_REAR_ARM_ANGLE",
+      "sketch": "SK-M3-ANGLE--10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z308_REAR_ARM_ANGLE",
+      "sketch": "SK-M3-ANGLE-20",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z308_REAR_ARM_ANGLE",
+      "sketch": "SK-REAR-LEVEL-HEAD-CLEARANCE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z309_FLOATING_NUT_CASSETTE_HOLD",
+      "sketch": "SK-CASSETTE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z309_FLOATING_NUT_CASSETTE_HOLD",
+      "sketch": "SK-BODY-HOLD",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z309_FLOATING_NUT_CASSETTE_HOLD",
+      "sketch": "SK-FLANGE-POCKET",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z309_FLOATING_NUT_CASSETTE_HOLD",
+      "sketch": "SK-M3-CASSETTE--16-43",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z309_FLOATING_NUT_CASSETTE_HOLD",
+      "sketch": "SK-M3-CASSETTE--16-67",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z309_FLOATING_NUT_CASSETTE_HOLD",
+      "sketch": "SK-M3-CASSETTE-16-43",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z309_FLOATING_NUT_CASSETTE_HOLD",
+      "sketch": "SK-M3-CASSETTE-16-67",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z310_NUT_COVER_HOLD",
+      "sketch": "SK-COVER",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z310_NUT_COVER_HOLD",
+      "sketch": "SK-BODY-HOLD",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z310_NUT_COVER_HOLD",
+      "sketch": "SK-M3-CASSETTE--16-43",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z310_NUT_COVER_HOLD",
+      "sketch": "SK-M3-CASSETTE--16-67",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z310_NUT_COVER_HOLD",
+      "sketch": "SK-M3-CASSETTE-16-43",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z310_NUT_COVER_HOLD",
+      "sketch": "SK-M3-CASSETTE-16-67",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F101_HFS5_2020_240",
+      "sketch": "SK-CBP-F101-OUTLINE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F101_HFS5_2020_240",
+      "sketch": "SK-CBP-F101-B-TSLOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F101_HFS5_2020_240",
+      "sketch": "SK-CBP-F101-T-TSLOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F101_HFS5_2020_240",
+      "sketch": "SK-CBP-F101-L1-TSLOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F101_HFS5_2020_240",
+      "sketch": "SK-CBP-F101-R1-TSLOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F101_HFS5_2020_240",
+      "sketch": "SK-CBP-F101-M5-END-BORE-1",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F102_HFS5_2020_260",
+      "sketch": "SK-CBP-F102-OUTLINE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F102_HFS5_2020_260",
+      "sketch": "SK-CBP-F102-B-TSLOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F102_HFS5_2020_260",
+      "sketch": "SK-CBP-F102-T-TSLOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F102_HFS5_2020_260",
+      "sketch": "SK-CBP-F102-L1-TSLOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F102_HFS5_2020_260",
+      "sketch": "SK-CBP-F102-R1-TSLOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F102_HFS5_2020_260",
+      "sketch": "SK-CBP-F102-M5-END-BORE-1",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F103_HFS5_2040_240",
+      "sketch": "SK-CBP-F103-OUTLINE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F103_HFS5_2040_240",
+      "sketch": "SK-CBP-F103-B-TSLOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F103_HFS5_2040_240",
+      "sketch": "SK-CBP-F103-T-TSLOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F103_HFS5_2040_240",
+      "sketch": "SK-CBP-F103-L1-TSLOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F103_HFS5_2040_240",
+      "sketch": "SK-CBP-F103-L2-TSLOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F103_HFS5_2040_240",
+      "sketch": "SK-CBP-F103-R1-TSLOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F103_HFS5_2040_240",
+      "sketch": "SK-CBP-F103-R2-TSLOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F103_HFS5_2040_240",
+      "sketch": "SK-CBP-F103-M5-END-BORE-1",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F103_HFS5_2040_240",
+      "sketch": "SK-CBP-F103-M5-END-BORE-2",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F104_HFS5_2020_280",
+      "sketch": "SK-CBP-F104-OUTLINE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F104_HFS5_2020_280",
+      "sketch": "SK-CBP-F104-B-TSLOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F104_HFS5_2020_280",
+      "sketch": "SK-CBP-F104-T-TSLOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F104_HFS5_2020_280",
+      "sketch": "SK-CBP-F104-L1-TSLOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F104_HFS5_2020_280",
+      "sketch": "SK-CBP-F104-R1-TSLOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F104_HFS5_2020_280",
+      "sketch": "SK-CBP-F104-M5-END-BORE-1",
+      "fully_constrained": true
+    }
+  ],
+  "unconstrained": [],
+  "feature_health": [],
+  "parameters": 50,
+  "timeline": 795,
+  "assets": [
+    {
+      "file": "CBP-RevF-011-Native-Bed-Z.f3d",
+      "bytes": 18222681,
+      "sha256": "7b857ce3242ccd7c26251f251a44d5291ac9fadbe2e94ed835a8abbe5f3ae46e"
+    },
+    {
+      "file": "CBP-RevF-011-Native-Bed-Z.step",
+      "bytes": 26685239,
+      "sha256": "436528f9a227b953c940171f6d6efaaa69deac943e6275f002d8dca7fbf02da6"
+    }
+  ]
+}

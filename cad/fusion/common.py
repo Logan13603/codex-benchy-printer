@@ -83,4 +83,3 @@ def dimension(design, name, expression, comment):
         return existing
     return design.userParameters.add(
         name, adsk.core.ValueInput.createByString(expression), 'mm', comment)
-

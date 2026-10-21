@@ -1,3 +1,5 @@
+> **2026-10-21:** [Detailed CAD checkpoint and current holds](cad/REVF-2026-10-21-STATUS.md). Native bed/Z saved; new native frame-bracing integration in progress. No manufacturing release.
+
 # Codex Benchy Printer
 
 **Detailed RevF Bowden CAD is in progress.** Saved native design: **Default Project / Codex Benchy Printer / Codex Benchy Printer RevF AWD CoreXY**. [Current detailed CAD checkpoint](cad/REVF010-STATUS.md) · [Resume instructions](RESUME.md) · [Native archive recovery](cad/backups/RevF-009/RESTORE.md). Newer offline STEP/STL geometry is separate from the last saved native Fusion version; manufacturing release remains pending.

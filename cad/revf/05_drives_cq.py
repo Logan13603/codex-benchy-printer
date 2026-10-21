@@ -12,11 +12,12 @@ import cadquery as cq
 from cq_common import cyl,drill,exportAssembly
 
 R=36*2/(2*math.pi)
-CX=93.0
+CX=88.75
 FRONT=-105.0
 BACK=95.0
 MOVING_Y=-35.0
 PLANES={'A':282.3,'B':269.3}
+MOTOR_FACE_OFFSET=24.5
 
 
 def box(w,d,h,p):return cq.Workplane('XY').box(w,d,h).translate(p).val()
@@ -71,7 +72,7 @@ def validate_kinematics():
     result={}
     for axis in ['A','B']:
         ref=pitch_route(axis)[2]
-        max_delta=max(abs(pitch_route(axis,x,y)[2]-ref) for x in [-40,0,40] for y in [-40,0,40])
+        max_delta=max(abs(pitch_route(axis,x,y)[2]-ref) for x in [-40,0,40] for y in [-30,0,30])
         # From head's first anchor to rear motor's first tangent. Include
         # moving-idler quarterarc; dL/dx=±1,dL/dy=1.
         def driven(x,y):
@@ -80,7 +81,7 @@ def validate_kinematics():
         dxy=[(driven(1,0)-driven(-1,0))/2,(driven(0,1)-driven(0,-1))/2]
         assert max_delta<1e-8,(axis,max_delta)
         assert max(abs(dxy[0]-(1 if axis=='A' else -1)),abs(dxy[1]+1))<1e-8,(axis,dxy)
-        result[axis]={'pitch_length_mm':ref,'max_length_change_over_80mm_workspace':max_delta,
+        result[axis]={'pitch_length_mm':ref,'workspace_xy_mm':[80,60],'max_length_change_over_workspace_mm':max_delta,
                       'first_anchor_to_rear_motor_derivative_XY':dxy,
                       'note':'motor sign can be inverted in firmware; paired motors must be phased before tensioning'}
     return result
@@ -107,7 +108,7 @@ def build():
     for axis,z in PLANES.items():
         sign=1 if axis=='A' else -1
         for k,(x,y) in enumerate([(-sign*CX,BACK),(sign*CX,FRONT)],1):
-            face=z-21
+            face=z-MOTOR_FACE_OFFSET
             s=box(42.3,42.3,48,(x,y,face-24))
             try:s=cq.Workplane(obj=s).edges('|Z').fillet(2).val()
             except Exception:pass
@@ -118,14 +119,25 @@ def build():
             add('CBP-P401_'+axis+'_LDO_MOTOR_'+str(k),s,'mixed','purchased',mass=350,
                 notes='LDO42STH48-2804AC(S35) maker drawing:42.3max,31pitchM3x4.5min,22pilotx2,5shaftx35±0.5; cableconnector envelope pending.')
             add('CBP-P402_'+axis+'_36T_DRIVE_'+str(k),pulley(x,y,z),notes='PROVISIONAL purchased 2GT36T9mm5bore;22.41toothOD27.5flangeOD12wide+8hub. Confirm SKU and owned stock.')
-            # Motor plate: four screw slots permit radial tension adjustment.
+            # Fixed motor pattern; tension belongs at the belt anchors. Slots
+            # could drive the neighboring return idler into a motor screw head.
             plate=box(45,64,6,(x,y,face+3));plate=drill(plate,23,6,(x,y,face))
             for dx in [-15.5,15.5]:
                 for dy in [-15.5,15.5]:
-                    slot=cq.Workplane('XY').center(x+dx,y+dy).slot2D(7.5,3.5,90).extrude(6).translate((0,0,face)).val();plate=plate.cut(slot)
+                    plate=drill(plate,3.5,6,(x+dx,y+dy,face))
             for dx in [-17,17]:
                 for dy in [-27,27]:plate=drill(plate,4.4,6,(x+dx,y+dy,face))
-            add('CBP-D401_'+axis+'_MOTOR_PLATE_'+str(k),plate,'6061','cnc',notes='45x64x6;3.5wide7.5longmountslots,4M4anchors. Narrow45width clears Yrailadapter by0.5mm; check alignment tolerances.')
+            if k==2:
+                plate=drill(plate,28.5,6,(sign*(CX-2*R),FRONT,face))
+            assert plate.isValid() and len(plate.Solids())==1
+            add('CBP-D401_'+axis+'_MOTOR_PLATE_'+str(k),plate,'6061','cnc',notes='45x64x6; fixed31mm motor pattern4x3.5,4M4anchors. Front plateR14.25 opposite-level idler relief. Mountface=beltplane-24.5 keeps plates1mm below lowerbelt; S35shaft stillprojects4.5mm beyond driveflange. Verify full tolerance stack; tension at anchors.')
+            for j,(dx,dy) in enumerate([(dx,dy) for dx in [-15.5,15.5] for dy in [-15.5,15.5]],1):
+                px,py=x+dx,y+dy;under=face+6.5
+                screw=cyl(3,10,(px,py,under),(0,0,-1)).fuse(cyl(5.5,3,(px,py,under)))
+                recess=cq.Workplane('XY').center(px,py).polygon(6,5/math.sqrt(3)).extrude(-2.3).translate((0,0,under+3.01)).val()
+                add('CBP-H501_'+axis+'_MOTOR_'+str(k)+'_M3X10_'+str(j),screw.cut(recess),'steel','fastener',notes='M3x10 plus0.5washer;3.5mm motor thread engagement. Heads give0.60mm nominal lateral gap to belt strands; measure/tolerance check required.')
+                parts[-1]['intentional_thread_mate']='CBP-P401_'+axis+'_LDO_MOTOR_'+str(k)
+                add('CBP-H502_'+axis+'_MOTOR_'+str(k)+'_WASHER_'+str(j),ring(3.5,1.6,.5,face+6,px,py),'steel','fastener',notes='M3 washer OD7x0.5; model included for belt/idler clearances.')
         ix=sign*(-CX+2*R)
         add('CBP-P403_'+axis+'_RETURN_IDLER',pulley(ix,FRONT,z,True),notes='PROVISIONAL 36T9mm idler,2x625bearing5x16x5,groove/flange width requires vendor freeze.')
         for j,zz in enumerate([z-6,z+1]):

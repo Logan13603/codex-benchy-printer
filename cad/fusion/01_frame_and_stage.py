@@ -135,4 +135,3 @@ def run(_context: str):
     print('stage_mm', design.userParameters.itemByName('stage_x').value * 10,
           design.userParameters.itemByName('stage_y').value * 10,
           design.userParameters.itemByName('stage_t').value * 10)
-

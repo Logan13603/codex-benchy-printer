@@ -74,4 +74,3 @@ def run(_context: str):
                   'SK-P201-03_NINE_MGN7_COUNTERBORES')
     _counterbores(y, list(range(-45, 46, 15)), False,
                   'SK-P203-03_SEVEN_MGN7_COUNTERBORES')
-

@@ -1,0 +1,2258 @@
+{
+  "schema_version": 1,
+  "checkpoint": "RevF-011 native bed/Z development",
+  "prepared_date": "2026-10-21",
+  "repository": "Logan13603/codex-benchy-printer",
+  "compression": "gzip, level9, mtime0",
+  "chunk_bytes": 524288,
+  "fusion": {
+    "status": "DEVELOPMENT_NOT_MANUFACTURING_RELEASE",
+    "utc": "2026-10-21T13:11:05.674169+00:00",
+    "document": "Codex Benchy Printer RevF Detailed Bowden",
+    "fusion_data_id": "urn:adsk.wipprod:dm.lineage:KBbymbG_SICh0kr8e2I17A",
+    "fusion_version": 2,
+    "components": [
+      {
+        "name": "Codex Benchy Printer RevF Detailed Bowden",
+        "bodies": 0,
+        "occurrences": 8
+      },
+      {
+        "name": "20_XY_MOTION",
+        "bodies": 0,
+        "occurrences": 2
+      },
+      {
+        "name": "21_Y_RAILS_FIXED",
+        "bodies": 0,
+        "occurrences": 4
+      },
+      {
+        "name": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "CBP-P201_MGN9_RAIL_200",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "22_Y_GANTRY",
+        "bodies": 0,
+        "occurrences": 8
+      },
+      {
+        "name": "CBP-P202_MGN9H_MOUNT_CAP",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "CBP-M202_CARBON_X_TUBE_190",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "CBP-M203R_Y_END_SOCKET",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "CBP-M203L_Y_END_SOCKET",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "CBP-P203_MGN7_X_RAIL_180",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "CBP-M204_X_RAIL_THREAD_STRIP",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "23_X_CARRIAGE",
+        "bodies": 0,
+        "occurrences": 1
+      },
+      {
+        "name": "CBP-P204_MGN7H_MOUNT_CAP",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "30_BED_Z",
+        "bodies": 0,
+        "occurrences": 2
+      },
+      {
+        "name": "31_Z_FIXED",
+        "bodies": 0,
+        "occurrences": 10
+      },
+      {
+        "name": "CBP-F105_HFS5_2020_Z_POST_240",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "CBP-Z301_RAIL_ADAPTER_AL4",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "CBP-P301_MGN9_Z_RAIL_200",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "CBP-Z306_Z_MOTOR_BRIDGE_AL6",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "CBP-Z307_Z_MOTOR_RISER_HOLD",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "CBP-P305_LDO_Z_MOTOR_PROXY",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "CBP-P306_TR8X8_SCREW_ENVELOPE",
+        "bodies": 2,
+        "occurrences": 0
+      },
+      {
+        "name": "32_Z_MOVING",
+        "bodies": 0,
+        "occurrences": 14
+      },
+      {
+        "name": "CBP-P302_MGN9H_Z_MOUNT_CAP",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "CBP-Z302_SIDE_PLATE_L",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "CBP-Z302_SIDE_PLATE_R",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "CBP-Z303_BED_FORK_YOKE_AL6",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "CBP-Z304_AL_BED_100",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "CBP-P303_MAGNET_STACK_ALLOWANCE",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "CBP-P304_STEEL_PEI_STACK_ALLOWANCE",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "CBP-Z305_SILICONE_SPACER_1",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "CBP-Z305_SILICONE_SPACER_2",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "CBP-Z305_SILICONE_SPACER_3",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "CBP-Z308_REAR_ARM_ANGLE",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "CBP-Z309_FLOATING_NUT_CASSETTE_HOLD",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "CBP-Z310_NUT_COVER_HOLD",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "40_TOOLHEAD",
+        "bodies": 0,
+        "occurrences": 1
+      },
+      {
+        "name": "CBP-P501_GOLIATH_AIR_VENDOR",
+        "bodies": 0,
+        "occurrences": 1
+      },
+      {
+        "name": "Goliath Mockup AIR",
+        "bodies": 0,
+        "occurrences": 1
+      },
+      {
+        "name": "LSD Air cooled_1",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "50_CPAP_COOLING",
+        "bodies": 0,
+        "occurrences": 0
+      },
+      {
+        "name": "60_ELECTRONICS",
+        "bodies": 0,
+        "occurrences": 1
+      },
+      {
+        "name": "CBP-P502_SHERPA_MICRO_VENDOR",
+        "bodies": 0,
+        "occurrences": 1
+      },
+      {
+        "name": "sherpa_micro_r9",
+        "bodies": 0,
+        "occurrences": 15
+      },
+      {
+        "name": "drive_core^sherpa_micro_r9",
+        "bodies": 0,
+        "occurrences": 7
+      },
+      {
+        "name": "shaft^drive_core_sherpa_micro_r9",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "0.5mm_shim^drive_core_sherpa_micro_r9",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "sherpa_mini_gear_50t_sl_7mm^drive_core_sherpa_micro_r9",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "filament_gear^drive_core_sherpa_micro_r9",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "MR85-2RS^drive_core_sherpa_micro_r9",
+        "bodies": 3,
+        "occurrences": 0
+      },
+      {
+        "name": "m3_set_screw^drive_core_sherpa_micro_r9",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "housing^sherpa_micro_r9_FDM",
+        "bodies": 0,
+        "occurrences": 4
+      },
+      {
+        "name": "housing_core^housing_sherpa_micro_r9_FDM",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "housing_front^housing_sherpa_micro_r9_FDM",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "housing_rear_nema14^housing_sherpa_micro_r9_FDM",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "idler_arm_long^housing_sherpa_micro_r9_FDM",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "idler_pin^sherpa_micro_r9",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "idler_gear_assy^sherpa_micro_r9",
+        "bodies": 0,
+        "occurrences": 4
+      },
+      {
+        "name": "idler_gear^idler_gear_assy_sherpa_micro_r9",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "shaft^idler_gear_assy_sherpa_micro_r9",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "needle_bearing^idler_gear_assy_sherpa_micro_r9",
+        "bodies": 8,
+        "occurrences": 0
+      },
+      {
+        "name": "NEMA14_10t^sherpa_micro_r9",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "socket button head screw_iso_ISO 7380 - M3 x 12 - 12N",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "socket button head screw_iso_ISO 7380 - M3 x 8 - 8N",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "socket button head cap screw_am_B18.3.4M - 3 x 0.5 x 20 SBHCS --N",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "socket button head cap screw_am_B18.3.4M - 3 x 0.5 x 18 SBHCS --N",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "insert_m3x5x4",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "thumbscrew",
+        "bodies": 0,
+        "occurrences": 2
+      },
+      {
+        "name": "thumbscrew^thumbscrew",
+        "bodies": 2,
+        "occurrences": 0
+      },
+      {
+        "name": "spring^thumbscrew",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "70_WIRING",
+        "bodies": 0,
+        "occurrences": 0
+      },
+      {
+        "name": "80_FASTENERS",
+        "bodies": 0,
+        "occurrences": 0
+      },
+      {
+        "name": "10_FRAME",
+        "bodies": 0,
+        "occurrences": 12
+      },
+      {
+        "name": "CBP-F101_HFS5_2020_240",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "CBP-F102_HFS5_2020_260",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "CBP-F103_HFS5_2040_240",
+        "bodies": 1,
+        "occurrences": 0
+      },
+      {
+        "name": "CBP-F104_HFS5_2020_280",
+        "bodies": 1,
+        "occurrences": 0
+      }
+    ],
+    "sketches": [
+      {
+        "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+        "sketch": "SK-CBP-M201-OUTLINE",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+        "sketch": "SK-RAIL-M3-PILOT--90",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+        "sketch": "SK-RAIL-M3-PILOT--70",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+        "sketch": "SK-RAIL-M3-PILOT--50",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+        "sketch": "SK-RAIL-M3-PILOT--30",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+        "sketch": "SK-RAIL-M3-PILOT--10",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+        "sketch": "SK-RAIL-M3-PILOT-10",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+        "sketch": "SK-RAIL-M3-PILOT-30",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+        "sketch": "SK-RAIL-M3-PILOT-50",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+        "sketch": "SK-RAIL-M3-PILOT-70",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+        "sketch": "SK-RAIL-M3-PILOT-90",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+        "sketch": "SK-TSLOT-M5--100--10",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+        "sketch": "SK-TSLOT-M5--100-10",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+        "sketch": "SK-TSLOT-M5-0--10",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+        "sketch": "SK-TSLOT-M5-0-10",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+        "sketch": "SK-TSLOT-M5-100--10",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+        "sketch": "SK-TSLOT-M5-100-10",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P201_MGN9_RAIL_200",
+        "sketch": "SK-CBP-P201-OUTLINE",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P201_MGN9_RAIL_200",
+        "sketch": "SK-CBP-P201-H1",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P201_MGN9_RAIL_200",
+        "sketch": "SK-CBP-P201-CB1",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P201_MGN9_RAIL_200",
+        "sketch": "SK-CBP-P201-H2",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P201_MGN9_RAIL_200",
+        "sketch": "SK-CBP-P201-CB2",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P201_MGN9_RAIL_200",
+        "sketch": "SK-CBP-P201-H3",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P201_MGN9_RAIL_200",
+        "sketch": "SK-CBP-P201-CB3",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P201_MGN9_RAIL_200",
+        "sketch": "SK-CBP-P201-H4",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P201_MGN9_RAIL_200",
+        "sketch": "SK-CBP-P201-CB4",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P201_MGN9_RAIL_200",
+        "sketch": "SK-CBP-P201-H5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P201_MGN9_RAIL_200",
+        "sketch": "SK-CBP-P201-CB5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P201_MGN9_RAIL_200",
+        "sketch": "SK-CBP-P201-H6",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P201_MGN9_RAIL_200",
+        "sketch": "SK-CBP-P201-CB6",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P201_MGN9_RAIL_200",
+        "sketch": "SK-CBP-P201-H7",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P201_MGN9_RAIL_200",
+        "sketch": "SK-CBP-P201-CB7",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P201_MGN9_RAIL_200",
+        "sketch": "SK-CBP-P201-H8",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P201_MGN9_RAIL_200",
+        "sketch": "SK-CBP-P201-CB8",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P201_MGN9_RAIL_200",
+        "sketch": "SK-CBP-P201-H9",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P201_MGN9_RAIL_200",
+        "sketch": "SK-CBP-P201-CB9",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P201_MGN9_RAIL_200",
+        "sketch": "SK-CBP-P201-H10",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P201_MGN9_RAIL_200",
+        "sketch": "SK-CBP-P201-CB10",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P202_MGN9H_MOUNT_CAP",
+        "sketch": "SK-CBP-P202-OUTLINE",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P202_MGN9H_MOUNT_CAP",
+        "sketch": "SK-CBP-P202-MOUNT--8.0--7.5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P202_MGN9H_MOUNT_CAP",
+        "sketch": "SK-CBP-P202-MOUNT--8.0-7.5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P202_MGN9H_MOUNT_CAP",
+        "sketch": "SK-CBP-P202-MOUNT-8.0--7.5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P202_MGN9H_MOUNT_CAP",
+        "sketch": "SK-CBP-P202-MOUNT-8.0-7.5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M202_CARBON_X_TUBE_190",
+        "sketch": "SK-CBP-M202-OUTLINE",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M202_CARBON_X_TUBE_190",
+        "sketch": "SK-HOLLOW",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M203R_Y_END_SOCKET",
+        "sketch": "SK-CBP-M203R-OUTLINE",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M203R_Y_END_SOCKET",
+        "sketch": "SK-CARBON-SOCKET",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M203R_Y_END_SOCKET",
+        "sketch": "SK-CARRIAGE-M3--8--7.5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M203R_Y_END_SOCKET",
+        "sketch": "SK-HEAD-ACCESS--8--7.5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M203R_Y_END_SOCKET",
+        "sketch": "SK-CARRIAGE-M3--8-7.5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M203R_Y_END_SOCKET",
+        "sketch": "SK-HEAD-ACCESS--8-7.5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M203R_Y_END_SOCKET",
+        "sketch": "SK-CARRIAGE-M3-8--7.5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M203R_Y_END_SOCKET",
+        "sketch": "SK-HEAD-ACCESS-8--7.5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M203R_Y_END_SOCKET",
+        "sketch": "SK-CARRIAGE-M3-8-7.5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M203R_Y_END_SOCKET",
+        "sketch": "SK-HEAD-ACCESS-8-7.5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M203L_Y_END_SOCKET",
+        "sketch": "SK-CBP-M203L-OUTLINE",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M203L_Y_END_SOCKET",
+        "sketch": "SK-CARBON-SOCKET",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M203L_Y_END_SOCKET",
+        "sketch": "SK-CARRIAGE-M3--8--7.5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M203L_Y_END_SOCKET",
+        "sketch": "SK-HEAD-ACCESS--8--7.5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M203L_Y_END_SOCKET",
+        "sketch": "SK-CARRIAGE-M3--8-7.5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M203L_Y_END_SOCKET",
+        "sketch": "SK-HEAD-ACCESS--8-7.5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M203L_Y_END_SOCKET",
+        "sketch": "SK-CARRIAGE-M3-8--7.5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M203L_Y_END_SOCKET",
+        "sketch": "SK-HEAD-ACCESS-8--7.5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M203L_Y_END_SOCKET",
+        "sketch": "SK-CARRIAGE-M3-8-7.5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M203L_Y_END_SOCKET",
+        "sketch": "SK-HEAD-ACCESS-8-7.5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P203_MGN7_X_RAIL_180",
+        "sketch": "SK-CBP-P203-OUTLINE",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P203_MGN7_X_RAIL_180",
+        "sketch": "SK-CBP-P203-H1",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P203_MGN7_X_RAIL_180",
+        "sketch": "SK-CBP-P203-CB1",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P203_MGN7_X_RAIL_180",
+        "sketch": "SK-CBP-P203-H2",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P203_MGN7_X_RAIL_180",
+        "sketch": "SK-CBP-P203-CB2",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P203_MGN7_X_RAIL_180",
+        "sketch": "SK-CBP-P203-H3",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P203_MGN7_X_RAIL_180",
+        "sketch": "SK-CBP-P203-CB3",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P203_MGN7_X_RAIL_180",
+        "sketch": "SK-CBP-P203-H4",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P203_MGN7_X_RAIL_180",
+        "sketch": "SK-CBP-P203-CB4",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P203_MGN7_X_RAIL_180",
+        "sketch": "SK-CBP-P203-H5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P203_MGN7_X_RAIL_180",
+        "sketch": "SK-CBP-P203-CB5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P203_MGN7_X_RAIL_180",
+        "sketch": "SK-CBP-P203-H6",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P203_MGN7_X_RAIL_180",
+        "sketch": "SK-CBP-P203-CB6",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P203_MGN7_X_RAIL_180",
+        "sketch": "SK-CBP-P203-H7",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P203_MGN7_X_RAIL_180",
+        "sketch": "SK-CBP-P203-CB7",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P203_MGN7_X_RAIL_180",
+        "sketch": "SK-CBP-P203-H8",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P203_MGN7_X_RAIL_180",
+        "sketch": "SK-CBP-P203-CB8",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P203_MGN7_X_RAIL_180",
+        "sketch": "SK-CBP-P203-H9",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P203_MGN7_X_RAIL_180",
+        "sketch": "SK-CBP-P203-CB9",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P203_MGN7_X_RAIL_180",
+        "sketch": "SK-CBP-P203-H10",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P203_MGN7_X_RAIL_180",
+        "sketch": "SK-CBP-P203-CB10",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P203_MGN7_X_RAIL_180",
+        "sketch": "SK-CBP-P203-H11",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P203_MGN7_X_RAIL_180",
+        "sketch": "SK-CBP-P203-CB11",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P203_MGN7_X_RAIL_180",
+        "sketch": "SK-CBP-P203-H12",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P203_MGN7_X_RAIL_180",
+        "sketch": "SK-CBP-P203-CB12",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+        "sketch": "SK-CBP-M204-OUTLINE",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+        "sketch": "SK-M2-TAP-1",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+        "sketch": "SK-M2-TAP-2",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+        "sketch": "SK-M2-TAP-3",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+        "sketch": "SK-M2-TAP-4",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+        "sketch": "SK-M2-TAP-5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+        "sketch": "SK-M2-TAP-6",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+        "sketch": "SK-M2-TAP-7",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+        "sketch": "SK-M2-TAP-8",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+        "sketch": "SK-M2-TAP-9",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+        "sketch": "SK-M2-TAP-10",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+        "sketch": "SK-M2-TAP-11",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+        "sketch": "SK-M2-TAP-12",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P204_MGN7H_MOUNT_CAP",
+        "sketch": "SK-CBP-P204-OUTLINE",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P204_MGN7H_MOUNT_CAP",
+        "sketch": "SK-CBP-P204-MOUNT--6.5--6.0",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P204_MGN7H_MOUNT_CAP",
+        "sketch": "SK-CBP-P204-MOUNT--6.5-6.0",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P204_MGN7H_MOUNT_CAP",
+        "sketch": "SK-CBP-P204-MOUNT-6.5--6.0",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P204_MGN7H_MOUNT_CAP",
+        "sketch": "SK-CBP-P204-MOUNT-6.5-6.0",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-F105_HFS5_2020_Z_POST_240",
+        "sketch": "SK-CBP-F105-OUTLINE",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-F105_HFS5_2020_Z_POST_240",
+        "sketch": "SK-SUPPLIER-HFS5-SECTION-0",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-F105_HFS5_2020_Z_POST_240",
+        "sketch": "SK-SUPPLIER-HFS5-SECTION-1",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-F105_HFS5_2020_Z_POST_240",
+        "sketch": "SK-SUPPLIER-HFS5-SECTION-2",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-F105_HFS5_2020_Z_POST_240",
+        "sketch": "SK-SUPPLIER-HFS5-SECTION-3",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-F105_HFS5_2020_Z_POST_240",
+        "sketch": "SK-CENTER-BORE-M5-TAP-REF",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+        "sketch": "SK-CBP-Z301-OUTLINE",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+        "sketch": "SK-RAIL-M3-TAP-55",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+        "sketch": "SK-RAIL-M3-TAP-75",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+        "sketch": "SK-RAIL-M3-TAP-95",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+        "sketch": "SK-RAIL-M3-TAP-115",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+        "sketch": "SK-RAIL-M3-TAP-135",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+        "sketch": "SK-RAIL-M3-TAP-155",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+        "sketch": "SK-RAIL-M3-TAP-175",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+        "sketch": "SK-RAIL-M3-TAP-195",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+        "sketch": "SK-RAIL-M3-TAP-215",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+        "sketch": "SK-RAIL-M3-TAP-235",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+        "sketch": "SK-END-M5-30",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+        "sketch": "SK-END-M5-255",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P301_MGN9_Z_RAIL_200",
+        "sketch": "SK-CBP-P301-OUTLINE",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P301_MGN9_Z_RAIL_200",
+        "sketch": "SK-RAIL-THRU-0",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P301_MGN9_Z_RAIL_200",
+        "sketch": "SK-RAIL-COUNTERBORE-0",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P301_MGN9_Z_RAIL_200",
+        "sketch": "SK-RAIL-THRU-1",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P301_MGN9_Z_RAIL_200",
+        "sketch": "SK-RAIL-COUNTERBORE-1",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P301_MGN9_Z_RAIL_200",
+        "sketch": "SK-RAIL-THRU-2",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P301_MGN9_Z_RAIL_200",
+        "sketch": "SK-RAIL-COUNTERBORE-2",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P301_MGN9_Z_RAIL_200",
+        "sketch": "SK-RAIL-THRU-3",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P301_MGN9_Z_RAIL_200",
+        "sketch": "SK-RAIL-COUNTERBORE-3",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P301_MGN9_Z_RAIL_200",
+        "sketch": "SK-RAIL-THRU-4",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P301_MGN9_Z_RAIL_200",
+        "sketch": "SK-RAIL-COUNTERBORE-4",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P301_MGN9_Z_RAIL_200",
+        "sketch": "SK-RAIL-THRU-5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P301_MGN9_Z_RAIL_200",
+        "sketch": "SK-RAIL-COUNTERBORE-5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P301_MGN9_Z_RAIL_200",
+        "sketch": "SK-RAIL-THRU-6",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P301_MGN9_Z_RAIL_200",
+        "sketch": "SK-RAIL-COUNTERBORE-6",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P301_MGN9_Z_RAIL_200",
+        "sketch": "SK-RAIL-THRU-7",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P301_MGN9_Z_RAIL_200",
+        "sketch": "SK-RAIL-COUNTERBORE-7",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P301_MGN9_Z_RAIL_200",
+        "sketch": "SK-RAIL-THRU-8",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P301_MGN9_Z_RAIL_200",
+        "sketch": "SK-RAIL-COUNTERBORE-8",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P301_MGN9_Z_RAIL_200",
+        "sketch": "SK-RAIL-THRU-9",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P301_MGN9_Z_RAIL_200",
+        "sketch": "SK-RAIL-COUNTERBORE-9",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z306_Z_MOTOR_BRIDGE_AL6",
+        "sketch": "SK-CBP-Z306",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z306_Z_MOTOR_BRIDGE_AL6",
+        "sketch": "SK-MOTOR-BODY",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z306_Z_MOTOR_BRIDGE_AL6",
+        "sketch": "SK-FRAME-M5--130-30",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z306_Z_MOTOR_BRIDGE_AL6",
+        "sketch": "SK-FRAME-M5--130-80",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z306_Z_MOTOR_BRIDGE_AL6",
+        "sketch": "SK-FRAME-M5-130-30",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z306_Z_MOTOR_BRIDGE_AL6",
+        "sketch": "SK-FRAME-M5-130-80",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z306_Z_MOTOR_BRIDGE_AL6",
+        "sketch": "SK-RISER-M4--28-27",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z306_Z_MOTOR_BRIDGE_AL6",
+        "sketch": "SK-RISER-M4--28-83",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z306_Z_MOTOR_BRIDGE_AL6",
+        "sketch": "SK-RISER-M4-28-27",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z306_Z_MOTOR_BRIDGE_AL6",
+        "sketch": "SK-RISER-M4-28-83",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z307_Z_MOTOR_RISER_HOLD",
+        "sketch": "SK-CBP-Z307",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z307_Z_MOTOR_RISER_HOLD",
+        "sketch": "SK-RISER-BODY",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z307_Z_MOTOR_RISER_HOLD",
+        "sketch": "SK-PILOT-HOLD",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z307_Z_MOTOR_RISER_HOLD",
+        "sketch": "SK-MOTOR-M3--15.5-39.5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z307_Z_MOTOR_RISER_HOLD",
+        "sketch": "SK-MOTOR-M3--15.5-70.5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z307_Z_MOTOR_RISER_HOLD",
+        "sketch": "SK-MOTOR-M3-15.5-39.5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z307_Z_MOTOR_RISER_HOLD",
+        "sketch": "SK-MOTOR-M3-15.5-70.5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z307_Z_MOTOR_RISER_HOLD",
+        "sketch": "SK-BRIDGE-M4--28-27",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z307_Z_MOTOR_RISER_HOLD",
+        "sketch": "SK-BRIDGE-M4--28-83",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z307_Z_MOTOR_RISER_HOLD",
+        "sketch": "SK-BRIDGE-M4-28-27",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z307_Z_MOTOR_RISER_HOLD",
+        "sketch": "SK-BRIDGE-M4-28-83",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P305_LDO_Z_MOTOR_PROXY",
+        "sketch": "SK-CBP-P305",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P305_LDO_Z_MOTOR_PROXY",
+        "sketch": "SK-MOTOR-THREAD--15.5-39.5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P305_LDO_Z_MOTOR_PROXY",
+        "sketch": "SK-MOTOR-THREAD--15.5-70.5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P305_LDO_Z_MOTOR_PROXY",
+        "sketch": "SK-MOTOR-THREAD-15.5-39.5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P305_LDO_Z_MOTOR_PROXY",
+        "sketch": "SK-MOTOR-THREAD-15.5-70.5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P306_TR8X8_SCREW_ENVELOPE",
+        "sketch": "SK-CBP-P306",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P302_MGN9H_Z_MOUNT_CAP",
+        "sketch": "SK-CBP-P302-OUTLINE",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P302_MGN9H_Z_MOUNT_CAP",
+        "sketch": "SK-M3-BLOCK--8--7.5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P302_MGN9H_Z_MOUNT_CAP",
+        "sketch": "SK-M3-BLOCK--8-7.5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P302_MGN9H_Z_MOUNT_CAP",
+        "sketch": "SK-M3-BLOCK-8--7.5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P302_MGN9H_Z_MOUNT_CAP",
+        "sketch": "SK-M3-BLOCK-8-7.5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z302_SIDE_PLATE_L",
+        "sketch": "SK-CBP-Z302L",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z302_SIDE_PLATE_L",
+        "sketch": "SK-MGN-M3--45.5-195",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z302_SIDE_PLATE_L",
+        "sketch": "SK-MGN-M3--45.5-211",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z302_SIDE_PLATE_L",
+        "sketch": "SK-MGN-M3--30.5-195",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z302_SIDE_PLATE_L",
+        "sketch": "SK-MGN-M3--30.5-211",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z302_SIDE_PLATE_L",
+        "sketch": "SK-YOKE-M4--55",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z302_SIDE_PLATE_L",
+        "sketch": "SK-YOKE-M4--21",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z302_SIDE_PLATE_R",
+        "sketch": "SK-CBP-Z302R",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z302_SIDE_PLATE_R",
+        "sketch": "SK-MGN-M3--45.5-195",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z302_SIDE_PLATE_R",
+        "sketch": "SK-MGN-M3--45.5-211",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z302_SIDE_PLATE_R",
+        "sketch": "SK-MGN-M3--30.5-195",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z302_SIDE_PLATE_R",
+        "sketch": "SK-MGN-M3--30.5-211",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z302_SIDE_PLATE_R",
+        "sketch": "SK-YOKE-M4--55",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z302_SIDE_PLATE_R",
+        "sketch": "SK-YOKE-M4--21",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+        "sketch": "SK-CBP-Z303-MAIN",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+        "sketch": "SK-FRONT-FINGER--42",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+        "sketch": "SK-FRONT-FINGER-42",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+        "sketch": "SK-REAR-NUT-ARM",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+        "sketch": "SK-WINDOW--65",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+        "sketch": "SK-WINDOW-0",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+        "sketch": "SK-WINDOW-65",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+        "sketch": "SK-LEVEL-LEFT",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+        "sketch": "SK-LEVEL-RIGHT-X-END1",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+        "sketch": "SK-LEVEL-RIGHT-X-END2",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+        "sketch": "SK-LEVEL-RIGHT-X-WEB",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+        "sketch": "SK-LEVEL-REAR-Y-END1",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+        "sketch": "SK-LEVEL-REAR-Y-END2",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+        "sketch": "SK-LEVEL-REAR-Y-WEB",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+        "sketch": "SK-M4-END-TAP--101--55",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+        "sketch": "SK-M4-END-TAP--101--21",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+        "sketch": "SK-M4-END-TAP-94--55",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+        "sketch": "SK-M4-END-TAP-94--21",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+        "sketch": "SK-BLOCK-HEAD-SCALLOP--101--45.5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+        "sketch": "SK-BLOCK-HEAD-SCALLOP--101--30.5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+        "sketch": "SK-BLOCK-HEAD-SCALLOP-97--45.5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+        "sketch": "SK-BLOCK-HEAD-SCALLOP-97--30.5",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+        "sketch": "SK-CASSETTE-M3-TAP--16-43",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+        "sketch": "SK-CASSETTE-M3-TAP--16-67",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+        "sketch": "SK-CASSETTE-M3-TAP-16-43",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+        "sketch": "SK-CASSETTE-M3-TAP-16-67",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+        "sketch": "SK-NUT-BODY-HOLD",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+        "sketch": "SK-ANGLE-M3--10",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+        "sketch": "SK-ANGLE-M3-20",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z304_AL_BED_100",
+        "sketch": "SK-CBP-Z304",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z304_AL_BED_100",
+        "sketch": "SK-M3-LEVEL-TAP--42",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z304_AL_BED_100",
+        "sketch": "SK-M3-LEVEL-TAP-42",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z304_AL_BED_100",
+        "sketch": "SK-M3-LEVEL-TAP-0",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P303_MAGNET_STACK_ALLOWANCE",
+        "sketch": "SK-CBP-P303_MAGNET_STACK_ALLOWANCE",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-P304_STEEL_PEI_STACK_ALLOWANCE",
+        "sketch": "SK-CBP-P304_STEEL_PEI_STACK_ALLOWANCE",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z305_SILICONE_SPACER_1",
+        "sketch": "SK-CBP-Z305-1",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z305_SILICONE_SPACER_1",
+        "sketch": "SK-M3-CENTER",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z305_SILICONE_SPACER_2",
+        "sketch": "SK-CBP-Z305-2",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z305_SILICONE_SPACER_2",
+        "sketch": "SK-M3-CENTER",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z305_SILICONE_SPACER_3",
+        "sketch": "SK-CBP-Z305-3",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z305_SILICONE_SPACER_3",
+        "sketch": "SK-M3-CENTER",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z308_REAR_ARM_ANGLE",
+        "sketch": "SK-ANGLE-FOOT",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z308_REAR_ARM_ANGLE",
+        "sketch": "SK-ANGLE-WALL",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z308_REAR_ARM_ANGLE",
+        "sketch": "SK-M3-ANGLE--10",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z308_REAR_ARM_ANGLE",
+        "sketch": "SK-M3-ANGLE-20",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z308_REAR_ARM_ANGLE",
+        "sketch": "SK-REAR-LEVEL-HEAD-CLEARANCE",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z309_FLOATING_NUT_CASSETTE_HOLD",
+        "sketch": "SK-CASSETTE",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z309_FLOATING_NUT_CASSETTE_HOLD",
+        "sketch": "SK-BODY-HOLD",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z309_FLOATING_NUT_CASSETTE_HOLD",
+        "sketch": "SK-FLANGE-POCKET",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z309_FLOATING_NUT_CASSETTE_HOLD",
+        "sketch": "SK-M3-CASSETTE--16-43",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z309_FLOATING_NUT_CASSETTE_HOLD",
+        "sketch": "SK-M3-CASSETTE--16-67",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z309_FLOATING_NUT_CASSETTE_HOLD",
+        "sketch": "SK-M3-CASSETTE-16-43",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z309_FLOATING_NUT_CASSETTE_HOLD",
+        "sketch": "SK-M3-CASSETTE-16-67",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z310_NUT_COVER_HOLD",
+        "sketch": "SK-COVER",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z310_NUT_COVER_HOLD",
+        "sketch": "SK-BODY-HOLD",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z310_NUT_COVER_HOLD",
+        "sketch": "SK-M3-CASSETTE--16-43",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z310_NUT_COVER_HOLD",
+        "sketch": "SK-M3-CASSETTE--16-67",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z310_NUT_COVER_HOLD",
+        "sketch": "SK-M3-CASSETTE-16-43",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-Z310_NUT_COVER_HOLD",
+        "sketch": "SK-M3-CASSETTE-16-67",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-F101_HFS5_2020_240",
+        "sketch": "SK-CBP-F101-OUTLINE",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-F101_HFS5_2020_240",
+        "sketch": "SK-CBP-F101-B-TSLOT",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-F101_HFS5_2020_240",
+        "sketch": "SK-CBP-F101-T-TSLOT",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-F101_HFS5_2020_240",
+        "sketch": "SK-CBP-F101-L1-TSLOT",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-F101_HFS5_2020_240",
+        "sketch": "SK-CBP-F101-R1-TSLOT",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-F101_HFS5_2020_240",
+        "sketch": "SK-CBP-F101-M5-END-BORE-1",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-F102_HFS5_2020_260",
+        "sketch": "SK-CBP-F102-OUTLINE",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-F102_HFS5_2020_260",
+        "sketch": "SK-CBP-F102-B-TSLOT",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-F102_HFS5_2020_260",
+        "sketch": "SK-CBP-F102-T-TSLOT",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-F102_HFS5_2020_260",
+        "sketch": "SK-CBP-F102-L1-TSLOT",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-F102_HFS5_2020_260",
+        "sketch": "SK-CBP-F102-R1-TSLOT",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-F102_HFS5_2020_260",
+        "sketch": "SK-CBP-F102-M5-END-BORE-1",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-F103_HFS5_2040_240",
+        "sketch": "SK-CBP-F103-OUTLINE",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-F103_HFS5_2040_240",
+        "sketch": "SK-CBP-F103-B-TSLOT",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-F103_HFS5_2040_240",
+        "sketch": "SK-CBP-F103-T-TSLOT",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-F103_HFS5_2040_240",
+        "sketch": "SK-CBP-F103-L1-TSLOT",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-F103_HFS5_2040_240",
+        "sketch": "SK-CBP-F103-L2-TSLOT",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-F103_HFS5_2040_240",
+        "sketch": "SK-CBP-F103-R1-TSLOT",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-F103_HFS5_2040_240",
+        "sketch": "SK-CBP-F103-R2-TSLOT",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-F103_HFS5_2040_240",
+        "sketch": "SK-CBP-F103-M5-END-BORE-1",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-F103_HFS5_2040_240",
+        "sketch": "SK-CBP-F103-M5-END-BORE-2",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-F104_HFS5_2020_280",
+        "sketch": "SK-CBP-F104-OUTLINE",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-F104_HFS5_2020_280",
+        "sketch": "SK-CBP-F104-B-TSLOT",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-F104_HFS5_2020_280",
+        "sketch": "SK-CBP-F104-T-TSLOT",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-F104_HFS5_2020_280",
+        "sketch": "SK-CBP-F104-L1-TSLOT",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-F104_HFS5_2020_280",
+        "sketch": "SK-CBP-F104-R1-TSLOT",
+        "fully_constrained": true
+      },
+      {
+        "component": "CBP-F104_HFS5_2020_280",
+        "sketch": "SK-CBP-F104-M5-END-BORE-1",
+        "fully_constrained": true
+      }
+    ],
+    "unconstrained": [],
+    "feature_health": [],
+    "parameters": 50,
+    "timeline": 795,
+    "assets": [
+      {
+        "file": "CBP-RevF-011-Native-Bed-Z.f3d",
+        "bytes": 18222681,
+        "sha256": "7b857ce3242ccd7c26251f251a44d5291ac9fadbe2e94ed835a8abbe5f3ae46e"
+      },
+      {
+        "file": "CBP-RevF-011-Native-Bed-Z.step",
+        "bytes": 26685239,
+        "sha256": "436528f9a227b953c940171f6d6efaaa69deac943e6275f002d8dca7fbf02da6"
+      }
+    ]
+  },
+  "verification": {
+    "local_reconstruction_all_originals": true,
+    "remote_chunk_git_identities_match_local": false,
+    "remote_download_reconstruction_tested": false,
+    "fusion_archive_reopened": false,
+    "remote_backup_complete": false,
+    "remote_segments_verified": 36,
+    "remote_segments_missing": [
+      "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.step.gz.part002",
+      "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.step.gz.part003",
+      "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.step.gz.part004",
+      "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.step.gz.part005",
+      "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.step.gz.part006",
+      "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.step.gz.part007",
+      "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.step.gz.part008",
+      "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.step.gz.part009",
+      "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.step.gz.part010"
+    ],
+    "hold": "Automatic approval review rejected remaining local Node staging for binary transfer. Do not bypass; explicit approval or a reviewed authorized method is required."
+  },
+  "restore_script": {
+    "path": "restore.py",
+    "sha256": "afb59cf4479c4fd72e1e93f82dbf56c5b8313c0a2406069eb68d775767c19003"
+  },
+  "files": [
+    {
+      "original_name": "CBP-RevF-011-Native-Bed-Z.f3d",
+      "original_bytes": 18222681,
+      "original_sha256": "7b857ce3242ccd7c26251f251a44d5291ac9fadbe2e94ed835a8abbe5f3ae46e",
+      "compressed_name": "CBP-RevF-011-Native-Bed-Z.f3d.gz",
+      "compressed_bytes": 18073686,
+      "compressed_sha256": "50f24960cbdc574c67ce109fa7bb8b3885c9fdef50b63f88e0be5dcc6a9a7234",
+      "parts": [
+        {
+          "index": 1,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.f3d.gz.part001",
+          "bytes": 524288,
+          "sha256": "dd7b8148f48bc71c3ac663bf76de2c712782e1d6be4ac213fa3422b8f2f031ef",
+          "git_blob_sha1_expected": "8e47c23e1a2f6a9248951fa420e07a3bcd5fd618",
+          "remote_blob_sha": "8e47c23e1a2f6a9248951fa420e07a3bcd5fd618",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 2,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.f3d.gz.part002",
+          "bytes": 524288,
+          "sha256": "a76a70f4bdd57ca5a7c609592e0f7258dfbbb8785e7d771e9dbce2d1f4341a73",
+          "git_blob_sha1_expected": "5c539a16784efe7f2b95c83ebd2bb4f8f910abac",
+          "remote_blob_sha": "5c539a16784efe7f2b95c83ebd2bb4f8f910abac",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 3,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.f3d.gz.part003",
+          "bytes": 524288,
+          "sha256": "75c869ff20dc22f970aa1abad940b35d81ca72fd94b8b3d4d137754d66d9a96c",
+          "git_blob_sha1_expected": "e6710ce6759a1c859f557cb872aebf6bc0588efa",
+          "remote_blob_sha": "e6710ce6759a1c859f557cb872aebf6bc0588efa",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 4,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.f3d.gz.part004",
+          "bytes": 524288,
+          "sha256": "3488e6577c250cc1de960cb07d5255910e1e47cd8b95be493dd3f7cd766531b2",
+          "git_blob_sha1_expected": "8ee32d1f7f8647254413d2859a5df255f6824995",
+          "remote_blob_sha": "8ee32d1f7f8647254413d2859a5df255f6824995",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 5,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.f3d.gz.part005",
+          "bytes": 524288,
+          "sha256": "eab3ca0be508146303ea1e057d6a7f11161ef021e889a70d3cc4587345391e4f",
+          "git_blob_sha1_expected": "1213c1c550122ec72b8c8c5a1d33b41d1040789a",
+          "remote_blob_sha": "1213c1c550122ec72b8c8c5a1d33b41d1040789a",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 6,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.f3d.gz.part006",
+          "bytes": 524288,
+          "sha256": "83dc16ac20bc8e84d7f4630f5919b17528561caafa7e29a4bde7c9befeffe218",
+          "git_blob_sha1_expected": "41d92a0363ce6f9b771f2f91d3a847f0dfa6adad",
+          "remote_blob_sha": "41d92a0363ce6f9b771f2f91d3a847f0dfa6adad",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 7,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.f3d.gz.part007",
+          "bytes": 524288,
+          "sha256": "42862f86462949e344c418b6ba110de0a71e2d6c28bdcc44b1dc341c0a9b7e7a",
+          "git_blob_sha1_expected": "0cce9d4f858d69a133996c05e423db4b98c5eae4",
+          "remote_blob_sha": "0cce9d4f858d69a133996c05e423db4b98c5eae4",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 8,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.f3d.gz.part008",
+          "bytes": 524288,
+          "sha256": "a2547a3e06ca1530e8cabca2e207276acb1d723a95f3a4d3f28d8bf9406ed73c",
+          "git_blob_sha1_expected": "58447dd134e6211e2769dab73ee57a48ab874d2a",
+          "remote_blob_sha": "58447dd134e6211e2769dab73ee57a48ab874d2a",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 9,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.f3d.gz.part009",
+          "bytes": 524288,
+          "sha256": "0826d3c0da8fccb4cd7bce8a654b8ced7c0293d36bf70db3b52ab64705831f9a",
+          "git_blob_sha1_expected": "533ee3023bd6af6bfb08a812212ecbfef6ae9a18",
+          "remote_blob_sha": "533ee3023bd6af6bfb08a812212ecbfef6ae9a18",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 10,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.f3d.gz.part010",
+          "bytes": 524288,
+          "sha256": "c76b519397bef997ab0f87525e01eb74dc58ab17cfaf5b8c69b70551b7895af2",
+          "git_blob_sha1_expected": "c4f4973ab722a329624babc914f666b66e5a0473",
+          "remote_blob_sha": "c4f4973ab722a329624babc914f666b66e5a0473",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 11,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.f3d.gz.part011",
+          "bytes": 524288,
+          "sha256": "f82abdb708844bf6e64c5458927a775da383b21ccbe0227ebabed8bdf873b3a9",
+          "git_blob_sha1_expected": "d44f844c06b118d739e4e971aa2e79cb1f7d526b",
+          "remote_blob_sha": "d44f844c06b118d739e4e971aa2e79cb1f7d526b",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 12,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.f3d.gz.part012",
+          "bytes": 524288,
+          "sha256": "85aecacd0184a66647baf9450877a6ebad3797d5360872e9920c9bad5a5550ac",
+          "git_blob_sha1_expected": "db26374ab9d3f2105478d80abf78fad148ba35a1",
+          "remote_blob_sha": "db26374ab9d3f2105478d80abf78fad148ba35a1",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 13,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.f3d.gz.part013",
+          "bytes": 524288,
+          "sha256": "6465b116ebf0f81442a09c8f734d2d8c51dbe57666c57d42039c921e89e32fd2",
+          "git_blob_sha1_expected": "70471657489bb5079d51ceb96c6c57bdf3fab209",
+          "remote_blob_sha": "70471657489bb5079d51ceb96c6c57bdf3fab209",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 14,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.f3d.gz.part014",
+          "bytes": 524288,
+          "sha256": "b61ba93b4c2479efe37afc9b8b84c13f7b320510931653e4a9fb1b575778e83f",
+          "git_blob_sha1_expected": "db5dc73f5b170b50ff0350f1f96c03c481b56518",
+          "remote_blob_sha": "db5dc73f5b170b50ff0350f1f96c03c481b56518",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 15,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.f3d.gz.part015",
+          "bytes": 524288,
+          "sha256": "02b7518c1bb3f9f9256ca1ecbb23ec3aec021b555d5cd35c6a60397c9b7eed94",
+          "git_blob_sha1_expected": "534130d9bcc661ca7704227251be1efabebc78e4",
+          "remote_blob_sha": "534130d9bcc661ca7704227251be1efabebc78e4",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 16,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.f3d.gz.part016",
+          "bytes": 524288,
+          "sha256": "2e581d19fc8040459f3ddf106caf28a1fb73282b891f7d57e35f07255dfb08bf",
+          "git_blob_sha1_expected": "074c29204dd65bc7d3a1ca6c43655c611873aaf8",
+          "remote_blob_sha": "074c29204dd65bc7d3a1ca6c43655c611873aaf8",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 17,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.f3d.gz.part017",
+          "bytes": 524288,
+          "sha256": "fbca4ea0625538b75bcbd674526d0ee276ffaf393fa7df120123c16375ea0196",
+          "git_blob_sha1_expected": "5e441cd080160f79bf677999b78ac6f408963f0d",
+          "remote_blob_sha": "5e441cd080160f79bf677999b78ac6f408963f0d",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 18,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.f3d.gz.part018",
+          "bytes": 524288,
+          "sha256": "2b9ddc6c6b02c969459e7b1f2ed368d374a260f65c690c61b24f51f8d11601e5",
+          "git_blob_sha1_expected": "46082149bf2f23cb4227f165f0f07d45a4eae9a1",
+          "remote_blob_sha": "46082149bf2f23cb4227f165f0f07d45a4eae9a1",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 19,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.f3d.gz.part019",
+          "bytes": 524288,
+          "sha256": "37827fc131653cb00232415d852fe7539c4dc68c15d7f0487a819b07f5b4c092",
+          "git_blob_sha1_expected": "7f11d51658dcb53f03a3de6d44d25ecd2cdb9dd7",
+          "remote_blob_sha": "7f11d51658dcb53f03a3de6d44d25ecd2cdb9dd7",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 20,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.f3d.gz.part020",
+          "bytes": 524288,
+          "sha256": "f2738fb0a682ebd78090834b04f93e0bed81a200b8dc802d7728a312e0f3d041",
+          "git_blob_sha1_expected": "9b1687353cef1203cb4933cae8098d1ab9a805ab",
+          "remote_blob_sha": "9b1687353cef1203cb4933cae8098d1ab9a805ab",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 21,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.f3d.gz.part021",
+          "bytes": 524288,
+          "sha256": "6b2364028a66638f5fd253cbe7ed449a200c7f6bcf5da3e358661832770e319a",
+          "git_blob_sha1_expected": "856b9a0732365f3672d78f393099d740ffed140a",
+          "remote_blob_sha": "856b9a0732365f3672d78f393099d740ffed140a",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 22,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.f3d.gz.part022",
+          "bytes": 524288,
+          "sha256": "d832f2d9ddeb3d9ed12dcd0c9a18274d41319b69401c798244c0efc82bb36629",
+          "git_blob_sha1_expected": "86e6a335353c66b95bc95eb800617e8394d066d6",
+          "remote_blob_sha": "86e6a335353c66b95bc95eb800617e8394d066d6",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 23,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.f3d.gz.part023",
+          "bytes": 524288,
+          "sha256": "533d77003323396178da61f953538a3fca7efcb30adc2bf4d902e94ba347385d",
+          "git_blob_sha1_expected": "b8ad03a96c6ff76b5b04273afd1ed7e594071558",
+          "remote_blob_sha": "b8ad03a96c6ff76b5b04273afd1ed7e594071558",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 24,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.f3d.gz.part024",
+          "bytes": 524288,
+          "sha256": "6106cd85e4c2539bc1f1ef38a73e1ffefd80816cdddd4dfb11bc3b068e10152e",
+          "git_blob_sha1_expected": "ce66a0839f642d97df905abe5b232e429ef01220",
+          "remote_blob_sha": "ce66a0839f642d97df905abe5b232e429ef01220",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 25,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.f3d.gz.part025",
+          "bytes": 524288,
+          "sha256": "78617171b96cc8beebf513b8ab1cc210906f29218fe4b47c65d1ff62bb07d5d6",
+          "git_blob_sha1_expected": "077f5d2ccb4370612297648ee1cc4bc2a0f9cf5e",
+          "remote_blob_sha": "077f5d2ccb4370612297648ee1cc4bc2a0f9cf5e",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 26,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.f3d.gz.part026",
+          "bytes": 524288,
+          "sha256": "0406b8d4f3b52a2e82e4f2d287c88b07bba48a6cb9c96e77f47423bcbdbd44f7",
+          "git_blob_sha1_expected": "a41bf6bdbf777419fabd47238f669140fe61a68f",
+          "remote_blob_sha": "a41bf6bdbf777419fabd47238f669140fe61a68f",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 27,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.f3d.gz.part027",
+          "bytes": 524288,
+          "sha256": "1d963d53373081da662a59f5600688f231487d49534dc24fb253ff10306b3ca5",
+          "git_blob_sha1_expected": "90881b564df2d6a7fd8c794353a9153f51f5f379",
+          "remote_blob_sha": "90881b564df2d6a7fd8c794353a9153f51f5f379",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 28,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.f3d.gz.part028",
+          "bytes": 524288,
+          "sha256": "0071a101131619b72cafeaac5b00e242edee442620a16b6d3ebf38ec453ca25a",
+          "git_blob_sha1_expected": "395ed28d0e0077d4f037377ea7fec5826348aa7c",
+          "remote_blob_sha": "395ed28d0e0077d4f037377ea7fec5826348aa7c",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 29,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.f3d.gz.part029",
+          "bytes": 524288,
+          "sha256": "d9b8f32317aacc1bff3e9250af6a71e337b9080eef3976e657582906861cc1ef",
+          "git_blob_sha1_expected": "dbedd8210fecc4fb4d9e872abf7d6e11645aea7e",
+          "remote_blob_sha": "dbedd8210fecc4fb4d9e872abf7d6e11645aea7e",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 30,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.f3d.gz.part030",
+          "bytes": 524288,
+          "sha256": "467b6786ecfe7ef89f08f4a58231bc335acce4a8818873c75b3f8f14114a7b99",
+          "git_blob_sha1_expected": "d4b47ff1e3182489e4804161330f414c2d6e32bf",
+          "remote_blob_sha": "d4b47ff1e3182489e4804161330f414c2d6e32bf",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 31,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.f3d.gz.part031",
+          "bytes": 524288,
+          "sha256": "a4265ebcd8a0f52b5801c855df6291886a88fd8f38cd256d31d5fb6f38f2c748",
+          "git_blob_sha1_expected": "8d792e984909dccbb0917073412e2bed227375a0",
+          "remote_blob_sha": "8d792e984909dccbb0917073412e2bed227375a0",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 32,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.f3d.gz.part032",
+          "bytes": 524288,
+          "sha256": "5b9fa8098924a779cddf6ec1de09238a8bd334e725c9e9793fc2953f7eed2bc0",
+          "git_blob_sha1_expected": "3ec7cee06f197420fd1d6038cb9ac4cd4b461191",
+          "remote_blob_sha": "3ec7cee06f197420fd1d6038cb9ac4cd4b461191",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 33,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.f3d.gz.part033",
+          "bytes": 524288,
+          "sha256": "3f85bafa775f141778380cf9c2d24f777d546c83050177cdaad6f9a757d76bfa",
+          "git_blob_sha1_expected": "60dfb52e827e135f2613c1175214c2bbd38f51bb",
+          "remote_blob_sha": "60dfb52e827e135f2613c1175214c2bbd38f51bb",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 34,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.f3d.gz.part034",
+          "bytes": 524288,
+          "sha256": "afa80ec347b29706dc4e0c1a560d358d287339941953d86f4f8c0cb6e0defd2d",
+          "git_blob_sha1_expected": "b913cb9b7240f5363ca256013352b83b964a3f23",
+          "remote_blob_sha": "b913cb9b7240f5363ca256013352b83b964a3f23",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 35,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.f3d.gz.part035",
+          "bytes": 247894,
+          "sha256": "a806528cf1e8ec630f5ffeadbf796c9e5cddf14ff7941b25016a8a7c8a9f64db",
+          "git_blob_sha1_expected": "968313450f9ae993a3ab2f88ce33157b51d46605",
+          "remote_blob_sha": "968313450f9ae993a3ab2f88ce33157b51d46605",
+          "remote_identity_verified": true
+        }
+      ]
+    },
+    {
+      "original_name": "CBP-RevF-011-Native-Bed-Z.step",
+      "original_bytes": 26685239,
+      "original_sha256": "436528f9a227b953c940171f6d6efaaa69deac943e6275f002d8dca7fbf02da6",
+      "compressed_name": "CBP-RevF-011-Native-Bed-Z.step.gz",
+      "compressed_bytes": 5003253,
+      "compressed_sha256": "4716362aa8e06c66a26840593b3773d2553e161fa678fba660988df88b69478f",
+      "parts": [
+        {
+          "index": 1,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.step.gz.part001",
+          "bytes": 524288,
+          "sha256": "7b965cb6112cf07ab02ba9bd827b64d3dbeab5543ce3376e11d90fc84c10e176",
+          "git_blob_sha1_expected": "e5885566165dceefcea4bea24366c4281084900e",
+          "remote_blob_sha": "e5885566165dceefcea4bea24366c4281084900e",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 2,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.step.gz.part002",
+          "bytes": 524288,
+          "sha256": "8570c54412194251381125c13d0fab6229654fc37e02ec6e65f5684efdfcac9c",
+          "git_blob_sha1_expected": "058a4c3a1abe5711761d448d74e48c25d02edfd3"
+        },
+        {
+          "index": 3,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.step.gz.part003",
+          "bytes": 524288,
+          "sha256": "7659c94cb8b5f8b0db1634942894236d5969954de1a18816a0d1c1e6375afd0e",
+          "git_blob_sha1_expected": "210cdce7b82a9fab7d19c3d0940af37490393593"
+        },
+        {
+          "index": 4,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.step.gz.part004",
+          "bytes": 524288,
+          "sha256": "f4cf81cc45a131dede5373eb1909fba6dc19da7e35e8964f548a012e4393b499",
+          "git_blob_sha1_expected": "7d9aef997f3bf68cbdc770196e22db0044f1b31a"
+        },
+        {
+          "index": 5,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.step.gz.part005",
+          "bytes": 524288,
+          "sha256": "2f1100027e199d9228e10459251fdfa7a2817d488b3d456d7c951f3416812065",
+          "git_blob_sha1_expected": "e0f62b894c9b388c709214708c13f4c77812ed21"
+        },
+        {
+          "index": 6,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.step.gz.part006",
+          "bytes": 524288,
+          "sha256": "f811a1f26871734dda0943efcd816b5641d3b8b5a31dfbb7f180d176300e6823",
+          "git_blob_sha1_expected": "528c700960eb0ff9b8873111138f0ffdf00bfefd"
+        },
+        {
+          "index": 7,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.step.gz.part007",
+          "bytes": 524288,
+          "sha256": "78562d720de4825464ceb4af80c8d03d6043d4b82ac6aaa9412c76f35d8dc6bf",
+          "git_blob_sha1_expected": "d5754b93109ba8f6d4c796223ebc9830c13e20a9"
+        },
+        {
+          "index": 8,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.step.gz.part008",
+          "bytes": 524288,
+          "sha256": "ae61467878f2b0be7a3e95688b96f70a6af23cce62514e632d1c80b132903a52",
+          "git_blob_sha1_expected": "a21fa3d82803f9aad418f2277129d8920d8679ad"
+        },
+        {
+          "index": 9,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.step.gz.part009",
+          "bytes": 524288,
+          "sha256": "987c7d42be2ac6921d71e7cfa0458cf157cb50a37a7c00698b46c4c7e548922f",
+          "git_blob_sha1_expected": "9bcf697d0c682a05d5f79a851df7ae7d68cef12e"
+        },
+        {
+          "index": 10,
+          "repository_path": "cad/backups/RevF-011/CBP-RevF-011-Native-Bed-Z.step.gz.part010",
+          "bytes": 284661,
+          "sha256": "fb22558532097a703359e728e6b140ee499f47f91e72e4c5bd44bd5f04606626",
+          "git_blob_sha1_expected": "ac74a577c2190da392d1d50a1617560d87436097"
+        }
+      ]
+    }
+  ]
+}

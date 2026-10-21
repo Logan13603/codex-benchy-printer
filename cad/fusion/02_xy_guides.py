@@ -99,4 +99,3 @@ def run(_context: str):
     print('bed', [(o.component.name,
                    round(o.createForAssemblyContext(bed_root_occ).transform2.translation.y, 3))
                   for o in bed.occurrences])
-

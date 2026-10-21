@@ -1,3 +1,21 @@
+# Resume checkpoint — 2026-10-21
+
+Read [current status](cad/REVF-2026-10-21-STATUS.md) and [independent audit](engineering/REVF-INDEPENDENT-CAD-AUDIT-OCT21.md) first. This is development CAD, not a manufacturing release.
+
+Native Fusion working copy: Default Project / Codex Benchy Printer / **Codex Benchy Printer RevF Detailed Bowden**. Old RevF AWD CoreXY v5 preserved. Native011 bed/Z saved/exported:78 unique components,67 bodies,280 fully constrained sketches,50 parameters,795 timeline; zero feature-health warnings. Local F3D/STEP and manifests are in cad/native.011 GitHub archive is incomplete (36/45 chunks); see its REMOTE_UPLOAD_STATUS.md.008/009 remains the latest complete GitHub native rollback set.
+
+At checkpointing, native07 frame bracing was still executing through the explicitly started project-local Fusion workbench. Job finish-session-20261021-012 was queued to save/export012 and cleanly stop the runner after success. **First next operation:** inspect work/fusion_jobs/result.json and runner.json and cad/native/*012* before any CAD mutation. If012 exists, verify its hashes/counts and reopen the F3D before proceeding. If the finish job failed, repair only its reported error and save; do not rerun non-idempotent builders over existing components.
+
+Native05/06 builders are ready but unexecuted. Native04 remains unexecuted/held. Older native gantry is still190/180mm; frozen offline revision is150mm closed carbon tube/140mm rail. Do not confuse the two. Native shared04 _pin/_poly helper was repaired using constrained coordinate references after a solver overconstraint;07 is its first full execution.
+
+The 50×65 and40×60 workspace candidates failed head/front-drive/return-belt clearance. The last candidate has only0.200844mm nominal belt gap. Current duct walls sample down to0.472mm. **Next design operation after recovery:** redesign the CPAP trunk/seam/support around all moving idlers, fixed return belts and front motors together; use true shell/thickening and verify normal wall thickness. Then repeat self/hardware/full-travel checks before native04. Do not enter either rejected workspace in Klipper.
+
+Frozen detailed source modules and standalone STEP/STL outputs are under cad/revf.03bed/Z,04toolhead,05drives,06supports and07bracing are separate components/parts; purchased interfaces remain held where noted. Toolhead200.704g before15g carriage/hose/wires; COM(−0.043,−40.535,280.657)mm is calculated, not measured.
+
+No usage reset was consumed. Stop near1% remaining, save earlier. Do not bypass the automatic-review binary-transfer rejection; the exact reason and missing segments are preserved in011's manifest.
+
+---
+
 # Resume — RevF010 detailed Bowden CAD, 2026-10-20
 
 Read [current checkpoint](cad/REVF010-STATUS.md) first. It supersedes the historical RevE notes below. Mandatory Bowden; fixed Sherpa, Goliath, external CPAP, 9mm belts, AWD CoreXY, extrusion frame. No hard budget cap. Native Fusion RevF009 was last verified cloudversion5 on2026-09-30; its native archives now have reconstructable GitHub backup objects. New detailed geometry was built offline on2026-10-20 because Windows showed the lock screen. No new native Fusion version was created today.

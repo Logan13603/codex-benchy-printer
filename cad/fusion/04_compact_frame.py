@@ -48,4 +48,3 @@ def run(_context: str):
         if native.component.name.startswith('CBP-12'):
             xyz = native.createForAssemblyContext(frame_occ).transform2.translation
             print(native.component.name, xyz.x, xyz.y, xyz.z)
-

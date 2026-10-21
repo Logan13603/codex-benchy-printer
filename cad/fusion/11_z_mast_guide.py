@@ -45,4 +45,3 @@ def run(_context: str):
     print('mast', mast.component.bRepBodies.item(0).volume,
           'rail', rail.component.bRepBodies.item(0).volume,
           'cap', block.component.bRepBodies.item(0).volume)
-

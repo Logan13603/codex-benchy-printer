@@ -1,0 +1,8 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "Codex Benchy Printer project",
+  "description": {"": "Project-local CAD workbench. Runs only explicitly queued project CAD scripts; no automatic startup."},
+  "supportedOS": "windows",
+  "editEnabled": true
+}
