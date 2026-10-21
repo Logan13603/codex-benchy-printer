@@ -1,5 +1,7 @@
 # Current checkpoint: display, metal mounts and native recovery
 
+**Stop requested by user with8% quota remaining.** New CAD work stopped. The guarded recovery-save request was submitted, but its waiting client was terminated at the user's stop instruction. Fusion-side execution is unconfirmed and may still occur. Inspect `cad/native/gantry-recovery-save-result.json`, any014 files, and the live document before any new mutation. No successful014 save/export is claimed. The last verified rollback remains013/cloudv5.
+
 2026-10-21. This supersedes older checkpoint012 status. Development CAD; manufacturing release and sub-minute performance remain unvalidated.
 
 ## Last verified native state
@@ -33,3 +35,11 @@ Legacy extrusion cuts could target other assembly components. Current common.py 
 Head04 failed full travel, with duct walls sampled down to0.472mm. No demonstrated Benchy-sized envelope or physical sub60 result. After native recovery/mounts, redesign true duct wall thickness and head/idler/belt/front-motor clearances, then check hose/Bowden/wire sweeps. Exact purchased interfaces, hardware retention, joints, drawings, electronics and physical motor/flow/cooling evidence remain pending.
 
 Automatic review rejected binary backup-payload staging in a prior step. Do not bypass via a different tool. Text source/documentation backup is independent. No usage reset used; save early and stop near1% remaining.
+
+## Queued recovery helper — completion not confirmed
+
+The one-shot `cad/fusion/jobs/finish_gantry_if_complete.py` helper was submitted through Fusion MCP while the application was unresponsive. **The local wait was terminated for the clean usage checkpoint; execution and save/export remain unconfirmed.** Ending that wait does not establish that the Fusion request was cancelled: it may still be queued or running. Do not submit a second helper or retry native02 while the original request may still execute.
+
+The helper's persisted result is `cad/native/gantry-recovery-save-result.json`. **An absent result file does not mean success** and may mean the submitted job has not started. A result status such as `INSPECTING_NOT_YET_SAVED`, `GEOMETRY_CHECKS_PASSED_SAVE_REQUESTED`, or `SAVE_RETURNED_TRUE` is also not confirmation of completed014 exports. An assertion or application failure can leave the last intermediate status unchanged.
+
+**First operation on resume: inspect the pending MCP request, live Fusion state, result JSON and any014 assets before any mutation.** Only treat the local014 checkpoint as exported after the result explicitly reports `SAVED_AND_EXPORTED_014_NOT_REOPENED_OR_UPLOADED` and the matching `CBP-RevF-014-Native-Gantry-Recovery-manifest.json`, F3D and STEP exist with verified hashes. That status still does not establish archive reopen, remote backup, physical validity or sub-minute performance. If the helper reports incomplete staging or old gantry geometry, preserve the document and inspect it rather than rerunning builders.
