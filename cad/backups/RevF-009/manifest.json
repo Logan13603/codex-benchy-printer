@@ -1,0 +1,466 @@
+{
+  "schema_version": 1,
+  "checkpoint": "RevF-009 Bowden Gantry with RevF-008 frame rollback",
+  "prepared_date": "2026-10-20",
+  "repository": "Logan13603/codex-benchy-printer",
+  "compression": "gzip, level9, mtime0",
+  "chunk_bytes": 524288,
+  "verification": {
+    "remote_chunk_git_identities_match_local": true,
+    "local_reconstruction_all_originals": true,
+    "remote_download_reconstruction_tested": false,
+    "fusion_archive_reopened": false,
+    "reference_note": "Chunk objects were created before the coordinated checkpoint commit. Use the branch commit containing this manifest as the durable reference."
+  },
+  "restore_script": {
+    "path": "restore.py",
+    "sha256": "afb59cf4479c4fd72e1e93f82dbf56c5b8313c0a2406069eb68d775767c19003"
+  },
+  "files": [
+    {
+      "original_name": "CBP-RevF-009-Bowden-Gantry.f3d",
+      "original_bytes": 16893039,
+      "original_sha256": "3e1d0ba4d40c3427abd40a740ebeb85b19157f57642f6b752a81f6ef6c7bf655",
+      "compressed_name": "CBP-RevF-009-Bowden-Gantry.f3d.gz",
+      "compressed_bytes": 16760550,
+      "compressed_sha256": "34746446a0530ea52e2288695bfc45b2811c6ce4177dc0a2a7afa18e0c96b8cf",
+      "parts": [
+        {
+          "index": 1,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.f3d.gz.part001",
+          "bytes": 524288,
+          "sha256": "be514956286ea031a1a5d1f89ace71935c12dcfb9817fe038cb03412c098cc77",
+          "git_blob_sha1_expected": "4d923ec3aecef78b0d481d36eb37949249bdae21",
+          "remote_blob_sha": "4d923ec3aecef78b0d481d36eb37949249bdae21",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 2,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.f3d.gz.part002",
+          "bytes": 524288,
+          "sha256": "d0211d276990e555af04bb253316d28458b49c1a00915c1b4a12c98ff466e933",
+          "git_blob_sha1_expected": "d4737139113392da7a5b8c04434eeb6422cda66c",
+          "remote_blob_sha": "d4737139113392da7a5b8c04434eeb6422cda66c",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 3,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.f3d.gz.part003",
+          "bytes": 524288,
+          "sha256": "73e9ad7198530d6b7b0cd918a76ae28e6a0f86c31e7a4328cce6d0511fbfe0aa",
+          "git_blob_sha1_expected": "afad00342327b3bd1286f296f77feb5ad6ca9971",
+          "remote_blob_sha": "afad00342327b3bd1286f296f77feb5ad6ca9971",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 4,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.f3d.gz.part004",
+          "bytes": 524288,
+          "sha256": "ec7a524ebd315a4da112f4c1a4e7c88bc737dcea046ae1bb413767611393652d",
+          "git_blob_sha1_expected": "9319663a54dffe4b2d7d43c3e6441f39c15c843a",
+          "remote_blob_sha": "9319663a54dffe4b2d7d43c3e6441f39c15c843a",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 5,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.f3d.gz.part005",
+          "bytes": 524288,
+          "sha256": "7ad9f17c6f6145735bb37046c5485d93b9ba451853b54f7c3deb7c387fae81dc",
+          "git_blob_sha1_expected": "5ee5121c0229b68ccf7e4b9d0d9d475d6972129d",
+          "remote_blob_sha": "5ee5121c0229b68ccf7e4b9d0d9d475d6972129d",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 6,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.f3d.gz.part006",
+          "bytes": 524288,
+          "sha256": "89c65019c2cee3ce8885f9632e170678145c37616350a780f5d5fc5313b624cd",
+          "git_blob_sha1_expected": "2a908b4d02ae71b821b80d42dbe6d5bce905ca25",
+          "remote_blob_sha": "2a908b4d02ae71b821b80d42dbe6d5bce905ca25",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 7,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.f3d.gz.part007",
+          "bytes": 524288,
+          "sha256": "9c9f8fb57e1b8ffcb728601621c2110eb11ea92f6973501f24638af20a3191cc",
+          "git_blob_sha1_expected": "b19578f535429c87b8047d31b7eb6d93e94aa4aa",
+          "remote_blob_sha": "b19578f535429c87b8047d31b7eb6d93e94aa4aa",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 8,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.f3d.gz.part008",
+          "bytes": 524288,
+          "sha256": "6c07748d8e40b0b28bd57108984c15b6c332d8569bec48191e8d5a86eee52810",
+          "git_blob_sha1_expected": "56113fee7f0f4f6e4d66807267bcb213bbb3d07b",
+          "remote_blob_sha": "56113fee7f0f4f6e4d66807267bcb213bbb3d07b",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 9,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.f3d.gz.part009",
+          "bytes": 524288,
+          "sha256": "d832dd2808415e5bdee78675e10222a8ce03ff8b98e0c85e4b4ccde4833848d0",
+          "git_blob_sha1_expected": "235bdb9aa3caa91a5b6be73777abf965c513dd48",
+          "remote_blob_sha": "235bdb9aa3caa91a5b6be73777abf965c513dd48",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 10,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.f3d.gz.part010",
+          "bytes": 524288,
+          "sha256": "9d2bdd0deb06643681b0478ae958802e55e2ad4c24de7914c126781fe1d48f46",
+          "git_blob_sha1_expected": "1ae345b7292410aeae6d6a30678351654f17638a",
+          "remote_blob_sha": "1ae345b7292410aeae6d6a30678351654f17638a",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 11,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.f3d.gz.part011",
+          "bytes": 524288,
+          "sha256": "bc7b116f2df0ea224ba573ab2084baad627f09e2b95e973ee6a2a8c4026ee539",
+          "git_blob_sha1_expected": "ba1798f21fefe903a727f2d580bcc8b6122e2e54",
+          "remote_blob_sha": "ba1798f21fefe903a727f2d580bcc8b6122e2e54",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 12,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.f3d.gz.part012",
+          "bytes": 524288,
+          "sha256": "904c237faba30ab009fc0586c13de473142dd944b9a3237cd747dd2974add8c9",
+          "git_blob_sha1_expected": "276ed922093973aa4f9d80de0e021877b22fdb08",
+          "remote_blob_sha": "276ed922093973aa4f9d80de0e021877b22fdb08",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 13,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.f3d.gz.part013",
+          "bytes": 524288,
+          "sha256": "3000da188c03d6930120c8d71087e974ec1b545f09f328cb126822f33f4a4738",
+          "git_blob_sha1_expected": "b6d4c53b9b024c8c7be7f2e3cea7ef78110178a7",
+          "remote_blob_sha": "b6d4c53b9b024c8c7be7f2e3cea7ef78110178a7",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 14,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.f3d.gz.part014",
+          "bytes": 524288,
+          "sha256": "0d1cb845b7d1289054bb375ddd7f0df1443c9ceea0b2a2c067130b63405038e7",
+          "git_blob_sha1_expected": "6271c90d5dd3ba380fc7d72f42aa7e391105a7ae",
+          "remote_blob_sha": "6271c90d5dd3ba380fc7d72f42aa7e391105a7ae",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 15,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.f3d.gz.part015",
+          "bytes": 524288,
+          "sha256": "952a54d8e9706d46370a6de75d4a94d8fff14d91823d2a817a81552c681bb2e7",
+          "git_blob_sha1_expected": "e2330e599ccca97b21e1cf0e4fdb227836164bfa",
+          "remote_blob_sha": "e2330e599ccca97b21e1cf0e4fdb227836164bfa",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 16,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.f3d.gz.part016",
+          "bytes": 524288,
+          "sha256": "e6718476c5176834aaef780734345ffa71aecb8a18e264ae31ae6789c891f2e1",
+          "git_blob_sha1_expected": "6b4c4fa15c1a0b7ffff2a80a4f4242b7f80c608a",
+          "remote_blob_sha": "6b4c4fa15c1a0b7ffff2a80a4f4242b7f80c608a",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 17,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.f3d.gz.part017",
+          "bytes": 524288,
+          "sha256": "d92ca5c6276f653ec04f6a96da4a1df1b83069a6affeee705644dd3509ec5150",
+          "git_blob_sha1_expected": "25468fa02fc266dc9b80eb175282642bbecf5141",
+          "remote_blob_sha": "25468fa02fc266dc9b80eb175282642bbecf5141",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 18,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.f3d.gz.part018",
+          "bytes": 524288,
+          "sha256": "bf82543f98c7a5d2042618b921105bd8635f8e791dde671f299c9648752c2764",
+          "git_blob_sha1_expected": "91da4b0f7074aac3402886fa03965d40d6696fed",
+          "remote_blob_sha": "91da4b0f7074aac3402886fa03965d40d6696fed",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 19,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.f3d.gz.part019",
+          "bytes": 524288,
+          "sha256": "23459882d182edffb49bef6c78f5059a9924c2226817eac7d58c566ced889c03",
+          "git_blob_sha1_expected": "b650c87275317937e49d733d310a684b9ef1c33e",
+          "remote_blob_sha": "b650c87275317937e49d733d310a684b9ef1c33e",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 20,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.f3d.gz.part020",
+          "bytes": 524288,
+          "sha256": "afbd9b48554ea6b5c09ab00361b78b2416928b63bba98432b6cafaf1a8187a71",
+          "git_blob_sha1_expected": "e27d9d487ada2bb0f1a4f5d3c20322302960e2f9",
+          "remote_blob_sha": "e27d9d487ada2bb0f1a4f5d3c20322302960e2f9",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 21,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.f3d.gz.part021",
+          "bytes": 524288,
+          "sha256": "b194979b641adcef60047b0836af9a6e9f8b8052be37ed2866e6eca7b473da45",
+          "git_blob_sha1_expected": "f60b018e53e33ec1348158a77a441e9b23f438e0",
+          "remote_blob_sha": "f60b018e53e33ec1348158a77a441e9b23f438e0",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 22,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.f3d.gz.part022",
+          "bytes": 524288,
+          "sha256": "ec19a8d84f1015ac2940cc15eb00ba02de567ba4720a690f028754a7d543a695",
+          "git_blob_sha1_expected": "92a3a750580ed09bfdda5b256f98c06619c58b9d",
+          "remote_blob_sha": "92a3a750580ed09bfdda5b256f98c06619c58b9d",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 23,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.f3d.gz.part023",
+          "bytes": 524288,
+          "sha256": "019b37dab090d5e6cf1a8027d2fa8a47415cc856fe013040c4e014ed1957326c",
+          "git_blob_sha1_expected": "89338138316040fecdc2429291e05512d9b2b7f7",
+          "remote_blob_sha": "89338138316040fecdc2429291e05512d9b2b7f7",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 24,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.f3d.gz.part024",
+          "bytes": 524288,
+          "sha256": "f76f9f3ec71917f88ccc8d884d2635f9b338913d0bfb46d1e336f704fec81085",
+          "git_blob_sha1_expected": "744acf9316e6d50a000309aca2c82bb14ceb4712",
+          "remote_blob_sha": "744acf9316e6d50a000309aca2c82bb14ceb4712",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 25,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.f3d.gz.part025",
+          "bytes": 524288,
+          "sha256": "4942140de5b15571cf6d60174be273530588d587ae134857a055d47d1461ed43",
+          "git_blob_sha1_expected": "ad115bcf0aa9432b04100c76fc18bc617745e13d",
+          "remote_blob_sha": "ad115bcf0aa9432b04100c76fc18bc617745e13d",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 26,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.f3d.gz.part026",
+          "bytes": 524288,
+          "sha256": "b7070161e40232c467d6c3b1507b52d49a209d728b789ee3d1180ae783b28e61",
+          "git_blob_sha1_expected": "04a5769f5e1f678eb9a759db2d35f9a303085af7",
+          "remote_blob_sha": "04a5769f5e1f678eb9a759db2d35f9a303085af7",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 27,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.f3d.gz.part027",
+          "bytes": 524288,
+          "sha256": "d5692cca2b2ab226aa8bd3b522ff030b8e0c80c262420cc6dc959c331131473b",
+          "git_blob_sha1_expected": "05b1ed700fb171f0776ee778a7be231e66166a9d",
+          "remote_blob_sha": "05b1ed700fb171f0776ee778a7be231e66166a9d",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 28,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.f3d.gz.part028",
+          "bytes": 524288,
+          "sha256": "f24c05045ffa8c549cdbf0248f249bc149877bac38c4242fca75f3982d29c467",
+          "git_blob_sha1_expected": "e19b21e3555cd8dff6eab2918f08d89d2d815f96",
+          "remote_blob_sha": "e19b21e3555cd8dff6eab2918f08d89d2d815f96",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 29,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.f3d.gz.part029",
+          "bytes": 524288,
+          "sha256": "0d7cef2421497cdf4a17f66a4bae4334c1aeaf18a305e4a1f24d48830dfac563",
+          "git_blob_sha1_expected": "496e0e5896b67a5918679ddd9eccf706a701783d",
+          "remote_blob_sha": "496e0e5896b67a5918679ddd9eccf706a701783d",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 30,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.f3d.gz.part030",
+          "bytes": 524288,
+          "sha256": "b004cab793075457362b0cbb216c5630346584198e8e0df60004cc80b0d7ce85",
+          "git_blob_sha1_expected": "a2bb7006be4dff265273662cf73f72d84e8f60c8",
+          "remote_blob_sha": "a2bb7006be4dff265273662cf73f72d84e8f60c8",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 31,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.f3d.gz.part031",
+          "bytes": 524288,
+          "sha256": "85c08e8a7a86273cf871138a96ea6dd75ca23d5e373e4a27f857fa06c0262b6b",
+          "git_blob_sha1_expected": "2e0e9d60f015dfff1225da6ceb1c94e6b09530cb",
+          "remote_blob_sha": "2e0e9d60f015dfff1225da6ceb1c94e6b09530cb",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 32,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.f3d.gz.part032",
+          "bytes": 507622,
+          "sha256": "5fec3fd63ae1a9b741948c047be1db3e0874c936aef8b2cf00797ade21bae1ec",
+          "git_blob_sha1_expected": "12ac5b78e405d58376d410c31eee2c6f3c9ca875",
+          "remote_blob_sha": "12ac5b78e405d58376d410c31eee2c6f3c9ca875",
+          "remote_identity_verified": true
+        }
+      ]
+    },
+    {
+      "original_name": "CBP-RevF-009-Bowden-Gantry.step",
+      "original_bytes": 26121407,
+      "original_sha256": "7c7f0638e67d746da9e9732d36244fa942b9970a84df110d8c2dafcbdc1d1393",
+      "compressed_name": "CBP-RevF-009-Bowden-Gantry.step.gz",
+      "compressed_bytes": 4927707,
+      "compressed_sha256": "204232bea9af24529f60a36dc339b93d36e20add568fd25efc804ff7d8c8dab0",
+      "parts": [
+        {
+          "index": 1,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.step.gz.part001",
+          "bytes": 524288,
+          "sha256": "7b62edc298fcd43a0cd930ac3b2b76882c1020eda4993e6d8d03bc0158f20395",
+          "git_blob_sha1_expected": "ace451a857c43a5fa65201cbc2ac6a7ae7b1ad45",
+          "remote_blob_sha": "ace451a857c43a5fa65201cbc2ac6a7ae7b1ad45",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 2,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.step.gz.part002",
+          "bytes": 524288,
+          "sha256": "f371f1c1bbd5fa79e95197902e35a7e19d2327c86cc930f31a0f57f8b064d5a3",
+          "git_blob_sha1_expected": "05b995cbcf6d1b50b1a52b03c78397286d692b81",
+          "remote_blob_sha": "05b995cbcf6d1b50b1a52b03c78397286d692b81",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 3,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.step.gz.part003",
+          "bytes": 524288,
+          "sha256": "325dfd32ab240acedc8aefb6af0beec4fd5d31316ea2e3ea3387ed9c1afe6528",
+          "git_blob_sha1_expected": "45ddfeeecc3c189e75d686a2a0017bbf85127374",
+          "remote_blob_sha": "45ddfeeecc3c189e75d686a2a0017bbf85127374",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 4,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.step.gz.part004",
+          "bytes": 524288,
+          "sha256": "819be8fee505e29d29a810320bea11e182b9d6714f4bf4b8fcaf5f1fd06e3170",
+          "git_blob_sha1_expected": "d9244d5b41523b40de753c11bd27120fda3ba980",
+          "remote_blob_sha": "d9244d5b41523b40de753c11bd27120fda3ba980",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 5,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.step.gz.part005",
+          "bytes": 524288,
+          "sha256": "6e9bdc72c78937467747b23d8dd1cccbba4797c64c23a9cba36f4d45b372eab3",
+          "git_blob_sha1_expected": "07ec385a0f50c4e982d26a9f61ecf3daad528b3f",
+          "remote_blob_sha": "07ec385a0f50c4e982d26a9f61ecf3daad528b3f",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 6,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.step.gz.part006",
+          "bytes": 524288,
+          "sha256": "17c45bef130bed494466fa17c5401296921b70614f5f3d03d8e688b4a1bbe4ef",
+          "git_blob_sha1_expected": "2205a29dbff4e8a8cb5a32b4a26ff09eda0b982d",
+          "remote_blob_sha": "2205a29dbff4e8a8cb5a32b4a26ff09eda0b982d",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 7,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.step.gz.part007",
+          "bytes": 524288,
+          "sha256": "ad90bf494eb68fbe0899d689663b3275e5e763e77bee663dbc38a47f08c98525",
+          "git_blob_sha1_expected": "e636f9734c4689446aaeae4e75509b9e0dab2f7b",
+          "remote_blob_sha": "e636f9734c4689446aaeae4e75509b9e0dab2f7b",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 8,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.step.gz.part008",
+          "bytes": 524288,
+          "sha256": "3ca9470177320011dd9e2230a1e51f6eb438bae67c6b50b109f80a7f1a4f699d",
+          "git_blob_sha1_expected": "610b7793d0333258e7a268b3d3a8f5cd40e366f3",
+          "remote_blob_sha": "610b7793d0333258e7a268b3d3a8f5cd40e366f3",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 9,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.step.gz.part009",
+          "bytes": 524288,
+          "sha256": "77a2b126b11c51099ccfe14521cb5c2459cfdb7f35df65c1e9e7c1317a273ccd",
+          "git_blob_sha1_expected": "78f0fed663e6a14f6312c7bd0f5133eed89935d5",
+          "remote_blob_sha": "78f0fed663e6a14f6312c7bd0f5133eed89935d5",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 10,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-009-Bowden-Gantry.step.gz.part010",
+          "bytes": 209115,
+          "sha256": "98c4baecd4332e31888990f645c3b8133abff4fcc04f86f025ee8e1ac0332bc4",
+          "git_blob_sha1_expected": "4aa477fa2466559fc9258fcc56cbe1e47676251f",
+          "remote_blob_sha": "4aa477fa2466559fc9258fcc56cbe1e47676251f",
+          "remote_identity_verified": true
+        }
+      ]
+    },
+    {
+      "original_name": "CBP-RevF-008-Frame.f3d",
+      "original_bytes": 784799,
+      "original_sha256": "8d7005bc9c2c28caa6f08bebede17b7e032b9b1d266bb912f09f24950de9cc49",
+      "compressed_name": "CBP-RevF-008-Frame.f3d.gz",
+      "compressed_bytes": 776923,
+      "compressed_sha256": "ddb4bcf779081a98b7cb057966888033871b4483e07ddbc5bc8a3dd734fe3156",
+      "parts": [
+        {
+          "index": 1,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-008-Frame.f3d.gz.part001",
+          "bytes": 524288,
+          "sha256": "38be756b85ffc53d0284fb7b347257c6c2bff30b16948fe8ea663b8b714d08f9",
+          "git_blob_sha1_expected": "93aa04e801f98d5f8437cffa29a1ab7ac875eba0",
+          "remote_blob_sha": "93aa04e801f98d5f8437cffa29a1ab7ac875eba0",
+          "remote_identity_verified": true
+        },
+        {
+          "index": 2,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-008-Frame.f3d.gz.part002",
+          "bytes": 252635,
+          "sha256": "7e22edcda1977452582f6a1fbd7451ba04445e64bdbe486629e3e5a1586cc837",
+          "git_blob_sha1_expected": "79875a419b092a8e28743a757b945896c136aae4",
+          "remote_blob_sha": "79875a419b092a8e28743a757b945896c136aae4",
+          "remote_identity_verified": true
+        }
+      ]
+    },
+    {
+      "original_name": "CBP-RevF-008-Frame.step",
+      "original_bytes": 852134,
+      "original_sha256": "f9be421c3cde020d39c0f5efefe1672a8bab940a4ba9378affc424678c3b5261",
+      "compressed_name": "CBP-RevF-008-Frame.step.gz",
+      "compressed_bytes": 156266,
+      "compressed_sha256": "7c2601a34cf949fd9e1ede42f3c34eab9b6b489850bf53577cff2050dd52972f",
+      "parts": [
+        {
+          "index": 1,
+          "repository_path": "cad/backups/RevF-009/CBP-RevF-008-Frame.step.gz.part001",
+          "bytes": 156266,
+          "sha256": "7c2601a34cf949fd9e1ede42f3c34eab9b6b489850bf53577cff2050dd52972f",
+          "git_blob_sha1_expected": "949ea50dcb0494a736407c97b7f83cc0b89d571a",
+          "remote_blob_sha": "949ea50dcb0494a736407c97b7f83cc0b89d571a",
+          "remote_identity_verified": true
+        }
+      ]
+    }
+  ]
+}

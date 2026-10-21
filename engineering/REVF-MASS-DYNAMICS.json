@@ -1,0 +1,1585 @@
+{
+  "status": "bounded analytical screen; no physically measured masses, modes or acceptance",
+  "script_sha256": "d743454150e808a721d3a4ba228c56aee543234b0e43095d572feee817c3a114",
+  "coordinates": "machine mm: X right, Y rear, Z up; not Fusion raw axes",
+  "belt_planes_Z_mm": [
+    284.0,
+    294.0
+  ],
+  "belt_force_point_mm": [
+    0.0,
+    0.0,
+    289.0
+  ],
+  "X_rail_center_Z_mm": 280.0,
+  "nozzle_point_mm": [
+    0.0,
+    -18.0,
+    225.0
+  ],
+  "head_items": [
+    {
+      "name": "Micro motor",
+      "mass_low_nominal_high_g": [
+        60,
+        70,
+        80
+      ],
+      "centroid_mm": [
+        0,
+        15,
+        318
+      ],
+      "local_inertia_box_mm": [
+        36,
+        20,
+        36
+      ],
+      "evidence": "unverified SKU; mass bracket"
+    },
+    {
+      "name": "Micro gears and printed body",
+      "mass_low_nominal_high_g": [
+        20,
+        27,
+        35
+      ],
+      "centroid_mm": [
+        0,
+        -18,
+        303
+      ],
+      "local_inertia_box_mm": [
+        36,
+        25,
+        25
+      ],
+      "evidence": "estimate; exact release/BOM pending"
+    },
+    {
+      "name": "Goliath AIR hotend complete",
+      "mass_low_nominal_high_g": [
+        55,
+        80,
+        105
+      ],
+      "centroid_mm": [
+        0,
+        -18,
+        257
+      ],
+      "local_inertia_box_mm": [
+        24,
+        24,
+        64
+      ],
+      "evidence": "estimate; no verified supplier assembly mass"
+    },
+    {
+      "name": "2510 cold-end fan",
+      "mass_low_nominal_high_g": [
+        4,
+        6,
+        9
+      ],
+      "centroid_mm": [
+        0,
+        -35,
+        275
+      ],
+      "local_inertia_box_mm": [
+        25,
+        10,
+        25
+      ],
+      "evidence": "estimate; fan SKU pending"
+    },
+    {
+      "name": "MGN7H carriage",
+      "mass_low_nominal_high_g": [
+        15,
+        15,
+        15
+      ],
+      "centroid_mm": [
+        0,
+        0,
+        280
+      ],
+      "local_inertia_box_mm": [
+        30.8,
+        17,
+        8
+      ],
+      "evidence": "HIWIN catalogue mass; simplified local envelope"
+    },
+    {
+      "name": "Carriage/hotend printed support",
+      "mass_low_nominal_high_g": [
+        10,
+        15,
+        22
+      ],
+      "centroid_mm": [
+        0,
+        -5,
+        285
+      ],
+      "local_inertia_box_mm": [
+        42,
+        24,
+        35
+      ],
+      "evidence": "printed effective-density estimate"
+    },
+    {
+      "name": "Symmetric CPAP duct",
+      "mass_low_nominal_high_g": [
+        8,
+        15,
+        22
+      ],
+      "centroid_mm": [
+        0,
+        -18,
+        240
+      ],
+      "local_inertia_box_mm": [
+        60,
+        54,
+        18
+      ],
+      "evidence": "printed effective-density estimate"
+    },
+    {
+      "name": "Supported CPAP hose length",
+      "mass_low_nominal_high_g": [
+        5,
+        10,
+        20
+      ],
+      "centroid_mm": [
+        0,
+        15,
+        300
+      ],
+      "local_inertia_box_mm": [
+        25,
+        25,
+        60
+      ],
+      "evidence": "effective carried mass; suspension unknown"
+    },
+    {
+      "name": "Supported harness length",
+      "mass_low_nominal_high_g": [
+        3,
+        5,
+        9
+      ],
+      "centroid_mm": [
+        0,
+        8,
+        293
+      ],
+      "local_inertia_box_mm": [
+        8,
+        8,
+        50
+      ],
+      "evidence": "estimate; bend/support unknown"
+    },
+    {
+      "name": "Screws, inserts, belt clamps",
+      "mass_low_nominal_high_g": [
+        7,
+        10,
+        15
+      ],
+      "centroid_mm": [
+        0,
+        -2,
+        283
+      ],
+      "local_inertia_box_mm": [
+        45,
+        12,
+        20
+      ],
+      "evidence": "estimate; fastener schedule pending"
+    },
+    {
+      "name": "Filament and guide PTFE",
+      "mass_low_nominal_high_g": [
+        1,
+        2,
+        3
+      ],
+      "centroid_mm": [
+        0,
+        -18,
+        310
+      ],
+      "local_inertia_box_mm": [
+        4,
+        4,
+        75
+      ],
+      "evidence": "estimate; complete carried length"
+    }
+  ],
+  "head_nominal_mass_g": 255,
+  "head_mass_bounds_g": [
+    188,
+    335
+  ],
+  "head_nominal_COM_mm": [
+    0.0,
+    -5.086274509803921,
+    284.8666666666667
+  ],
+  "head_COM_bounds_only_from_mass_uncertainty_mm": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      -8.576642335766424,
+      -0.62882096069869
+    ],
+    [
+      278.59922178988325,
+      291.8617886178862
+    ]
+  ],
+  "head_nominal_inertia_kg_m2": [
+    [
+      0.00029950773529411766,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.00025157460000000006,
+      -8.200906666666669e-05
+    ],
+    [
+      0.0,
+      -8.200906666666669e-05,
+      9.744706862745099e-05
+    ]
+  ],
+  "balanced_candidate": {
+    "motor_centroid_mm": [
+      0,
+      34,
+      325
+    ],
+    "COM_mm": [
+      0.0,
+      0.12941176470588237,
+      286.78823529411767
+    ],
+    "inertia_kg_m2": [
+      [
+        0.0004062294607843138,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.00028653369803921573,
+        -0.00014267298823529415
+      ],
+      [
+        0.0,
+        -0.00014267298823529415,
+        0.0001692096960784314
+      ]
+    ],
+    "remaining_belt_z_lever_mm": -2.211764705882331,
+    "motor_centroid_for_exact_balance_mm": [
+      0.0,
+      33.52857142857143,
+      333.0571428571429
+    ],
+    "status": "mass-only candidate; physical mount/shaft/clearance pending"
+  },
+  "force_and_moment_sensitivity": [
+    {
+      "acceleration_mm_s2": 10000,
+      "inertia_force_N": 2.55,
+      "X_accel_moment_Nm": [
+        0,
+        -0.005639999999999944,
+        -0.00033
+      ],
+      "Y_accel_moment_Nm": [
+        0.005639999999999944,
+        0,
+        0.0
+      ]
+    },
+    {
+      "acceleration_mm_s2": 100000,
+      "inertia_force_N": 25.5,
+      "X_accel_moment_Nm": [
+        0,
+        -0.056399999999999444,
+        -0.0033000000000000004
+      ],
+      "Y_accel_moment_Nm": [
+        0.056399999999999444,
+        0,
+        0.0
+      ]
+    },
+    {
+      "acceleration_mm_s2": 250000,
+      "inertia_force_N": 63.75,
+      "X_accel_moment_Nm": [
+        0,
+        -0.1409999999999986,
+        -0.00825
+      ],
+      "Y_accel_moment_Nm": [
+        0.1409999999999986,
+        0,
+        0.0
+      ]
+    },
+    {
+      "acceleration_mm_s2": 2000000,
+      "inertia_force_N": 510.0,
+      "X_accel_moment_Nm": [
+        0,
+        -1.1279999999999888,
+        -0.066
+      ],
+      "Y_accel_moment_Nm": [
+        1.1279999999999888,
+        0,
+        0.0
+      ]
+    }
+  ],
+  "gantry_additional_items": [
+    {
+      "name": "CF square tube 200x20x20x1.5",
+      "mass_g": 35.52,
+      "mass_bounds_g": [
+        31.079999999999995,
+        39.96
+      ],
+      "status": "volume calculation; assumed density 1.4-1.8 g/cm3"
+    },
+    {
+      "name": "MGN7 rail 180 mm",
+      "mass_g": 39.599999999999994,
+      "mass_bounds_g": [
+        39.6,
+        39.6
+      ],
+      "status": "HIWIN 0.22 kg/m; holes included by supplier rate"
+    },
+    {
+      "name": "Two MGN9H moving blocks",
+      "mass_g": 56,
+      "mass_bounds_g": [
+        48,
+        64
+      ],
+      "status": "unverified catalogue/SKU bracket; 24-32 g each"
+    },
+    {
+      "name": "Two printed gantry ends",
+      "mass_g": 20,
+      "mass_bounds_g": [
+        14,
+        30
+      ],
+      "status": "estimate; rail alignment ribs/fasteners pending"
+    },
+    {
+      "name": "Rail/beam/end fasteners",
+      "mass_g": 9,
+      "mass_bounds_g": [
+        6,
+        14
+      ],
+      "status": "estimate; all screws must enter schedule"
+    },
+    {
+      "name": "Carried belts",
+      "mass_g": 7,
+      "mass_bounds_g": [
+        4,
+        12
+      ],
+      "status": "effective motion mass estimate; rotating belt spans not included"
+    }
+  ],
+  "gantry_extra_nominal_mass_g": 167.12,
+  "gantry_extra_bounds_g": [
+    142.68,
+    199.56
+  ],
+  "translating_X_nominal_g": 255,
+  "translating_Y_nominal_g": 422.12,
+  "translating_Y_bounds_g": [
+    330.68,
+    534.56
+  ],
+  "bed_Al_100x100x4_mass_g": 108.0,
+  "frame": {
+    "outside_envelope_mm": [
+      280,
+      280,
+      300
+    ],
+    "HFS5_2020_assumed_kg_per_m": 0.5,
+    "HFS5_2040_kg_per_m": 0.88,
+    "cut_scheme": {
+      "2020_260mm": 4,
+      "2020_280mm": 4,
+      "2020_240mm": 2,
+      "2040_240mm": 2
+    },
+    "extrusions_only_mass_g": 1742.3999999999999,
+    "status": "bounding cut scheme; reconcile joint geometry with CAD cut list"
+  },
+  "motor_inertia_screen": [
+    {
+      "teeth": 20,
+      "pitch_radius_mm": 6.366197723675814,
+      "four_rotor_equivalent_mass_g": 833.9815718920507,
+      "RPM_at_1000_mm_s_pure_axis": 1500.0,
+      "RPM_at_1500_mm_s_45deg_toolpath": 3181.9805153394645,
+      "torque_cases": [
+        {
+          "axis": "X",
+          "acceleration_mm_s2": 100000,
+          "ideal_torque_Nm_per_motor": 0.17331680010260206,
+          "required_operating_torque_30pct_reserve_Nm": 0.24759542871800297
+        },
+        {
+          "axis": "Y",
+          "acceleration_mm_s2": 100000,
+          "ideal_torque_Nm_per_motor": 0.19991477419211964,
+          "required_operating_torque_30pct_reserve_Nm": 0.2855925345601709
+        },
+        {
+          "axis": "X",
+          "acceleration_mm_s2": 250000,
+          "ideal_torque_Nm_per_motor": 0.43329200025650516,
+          "required_operating_torque_30pct_reserve_Nm": 0.6189885717950074
+        },
+        {
+          "axis": "Y",
+          "acceleration_mm_s2": 250000,
+          "ideal_torque_Nm_per_motor": 0.4997869354802991,
+          "required_operating_torque_30pct_reserve_Nm": 0.7139813364004274
+        }
+      ]
+    },
+    {
+      "teeth": 24,
+      "pitch_radius_mm": 7.639437268410976,
+      "four_rotor_equivalent_mass_g": 579.1538693694797,
+      "RPM_at_1000_mm_s_pure_axis": 1250.0,
+      "RPM_at_1500_mm_s_45deg_toolpath": 2651.650429449554,
+      "torque_cases": [
+        {
+          "axis": "X",
+          "acceleration_mm_s2": 100000,
+          "ideal_torque_Nm_per_motor": 0.1593116539312606,
+          "required_operating_torque_30pct_reserve_Nm": 0.227588077044658
+        },
+        {
+          "axis": "Y",
+          "acceleration_mm_s2": 100000,
+          "ideal_torque_Nm_per_motor": 0.19122922283868168,
+          "required_operating_torque_30pct_reserve_Nm": 0.27318460405525957
+        },
+        {
+          "axis": "X",
+          "acceleration_mm_s2": 250000,
+          "ideal_torque_Nm_per_motor": 0.3982791348281515,
+          "required_operating_torque_30pct_reserve_Nm": 0.568970192611645
+        },
+        {
+          "axis": "Y",
+          "acceleration_mm_s2": 250000,
+          "ideal_torque_Nm_per_motor": 0.4780730570967041,
+          "required_operating_torque_30pct_reserve_Nm": 0.6829615101381488
+        }
+      ]
+    },
+    {
+      "teeth": 32,
+      "pitch_radius_mm": 10.185916357881302,
+      "four_rotor_equivalent_mass_g": 325.7740515203323,
+      "RPM_at_1000_mm_s_pure_axis": 937.5,
+      "RPM_at_1500_mm_s_45deg_toolpath": 1988.7378220871651,
+      "torque_cases": [
+        {
+          "axis": "X",
+          "acceleration_mm_s2": 100000,
+          "ideal_torque_Nm_per_motor": 0.14789289779034878,
+          "required_operating_torque_30pct_reserve_Nm": 0.21127556827192684
+        },
+        {
+          "axis": "Y",
+          "acceleration_mm_s2": 100000,
+          "ideal_torque_Nm_per_motor": 0.19044965633357686,
+          "required_operating_torque_30pct_reserve_Nm": 0.27207093761939555
+        },
+        {
+          "axis": "X",
+          "acceleration_mm_s2": 250000,
+          "ideal_torque_Nm_per_motor": 0.369732244475872,
+          "required_operating_torque_30pct_reserve_Nm": 0.5281889206798172
+        },
+        {
+          "axis": "Y",
+          "acceleration_mm_s2": 250000,
+          "ideal_torque_Nm_per_motor": 0.4761241408339421,
+          "required_operating_torque_30pct_reserve_Nm": 0.6801773440484887
+        }
+      ]
+    },
+    {
+      "teeth": 36,
+      "pitch_radius_mm": 11.459155902616466,
+      "four_rotor_equivalent_mass_g": 257.4017197197687,
+      "RPM_at_1000_mm_s_pure_axis": 833.3333333333334,
+      "RPM_at_1500_mm_s_45deg_toolpath": 1767.766952966369,
+      "torque_cases": [
+        {
+          "axis": "X",
+          "acceleration_mm_s2": 100000,
+          "ideal_torque_Nm_per_motor": 0.14679227977594042,
+          "required_operating_torque_30pct_reserve_Nm": 0.20970325682277205
+        },
+        {
+          "axis": "Y",
+          "acceleration_mm_s2": 100000,
+          "ideal_torque_Nm_per_motor": 0.19466863313707197,
+          "required_operating_torque_30pct_reserve_Nm": 0.27809804733867427
+        },
+        {
+          "axis": "X",
+          "acceleration_mm_s2": 250000,
+          "ideal_torque_Nm_per_motor": 0.36698069943985107,
+          "required_operating_torque_30pct_reserve_Nm": 0.5242581420569301
+        },
+        {
+          "axis": "Y",
+          "acceleration_mm_s2": 250000,
+          "ideal_torque_Nm_per_motor": 0.48667158284268,
+          "required_operating_torque_30pct_reserve_Nm": 0.6952451183466857
+        }
+      ]
+    },
+    {
+      "teeth": 40,
+      "pitch_radius_mm": 12.732395447351628,
+      "four_rotor_equivalent_mass_g": 208.49539297301268,
+      "RPM_at_1000_mm_s_pure_axis": 750.0,
+      "RPM_at_1500_mm_s_45deg_toolpath": 1590.9902576697323,
+      "torque_cases": [
+        {
+          "axis": "X",
+          "acceleration_mm_s2": 100000,
+          "ideal_torque_Nm_per_motor": 0.147535165783951,
+          "required_operating_torque_30pct_reserve_Nm": 0.21076452254850145
+        },
+        {
+          "axis": "Y",
+          "acceleration_mm_s2": 100000,
+          "ideal_torque_Nm_per_motor": 0.20073111396298612,
+          "required_operating_torque_30pct_reserve_Nm": 0.2867587342328373
+        },
+        {
+          "axis": "X",
+          "acceleration_mm_s2": 250000,
+          "ideal_torque_Nm_per_motor": 0.36883791445987757,
+          "required_operating_torque_30pct_reserve_Nm": 0.5269113063712537
+        },
+        {
+          "axis": "Y",
+          "acceleration_mm_s2": 250000,
+          "ideal_torque_Nm_per_motor": 0.5018277849074654,
+          "required_operating_torque_30pct_reserve_Nm": 0.7168968355820935
+        }
+      ]
+    }
+  ],
+  "dynamic_sensitivity": [
+    {
+      "mass_basis": "toolhead translation",
+      "effective_mass_kg": 0.255,
+      "stiffness_N_per_mm": 10,
+      "damping_ratio": 0.01,
+      "frequency_Hz": 31.51737517100652,
+      "two_percent_settle_s_approx": 2.019900987672415,
+      "step_overshoot_fraction": 0.969070903976423,
+      "static_deflection_mm_at_250k_accel": 6.375
+    },
+    {
+      "mass_basis": "toolhead translation",
+      "effective_mass_kg": 0.255,
+      "stiffness_N_per_mm": 10,
+      "damping_ratio": 0.03,
+      "frequency_Hz": 31.51737517100652,
+      "two_percent_settle_s_approx": 0.6733003292241385,
+      "step_overshoot_fraction": 0.9100186185297249,
+      "static_deflection_mm_at_250k_accel": 6.375
+    },
+    {
+      "mass_basis": "toolhead translation",
+      "effective_mass_kg": 0.255,
+      "stiffness_N_per_mm": 10,
+      "damping_ratio": 0.08,
+      "frequency_Hz": 31.51737517100652,
+      "two_percent_settle_s_approx": 0.2524876234590519,
+      "step_overshoot_fraction": 0.7771393966011861,
+      "static_deflection_mm_at_250k_accel": 6.375
+    },
+    {
+      "mass_basis": "toolhead translation",
+      "effective_mass_kg": 0.255,
+      "stiffness_N_per_mm": 25,
+      "damping_ratio": 0.01,
+      "frequency_Hz": 49.83334570520974,
+      "two_percent_settle_s_approx": 1.277497553813705,
+      "step_overshoot_fraction": 0.969070903976423,
+      "static_deflection_mm_at_250k_accel": 2.55
+    },
+    {
+      "mass_basis": "toolhead translation",
+      "effective_mass_kg": 0.255,
+      "stiffness_N_per_mm": 25,
+      "damping_ratio": 0.03,
+      "frequency_Hz": 49.83334570520974,
+      "two_percent_settle_s_approx": 0.42583251793790167,
+      "step_overshoot_fraction": 0.9100186185297249,
+      "static_deflection_mm_at_250k_accel": 2.55
+    },
+    {
+      "mass_basis": "toolhead translation",
+      "effective_mass_kg": 0.255,
+      "stiffness_N_per_mm": 25,
+      "damping_ratio": 0.08,
+      "frequency_Hz": 49.83334570520974,
+      "two_percent_settle_s_approx": 0.15968719422671313,
+      "step_overshoot_fraction": 0.7771393966011861,
+      "static_deflection_mm_at_250k_accel": 2.55
+    },
+    {
+      "mass_basis": "toolhead translation",
+      "effective_mass_kg": 0.255,
+      "stiffness_N_per_mm": 50,
+      "damping_ratio": 0.01,
+      "frequency_Hz": 70.47499335473464,
+      "two_percent_settle_s_approx": 0.9033271832508972,
+      "step_overshoot_fraction": 0.969070903976423,
+      "static_deflection_mm_at_250k_accel": 1.275
+    },
+    {
+      "mass_basis": "toolhead translation",
+      "effective_mass_kg": 0.255,
+      "stiffness_N_per_mm": 50,
+      "damping_ratio": 0.03,
+      "frequency_Hz": 70.47499335473464,
+      "two_percent_settle_s_approx": 0.3011090610836324,
+      "step_overshoot_fraction": 0.9100186185297249,
+      "static_deflection_mm_at_250k_accel": 1.275
+    },
+    {
+      "mass_basis": "toolhead translation",
+      "effective_mass_kg": 0.255,
+      "stiffness_N_per_mm": 50,
+      "damping_ratio": 0.08,
+      "frequency_Hz": 70.47499335473464,
+      "two_percent_settle_s_approx": 0.11291589790636215,
+      "step_overshoot_fraction": 0.7771393966011861,
+      "static_deflection_mm_at_250k_accel": 1.275
+    },
+    {
+      "mass_basis": "toolhead translation",
+      "effective_mass_kg": 0.255,
+      "stiffness_N_per_mm": 100,
+      "damping_ratio": 0.01,
+      "frequency_Hz": 99.66669141041947,
+      "two_percent_settle_s_approx": 0.6387487769068525,
+      "step_overshoot_fraction": 0.969070903976423,
+      "static_deflection_mm_at_250k_accel": 0.6375
+    },
+    {
+      "mass_basis": "toolhead translation",
+      "effective_mass_kg": 0.255,
+      "stiffness_N_per_mm": 100,
+      "damping_ratio": 0.03,
+      "frequency_Hz": 99.66669141041947,
+      "two_percent_settle_s_approx": 0.21291625896895083,
+      "step_overshoot_fraction": 0.9100186185297249,
+      "static_deflection_mm_at_250k_accel": 0.6375
+    },
+    {
+      "mass_basis": "toolhead translation",
+      "effective_mass_kg": 0.255,
+      "stiffness_N_per_mm": 100,
+      "damping_ratio": 0.08,
+      "frequency_Hz": 99.66669141041947,
+      "two_percent_settle_s_approx": 0.07984359711335656,
+      "step_overshoot_fraction": 0.7771393966011861,
+      "static_deflection_mm_at_250k_accel": 0.6375
+    },
+    {
+      "mass_basis": "toolhead translation",
+      "effective_mass_kg": 0.255,
+      "stiffness_N_per_mm": 250,
+      "damping_ratio": 0.01,
+      "frequency_Hz": 157.58687585503262,
+      "two_percent_settle_s_approx": 0.40398019753448305,
+      "step_overshoot_fraction": 0.969070903976423,
+      "static_deflection_mm_at_250k_accel": 0.255
+    },
+    {
+      "mass_basis": "toolhead translation",
+      "effective_mass_kg": 0.255,
+      "stiffness_N_per_mm": 250,
+      "damping_ratio": 0.03,
+      "frequency_Hz": 157.58687585503262,
+      "two_percent_settle_s_approx": 0.1346600658448277,
+      "step_overshoot_fraction": 0.9100186185297249,
+      "static_deflection_mm_at_250k_accel": 0.255
+    },
+    {
+      "mass_basis": "toolhead translation",
+      "effective_mass_kg": 0.255,
+      "stiffness_N_per_mm": 250,
+      "damping_ratio": 0.08,
+      "frequency_Hz": 157.58687585503262,
+      "two_percent_settle_s_approx": 0.05049752469181038,
+      "step_overshoot_fraction": 0.7771393966011861,
+      "static_deflection_mm_at_250k_accel": 0.255
+    },
+    {
+      "mass_basis": "toolhead translation",
+      "effective_mass_kg": 0.255,
+      "stiffness_N_per_mm": 500,
+      "damping_ratio": 0.01,
+      "frequency_Hz": 222.86149708619232,
+      "two_percent_settle_s_approx": 0.28565713714171403,
+      "step_overshoot_fraction": 0.969070903976423,
+      "static_deflection_mm_at_250k_accel": 0.1275
+    },
+    {
+      "mass_basis": "toolhead translation",
+      "effective_mass_kg": 0.255,
+      "stiffness_N_per_mm": 500,
+      "damping_ratio": 0.03,
+      "frequency_Hz": 222.86149708619232,
+      "two_percent_settle_s_approx": 0.09521904571390467,
+      "step_overshoot_fraction": 0.9100186185297249,
+      "static_deflection_mm_at_250k_accel": 0.1275
+    },
+    {
+      "mass_basis": "toolhead translation",
+      "effective_mass_kg": 0.255,
+      "stiffness_N_per_mm": 500,
+      "damping_ratio": 0.08,
+      "frequency_Hz": 222.86149708619232,
+      "two_percent_settle_s_approx": 0.035707142142714254,
+      "step_overshoot_fraction": 0.7771393966011861,
+      "static_deflection_mm_at_250k_accel": 0.1275
+    },
+    {
+      "mass_basis": "toolhead translation",
+      "effective_mass_kg": 0.255,
+      "stiffness_N_per_mm": 1000,
+      "damping_ratio": 0.01,
+      "frequency_Hz": 315.17375171006523,
+      "two_percent_settle_s_approx": 0.20199009876724153,
+      "step_overshoot_fraction": 0.969070903976423,
+      "static_deflection_mm_at_250k_accel": 0.06375
+    },
+    {
+      "mass_basis": "toolhead translation",
+      "effective_mass_kg": 0.255,
+      "stiffness_N_per_mm": 1000,
+      "damping_ratio": 0.03,
+      "frequency_Hz": 315.17375171006523,
+      "two_percent_settle_s_approx": 0.06733003292241385,
+      "step_overshoot_fraction": 0.9100186185297249,
+      "static_deflection_mm_at_250k_accel": 0.06375
+    },
+    {
+      "mass_basis": "toolhead translation",
+      "effective_mass_kg": 0.255,
+      "stiffness_N_per_mm": 1000,
+      "damping_ratio": 0.08,
+      "frequency_Hz": 315.17375171006523,
+      "two_percent_settle_s_approx": 0.02524876234590519,
+      "step_overshoot_fraction": 0.7771393966011861,
+      "static_deflection_mm_at_250k_accel": 0.06375
+    },
+    {
+      "mass_basis": "Y translation",
+      "effective_mass_kg": 0.42212,
+      "stiffness_N_per_mm": 10,
+      "damping_ratio": 0.01,
+      "frequency_Hz": 24.496394468462615,
+      "two_percent_settle_s_approx": 2.598830506208514,
+      "step_overshoot_fraction": 0.969070903976423,
+      "static_deflection_mm_at_250k_accel": 10.553
+    },
+    {
+      "mass_basis": "Y translation",
+      "effective_mass_kg": 0.42212,
+      "stiffness_N_per_mm": 10,
+      "damping_ratio": 0.03,
+      "frequency_Hz": 24.496394468462615,
+      "two_percent_settle_s_approx": 0.8662768354028381,
+      "step_overshoot_fraction": 0.9100186185297249,
+      "static_deflection_mm_at_250k_accel": 10.553
+    },
+    {
+      "mass_basis": "Y translation",
+      "effective_mass_kg": 0.42212,
+      "stiffness_N_per_mm": 10,
+      "damping_ratio": 0.08,
+      "frequency_Hz": 24.496394468462615,
+      "two_percent_settle_s_approx": 0.3248538132760643,
+      "step_overshoot_fraction": 0.7771393966011861,
+      "static_deflection_mm_at_250k_accel": 10.553
+    },
+    {
+      "mass_basis": "Y translation",
+      "effective_mass_kg": 0.42212,
+      "stiffness_N_per_mm": 25,
+      "damping_ratio": 0.01,
+      "frequency_Hz": 38.7322004911458,
+      "two_percent_settle_s_approx": 1.6436447304694526,
+      "step_overshoot_fraction": 0.969070903976423,
+      "static_deflection_mm_at_250k_accel": 4.2212
+    },
+    {
+      "mass_basis": "Y translation",
+      "effective_mass_kg": 0.42212,
+      "stiffness_N_per_mm": 25,
+      "damping_ratio": 0.03,
+      "frequency_Hz": 38.7322004911458,
+      "two_percent_settle_s_approx": 0.547881576823151,
+      "step_overshoot_fraction": 0.9100186185297249,
+      "static_deflection_mm_at_250k_accel": 4.2212
+    },
+    {
+      "mass_basis": "Y translation",
+      "effective_mass_kg": 0.42212,
+      "stiffness_N_per_mm": 25,
+      "damping_ratio": 0.08,
+      "frequency_Hz": 38.7322004911458,
+      "two_percent_settle_s_approx": 0.20545559130868157,
+      "step_overshoot_fraction": 0.7771393966011861,
+      "static_deflection_mm_at_250k_accel": 4.2212
+    },
+    {
+      "mass_basis": "Y translation",
+      "effective_mass_kg": 0.42212,
+      "stiffness_N_per_mm": 50,
+      "damping_ratio": 0.01,
+      "frequency_Hz": 54.77560323513224,
+      "two_percent_settle_s_approx": 1.1622323347764854,
+      "step_overshoot_fraction": 0.969070903976423,
+      "static_deflection_mm_at_250k_accel": 2.1106
+    },
+    {
+      "mass_basis": "Y translation",
+      "effective_mass_kg": 0.42212,
+      "stiffness_N_per_mm": 50,
+      "damping_ratio": 0.03,
+      "frequency_Hz": 54.77560323513224,
+      "two_percent_settle_s_approx": 0.3874107782588284,
+      "step_overshoot_fraction": 0.9100186185297249,
+      "static_deflection_mm_at_250k_accel": 2.1106
+    },
+    {
+      "mass_basis": "Y translation",
+      "effective_mass_kg": 0.42212,
+      "stiffness_N_per_mm": 50,
+      "damping_ratio": 0.08,
+      "frequency_Hz": 54.77560323513224,
+      "two_percent_settle_s_approx": 0.14527904184706067,
+      "step_overshoot_fraction": 0.7771393966011861,
+      "static_deflection_mm_at_250k_accel": 2.1106
+    },
+    {
+      "mass_basis": "Y translation",
+      "effective_mass_kg": 0.42212,
+      "stiffness_N_per_mm": 100,
+      "damping_ratio": 0.01,
+      "frequency_Hz": 77.4644009822916,
+      "two_percent_settle_s_approx": 0.8218223652347263,
+      "step_overshoot_fraction": 0.969070903976423,
+      "static_deflection_mm_at_250k_accel": 1.0553
+    },
+    {
+      "mass_basis": "Y translation",
+      "effective_mass_kg": 0.42212,
+      "stiffness_N_per_mm": 100,
+      "damping_ratio": 0.03,
+      "frequency_Hz": 77.4644009822916,
+      "two_percent_settle_s_approx": 0.2739407884115755,
+      "step_overshoot_fraction": 0.9100186185297249,
+      "static_deflection_mm_at_250k_accel": 1.0553
+    },
+    {
+      "mass_basis": "Y translation",
+      "effective_mass_kg": 0.42212,
+      "stiffness_N_per_mm": 100,
+      "damping_ratio": 0.08,
+      "frequency_Hz": 77.4644009822916,
+      "two_percent_settle_s_approx": 0.10272779565434079,
+      "step_overshoot_fraction": 0.7771393966011861,
+      "static_deflection_mm_at_250k_accel": 1.0553
+    },
+    {
+      "mass_basis": "Y translation",
+      "effective_mass_kg": 0.42212,
+      "stiffness_N_per_mm": 250,
+      "damping_ratio": 0.01,
+      "frequency_Hz": 122.48197234231309,
+      "two_percent_settle_s_approx": 0.5197661012417027,
+      "step_overshoot_fraction": 0.969070903976423,
+      "static_deflection_mm_at_250k_accel": 0.42212
+    },
+    {
+      "mass_basis": "Y translation",
+      "effective_mass_kg": 0.42212,
+      "stiffness_N_per_mm": 250,
+      "damping_ratio": 0.03,
+      "frequency_Hz": 122.48197234231309,
+      "two_percent_settle_s_approx": 0.1732553670805676,
+      "step_overshoot_fraction": 0.9100186185297249,
+      "static_deflection_mm_at_250k_accel": 0.42212
+    },
+    {
+      "mass_basis": "Y translation",
+      "effective_mass_kg": 0.42212,
+      "stiffness_N_per_mm": 250,
+      "damping_ratio": 0.08,
+      "frequency_Hz": 122.48197234231309,
+      "two_percent_settle_s_approx": 0.06497076265521284,
+      "step_overshoot_fraction": 0.7771393966011861,
+      "static_deflection_mm_at_250k_accel": 0.42212
+    },
+    {
+      "mass_basis": "Y translation",
+      "effective_mass_kg": 0.42212,
+      "stiffness_N_per_mm": 500,
+      "damping_ratio": 0.01,
+      "frequency_Hz": 173.2156664327055,
+      "two_percent_settle_s_approx": 0.3675301348189015,
+      "step_overshoot_fraction": 0.969070903976423,
+      "static_deflection_mm_at_250k_accel": 0.21106
+    },
+    {
+      "mass_basis": "Y translation",
+      "effective_mass_kg": 0.42212,
+      "stiffness_N_per_mm": 500,
+      "damping_ratio": 0.03,
+      "frequency_Hz": 173.2156664327055,
+      "two_percent_settle_s_approx": 0.12251004493963386,
+      "step_overshoot_fraction": 0.9100186185297249,
+      "static_deflection_mm_at_250k_accel": 0.21106
+    },
+    {
+      "mass_basis": "Y translation",
+      "effective_mass_kg": 0.42212,
+      "stiffness_N_per_mm": 500,
+      "damping_ratio": 0.08,
+      "frequency_Hz": 173.2156664327055,
+      "two_percent_settle_s_approx": 0.04594126685236269,
+      "step_overshoot_fraction": 0.7771393966011861,
+      "static_deflection_mm_at_250k_accel": 0.21106
+    },
+    {
+      "mass_basis": "Y translation",
+      "effective_mass_kg": 0.42212,
+      "stiffness_N_per_mm": 1000,
+      "damping_ratio": 0.01,
+      "frequency_Hz": 244.96394468462617,
+      "two_percent_settle_s_approx": 0.2598830506208514,
+      "step_overshoot_fraction": 0.969070903976423,
+      "static_deflection_mm_at_250k_accel": 0.10553
+    },
+    {
+      "mass_basis": "Y translation",
+      "effective_mass_kg": 0.42212,
+      "stiffness_N_per_mm": 1000,
+      "damping_ratio": 0.03,
+      "frequency_Hz": 244.96394468462617,
+      "two_percent_settle_s_approx": 0.0866276835402838,
+      "step_overshoot_fraction": 0.9100186185297249,
+      "static_deflection_mm_at_250k_accel": 0.10553
+    },
+    {
+      "mass_basis": "Y translation",
+      "effective_mass_kg": 0.42212,
+      "stiffness_N_per_mm": 1000,
+      "damping_ratio": 0.08,
+      "frequency_Hz": 244.96394468462617,
+      "two_percent_settle_s_approx": 0.03248538132760642,
+      "step_overshoot_fraction": 0.7771393966011861,
+      "static_deflection_mm_at_250k_accel": 0.10553
+    },
+    {
+      "mass_basis": "Y translation low mass",
+      "effective_mass_kg": 0.33068000000000003,
+      "stiffness_N_per_mm": 10,
+      "damping_ratio": 0.01,
+      "frequency_Hz": 27.67681859182804,
+      "two_percent_settle_s_approx": 2.3001912963925415,
+      "step_overshoot_fraction": 0.969070903976423,
+      "static_deflection_mm_at_250k_accel": 8.267
+    },
+    {
+      "mass_basis": "Y translation low mass",
+      "effective_mass_kg": 0.33068000000000003,
+      "stiffness_N_per_mm": 10,
+      "damping_ratio": 0.03,
+      "frequency_Hz": 27.67681859182804,
+      "two_percent_settle_s_approx": 0.7667304321308471,
+      "step_overshoot_fraction": 0.9100186185297249,
+      "static_deflection_mm_at_250k_accel": 8.267
+    },
+    {
+      "mass_basis": "Y translation low mass",
+      "effective_mass_kg": 0.33068000000000003,
+      "stiffness_N_per_mm": 10,
+      "damping_ratio": 0.08,
+      "frequency_Hz": 27.67681859182804,
+      "two_percent_settle_s_approx": 0.2875239120490677,
+      "step_overshoot_fraction": 0.7771393966011861,
+      "static_deflection_mm_at_250k_accel": 8.267
+    },
+    {
+      "mass_basis": "Y translation low mass",
+      "effective_mass_kg": 0.33068000000000003,
+      "stiffness_N_per_mm": 25,
+      "damping_ratio": 0.01,
+      "frequency_Hz": 43.76089256873534,
+      "two_percent_settle_s_approx": 1.4547687101391753,
+      "step_overshoot_fraction": 0.969070903976423,
+      "static_deflection_mm_at_250k_accel": 3.3068
+    },
+    {
+      "mass_basis": "Y translation low mass",
+      "effective_mass_kg": 0.33068000000000003,
+      "stiffness_N_per_mm": 25,
+      "damping_ratio": 0.03,
+      "frequency_Hz": 43.76089256873534,
+      "two_percent_settle_s_approx": 0.48492290337972505,
+      "step_overshoot_fraction": 0.9100186185297249,
+      "static_deflection_mm_at_250k_accel": 3.3068
+    },
+    {
+      "mass_basis": "Y translation low mass",
+      "effective_mass_kg": 0.33068000000000003,
+      "stiffness_N_per_mm": 25,
+      "damping_ratio": 0.08,
+      "frequency_Hz": 43.76089256873534,
+      "two_percent_settle_s_approx": 0.1818460887673969,
+      "step_overshoot_fraction": 0.7771393966011861,
+      "static_deflection_mm_at_250k_accel": 3.3068
+    },
+    {
+      "mass_basis": "Y translation low mass",
+      "effective_mass_kg": 0.33068000000000003,
+      "stiffness_N_per_mm": 50,
+      "damping_ratio": 0.01,
+      "frequency_Hz": 61.88724777225751,
+      "two_percent_settle_s_approx": 1.028676819997418,
+      "step_overshoot_fraction": 0.969070903976423,
+      "static_deflection_mm_at_250k_accel": 1.6534
+    },
+    {
+      "mass_basis": "Y translation low mass",
+      "effective_mass_kg": 0.33068000000000003,
+      "stiffness_N_per_mm": 50,
+      "damping_ratio": 0.03,
+      "frequency_Hz": 61.88724777225751,
+      "two_percent_settle_s_approx": 0.34289227333247263,
+      "step_overshoot_fraction": 0.9100186185297249,
+      "static_deflection_mm_at_250k_accel": 1.6534
+    },
+    {
+      "mass_basis": "Y translation low mass",
+      "effective_mass_kg": 0.33068000000000003,
+      "stiffness_N_per_mm": 50,
+      "damping_ratio": 0.08,
+      "frequency_Hz": 61.88724777225751,
+      "two_percent_settle_s_approx": 0.12858460249967724,
+      "step_overshoot_fraction": 0.7771393966011861,
+      "static_deflection_mm_at_250k_accel": 1.6534
+    },
+    {
+      "mass_basis": "Y translation low mass",
+      "effective_mass_kg": 0.33068000000000003,
+      "stiffness_N_per_mm": 100,
+      "damping_ratio": 0.01,
+      "frequency_Hz": 87.52178513747069,
+      "two_percent_settle_s_approx": 0.7273843550695877,
+      "step_overshoot_fraction": 0.969070903976423,
+      "static_deflection_mm_at_250k_accel": 0.8267
+    },
+    {
+      "mass_basis": "Y translation low mass",
+      "effective_mass_kg": 0.33068000000000003,
+      "stiffness_N_per_mm": 100,
+      "damping_ratio": 0.03,
+      "frequency_Hz": 87.52178513747069,
+      "two_percent_settle_s_approx": 0.24246145168986252,
+      "step_overshoot_fraction": 0.9100186185297249,
+      "static_deflection_mm_at_250k_accel": 0.8267
+    },
+    {
+      "mass_basis": "Y translation low mass",
+      "effective_mass_kg": 0.33068000000000003,
+      "stiffness_N_per_mm": 100,
+      "damping_ratio": 0.08,
+      "frequency_Hz": 87.52178513747069,
+      "two_percent_settle_s_approx": 0.09092304438369846,
+      "step_overshoot_fraction": 0.7771393966011861,
+      "static_deflection_mm_at_250k_accel": 0.8267
+    },
+    {
+      "mass_basis": "Y translation low mass",
+      "effective_mass_kg": 0.33068000000000003,
+      "stiffness_N_per_mm": 250,
+      "damping_ratio": 0.01,
+      "frequency_Hz": 138.38409295914022,
+      "two_percent_settle_s_approx": 0.4600382592785082,
+      "step_overshoot_fraction": 0.969070903976423,
+      "static_deflection_mm_at_250k_accel": 0.33068000000000003
+    },
+    {
+      "mass_basis": "Y translation low mass",
+      "effective_mass_kg": 0.33068000000000003,
+      "stiffness_N_per_mm": 250,
+      "damping_ratio": 0.03,
+      "frequency_Hz": 138.38409295914022,
+      "two_percent_settle_s_approx": 0.15334608642616943,
+      "step_overshoot_fraction": 0.9100186185297249,
+      "static_deflection_mm_at_250k_accel": 0.33068000000000003
+    },
+    {
+      "mass_basis": "Y translation low mass",
+      "effective_mass_kg": 0.33068000000000003,
+      "stiffness_N_per_mm": 250,
+      "damping_ratio": 0.08,
+      "frequency_Hz": 138.38409295914022,
+      "two_percent_settle_s_approx": 0.05750478240981353,
+      "step_overshoot_fraction": 0.7771393966011861,
+      "static_deflection_mm_at_250k_accel": 0.33068000000000003
+    },
+    {
+      "mass_basis": "Y translation low mass",
+      "effective_mass_kg": 0.33068000000000003,
+      "stiffness_N_per_mm": 500,
+      "damping_ratio": 0.01,
+      "frequency_Hz": 195.7046610795152,
+      "two_percent_settle_s_approx": 0.3252961727410884,
+      "step_overshoot_fraction": 0.969070903976423,
+      "static_deflection_mm_at_250k_accel": 0.16534000000000001
+    },
+    {
+      "mass_basis": "Y translation low mass",
+      "effective_mass_kg": 0.33068000000000003,
+      "stiffness_N_per_mm": 500,
+      "damping_ratio": 0.03,
+      "frequency_Hz": 195.7046610795152,
+      "two_percent_settle_s_approx": 0.1084320575803628,
+      "step_overshoot_fraction": 0.9100186185297249,
+      "static_deflection_mm_at_250k_accel": 0.16534000000000001
+    },
+    {
+      "mass_basis": "Y translation low mass",
+      "effective_mass_kg": 0.33068000000000003,
+      "stiffness_N_per_mm": 500,
+      "damping_ratio": 0.08,
+      "frequency_Hz": 195.7046610795152,
+      "two_percent_settle_s_approx": 0.04066202159263605,
+      "step_overshoot_fraction": 0.7771393966011861,
+      "static_deflection_mm_at_250k_accel": 0.16534000000000001
+    },
+    {
+      "mass_basis": "Y translation low mass",
+      "effective_mass_kg": 0.33068000000000003,
+      "stiffness_N_per_mm": 1000,
+      "damping_ratio": 0.01,
+      "frequency_Hz": 276.76818591828044,
+      "two_percent_settle_s_approx": 0.2300191296392541,
+      "step_overshoot_fraction": 0.969070903976423,
+      "static_deflection_mm_at_250k_accel": 0.08267000000000001
+    },
+    {
+      "mass_basis": "Y translation low mass",
+      "effective_mass_kg": 0.33068000000000003,
+      "stiffness_N_per_mm": 1000,
+      "damping_ratio": 0.03,
+      "frequency_Hz": 276.76818591828044,
+      "two_percent_settle_s_approx": 0.07667304321308471,
+      "step_overshoot_fraction": 0.9100186185297249,
+      "static_deflection_mm_at_250k_accel": 0.08267000000000001
+    },
+    {
+      "mass_basis": "Y translation low mass",
+      "effective_mass_kg": 0.33068000000000003,
+      "stiffness_N_per_mm": 1000,
+      "damping_ratio": 0.08,
+      "frequency_Hz": 276.76818591828044,
+      "two_percent_settle_s_approx": 0.028752391204906764,
+      "step_overshoot_fraction": 0.7771393966011861,
+      "static_deflection_mm_at_250k_accel": 0.08267000000000001
+    },
+    {
+      "mass_basis": "Y translation high mass",
+      "effective_mass_kg": 0.5345599999999999,
+      "stiffness_N_per_mm": 10,
+      "damping_ratio": 0.01,
+      "frequency_Hz": 21.76816910067699,
+      "two_percent_settle_s_approx": 2.9245444089635564,
+      "step_overshoot_fraction": 0.969070903976423,
+      "static_deflection_mm_at_250k_accel": 13.363999999999999
+    },
+    {
+      "mass_basis": "Y translation high mass",
+      "effective_mass_kg": 0.5345599999999999,
+      "stiffness_N_per_mm": 10,
+      "damping_ratio": 0.03,
+      "frequency_Hz": 21.76816910067699,
+      "two_percent_settle_s_approx": 0.9748481363211855,
+      "step_overshoot_fraction": 0.9100186185297249,
+      "static_deflection_mm_at_250k_accel": 13.363999999999999
+    },
+    {
+      "mass_basis": "Y translation high mass",
+      "effective_mass_kg": 0.5345599999999999,
+      "stiffness_N_per_mm": 10,
+      "damping_ratio": 0.08,
+      "frequency_Hz": 21.76816910067699,
+      "two_percent_settle_s_approx": 0.36556805112044455,
+      "step_overshoot_fraction": 0.7771393966011861,
+      "static_deflection_mm_at_250k_accel": 13.363999999999999
+    },
+    {
+      "mass_basis": "Y translation high mass",
+      "effective_mass_kg": 0.5345599999999999,
+      "stiffness_N_per_mm": 25,
+      "damping_ratio": 0.01,
+      "frequency_Hz": 34.41849742491922,
+      "two_percent_settle_s_approx": 1.8496442901271584,
+      "step_overshoot_fraction": 0.969070903976423,
+      "static_deflection_mm_at_250k_accel": 5.345599999999999
+    },
+    {
+      "mass_basis": "Y translation high mass",
+      "effective_mass_kg": 0.5345599999999999,
+      "stiffness_N_per_mm": 25,
+      "damping_ratio": 0.03,
+      "frequency_Hz": 34.41849742491922,
+      "two_percent_settle_s_approx": 0.6165480967090529,
+      "step_overshoot_fraction": 0.9100186185297249,
+      "static_deflection_mm_at_250k_accel": 5.345599999999999
+    },
+    {
+      "mass_basis": "Y translation high mass",
+      "effective_mass_kg": 0.5345599999999999,
+      "stiffness_N_per_mm": 25,
+      "damping_ratio": 0.08,
+      "frequency_Hz": 34.41849742491922,
+      "two_percent_settle_s_approx": 0.2312055362658948,
+      "step_overshoot_fraction": 0.7771393966011861,
+      "static_deflection_mm_at_250k_accel": 5.345599999999999
+    },
+    {
+      "mass_basis": "Y translation high mass",
+      "effective_mass_kg": 0.5345599999999999,
+      "stiffness_N_per_mm": 50,
+      "damping_ratio": 0.01,
+      "frequency_Hz": 48.67510585482421,
+      "two_percent_settle_s_approx": 1.3078960203318915,
+      "step_overshoot_fraction": 0.969070903976423,
+      "static_deflection_mm_at_250k_accel": 2.6727999999999996
+    },
+    {
+      "mass_basis": "Y translation high mass",
+      "effective_mass_kg": 0.5345599999999999,
+      "stiffness_N_per_mm": 50,
+      "damping_ratio": 0.03,
+      "frequency_Hz": 48.67510585482421,
+      "two_percent_settle_s_approx": 0.4359653401106305,
+      "step_overshoot_fraction": 0.9100186185297249,
+      "static_deflection_mm_at_250k_accel": 2.6727999999999996
+    },
+    {
+      "mass_basis": "Y translation high mass",
+      "effective_mass_kg": 0.5345599999999999,
+      "stiffness_N_per_mm": 50,
+      "damping_ratio": 0.08,
+      "frequency_Hz": 48.67510585482421,
+      "two_percent_settle_s_approx": 0.16348700254148643,
+      "step_overshoot_fraction": 0.7771393966011861,
+      "static_deflection_mm_at_250k_accel": 2.6727999999999996
+    },
+    {
+      "mass_basis": "Y translation high mass",
+      "effective_mass_kg": 0.5345599999999999,
+      "stiffness_N_per_mm": 100,
+      "damping_ratio": 0.01,
+      "frequency_Hz": 68.83699484983843,
+      "two_percent_settle_s_approx": 0.9248221450635792,
+      "step_overshoot_fraction": 0.969070903976423,
+      "static_deflection_mm_at_250k_accel": 1.3363999999999998
+    },
+    {
+      "mass_basis": "Y translation high mass",
+      "effective_mass_kg": 0.5345599999999999,
+      "stiffness_N_per_mm": 100,
+      "damping_ratio": 0.03,
+      "frequency_Hz": 68.83699484983843,
+      "two_percent_settle_s_approx": 0.30827404835452643,
+      "step_overshoot_fraction": 0.9100186185297249,
+      "static_deflection_mm_at_250k_accel": 1.3363999999999998
+    },
+    {
+      "mass_basis": "Y translation high mass",
+      "effective_mass_kg": 0.5345599999999999,
+      "stiffness_N_per_mm": 100,
+      "damping_ratio": 0.08,
+      "frequency_Hz": 68.83699484983843,
+      "two_percent_settle_s_approx": 0.1156027681329474,
+      "step_overshoot_fraction": 0.7771393966011861,
+      "static_deflection_mm_at_250k_accel": 1.3363999999999998
+    },
+    {
+      "mass_basis": "Y translation high mass",
+      "effective_mass_kg": 0.5345599999999999,
+      "stiffness_N_per_mm": 250,
+      "damping_ratio": 0.01,
+      "frequency_Hz": 108.84084550338494,
+      "two_percent_settle_s_approx": 0.5849088817927113,
+      "step_overshoot_fraction": 0.969070903976423,
+      "static_deflection_mm_at_250k_accel": 0.5345599999999999
+    },
+    {
+      "mass_basis": "Y translation high mass",
+      "effective_mass_kg": 0.5345599999999999,
+      "stiffness_N_per_mm": 250,
+      "damping_ratio": 0.03,
+      "frequency_Hz": 108.84084550338494,
+      "two_percent_settle_s_approx": 0.19496962726423714,
+      "step_overshoot_fraction": 0.9100186185297249,
+      "static_deflection_mm_at_250k_accel": 0.5345599999999999
+    },
+    {
+      "mass_basis": "Y translation high mass",
+      "effective_mass_kg": 0.5345599999999999,
+      "stiffness_N_per_mm": 250,
+      "damping_ratio": 0.08,
+      "frequency_Hz": 108.84084550338494,
+      "two_percent_settle_s_approx": 0.07311361022408891,
+      "step_overshoot_fraction": 0.7771393966011861,
+      "static_deflection_mm_at_250k_accel": 0.5345599999999999
+    },
+    {
+      "mass_basis": "Y translation high mass",
+      "effective_mass_kg": 0.5345599999999999,
+      "stiffness_N_per_mm": 500,
+      "damping_ratio": 0.01,
+      "frequency_Hz": 153.92419985104166,
+      "two_percent_settle_s_approx": 0.4135930366918669,
+      "step_overshoot_fraction": 0.969070903976423,
+      "static_deflection_mm_at_250k_accel": 0.26727999999999996
+    },
+    {
+      "mass_basis": "Y translation high mass",
+      "effective_mass_kg": 0.5345599999999999,
+      "stiffness_N_per_mm": 500,
+      "damping_ratio": 0.03,
+      "frequency_Hz": 153.92419985104166,
+      "two_percent_settle_s_approx": 0.13786434556395566,
+      "step_overshoot_fraction": 0.9100186185297249,
+      "static_deflection_mm_at_250k_accel": 0.26727999999999996
+    },
+    {
+      "mass_basis": "Y translation high mass",
+      "effective_mass_kg": 0.5345599999999999,
+      "stiffness_N_per_mm": 500,
+      "damping_ratio": 0.08,
+      "frequency_Hz": 153.92419985104166,
+      "two_percent_settle_s_approx": 0.051699129586483365,
+      "step_overshoot_fraction": 0.7771393966011861,
+      "static_deflection_mm_at_250k_accel": 0.26727999999999996
+    },
+    {
+      "mass_basis": "Y translation high mass",
+      "effective_mass_kg": 0.5345599999999999,
+      "stiffness_N_per_mm": 1000,
+      "damping_ratio": 0.01,
+      "frequency_Hz": 217.68169100676988,
+      "two_percent_settle_s_approx": 0.29245444089635564,
+      "step_overshoot_fraction": 0.969070903976423,
+      "static_deflection_mm_at_250k_accel": 0.13363999999999998
+    },
+    {
+      "mass_basis": "Y translation high mass",
+      "effective_mass_kg": 0.5345599999999999,
+      "stiffness_N_per_mm": 1000,
+      "damping_ratio": 0.03,
+      "frequency_Hz": 217.68169100676988,
+      "two_percent_settle_s_approx": 0.09748481363211857,
+      "step_overshoot_fraction": 0.9100186185297249,
+      "static_deflection_mm_at_250k_accel": 0.13363999999999998
+    },
+    {
+      "mass_basis": "Y translation high mass",
+      "effective_mass_kg": 0.5345599999999999,
+      "stiffness_N_per_mm": 1000,
+      "damping_ratio": 0.08,
+      "frequency_Hz": 217.68169100676988,
+      "two_percent_settle_s_approx": 0.036556805112044455,
+      "step_overshoot_fraction": 0.7771393966011861,
+      "static_deflection_mm_at_250k_accel": 0.13363999999999998
+    }
+  ],
+  "free_two_inertia_relative_mode": [
+    {
+      "stiffness_N_per_mm": 10,
+      "rotor_equivalent_mass_kg": 0.2574017197197687,
+      "Y_translating_mass_kg": 0.42212,
+      "relative_frequency_Hz": 39.80137871271726,
+      "status": "ideal two-inertia relative mode; zero-frequency rigid-body mode omitted"
+    },
+    {
+      "stiffness_N_per_mm": 25,
+      "rotor_equivalent_mass_kg": 0.2574017197197687,
+      "Y_translating_mass_kg": 0.42212,
+      "relative_frequency_Hz": 62.93150537356354,
+      "status": "ideal two-inertia relative mode; zero-frequency rigid-body mode omitted"
+    },
+    {
+      "stiffness_N_per_mm": 50,
+      "rotor_equivalent_mass_kg": 0.2574017197197687,
+      "Y_translating_mass_kg": 0.42212,
+      "relative_frequency_Hz": 88.99858839984887,
+      "status": "ideal two-inertia relative mode; zero-frequency rigid-body mode omitted"
+    },
+    {
+      "stiffness_N_per_mm": 100,
+      "rotor_equivalent_mass_kg": 0.2574017197197687,
+      "Y_translating_mass_kg": 0.42212,
+      "relative_frequency_Hz": 125.86301074712708,
+      "status": "ideal two-inertia relative mode; zero-frequency rigid-body mode omitted"
+    },
+    {
+      "stiffness_N_per_mm": 250,
+      "rotor_equivalent_mass_kg": 0.2574017197197687,
+      "Y_translating_mass_kg": 0.42212,
+      "relative_frequency_Hz": 199.00689356358632,
+      "status": "ideal two-inertia relative mode; zero-frequency rigid-body mode omitted"
+    },
+    {
+      "stiffness_N_per_mm": 500,
+      "rotor_equivalent_mass_kg": 0.2574017197197687,
+      "Y_translating_mass_kg": 0.42212,
+      "relative_frequency_Hz": 281.43824788336275,
+      "status": "ideal two-inertia relative mode; zero-frequency rigid-body mode omitted"
+    },
+    {
+      "stiffness_N_per_mm": 1000,
+      "rotor_equivalent_mass_kg": 0.2574017197197687,
+      "Y_translating_mass_kg": 0.42212,
+      "relative_frequency_Hz": 398.01378712717263,
+      "status": "ideal two-inertia relative mode; zero-frequency rigid-body mode omitted"
+    }
+  ],
+  "carbon_beam_screen": [
+    {
+      "E_N_per_mm2_assumed": 50000,
+      "span_mm": 200,
+      "I_mm4": 6373.25,
+      "center_load_N": 25,
+      "deflection_mm": 0.013075484773597981
+    },
+    {
+      "E_N_per_mm2_assumed": 50000,
+      "span_mm": 200,
+      "I_mm4": 6373.25,
+      "center_load_N": 50,
+      "deflection_mm": 0.026150969547195962
+    },
+    {
+      "E_N_per_mm2_assumed": 50000,
+      "span_mm": 200,
+      "I_mm4": 6373.25,
+      "center_load_N": 75,
+      "deflection_mm": 0.03922645432079394
+    },
+    {
+      "E_N_per_mm2_assumed": 70000,
+      "span_mm": 200,
+      "I_mm4": 6373.25,
+      "center_load_N": 25,
+      "deflection_mm": 0.009339631981141416
+    },
+    {
+      "E_N_per_mm2_assumed": 70000,
+      "span_mm": 200,
+      "I_mm4": 6373.25,
+      "center_load_N": 50,
+      "deflection_mm": 0.01867926396228283
+    },
+    {
+      "E_N_per_mm2_assumed": 70000,
+      "span_mm": 200,
+      "I_mm4": 6373.25,
+      "center_load_N": 75,
+      "deflection_mm": 0.028018895943424247
+    },
+    {
+      "E_N_per_mm2_assumed": 100000,
+      "span_mm": 200,
+      "I_mm4": 6373.25,
+      "center_load_N": 25,
+      "deflection_mm": 0.0065377423867989904
+    },
+    {
+      "E_N_per_mm2_assumed": 100000,
+      "span_mm": 200,
+      "I_mm4": 6373.25,
+      "center_load_N": 50,
+      "deflection_mm": 0.013075484773597981
+    },
+    {
+      "E_N_per_mm2_assumed": 100000,
+      "span_mm": 200,
+      "I_mm4": 6373.25,
+      "center_load_N": 75,
+      "deflection_mm": 0.01961322716039697
+    }
+  ],
+  "excluded": [
+    "idler/pulley inertia",
+    "compliant hose force and asymmetric wire drag",
+    "vendor centroid/dimension variation",
+    "motor electrical/tracking dynamics",
+    "belt tension/dynamic travelling-span effective mass",
+    "frame joints/rocking/shear modes",
+    "rail/carriage preload and moment ratings"
+  ]
+}

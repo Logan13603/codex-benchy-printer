@@ -1,3 +1,15 @@
+# Resume — RevF010 detailed Bowden CAD, 2026-10-20
+
+Read [current checkpoint](cad/REVF010-STATUS.md) first. It supersedes the historical RevE notes below. Mandatory Bowden; fixed Sherpa, Goliath, external CPAP, 9mm belts, AWD CoreXY, extrusion frame. No hard budget cap. Native Fusion RevF009 was last verified cloudversion5 on2026-09-30; its native archives now have reconstructable GitHub backup objects. New detailed geometry was built offline on2026-10-20 because Windows showed the lock screen. No new native Fusion version was created today.
+
+Latest detailed builders: cad/revf/01_frame_xy_cq.py,03_bed_z_cq.py,04_toolhead_cq.py,05_drives_cq.py,06_gantry_supports_cq.py, plus07_frame_bracing_cq.py if present. Assemble with assemble_rebuild.py. Outputs: cad/revf/exports/checkpoint010. Check builder hashes and regenerate after source changes. Native03/04 feature builders are unexecuted. Do not claim offline STEP import recreates native feature history.
+
+Exact next operation: unlock desktop; verify native009 archive/recovery manifest; freeze the builders, regenerate combined assembly and resolve recorded real overlaps; then execute native builders in the saved RevF document and audit constraints/joints/travel. Closed158mm CF beam and140mmXrail supersede190/180; metal portal bridges bypass returns aboveZ286.8. Usable travel80x60x60; Y reduced for front-fan screw clearance. Remaining idler retention/fastener access, tube/hose sweeps, exact bought interfaces, electronics and physical performance are holds.
+
+Save/export/verify at each milestone, checkpoint by15% remaining, stop near1% in the five-hour window. Never consume reset credits without new explicit authorization.
+
+---
+Historical notes follow; their current-design references are superseded.
 # Resume — CAD development checkpoint 007, 2026-09-22
 
 **Start here:** Fusion cloud version **9** is the latest corrected assembly. The visual audit after checkpoint006 showed that the RevE rear columns and crossbeam had retained their old 400 mm-frame occurrence positions, leaving the beam floating. Checkpoint007 explicitly repositions both column centers to Fusion X ±90 mm, Y 12 mm, Z −90 mm and the beam to X 0, Y 152 mm, Z −90 mm. Save/readback and a second screenshot confirmed the beam meets the columns. Checkpoint006 and earlier are superseded for assembly position. Latest native F3D/STEP: `cad/native/CBP-0000-RevE-CAD-checkpoint007.*`; see manifest. GitHub commit `b7be2e330d58356b501a2bef0784b02b157aecf7` contains both files, with blob SHA readback. The rest of the geometry and 96 fully constrained sketch instances are unchanged. This is still incomplete development CAD, with no drive, hotend, cooling, electronics or firmware package.

@@ -1,0 +1,52 @@
+{
+  "revision": "REVF",
+  "research_date": "2026-09-30",
+  "status": "verified primary-source interfaces with explicitly unresolved purchase dimensions; not manufacturing release",
+  "units": {"length": "mm", "mass": "g", "inertia": "g*cm^2", "price": "USD"},
+  "coordinate_convention": {"vertical": "+Z", "extrusion_section_2020": "origin at section center; nominal X,Y exterior limits +/-10"},
+  "extrusions": {
+    "source": "https://jp.misumi-ec.com/pdf/fa/2011/p2_0513.pdf",
+    "source_pages": "printed 2-513 and 2-514",
+    "material": "A6N01SS-T5",
+    "finish": "clear anodize",
+    "slot_opening": 6,
+    "slot_lip_thickness": 2,
+    "slot_cavity_max_width": 12,
+    "slot_nominal_total_depth": 6,
+    "slot_cavity_shape": "45-degree taper below wide undercut; rectangular undercut is invalid and disconnects corners",
+    "top_slot_proxy_vertices_2020": [[-3,10],[-3,8],[-6,8],[-6,7],[-3,4],[3,4],[6,7],[6,8],[3,8],[3,10]],
+    "root_v_optional_vertices": [[-0.519615,4],[0,3.7],[0.519615,4]],
+    "root_v_included_angle_degrees": 120,
+    "root_v_depth": 0.3,
+    "proxy_limitations": "Nominal drawing reconstruction; unspecified internal radii omitted. Use published mass and I, not simplified CAD mass or I. Not manufacturing geometry for extrusion.",
+    "cut_length_tolerance": 0.5,
+    "HFS5-2020": {"outside": [20,20], "slot_count": 4, "center_bore_diameter": 4.2, "exterior_corner_radius": 1, "cross_section_mm2": 183, "linear_mass_g_per_m": 500, "I_mm4": [7420,7420]},
+    "HFS5-2040": {"outside": [20,40], "slot_count": 6, "center_bore_diameter": 4.2, "center_bore_spacing": 20, "wide_face_slot_spacing": 20, "exterior_corner_radius": 1, "cross_section_mm2": 324, "linear_mass_g_per_m": 880, "I_weak_strong_mm4": [13580,51300]},
+    "price_current": null
+  },
+  "rails": {
+    "source": "https://www.hiwin.com/wp-content/uploads/HIWIN-Linear-Guideway-Catalog.pdf",
+    "catalog": "G99TE24-2410",
+    "MGN9H": {"rail_width_height": [9,6.5], "assembly_height": 10, "block_width_length_nominal": [20,39.9], "block_length_maximum_envelope": 40.9, "block_mount_hole_rectangle": [15,16], "block_mount_thread": "M3", "block_mount_thread_depth": 3, "block_mass_g": 26, "rail_linear_mass_g_per_m": 380, "rail_hole_pitch": 20, "rail_hole_through_diameter": 3.5, "rail_counterbore_diameter": 6, "rail_counterbore_depth": 3.5, "catalog_end_margin": 7.5, "proposed_250mm_custom_order": {"length": 250, "hole_count": 12, "end_margin": 15, "status": "requires supplier confirmation; not default catalog margin"}},
+    "MGN12H": {"rail_width_height": [12,8], "assembly_height": 13, "block_width_length_nominal": [27,45.4], "block_length_maximum_envelope": 45.8, "block_mount_hole_rectangle": [20,20], "block_mount_thread": "M3", "block_mount_thread_depth": 3.5, "block_mass_g": 54, "rail_linear_mass_g_per_m": 650, "rail_hole_pitch": 25, "rail_hole_through_diameter": 3.5, "rail_counterbore_diameter": 6, "rail_counterbore_depth": 4.5, "catalog_end_margin": 10, "proposed_250mm_custom_order": {"length": 250, "hole_count": 10, "end_margin": 12.5, "status": "requires supplier confirmation; not default catalog margin"}}
+  },
+  "vendor_cad": [
+    {"part": "Goliath AIR mockup", "path": "cad/vendor/Goliath_Mockup_AIR.STEP", "bytes": 1345096, "sha256": "5270113e67481bc8d14c25a5fa2b333afa3352342089f6acbc58c47f0662d347", "source_url": "https://raw.githubusercontent.com/VzBoT3D/Goliath/main/CAD/Goliath%20Mockup%20AIR.STEP", "source_repository": "https://github.com/VzBoT3D/Goliath", "source_git_blob_sha": "98711de5d892cf4947028c114f8c05c55bcb6428", "license": "CC BY-NC 4.0; preserve source attribution", "mount_hole_coordinates": null, "nozzle_tip_datum": null, "verified_mass_g": null, "verified_heater_watts": null, "verified_flow_mm3_per_s": null, "cold_side_fan_sizes": ["2010", "2510"], "recommended_fan_family": "Delta 2510; exact part number unresolved", "sensor": "PT1000 with M3 brass holder", "nozzle_thread": "M6 V6-family", "sock_max_temperature_C": 300, "integration_status": "download verified; requires native import, datum extraction, and purchased revision check"},
+    {"part": "Sherpa Micro standard release 2 rev1", "path": "cad/vendor/sherpa_micro_release_2_rev1.STEP", "bytes": 37524986, "sha256": "8bea49f21001018af1484ccb95ded22dddecb829721a9c0dc1b7635743d4666e", "source_url": "https://raw.githubusercontent.com/Annex-Engineering/Sherpa_Micro-Extruder/main/CAD/sherpa_micro_release_2_rev1.STEP", "source_repository": "https://github.com/Annex-Engineering/Sherpa_Micro-Extruder", "source_git_blob_sha": "6f2264cc3882386af4169f27537302b6aab343bd", "license": "Annex Engineering license; see repository LICENSE.md and linked agreement", "mount_hole_coordinates": null, "filament_path_datum": null, "verified_complete_mass_g": null, "gear_ratios_supported": ["50:10", "50:8"], "integration_status": "download verified; standard release only, not fixed alpha variant; requires native import and datum extraction"}
+  ],
+  "motors": {
+    "XY_candidate": {"model": "LDO-42STH48-2804AC(S35)", "source": "https://ldomotion.com/products/ldo42sth482804acs35", "mass_g_reference": 350, "rotor_inertia_g_cm2": 84.5, "phase_resistance_ohm": 0.7, "phase_inductance_mH": 0.6, "holding_torque_mNm_reference": 420, "rated_current_A": null, "current_note": "Manufacturer page says1.8A while1.96V/0.7ohm and manufacturer store imply2.8A; obtain exact variant datasheet before current freeze.", "mount_hole_coordinates": null, "shaft_geometry": null, "torque_speed_48V_curve": null, "price_before_shipping_tax": 24.99},
+    "extruder_candidate": {"model": "LDO-36STH20-1004AHG", "source": "https://ldomotion.com/products/ldo36sth201004ahgvrn", "mass_g_reference": 85, "rotor_inertia_g_cm2": 16, "phase_resistance_ohm": 2.1, "phase_inductance_mH": 1.6, "rated_current_A": 1, "holding_torque_mNm": 100, "pinion_teeth": 10, "pinion_module": 0.5, "pinion_pressure_angle_degrees": 20, "pinion_pitch_diameter": 5, "pinion_outside_diameter": 6, "mount_hole_coordinates": null, "price_before_shipping_tax": 20.99, "note": "Pinion-equipped AHG required; non-geared AH is not interchangeable."},
+    "Z_candidate": {"model": "LDO-42STH25-1004CL200E(VRN)", "source": "https://store.ldomotion.com/products/ldo-42sth25-1004cl200e-vrn-nema17-linear-stepper-motor-200mm-tr8x8", "motor_body_envelope": [42.3,42.3,26], "mount_hole_rectangle": [31,31], "mount_hole_spacing_tolerance": 0.1, "mount_thread": "M3", "mount_thread_depth_min": 3, "pilot_diameter": null, "integrated_screw_length": 200, "screw_length_tolerance": 1, "screw": "Tr8x8(P2), four starts", "lead": 8, "pitch": 2, "mass_g_reference_total": 150, "holding_torque_mNm_min": 240, "rated_current_A": 1, "phase_resistance_ohm": 5.5, "phase_inductance_mH": 7, "rotor_inertia_g_cm2": 35, "nut": {"material": "PEEK anti-backlash", "mount_thread": "M3", "mount_hole_count": 2, "mount_hole_spacing": 12.6, "flange_width": 18, "full_envelope": null}, "price_before_shipping_tax": 28.99, "note": "Backdrive and full nut/pilot geometry require verification."}
+  },
+  "belts": {"owned_width": 9, "owned_pitch": null, "owned_reinforcement": null, "owned_tooth_form": null, "owned_pulley_teeth": null, "owned_pulley_bore": null, "owned_pulley_hub_flange_geometry": null, "planning_candidate": "2MGT/GT3 compatible belt and pulleys", "gates_source": "https://www.gates.com/content/dam/gates/home/knowledge-center/resource-library/application-specs/gatescorporationbeltidchart.pdf", "candidate_nominal_thickness": 1.52, "candidate_nominal_tooth_height": 0.76, "calculated_20T_2mm_pitch_diameter": 12.7323954474, "calculated_20T_travel_per_rev": 40, "idler_clear_face_design_allowance": 10, "idler_face_note": "Engineering clearance allowance, not purchased dimension; actual idler bearings/envelopes unresolved."},
+  "owned_CPAP": {"blower_model": null, "pressure_flow_curve": null, "hose_ID": null, "hose_OD": null, "cuff_geometry": null, "bend_radius": null, "supported_mass_g": null, "status": "owned, exact interfaces unverified; keep parameterized"},
+  "bed": {"plate_source_or_drawing": null, "heater_exact_part": null, "heater_power_W": null, "heater_thickness": null, "heater_lead_exit": null, "surface_stack": null, "release_status": "unfrozen"},
+  "electronics": {
+    "controller": {"model": "BIGTREETECH Octopus Pro V1.1", "MCU_variant": null, "source": "https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-Pro", "drawing_source": "https://raw.githubusercontent.com/bigtreetech/BIGTREETECH-OCTOPUS-Pro/master/Hardware/BIGTREETECH%20Octopus%20Pro%20-%20SIZE.pdf", "board_size": [160,100], "mount_hole_rectangle": [150,90], "mount_hole_diameter": null, "PCB_thickness": null, "complete_height": null, "mass_g": null, "maximum_motor_power_V": 60, "maximum_main_bed_power_V": 28, "note": "Repository beta STEP is not guaranteedV1.1; exact purchased MCU/revision required for firmware."},
+    "XY_driver": {"model": "BIGTREETECH TMC5160T Pro V1.0", "source": "https://biqu.equipment/collections/motor-driver/products/tmc5160-pro-v1-0", "maximum_supply_V": 56, "price_before_shipping_tax": 18.99, "envelope": null, "mass_g": null},
+    "motor_PSU": {"model": "Mean Well LRS-350-48", "source": "https://www.meanwell.com/Upload/PDF/LRS-350/LRS-350-SPEC.PDF", "nominal_V": 48, "rated_A": 7.3, "rated_W": 350.4, "size": [215,115,30], "mass_g_reference": 760, "mount_hole_coordinates": null, "AC_input": "selectable115/230V", "price": null},
+    "24V_PSU_alternative": {"model": "Mean Well LRS-150-24", "source": "https://www.meanwell.com/Upload/PDF/LRS-150/LRS-150-SPEC.PDF", "nominal_V": 24, "rated_A": 6.5, "rated_W": 156, "size": [159,97,30], "mass_g_reference": 420, "mount_hole_coordinates": null, "note": "May be insufficient for hotend plus heated bed; finalize actual thermal loads first.", "price": null}
+  },
+  "unresolved_release_items": ["hotend/extruder native imported datums", "actual purchased toolhead weights", "motor48V torque-speed evidence and rated current conflict", "owned belt/pulley exact dimensions", "owned CPAP hose and pressure-flow data", "rail order end margins", "Z nut/pilot complete geometry", "bed/heater exact interfaces", "cold-side fan exact part", "electronics connector/envelope/mount details", "current delivered cost"]
+}
