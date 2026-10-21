@@ -114,38 +114,53 @@ def _g6_portal(parent,side,hand):
     return c
 
 
-def _g6_hanger(parent,axis,k,x,y,face):
-    op=adsk.fusion.FeatureOperations;cut=op.CutFeatureOperation
-    sy=130 if y>0 else -130;sx=1 if x>0 else -1
-    c=_g6_new(parent,'CBP-D402_'+axis+'_FRAME_HANGER_'+str(k),
-        'Native printed motorhanger DEVELOPMENT. Rail/idler and motorhead keepouts; A-front upperinnerwall island omitted explicitly. Remaining webs, hotmotorcreep/cyclicstiffness unvalidated. Fit motor/plate before hanging due frontcap tool obstruction.')
-    _box(c,'FRAME-TOP',45,20,7,(x,sy,276.5),op.NewBodyFeatureOperation)
-    y0=min(y-31,sy-10);y1=max(y+31,sy+10)
-    for dx in [-20,20]:
-        _box(c,'WALL-'+str(dx),5,y1-y0,280-(face-6),
-             (x+dx,(y0+y1)/2,(face-6+280)/2),op.JoinFeatureOperation)
-    # Cut the walls before adding the feet: sourceCQ limits these two tools
-    # to walls, so this order preserves the complete bearing faces of feet.
-    _box(c,'MOTOR-BODY-CLEARANCE',43,43,60,(x,y,face-30),cut)
-    _box(c,'MOTOR-PLATE-CLEARANCE',45.1,64.1,6.1,(x,y,face+3),cut)
-    for dy in [-27,27]:
-        _box(c,'PLATE-FOOT-'+str(dy),42,8,6,(x,y+dy,face-3),op.JoinFeatureOperation)
-        for dx in [-17,17]:
-            _g6_bore(c,'M4-'+str(dx)+'-'+str(dy),4.4,6,(x+dx,y+dy,face-6),(0,0,1))
-            _hexcut(c,'M4-NUT-'+str(dx)+'-'+str(dy),7.2,3.3,(x+dx,y+dy,face-5.7),(0,0,1))
-    for dx in [-15,15]:_g6_bore(c,'FRAME-M5-'+str(dx),5.5,7,(x+dx,sy,273),(0,0,1))
-    _box(c,'Y-RAIL-CLEARANCE',8,202,10,(sx*113,0,280),cut)
-    for dx in [-15.5,15.5]:
-        for dy in [-15.5,15.5]:_g6_bore(c,'MOTOR-HEAD-ACCESS-'+str(dx)+'-'+str(dy),8,280-(face+6),(x+dx,y+dy,face+6),(0,0,1))
-    # Trim the future island before the circular idler cut, so native history
-    # does not have to create then remove a disconnected body.
-    if axis=='A' and k==2:
-        low,high=face+5.95,280.1
-        _box(c,'OMIT-DISCONNECTED-INNER-TIP',5.5,19.5,high-low,(x-20,-83.25,(low+high)/2),cut)
-    if k==2:
-        r=88.75-2*11.459155902616464
-        _g6_bore(c,'FIXED-RETURN-CLEARANCE',28.5,26.2,((1 if axis=='A' else -1)*r,-105,262.8),(0,0,1))
-    return c
+def _g6_station_custom(parent,axis,k,x,y,face):
+    ns={}
+    path=os.path.join(_G6_BASE,'motor_mount_dimensions.py')
+    exec(compile(open(path,encoding='utf-8').read(),path,'exec'),ns)
+    specs=ns['motor_mount_specs'](axis,k,x,y,face)
+    op=adsk.fusion.FeatureOperations;done=[]
+    for spec in specs:
+        c=_g6_new(parent,spec['name'],'6061-T6 metal mount; '+spec['notes'])
+        for f in spec['operations']:
+            operation={'new':op.NewBodyFeatureOperation,'join':op.JoinFeatureOperation,'cut':op.CutFeatureOperation}[f['op']]
+            if f['kind']=='box':_box(c,f['name'],*f['size'],f['p'],operation)
+            else:_cyl(c,f['name'],f['d'],f['L'],f['p'],f['axis'],operation)
+        assert c.bRepBodies.count==1,(c.name,c.bRepBodies.count)
+        c.bRepBodies.item(0).name=c.name;done.append(c)
+    return done
+
+
+def import_native_motor_station_hardware(axis,k):
+    d=adsk.fusion.Design.cast(adsk.core.Application.get().activeProduct)
+    fixed=group(group(d.rootComponent,'20_XY_MOTION').component,'24_AWD_DRIVES_FIXED').component
+    base=globals().get('REVF_NATIVE_EXPORT_ROOT',os.path.join(_G6_BASE,'exports'))
+    folder=os.path.join(base,'gantry_supports')
+    rows=json.load(open(os.path.join(folder,'CBP_RevF_Gantry_Supports_DEVELOPMENT-parts.json'),encoding='utf-8'))
+    app=adsk.core.Application.get();count=0
+    prefixes=['CBP-H'+str(n)+'_'+axis+'_'+str(k)+'_' for n in [610,611,612,613,614]]
+    for row in rows:
+        n=row['name']
+        if not any(n.startswith(p) for p in prefixes):continue
+        if any(o.component.name==n for o in fixed.occurrences):continue
+        o=part(fixed,n);o.component.partNumber=n;o.component.description=row.get('notes','')
+        assert app.importManager.importToTarget(app.importManager.createSTEPImportOptions(os.path.join(folder,n+'.step')),o.component),n
+        count+=1
+    print('Imported metal mount hardware',axis,k,count,'components')
+
+
+def build_native_motor_station(axis,k,include_hardware=False):
+    assert axis in ('A','B') and k in (1,2)
+    d=adsk.fusion.Design.cast(adsk.core.Application.get().activeProduct)
+    assert d and d.designType==adsk.fusion.DesignTypes.ParametricDesignType
+    _g6_parameters(d)
+    fixed=group(group(d.rootComponent,'20_XY_MOTION').component,'24_AWD_DRIVES_FIXED').component
+    sign=1 if axis=='A' else -1;face=(282.3 if axis=='A' else 269.3)-24.5
+    x=(-sign if k==1 else sign)*88.75;y=95 if k==1 else -105
+    components=_g6_station_custom(fixed,axis,k,x,y,face)
+    if include_hardware:import_native_motor_station_hardware(axis,k)
+    d.computeAll();print('Completed native metal motor mount',axis,k,len(components),'custom parts')
+    return components
 
 
 def _g6_import_hardware(fixed,moving):
@@ -182,9 +197,7 @@ def build_native_gantry_supports():
     for axis,z in [('A',282.3),('B',269.3)]:
         sign=1 if axis=='A' else -1;face=z-24.5
         for k,(x,y) in enumerate([(-sign*88.75,95),(sign*88.75,-105)],1):
-            c=_g6_hanger(fixed,axis,k,x,y,face)
-            assert c.bRepBodies.count==1,(c.name,c.bRepBodies.count)
-            c.bRepBodies.item(0).name=c.name
+            _g6_station_custom(fixed,axis,k,x,y,face)
     _g6_import_hardware(fixed,moving)
     d.computeAll();audit(d)
     print('Native06 custom supports built with driving sketches; hardware imported individually. ReducedY-20..+30 only. Native recomputation/interference/material/joint verification still required.')

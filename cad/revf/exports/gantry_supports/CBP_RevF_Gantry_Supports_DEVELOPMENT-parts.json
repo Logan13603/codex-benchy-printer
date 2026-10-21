@@ -1,0 +1,6848 @@
+[
+  {
+    "name": "CBP-M205_L_CARRIAGE_ADAPTER",
+    "material": "6061",
+    "category": "cnc",
+    "motion_group": "gantry",
+    "notes": "4mmAl,Z254..305; MGNcounterbores6x2.5 useM3x4 giving2.5thread and0.60nominalbelt/headgap. ForkmountsM3x6,Z259/293; upperrearY-6. Verify tolerances before manufacture.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 7300.129020670912,
+    "density_g_cm3": 2.7,
+    "mass_g": 19.710348355811465,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 19.710348355811465,
+    "centroid_mm": [
+      -104.02026130068427,
+      -0.021517377601779002,
+      279.38836031391986
+    ],
+    "bbox_mm": [
+      [
+        -106.0,
+        -19.0,
+        254.0
+      ],
+      [
+        -102.0,
+        19.0,
+        305.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-M206_L_SPLIT_BEAM_CLAMP",
+    "material": "ASA",
+    "category": "printed",
+    "motion_group": "gantry",
+    "notes": "Tune20.3coupon;closedCF150,clampX55..75;2M3crossclampsX60/70Z298. Rail-end relief endsX70.5,Y-15.3..-9.7,Z276..284; outer4.5mmwall preserves one connectedpart. 2insertpockets4.6x4 plus3.3screwexitpilot. NoCFbeltports.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 9053.76457915779,
+    "density_g_cm3": 1.07,
+    "mass_g": 9.687528099698836,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 9.687528099698836,
+    "centroid_mm": [
+      -65.1186412558675,
+      0.5500984279226342,
+      284.1871296214658
+    ],
+    "bbox_mm": [
+      [
+        -75.0,
+        -14.0,
+        266.0
+      ],
+      [
+        -55.0,
+        14.0,
+        302.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-M208_L_SEPARATE_IDLER_FORK",
+    "material": "ASA",
+    "category": "printed",
+    "motion_group": "gantry",
+    "notes": "SeparateforkM3x6ontoAladapter atZ259/293, upperrearY-6. OuterbeltwindowsX99..102.2 andMGNheadreliefs. Ribtop289.3; capnotch and lowerrearheadaccess. Shaft/retention HOLD.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 13840.191155143662,
+    "density_g_cm3": 1.07,
+    "mass_g": 14.80900453600372,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 14.80900453600372,
+    "centroid_mm": [
+      -94.20944970422629,
+      -9.73412038785579,
+      272.1274097556617
+    ],
+    "bbox_mm": [
+      [
+        -102.0,
+        -45.0,
+        254.0
+      ],
+      [
+        -79.75,
+        19.000000000000004,
+        298.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-M209_L_AL_PORTAL_BRIDGE",
+    "material": "6061",
+    "category": "cnc",
+    "motion_group": "gantry",
+    "notes": "50x38x4,X60..110,Z305..309; addedouteredgewidthfor6mmM3edgedistance. 2M3x8intoAladapter;2M3x12intoclampinsertsvia3mmspacers;0.5washers.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 7463.152224009629,
+    "density_g_cm3": 2.7,
+    "mass_g": 20.150511004826,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 20.150511004826,
+    "centroid_mm": [
+      -85.00916822891202,
+      -6.093234296139654e-17,
+      307.0
+    ],
+    "bbox_mm": [
+      [
+        -110.0,
+        -19.0,
+        305.0
+      ],
+      [
+        -60.0,
+        19.0,
+        309.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P410_L_PORTAL_SPACER_0",
+    "material": "aluminum",
+    "category": "purchased",
+    "motion_group": "gantry",
+    "notes": "",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 89.79457202123031,
+    "density_g_cm3": 2.7,
+    "mass_g": 0.24244534445732185,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.24244534445732185,
+    "centroid_mm": [
+      -65.00000000000001,
+      -5.0,
+      303.5
+    ],
+    "bbox_mm": [
+      [
+        -68.5,
+        -8.5,
+        302.0
+      ],
+      [
+        -61.5,
+        -1.5,
+        305.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P410_L_PORTAL_SPACER_1",
+    "material": "aluminum",
+    "category": "purchased",
+    "motion_group": "gantry",
+    "notes": "",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 89.79457202123031,
+    "density_g_cm3": 2.7,
+    "mass_g": 0.24244534445732185,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.24244534445732185,
+    "centroid_mm": [
+      -65.00000000000001,
+      5.0,
+      303.5
+    ],
+    "bbox_mm": [
+      [
+        -68.5,
+        1.5,
+        302.0
+      ],
+      [
+        -61.5,
+        8.5,
+        305.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-M207_L_REMOVABLE_IDLER_CAP",
+    "material": "ASA",
+    "category": "printed",
+    "motion_group": "gantry",
+    "notes": "2M3x10capbolts, rail returns at269.3/282.3; use precision5shaft and inner-race spacers; exactshaftretention HOLD.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 3215.61308268016,
+    "density_g_cm3": 1.07,
+    "mass_g": 3.440705998467771,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 3.440705998467771,
+    "centroid_mm": [
+      -88.74999999999999,
+      -29.101378167775017,
+      292.24480302002064
+    ],
+    "bbox_mm": [
+      [
+        -97.75,
+        -45.0,
+        289.3
+      ],
+      [
+        -79.75,
+        -12.0,
+        295.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P408_L_5MM_IDLER_SHAFT_ALLOWANCE",
+    "material": "steel",
+    "category": "purchased",
+    "motion_group": "gantry",
+    "notes": "Ground5mmshaft geometry allowance; exact shoulder/groove/retention SKU not frozen. Do not manufacture fork before stack freeze.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 840.3760348352695,
+    "density_g_cm3": 7.85,
+    "mass_g": 6.596951873456866,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 6.596951873456866,
+    "centroid_mm": [
+      -88.75,
+      -35.0,
+      278.40000000000003
+    ],
+    "bbox_mm": [
+      [
+        -91.25,
+        -37.5,
+        257.0
+      ],
+      [
+        -86.25,
+        -32.5,
+        299.8
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P409_L_INNER_RACE_SPACER_0",
+    "material": "steel",
+    "category": "purchased",
+    "motion_group": "gantry",
+    "notes": "5.2ID8OD; thickness stack is provisional, measure actual idler bearings/flanges.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 8.708494835751027,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.06836168446064557,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.06836168446064557,
+    "centroid_mm": [
+      -88.74999999999999,
+      -34.99999999999999,
+      263.15000000000003
+    ],
+    "bbox_mm": [
+      [
+        -92.75,
+        -39.0,
+        263.0
+      ],
+      [
+        -84.75,
+        -31.0,
+        263.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P409_L_INNER_RACE_SPACER_1",
+    "material": "steel",
+    "category": "purchased",
+    "motion_group": "gantry",
+    "notes": "5.2ID8OD; thickness stack is provisional, measure actual idler bearings/flanges.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 29.028316119169723,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.22787228153548234,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.22787228153548234,
+    "centroid_mm": [
+      -88.74999999999997,
+      -35.0,
+      275.7999999999999
+    ],
+    "bbox_mm": [
+      [
+        -92.75,
+        -39.0,
+        275.3
+      ],
+      [
+        -84.75,
+        -31.0,
+        276.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P409_L_INNER_RACE_SPACER_2",
+    "material": "steel",
+    "category": "purchased",
+    "motion_group": "gantry",
+    "notes": "5.2ID8OD; thickness stack is provisional, measure actual idler bearings/flanges.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 29.028316119169723,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.22787228153548234,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.22787228153548234,
+    "centroid_mm": [
+      -88.74999999999997,
+      -35.0,
+      288.8
+    ],
+    "bbox_mm": [
+      [
+        -92.75,
+        -39.0,
+        288.3
+      ],
+      [
+        -84.75,
+        -31.0,
+        289.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H601_L_FORK_M3X6_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "gantry",
+    "notes": "M3 socket head, nominal thread omitted; underhead length6.",
+    "intentional_thread_mate": "CBP-M205_L_CARRIAGE_ADAPTER",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 101.29139556011611,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.7951374551469115,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.7951374551469115,
+    "centroid_mm": [
+      -99.42762646398467,
+      -13.999999999999995,
+      258.9999999999999
+    ],
+    "bbox_mm": [
+      [
+        -105.0,
+        -16.75,
+        256.25
+      ],
+      [
+        -96.0,
+        -11.25,
+        261.75
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H601_L_FORK_M3X6_2",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "gantry",
+    "notes": "M3 socket head, nominal thread omitted; underhead length6.",
+    "intentional_thread_mate": "CBP-M205_L_CARRIAGE_ADAPTER",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 101.29139556011611,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.7951374551469115,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.7951374551469115,
+    "centroid_mm": [
+      -99.42762646398467,
+      13.999999999999995,
+      258.9999999999999
+    ],
+    "bbox_mm": [
+      [
+        -105.0,
+        11.25,
+        256.25
+      ],
+      [
+        -96.0,
+        16.75,
+        261.75
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H601_L_FORK_M3X6_3",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "gantry",
+    "notes": "M3 socket head, nominal thread omitted; underhead length6.",
+    "intentional_thread_mate": "CBP-M205_L_CARRIAGE_ADAPTER",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 101.29139556011606,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.795137455146911,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.795137455146911,
+    "centroid_mm": [
+      -99.4276264639847,
+      -5.999999999999999,
+      292.99999999999994
+    ],
+    "bbox_mm": [
+      [
+        -105.0,
+        -8.75,
+        290.25
+      ],
+      [
+        -96.0,
+        -3.25,
+        295.75
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H601_L_FORK_M3X6_4",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "gantry",
+    "notes": "M3 socket head, nominal thread omitted; underhead length6.",
+    "intentional_thread_mate": "CBP-M205_L_CARRIAGE_ADAPTER",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 101.29139556011611,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.7951374551469115,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.7951374551469115,
+    "centroid_mm": [
+      -99.42762646398467,
+      13.999999999999995,
+      292.99999999999994
+    ],
+    "bbox_mm": [
+      [
+        -105.0,
+        11.25,
+        290.25
+      ],
+      [
+        -96.0,
+        16.75,
+        295.75
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H602_L_MGN_M3X4_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "gantry",
+    "notes": "M3 socket head, nominal thread omitted; underhead length4.",
+    "intentional_thread_mate": "CBP-P202_MGN9H_Y_BLOCK_L",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 87.15422861896197,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.6841606946588514,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.6841606946588514,
+    "centroid_mm": [
+      -104.18594807361569,
+      -8.0,
+      272.50000000000006
+    ],
+    "bbox_mm": [
+      [
+        -108.5,
+        -10.75,
+        269.75
+      ],
+      [
+        -101.5,
+        -5.25,
+        275.25
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H602_L_MGN_M3X4_2",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "gantry",
+    "notes": "M3 socket head, nominal thread omitted; underhead length4.",
+    "intentional_thread_mate": "CBP-P202_MGN9H_Y_BLOCK_L",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 87.15422861896197,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.6841606946588514,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.6841606946588514,
+    "centroid_mm": [
+      -104.18594807361569,
+      -8.0,
+      287.49999999999994
+    ],
+    "bbox_mm": [
+      [
+        -108.5,
+        -10.75,
+        284.75
+      ],
+      [
+        -101.5,
+        -5.25,
+        290.25
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H602_L_MGN_M3X4_3",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "gantry",
+    "notes": "M3 socket head, nominal thread omitted; underhead length4.",
+    "intentional_thread_mate": "CBP-P202_MGN9H_Y_BLOCK_L",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 87.15422861896191,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.684160694658851,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.684160694658851,
+    "centroid_mm": [
+      -104.18594807361569,
+      7.999999999999999,
+      272.50000000000006
+    ],
+    "bbox_mm": [
+      [
+        -108.5,
+        5.25,
+        269.75
+      ],
+      [
+        -101.5,
+        10.75,
+        275.25
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H602_L_MGN_M3X4_4",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "gantry",
+    "notes": "M3 socket head, nominal thread omitted; underhead length4.",
+    "intentional_thread_mate": "CBP-P202_MGN9H_Y_BLOCK_L",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 87.15422861896191,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.684160694658851,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.684160694658851,
+    "centroid_mm": [
+      -104.18594807361569,
+      7.999999999999999,
+      287.49999999999994
+    ],
+    "bbox_mm": [
+      [
+        -108.5,
+        5.25,
+        284.75
+      ],
+      [
+        -101.5,
+        10.75,
+        290.25
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H603_L_CAP_M3X10_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "gantry",
+    "notes": "M3 socket head, nominal thread omitted; underhead length10.",
+    "intentional_thread_mate": "CBP-M208_L_SEPARATE_IDLER_FORK",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 129.56572944242382,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.017090976123027,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.017090976123027,
+    "centroid_mm": [
+      -82.75000000000003,
+      -16.000000000000004,
+      290.21990093727914
+    ],
+    "bbox_mm": [
+      [
+        -85.5,
+        -18.75,
+        282.3
+      ],
+      [
+        -80.0,
+        -13.25,
+        295.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H603_L_CAP_M3X10_2",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "gantry",
+    "notes": "M3 socket head, nominal thread omitted; underhead length10.",
+    "intentional_thread_mate": "CBP-M208_L_SEPARATE_IDLER_FORK",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 129.56572944242382,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.017090976123027,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.017090976123027,
+    "centroid_mm": [
+      -94.75,
+      -16.000000000000004,
+      290.21990093727914
+    ],
+    "bbox_mm": [
+      [
+        -97.5,
+        -18.75,
+        282.3
+      ],
+      [
+        -92.0,
+        -13.25,
+        295.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H604_L_PORTAL_AL_M3X8_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "gantry",
+    "notes": "M3 socket head, nominal thread omitted; underhead length8.",
+    "intentional_thread_mate": "CBP-M205_L_CARRIAGE_ADAPTER",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 115.42856250126975,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.9061142156349675,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.9061142156349675,
+    "centroid_mm": [
+      -104.00000000000001,
+      -10.000000000000004,
+      308.26741902679447
+    ],
+    "bbox_mm": [
+      [
+        -106.75,
+        -12.75,
+        301.5
+      ],
+      [
+        -101.25,
+        -7.25,
+        312.5
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H605_L_PORTAL_AL_WASHER_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "gantry",
+    "notes": "M3 washer OD7x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642564,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214412,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214412,
+    "centroid_mm": [
+      -104.00000000000001,
+      -10.0,
+      309.25000000000006
+    ],
+    "bbox_mm": [
+      [
+        -107.5,
+        -13.5,
+        309.0
+      ],
+      [
+        -100.5,
+        -6.5,
+        309.5
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H604_L_PORTAL_AL_M3X8_2",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "gantry",
+    "notes": "M3 socket head, nominal thread omitted; underhead length8.",
+    "intentional_thread_mate": "CBP-M205_L_CARRIAGE_ADAPTER",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 115.42856250126975,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.9061142156349675,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.9061142156349675,
+    "centroid_mm": [
+      -104.00000000000001,
+      10.000000000000002,
+      308.26741902679447
+    ],
+    "bbox_mm": [
+      [
+        -106.75,
+        7.25,
+        301.5
+      ],
+      [
+        -101.25,
+        12.75,
+        312.5
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H605_L_PORTAL_AL_WASHER_2",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "gantry",
+    "notes": "M3 washer OD7x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642567,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214415,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214415,
+    "centroid_mm": [
+      -103.99999999999999,
+      9.999999999999998,
+      309.25
+    ],
+    "bbox_mm": [
+      [
+        -107.5,
+        6.5,
+        309.0
+      ],
+      [
+        -100.5,
+        13.5,
+        309.5
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H606_L_PORTAL_CLAMP_M3X12_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "gantry",
+    "notes": "M3 socket head, nominal thread omitted; underhead length12.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 143.70289638357778,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.1280677366110856,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.1280677366110856,
+    "centroid_mm": [
+      -64.99999999999999,
+      -5.000000000000002,
+      306.5423811946551
+    ],
+    "bbox_mm": [
+      [
+        -67.75,
+        -7.75,
+        297.5
+      ],
+      [
+        -62.25,
+        -2.25,
+        312.5
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H607_L_PORTAL_CLAMP_WASHER_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "gantry",
+    "notes": "M3 washer OD7x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642548,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.119484978792144,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.119484978792144,
+    "centroid_mm": [
+      -65.0,
+      -4.999999999999999,
+      309.25
+    ],
+    "bbox_mm": [
+      [
+        -68.5,
+        -8.5,
+        309.0
+      ],
+      [
+        -61.5,
+        -1.5,
+        309.5
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H606_L_PORTAL_CLAMP_M3X12_2",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "gantry",
+    "notes": "M3 socket head, nominal thread omitted; underhead length12.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 143.70289638357778,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.1280677366110856,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.1280677366110856,
+    "centroid_mm": [
+      -64.99999999999999,
+      4.999999999999999,
+      306.5423811946551
+    ],
+    "bbox_mm": [
+      [
+        -67.75,
+        2.25,
+        297.5
+      ],
+      [
+        -62.25,
+        7.75,
+        312.5
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H607_L_PORTAL_CLAMP_WASHER_2",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "gantry",
+    "notes": "M3 washer OD7x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642551,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214402,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214402,
+    "centroid_mm": [
+      -65.0,
+      5.0,
+      309.25
+    ],
+    "bbox_mm": [
+      [
+        -68.5,
+        1.5,
+        309.0
+      ],
+      [
+        -61.5,
+        8.5,
+        309.5
+      ]
+    ]
+  },
+  {
+    "name": "CBP-M205_R_CARRIAGE_ADAPTER",
+    "material": "6061",
+    "category": "cnc",
+    "motion_group": "gantry",
+    "notes": "4mmAl,Z254..305; MGNcounterbores6x2.5 useM3x4 giving2.5thread and0.60nominalbelt/headgap. ForkmountsM3x6,Z259/293; upperrearY-6. Verify tolerances before manufacture.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 7300.129020670912,
+    "density_g_cm3": 2.7,
+    "mass_g": 19.710348355811465,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 19.710348355811465,
+    "centroid_mm": [
+      104.02026130068427,
+      -0.021517377601779002,
+      279.38836031391986
+    ],
+    "bbox_mm": [
+      [
+        102.0,
+        -19.0,
+        254.0
+      ],
+      [
+        106.0,
+        19.0,
+        305.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-M206_R_SPLIT_BEAM_CLAMP",
+    "material": "ASA",
+    "category": "printed",
+    "motion_group": "gantry",
+    "notes": "Tune20.3coupon;closedCF150,clampX55..75;2M3crossclampsX60/70Z298. Rail-end relief endsX70.5,Y-15.3..-9.7,Z276..284; outer4.5mmwall preserves one connectedpart. 2insertpockets4.6x4 plus3.3screwexitpilot. NoCFbeltports.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 9053.764579157789,
+    "density_g_cm3": 1.07,
+    "mass_g": 9.687528099698834,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 9.687528099698834,
+    "centroid_mm": [
+      65.1186412558675,
+      0.5500984279226334,
+      284.18712962146583
+    ],
+    "bbox_mm": [
+      [
+        55.0,
+        -14.0,
+        266.0
+      ],
+      [
+        75.0,
+        14.0,
+        302.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-M208_R_SEPARATE_IDLER_FORK",
+    "material": "ASA",
+    "category": "printed",
+    "motion_group": "gantry",
+    "notes": "SeparateforkM3x6ontoAladapter atZ259/293, upperrearY-6. OuterbeltwindowsX99..102.2 andMGNheadreliefs. Ribtop289.3; capnotch and lowerrearheadaccess. Shaft/retention HOLD.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 13840.191155143666,
+    "density_g_cm3": 1.07,
+    "mass_g": 14.809004536003723,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 14.809004536003723,
+    "centroid_mm": [
+      94.20944970422626,
+      -9.734120387855791,
+      272.12740975566186
+    ],
+    "bbox_mm": [
+      [
+        79.75,
+        -45.0,
+        254.0
+      ],
+      [
+        102.0,
+        19.000000000000004,
+        298.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-M209_R_AL_PORTAL_BRIDGE",
+    "material": "6061",
+    "category": "cnc",
+    "motion_group": "gantry",
+    "notes": "50x38x4,X60..110,Z305..309; addedouteredgewidthfor6mmM3edgedistance. 2M3x8intoAladapter;2M3x12intoclampinsertsvia3mmspacers;0.5washers.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 7463.152224009629,
+    "density_g_cm3": 2.7,
+    "mass_g": 20.150511004826,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 20.150511004826,
+    "centroid_mm": [
+      85.00916822891202,
+      -6.093234296139654e-17,
+      307.0
+    ],
+    "bbox_mm": [
+      [
+        60.0,
+        -19.0,
+        305.0
+      ],
+      [
+        110.0,
+        19.0,
+        309.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P410_R_PORTAL_SPACER_0",
+    "material": "aluminum",
+    "category": "purchased",
+    "motion_group": "gantry",
+    "notes": "",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 89.79457202123022,
+    "density_g_cm3": 2.7,
+    "mass_g": 0.24244534445732163,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.24244534445732163,
+    "centroid_mm": [
+      65.00000000000001,
+      -5.000000000000001,
+      303.5
+    ],
+    "bbox_mm": [
+      [
+        61.5,
+        -8.5,
+        302.0
+      ],
+      [
+        68.5,
+        -1.5,
+        305.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P410_R_PORTAL_SPACER_1",
+    "material": "aluminum",
+    "category": "purchased",
+    "motion_group": "gantry",
+    "notes": "",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 89.79457202123022,
+    "density_g_cm3": 2.7,
+    "mass_g": 0.24244534445732163,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.24244534445732163,
+    "centroid_mm": [
+      65.00000000000001,
+      4.999999999999999,
+      303.5
+    ],
+    "bbox_mm": [
+      [
+        61.5,
+        1.5,
+        302.0
+      ],
+      [
+        68.5,
+        8.5,
+        305.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-M207_R_REMOVABLE_IDLER_CAP",
+    "material": "ASA",
+    "category": "printed",
+    "motion_group": "gantry",
+    "notes": "2M3x10capbolts, rail returns at269.3/282.3; use precision5shaft and inner-race spacers; exactshaftretention HOLD.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 3215.61308268016,
+    "density_g_cm3": 1.07,
+    "mass_g": 3.440705998467771,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 3.440705998467771,
+    "centroid_mm": [
+      88.74999999999999,
+      -29.101378167775017,
+      292.2448030200205
+    ],
+    "bbox_mm": [
+      [
+        79.75,
+        -45.0,
+        289.3
+      ],
+      [
+        97.75,
+        -12.0,
+        295.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P408_R_5MM_IDLER_SHAFT_ALLOWANCE",
+    "material": "steel",
+    "category": "purchased",
+    "motion_group": "gantry",
+    "notes": "Ground5mmshaft geometry allowance; exact shoulder/groove/retention SKU not frozen. Do not manufacture fork before stack freeze.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 840.3760348352695,
+    "density_g_cm3": 7.85,
+    "mass_g": 6.596951873456866,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 6.596951873456866,
+    "centroid_mm": [
+      88.74999999999999,
+      -35.0,
+      278.40000000000003
+    ],
+    "bbox_mm": [
+      [
+        86.25,
+        -37.5,
+        257.0
+      ],
+      [
+        91.25,
+        -32.5,
+        299.8
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P409_R_INNER_RACE_SPACER_0",
+    "material": "steel",
+    "category": "purchased",
+    "motion_group": "gantry",
+    "notes": "5.2ID8OD; thickness stack is provisional, measure actual idler bearings/flanges.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 8.708494835751027,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.06836168446064557,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.06836168446064557,
+    "centroid_mm": [
+      88.75,
+      -34.99999999999999,
+      263.15000000000003
+    ],
+    "bbox_mm": [
+      [
+        84.75,
+        -39.0,
+        263.0
+      ],
+      [
+        92.75,
+        -31.0,
+        263.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P409_R_INNER_RACE_SPACER_1",
+    "material": "steel",
+    "category": "purchased",
+    "motion_group": "gantry",
+    "notes": "5.2ID8OD; thickness stack is provisional, measure actual idler bearings/flanges.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 29.028316119169723,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.22787228153548234,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.22787228153548234,
+    "centroid_mm": [
+      88.75000000000001,
+      -35.0,
+      275.7999999999999
+    ],
+    "bbox_mm": [
+      [
+        84.75,
+        -39.0,
+        275.3
+      ],
+      [
+        92.75,
+        -31.0,
+        276.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P409_R_INNER_RACE_SPACER_2",
+    "material": "steel",
+    "category": "purchased",
+    "motion_group": "gantry",
+    "notes": "5.2ID8OD; thickness stack is provisional, measure actual idler bearings/flanges.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 29.028316119169723,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.22787228153548234,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.22787228153548234,
+    "centroid_mm": [
+      88.75000000000001,
+      -35.0,
+      288.8
+    ],
+    "bbox_mm": [
+      [
+        84.75,
+        -39.0,
+        288.3
+      ],
+      [
+        92.75,
+        -31.0,
+        289.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H601_R_FORK_M3X6_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "gantry",
+    "notes": "M3 socket head, nominal thread omitted; underhead length6.",
+    "intentional_thread_mate": "CBP-M205_R_CARRIAGE_ADAPTER",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 101.29139556011611,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.7951374551469115,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.7951374551469115,
+    "centroid_mm": [
+      99.42762646398467,
+      -13.999999999999995,
+      258.99999999999994
+    ],
+    "bbox_mm": [
+      [
+        96.0,
+        -16.75,
+        256.25
+      ],
+      [
+        105.0,
+        -11.25,
+        261.75
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H601_R_FORK_M3X6_2",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "gantry",
+    "notes": "M3 socket head, nominal thread omitted; underhead length6.",
+    "intentional_thread_mate": "CBP-M205_R_CARRIAGE_ADAPTER",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 101.29139556011611,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.7951374551469115,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.7951374551469115,
+    "centroid_mm": [
+      99.42762646398467,
+      13.999999999999995,
+      258.99999999999994
+    ],
+    "bbox_mm": [
+      [
+        96.0,
+        11.25,
+        256.25
+      ],
+      [
+        105.0,
+        16.75,
+        261.75
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H601_R_FORK_M3X6_3",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "gantry",
+    "notes": "M3 socket head, nominal thread omitted; underhead length6.",
+    "intentional_thread_mate": "CBP-M205_R_CARRIAGE_ADAPTER",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 101.29139556011606,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.795137455146911,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.795137455146911,
+    "centroid_mm": [
+      99.4276264639847,
+      -5.999999999999999,
+      292.9999999999999
+    ],
+    "bbox_mm": [
+      [
+        96.0,
+        -8.75,
+        290.25
+      ],
+      [
+        105.0,
+        -3.25,
+        295.75
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H601_R_FORK_M3X6_4",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "gantry",
+    "notes": "M3 socket head, nominal thread omitted; underhead length6.",
+    "intentional_thread_mate": "CBP-M205_R_CARRIAGE_ADAPTER",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 101.29139556011611,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.7951374551469115,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.7951374551469115,
+    "centroid_mm": [
+      99.42762646398467,
+      13.999999999999995,
+      292.99999999999994
+    ],
+    "bbox_mm": [
+      [
+        96.0,
+        11.25,
+        290.25
+      ],
+      [
+        105.0,
+        16.75,
+        295.75
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H602_R_MGN_M3X4_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "gantry",
+    "notes": "M3 socket head, nominal thread omitted; underhead length4.",
+    "intentional_thread_mate": "CBP-P202_MGN9H_Y_BLOCK_R",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 87.15422861896197,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.6841606946588514,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.6841606946588514,
+    "centroid_mm": [
+      104.18594807361569,
+      -8.0,
+      272.5
+    ],
+    "bbox_mm": [
+      [
+        101.5,
+        -10.75,
+        269.75
+      ],
+      [
+        108.5,
+        -5.25,
+        275.25
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H602_R_MGN_M3X4_2",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "gantry",
+    "notes": "M3 socket head, nominal thread omitted; underhead length4.",
+    "intentional_thread_mate": "CBP-P202_MGN9H_Y_BLOCK_R",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 87.15422861896197,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.6841606946588514,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.6841606946588514,
+    "centroid_mm": [
+      104.18594807361569,
+      -8.0,
+      287.5000000000001
+    ],
+    "bbox_mm": [
+      [
+        101.5,
+        -10.75,
+        284.75
+      ],
+      [
+        108.5,
+        -5.25,
+        290.25
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H602_R_MGN_M3X4_3",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "gantry",
+    "notes": "M3 socket head, nominal thread omitted; underhead length4.",
+    "intentional_thread_mate": "CBP-P202_MGN9H_Y_BLOCK_R",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 87.15422861896191,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.684160694658851,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.684160694658851,
+    "centroid_mm": [
+      104.18594807361569,
+      7.999999999999999,
+      272.5
+    ],
+    "bbox_mm": [
+      [
+        101.5,
+        5.25,
+        269.75
+      ],
+      [
+        108.5,
+        10.75,
+        275.25
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H602_R_MGN_M3X4_4",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "gantry",
+    "notes": "M3 socket head, nominal thread omitted; underhead length4.",
+    "intentional_thread_mate": "CBP-P202_MGN9H_Y_BLOCK_R",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 87.15422861896191,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.684160694658851,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.684160694658851,
+    "centroid_mm": [
+      104.18594807361569,
+      7.999999999999999,
+      287.5000000000001
+    ],
+    "bbox_mm": [
+      [
+        101.5,
+        5.25,
+        284.75
+      ],
+      [
+        108.5,
+        10.75,
+        290.25
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H603_R_CAP_M3X10_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "gantry",
+    "notes": "M3 socket head, nominal thread omitted; underhead length10.",
+    "intentional_thread_mate": "CBP-M208_R_SEPARATE_IDLER_FORK",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 129.56572944242382,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.017090976123027,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.017090976123027,
+    "centroid_mm": [
+      82.75000000000001,
+      -16.000000000000004,
+      290.21990093727925
+    ],
+    "bbox_mm": [
+      [
+        80.0,
+        -18.75,
+        282.3
+      ],
+      [
+        85.5,
+        -13.25,
+        295.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H603_R_CAP_M3X10_2",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "gantry",
+    "notes": "M3 socket head, nominal thread omitted; underhead length10.",
+    "intentional_thread_mate": "CBP-M208_R_SEPARATE_IDLER_FORK",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 129.56572944242382,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.017090976123027,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.017090976123027,
+    "centroid_mm": [
+      94.75000000000001,
+      -16.000000000000004,
+      290.21990093727925
+    ],
+    "bbox_mm": [
+      [
+        92.0,
+        -18.75,
+        282.3
+      ],
+      [
+        97.5,
+        -13.25,
+        295.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H604_R_PORTAL_AL_M3X8_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "gantry",
+    "notes": "M3 socket head, nominal thread omitted; underhead length8.",
+    "intentional_thread_mate": "CBP-M205_R_CARRIAGE_ADAPTER",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 115.42856250126975,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.9061142156349675,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.9061142156349675,
+    "centroid_mm": [
+      104.0,
+      -10.000000000000004,
+      308.26741902679447
+    ],
+    "bbox_mm": [
+      [
+        101.25,
+        -12.75,
+        301.5
+      ],
+      [
+        106.75,
+        -7.25,
+        312.5
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H605_R_PORTAL_AL_WASHER_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "gantry",
+    "notes": "M3 washer OD7x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642567,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214415,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214415,
+    "centroid_mm": [
+      103.99999999999997,
+      -9.999999999999998,
+      309.24999999999994
+    ],
+    "bbox_mm": [
+      [
+        100.5,
+        -13.5,
+        309.0
+      ],
+      [
+        107.5,
+        -6.5,
+        309.5
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H604_R_PORTAL_AL_M3X8_2",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "gantry",
+    "notes": "M3 socket head, nominal thread omitted; underhead length8.",
+    "intentional_thread_mate": "CBP-M205_R_CARRIAGE_ADAPTER",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 115.42856250126975,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.9061142156349675,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.9061142156349675,
+    "centroid_mm": [
+      104.0,
+      10.000000000000002,
+      308.26741902679447
+    ],
+    "bbox_mm": [
+      [
+        101.25,
+        7.25,
+        301.5
+      ],
+      [
+        106.75,
+        12.75,
+        312.5
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H605_R_PORTAL_AL_WASHER_2",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "gantry",
+    "notes": "M3 washer OD7x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642567,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214415,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214415,
+    "centroid_mm": [
+      103.99999999999997,
+      9.999999999999998,
+      309.24999999999994
+    ],
+    "bbox_mm": [
+      [
+        100.5,
+        6.5,
+        309.0
+      ],
+      [
+        107.5,
+        13.5,
+        309.5
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H606_R_PORTAL_CLAMP_M3X12_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "gantry",
+    "notes": "M3 socket head, nominal thread omitted; underhead length12.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 143.70289638357787,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.1280677366110863,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.1280677366110863,
+    "centroid_mm": [
+      65.0,
+      -5.000000000000001,
+      306.542381194655
+    ],
+    "bbox_mm": [
+      [
+        62.25,
+        -7.75,
+        297.5
+      ],
+      [
+        67.75,
+        -2.25,
+        312.5
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H607_R_PORTAL_CLAMP_WASHER_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "gantry",
+    "notes": "M3 washer OD7x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642564,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214412,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214412,
+    "centroid_mm": [
+      65.0,
+      -5.0,
+      309.25
+    ],
+    "bbox_mm": [
+      [
+        61.5,
+        -8.5,
+        309.0
+      ],
+      [
+        68.5,
+        -1.5,
+        309.5
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H606_R_PORTAL_CLAMP_M3X12_2",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "gantry",
+    "notes": "M3 socket head, nominal thread omitted; underhead length12.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 143.70289638357784,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.128067736611086,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.128067736611086,
+    "centroid_mm": [
+      65.0,
+      5.000000000000002,
+      306.54238119465504
+    ],
+    "bbox_mm": [
+      [
+        62.25,
+        2.25,
+        297.5
+      ],
+      [
+        67.75,
+        7.75,
+        312.5
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H607_R_PORTAL_CLAMP_WASHER_2",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "gantry",
+    "notes": "M3 washer OD7x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642564,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214412,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214412,
+    "centroid_mm": [
+      65.0,
+      5.0,
+      309.25
+    ],
+    "bbox_mm": [
+      [
+        61.5,
+        1.5,
+        309.0
+      ],
+      [
+        68.5,
+        8.5,
+        309.5
+      ]
+    ]
+  },
+  {
+    "name": "CBP-D402_A_1_TOP_BAR",
+    "material": "6061",
+    "category": "cnc",
+    "motion_group": "fixed",
+    "notes": "6061-T6 saw/drill stock42x20x8. Four side M3 drill9/fullthread7 minimum; two5.5vertical M5 clearance atXoffsets+/-6mm. M3 axes offset5mm fromM5 so shafts do not intersect. Deburr0.2; underside driver access and preinserted HNTT5 required.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 6163.1527021512065,
+    "density_g_cm3": 2.7,
+    "mass_g": 16.640512295808257,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 16.640512295808257,
+    "centroid_mm": [
+      -88.75000000000001,
+      130.00000000000003,
+      276.00000000000017
+    ],
+    "bbox_mm": [
+      [
+        -109.75,
+        120.0,
+        272.0
+      ],
+      [
+        -67.75,
+        140.0,
+        280.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-D402_A_1_FRONT_FOOT_BAR",
+    "material": "6061",
+    "category": "cnc",
+    "motion_group": "fixed",
+    "notes": "6061-T6 stock42x14.3x6. M4 through taps, nominal6mm engagement. EndM3 drill9/fullthread7 minimum; M3 axesY32 versusM4Y27 keep shafts5mm apart. 0.2deburr. Verify tap fit and strip strength.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 3412.606874625009,
+    "density_g_cm3": 2.7,
+    "mass_g": 9.214038561487525,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 9.214038561487525,
+    "centroid_mm": [
+      -88.74999999999999,
+      66.17591836335589,
+      254.79999999999995
+    ],
+    "bbox_mm": [
+      [
+        -109.75,
+        59.00000000000001,
+        251.8
+      ],
+      [
+        -67.75,
+        73.30000000000001,
+        257.8
+      ]
+    ]
+  },
+  {
+    "name": "CBP-D402_A_1_REAR_FOOT_BAR",
+    "material": "6061",
+    "category": "cnc",
+    "motion_group": "fixed",
+    "notes": "6061-T6 stock42x14.3x6. M4 through taps, nominal6mm engagement. EndM3 drill9/fullthread7 minimum; M3 axesY32 versusM4Y27 keep shafts5mm apart. 0.2deburr. Verify tap fit and strip strength.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 3343.8845353277325,
+    "density_g_cm3": 2.7,
+    "mass_g": 9.028488245384878,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 9.028488245384878,
+    "centroid_mm": [
+      -88.74999999999999,
+      123.74853545485259,
+      254.8
+    ],
+    "bbox_mm": [
+      [
+        -109.75,
+        116.69999999999999,
+        251.8
+      ],
+      [
+        -67.75,
+        131.0,
+        257.8
+      ]
+    ]
+  },
+  {
+    "name": "CBP-D402_A_1_OUTER_CHEEK",
+    "material": "6061",
+    "category": "cnc",
+    "motion_group": "fixed",
+    "notes": "6061-T6 sheet4. Waterjet/laser two-dimensional profile, body-windowR3; plate-windowR0.5. Minimum lowerUbridge5mm and motor-bottomgap3.5mm. Outer rail relief and front-inner idler step retained. No printed structural path. Static/dynamic stiffness and connector/pigtail envelope unvalidated.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 11279.519335743364,
+    "density_g_cm3": 2.7,
+    "mass_g": 30.454702206507086,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 30.454702206507086,
+    "centroid_mm": [
+      -111.74999999999997,
+      106.18928565690075,
+      238.67950326622676
+    ],
+    "bbox_mm": [
+      [
+        -113.75,
+        59.0,
+        201.3
+      ],
+      [
+        -109.75,
+        140.0,
+        280.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-D402_A_1_INNER_CHEEK",
+    "material": "6061",
+    "category": "cnc",
+    "motion_group": "fixed",
+    "notes": "6061-T6 sheet4. Waterjet/laser two-dimensional profile, body-windowR3; plate-windowR0.5. Minimum lowerUbridge5mm and motor-bottomgap3.5mm. Outer rail relief and front-inner idler step retained. No printed structural path. Static/dynamic stiffness and connector/pigtail envelope unvalidated.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 12203.51933574336,
+    "density_g_cm3": 2.7,
+    "mass_g": 32.94950220650707,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 32.94950220650707,
+    "centroid_mm": [
+      -65.74999999999999,
+      104.20634128804983,
+      241.59990171863248
+    ],
+    "bbox_mm": [
+      [
+        -67.75,
+        59.0,
+        201.3
+      ],
+      [
+        -63.75,
+        140.0,
+        280.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-D402_A_1_CABLE_TIE_TAB",
+    "material": "6061",
+    "category": "cnc",
+    "motion_group": "fixed",
+    "notes": "6061 sheet1.5 flat30x25, no bend. TwoM3x6 with0.5washers into frame-side foot4mm engagement; drill7/fullthread5.5 minimum, four2x5 tie slots. Route pigtail outside motor before lowerUbridge. Connector/bend radius HOLD pending actualmotor; protect all cable-contact edges.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 1039.3410420018054,
+    "density_g_cm3": 2.7,
+    "mass_g": 2.8062208134048747,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 2.8062208134048747,
+    "centroid_mm": [
+      -88.75000000000003,
+      131.75000000000003,
+      245.29638222601542
+    ],
+    "bbox_mm": [
+      [
+        -103.75,
+        131.0,
+        232.8
+      ],
+      [
+        -73.75,
+        132.5,
+        257.8
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H610_A_1_TOP_-1_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x10; nominal thread omitted. Driver axis (1, 0, 0).",
+    "intentional_thread_mate": "CBP-D402_A_1_TOP_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 130.64826119715482,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0255888503976653,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0255888503976653,
+    "centroid_mm": [
+      -112.19384786149433,
+      125.00000000000004,
+      276.0
+    ],
+    "bbox_mm": [
+      [
+        -117.25,
+        122.25,
+        273.25
+      ],
+      [
+        -104.25,
+        127.75,
+        278.75
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H610_A_1_TOP_-1_1_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642505,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214366,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214366,
+    "centroid_mm": [
+      -114.0,
+      125.0,
+      276.00000000000006
+    ],
+    "bbox_mm": [
+      [
+        -114.25,
+        121.5,
+        272.5
+      ],
+      [
+        -113.75,
+        128.5,
+        279.5
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H610_A_1_TOP_-1_2",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x10; nominal thread omitted. Driver axis (1, 0, 0).",
+    "intentional_thread_mate": "CBP-D402_A_1_TOP_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 130.64826119715497,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0255888503976665,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0255888503976665,
+    "centroid_mm": [
+      -112.1938478614943,
+      135.0,
+      276.00000000000006
+    ],
+    "bbox_mm": [
+      [
+        -117.25,
+        132.25,
+        273.25
+      ],
+      [
+        -104.25,
+        137.75,
+        278.75
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H610_A_1_TOP_-1_2_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642516,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214375,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214375,
+    "centroid_mm": [
+      -114.00000000000001,
+      135.0,
+      276.0
+    ],
+    "bbox_mm": [
+      [
+        -114.25,
+        131.5,
+        272.5
+      ],
+      [
+        -113.75,
+        138.5,
+        279.5
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H611_A_1_FOOT_-1_-1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x10; nominal thread omitted. Driver axis (1, 0, 0).",
+    "intentional_thread_mate": "CBP-D402_A_1_FRONT_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 130.6482611971548,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0255888503976651,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0255888503976651,
+    "centroid_mm": [
+      -112.19384786149433,
+      63.0,
+      254.80000000000007
+    ],
+    "bbox_mm": [
+      [
+        -117.25,
+        60.25,
+        252.05
+      ],
+      [
+        -104.25,
+        65.75,
+        257.55000000000007
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H611_A_1_FOOT_-1_-1_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642505,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214366,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214366,
+    "centroid_mm": [
+      -114.00000000000001,
+      63.0,
+      254.80000000000007
+    ],
+    "bbox_mm": [
+      [
+        -114.25,
+        59.5,
+        251.3
+      ],
+      [
+        -113.75,
+        66.5,
+        258.30000000000007
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H611_A_1_FOOT_-1_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x10; nominal thread omitted. Driver axis (1, 0, 0).",
+    "intentional_thread_mate": "CBP-D402_A_1_REAR_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 130.64826119715485,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0255888503976656,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0255888503976656,
+    "centroid_mm": [
+      -112.1938478614943,
+      127.00000000000003,
+      254.80000000000013
+    ],
+    "bbox_mm": [
+      [
+        -117.25,
+        124.25,
+        252.05
+      ],
+      [
+        -104.25,
+        129.75,
+        257.55
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H611_A_1_FOOT_-1_1_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642509,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214369,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214369,
+    "centroid_mm": [
+      -114.00000000000001,
+      127.00000000000003,
+      254.80000000000004
+    ],
+    "bbox_mm": [
+      [
+        -114.25,
+        123.5,
+        251.3
+      ],
+      [
+        -113.75,
+        130.5,
+        258.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H610_A_1_TOP_1_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x10; nominal thread omitted. Driver axis (-1, 0, 0).",
+    "intentional_thread_mate": "CBP-D402_A_1_TOP_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 130.6482611971548,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0255888503976651,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0255888503976651,
+    "centroid_mm": [
+      -65.30615213850571,
+      125.00000000000003,
+      276.0000000000001
+    ],
+    "bbox_mm": [
+      [
+        -73.25,
+        122.25,
+        273.25
+      ],
+      [
+        -60.25,
+        127.75,
+        278.75
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H610_A_1_TOP_1_1_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642505,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214366,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214366,
+    "centroid_mm": [
+      -63.5,
+      125.0,
+      276.0
+    ],
+    "bbox_mm": [
+      [
+        -63.75,
+        121.5,
+        272.5
+      ],
+      [
+        -63.25,
+        128.5,
+        279.5
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H610_A_1_TOP_1_2",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x10; nominal thread omitted. Driver axis (-1, 0, 0).",
+    "intentional_thread_mate": "CBP-D402_A_1_TOP_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 130.6482611971549,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.025588850397666,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.025588850397666,
+    "centroid_mm": [
+      -65.3061521385057,
+      134.99999999999991,
+      276.0
+    ],
+    "bbox_mm": [
+      [
+        -73.25,
+        132.25,
+        273.25
+      ],
+      [
+        -60.25,
+        137.75,
+        278.75
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H610_A_1_TOP_1_2_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642516,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214375,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214375,
+    "centroid_mm": [
+      -63.50000000000001,
+      135.0,
+      276.00000000000006
+    ],
+    "bbox_mm": [
+      [
+        -63.75,
+        131.5,
+        272.5
+      ],
+      [
+        -63.25,
+        138.5,
+        279.5
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H611_A_1_FOOT_1_-1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x10; nominal thread omitted. Driver axis (-1, 0, 0).",
+    "intentional_thread_mate": "CBP-D402_A_1_FRONT_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 130.64826119715454,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.025588850397663,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.025588850397663,
+    "centroid_mm": [
+      -65.3061521385057,
+      62.99999999999999,
+      254.8
+    ],
+    "bbox_mm": [
+      [
+        -73.25,
+        60.25,
+        252.05
+      ],
+      [
+        -60.25,
+        65.75,
+        257.55
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H611_A_1_FOOT_1_-1_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642562,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.1194849787921441,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.1194849787921441,
+    "centroid_mm": [
+      -63.5,
+      63.0,
+      254.80000000000007
+    ],
+    "bbox_mm": [
+      [
+        -63.75,
+        59.5,
+        251.3
+      ],
+      [
+        -63.25,
+        66.5,
+        258.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H611_A_1_FOOT_1_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x10; nominal thread omitted. Driver axis (-1, 0, 0).",
+    "intentional_thread_mate": "CBP-D402_A_1_REAR_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 130.64826119715445,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0255888503976622,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0255888503976622,
+    "centroid_mm": [
+      -65.30615213850571,
+      127.00000000000003,
+      254.80000000000007
+    ],
+    "bbox_mm": [
+      [
+        -73.25,
+        124.25,
+        252.05
+      ],
+      [
+        -60.25,
+        129.75,
+        257.55
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H611_A_1_FOOT_1_1_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642569,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214416,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214416,
+    "centroid_mm": [
+      -63.49999999999999,
+      127.00000000000001,
+      254.80000000000004
+    ],
+    "bbox_mm": [
+      [
+        -63.75,
+        123.5,
+        251.3
+      ],
+      [
+        -63.25,
+        130.5,
+        258.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H612_A_1_PLATE_-1_-17",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M4x16; nominal thread omitted. Driver axis (0, 0, -1).",
+    "intentional_thread_mate": "CBP-D402_A_1_FRONT_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 333.25407196661905,
+    "density_g_cm3": 7.85,
+    "mass_g": 2.6160444649379593,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 2.6160444649379593,
+    "centroid_mm": [
+      -105.75,
+      68.0,
+      260.52722929212086
+    ],
+    "bbox_mm": [
+      [
+        -109.25,
+        64.5,
+        248.60000000000002
+      ],
+      [
+        -102.25,
+        71.5,
+        268.6
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H612_A_1_PLATE_-1_-17_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 9x4.3x0.8.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 39.276191355179755,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.3083181021381611,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.3083181021381611,
+    "centroid_mm": [
+      -105.75000000000001,
+      68.00000000000001,
+      264.2
+    ],
+    "bbox_mm": [
+      [
+        -110.25,
+        63.5,
+        263.8
+      ],
+      [
+        -101.25,
+        72.5,
+        264.6
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H612_A_1_PLATE_-1_17",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M4x16; nominal thread omitted. Driver axis (0, 0, -1).",
+    "intentional_thread_mate": "CBP-D402_A_1_FRONT_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 333.254071966619,
+    "density_g_cm3": 7.85,
+    "mass_g": 2.616044464937959,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 2.616044464937959,
+    "centroid_mm": [
+      -71.74999999999999,
+      68.0,
+      260.52722929212086
+    ],
+    "bbox_mm": [
+      [
+        -75.25,
+        64.5,
+        248.60000000000002
+      ],
+      [
+        -68.25,
+        71.5,
+        268.6
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H612_A_1_PLATE_-1_17_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 9x4.3x0.8.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 39.276191355179755,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.3083181021381611,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.3083181021381611,
+    "centroid_mm": [
+      -71.75,
+      68.00000000000001,
+      264.2
+    ],
+    "bbox_mm": [
+      [
+        -76.25,
+        63.5,
+        263.8
+      ],
+      [
+        -67.25,
+        72.5,
+        264.6
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H612_A_1_PLATE_1_-17",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M4x16; nominal thread omitted. Driver axis (0, 0, -1).",
+    "intentional_thread_mate": "CBP-D402_A_1_REAR_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 333.25407196661905,
+    "density_g_cm3": 7.85,
+    "mass_g": 2.6160444649379593,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 2.6160444649379593,
+    "centroid_mm": [
+      -105.75,
+      121.99999999999996,
+      260.52722929212086
+    ],
+    "bbox_mm": [
+      [
+        -109.25,
+        118.5,
+        248.60000000000002
+      ],
+      [
+        -102.25,
+        125.5,
+        268.6
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H612_A_1_PLATE_1_-17_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 9x4.3x0.8.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 39.276191355179755,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.3083181021381611,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.3083181021381611,
+    "centroid_mm": [
+      -105.75000000000001,
+      122.0,
+      264.2
+    ],
+    "bbox_mm": [
+      [
+        -110.25,
+        117.5,
+        263.8
+      ],
+      [
+        -101.25,
+        126.5,
+        264.6
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H612_A_1_PLATE_1_17",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M4x16; nominal thread omitted. Driver axis (0, 0, -1).",
+    "intentional_thread_mate": "CBP-D402_A_1_REAR_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 333.254071966619,
+    "density_g_cm3": 7.85,
+    "mass_g": 2.616044464937959,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 2.616044464937959,
+    "centroid_mm": [
+      -71.74999999999999,
+      121.99999999999999,
+      260.52722929212086
+    ],
+    "bbox_mm": [
+      [
+        -75.25,
+        118.5,
+        248.60000000000002
+      ],
+      [
+        -68.25,
+        125.5,
+        268.6
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H612_A_1_PLATE_1_17_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 9x4.3x0.8.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 39.276191355179755,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.3083181021381611,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.3083181021381611,
+    "centroid_mm": [
+      -71.75,
+      122.0,
+      264.2
+    ],
+    "bbox_mm": [
+      [
+        -76.25,
+        117.5,
+        263.8
+      ],
+      [
+        -67.25,
+        126.5,
+        264.6
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H613_A_1_FRAME_-6",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M5x14; nominal thread omitted. Driver axis (0, 0, 1).",
+    "intentional_thread_mate": "CBP-H613_A_1_FRAME_-6_HNTT5",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 510.2555851691117,
+    "density_g_cm3": 7.85,
+    "mass_g": 4.005506343577527,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 4.005506343577527,
+    "centroid_mm": [
+      -94.75,
+      130.00000000000003,
+      273.6894774079193
+    ],
+    "bbox_mm": [
+      [
+        -99.0,
+        125.75,
+        266.0
+      ],
+      [
+        -90.5,
+        134.25,
+        285.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H613_A_1_FRAME_-6_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 10x5.3x1.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 56.477981929910484,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.4433521581497973,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.4433521581497973,
+    "centroid_mm": [
+      -94.75000000000001,
+      130.00000000000003,
+      271.5
+    ],
+    "bbox_mm": [
+      [
+        -99.75,
+        125.0,
+        271.0
+      ],
+      [
+        -89.75,
+        135.0,
+        272.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H613_A_1_FRAME_-6_HNTT5",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "HNTT5-5 drawing proxy;10x10,T4.1,neck5.8 seated1.2 below extrusion face. Preinsert,5mm screw penetration and3.8mm nominal thread engagement. Exactslot SKU compatibility HOLD.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 250.29686323044476,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.9648303763589914,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.9648303763589914,
+    "centroid_mm": [
+      -94.75,
+      130.00000000000003,
+      283.20846931573243
+    ],
+    "bbox_mm": [
+      [
+        -99.75,
+        125.0,
+        281.2
+      ],
+      [
+        -89.75,
+        135.0,
+        285.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H613_A_1_FRAME_6",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M5x14; nominal thread omitted. Driver axis (0, 0, 1).",
+    "intentional_thread_mate": "CBP-H613_A_1_FRAME_6_HNTT5",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 510.2555851691117,
+    "density_g_cm3": 7.85,
+    "mass_g": 4.005506343577527,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 4.005506343577527,
+    "centroid_mm": [
+      -82.75,
+      130.00000000000003,
+      273.6894774079193
+    ],
+    "bbox_mm": [
+      [
+        -87.0,
+        125.75,
+        266.0
+      ],
+      [
+        -78.5,
+        134.25,
+        285.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H613_A_1_FRAME_6_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 10x5.3x1.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 56.477981929910484,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.4433521581497973,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.4433521581497973,
+    "centroid_mm": [
+      -82.75,
+      130.00000000000003,
+      271.5
+    ],
+    "bbox_mm": [
+      [
+        -87.75,
+        125.0,
+        271.0
+      ],
+      [
+        -77.75,
+        135.0,
+        272.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H613_A_1_FRAME_6_HNTT5",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "HNTT5-5 drawing proxy;10x10,T4.1,neck5.8 seated1.2 below extrusion face. Preinsert,5mm screw penetration and3.8mm nominal thread engagement. Exactslot SKU compatibility HOLD.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 250.29686323044479,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.9648303763589916,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.9648303763589916,
+    "centroid_mm": [
+      -82.75000000000001,
+      130.00000000000003,
+      283.20846931573226
+    ],
+    "bbox_mm": [
+      [
+        -87.75,
+        125.0,
+        281.2
+      ],
+      [
+        -77.75,
+        135.0,
+        285.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H614_A_1_CABLE_TAB_-9",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x6; nominal thread omitted. Driver axis (0, -1, 0).",
+    "intentional_thread_mate": "CBP-D402_A_1_REAR_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 102.37392731484623,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.8036353294215428,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.8036353294215428,
+    "centroid_mm": [
+      -97.75000000000003,
+      132.58546055907772,
+      254.8000000000001
+    ],
+    "bbox_mm": [
+      [
+        -100.5,
+        127.0,
+        252.05
+      ],
+      [
+        -95.0,
+        136.0,
+        257.55
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H614_A_1_CABLE_TAB_-9_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642562,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.1194849787921441,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.1194849787921441,
+    "centroid_mm": [
+      -97.75000000000001,
+      132.74999999999997,
+      254.80000000000007
+    ],
+    "bbox_mm": [
+      [
+        -101.25,
+        132.5,
+        251.3
+      ],
+      [
+        -94.25,
+        133.0,
+        258.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H614_A_1_CABLE_TAB_9",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x6; nominal thread omitted. Driver axis (0, -1, 0).",
+    "intentional_thread_mate": "CBP-D402_A_1_REAR_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 102.37392731484627,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.8036353294215431,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.8036353294215431,
+    "centroid_mm": [
+      -79.75000000000003,
+      132.58546055907775,
+      254.80000000000013
+    ],
+    "bbox_mm": [
+      [
+        -82.5,
+        127.0,
+        252.05
+      ],
+      [
+        -77.0,
+        136.0,
+        257.55
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H614_A_1_CABLE_TAB_9_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642562,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.1194849787921441,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.1194849787921441,
+    "centroid_mm": [
+      -79.75,
+      132.74999999999997,
+      254.80000000000007
+    ],
+    "bbox_mm": [
+      [
+        -83.25,
+        132.5,
+        251.3
+      ],
+      [
+        -76.25,
+        133.0,
+        258.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-D402_A_2_TOP_BAR",
+    "material": "6061",
+    "category": "cnc",
+    "motion_group": "fixed",
+    "notes": "6061-T6 saw/drill stock42x20x8. Four side M3 drill9/fullthread7 minimum; two5.5vertical M5 clearance atXoffsets+/-6mm. M3 axes offset5mm fromM5 so shafts do not intersect. Deburr0.2; underside driver access and preinserted HNTT5 required.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 6163.1527021512065,
+    "density_g_cm3": 2.7,
+    "mass_g": 16.640512295808257,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 16.640512295808257,
+    "centroid_mm": [
+      88.75000000000003,
+      -129.99999999999997,
+      276.00000000000017
+    ],
+    "bbox_mm": [
+      [
+        67.75,
+        -140.0,
+        272.0
+      ],
+      [
+        109.75,
+        -120.0,
+        280.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-D402_A_2_FRONT_FOOT_BAR",
+    "material": "6061",
+    "category": "cnc",
+    "motion_group": "fixed",
+    "notes": "6061-T6 stock42x14.3x6. M4 through taps, nominal6mm engagement. EndM3 drill9/fullthread7 minimum; M3 axesY32 versusM4Y27 keep shafts5mm apart. 0.2deburr. Verify tap fit and strip strength.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 3004.592528740034,
+    "density_g_cm3": 2.7,
+    "mass_g": 8.112399827598093,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 8.112399827598093,
+    "centroid_mm": [
+      88.75000000000001,
+      -134.17183681903973,
+      254.8000000000001
+    ],
+    "bbox_mm": [
+      [
+        67.75,
+        -141.0,
+        251.8
+      ],
+      [
+        109.75,
+        -126.69999999999999,
+        257.8
+      ]
+    ]
+  },
+  {
+    "name": "CBP-D402_A_2_REAR_FOOT_BAR",
+    "material": "6061",
+    "category": "cnc",
+    "motion_group": "fixed",
+    "notes": "6061-T6 stock42x14.3x6. M4 through taps, nominal6mm engagement. EndM3 drill9/fullthread7 minimum; M3 axesY32 versusM4Y27 keep shafts5mm apart. 0.2deburr. Verify tap fit and strip strength.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 3412.60687462501,
+    "density_g_cm3": 2.7,
+    "mass_g": 9.214038561487527,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 9.214038561487527,
+    "centroid_mm": [
+      88.75000000000001,
+      -76.17591836335588,
+      254.79999999999995
+    ],
+    "bbox_mm": [
+      [
+        67.75,
+        -83.30000000000001,
+        251.8
+      ],
+      [
+        109.75,
+        -69.0,
+        257.8
+      ]
+    ]
+  },
+  {
+    "name": "CBP-D402_A_2_INNER_CHEEK",
+    "material": "6061",
+    "category": "cnc",
+    "motion_group": "fixed",
+    "notes": "6061-T6 sheet4. Waterjet/laser two-dimensional profile, body-windowR3; plate-windowR0.5. Minimum lowerUbridge5mm and motor-bottomgap3.5mm. Outer rail relief and front-inner idler step retained. No printed structural path. Static/dynamic stiffness and connector/pigtail envelope unvalidated.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 7172.30473390676,
+    "density_g_cm3": 2.7,
+    "mass_g": 19.36522278154825,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 19.36522278154825,
+    "centroid_mm": [
+      65.75,
+      -108.36412331135676,
+      231.91455302583918
+    ],
+    "bbox_mm": [
+      [
+        63.75,
+        -141.0,
+        201.3
+      ],
+      [
+        67.75,
+        -69.0,
+        280.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-D402_A_2_OUTER_CHEEK",
+    "material": "6061",
+    "category": "cnc",
+    "motion_group": "fixed",
+    "notes": "6061-T6 sheet4. Waterjet/laser two-dimensional profile, body-windowR3; plate-windowR0.5. Minimum lowerUbridge5mm and motor-bottomgap3.5mm. Outer rail relief and front-inner idler step retained. No printed structural path. Static/dynamic stiffness and connector/pigtail envelope unvalidated.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 8666.319335743357,
+    "density_g_cm3": 2.7,
+    "mass_g": 23.399062206507068,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 23.399062206507068,
+    "centroid_mm": [
+      111.7500000000001,
+      -106.42729598586384,
+      239.01444337434566
+    ],
+    "bbox_mm": [
+      [
+        109.75,
+        -141.0,
+        201.3
+      ],
+      [
+        113.75,
+        -69.0,
+        280.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-D402_A_2_CABLE_TIE_TAB",
+    "material": "6061",
+    "category": "cnc",
+    "motion_group": "fixed",
+    "notes": "6061 sheet1.5 flat30x25, no bend. TwoM3x6 with0.5washers into frame-side foot4mm engagement; drill7/fullthread5.5 minimum, four2x5 tie slots. Route pigtail outside motor before lowerUbridge. Connector/bend radius HOLD pending actualmotor; protect all cable-contact edges.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 1039.3410420018051,
+    "density_g_cm3": 2.7,
+    "mass_g": 2.8062208134048743,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 2.8062208134048743,
+    "centroid_mm": [
+      88.75000000000001,
+      -141.75000000000003,
+      245.2963822260154
+    ],
+    "bbox_mm": [
+      [
+        73.75,
+        -142.5,
+        232.8
+      ],
+      [
+        103.75,
+        -141.0,
+        257.8
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H610_A_2_TOP_-1_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x10; nominal thread omitted. Driver axis (1, 0, 0).",
+    "intentional_thread_mate": "CBP-D402_A_2_TOP_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 130.6482611971549,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.025588850397666,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.025588850397666,
+    "centroid_mm": [
+      65.3061521385057,
+      -134.99999999999994,
+      276.0
+    ],
+    "bbox_mm": [
+      [
+        60.25,
+        -137.75,
+        273.25
+      ],
+      [
+        73.25,
+        -132.25,
+        278.75
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H610_A_2_TOP_-1_1_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642516,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214375,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214375,
+    "centroid_mm": [
+      63.50000000000001,
+      -135.0,
+      276.0
+    ],
+    "bbox_mm": [
+      [
+        63.25,
+        -138.5,
+        272.5
+      ],
+      [
+        63.75,
+        -131.5,
+        279.5
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H610_A_2_TOP_-1_2",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x10; nominal thread omitted. Driver axis (1, 0, 0).",
+    "intentional_thread_mate": "CBP-D402_A_2_TOP_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 130.6482611971548,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0255888503976651,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0255888503976651,
+    "centroid_mm": [
+      65.30615213850571,
+      -125.00000000000003,
+      275.99999999999994
+    ],
+    "bbox_mm": [
+      [
+        60.25,
+        -127.75,
+        273.25
+      ],
+      [
+        73.25,
+        -122.25,
+        278.75
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H610_A_2_TOP_-1_2_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642505,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214366,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214366,
+    "centroid_mm": [
+      63.5,
+      -125.0,
+      276.00000000000006
+    ],
+    "bbox_mm": [
+      [
+        63.25,
+        -128.5,
+        272.5
+      ],
+      [
+        63.75,
+        -121.5,
+        279.5
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H611_A_2_FOOT_-1_-1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x10; nominal thread omitted. Driver axis (1, 0, 0).",
+    "intentional_thread_mate": "CBP-D402_A_2_FRONT_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 130.64826119715474,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0255888503976647,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0255888503976647,
+    "centroid_mm": [
+      65.30615213850571,
+      -137.00000000000003,
+      254.8
+    ],
+    "bbox_mm": [
+      [
+        60.25,
+        -139.75,
+        252.05
+      ],
+      [
+        73.25,
+        -134.25,
+        257.55000000000007
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H611_A_2_FOOT_-1_-1_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.22101640664252,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214377,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214377,
+    "centroid_mm": [
+      63.49999999999999,
+      -136.99999999999997,
+      254.8
+    ],
+    "bbox_mm": [
+      [
+        63.25,
+        -140.5,
+        251.3
+      ],
+      [
+        63.75,
+        -133.5,
+        258.30000000000007
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H611_A_2_FOOT_-1_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x10; nominal thread omitted. Driver axis (1, 0, 0).",
+    "intentional_thread_mate": "CBP-D402_A_2_REAR_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 130.64826119715468,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0255888503976642,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0255888503976642,
+    "centroid_mm": [
+      65.30615213850571,
+      -73.0,
+      254.8
+    ],
+    "bbox_mm": [
+      [
+        60.25,
+        -75.75,
+        252.05
+      ],
+      [
+        73.25,
+        -70.25,
+        257.55
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H611_A_2_FOOT_-1_1_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642505,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214366,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214366,
+    "centroid_mm": [
+      63.5,
+      -73.00000000000001,
+      254.80000000000007
+    ],
+    "bbox_mm": [
+      [
+        63.25,
+        -76.5,
+        251.3
+      ],
+      [
+        63.75,
+        -69.5,
+        258.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H610_A_2_TOP_1_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x10; nominal thread omitted. Driver axis (-1, 0, 0).",
+    "intentional_thread_mate": "CBP-D402_A_2_TOP_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 130.64826119715497,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0255888503976665,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0255888503976665,
+    "centroid_mm": [
+      112.1938478614943,
+      -135.0,
+      275.99999999999994
+    ],
+    "bbox_mm": [
+      [
+        104.25,
+        -137.75,
+        273.25
+      ],
+      [
+        117.25,
+        -132.25,
+        278.75
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H610_A_2_TOP_1_1_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642516,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214375,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214375,
+    "centroid_mm": [
+      114.00000000000001,
+      -135.0,
+      276.00000000000006
+    ],
+    "bbox_mm": [
+      [
+        113.75,
+        -138.5,
+        272.5
+      ],
+      [
+        114.25,
+        -131.5,
+        279.5
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H610_A_2_TOP_1_2",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x10; nominal thread omitted. Driver axis (-1, 0, 0).",
+    "intentional_thread_mate": "CBP-D402_A_2_TOP_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 130.64826119715482,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0255888503976653,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0255888503976653,
+    "centroid_mm": [
+      112.19384786149433,
+      -125.00000000000004,
+      276.00000000000006
+    ],
+    "bbox_mm": [
+      [
+        104.25,
+        -127.75,
+        273.25
+      ],
+      [
+        117.25,
+        -122.25,
+        278.75
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H610_A_2_TOP_1_2_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642505,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214366,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214366,
+    "centroid_mm": [
+      114.0,
+      -125.0,
+      276.0
+    ],
+    "bbox_mm": [
+      [
+        113.75,
+        -128.5,
+        272.5
+      ],
+      [
+        114.25,
+        -121.5,
+        279.5
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H611_A_2_FOOT_1_-1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x10; nominal thread omitted. Driver axis (-1, 0, 0).",
+    "intentional_thread_mate": "CBP-D402_A_2_FRONT_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 130.64826119715465,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.025588850397664,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.025588850397664,
+    "centroid_mm": [
+      112.19384786149433,
+      -136.99999999999997,
+      254.80000000000007
+    ],
+    "bbox_mm": [
+      [
+        104.25,
+        -139.75,
+        252.05
+      ],
+      [
+        117.25,
+        -134.25,
+        257.55
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H611_A_2_FOOT_1_-1_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.22101640664257,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214418,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214418,
+    "centroid_mm": [
+      114.0,
+      -137.0,
+      254.80000000000007
+    ],
+    "bbox_mm": [
+      [
+        113.75,
+        -140.5,
+        251.3
+      ],
+      [
+        114.25,
+        -133.5,
+        258.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H611_A_2_FOOT_1_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x10; nominal thread omitted. Driver axis (-1, 0, 0).",
+    "intentional_thread_mate": "CBP-D402_A_2_REAR_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 130.64826119715454,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.025588850397663,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.025588850397663,
+    "centroid_mm": [
+      112.19384786149433,
+      -73.00000000000001,
+      254.8
+    ],
+    "bbox_mm": [
+      [
+        104.25,
+        -75.75,
+        252.05
+      ],
+      [
+        117.25,
+        -70.25,
+        257.55
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H611_A_2_FOOT_1_1_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642562,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.1194849787921441,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.1194849787921441,
+    "centroid_mm": [
+      114.0,
+      -72.99999999999999,
+      254.80000000000007
+    ],
+    "bbox_mm": [
+      [
+        113.75,
+        -76.5,
+        251.3
+      ],
+      [
+        114.25,
+        -69.5,
+        258.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H612_A_2_PLATE_-1_-17",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M4x16; nominal thread omitted. Driver axis (0, 0, -1).",
+    "intentional_thread_mate": "CBP-D402_A_2_FRONT_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 333.25407196661905,
+    "density_g_cm3": 7.85,
+    "mass_g": 2.6160444649379593,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 2.6160444649379593,
+    "centroid_mm": [
+      71.74999999999999,
+      -131.99999999999997,
+      260.5272292921208
+    ],
+    "bbox_mm": [
+      [
+        68.25,
+        -135.5,
+        248.60000000000002
+      ],
+      [
+        75.25,
+        -128.5,
+        268.6
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H612_A_2_PLATE_-1_-17_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 9x4.3x0.8.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 39.276191355179776,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.30831810213816124,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.30831810213816124,
+    "centroid_mm": [
+      71.75000000000001,
+      -132.00000000000003,
+      264.2000000000001
+    ],
+    "bbox_mm": [
+      [
+        67.25,
+        -136.5,
+        263.8
+      ],
+      [
+        76.25,
+        -127.5,
+        264.6
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H612_A_2_PLATE_-1_17",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M4x16; nominal thread omitted. Driver axis (0, 0, -1).",
+    "intentional_thread_mate": "CBP-D402_A_2_FRONT_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 333.25407196661905,
+    "density_g_cm3": 7.85,
+    "mass_g": 2.6160444649379593,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 2.6160444649379593,
+    "centroid_mm": [
+      105.74999999999997,
+      -131.99999999999994,
+      260.52722929212086
+    ],
+    "bbox_mm": [
+      [
+        102.25,
+        -135.5,
+        248.60000000000002
+      ],
+      [
+        109.25,
+        -128.5,
+        268.6
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H612_A_2_PLATE_-1_17_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 9x4.3x0.8.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 39.276191355179776,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.30831810213816124,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.30831810213816124,
+    "centroid_mm": [
+      105.75000000000003,
+      -132.00000000000003,
+      264.2000000000001
+    ],
+    "bbox_mm": [
+      [
+        101.25,
+        -136.5,
+        263.8
+      ],
+      [
+        110.25,
+        -127.5,
+        264.6
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H612_A_2_PLATE_1_-17",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M4x16; nominal thread omitted. Driver axis (0, 0, -1).",
+    "intentional_thread_mate": "CBP-D402_A_2_REAR_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 333.25407196661905,
+    "density_g_cm3": 7.85,
+    "mass_g": 2.6160444649379593,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 2.6160444649379593,
+    "centroid_mm": [
+      71.74999999999999,
+      -77.99999999999996,
+      260.5272292921208
+    ],
+    "bbox_mm": [
+      [
+        68.25,
+        -81.5,
+        248.60000000000002
+      ],
+      [
+        75.25,
+        -74.5,
+        268.6
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H612_A_2_PLATE_1_-17_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 9x4.3x0.8.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 39.276191355179755,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.3083181021381611,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.3083181021381611,
+    "centroid_mm": [
+      71.75,
+      -77.99999999999999,
+      264.2
+    ],
+    "bbox_mm": [
+      [
+        67.25,
+        -82.5,
+        263.8
+      ],
+      [
+        76.25,
+        -73.5,
+        264.6
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H612_A_2_PLATE_1_17",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M4x16; nominal thread omitted. Driver axis (0, 0, -1).",
+    "intentional_thread_mate": "CBP-D402_A_2_REAR_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 333.254071966619,
+    "density_g_cm3": 7.85,
+    "mass_g": 2.616044464937959,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 2.616044464937959,
+    "centroid_mm": [
+      105.75,
+      -78.00000000000003,
+      260.5272292921209
+    ],
+    "bbox_mm": [
+      [
+        102.25,
+        -81.5,
+        248.60000000000002
+      ],
+      [
+        109.25,
+        -74.5,
+        268.6
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H612_A_2_PLATE_1_17_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 9x4.3x0.8.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 39.276191355179755,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.3083181021381611,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.3083181021381611,
+    "centroid_mm": [
+      105.75000000000001,
+      -77.99999999999999,
+      264.2
+    ],
+    "bbox_mm": [
+      [
+        101.25,
+        -82.5,
+        263.8
+      ],
+      [
+        110.25,
+        -73.5,
+        264.6
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H613_A_2_FRAME_-6",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M5x14; nominal thread omitted. Driver axis (0, 0, 1).",
+    "intentional_thread_mate": "CBP-H613_A_2_FRAME_-6_HNTT5",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 510.2555851691117,
+    "density_g_cm3": 7.85,
+    "mass_g": 4.005506343577527,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 4.005506343577527,
+    "centroid_mm": [
+      82.75000000000001,
+      -129.99999999999997,
+      273.6894774079193
+    ],
+    "bbox_mm": [
+      [
+        78.5,
+        -134.25,
+        266.0
+      ],
+      [
+        87.0,
+        -125.75,
+        285.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H613_A_2_FRAME_-6_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 10x5.3x1.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 56.477981929910484,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.4433521581497973,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.4433521581497973,
+    "centroid_mm": [
+      82.75,
+      -130.0,
+      271.5
+    ],
+    "bbox_mm": [
+      [
+        77.75,
+        -135.0,
+        271.0
+      ],
+      [
+        87.75,
+        -125.0,
+        272.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H613_A_2_FRAME_-6_HNTT5",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "HNTT5-5 drawing proxy;10x10,T4.1,neck5.8 seated1.2 below extrusion face. Preinsert,5mm screw penetration and3.8mm nominal thread engagement. Exactslot SKU compatibility HOLD.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 250.29686323044479,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.9648303763589916,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.9648303763589916,
+    "centroid_mm": [
+      82.75000000000001,
+      -130.00000000000003,
+      283.20846931573243
+    ],
+    "bbox_mm": [
+      [
+        77.75,
+        -135.0,
+        281.2
+      ],
+      [
+        87.75,
+        -125.0,
+        285.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H613_A_2_FRAME_6",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M5x14; nominal thread omitted. Driver axis (0, 0, 1).",
+    "intentional_thread_mate": "CBP-H613_A_2_FRAME_6_HNTT5",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 510.2555851691117,
+    "density_g_cm3": 7.85,
+    "mass_g": 4.005506343577527,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 4.005506343577527,
+    "centroid_mm": [
+      94.75,
+      -129.99999999999997,
+      273.6894774079193
+    ],
+    "bbox_mm": [
+      [
+        90.5,
+        -134.25,
+        266.0
+      ],
+      [
+        99.0,
+        -125.75,
+        285.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H613_A_2_FRAME_6_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 10x5.3x1.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 56.477981929910484,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.4433521581497973,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.4433521581497973,
+    "centroid_mm": [
+      94.74999999999999,
+      -130.0,
+      271.5
+    ],
+    "bbox_mm": [
+      [
+        89.75,
+        -135.0,
+        271.0
+      ],
+      [
+        99.75,
+        -125.0,
+        272.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H613_A_2_FRAME_6_HNTT5",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "HNTT5-5 drawing proxy;10x10,T4.1,neck5.8 seated1.2 below extrusion face. Preinsert,5mm screw penetration and3.8mm nominal thread engagement. Exactslot SKU compatibility HOLD.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 250.29686323044479,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.9648303763589916,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.9648303763589916,
+    "centroid_mm": [
+      94.75,
+      -130.00000000000003,
+      283.2084693157324
+    ],
+    "bbox_mm": [
+      [
+        89.75,
+        -135.0,
+        281.2
+      ],
+      [
+        99.75,
+        -125.0,
+        285.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H614_A_2_CABLE_TAB_-9",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x6; nominal thread omitted. Driver axis (0, 1, 0).",
+    "intentional_thread_mate": "CBP-D402_A_2_FRONT_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 102.3739273148465,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.8036353294215449,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.8036353294215449,
+    "centroid_mm": [
+      79.74999999999999,
+      -142.5854605590777,
+      254.79999999999998
+    ],
+    "bbox_mm": [
+      [
+        77.0,
+        -146.0,
+        252.05
+      ],
+      [
+        82.5,
+        -137.0,
+        257.55
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H614_A_2_CABLE_TAB_-9_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642505,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214366,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214366,
+    "centroid_mm": [
+      79.75,
+      -142.75,
+      254.80000000000007
+    ],
+    "bbox_mm": [
+      [
+        76.25,
+        -143.0,
+        251.3
+      ],
+      [
+        83.25,
+        -142.5,
+        258.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H614_A_2_CABLE_TAB_9",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x6; nominal thread omitted. Driver axis (0, 1, 0).",
+    "intentional_thread_mate": "CBP-D402_A_2_FRONT_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 102.3739273148465,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.8036353294215449,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.8036353294215449,
+    "centroid_mm": [
+      97.75,
+      -142.5854605590777,
+      254.79999999999998
+    ],
+    "bbox_mm": [
+      [
+        95.0,
+        -146.0,
+        252.05
+      ],
+      [
+        100.5,
+        -137.0,
+        257.55
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H614_A_2_CABLE_TAB_9_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642505,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214366,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214366,
+    "centroid_mm": [
+      97.75000000000001,
+      -142.75,
+      254.80000000000007
+    ],
+    "bbox_mm": [
+      [
+        94.25,
+        -143.0,
+        251.3
+      ],
+      [
+        101.25,
+        -142.5,
+        258.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-D402_B_1_TOP_BAR",
+    "material": "6061",
+    "category": "cnc",
+    "motion_group": "fixed",
+    "notes": "6061-T6 saw/drill stock42x20x8. Four side M3 drill9/fullthread7 minimum; two5.5vertical M5 clearance atXoffsets+/-6mm. M3 axes offset5mm fromM5 so shafts do not intersect. Deburr0.2; underside driver access and preinserted HNTT5 required.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 6163.1527021512065,
+    "density_g_cm3": 2.7,
+    "mass_g": 16.640512295808257,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 16.640512295808257,
+    "centroid_mm": [
+      88.75000000000003,
+      130.00000000000003,
+      276.00000000000017
+    ],
+    "bbox_mm": [
+      [
+        67.75,
+        120.0,
+        272.0
+      ],
+      [
+        109.75,
+        140.0,
+        280.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-D402_B_1_FRONT_FOOT_BAR",
+    "material": "6061",
+    "category": "cnc",
+    "motion_group": "fixed",
+    "notes": "6061-T6 stock42x14.3x6. M4 through taps, nominal6mm engagement. EndM3 drill9/fullthread7 minimum; M3 axesY32 versusM4Y27 keep shafts5mm apart. 0.2deburr. Verify tap fit and strip strength.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 3412.606874625009,
+    "density_g_cm3": 2.7,
+    "mass_g": 9.214038561487525,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 9.214038561487525,
+    "centroid_mm": [
+      88.75,
+      66.17591836335589,
+      241.79999999999995
+    ],
+    "bbox_mm": [
+      [
+        67.75,
+        59.00000000000001,
+        238.8
+      ],
+      [
+        109.75,
+        73.30000000000001,
+        244.8
+      ]
+    ]
+  },
+  {
+    "name": "CBP-D402_B_1_REAR_FOOT_BAR",
+    "material": "6061",
+    "category": "cnc",
+    "motion_group": "fixed",
+    "notes": "6061-T6 stock42x14.3x6. M4 through taps, nominal6mm engagement. EndM3 drill9/fullthread7 minimum; M3 axesY32 versusM4Y27 keep shafts5mm apart. 0.2deburr. Verify tap fit and strip strength.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 3343.8845353277325,
+    "density_g_cm3": 2.7,
+    "mass_g": 9.028488245384878,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 9.028488245384878,
+    "centroid_mm": [
+      88.74999999999999,
+      123.74853545485259,
+      241.79999999999998
+    ],
+    "bbox_mm": [
+      [
+        67.75,
+        116.69999999999999,
+        238.8
+      ],
+      [
+        109.75,
+        131.0,
+        244.8
+      ]
+    ]
+  },
+  {
+    "name": "CBP-D402_B_1_INNER_CHEEK",
+    "material": "6061",
+    "category": "cnc",
+    "motion_group": "fixed",
+    "notes": "6061-T6 sheet4. Waterjet/laser two-dimensional profile, body-windowR3; plate-windowR0.5. Minimum lowerUbridge5mm and motor-bottomgap3.5mm. Outer rail relief and front-inner idler step retained. No printed structural path. Static/dynamic stiffness and connector/pigtail envelope unvalidated.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 16415.51933574336,
+    "density_g_cm3": 2.7,
+    "mass_g": 44.321902206507076,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 44.321902206507076,
+    "centroid_mm": [
+      65.75000000000006,
+      102.9987578360842,
+      240.0664718323985
+    ],
+    "bbox_mm": [
+      [
+        63.75,
+        59.0,
+        188.3
+      ],
+      [
+        67.75,
+        140.0,
+        280.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-D402_B_1_OUTER_CHEEK",
+    "material": "6061",
+    "category": "cnc",
+    "motion_group": "fixed",
+    "notes": "6061-T6 sheet4. Waterjet/laser two-dimensional profile, body-windowR3; plate-windowR0.5. Minimum lowerUbridge5mm and motor-bottomgap3.5mm. Outer rail relief and front-inner idler step retained. No printed structural path. Static/dynamic stiffness and connector/pigtail envelope unvalidated.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15491.519335743367,
+    "density_g_cm3": 2.7,
+    "mass_g": 41.82710220650709,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 41.82710220650709,
+    "centroid_mm": [
+      111.7499999999999,
+      104.37053111280277,
+      237.8486403026276
+    ],
+    "bbox_mm": [
+      [
+        109.75,
+        59.0,
+        188.3
+      ],
+      [
+        113.75,
+        140.0,
+        280.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-D402_B_1_CABLE_TIE_TAB",
+    "material": "6061",
+    "category": "cnc",
+    "motion_group": "fixed",
+    "notes": "6061 sheet1.5 flat30x25, no bend. TwoM3x6 with0.5washers into frame-side foot4mm engagement; drill7/fullthread5.5 minimum, four2x5 tie slots. Route pigtail outside motor before lowerUbridge. Connector/bend radius HOLD pending actualmotor; protect all cable-contact edges.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 1039.3410420018051,
+    "density_g_cm3": 2.7,
+    "mass_g": 2.8062208134048743,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 2.8062208134048743,
+    "centroid_mm": [
+      88.75000000000003,
+      131.75000000000006,
+      232.29638222601548
+    ],
+    "bbox_mm": [
+      [
+        73.75,
+        131.0,
+        219.8
+      ],
+      [
+        103.75,
+        132.5,
+        244.8
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H610_B_1_TOP_-1_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x10; nominal thread omitted. Driver axis (1, 0, 0).",
+    "intentional_thread_mate": "CBP-D402_B_1_TOP_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 130.6482611971548,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0255888503976651,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0255888503976651,
+    "centroid_mm": [
+      65.30615213850571,
+      125.00000000000003,
+      275.99999999999994
+    ],
+    "bbox_mm": [
+      [
+        60.25,
+        122.25,
+        273.25
+      ],
+      [
+        73.25,
+        127.75,
+        278.75
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H610_B_1_TOP_-1_1_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642505,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214366,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214366,
+    "centroid_mm": [
+      63.5,
+      125.0,
+      276.00000000000006
+    ],
+    "bbox_mm": [
+      [
+        63.25,
+        121.5,
+        272.5
+      ],
+      [
+        63.75,
+        128.5,
+        279.5
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H610_B_1_TOP_-1_2",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x10; nominal thread omitted. Driver axis (1, 0, 0).",
+    "intentional_thread_mate": "CBP-D402_B_1_TOP_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 130.6482611971549,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.025588850397666,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.025588850397666,
+    "centroid_mm": [
+      65.3061521385057,
+      134.99999999999991,
+      276.0
+    ],
+    "bbox_mm": [
+      [
+        60.25,
+        132.25,
+        273.25
+      ],
+      [
+        73.25,
+        137.75,
+        278.75
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H610_B_1_TOP_-1_2_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642516,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214375,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214375,
+    "centroid_mm": [
+      63.50000000000001,
+      135.0,
+      276.0
+    ],
+    "bbox_mm": [
+      [
+        63.25,
+        131.5,
+        272.5
+      ],
+      [
+        63.75,
+        138.5,
+        279.5
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H611_B_1_FOOT_-1_-1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x10; nominal thread omitted. Driver axis (1, 0, 0).",
+    "intentional_thread_mate": "CBP-D402_B_1_FRONT_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 130.64826119715448,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0255888503976625,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0255888503976625,
+    "centroid_mm": [
+      65.3061521385057,
+      62.99999999999998,
+      241.79999999999998
+    ],
+    "bbox_mm": [
+      [
+        60.25,
+        60.25,
+        239.05
+      ],
+      [
+        73.25,
+        65.75,
+        244.55
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H611_B_1_FOOT_-1_-1_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642555,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214405,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214405,
+    "centroid_mm": [
+      63.5,
+      63.0,
+      241.8
+    ],
+    "bbox_mm": [
+      [
+        63.25,
+        59.5,
+        238.3
+      ],
+      [
+        63.75,
+        66.5,
+        245.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H611_B_1_FOOT_-1_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x10; nominal thread omitted. Driver axis (1, 0, 0).",
+    "intentional_thread_mate": "CBP-D402_B_1_REAR_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 130.6482611971545,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0255888503976627,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0255888503976627,
+    "centroid_mm": [
+      65.30615213850571,
+      127.00000000000003,
+      241.80000000000004
+    ],
+    "bbox_mm": [
+      [
+        60.25,
+        124.25,
+        239.05
+      ],
+      [
+        73.25,
+        129.75,
+        244.55
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H611_B_1_FOOT_-1_1_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.22101640664256,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214409,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214409,
+    "centroid_mm": [
+      63.5,
+      127.00000000000003,
+      241.8
+    ],
+    "bbox_mm": [
+      [
+        63.25,
+        123.5,
+        238.3
+      ],
+      [
+        63.75,
+        130.5,
+        245.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H610_B_1_TOP_1_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x10; nominal thread omitted. Driver axis (-1, 0, 0).",
+    "intentional_thread_mate": "CBP-D402_B_1_TOP_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 130.64826119715482,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0255888503976653,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0255888503976653,
+    "centroid_mm": [
+      112.19384786149433,
+      125.00000000000004,
+      276.00000000000006
+    ],
+    "bbox_mm": [
+      [
+        104.25,
+        122.25,
+        273.25
+      ],
+      [
+        117.25,
+        127.75,
+        278.75
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H610_B_1_TOP_1_1_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642505,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214366,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214366,
+    "centroid_mm": [
+      114.0,
+      125.0,
+      276.0
+    ],
+    "bbox_mm": [
+      [
+        113.75,
+        121.5,
+        272.5
+      ],
+      [
+        114.25,
+        128.5,
+        279.5
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H610_B_1_TOP_1_2",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x10; nominal thread omitted. Driver axis (-1, 0, 0).",
+    "intentional_thread_mate": "CBP-D402_B_1_TOP_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 130.64826119715497,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0255888503976665,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0255888503976665,
+    "centroid_mm": [
+      112.1938478614943,
+      135.0,
+      275.99999999999994
+    ],
+    "bbox_mm": [
+      [
+        104.25,
+        132.25,
+        273.25
+      ],
+      [
+        117.25,
+        137.75,
+        278.75
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H610_B_1_TOP_1_2_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642516,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214375,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214375,
+    "centroid_mm": [
+      114.00000000000001,
+      135.0,
+      276.00000000000006
+    ],
+    "bbox_mm": [
+      [
+        113.75,
+        131.5,
+        272.5
+      ],
+      [
+        114.25,
+        138.5,
+        279.5
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H611_B_1_FOOT_1_-1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x10; nominal thread omitted. Driver axis (-1, 0, 0).",
+    "intentional_thread_mate": "CBP-D402_B_1_FRONT_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 130.6482611971546,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0255888503976636,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0255888503976636,
+    "centroid_mm": [
+      112.19384786149428,
+      62.999999999999986,
+      241.79999999999998
+    ],
+    "bbox_mm": [
+      [
+        104.25,
+        60.25,
+        239.05
+      ],
+      [
+        117.25,
+        65.75,
+        244.55
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H611_B_1_FOOT_1_-1_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642555,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214405,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214405,
+    "centroid_mm": [
+      114.0,
+      63.0,
+      241.8
+    ],
+    "bbox_mm": [
+      [
+        113.75,
+        59.5,
+        238.3
+      ],
+      [
+        114.25,
+        66.5,
+        245.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H611_B_1_FOOT_1_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x10; nominal thread omitted. Driver axis (-1, 0, 0).",
+    "intentional_thread_mate": "CBP-D402_B_1_REAR_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 130.64826119715457,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0255888503976633,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0255888503976633,
+    "centroid_mm": [
+      112.19384786149433,
+      127.00000000000003,
+      241.8
+    ],
+    "bbox_mm": [
+      [
+        104.25,
+        124.25,
+        239.05
+      ],
+      [
+        117.25,
+        129.75,
+        244.55
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H611_B_1_FOOT_1_1_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.22101640664256,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214409,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214409,
+    "centroid_mm": [
+      114.0,
+      127.00000000000003,
+      241.80000000000004
+    ],
+    "bbox_mm": [
+      [
+        113.75,
+        123.5,
+        238.3
+      ],
+      [
+        114.25,
+        130.5,
+        245.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H612_B_1_PLATE_-1_-17",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M4x16; nominal thread omitted. Driver axis (0, 0, -1).",
+    "intentional_thread_mate": "CBP-D402_B_1_FRONT_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 333.2540719666192,
+    "density_g_cm3": 7.85,
+    "mass_g": 2.6160444649379606,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 2.6160444649379606,
+    "centroid_mm": [
+      71.75,
+      67.99999999999997,
+      247.5272292921208
+    ],
+    "bbox_mm": [
+      [
+        68.25,
+        64.5,
+        235.60000000000002
+      ],
+      [
+        75.25,
+        71.5,
+        255.60000000000002
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H612_B_1_PLATE_-1_-17_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 9x4.3x0.8.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 39.276191355179755,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.3083181021381611,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.3083181021381611,
+    "centroid_mm": [
+      71.75,
+      67.99999999999999,
+      251.2
+    ],
+    "bbox_mm": [
+      [
+        67.25,
+        63.5,
+        250.8
+      ],
+      [
+        76.25,
+        72.5,
+        251.60000000000002
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H612_B_1_PLATE_-1_17",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M4x16; nominal thread omitted. Driver axis (0, 0, -1).",
+    "intentional_thread_mate": "CBP-D402_B_1_FRONT_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 333.25407196661916,
+    "density_g_cm3": 7.85,
+    "mass_g": 2.61604446493796,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 2.61604446493796,
+    "centroid_mm": [
+      105.74999999999999,
+      67.99999999999999,
+      247.52722929212086
+    ],
+    "bbox_mm": [
+      [
+        102.25,
+        64.5,
+        235.60000000000002
+      ],
+      [
+        109.25,
+        71.5,
+        255.60000000000002
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H612_B_1_PLATE_-1_17_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 9x4.3x0.8.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 39.276191355179755,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.3083181021381611,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.3083181021381611,
+    "centroid_mm": [
+      105.74999999999997,
+      67.99999999999999,
+      251.2
+    ],
+    "bbox_mm": [
+      [
+        101.25,
+        63.5,
+        250.8
+      ],
+      [
+        110.25,
+        72.5,
+        251.60000000000002
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H612_B_1_PLATE_1_-17",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M4x16; nominal thread omitted. Driver axis (0, 0, -1).",
+    "intentional_thread_mate": "CBP-D402_B_1_REAR_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 333.25407196661916,
+    "density_g_cm3": 7.85,
+    "mass_g": 2.61604446493796,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 2.61604446493796,
+    "centroid_mm": [
+      71.74999999999999,
+      121.99999999999999,
+      247.52722929212086
+    ],
+    "bbox_mm": [
+      [
+        68.25,
+        118.5,
+        235.60000000000002
+      ],
+      [
+        75.25,
+        125.5,
+        255.60000000000002
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H612_B_1_PLATE_1_-17_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 9x4.3x0.8.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 39.276191355179755,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.3083181021381611,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.3083181021381611,
+    "centroid_mm": [
+      71.75,
+      121.99999999999999,
+      251.2
+    ],
+    "bbox_mm": [
+      [
+        67.25,
+        117.5,
+        250.8
+      ],
+      [
+        76.25,
+        126.5,
+        251.60000000000002
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H612_B_1_PLATE_1_17",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M4x16; nominal thread omitted. Driver axis (0, 0, -1).",
+    "intentional_thread_mate": "CBP-D402_B_1_REAR_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 333.25407196661916,
+    "density_g_cm3": 7.85,
+    "mass_g": 2.61604446493796,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 2.61604446493796,
+    "centroid_mm": [
+      105.74999999999999,
+      121.99999999999996,
+      247.52722929212086
+    ],
+    "bbox_mm": [
+      [
+        102.25,
+        118.5,
+        235.60000000000002
+      ],
+      [
+        109.25,
+        125.5,
+        255.60000000000002
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H612_B_1_PLATE_1_17_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 9x4.3x0.8.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 39.276191355179755,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.3083181021381611,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.3083181021381611,
+    "centroid_mm": [
+      105.74999999999997,
+      121.99999999999999,
+      251.2
+    ],
+    "bbox_mm": [
+      [
+        101.25,
+        117.5,
+        250.8
+      ],
+      [
+        110.25,
+        126.5,
+        251.60000000000002
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H613_B_1_FRAME_-6",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M5x14; nominal thread omitted. Driver axis (0, 0, 1).",
+    "intentional_thread_mate": "CBP-H613_B_1_FRAME_-6_HNTT5",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 510.2555851691117,
+    "density_g_cm3": 7.85,
+    "mass_g": 4.005506343577527,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 4.005506343577527,
+    "centroid_mm": [
+      82.75000000000001,
+      130.0,
+      273.6894774079193
+    ],
+    "bbox_mm": [
+      [
+        78.5,
+        125.75,
+        266.0
+      ],
+      [
+        87.0,
+        134.25,
+        285.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H613_B_1_FRAME_-6_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 10x5.3x1.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 56.477981929910484,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.4433521581497973,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.4433521581497973,
+    "centroid_mm": [
+      82.75,
+      130.00000000000003,
+      271.5
+    ],
+    "bbox_mm": [
+      [
+        77.75,
+        125.0,
+        271.0
+      ],
+      [
+        87.75,
+        135.0,
+        272.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H613_B_1_FRAME_-6_HNTT5",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "HNTT5-5 drawing proxy;10x10,T4.1,neck5.8 seated1.2 below extrusion face. Preinsert,5mm screw penetration and3.8mm nominal thread engagement. Exactslot SKU compatibility HOLD.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 250.29686323044479,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.9648303763589916,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.9648303763589916,
+    "centroid_mm": [
+      82.75,
+      130.00000000000003,
+      283.2084693157324
+    ],
+    "bbox_mm": [
+      [
+        77.75,
+        125.0,
+        281.2
+      ],
+      [
+        87.75,
+        135.0,
+        285.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H613_B_1_FRAME_6",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M5x14; nominal thread omitted. Driver axis (0, 0, 1).",
+    "intentional_thread_mate": "CBP-H613_B_1_FRAME_6_HNTT5",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 510.2555851691117,
+    "density_g_cm3": 7.85,
+    "mass_g": 4.005506343577527,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 4.005506343577527,
+    "centroid_mm": [
+      94.75,
+      130.0,
+      273.6894774079193
+    ],
+    "bbox_mm": [
+      [
+        90.5,
+        125.75,
+        266.0
+      ],
+      [
+        99.0,
+        134.25,
+        285.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H613_B_1_FRAME_6_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 10x5.3x1.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 56.477981929910484,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.4433521581497973,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.4433521581497973,
+    "centroid_mm": [
+      94.75,
+      130.00000000000003,
+      271.5
+    ],
+    "bbox_mm": [
+      [
+        89.75,
+        125.0,
+        271.0
+      ],
+      [
+        99.75,
+        135.0,
+        272.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H613_B_1_FRAME_6_HNTT5",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "HNTT5-5 drawing proxy;10x10,T4.1,neck5.8 seated1.2 below extrusion face. Preinsert,5mm screw penetration and3.8mm nominal thread engagement. Exactslot SKU compatibility HOLD.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 250.29686323044479,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.9648303763589916,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.9648303763589916,
+    "centroid_mm": [
+      94.75,
+      130.00000000000003,
+      283.20846931573226
+    ],
+    "bbox_mm": [
+      [
+        89.75,
+        125.0,
+        281.2
+      ],
+      [
+        99.75,
+        135.0,
+        285.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H614_B_1_CABLE_TAB_-9",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x6; nominal thread omitted. Driver axis (0, -1, 0).",
+    "intentional_thread_mate": "CBP-D402_B_1_REAR_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 102.37392731484627,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.8036353294215431,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.8036353294215431,
+    "centroid_mm": [
+      79.75000000000004,
+      132.58546055907775,
+      241.80000000000004
+    ],
+    "bbox_mm": [
+      [
+        77.0,
+        127.0,
+        239.05
+      ],
+      [
+        82.5,
+        136.0,
+        244.55
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H614_B_1_CABLE_TAB_-9_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642555,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214405,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214405,
+    "centroid_mm": [
+      79.75,
+      132.74999999999997,
+      241.8
+    ],
+    "bbox_mm": [
+      [
+        76.25,
+        132.5,
+        238.3
+      ],
+      [
+        83.25,
+        133.0,
+        245.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H614_B_1_CABLE_TAB_9",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x6; nominal thread omitted. Driver axis (0, -1, 0).",
+    "intentional_thread_mate": "CBP-D402_B_1_REAR_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 102.37392731484627,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.8036353294215431,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.8036353294215431,
+    "centroid_mm": [
+      97.75000000000004,
+      132.58546055907775,
+      241.80000000000004
+    ],
+    "bbox_mm": [
+      [
+        95.0,
+        127.0,
+        239.05
+      ],
+      [
+        100.5,
+        136.0,
+        244.55
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H614_B_1_CABLE_TAB_9_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642555,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214405,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214405,
+    "centroid_mm": [
+      97.75,
+      132.74999999999997,
+      241.8
+    ],
+    "bbox_mm": [
+      [
+        94.25,
+        132.5,
+        238.3
+      ],
+      [
+        101.25,
+        133.0,
+        245.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-D402_B_2_TOP_BAR",
+    "material": "6061",
+    "category": "cnc",
+    "motion_group": "fixed",
+    "notes": "6061-T6 saw/drill stock42x20x8. Four side M3 drill9/fullthread7 minimum; two5.5vertical M5 clearance atXoffsets+/-6mm. M3 axes offset5mm fromM5 so shafts do not intersect. Deburr0.2; underside driver access and preinserted HNTT5 required.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 6163.1527021512065,
+    "density_g_cm3": 2.7,
+    "mass_g": 16.640512295808257,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 16.640512295808257,
+    "centroid_mm": [
+      -88.75000000000001,
+      -129.99999999999997,
+      276.00000000000017
+    ],
+    "bbox_mm": [
+      [
+        -109.75,
+        -140.0,
+        272.0
+      ],
+      [
+        -67.75,
+        -120.0,
+        280.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-D402_B_2_FRONT_FOOT_BAR",
+    "material": "6061",
+    "category": "cnc",
+    "motion_group": "fixed",
+    "notes": "6061-T6 stock42x14.3x6. M4 through taps, nominal6mm engagement. EndM3 drill9/fullthread7 minimum; M3 axesY32 versusM4Y27 keep shafts5mm apart. 0.2deburr. Verify tap fit and strip strength.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 3004.5925287400346,
+    "density_g_cm3": 2.7,
+    "mass_g": 8.112399827598093,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 8.112399827598093,
+    "centroid_mm": [
+      -88.75,
+      -134.17183681903978,
+      241.80000000000007
+    ],
+    "bbox_mm": [
+      [
+        -109.75,
+        -141.0,
+        238.8
+      ],
+      [
+        -67.75,
+        -126.69999999999999,
+        244.8
+      ]
+    ]
+  },
+  {
+    "name": "CBP-D402_B_2_REAR_FOOT_BAR",
+    "material": "6061",
+    "category": "cnc",
+    "motion_group": "fixed",
+    "notes": "6061-T6 stock42x14.3x6. M4 through taps, nominal6mm engagement. EndM3 drill9/fullthread7 minimum; M3 axesY32 versusM4Y27 keep shafts5mm apart. 0.2deburr. Verify tap fit and strip strength.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 3412.60687462501,
+    "density_g_cm3": 2.7,
+    "mass_g": 9.214038561487527,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 9.214038561487527,
+    "centroid_mm": [
+      -88.74999999999997,
+      -76.17591836335588,
+      241.79999999999995
+    ],
+    "bbox_mm": [
+      [
+        -109.75,
+        -83.30000000000001,
+        238.8
+      ],
+      [
+        -67.75,
+        -69.0,
+        244.8
+      ]
+    ]
+  },
+  {
+    "name": "CBP-D402_B_2_OUTER_CHEEK",
+    "material": "6061",
+    "category": "cnc",
+    "motion_group": "fixed",
+    "notes": "6061-T6 sheet4. Waterjet/laser two-dimensional profile, body-windowR3; plate-windowR0.5. Minimum lowerUbridge5mm and motor-bottomgap3.5mm. Outer rail relief and front-inner idler step retained. No printed structural path. Static/dynamic stiffness and connector/pigtail envelope unvalidated.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 12410.319335743367,
+    "density_g_cm3": 2.7,
+    "mass_g": 33.50786220650709,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 33.50786220650709,
+    "centroid_mm": [
+      -111.75,
+      -105.99670302314418,
+      239.5309701392439
+    ],
+    "bbox_mm": [
+      [
+        -113.75,
+        -141.0,
+        188.3
+      ],
+      [
+        -109.75,
+        -69.0,
+        280.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-D402_B_2_INNER_CHEEK",
+    "material": "6061",
+    "category": "cnc",
+    "motion_group": "fixed",
+    "notes": "6061-T6 sheet4. Waterjet/laser two-dimensional profile, body-windowR3; plate-windowR0.5. Minimum lowerUbridge5mm and motor-bottomgap3.5mm. Outer rail relief and front-inner idler step retained. No printed structural path. Static/dynamic stiffness and connector/pigtail envelope unvalidated.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 9503.519335743365,
+    "density_g_cm3": 2.7,
+    "mass_g": 25.65950220650709,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 25.65950220650709,
+    "centroid_mm": [
+      -65.74999999999997,
+      -108.80941012704201,
+      230.31167011954318
+    ],
+    "bbox_mm": [
+      [
+        -67.75,
+        -141.0,
+        188.3
+      ],
+      [
+        -63.75,
+        -69.0,
+        280.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-D402_B_2_CABLE_TIE_TAB",
+    "material": "6061",
+    "category": "cnc",
+    "motion_group": "fixed",
+    "notes": "6061 sheet1.5 flat30x25, no bend. TwoM3x6 with0.5washers into frame-side foot4mm engagement; drill7/fullthread5.5 minimum, four2x5 tie slots. Route pigtail outside motor before lowerUbridge. Connector/bend radius HOLD pending actualmotor; protect all cable-contact edges.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 1039.3410420018051,
+    "density_g_cm3": 2.7,
+    "mass_g": 2.8062208134048743,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 2.8062208134048743,
+    "centroid_mm": [
+      -88.75,
+      -141.75000000000003,
+      232.2963822260155
+    ],
+    "bbox_mm": [
+      [
+        -103.75,
+        -142.5,
+        219.8
+      ],
+      [
+        -73.75,
+        -141.0,
+        244.8
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H610_B_2_TOP_-1_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x10; nominal thread omitted. Driver axis (1, 0, 0).",
+    "intentional_thread_mate": "CBP-D402_B_2_TOP_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 130.64826119715497,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0255888503976665,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0255888503976665,
+    "centroid_mm": [
+      -112.1938478614943,
+      -135.0,
+      276.00000000000006
+    ],
+    "bbox_mm": [
+      [
+        -117.25,
+        -137.75,
+        273.25
+      ],
+      [
+        -104.25,
+        -132.25,
+        278.75
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H610_B_2_TOP_-1_1_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642516,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214375,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214375,
+    "centroid_mm": [
+      -114.00000000000001,
+      -135.0,
+      276.0
+    ],
+    "bbox_mm": [
+      [
+        -114.25,
+        -138.5,
+        272.5
+      ],
+      [
+        -113.75,
+        -131.5,
+        279.5
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H610_B_2_TOP_-1_2",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x10; nominal thread omitted. Driver axis (1, 0, 0).",
+    "intentional_thread_mate": "CBP-D402_B_2_TOP_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 130.64826119715482,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0255888503976653,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0255888503976653,
+    "centroid_mm": [
+      -112.19384786149433,
+      -125.00000000000004,
+      276.0
+    ],
+    "bbox_mm": [
+      [
+        -117.25,
+        -127.75,
+        273.25
+      ],
+      [
+        -104.25,
+        -122.25,
+        278.75
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H610_B_2_TOP_-1_2_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642505,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214366,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214366,
+    "centroid_mm": [
+      -114.0,
+      -125.0,
+      276.00000000000006
+    ],
+    "bbox_mm": [
+      [
+        -114.25,
+        -128.5,
+        272.5
+      ],
+      [
+        -113.75,
+        -121.5,
+        279.5
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H611_B_2_FOOT_-1_-1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x10; nominal thread omitted. Driver axis (1, 0, 0).",
+    "intentional_thread_mate": "CBP-D402_B_2_FRONT_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 130.6482611971546,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0255888503976636,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0255888503976636,
+    "centroid_mm": [
+      -112.19384786149429,
+      -136.99999999999997,
+      241.80000000000004
+    ],
+    "bbox_mm": [
+      [
+        -117.25,
+        -139.75,
+        239.05
+      ],
+      [
+        -104.25,
+        -134.25,
+        244.55
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H611_B_2_FOOT_-1_-1_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642567,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214415,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214415,
+    "centroid_mm": [
+      -114.0,
+      -136.99999999999997,
+      241.79999999999998
+    ],
+    "bbox_mm": [
+      [
+        -114.25,
+        -140.5,
+        238.3
+      ],
+      [
+        -113.75,
+        -133.5,
+        245.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H611_B_2_FOOT_-1_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x10; nominal thread omitted. Driver axis (1, 0, 0).",
+    "intentional_thread_mate": "CBP-D402_B_2_REAR_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 130.6482611971545,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0255888503976627,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0255888503976627,
+    "centroid_mm": [
+      -112.19384786149433,
+      -73.00000000000003,
+      241.8000000000001
+    ],
+    "bbox_mm": [
+      [
+        -117.25,
+        -75.75,
+        239.05
+      ],
+      [
+        -104.25,
+        -70.25,
+        244.55
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H611_B_2_FOOT_-1_1_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642555,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214405,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214405,
+    "centroid_mm": [
+      -113.99999999999999,
+      -73.0,
+      241.79999999999998
+    ],
+    "bbox_mm": [
+      [
+        -114.25,
+        -76.5,
+        238.3
+      ],
+      [
+        -113.75,
+        -69.5,
+        245.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H610_B_2_TOP_1_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x10; nominal thread omitted. Driver axis (-1, 0, 0).",
+    "intentional_thread_mate": "CBP-D402_B_2_TOP_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 130.6482611971549,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.025588850397666,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.025588850397666,
+    "centroid_mm": [
+      -65.3061521385057,
+      -134.99999999999994,
+      276.0
+    ],
+    "bbox_mm": [
+      [
+        -73.25,
+        -137.75,
+        273.25
+      ],
+      [
+        -60.25,
+        -132.25,
+        278.75
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H610_B_2_TOP_1_1_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642516,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214375,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214375,
+    "centroid_mm": [
+      -63.50000000000001,
+      -135.0,
+      276.00000000000006
+    ],
+    "bbox_mm": [
+      [
+        -63.75,
+        -138.5,
+        272.5
+      ],
+      [
+        -63.25,
+        -131.5,
+        279.5
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H610_B_2_TOP_1_2",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x10; nominal thread omitted. Driver axis (-1, 0, 0).",
+    "intentional_thread_mate": "CBP-D402_B_2_TOP_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 130.6482611971548,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0255888503976651,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0255888503976651,
+    "centroid_mm": [
+      -65.30615213850571,
+      -125.00000000000003,
+      276.0000000000001
+    ],
+    "bbox_mm": [
+      [
+        -73.25,
+        -127.75,
+        273.25
+      ],
+      [
+        -60.25,
+        -122.25,
+        278.75
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H610_B_2_TOP_1_2_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642505,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214366,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214366,
+    "centroid_mm": [
+      -63.5,
+      -125.0,
+      276.0
+    ],
+    "bbox_mm": [
+      [
+        -63.75,
+        -128.5,
+        272.5
+      ],
+      [
+        -63.25,
+        -121.5,
+        279.5
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H611_B_2_FOOT_1_-1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x10; nominal thread omitted. Driver axis (-1, 0, 0).",
+    "intentional_thread_mate": "CBP-D402_B_2_FRONT_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 130.64826119715454,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.025588850397663,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.025588850397663,
+    "centroid_mm": [
+      -65.30615213850571,
+      -136.99999999999997,
+      241.8
+    ],
+    "bbox_mm": [
+      [
+        -73.25,
+        -139.75,
+        239.05
+      ],
+      [
+        -60.25,
+        -134.25,
+        244.55
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H611_B_2_FOOT_1_-1_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642564,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214412,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214412,
+    "centroid_mm": [
+      -63.5,
+      -137.0,
+      241.8
+    ],
+    "bbox_mm": [
+      [
+        -63.75,
+        -140.5,
+        238.3
+      ],
+      [
+        -63.25,
+        -133.5,
+        245.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H611_B_2_FOOT_1_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x10; nominal thread omitted. Driver axis (-1, 0, 0).",
+    "intentional_thread_mate": "CBP-D402_B_2_REAR_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 130.64826119715448,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0255888503976625,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0255888503976625,
+    "centroid_mm": [
+      -65.30615213850571,
+      -73.0,
+      241.8
+    ],
+    "bbox_mm": [
+      [
+        -73.25,
+        -75.75,
+        239.05
+      ],
+      [
+        -60.25,
+        -70.25,
+        244.55
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H611_B_2_FOOT_1_1_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642555,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214405,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214405,
+    "centroid_mm": [
+      -63.49999999999999,
+      -73.0,
+      241.8
+    ],
+    "bbox_mm": [
+      [
+        -63.75,
+        -76.5,
+        238.3
+      ],
+      [
+        -63.25,
+        -69.5,
+        245.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H612_B_2_PLATE_-1_-17",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M4x16; nominal thread omitted. Driver axis (0, 0, -1).",
+    "intentional_thread_mate": "CBP-D402_B_2_FRONT_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 333.2540719666193,
+    "density_g_cm3": 7.85,
+    "mass_g": 2.616044464937961,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 2.616044464937961,
+    "centroid_mm": [
+      -105.74999999999999,
+      -131.99999999999997,
+      247.5272292921208
+    ],
+    "bbox_mm": [
+      [
+        -109.25,
+        -135.5,
+        235.60000000000002
+      ],
+      [
+        -102.25,
+        -128.5,
+        255.60000000000002
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H612_B_2_PLATE_-1_-17_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 9x4.3x0.8.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 39.276191355179776,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.30831810213816124,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.30831810213816124,
+    "centroid_mm": [
+      -105.75,
+      -132.0,
+      251.20000000000005
+    ],
+    "bbox_mm": [
+      [
+        -110.25,
+        -136.5,
+        250.8
+      ],
+      [
+        -101.25,
+        -127.5,
+        251.60000000000002
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H612_B_2_PLATE_-1_17",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M4x16; nominal thread omitted. Driver axis (0, 0, -1).",
+    "intentional_thread_mate": "CBP-D402_B_2_FRONT_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 333.2540719666192,
+    "density_g_cm3": 7.85,
+    "mass_g": 2.6160444649379606,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 2.6160444649379606,
+    "centroid_mm": [
+      -71.75,
+      -131.99999999999997,
+      247.5272292921208
+    ],
+    "bbox_mm": [
+      [
+        -75.25,
+        -135.5,
+        235.60000000000002
+      ],
+      [
+        -68.25,
+        -128.5,
+        255.60000000000002
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H612_B_2_PLATE_-1_17_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 9x4.3x0.8.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 39.276191355179776,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.30831810213816124,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.30831810213816124,
+    "centroid_mm": [
+      -71.75000000000001,
+      -132.0,
+      251.20000000000005
+    ],
+    "bbox_mm": [
+      [
+        -76.25,
+        -136.5,
+        250.8
+      ],
+      [
+        -67.25,
+        -127.5,
+        251.60000000000002
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H612_B_2_PLATE_1_-17",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M4x16; nominal thread omitted. Driver axis (0, 0, -1).",
+    "intentional_thread_mate": "CBP-D402_B_2_REAR_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 333.25407196661916,
+    "density_g_cm3": 7.85,
+    "mass_g": 2.61604446493796,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 2.61604446493796,
+    "centroid_mm": [
+      -105.74999999999999,
+      -77.99999999999999,
+      247.52722929212086
+    ],
+    "bbox_mm": [
+      [
+        -109.25,
+        -81.5,
+        235.60000000000002
+      ],
+      [
+        -102.25,
+        -74.5,
+        255.60000000000002
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H612_B_2_PLATE_1_-17_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 9x4.3x0.8.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 39.276191355179755,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.3083181021381611,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.3083181021381611,
+    "centroid_mm": [
+      -105.74999999999999,
+      -77.99999999999999,
+      251.2
+    ],
+    "bbox_mm": [
+      [
+        -110.25,
+        -82.5,
+        250.8
+      ],
+      [
+        -101.25,
+        -73.5,
+        251.60000000000002
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H612_B_2_PLATE_1_17",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M4x16; nominal thread omitted. Driver axis (0, 0, -1).",
+    "intentional_thread_mate": "CBP-D402_B_2_REAR_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 333.25407196661916,
+    "density_g_cm3": 7.85,
+    "mass_g": 2.61604446493796,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 2.61604446493796,
+    "centroid_mm": [
+      -71.74999999999999,
+      -77.99999999999997,
+      247.52722929212086
+    ],
+    "bbox_mm": [
+      [
+        -75.25,
+        -81.5,
+        235.60000000000002
+      ],
+      [
+        -68.25,
+        -74.5,
+        255.60000000000002
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H612_B_2_PLATE_1_17_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 9x4.3x0.8.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 39.276191355179755,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.3083181021381611,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.3083181021381611,
+    "centroid_mm": [
+      -71.75,
+      -77.99999999999999,
+      251.2
+    ],
+    "bbox_mm": [
+      [
+        -76.25,
+        -82.5,
+        250.8
+      ],
+      [
+        -67.25,
+        -73.5,
+        251.60000000000002
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H613_B_2_FRAME_-6",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M5x14; nominal thread omitted. Driver axis (0, 0, 1).",
+    "intentional_thread_mate": "CBP-H613_B_2_FRAME_-6_HNTT5",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 510.2555851691117,
+    "density_g_cm3": 7.85,
+    "mass_g": 4.005506343577527,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 4.005506343577527,
+    "centroid_mm": [
+      -94.75,
+      -129.99999999999997,
+      273.6894774079193
+    ],
+    "bbox_mm": [
+      [
+        -99.0,
+        -134.25,
+        266.0
+      ],
+      [
+        -90.5,
+        -125.75,
+        285.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H613_B_2_FRAME_-6_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 10x5.3x1.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 56.477981929910484,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.4433521581497973,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.4433521581497973,
+    "centroid_mm": [
+      -94.75000000000001,
+      -130.0,
+      271.5
+    ],
+    "bbox_mm": [
+      [
+        -99.75,
+        -135.0,
+        271.0
+      ],
+      [
+        -89.75,
+        -125.0,
+        272.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H613_B_2_FRAME_-6_HNTT5",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "HNTT5-5 drawing proxy;10x10,T4.1,neck5.8 seated1.2 below extrusion face. Preinsert,5mm screw penetration and3.8mm nominal thread engagement. Exactslot SKU compatibility HOLD.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 250.29686323044479,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.9648303763589916,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.9648303763589916,
+    "centroid_mm": [
+      -94.74999999999999,
+      -130.0,
+      283.20846931573243
+    ],
+    "bbox_mm": [
+      [
+        -99.75,
+        -135.0,
+        281.2
+      ],
+      [
+        -89.75,
+        -125.0,
+        285.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H613_B_2_FRAME_6",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M5x14; nominal thread omitted. Driver axis (0, 0, 1).",
+    "intentional_thread_mate": "CBP-H613_B_2_FRAME_6_HNTT5",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 510.2555851691117,
+    "density_g_cm3": 7.85,
+    "mass_g": 4.005506343577527,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 4.005506343577527,
+    "centroid_mm": [
+      -82.75,
+      -129.99999999999997,
+      273.6894774079193
+    ],
+    "bbox_mm": [
+      [
+        -87.0,
+        -134.25,
+        266.0
+      ],
+      [
+        -78.5,
+        -125.75,
+        285.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H613_B_2_FRAME_6_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 10x5.3x1.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 56.477981929910484,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.4433521581497973,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.4433521581497973,
+    "centroid_mm": [
+      -82.74999999999999,
+      -130.0,
+      271.5
+    ],
+    "bbox_mm": [
+      [
+        -87.75,
+        -135.0,
+        271.0
+      ],
+      [
+        -77.75,
+        -125.0,
+        272.0
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H613_B_2_FRAME_6_HNTT5",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "HNTT5-5 drawing proxy;10x10,T4.1,neck5.8 seated1.2 below extrusion face. Preinsert,5mm screw penetration and3.8mm nominal thread engagement. Exactslot SKU compatibility HOLD.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 250.29686323044479,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.9648303763589916,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.9648303763589916,
+    "centroid_mm": [
+      -82.75000000000001,
+      -130.00000000000003,
+      283.2084693157324
+    ],
+    "bbox_mm": [
+      [
+        -87.75,
+        -135.0,
+        281.2
+      ],
+      [
+        -77.75,
+        -125.0,
+        285.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H614_B_2_CABLE_TAB_-9",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x6; nominal thread omitted. Driver axis (0, 1, 0).",
+    "intentional_thread_mate": "CBP-D402_B_2_FRONT_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 102.37392731484636,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.8036353294215438,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.8036353294215438,
+    "centroid_mm": [
+      -97.74999999999999,
+      -142.58546055907772,
+      241.79999999999998
+    ],
+    "bbox_mm": [
+      [
+        -100.5,
+        -146.0,
+        239.05
+      ],
+      [
+        -95.0,
+        -137.0,
+        244.55
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H614_B_2_CABLE_TAB_-9_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642555,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214405,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214405,
+    "centroid_mm": [
+      -97.75,
+      -142.75000000000006,
+      241.79999999999998
+    ],
+    "bbox_mm": [
+      [
+        -101.25,
+        -143.0,
+        238.3
+      ],
+      [
+        -94.25,
+        -142.5,
+        245.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H614_B_2_CABLE_TAB_9",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "ISO4762 M3x6; nominal thread omitted. Driver axis (0, 1, 0).",
+    "intentional_thread_mate": "CBP-D402_B_2_FRONT_FOOT_BAR",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 102.37392731484636,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.8036353294215438,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.8036353294215438,
+    "centroid_mm": [
+      -79.75000000000001,
+      -142.58546055907772,
+      241.79999999999998
+    ],
+    "bbox_mm": [
+      [
+        -82.5,
+        -146.0,
+        239.05
+      ],
+      [
+        -77.0,
+        -137.0,
+        244.55
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H614_B_2_CABLE_TAB_9_W",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "Steel washer 7x3.2x0.5.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642555,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214405,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214405,
+    "centroid_mm": [
+      -79.75,
+      -142.75000000000006,
+      241.79999999999998
+    ],
+    "bbox_mm": [
+      [
+        -83.25,
+        -143.0,
+        238.3
+      ],
+      [
+        -76.25,
+        -142.5,
+        245.3
+      ]
+    ]
+  }
+]

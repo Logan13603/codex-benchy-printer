@@ -1,0 +1,365 @@
+{
+  "status": "offline development geometry; Fusion history execution and manufacturing release pending",
+  "units": "mm,g",
+  "part_count": 64,
+  "mass_groups": {
+    "fixed": {
+      "known_mass_g": 1681.8891862642413,
+      "unknown_mass_parts": [],
+      "COM_mm": [
+        -0.02883931262970412,
+        -7.003813822960561,
+        233.4717884968257
+      ]
+    },
+    "gantry": {
+      "known_mass_g": 73.28947406264884,
+      "unknown_mass_parts": [],
+      "COM_mm": [
+        -6.2048112188353255e-15,
+        -34.99999999999999,
+        275.8
+      ]
+    },
+    "belt_distributed": {
+      "known_mass_g": 0,
+      "unknown_mass_parts": [
+        "CBP-P406_A_9MM_BELT_ROUTE",
+        "CBP-P406_B_9MM_BELT_ROUTE"
+      ],
+      "COM_mm": null
+    }
+  },
+  "files": [
+    {
+      "name": "CBP-P401_A_LDO_MOTOR_1.step",
+      "bytes": 57099,
+      "sha256": "a3493e3f4c0e242a99684da36f962d9b3ec39a50be5e970ce13ae6f64998d110"
+    },
+    {
+      "name": "CBP-P402_A_36T_DRIVE_1.step",
+      "bytes": 126591,
+      "sha256": "260a789eab98711089ec123c7a097680fd7f056e555dd09b633246eb5e51cfff"
+    },
+    {
+      "name": "CBP-D401_A_MOTOR_PLATE_1.step",
+      "bytes": 69977,
+      "sha256": "646f2581556247ace0aac29d25dc4e67c3dc48458a37fb7e810184134f278649"
+    },
+    {
+      "name": "CBP-H501_A_MOTOR_1_M3X10_1.step",
+      "bytes": 33335,
+      "sha256": "38d286f23f73d729863a859bd70cc89831404c25c5f6e683510af05af927f64a"
+    },
+    {
+      "name": "CBP-H502_A_MOTOR_1_WASHER_1.step",
+      "bytes": 9345,
+      "sha256": "96046f945b1be5604c568de568ac3887729345722516d412273548e6a7961c8f"
+    },
+    {
+      "name": "CBP-H501_A_MOTOR_1_M3X10_2.step",
+      "bytes": 33419,
+      "sha256": "7ccfe923b9d69166bf73fda07b4a5cb45028703e3daf120d609d192bd746d81e"
+    },
+    {
+      "name": "CBP-H502_A_MOTOR_1_WASHER_2.step",
+      "bytes": 9359,
+      "sha256": "5d856bbb322c242218d42959f35b56a64359c7d950a99568f9715620c95af48b"
+    },
+    {
+      "name": "CBP-H501_A_MOTOR_1_M3X10_3.step",
+      "bytes": 33323,
+      "sha256": "2f1cceae8713571466067aa7511cbaa9e2b1db378170bf37b29f64d25c38c254"
+    },
+    {
+      "name": "CBP-H502_A_MOTOR_1_WASHER_3.step",
+      "bytes": 9331,
+      "sha256": "25fe65b182a1975815ba59e4567cd03dc296f5e998d14d348cca844b77d679eb"
+    },
+    {
+      "name": "CBP-H501_A_MOTOR_1_M3X10_4.step",
+      "bytes": 33409,
+      "sha256": "f538bb04c47529c400edcf079cf2fd55a35086978e4d70193b5eafec0817601b"
+    },
+    {
+      "name": "CBP-H502_A_MOTOR_1_WASHER_4.step",
+      "bytes": 9347,
+      "sha256": "36fcaefca2e24aac07f2bfa0bce85da0481107b6bd6ca48b4af847fb6374092a"
+    },
+    {
+      "name": "CBP-P401_A_LDO_MOTOR_2.step",
+      "bytes": 57129,
+      "sha256": "6dd347459920f4329f2145c35404b664221e8209801e92836f9cb8b1f1e977bd"
+    },
+    {
+      "name": "CBP-P402_A_36T_DRIVE_2.step",
+      "bytes": 126661,
+      "sha256": "c7f8a341f190e523ea8f67add8282cddfc3791afdffde7cf95549e9419729f5e"
+    },
+    {
+      "name": "CBP-D401_A_MOTOR_PLATE_2.step",
+      "bytes": 89482,
+      "sha256": "d8ecf0cef3b19bcc068069c55e36d756e6b1bc9fda92eb39311b40d0b5d256fa"
+    },
+    {
+      "name": "CBP-H501_A_MOTOR_2_M3X10_1.step",
+      "bytes": 33443,
+      "sha256": "be9f874a152e19901a42dbfc085da45812cdecc15615bf859d354a06cf45054e"
+    },
+    {
+      "name": "CBP-H502_A_MOTOR_2_WASHER_1.step",
+      "bytes": 9342,
+      "sha256": "fa27c4fdfc383077b848a3186e9589ae2319c51fbd9ef63fd80b9ce30aa48037"
+    },
+    {
+      "name": "CBP-H501_A_MOTOR_2_M3X10_2.step",
+      "bytes": 33359,
+      "sha256": "6e220a307d2afd081563be372ff69447cba7cf804da750c2e14d5cbe9a553a1c"
+    },
+    {
+      "name": "CBP-H502_A_MOTOR_2_WASHER_2.step",
+      "bytes": 9328,
+      "sha256": "ae6a86f626dbe5f365f81d84c281f4050fed72cb9813a19dd86e97dd7a948b04"
+    },
+    {
+      "name": "CBP-H501_A_MOTOR_2_M3X10_3.step",
+      "bytes": 33458,
+      "sha256": "a24a42389f3f022552b6924473519efbd40f05887a17cdd7d3a659b64be877b2"
+    },
+    {
+      "name": "CBP-H502_A_MOTOR_2_WASHER_3.step",
+      "bytes": 9361,
+      "sha256": "84c20274de7937a45999e91fad6b50c3230b697a969ea277ee57411de3708c7e"
+    },
+    {
+      "name": "CBP-H501_A_MOTOR_2_M3X10_4.step",
+      "bytes": 33374,
+      "sha256": "28bee4f4cb098aa7fb1010f08bf4b7eaec4a5354c2ca2ba56c723de38c192d19"
+    },
+    {
+      "name": "CBP-H502_A_MOTOR_2_WASHER_4.step",
+      "bytes": 9347,
+      "sha256": "1fbf2e0fbe109997dabf08a62a72d9c8da739a0af6cc1e62d11ef83a82ecd4ed"
+    },
+    {
+      "name": "CBP-P403_A_RETURN_IDLER.step",
+      "bytes": 25298,
+      "sha256": "47205ba6141ddb788ec00c1e6265bbd0436955983ab64b5a31b50c65b5e544cc"
+    },
+    {
+      "name": "CBP-P404_A_RETURN_625_0.step",
+      "bytes": 9466,
+      "sha256": "6cb5de87769efc45ed1666f6d48d28078e472bdb9d39cea236a560cffe9bfd8c"
+    },
+    {
+      "name": "CBP-P404_A_RETURN_625_1.step",
+      "bytes": 9466,
+      "sha256": "9083cfe3626a17156d4f397830d2580e65afcaad08d0aae69f44f164e29caa9e"
+    },
+    {
+      "name": "CBP-P405_A_MOVING_IDLER_-1.step",
+      "bytes": 24869,
+      "sha256": "70d5fcb9d211544c3201d3485255ac412931163bb6582d01d59b260a77912454"
+    },
+    {
+      "name": "CBP-P407_A_MOVING_625_-1_0.step",
+      "bytes": 9326,
+      "sha256": "67593bd625e06481541b871b3231dd9b6a6d9b7cefb2029f94557a056000bfd3"
+    },
+    {
+      "name": "CBP-P407_A_MOVING_625_-1_1.step",
+      "bytes": 9326,
+      "sha256": "3ab91da4656f5183f95829a81fdca815e55bdfee8a51f3fb541f1c68934331e7"
+    },
+    {
+      "name": "CBP-P405_A_MOVING_IDLER_1.step",
+      "bytes": 24839,
+      "sha256": "4e8fc7cc4b7dfa9b59a419bb0f2ae1be37703cb873482d4d3f909fb840fde25c"
+    },
+    {
+      "name": "CBP-P407_A_MOVING_625_1_0.step",
+      "bytes": 9312,
+      "sha256": "f436e25063c1d99184381f3a45df03e1e9ae28e4b541026780e0625e3e3a9251"
+    },
+    {
+      "name": "CBP-P407_A_MOVING_625_1_1.step",
+      "bytes": 9312,
+      "sha256": "f95c9049a673fee493ac3b486d7255daef551a466e1eeddb9a0f8ed6317e54ac"
+    },
+    {
+      "name": "CBP-P406_A_9MM_BELT_ROUTE.step",
+      "bytes": 195376,
+      "sha256": "8e4166d33ac0a556d40282967c367ed24778a6b4211ef4d2c5edad61094095a0"
+    },
+    {
+      "name": "CBP-P401_B_LDO_MOTOR_1.step",
+      "bytes": 57011,
+      "sha256": "e337a43c9a92ea30ef45b13be6d646fd49eb610b71b71e1b5f1bbee574d22a08"
+    },
+    {
+      "name": "CBP-P402_B_36T_DRIVE_1.step",
+      "bytes": 126516,
+      "sha256": "6310268318960c9cfe4b8f2e61a9038a4ca1d4efabe3dbfca0f4da5b4cc0bcaa"
+    },
+    {
+      "name": "CBP-D401_B_MOTOR_PLATE_1.step",
+      "bytes": 69848,
+      "sha256": "97b915f7bcb06ced02acc54ac0ea08a356f3e9547a84e2f5447ecd725ca3d5ac"
+    },
+    {
+      "name": "CBP-H501_B_MOTOR_1_M3X10_1.step",
+      "bytes": 33307,
+      "sha256": "ba53571df503faa8cda2631c7bc005ebd7af12aaf1dded66cb9cc73f34a015bd"
+    },
+    {
+      "name": "CBP-H502_B_MOTOR_1_WASHER_1.step",
+      "bytes": 9319,
+      "sha256": "8401ac88941c8bf5d7cfbf00df3722975827eaf220e91986cbf417426a899f49"
+    },
+    {
+      "name": "CBP-H501_B_MOTOR_1_M3X10_2.step",
+      "bytes": 33391,
+      "sha256": "1633bd0829bfead18ee8f83a48a32507532d17297d195bd28eb4056c63474fd4"
+    },
+    {
+      "name": "CBP-H502_B_MOTOR_1_WASHER_2.step",
+      "bytes": 9333,
+      "sha256": "efce89851f2925f56c04eb857e56a721682230d45412e5c18bfeac1a8c3ee516"
+    },
+    {
+      "name": "CBP-H501_B_MOTOR_1_M3X10_3.step",
+      "bytes": 33322,
+      "sha256": "aa1adba1476f51120120e08dc6d6250e7fee2faf2cd0b745ed1a6eb9755aaa1f"
+    },
+    {
+      "name": "CBP-H502_B_MOTOR_1_WASHER_3.step",
+      "bytes": 9333,
+      "sha256": "0a511e123038c6a62e663f9cb8384597bf881176b415cc75305286e2e583f8f8"
+    },
+    {
+      "name": "CBP-H501_B_MOTOR_1_M3X10_4.step",
+      "bytes": 33406,
+      "sha256": "50fed3623269a252413280948f31cb0e03bc73fa605609fd8564faa7134e25ed"
+    },
+    {
+      "name": "CBP-H502_B_MOTOR_1_WASHER_4.step",
+      "bytes": 9347,
+      "sha256": "4b5187f8e065516138b013283477f07b274400bed5e17c39f550e322ac1e5e17"
+    },
+    {
+      "name": "CBP-P401_B_LDO_MOTOR_2.step",
+      "bytes": 57219,
+      "sha256": "cd07b3756a99a2b0f3b19835878ca79d391aa5c950b8c9801b377e18805e0588"
+    },
+    {
+      "name": "CBP-P402_B_36T_DRIVE_2.step",
+      "bytes": 126726,
+      "sha256": "7c4beaaa22ca05baddb5027caf57dbd698361c720b1ec8c43980885e08b3ffb4"
+    },
+    {
+      "name": "CBP-D401_B_MOTOR_PLATE_2.step",
+      "bytes": 77775,
+      "sha256": "a215b6002ece4936ef8e4b210e3d518baedf57bdbb083d257d534f99577343a9"
+    },
+    {
+      "name": "CBP-H501_B_MOTOR_2_M3X10_1.step",
+      "bytes": 33473,
+      "sha256": "593081d19c5a8f8a75eec7da1a3dcf7ecc404fb0aac124abca2daf10d038149e"
+    },
+    {
+      "name": "CBP-H502_B_MOTOR_2_WASHER_1.step",
+      "bytes": 9375,
+      "sha256": "21535bcae7f9ad4668369e04b8b5bafafe8e5dc6b955962142207f901ef24f3f"
+    },
+    {
+      "name": "CBP-H501_B_MOTOR_2_M3X10_2.step",
+      "bytes": 33389,
+      "sha256": "e1c9866ce38f4349ca756cf9d952fb468b64ed78ce1355c05a89fc1aad6b50fa"
+    },
+    {
+      "name": "CBP-H502_B_MOTOR_2_WASHER_2.step",
+      "bytes": 9361,
+      "sha256": "cb85320472590d6426501eeb6683346dee66e45e206671595ac8279ac9cd2469"
+    },
+    {
+      "name": "CBP-H501_B_MOTOR_2_M3X10_3.step",
+      "bytes": 33461,
+      "sha256": "cbd1129c0439279dfe63dd88a005283190383bc441453897afd65c8a4cfd90c7"
+    },
+    {
+      "name": "CBP-H502_B_MOTOR_2_WASHER_3.step",
+      "bytes": 9361,
+      "sha256": "49463c4df908b5274ee7d696b474e0c1a1022ab3e89d145b6c309627fc155386"
+    },
+    {
+      "name": "CBP-H501_B_MOTOR_2_M3X10_4.step",
+      "bytes": 33377,
+      "sha256": "7305370b99c7b6a84ac213deada8938dd315463e1a06867747c085db492d406a"
+    },
+    {
+      "name": "CBP-H502_B_MOTOR_2_WASHER_4.step",
+      "bytes": 9347,
+      "sha256": "fda7f906e4cffd3e9d6e426466887e26643235bd0b8642b600b7f3095d20ae29"
+    },
+    {
+      "name": "CBP-P403_B_RETURN_IDLER.step",
+      "bytes": 25298,
+      "sha256": "f2192179191a5d3eb3b67a845127d63fab59ac81f261148fbddf4c616c36388d"
+    },
+    {
+      "name": "CBP-P404_B_RETURN_625_0.step",
+      "bytes": 9466,
+      "sha256": "e7018e27c9cae25cf840afd807d733ad14a7935aa8bfcf144379b5733d530d1d"
+    },
+    {
+      "name": "CBP-P404_B_RETURN_625_1.step",
+      "bytes": 9466,
+      "sha256": "e8a184f33b0ed1b7c6239082573a0dea77d04206af34c2a802eb441d4a879b26"
+    },
+    {
+      "name": "CBP-P405_B_MOVING_IDLER_-1.step",
+      "bytes": 24869,
+      "sha256": "1e6a790b793c3fd9833efb0b4ebba7352278d47aa894088b3e7d05f552d47681"
+    },
+    {
+      "name": "CBP-P407_B_MOVING_625_-1_0.step",
+      "bytes": 9326,
+      "sha256": "6e443fd4479cf325c14cdc6b20889ba15dd94ab8c4b1aef9e0b2eedb19bf51e0"
+    },
+    {
+      "name": "CBP-P407_B_MOVING_625_-1_1.step",
+      "bytes": 9326,
+      "sha256": "0740bffb1518466b28028480392bc4f125d69b71c39b7d5da5411cb0775cff58"
+    },
+    {
+      "name": "CBP-P405_B_MOVING_IDLER_1.step",
+      "bytes": 24839,
+      "sha256": "2c00e75934f226f0871cb6f67e8f1b996d8deeb5f1658ecf89411046ddc89a1a"
+    },
+    {
+      "name": "CBP-P407_B_MOVING_625_1_0.step",
+      "bytes": 9312,
+      "sha256": "5290a4195ffaf6e4812c0d959158424223cbd53631f8829bbaa3aa0ab456028d"
+    },
+    {
+      "name": "CBP-P407_B_MOVING_625_1_1.step",
+      "bytes": 9312,
+      "sha256": "970ed3c6a6d4468a153de63723f385e00c1074ab639c59020651db4d08aa58f7"
+    },
+    {
+      "name": "CBP-P406_B_9MM_BELT_ROUTE.step",
+      "bytes": 195006,
+      "sha256": "c9897c29caa326817ca102282e9a7aea9b88cb642259377e6c61a0076641b22a"
+    },
+    {
+      "name": "CBP_RevF_AWD_Drives_DEVELOPMENT.step",
+      "bytes": 2535418,
+      "sha256": "7cc0d4669d5903bad0a2b01c8bf4297883e799797973fed99a461b372d175a22"
+    },
+    {
+      "name": "CBP_RevF_AWD_Drives_DEVELOPMENT-parts.json",
+      "bytes": 51942,
+      "sha256": "bca2278d23181ab19544c20352d84face0818a9ae0e2377365c017609edea855"
+    }
+  ]
+}

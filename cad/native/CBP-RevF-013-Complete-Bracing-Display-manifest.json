@@ -1,0 +1,5516 @@
+{
+  "status": "DEVELOPMENT_NOT_MANUFACTURING_RELEASE",
+  "utc": "2026-10-21T21:11:00.361645+00:00",
+  "document": "Codex Benchy Printer RevF Detailed Bowden",
+  "fusion_data_id": "urn:adsk.wipprod:dm.lineage:KBbymbG_SICh0kr8e2I17A",
+  "fusion_version": 5,
+  "components": [
+    {
+      "name": "Codex Benchy Printer RevF Detailed Bowden",
+      "bodies": 0,
+      "occurrences": 9,
+      "volume_mm3": 0
+    },
+    {
+      "name": "20_XY_MOTION",
+      "bodies": 0,
+      "occurrences": 2,
+      "volume_mm3": 0
+    },
+    {
+      "name": "21_Y_RAILS_FIXED",
+      "bodies": 0,
+      "occurrences": 4,
+      "volume_mm3": 0
+    },
+    {
+      "name": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 32353.451392524086
+    },
+    {
+      "name": "CBP-P201_MGN9_RAIL_200",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 10421.764489070603
+    },
+    {
+      "name": "22_Y_GANTRY",
+      "bodies": 0,
+      "occurrences": 8,
+      "volume_mm3": 0
+    },
+    {
+      "name": "CBP-P202_MGN9H_MOUNT_CAP",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 2734.0951377451893
+    },
+    {
+      "name": "CBP-M202_CARBON_X_TUBE_190",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 16650.000000000007
+    },
+    {
+      "name": "CBP-M203R_Y_END_SOCKET",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 28979.0720570196
+    },
+    {
+      "name": "CBP-M203L_Y_END_SOCKET",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 28979.0720570196
+    },
+    {
+      "name": "CBP-P203_MGN7_X_RAIL_180",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 5529.335619262919
+    },
+    {
+      "name": "CBP-M204_X_RAIL_THREAD_STRIP",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 2831.7451368408583
+    },
+    {
+      "name": "23_X_CARRIAGE",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "CBP-P204_MGN7H_MOUNT_CAP",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 1655.413807017025
+    },
+    {
+      "name": "30_BED_Z",
+      "bodies": 0,
+      "occurrences": 2,
+      "volume_mm3": 0
+    },
+    {
+      "name": "31_Z_FIXED",
+      "bodies": 0,
+      "occurrences": 10,
+      "volume_mm3": 0
+    },
+    {
+      "name": "CBP-F105_HFS5_2020_Z_POST_240",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 43714.93833544069
+    },
+    {
+      "name": "CBP-Z301_RAIL_ADAPTER_AL4",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 18813.584103608457
+    },
+    {
+      "name": "CBP-P301_MGN9_Z_RAIL_200",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 10421.764489070603
+    },
+    {
+      "name": "CBP-Z306_Z_MOTOR_BRIDGE_AL6",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 117069.47530704629
+    },
+    {
+      "name": "CBP-Z307_Z_MOTOR_RISER_HOLD",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 21777.569627172285
+    },
+    {
+      "name": "CBP-P305_LDO_Z_MOTOR_PROXY",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 46462.635137745194
+    },
+    {
+      "name": "CBP-P306_TR8X8_SCREW_ENVELOPE",
+      "bodies": 2,
+      "occurrences": 0,
+      "volume_mm3": 9349.379737082852
+    },
+    {
+      "name": "32_Z_MOVING",
+      "bodies": 0,
+      "occurrences": 14,
+      "volume_mm3": 0
+    },
+    {
+      "name": "CBP-P302_MGN9H_Z_MOUNT_CAP",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 2734.0951377451893
+    },
+    {
+      "name": "CBP-Z302_SIDE_PLATE_L",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 8496.887195578305
+    },
+    {
+      "name": "CBP-Z302_SIDE_PLATE_R",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 8496.887195578307
+    },
+    {
+      "name": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 71072.59040644376
+    },
+    {
+      "name": "CBP-Z304_AL_BED_100",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 39941.095137745055
+    },
+    {
+      "name": "CBP-P303_MAGNET_STACK_ALLOWANCE",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 5999.999999999872
+    },
+    {
+      "name": "CBP-P304_STEEL_PEI_STACK_ALLOWANCE",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 3999.9999999999145
+    },
+    {
+      "name": "CBP-Z305_SILICONE_SPACER_1",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 1979.2033717616541
+    },
+    {
+      "name": "CBP-Z305_SILICONE_SPACER_2",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 1979.203371761655
+    },
+    {
+      "name": "CBP-Z305_SILICONE_SPACER_3",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 1979.2033717616564
+    },
+    {
+      "name": "CBP-Z308_REAR_ARM_ANGLE",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 3942.5535535320114
+    },
+    {
+      "name": "CBP-Z309_FLOATING_NUT_CASSETTE_HOLD",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 11557.418483968066
+    },
+    {
+      "name": "CBP-Z310_NUT_COVER_HOLD",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 2330.2867451694956
+    },
+    {
+      "name": "40_TOOLHEAD",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "CBP-P501_GOLIATH_AIR_VENDOR",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Goliath Mockup AIR",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "LSD Air cooled_1",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 13213.481556094286
+    },
+    {
+      "name": "50_CPAP_COOLING",
+      "bodies": 0,
+      "occurrences": 0,
+      "volume_mm3": 0
+    },
+    {
+      "name": "60_ELECTRONICS",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "CBP-P502_SHERPA_MICRO_VENDOR",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "sherpa_micro_r9",
+      "bodies": 0,
+      "occurrences": 15,
+      "volume_mm3": 0
+    },
+    {
+      "name": "drive_core^sherpa_micro_r9",
+      "bodies": 0,
+      "occurrences": 7,
+      "volume_mm3": 0
+    },
+    {
+      "name": "shaft^drive_core_sherpa_micro_r9",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 514.1009666071881
+    },
+    {
+      "name": "0.5mm_shim^drive_core_sherpa_micro_r9",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 5.277875658031052
+    },
+    {
+      "name": "sherpa_mini_gear_50t_sl_7mm^drive_core_sherpa_micro_r9",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 1019.3932204798881
+    },
+    {
+      "name": "filament_gear^drive_core_sherpa_micro_r9",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 423.41224446099227
+    },
+    {
+      "name": "MR85-2RS^drive_core_sherpa_micro_r9",
+      "bodies": 3,
+      "occurrences": 0,
+      "volume_mm3": 72.47400633674984
+    },
+    {
+      "name": "m3_set_screw^drive_core_sherpa_micro_r9",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 9.00139986116983
+    },
+    {
+      "name": "housing^sherpa_micro_r9_FDM",
+      "bodies": 0,
+      "occurrences": 4,
+      "volume_mm3": 0
+    },
+    {
+      "name": "housing_core^housing_sherpa_micro_r9_FDM",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 4709.8213050937175
+    },
+    {
+      "name": "housing_front^housing_sherpa_micro_r9_FDM",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 806.8400171346043
+    },
+    {
+      "name": "housing_rear_nema14^housing_sherpa_micro_r9_FDM",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 1631.231111075756
+    },
+    {
+      "name": "idler_arm_long^housing_sherpa_micro_r9_FDM",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 2199.8240086046967
+    },
+    {
+      "name": "idler_pin^sherpa_micro_r9",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 141.01143345392305
+    },
+    {
+      "name": "idler_gear_assy^sherpa_micro_r9",
+      "bodies": 0,
+      "occurrences": 4,
+      "volume_mm3": 0
+    },
+    {
+      "name": "idler_gear^idler_gear_assy_sherpa_micro_r9",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 427.6601790154389
+    },
+    {
+      "name": "shaft^idler_gear_assy_sherpa_micro_r9",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 141.16668049088787
+    },
+    {
+      "name": "needle_bearing^idler_gear_assy_sherpa_micro_r9",
+      "bodies": 8,
+      "occurrences": 0,
+      "volume_mm3": 62.0412033289767
+    },
+    {
+      "name": "NEMA14_10t^sherpa_micro_r9",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 18113.60855845979
+    },
+    {
+      "name": "socket button head screw_iso_ISO 7380 - M3 x 12 - 12N",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 111.3124004034699
+    },
+    {
+      "name": "socket button head screw_iso_ISO 7380 - M3 x 8 - 8N",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 83.03806652116089
+    },
+    {
+      "name": "socket button head cap screw_am_B18.3.4M - 3 x 0.5 x 20 SBHCS --N",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 167.86106816808697
+    },
+    {
+      "name": "socket button head cap screw_am_B18.3.4M - 3 x 0.5 x 18 SBHCS --N",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 153.72390122693344
+    },
+    {
+      "name": "insert_m3x5x4",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 46.1590705305523
+    },
+    {
+      "name": "thumbscrew",
+      "bodies": 0,
+      "occurrences": 2,
+      "volume_mm3": 0
+    },
+    {
+      "name": "thumbscrew^thumbscrew",
+      "bodies": 2,
+      "occurrences": 0,
+      "volume_mm3": 440.1254376487885
+    },
+    {
+      "name": "spring^thumbscrew",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 80.63326252934141
+    },
+    {
+      "name": "70_WIRING",
+      "bodies": 0,
+      "occurrences": 0,
+      "volume_mm3": 0
+    },
+    {
+      "name": "80_FASTENERS",
+      "bodies": 0,
+      "occurrences": 0,
+      "volume_mm3": 0
+    },
+    {
+      "name": "10_FRAME",
+      "bodies": 0,
+      "occurrences": 12,
+      "volume_mm3": 0
+    },
+    {
+      "name": "CBP-F101_HFS5_2020_240",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 43646.64718264534
+    },
+    {
+      "name": "CBP-F102_HFS5_2020_260",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 47289.558710598736
+    },
+    {
+      "name": "CBP-F103_HFS5_2040_240",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 111909.87667088091
+    },
+    {
+      "name": "CBP-F104_HFS5_2020_280",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 51000.76139134747
+    },
+    {
+      "name": "11_FRAME_BRACING",
+      "bodies": 0,
+      "occurrences": 251,
+      "volume_mm3": 0
+    },
+    {
+      "name": "CBP-F120_GUSSET_L_FRONT_BOTTOM",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 18646.28249590799
+    },
+    {
+      "name": "CBP-F120_GUSSET_R_FRONT_BOTTOM",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 18646.282495907988
+    },
+    {
+      "name": "CBP-F120_GUSSET_L_FRONT_TOP",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 18646.28249590799
+    },
+    {
+      "name": "CBP-F120_GUSSET_R_FRONT_TOP",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 18646.28249590799
+    },
+    {
+      "name": "CBP-F120_GUSSET_L_REAR_BOTTOM",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 18646.28249590799
+    },
+    {
+      "name": "CBP-F120_GUSSET_R_REAR_BOTTOM",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 18646.28249590799
+    },
+    {
+      "name": "CBP-F120_GUSSET_L_REAR_TOP",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 18646.282495907995
+    },
+    {
+      "name": "CBP-F120_GUSSET_R_REAR_TOP",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 18646.28249590799
+    },
+    {
+      "name": "CBP-F121_SIDE_SHEAR_PANEL_L",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 125037.78907506652
+    },
+    {
+      "name": "CBP-F121_SIDE_SHEAR_PANEL_R",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 125037.78907506652
+    },
+    {
+      "name": "CBP-F122_REAR_SHEAR_PANEL",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 125501.07581670053
+    },
+    {
+      "name": "CBP-F123_RIGID_FOOT_-1_-1",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 12305.60296563886
+    },
+    {
+      "name": "CBP-F124_TPU_FOOT_PAD_-1_-1",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 2632.7300918301207
+    },
+    {
+      "name": "CBP-F123_RIGID_FOOT_-1_1",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 12305.60296563886
+    },
+    {
+      "name": "CBP-F124_TPU_FOOT_PAD_-1_1",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 2632.7300918301207
+    },
+    {
+      "name": "CBP-F123_RIGID_FOOT_1_-1",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 12305.60296563886
+    },
+    {
+      "name": "CBP-F124_TPU_FOOT_PAD_1_-1",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 2632.7300918301207
+    },
+    {
+      "name": "CBP-F123_RIGID_FOOT_1_1",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 12305.602965638858
+    },
+    {
+      "name": "CBP-F124_TPU_FOOT_PAD_1_1",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 2632.7300918301207
+    },
+    {
+      "name": "CBP-H701_SIDE_L10_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 39",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.2968632304356
+    },
+    {
+      "name": "CBP-H701_SIDE_L10_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 37",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 392.4458606595826
+    },
+    {
+      "name": "CBP-H701_SIDE_L10_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 38",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.47798192991277
+    },
+    {
+      "name": "CBP-H701_SIDE_L11_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 42",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.2968632304356
+    },
+    {
+      "name": "CBP-H701_SIDE_L11_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 40",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 392.4458606595822
+    },
+    {
+      "name": "CBP-H701_SIDE_L11_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 41",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.477981929912936
+    },
+    {
+      "name": "CBP-H701_SIDE_L12_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 45",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.2968632304356
+    },
+    {
+      "name": "CBP-H701_SIDE_L12_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 43",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 549.5254933392749
+    },
+    {
+      "name": "CBP-H701_SIDE_L12_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 44",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.47798192991273
+    },
+    {
+      "name": "CBP-H701_SIDE_L13_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 48",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.2968632304356
+    },
+    {
+      "name": "CBP-H701_SIDE_L13_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 46",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 549.5254933392749
+    },
+    {
+      "name": "CBP-H701_SIDE_L13_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 47",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.47798192991269
+    },
+    {
+      "name": "CBP-H701_SIDE_L14_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 51",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323043066
+    },
+    {
+      "name": "CBP-H701_SIDE_L14_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 49",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 549.5254933392747
+    },
+    {
+      "name": "CBP-H701_SIDE_L14_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 50",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.47798192991273
+    },
+    {
+      "name": "CBP-H701_SIDE_L15_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 54",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323043066
+    },
+    {
+      "name": "CBP-H701_SIDE_L15_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 52",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 549.5254933390654
+    },
+    {
+      "name": "CBP-H701_SIDE_L15_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 53",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.47798192991273
+    },
+    {
+      "name": "CBP-H701_SIDE_L16_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 57",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.2968632304356
+    },
+    {
+      "name": "CBP-H701_SIDE_L16_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 55",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 549.5254933392746
+    },
+    {
+      "name": "CBP-H701_SIDE_L16_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 56",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.477981929912936
+    },
+    {
+      "name": "CBP-H701_SIDE_L17_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 60",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.2968632304356
+    },
+    {
+      "name": "CBP-H701_SIDE_L17_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 58",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 549.5254933392746
+    },
+    {
+      "name": "CBP-H701_SIDE_L17_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 59",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.477981929912936
+    },
+    {
+      "name": "CBP-H701_SIDE_L18_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 63",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323042822
+    },
+    {
+      "name": "CBP-H701_SIDE_L18_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 61",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 549.5254933392746
+    },
+    {
+      "name": "CBP-H701_SIDE_L18_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 62",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.477981929912936
+    },
+    {
+      "name": "CBP-H701_SIDE_L19_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 66",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323042822
+    },
+    {
+      "name": "CBP-H701_SIDE_L19_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 64",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 549.5254933390654
+    },
+    {
+      "name": "CBP-H701_SIDE_L19_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 65",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.477981929912936
+    },
+    {
+      "name": "CBP-H701_SIDE_L1_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 12",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323043066
+    },
+    {
+      "name": "CBP-H701_SIDE_L1_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 10",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 392.44586065947067
+    },
+    {
+      "name": "CBP-H701_SIDE_L1_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 11",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.47798192991273
+    },
+    {
+      "name": "CBP-H701_SIDE_L20_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 69",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.2968632304356
+    },
+    {
+      "name": "CBP-H701_SIDE_L20_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 67",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 549.5254933390657
+    },
+    {
+      "name": "CBP-H701_SIDE_L20_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 68",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.47798192991273
+    },
+    {
+      "name": "CBP-H701_SIDE_L21_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 72",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.2968632304356
+    },
+    {
+      "name": "CBP-H701_SIDE_L21_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 70",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 549.5254933390656
+    },
+    {
+      "name": "CBP-H701_SIDE_L21_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 71",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.47798192991269
+    },
+    {
+      "name": "CBP-H701_SIDE_L22_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 75",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323043066
+    },
+    {
+      "name": "CBP-H701_SIDE_L22_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 73",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 549.5254933390653
+    },
+    {
+      "name": "CBP-H701_SIDE_L22_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 74",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.47798192991273
+    },
+    {
+      "name": "CBP-H701_SIDE_L23_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 78",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323043066
+    },
+    {
+      "name": "CBP-H701_SIDE_L23_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 76",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 549.5254933389538
+    },
+    {
+      "name": "CBP-H701_SIDE_L23_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 77",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.47798192991273
+    },
+    {
+      "name": "CBP-H701_SIDE_L24_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 81",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.2968632304356
+    },
+    {
+      "name": "CBP-H701_SIDE_L24_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 79",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 549.5254933390653
+    },
+    {
+      "name": "CBP-H701_SIDE_L24_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 80",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.477981929912936
+    },
+    {
+      "name": "CBP-H701_SIDE_L25_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 84",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.2968632304356
+    },
+    {
+      "name": "CBP-H701_SIDE_L25_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 82",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 549.5254933390653
+    },
+    {
+      "name": "CBP-H701_SIDE_L25_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 83",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.477981929912936
+    },
+    {
+      "name": "CBP-H701_SIDE_L26_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 87",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323042822
+    },
+    {
+      "name": "CBP-H701_SIDE_L26_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 85",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 549.5254933390654
+    },
+    {
+      "name": "CBP-H701_SIDE_L26_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 86",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.477981929912936
+    },
+    {
+      "name": "CBP-H701_SIDE_L27_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 90",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323042822
+    },
+    {
+      "name": "CBP-H701_SIDE_L27_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 88",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 549.5254933389537
+    },
+    {
+      "name": "CBP-H701_SIDE_L27_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 89",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.477981929912936
+    },
+    {
+      "name": "CBP-H701_SIDE_L2_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 15",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323042822
+    },
+    {
+      "name": "CBP-H701_SIDE_L2_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 13",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 392.44586065947044
+    },
+    {
+      "name": "CBP-H701_SIDE_L2_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 14",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.477981929912936
+    },
+    {
+      "name": "CBP-H701_SIDE_L3_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 18",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323042822
+    },
+    {
+      "name": "CBP-H701_SIDE_L3_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 16",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 392.4458606595824
+    },
+    {
+      "name": "CBP-H701_SIDE_L3_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 17",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.477981929912936
+    },
+    {
+      "name": "CBP-H701_SIDE_L4_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 21",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323042822
+    },
+    {
+      "name": "CBP-H701_SIDE_L4_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 19",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 392.44586065947044
+    },
+    {
+      "name": "CBP-H701_SIDE_L4_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 20",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.477981929912936
+    },
+    {
+      "name": "CBP-H701_SIDE_L5_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 24",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323042822
+    },
+    {
+      "name": "CBP-H701_SIDE_L5_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 22",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 392.44586065947044
+    },
+    {
+      "name": "CBP-H701_SIDE_L5_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 23",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.477981929912936
+    },
+    {
+      "name": "CBP-H701_SIDE_L6_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 27",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.2968632304356
+    },
+    {
+      "name": "CBP-H701_SIDE_L6_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 25",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 392.44586065979183
+    },
+    {
+      "name": "CBP-H701_SIDE_L6_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 26",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.4779819299127
+    },
+    {
+      "name": "CBP-H701_SIDE_L7_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 30",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.2968632304356
+    },
+    {
+      "name": "CBP-H701_SIDE_L7_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 28",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 392.44586065979144
+    },
+    {
+      "name": "CBP-H701_SIDE_L7_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 29",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.47798192991277
+    },
+    {
+      "name": "CBP-H701_SIDE_L8_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 33",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.2968632304356
+    },
+    {
+      "name": "CBP-H701_SIDE_L8_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 31",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 392.4458606597916
+    },
+    {
+      "name": "CBP-H701_SIDE_L8_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 32",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.477981929912936
+    },
+    {
+      "name": "CBP-H701_SIDE_L9_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 36",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.2968632304356
+    },
+    {
+      "name": "CBP-H701_SIDE_L9_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 34",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 392.4458606595824
+    },
+    {
+      "name": "CBP-H701_SIDE_L9_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 35",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.4779819299127
+    },
+    {
+      "name": "CBP-H701_SIDE_R10_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 121",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045536
+    },
+    {
+      "name": "CBP-H701_SIDE_R10_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 119",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 392.4458606595829
+    },
+    {
+      "name": "CBP-H701_SIDE_R10_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 120",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.47798192991285
+    },
+    {
+      "name": "CBP-H701_SIDE_R11_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 124",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045536
+    },
+    {
+      "name": "CBP-H701_SIDE_R11_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 122",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 392.44586065958225
+    },
+    {
+      "name": "CBP-H701_SIDE_R11_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 123",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.477981929912936
+    },
+    {
+      "name": "CBP-H701_SIDE_R12_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 127",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045536
+    },
+    {
+      "name": "CBP-H701_SIDE_R12_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 125",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 549.5254933392749
+    },
+    {
+      "name": "CBP-H701_SIDE_R12_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 126",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.47798192991273
+    },
+    {
+      "name": "CBP-H701_SIDE_R13_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 130",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045536
+    },
+    {
+      "name": "CBP-H701_SIDE_R13_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 128",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 549.5254933392748
+    },
+    {
+      "name": "CBP-H701_SIDE_R13_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 129",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.47798192991269
+    },
+    {
+      "name": "CBP-H701_SIDE_R14_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 133",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045058
+    },
+    {
+      "name": "CBP-H701_SIDE_R14_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 131",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 549.5254933392747
+    },
+    {
+      "name": "CBP-H701_SIDE_R14_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 132",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.47798192991273
+    },
+    {
+      "name": "CBP-H701_SIDE_R15_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 136",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045058
+    },
+    {
+      "name": "CBP-H701_SIDE_R15_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 134",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 549.5254933390654
+    },
+    {
+      "name": "CBP-H701_SIDE_R15_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 135",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.47798192991273
+    },
+    {
+      "name": "CBP-H701_SIDE_R16_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 139",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045536
+    },
+    {
+      "name": "CBP-H701_SIDE_R16_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 137",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 549.5254933392746
+    },
+    {
+      "name": "CBP-H701_SIDE_R16_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 138",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.477981929912936
+    },
+    {
+      "name": "CBP-H701_SIDE_R17_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 142",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045536
+    },
+    {
+      "name": "CBP-H701_SIDE_R17_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 140",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 549.5254933392746
+    },
+    {
+      "name": "CBP-H701_SIDE_R17_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 141",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.477981929912936
+    },
+    {
+      "name": "CBP-H701_SIDE_R18_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 145",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045024
+    },
+    {
+      "name": "CBP-H701_SIDE_R18_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 143",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 549.5254933392746
+    },
+    {
+      "name": "CBP-H701_SIDE_R18_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 144",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.477981929912936
+    },
+    {
+      "name": "CBP-H701_SIDE_R19_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 148",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045024
+    },
+    {
+      "name": "CBP-H701_SIDE_R19_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 146",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 549.5254933390656
+    },
+    {
+      "name": "CBP-H701_SIDE_R19_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 147",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.477981929912936
+    },
+    {
+      "name": "CBP-H701_SIDE_R1_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 94",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045058
+    },
+    {
+      "name": "CBP-H701_SIDE_R1_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 92",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 392.44586065947067
+    },
+    {
+      "name": "CBP-H701_SIDE_R1_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 93",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.47798192991273
+    },
+    {
+      "name": "CBP-H701_SIDE_R20_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 151",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045536
+    },
+    {
+      "name": "CBP-H701_SIDE_R20_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 149",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 549.5254933390657
+    },
+    {
+      "name": "CBP-H701_SIDE_R20_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 150",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.47798192991273
+    },
+    {
+      "name": "CBP-H701_SIDE_R21_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 154",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045536
+    },
+    {
+      "name": "CBP-H701_SIDE_R21_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 152",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 549.5254933390656
+    },
+    {
+      "name": "CBP-H701_SIDE_R21_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 153",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.47798192991269
+    },
+    {
+      "name": "CBP-H701_SIDE_R22_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 157",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045058
+    },
+    {
+      "name": "CBP-H701_SIDE_R22_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 155",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 549.5254933390654
+    },
+    {
+      "name": "CBP-H701_SIDE_R22_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 156",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.47798192991273
+    },
+    {
+      "name": "CBP-H701_SIDE_R23_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 160",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045058
+    },
+    {
+      "name": "CBP-H701_SIDE_R23_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 158",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 549.5254933389538
+    },
+    {
+      "name": "CBP-H701_SIDE_R23_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 159",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.47798192991273
+    },
+    {
+      "name": "CBP-H701_SIDE_R24_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 163",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045536
+    },
+    {
+      "name": "CBP-H701_SIDE_R24_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 161",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 549.5254933390653
+    },
+    {
+      "name": "CBP-H701_SIDE_R24_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 162",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.477981929912936
+    },
+    {
+      "name": "CBP-H701_SIDE_R25_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 166",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045536
+    },
+    {
+      "name": "CBP-H701_SIDE_R25_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 164",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 549.5254933390653
+    },
+    {
+      "name": "CBP-H701_SIDE_R25_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 165",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.477981929912936
+    },
+    {
+      "name": "CBP-H701_SIDE_R26_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 169",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045024
+    },
+    {
+      "name": "CBP-H701_SIDE_R26_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 167",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 549.5254933390654
+    },
+    {
+      "name": "CBP-H701_SIDE_R26_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 168",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.477981929912936
+    },
+    {
+      "name": "CBP-H701_SIDE_R27_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 172",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045024
+    },
+    {
+      "name": "CBP-H701_SIDE_R27_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 170",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 549.5254933389535
+    },
+    {
+      "name": "CBP-H701_SIDE_R27_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 171",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.477981929912936
+    },
+    {
+      "name": "CBP-H701_SIDE_R2_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 97",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045024
+    },
+    {
+      "name": "CBP-H701_SIDE_R2_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 95",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 392.4458606594704
+    },
+    {
+      "name": "CBP-H701_SIDE_R2_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 96",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.477981929912936
+    },
+    {
+      "name": "CBP-H701_SIDE_R3_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 100",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045024
+    },
+    {
+      "name": "CBP-H701_SIDE_R3_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 98",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 392.4458606595825
+    },
+    {
+      "name": "CBP-H701_SIDE_R3_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 99",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.477981929912936
+    },
+    {
+      "name": "CBP-H701_SIDE_R4_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 103",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045024
+    },
+    {
+      "name": "CBP-H701_SIDE_R4_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 101",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 392.4458606594704
+    },
+    {
+      "name": "CBP-H701_SIDE_R4_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 102",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.477981929912936
+    },
+    {
+      "name": "CBP-H701_SIDE_R5_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 106",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045024
+    },
+    {
+      "name": "CBP-H701_SIDE_R5_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 104",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 392.44586065947027
+    },
+    {
+      "name": "CBP-H701_SIDE_R5_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 105",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.477981929912936
+    },
+    {
+      "name": "CBP-H701_SIDE_R6_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 109",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045536
+    },
+    {
+      "name": "CBP-H701_SIDE_R6_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 107",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 392.44586065979183
+    },
+    {
+      "name": "CBP-H701_SIDE_R6_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 108",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.4779819299127
+    },
+    {
+      "name": "CBP-H701_SIDE_R7_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 112",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045536
+    },
+    {
+      "name": "CBP-H701_SIDE_R7_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 110",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 392.4458606597922
+    },
+    {
+      "name": "CBP-H701_SIDE_R7_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 111",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.47798192991285
+    },
+    {
+      "name": "CBP-H701_SIDE_R8_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 115",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045536
+    },
+    {
+      "name": "CBP-H701_SIDE_R8_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 113",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 392.44586065979155
+    },
+    {
+      "name": "CBP-H701_SIDE_R8_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 114",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.477981929912936
+    },
+    {
+      "name": "CBP-H701_SIDE_R9_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 118",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045536
+    },
+    {
+      "name": "CBP-H701_SIDE_R9_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 116",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 392.4458606595822
+    },
+    {
+      "name": "CBP-H701_SIDE_R9_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 117",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.4779819299127
+    },
+    {
+      "name": "CBP-H702_REAR_10_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 203",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045536
+    },
+    {
+      "name": "CBP-H702_REAR_10_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 201",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 392.4458606597915
+    },
+    {
+      "name": "CBP-H702_REAR_10_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 202",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.477981929912936
+    },
+    {
+      "name": "CBP-H702_REAR_11_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 206",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045536
+    },
+    {
+      "name": "CBP-H702_REAR_11_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 204",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 392.4458606595825
+    },
+    {
+      "name": "CBP-H702_REAR_11_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 205",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.47798192991269
+    },
+    {
+      "name": "CBP-H702_REAR_12_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 209",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045536
+    },
+    {
+      "name": "CBP-H702_REAR_12_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 207",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 392.4458606595823
+    },
+    {
+      "name": "CBP-H702_REAR_12_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 208",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.4779819299127
+    },
+    {
+      "name": "CBP-H702_REAR_13_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 212",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045536
+    },
+    {
+      "name": "CBP-H702_REAR_13_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 210",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 392.4458606595821
+    },
+    {
+      "name": "CBP-H702_REAR_13_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 211",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.477981929912936
+    },
+    {
+      "name": "CBP-H702_REAR_14_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 215",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045536
+    },
+    {
+      "name": "CBP-H702_REAR_14_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 213",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 392.4458606595821
+    },
+    {
+      "name": "CBP-H702_REAR_14_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 214",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.477981929912936
+    },
+    {
+      "name": "CBP-H702_REAR_1_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 176",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045058
+    },
+    {
+      "name": "CBP-H702_REAR_1_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 174",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 392.4458606595823
+    },
+    {
+      "name": "CBP-H702_REAR_1_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 175",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.47798192991273
+    },
+    {
+      "name": "CBP-H702_REAR_2_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 179",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323044987
+    },
+    {
+      "name": "CBP-H702_REAR_2_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 177",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 392.4458606595823
+    },
+    {
+      "name": "CBP-H702_REAR_2_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 178",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.477981929912936
+    },
+    {
+      "name": "CBP-H702_REAR_3_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 182",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045058
+    },
+    {
+      "name": "CBP-H702_REAR_3_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 180",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 392.44586065947044
+    },
+    {
+      "name": "CBP-H702_REAR_3_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 181",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.47798192991273
+    },
+    {
+      "name": "CBP-H702_REAR_4_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 185",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323044987
+    },
+    {
+      "name": "CBP-H702_REAR_4_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 183",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 392.4458606594703
+    },
+    {
+      "name": "CBP-H702_REAR_4_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 184",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.477981929912936
+    },
+    {
+      "name": "CBP-H702_REAR_5_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 188",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045058
+    },
+    {
+      "name": "CBP-H702_REAR_5_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 186",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 392.4458606594705
+    },
+    {
+      "name": "CBP-H702_REAR_5_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 187",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.47798192991273
+    },
+    {
+      "name": "CBP-H702_REAR_6_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 191",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323044987
+    },
+    {
+      "name": "CBP-H702_REAR_6_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 189",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 392.4458606594703
+    },
+    {
+      "name": "CBP-H702_REAR_6_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 190",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.477981929912936
+    },
+    {
+      "name": "CBP-H702_REAR_7_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 194",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045536
+    },
+    {
+      "name": "CBP-H702_REAR_7_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 192",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 392.4458606597916
+    },
+    {
+      "name": "CBP-H702_REAR_7_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 193",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.47798192991269
+    },
+    {
+      "name": "CBP-H702_REAR_8_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 197",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045536
+    },
+    {
+      "name": "CBP-H702_REAR_8_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 195",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 392.4458606597917
+    },
+    {
+      "name": "CBP-H702_REAR_8_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 196",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.4779819299127
+    },
+    {
+      "name": "CBP-H702_REAR_9_HNTT5",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 200",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323045536
+    },
+    {
+      "name": "CBP-H702_REAR_9_SCREW",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 198",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 392.4458606597915
+    },
+    {
+      "name": "CBP-H702_REAR_9_WASHER",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 199",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.477981929912936
+    },
+    {
+      "name": "CBP-H703_CORNER_BOTTOM_-1_-1",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 216",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 824.4148505287912
+    },
+    {
+      "name": "CBP-H703_CORNER_BOTTOM_-1_1",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 225",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 824.4148505287908
+    },
+    {
+      "name": "CBP-H703_CORNER_BOTTOM_1_-1",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 234",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 824.4148505281632
+    },
+    {
+      "name": "CBP-H703_CORNER_BOTTOM_1_1",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 243",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 824.4148505281627
+    },
+    {
+      "name": "CBP-H704_CORNER_BOTTOM_WASHER_-1_-1",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 217",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.4779819299129
+    },
+    {
+      "name": "CBP-H704_CORNER_BOTTOM_WASHER_-1_1",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 226",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.4779819299129
+    },
+    {
+      "name": "CBP-H704_CORNER_BOTTOM_WASHER_1_-1",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 235",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.4779819299129
+    },
+    {
+      "name": "CBP-H704_CORNER_BOTTOM_WASHER_1_1",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 244",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.4779819299129
+    },
+    {
+      "name": "CBP-H705_CORNER_TOP_-1_-1",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 218",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 824.4148505287912
+    },
+    {
+      "name": "CBP-H705_CORNER_TOP_-1_1",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 227",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 824.4148505287908
+    },
+    {
+      "name": "CBP-H705_CORNER_TOP_1_-1",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 236",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 824.4148505281632
+    },
+    {
+      "name": "CBP-H705_CORNER_TOP_1_1",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 245",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 824.4148505281626
+    },
+    {
+      "name": "CBP-H706_CORNER_TOP_WASHER_-1_-1",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 219",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.47798192991371
+    },
+    {
+      "name": "CBP-H706_CORNER_TOP_WASHER_-1_1",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 228",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.47798192991371
+    },
+    {
+      "name": "CBP-H706_CORNER_TOP_WASHER_1_-1",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 237",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.47798192991371
+    },
+    {
+      "name": "CBP-H706_CORNER_TOP_WASHER_1_1",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 246",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.47798192991371
+    },
+    {
+      "name": "CBP-H707_FOOT_M5X10_-1_-1",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 222",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 431.7157688300846
+    },
+    {
+      "name": "CBP-H707_FOOT_M5X10_-1_1",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 231",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 431.7157688300841
+    },
+    {
+      "name": "CBP-H707_FOOT_M5X10_1_-1",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 240",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 431.7157688294567
+    },
+    {
+      "name": "CBP-H707_FOOT_M5X10_1_1",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 249",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 431.71576882945607
+    },
+    {
+      "name": "CBP-H708_FOOT_WASHER_-1_-1",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 223",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.47798192991291
+    },
+    {
+      "name": "CBP-H708_FOOT_WASHER_-1_1",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 232",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.47798192991291
+    },
+    {
+      "name": "CBP-H708_FOOT_WASHER_1_-1",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 241",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.47798192991291
+    },
+    {
+      "name": "CBP-H708_FOOT_WASHER_1_1",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 250",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 56.47798192991291
+    },
+    {
+      "name": "CBP-H709_FOOT_HNTT5_-1_-1",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 224",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.296863230433
+    },
+    {
+      "name": "CBP-H709_FOOT_HNTT5_-1_1",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 233",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323043288
+    },
+    {
+      "name": "CBP-H709_FOOT_HNTT5_1_-1",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 242",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.296863230433
+    },
+    {
+      "name": "CBP-H709_FOOT_HNTT5_1_1",
+      "bodies": 0,
+      "occurrences": 1,
+      "volume_mm3": 0
+    },
+    {
+      "name": "Open CASCADE STEP translator 7.8 251",
+      "bodies": 1,
+      "occurrences": 0,
+      "volume_mm3": 250.29686323043288
+    }
+  ],
+  "sketches": [
+    {
+      "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+      "sketch": "SK-CBP-M201-OUTLINE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-PILOT--90",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-PILOT--70",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-PILOT--50",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-PILOT--30",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-PILOT--10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-PILOT-10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-PILOT-30",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-PILOT-50",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-PILOT-70",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-PILOT-90",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+      "sketch": "SK-TSLOT-M5--100--10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+      "sketch": "SK-TSLOT-M5--100-10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+      "sketch": "SK-TSLOT-M5-0--10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+      "sketch": "SK-TSLOT-M5-0-10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+      "sketch": "SK-TSLOT-M5-100--10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M201_Y_RAIL_ADAPTER_AL4",
+      "sketch": "SK-TSLOT-M5-100-10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-OUTLINE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-H1",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-CB1",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-H2",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-CB2",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-H3",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-CB3",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-H4",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-CB4",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-H5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-CB5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-H6",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-CB6",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-H7",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-CB7",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-H8",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-CB8",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-H9",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-CB9",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-H10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P201_MGN9_RAIL_200",
+      "sketch": "SK-CBP-P201-CB10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P202_MGN9H_MOUNT_CAP",
+      "sketch": "SK-CBP-P202-OUTLINE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P202_MGN9H_MOUNT_CAP",
+      "sketch": "SK-CBP-P202-MOUNT--8.0--7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P202_MGN9H_MOUNT_CAP",
+      "sketch": "SK-CBP-P202-MOUNT--8.0-7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P202_MGN9H_MOUNT_CAP",
+      "sketch": "SK-CBP-P202-MOUNT-8.0--7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P202_MGN9H_MOUNT_CAP",
+      "sketch": "SK-CBP-P202-MOUNT-8.0-7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M202_CARBON_X_TUBE_190",
+      "sketch": "SK-CBP-M202-OUTLINE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M202_CARBON_X_TUBE_190",
+      "sketch": "SK-HOLLOW",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203R_Y_END_SOCKET",
+      "sketch": "SK-CBP-M203R-OUTLINE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203R_Y_END_SOCKET",
+      "sketch": "SK-CARBON-SOCKET",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203R_Y_END_SOCKET",
+      "sketch": "SK-CARRIAGE-M3--8--7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203R_Y_END_SOCKET",
+      "sketch": "SK-HEAD-ACCESS--8--7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203R_Y_END_SOCKET",
+      "sketch": "SK-CARRIAGE-M3--8-7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203R_Y_END_SOCKET",
+      "sketch": "SK-HEAD-ACCESS--8-7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203R_Y_END_SOCKET",
+      "sketch": "SK-CARRIAGE-M3-8--7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203R_Y_END_SOCKET",
+      "sketch": "SK-HEAD-ACCESS-8--7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203R_Y_END_SOCKET",
+      "sketch": "SK-CARRIAGE-M3-8-7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203R_Y_END_SOCKET",
+      "sketch": "SK-HEAD-ACCESS-8-7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203L_Y_END_SOCKET",
+      "sketch": "SK-CBP-M203L-OUTLINE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203L_Y_END_SOCKET",
+      "sketch": "SK-CARBON-SOCKET",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203L_Y_END_SOCKET",
+      "sketch": "SK-CARRIAGE-M3--8--7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203L_Y_END_SOCKET",
+      "sketch": "SK-HEAD-ACCESS--8--7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203L_Y_END_SOCKET",
+      "sketch": "SK-CARRIAGE-M3--8-7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203L_Y_END_SOCKET",
+      "sketch": "SK-HEAD-ACCESS--8-7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203L_Y_END_SOCKET",
+      "sketch": "SK-CARRIAGE-M3-8--7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203L_Y_END_SOCKET",
+      "sketch": "SK-HEAD-ACCESS-8--7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203L_Y_END_SOCKET",
+      "sketch": "SK-CARRIAGE-M3-8-7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M203L_Y_END_SOCKET",
+      "sketch": "SK-HEAD-ACCESS-8-7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-OUTLINE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-H1",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-CB1",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-H2",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-CB2",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-H3",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-CB3",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-H4",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-CB4",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-H5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-CB5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-H6",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-CB6",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-H7",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-CB7",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-H8",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-CB8",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-H9",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-CB9",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-H10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-CB10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-H11",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-CB11",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-H12",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P203_MGN7_X_RAIL_180",
+      "sketch": "SK-CBP-P203-CB12",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+      "sketch": "SK-CBP-M204-OUTLINE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+      "sketch": "SK-M2-TAP-1",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+      "sketch": "SK-M2-TAP-2",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+      "sketch": "SK-M2-TAP-3",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+      "sketch": "SK-M2-TAP-4",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+      "sketch": "SK-M2-TAP-5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+      "sketch": "SK-M2-TAP-6",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+      "sketch": "SK-M2-TAP-7",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+      "sketch": "SK-M2-TAP-8",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+      "sketch": "SK-M2-TAP-9",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+      "sketch": "SK-M2-TAP-10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+      "sketch": "SK-M2-TAP-11",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-M204_X_RAIL_THREAD_STRIP",
+      "sketch": "SK-M2-TAP-12",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P204_MGN7H_MOUNT_CAP",
+      "sketch": "SK-CBP-P204-OUTLINE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P204_MGN7H_MOUNT_CAP",
+      "sketch": "SK-CBP-P204-MOUNT--6.5--6.0",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P204_MGN7H_MOUNT_CAP",
+      "sketch": "SK-CBP-P204-MOUNT--6.5-6.0",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P204_MGN7H_MOUNT_CAP",
+      "sketch": "SK-CBP-P204-MOUNT-6.5--6.0",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P204_MGN7H_MOUNT_CAP",
+      "sketch": "SK-CBP-P204-MOUNT-6.5-6.0",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F105_HFS5_2020_Z_POST_240",
+      "sketch": "SK-CBP-F105-OUTLINE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F105_HFS5_2020_Z_POST_240",
+      "sketch": "SK-SUPPLIER-HFS5-SECTION-0",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F105_HFS5_2020_Z_POST_240",
+      "sketch": "SK-SUPPLIER-HFS5-SECTION-1",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F105_HFS5_2020_Z_POST_240",
+      "sketch": "SK-SUPPLIER-HFS5-SECTION-2",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F105_HFS5_2020_Z_POST_240",
+      "sketch": "SK-SUPPLIER-HFS5-SECTION-3",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F105_HFS5_2020_Z_POST_240",
+      "sketch": "SK-CENTER-BORE-M5-TAP-REF",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+      "sketch": "SK-CBP-Z301-OUTLINE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-TAP-55",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-TAP-75",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-TAP-95",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-TAP-115",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-TAP-135",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-TAP-155",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-TAP-175",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-TAP-195",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-TAP-215",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+      "sketch": "SK-RAIL-M3-TAP-235",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+      "sketch": "SK-END-M5-30",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z301_RAIL_ADAPTER_AL4",
+      "sketch": "SK-END-M5-255",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-CBP-P301-OUTLINE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-THRU-0",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-COUNTERBORE-0",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-THRU-1",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-COUNTERBORE-1",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-THRU-2",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-COUNTERBORE-2",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-THRU-3",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-COUNTERBORE-3",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-THRU-4",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-COUNTERBORE-4",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-THRU-5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-COUNTERBORE-5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-THRU-6",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-COUNTERBORE-6",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-THRU-7",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-COUNTERBORE-7",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-THRU-8",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-COUNTERBORE-8",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-THRU-9",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P301_MGN9_Z_RAIL_200",
+      "sketch": "SK-RAIL-COUNTERBORE-9",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z306_Z_MOTOR_BRIDGE_AL6",
+      "sketch": "SK-CBP-Z306",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z306_Z_MOTOR_BRIDGE_AL6",
+      "sketch": "SK-MOTOR-BODY",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z306_Z_MOTOR_BRIDGE_AL6",
+      "sketch": "SK-FRAME-M5--130-30",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z306_Z_MOTOR_BRIDGE_AL6",
+      "sketch": "SK-FRAME-M5--130-80",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z306_Z_MOTOR_BRIDGE_AL6",
+      "sketch": "SK-FRAME-M5-130-30",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z306_Z_MOTOR_BRIDGE_AL6",
+      "sketch": "SK-FRAME-M5-130-80",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z306_Z_MOTOR_BRIDGE_AL6",
+      "sketch": "SK-RISER-M4--28-27",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z306_Z_MOTOR_BRIDGE_AL6",
+      "sketch": "SK-RISER-M4--28-83",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z306_Z_MOTOR_BRIDGE_AL6",
+      "sketch": "SK-RISER-M4-28-27",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z306_Z_MOTOR_BRIDGE_AL6",
+      "sketch": "SK-RISER-M4-28-83",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z307_Z_MOTOR_RISER_HOLD",
+      "sketch": "SK-CBP-Z307",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z307_Z_MOTOR_RISER_HOLD",
+      "sketch": "SK-RISER-BODY",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z307_Z_MOTOR_RISER_HOLD",
+      "sketch": "SK-PILOT-HOLD",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z307_Z_MOTOR_RISER_HOLD",
+      "sketch": "SK-MOTOR-M3--15.5-39.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z307_Z_MOTOR_RISER_HOLD",
+      "sketch": "SK-MOTOR-M3--15.5-70.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z307_Z_MOTOR_RISER_HOLD",
+      "sketch": "SK-MOTOR-M3-15.5-39.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z307_Z_MOTOR_RISER_HOLD",
+      "sketch": "SK-MOTOR-M3-15.5-70.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z307_Z_MOTOR_RISER_HOLD",
+      "sketch": "SK-BRIDGE-M4--28-27",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z307_Z_MOTOR_RISER_HOLD",
+      "sketch": "SK-BRIDGE-M4--28-83",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z307_Z_MOTOR_RISER_HOLD",
+      "sketch": "SK-BRIDGE-M4-28-27",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z307_Z_MOTOR_RISER_HOLD",
+      "sketch": "SK-BRIDGE-M4-28-83",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P305_LDO_Z_MOTOR_PROXY",
+      "sketch": "SK-CBP-P305",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P305_LDO_Z_MOTOR_PROXY",
+      "sketch": "SK-MOTOR-THREAD--15.5-39.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P305_LDO_Z_MOTOR_PROXY",
+      "sketch": "SK-MOTOR-THREAD--15.5-70.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P305_LDO_Z_MOTOR_PROXY",
+      "sketch": "SK-MOTOR-THREAD-15.5-39.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P305_LDO_Z_MOTOR_PROXY",
+      "sketch": "SK-MOTOR-THREAD-15.5-70.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P306_TR8X8_SCREW_ENVELOPE",
+      "sketch": "SK-CBP-P306",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P302_MGN9H_Z_MOUNT_CAP",
+      "sketch": "SK-CBP-P302-OUTLINE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P302_MGN9H_Z_MOUNT_CAP",
+      "sketch": "SK-M3-BLOCK--8--7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P302_MGN9H_Z_MOUNT_CAP",
+      "sketch": "SK-M3-BLOCK--8-7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P302_MGN9H_Z_MOUNT_CAP",
+      "sketch": "SK-M3-BLOCK-8--7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P302_MGN9H_Z_MOUNT_CAP",
+      "sketch": "SK-M3-BLOCK-8-7.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z302_SIDE_PLATE_L",
+      "sketch": "SK-CBP-Z302L",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z302_SIDE_PLATE_L",
+      "sketch": "SK-MGN-M3--45.5-195",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z302_SIDE_PLATE_L",
+      "sketch": "SK-MGN-M3--45.5-211",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z302_SIDE_PLATE_L",
+      "sketch": "SK-MGN-M3--30.5-195",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z302_SIDE_PLATE_L",
+      "sketch": "SK-MGN-M3--30.5-211",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z302_SIDE_PLATE_L",
+      "sketch": "SK-YOKE-M4--55",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z302_SIDE_PLATE_L",
+      "sketch": "SK-YOKE-M4--21",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z302_SIDE_PLATE_R",
+      "sketch": "SK-CBP-Z302R",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z302_SIDE_PLATE_R",
+      "sketch": "SK-MGN-M3--45.5-195",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z302_SIDE_PLATE_R",
+      "sketch": "SK-MGN-M3--45.5-211",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z302_SIDE_PLATE_R",
+      "sketch": "SK-MGN-M3--30.5-195",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z302_SIDE_PLATE_R",
+      "sketch": "SK-MGN-M3--30.5-211",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z302_SIDE_PLATE_R",
+      "sketch": "SK-YOKE-M4--55",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z302_SIDE_PLATE_R",
+      "sketch": "SK-YOKE-M4--21",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-CBP-Z303-MAIN",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-FRONT-FINGER--42",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-FRONT-FINGER-42",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-REAR-NUT-ARM",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-WINDOW--65",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-WINDOW-0",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-WINDOW-65",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-LEVEL-LEFT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-LEVEL-RIGHT-X-END1",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-LEVEL-RIGHT-X-END2",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-LEVEL-RIGHT-X-WEB",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-LEVEL-REAR-Y-END1",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-LEVEL-REAR-Y-END2",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-LEVEL-REAR-Y-WEB",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-M4-END-TAP--101--55",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-M4-END-TAP--101--21",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-M4-END-TAP-94--55",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-M4-END-TAP-94--21",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-BLOCK-HEAD-SCALLOP--101--45.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-BLOCK-HEAD-SCALLOP--101--30.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-BLOCK-HEAD-SCALLOP-97--45.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-BLOCK-HEAD-SCALLOP-97--30.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-CASSETTE-M3-TAP--16-43",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-CASSETTE-M3-TAP--16-67",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-CASSETTE-M3-TAP-16-43",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-CASSETTE-M3-TAP-16-67",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-NUT-BODY-HOLD",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-ANGLE-M3--10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z303_BED_FORK_YOKE_AL6",
+      "sketch": "SK-ANGLE-M3-20",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z304_AL_BED_100",
+      "sketch": "SK-CBP-Z304",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z304_AL_BED_100",
+      "sketch": "SK-M3-LEVEL-TAP--42",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z304_AL_BED_100",
+      "sketch": "SK-M3-LEVEL-TAP-42",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z304_AL_BED_100",
+      "sketch": "SK-M3-LEVEL-TAP-0",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P303_MAGNET_STACK_ALLOWANCE",
+      "sketch": "SK-CBP-P303_MAGNET_STACK_ALLOWANCE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-P304_STEEL_PEI_STACK_ALLOWANCE",
+      "sketch": "SK-CBP-P304_STEEL_PEI_STACK_ALLOWANCE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z305_SILICONE_SPACER_1",
+      "sketch": "SK-CBP-Z305-1",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z305_SILICONE_SPACER_1",
+      "sketch": "SK-M3-CENTER",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z305_SILICONE_SPACER_2",
+      "sketch": "SK-CBP-Z305-2",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z305_SILICONE_SPACER_2",
+      "sketch": "SK-M3-CENTER",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z305_SILICONE_SPACER_3",
+      "sketch": "SK-CBP-Z305-3",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z305_SILICONE_SPACER_3",
+      "sketch": "SK-M3-CENTER",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z308_REAR_ARM_ANGLE",
+      "sketch": "SK-ANGLE-FOOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z308_REAR_ARM_ANGLE",
+      "sketch": "SK-ANGLE-WALL",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z308_REAR_ARM_ANGLE",
+      "sketch": "SK-M3-ANGLE--10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z308_REAR_ARM_ANGLE",
+      "sketch": "SK-M3-ANGLE-20",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z308_REAR_ARM_ANGLE",
+      "sketch": "SK-REAR-LEVEL-HEAD-CLEARANCE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z309_FLOATING_NUT_CASSETTE_HOLD",
+      "sketch": "SK-CASSETTE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z309_FLOATING_NUT_CASSETTE_HOLD",
+      "sketch": "SK-BODY-HOLD",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z309_FLOATING_NUT_CASSETTE_HOLD",
+      "sketch": "SK-FLANGE-POCKET",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z309_FLOATING_NUT_CASSETTE_HOLD",
+      "sketch": "SK-M3-CASSETTE--16-43",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z309_FLOATING_NUT_CASSETTE_HOLD",
+      "sketch": "SK-M3-CASSETTE--16-67",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z309_FLOATING_NUT_CASSETTE_HOLD",
+      "sketch": "SK-M3-CASSETTE-16-43",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z309_FLOATING_NUT_CASSETTE_HOLD",
+      "sketch": "SK-M3-CASSETTE-16-67",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z310_NUT_COVER_HOLD",
+      "sketch": "SK-COVER",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z310_NUT_COVER_HOLD",
+      "sketch": "SK-BODY-HOLD",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z310_NUT_COVER_HOLD",
+      "sketch": "SK-M3-CASSETTE--16-43",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z310_NUT_COVER_HOLD",
+      "sketch": "SK-M3-CASSETTE--16-67",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z310_NUT_COVER_HOLD",
+      "sketch": "SK-M3-CASSETTE-16-43",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-Z310_NUT_COVER_HOLD",
+      "sketch": "SK-M3-CASSETTE-16-67",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F101_HFS5_2020_240",
+      "sketch": "SK-CBP-F101-OUTLINE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F101_HFS5_2020_240",
+      "sketch": "SK-CBP-F101-B-TSLOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F101_HFS5_2020_240",
+      "sketch": "SK-CBP-F101-T-TSLOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F101_HFS5_2020_240",
+      "sketch": "SK-CBP-F101-L1-TSLOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F101_HFS5_2020_240",
+      "sketch": "SK-CBP-F101-R1-TSLOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F101_HFS5_2020_240",
+      "sketch": "SK-CBP-F101-M5-END-BORE-1",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F102_HFS5_2020_260",
+      "sketch": "SK-CBP-F102-OUTLINE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F102_HFS5_2020_260",
+      "sketch": "SK-CBP-F102-B-TSLOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F102_HFS5_2020_260",
+      "sketch": "SK-CBP-F102-T-TSLOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F102_HFS5_2020_260",
+      "sketch": "SK-CBP-F102-L1-TSLOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F102_HFS5_2020_260",
+      "sketch": "SK-CBP-F102-R1-TSLOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F102_HFS5_2020_260",
+      "sketch": "SK-CBP-F102-M5-END-BORE-1",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F103_HFS5_2040_240",
+      "sketch": "SK-CBP-F103-OUTLINE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F103_HFS5_2040_240",
+      "sketch": "SK-CBP-F103-B-TSLOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F103_HFS5_2040_240",
+      "sketch": "SK-CBP-F103-T-TSLOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F103_HFS5_2040_240",
+      "sketch": "SK-CBP-F103-L1-TSLOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F103_HFS5_2040_240",
+      "sketch": "SK-CBP-F103-L2-TSLOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F103_HFS5_2040_240",
+      "sketch": "SK-CBP-F103-R1-TSLOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F103_HFS5_2040_240",
+      "sketch": "SK-CBP-F103-R2-TSLOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F103_HFS5_2040_240",
+      "sketch": "SK-CBP-F103-M5-END-BORE-1",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F103_HFS5_2040_240",
+      "sketch": "SK-CBP-F103-M5-END-BORE-2",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F104_HFS5_2020_280",
+      "sketch": "SK-CBP-F104-OUTLINE",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F104_HFS5_2020_280",
+      "sketch": "SK-CBP-F104-B-TSLOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F104_HFS5_2020_280",
+      "sketch": "SK-CBP-F104-T-TSLOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F104_HFS5_2020_280",
+      "sketch": "SK-CBP-F104-L1-TSLOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F104_HFS5_2020_280",
+      "sketch": "SK-CBP-F104-R1-TSLOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F104_HFS5_2020_280",
+      "sketch": "SK-CBP-F104-M5-END-BORE-1",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_L_FRONT_BOTTOM",
+      "sketch": "SK-GUSSET",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_L_FRONT_BOTTOM",
+      "sketch": "SK-M5--130-30",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_L_FRONT_BOTTOM",
+      "sketch": "SK-M5--130-55",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_L_FRONT_BOTTOM",
+      "sketch": "SK-M5--110-10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_L_FRONT_BOTTOM",
+      "sketch": "SK-M5--85-10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_R_FRONT_BOTTOM",
+      "sketch": "SK-GUSSET",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_R_FRONT_BOTTOM",
+      "sketch": "SK-M5--130-30",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_R_FRONT_BOTTOM",
+      "sketch": "SK-M5--130-55",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_R_FRONT_BOTTOM",
+      "sketch": "SK-M5--110-10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_R_FRONT_BOTTOM",
+      "sketch": "SK-M5--85-10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_L_FRONT_TOP",
+      "sketch": "SK-GUSSET",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_L_FRONT_TOP",
+      "sketch": "SK-M5--130-270",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_L_FRONT_TOP",
+      "sketch": "SK-M5--130-245",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_L_FRONT_TOP",
+      "sketch": "SK-M5--110-290",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_L_FRONT_TOP",
+      "sketch": "SK-M5--85-290",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_R_FRONT_TOP",
+      "sketch": "SK-GUSSET",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_R_FRONT_TOP",
+      "sketch": "SK-M5--130-270",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_R_FRONT_TOP",
+      "sketch": "SK-M5--130-245",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_R_FRONT_TOP",
+      "sketch": "SK-M5--110-290",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_R_FRONT_TOP",
+      "sketch": "SK-M5--85-290",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_L_REAR_BOTTOM",
+      "sketch": "SK-GUSSET",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_L_REAR_BOTTOM",
+      "sketch": "SK-M5-130-30",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_L_REAR_BOTTOM",
+      "sketch": "SK-M5-130-55",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_L_REAR_BOTTOM",
+      "sketch": "SK-M5-110-10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_L_REAR_BOTTOM",
+      "sketch": "SK-M5-85-10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_R_REAR_BOTTOM",
+      "sketch": "SK-GUSSET",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_R_REAR_BOTTOM",
+      "sketch": "SK-M5-130-30",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_R_REAR_BOTTOM",
+      "sketch": "SK-M5-130-55",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_R_REAR_BOTTOM",
+      "sketch": "SK-M5-110-10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_R_REAR_BOTTOM",
+      "sketch": "SK-M5-85-10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_L_REAR_TOP",
+      "sketch": "SK-GUSSET",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_L_REAR_TOP",
+      "sketch": "SK-M5-130-270",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_L_REAR_TOP",
+      "sketch": "SK-M5-130-245",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_L_REAR_TOP",
+      "sketch": "SK-M5-110-290",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_L_REAR_TOP",
+      "sketch": "SK-M5-85-290",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_R_REAR_TOP",
+      "sketch": "SK-GUSSET",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_R_REAR_TOP",
+      "sketch": "SK-M5-130-270",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_R_REAR_TOP",
+      "sketch": "SK-M5-130-245",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_R_REAR_TOP",
+      "sketch": "SK-M5-110-290",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F120_GUSSET_R_REAR_TOP",
+      "sketch": "SK-M5-85-290",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_L",
+      "sketch": "SK-SIDE-PANEL",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_L",
+      "sketch": "SK-M5-0",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_L",
+      "sketch": "SK-M5-1",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_L",
+      "sketch": "SK-M5-2",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_L",
+      "sketch": "SK-M5-3",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_L",
+      "sketch": "SK-M5-4",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_L",
+      "sketch": "SK-M5-5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_L",
+      "sketch": "SK-M5-6",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_L",
+      "sketch": "SK-M5-7",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_L",
+      "sketch": "SK-M5-8",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_L",
+      "sketch": "SK-M5-9",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_L",
+      "sketch": "SK-M5-10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_L",
+      "sketch": "SK-M5-11",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_L",
+      "sketch": "SK-M5-12",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_L",
+      "sketch": "SK-M5-13",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_L",
+      "sketch": "SK-M5-14",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_L",
+      "sketch": "SK-M5-15",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_L",
+      "sketch": "SK-M5-16",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_L",
+      "sketch": "SK-M5-17",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_L",
+      "sketch": "SK-M5-18",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_L",
+      "sketch": "SK-M5-19",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_L",
+      "sketch": "SK-M5-20",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_L",
+      "sketch": "SK-M5-21",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_L",
+      "sketch": "SK-M5-22",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_L",
+      "sketch": "SK-M5-23",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_L",
+      "sketch": "SK-M5-24",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_L",
+      "sketch": "SK-M5-25",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_L",
+      "sketch": "SK-M5-26",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_R",
+      "sketch": "SK-SIDE-PANEL",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_R",
+      "sketch": "SK-M5-0",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_R",
+      "sketch": "SK-M5-1",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_R",
+      "sketch": "SK-M5-2",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_R",
+      "sketch": "SK-M5-3",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_R",
+      "sketch": "SK-M5-4",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_R",
+      "sketch": "SK-M5-5",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_R",
+      "sketch": "SK-M5-6",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_R",
+      "sketch": "SK-M5-7",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_R",
+      "sketch": "SK-M5-8",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_R",
+      "sketch": "SK-M5-9",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_R",
+      "sketch": "SK-M5-10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_R",
+      "sketch": "SK-M5-11",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_R",
+      "sketch": "SK-M5-12",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_R",
+      "sketch": "SK-M5-13",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_R",
+      "sketch": "SK-M5-14",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_R",
+      "sketch": "SK-M5-15",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_R",
+      "sketch": "SK-M5-16",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_R",
+      "sketch": "SK-M5-17",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_R",
+      "sketch": "SK-M5-18",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_R",
+      "sketch": "SK-M5-19",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_R",
+      "sketch": "SK-M5-20",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_R",
+      "sketch": "SK-M5-21",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_R",
+      "sketch": "SK-M5-22",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_R",
+      "sketch": "SK-M5-23",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_R",
+      "sketch": "SK-M5-24",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_R",
+      "sketch": "SK-M5-25",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F121_SIDE_SHEAR_PANEL_R",
+      "sketch": "SK-M5-26",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F122_REAR_SHEAR_PANEL",
+      "sketch": "SK-REAR-PANEL",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F122_REAR_SHEAR_PANEL",
+      "sketch": "SK-M5--90-10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F122_REAR_SHEAR_PANEL",
+      "sketch": "SK-M5--90-290",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F122_REAR_SHEAR_PANEL",
+      "sketch": "SK-M5-0-10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F122_REAR_SHEAR_PANEL",
+      "sketch": "SK-M5-0-290",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F122_REAR_SHEAR_PANEL",
+      "sketch": "SK-M5-90-10",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F122_REAR_SHEAR_PANEL",
+      "sketch": "SK-M5-90-290",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F122_REAR_SHEAR_PANEL",
+      "sketch": "SK-M5--130-50",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F122_REAR_SHEAR_PANEL",
+      "sketch": "SK-M5--130-110",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F122_REAR_SHEAR_PANEL",
+      "sketch": "SK-M5--130-190",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F122_REAR_SHEAR_PANEL",
+      "sketch": "SK-M5--130-250",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F122_REAR_SHEAR_PANEL",
+      "sketch": "SK-M5-130-50",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F122_REAR_SHEAR_PANEL",
+      "sketch": "SK-M5-130-110",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F122_REAR_SHEAR_PANEL",
+      "sketch": "SK-M5-130-190",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F122_REAR_SHEAR_PANEL",
+      "sketch": "SK-M5-130-250",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F123_RIGID_FOOT_-1_-1",
+      "sketch": "SK-FOOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F123_RIGID_FOOT_-1_-1",
+      "sketch": "SK-ATTACH",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F123_RIGID_FOOT_-1_-1",
+      "sketch": "SK-HEAD",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F123_RIGID_FOOT_-1_-1",
+      "sketch": "SK-POST-HEAD",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F123_RIGID_FOOT_-1_-1",
+      "sketch": "SK-POST-TOOL",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F124_TPU_FOOT_PAD_-1_-1",
+      "sketch": "SK-PAD",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F124_TPU_FOOT_PAD_-1_-1",
+      "sketch": "SK-ACCESS--115",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F124_TPU_FOOT_PAD_-1_-1",
+      "sketch": "SK-ACCESS--130",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F123_RIGID_FOOT_-1_1",
+      "sketch": "SK-FOOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F123_RIGID_FOOT_-1_1",
+      "sketch": "SK-ATTACH",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F123_RIGID_FOOT_-1_1",
+      "sketch": "SK-HEAD",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F123_RIGID_FOOT_-1_1",
+      "sketch": "SK-POST-HEAD",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F123_RIGID_FOOT_-1_1",
+      "sketch": "SK-POST-TOOL",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F124_TPU_FOOT_PAD_-1_1",
+      "sketch": "SK-PAD",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F124_TPU_FOOT_PAD_-1_1",
+      "sketch": "SK-ACCESS--115",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F124_TPU_FOOT_PAD_-1_1",
+      "sketch": "SK-ACCESS--130",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F123_RIGID_FOOT_1_-1",
+      "sketch": "SK-FOOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F123_RIGID_FOOT_1_-1",
+      "sketch": "SK-ATTACH",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F123_RIGID_FOOT_1_-1",
+      "sketch": "SK-HEAD",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F123_RIGID_FOOT_1_-1",
+      "sketch": "SK-POST-HEAD",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F123_RIGID_FOOT_1_-1",
+      "sketch": "SK-POST-TOOL",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F124_TPU_FOOT_PAD_1_-1",
+      "sketch": "SK-PAD",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F124_TPU_FOOT_PAD_1_-1",
+      "sketch": "SK-ACCESS-115",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F124_TPU_FOOT_PAD_1_-1",
+      "sketch": "SK-ACCESS-130",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F123_RIGID_FOOT_1_1",
+      "sketch": "SK-FOOT",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F123_RIGID_FOOT_1_1",
+      "sketch": "SK-ATTACH",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F123_RIGID_FOOT_1_1",
+      "sketch": "SK-HEAD",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F123_RIGID_FOOT_1_1",
+      "sketch": "SK-POST-HEAD",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F123_RIGID_FOOT_1_1",
+      "sketch": "SK-POST-TOOL",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F124_TPU_FOOT_PAD_1_1",
+      "sketch": "SK-PAD",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F124_TPU_FOOT_PAD_1_1",
+      "sketch": "SK-ACCESS-115",
+      "fully_constrained": true
+    },
+    {
+      "component": "CBP-F124_TPU_FOOT_PAD_1_1",
+      "sketch": "SK-ACCESS-130",
+      "fully_constrained": true
+    }
+  ],
+  "unconstrained": [],
+  "feature_health": [],
+  "parameters": 54,
+  "timeline": 1832,
+  "all_occurrences": 582,
+  "assets": [
+    {
+      "file": "CBP-RevF-013-Complete-Bracing-Display.f3d",
+      "bytes": 23148637,
+      "sha256": "d9e4cf41c28bd3ab37c78c5155cd11af02f973a520ec6ffb80b2310fe4606e7d"
+    },
+    {
+      "file": "CBP-RevF-013-Complete-Bracing-Display.step",
+      "bytes": 30761219,
+      "sha256": "2d27d403cd076a0aa070710d229ac9904cedd7034b16e81d1fba2f3098202427"
+    }
+  ],
+  "modified_after_export": false
+}

@@ -1,0 +1,1157 @@
+{
+  "status": "offline development geometry; Fusion history execution and manufacturing release pending",
+  "units": "mm,g",
+  "part_count": 218,
+  "mass_groups": {
+    "gantry": {
+      "known_mass_g": 175.80345035168145,
+      "unknown_mass_parts": [],
+      "COM_mm": [
+        -1.67426934852423e-14,
+        -5.856537914733522,
+        287.18995763495275
+      ]
+    },
+    "fixed": {
+      "known_mass_g": 542.5363581535578,
+      "unknown_mass_parts": [],
+      "COM_mm": [
+        0.8756901185864757,
+        7.594594559229918,
+        250.82416257494756
+      ]
+    }
+  },
+  "files": [
+    {
+      "name": "CBP-M205_L_CARRIAGE_ADAPTER.step",
+      "bytes": 85453,
+      "sha256": "96e652729eb60756eab0296a766bc6d71adf2a9c0271da4b61df369ee9c011c3"
+    },
+    {
+      "name": "CBP-M206_L_SPLIT_BEAM_CLAMP.step",
+      "bytes": 180784,
+      "sha256": "09856eb23e5028ccad9610da6aae043b37a9f155bb0a14215df7741670b98936"
+    },
+    {
+      "name": "CBP-M206_L_SPLIT_BEAM_CLAMP.stl",
+      "bytes": 210084,
+      "sha256": "f8d659ff1c3ab13dd549c6a3d19573744f4926f94af8b3b5f614ce9993c09b59"
+    },
+    {
+      "name": "CBP-M208_L_SEPARATE_IDLER_FORK.step",
+      "bytes": 264177,
+      "sha256": "725e574af8aff4dc415f254a4834900ab1c674583b17f9a3e4474a4f722fc454"
+    },
+    {
+      "name": "CBP-M208_L_SEPARATE_IDLER_FORK.stl",
+      "bytes": 378784,
+      "sha256": "950f76e0abcc1b32397c79bba5a0bea00039fe97776768ced941541d05fe5dd5"
+    },
+    {
+      "name": "CBP-M209_L_AL_PORTAL_BRIDGE.step",
+      "bytes": 34752,
+      "sha256": "0a8fe09802351f31e5ddd597d24c695923aa8f222a9a4cef7c043a68cc31788e"
+    },
+    {
+      "name": "CBP-P410_L_PORTAL_SPACER_0.step",
+      "bytes": 9287,
+      "sha256": "225697b16f0ebd323f64cc44f9a20168a0b47c56609e70d61c631808eb836c53"
+    },
+    {
+      "name": "CBP-P410_L_PORTAL_SPACER_1.step",
+      "bytes": 9273,
+      "sha256": "ebf670f5d2c1bf417e05a1f310db8be5b7faa7a11e561d22bfedf24a3c765828"
+    },
+    {
+      "name": "CBP-M207_L_REMOVABLE_IDLER_CAP.step",
+      "bytes": 46705,
+      "sha256": "1f7ef360e383a7a93ae949899c15bcebcf6929fb644a92e93c561e54d0b75692"
+    },
+    {
+      "name": "CBP-M207_L_REMOVABLE_IDLER_CAP.stl",
+      "bytes": 127484,
+      "sha256": "28eb6bf03e7cf98f745ad4e425dc0636480504207efd46885b4a0c3f49a28f2d"
+    },
+    {
+      "name": "CBP-P408_L_5MM_IDLER_SHAFT_ALLOWANCE.step",
+      "bytes": 5675,
+      "sha256": "6dd301e330d4442fce31b17ddb9844f8b8989cfba0b6129db119677d17791f42"
+    },
+    {
+      "name": "CBP-P409_L_INNER_RACE_SPACER_0.step",
+      "bytes": 9317,
+      "sha256": "b99c668ef87ae248b2d7d661784068a099594d9d2d3a5943f537d4f2d1e800b5"
+    },
+    {
+      "name": "CBP-P409_L_INNER_RACE_SPACER_1.step",
+      "bytes": 9326,
+      "sha256": "a53c49233471841e11ab8b73b5835927603c95e608b7ce0d3c2520de7ab33278"
+    },
+    {
+      "name": "CBP-P409_L_INNER_RACE_SPACER_2.step",
+      "bytes": 9326,
+      "sha256": "4e5781db8c63d6ba63df59cdfa7b9663e0ea2934c878aaf1da1b95433ac8d5f5"
+    },
+    {
+      "name": "CBP-H601_L_FORK_M3X6_1.step",
+      "bytes": 32745,
+      "sha256": "4d2550fc9229c242cca62404b24c8191224542326bf65c8e55c32cc8165c097d"
+    },
+    {
+      "name": "CBP-H601_L_FORK_M3X6_2.step",
+      "bytes": 32730,
+      "sha256": "28f3d950cb0552ec2ba94bfb24153b3cb5c193c0542d5f602e87422cea4d0216"
+    },
+    {
+      "name": "CBP-H601_L_FORK_M3X6_3.step",
+      "bytes": 32712,
+      "sha256": "0a8af823bfd18a2073a3a3bf5d6b79d59ffe9bc5c959b118617c9122913ff5f2"
+    },
+    {
+      "name": "CBP-H601_L_FORK_M3X6_4.step",
+      "bytes": 32764,
+      "sha256": "70925ad8cb485fc5b3dd40e9678fff5016415fea1988362499c5155f71bc92c9"
+    },
+    {
+      "name": "CBP-H602_L_MGN_M3X4_1.step",
+      "bytes": 32806,
+      "sha256": "32f1a0d8dfbac07221d78b02335d7d7665154632e2b6b603c1a20ac6f92dfa88"
+    },
+    {
+      "name": "CBP-H602_L_MGN_M3X4_2.step",
+      "bytes": 32806,
+      "sha256": "c9f97487485c1303e62f8529af53535c3f804fa823bb324c5f3f31daedc4f3be"
+    },
+    {
+      "name": "CBP-H602_L_MGN_M3X4_3.step",
+      "bytes": 32770,
+      "sha256": "f0eaef87dd3c7fbe6442ee24f489f2efd70ff4fdab4d788cb6d9c74c3e6102ba"
+    },
+    {
+      "name": "CBP-H602_L_MGN_M3X4_4.step",
+      "bytes": 32802,
+      "sha256": "a42c92dfff81893ea9981a2c01bf896f0060dd97adb93055c41160a093565e1c"
+    },
+    {
+      "name": "CBP-H603_L_CAP_M3X10_1.step",
+      "bytes": 32831,
+      "sha256": "38a18e2d1ec45303fcc3b63aba5e61fb52f8d36d9d1db05accd079669ac95684"
+    },
+    {
+      "name": "CBP-H603_L_CAP_M3X10_2.step",
+      "bytes": 32831,
+      "sha256": "63c0ecda1c9c9b4cea69df068be7094e587098a29b61762623b51c10eee8518d"
+    },
+    {
+      "name": "CBP-H604_L_PORTAL_AL_M3X8_1.step",
+      "bytes": 32804,
+      "sha256": "2eea1a17256dddd63adee5bde10a51f63b903c89114a834ed5ec01eda4fe0667"
+    },
+    {
+      "name": "CBP-H605_L_PORTAL_AL_WASHER_1.step",
+      "bytes": 9316,
+      "sha256": "f53f1b070404e33888c317fca1d83ba72c43cb12778110f88ed45a9d7a68008a"
+    },
+    {
+      "name": "CBP-H604_L_PORTAL_AL_M3X8_2.step",
+      "bytes": 32724,
+      "sha256": "94f7ec254cc463ac62a43053e71973c9d413f766edb890a103037d13442ef871"
+    },
+    {
+      "name": "CBP-H605_L_PORTAL_AL_WASHER_2.step",
+      "bytes": 9302,
+      "sha256": "d4d26ba41c55c2468e561444e195d85b8f8f96202d5df7b6984adb7ae058cc4b"
+    },
+    {
+      "name": "CBP-H606_L_PORTAL_CLAMP_M3X12_1.step",
+      "bytes": 32724,
+      "sha256": "b7ff06fccff20c20a1a8d4b30dced11fef11af29d600cc359faa64fa94b5ac70"
+    },
+    {
+      "name": "CBP-H607_L_PORTAL_CLAMP_WASHER_1.step",
+      "bytes": 9288,
+      "sha256": "99137bf726566a0b4e7d58f1869e64fc8f4cd111a0f7785b317f864b0aa00254"
+    },
+    {
+      "name": "CBP-H606_L_PORTAL_CLAMP_M3X12_2.step",
+      "bytes": 32672,
+      "sha256": "367f144f82e85f4ccc64cfb4690f77462df21b5aeaaa914df277bc9c07ed2105"
+    },
+    {
+      "name": "CBP-H607_L_PORTAL_CLAMP_WASHER_2.step",
+      "bytes": 9274,
+      "sha256": "f0912ca3f3dda2791b4f10a1f00402cea1d273e12f536cf4bf92083dbfefcc10"
+    },
+    {
+      "name": "CBP-M205_R_CARRIAGE_ADAPTER.step",
+      "bytes": 69048,
+      "sha256": "d4c21f384df32f8096d5153db1f8cc83785f8a4c497197e23de190dd6b24a990"
+    },
+    {
+      "name": "CBP-M206_R_SPLIT_BEAM_CLAMP.step",
+      "bytes": 175972,
+      "sha256": "71998045ff87314b37806847f932cb6979b682f5d6b4351c87b55c761a03649d"
+    },
+    {
+      "name": "CBP-M206_R_SPLIT_BEAM_CLAMP.stl",
+      "bytes": 210084,
+      "sha256": "87ccdf7da4639fbb9fca34de73ecbe4fc1ec1dc55de95d9b76cba3cfaca13271"
+    },
+    {
+      "name": "CBP-M208_R_SEPARATE_IDLER_FORK.step",
+      "bytes": 246363,
+      "sha256": "5eb57bc2aa84c49c66880e7c3f593ba676428de3ef4004229ac877806b0e885f"
+    },
+    {
+      "name": "CBP-M208_R_SEPARATE_IDLER_FORK.stl",
+      "bytes": 378784,
+      "sha256": "013f4f5007ff3c37444065289151fa80d922f8f55dcbdc1602aec52ec182465d"
+    },
+    {
+      "name": "CBP-M209_R_AL_PORTAL_BRIDGE.step",
+      "bytes": 30060,
+      "sha256": "0674b5f79540fc4f5f090cd078fe93812177cf5d76329df1550c916330871df3"
+    },
+    {
+      "name": "CBP-P410_R_PORTAL_SPACER_0.step",
+      "bytes": 9275,
+      "sha256": "fc4a9cace30b16def56f6f972f07ec73f785d250e9c7a345cec66e2f7cf3d70f"
+    },
+    {
+      "name": "CBP-P410_R_PORTAL_SPACER_1.step",
+      "bytes": 9261,
+      "sha256": "00f519bffd4366e14efe024e9c0c1380b8cd10e3289dcb7694763e0de091f3cb"
+    },
+    {
+      "name": "CBP-M207_R_REMOVABLE_IDLER_CAP.step",
+      "bytes": 40008,
+      "sha256": "1cd412cac236b730776b7f675fb2e643e16486f304afcc1b5c2d049579859901"
+    },
+    {
+      "name": "CBP-M207_R_REMOVABLE_IDLER_CAP.stl",
+      "bytes": 127484,
+      "sha256": "71f0da0fb31009bbf2b24a0b4db4e980efc7ee21cbf8b028b3a7d307c05a18aa"
+    },
+    {
+      "name": "CBP-P408_R_5MM_IDLER_SHAFT_ALLOWANCE.step",
+      "bytes": 5669,
+      "sha256": "68ffe2deeb474780aeb63d9fac38cc846696e230890b74bb2fe01fc352dc6972"
+    },
+    {
+      "name": "CBP-P409_R_INNER_RACE_SPACER_0.step",
+      "bytes": 9305,
+      "sha256": "fde98860fb39aa08be5927b988b5145fff54b72d255881e4be5a919e82e8ea70"
+    },
+    {
+      "name": "CBP-P409_R_INNER_RACE_SPACER_1.step",
+      "bytes": 9312,
+      "sha256": "6a36ac72cc3c4e24922a41a2f84abd27923ebf9ceb8c1d49e4a4c21ca6f552c6"
+    },
+    {
+      "name": "CBP-P409_R_INNER_RACE_SPACER_2.step",
+      "bytes": 9312,
+      "sha256": "2f77b29de760a18d40039122b8a75d5b61a3642ade593fa6faee040e8966e35d"
+    },
+    {
+      "name": "CBP-H601_R_FORK_M3X6_1.step",
+      "bytes": 32665,
+      "sha256": "9b12d4ab6152e3eb5bec3d60caf3220198eb80b5e56ad16657138a8f97c94502"
+    },
+    {
+      "name": "CBP-H601_R_FORK_M3X6_2.step",
+      "bytes": 32650,
+      "sha256": "33a9f29a6602ae56eeb44d13271b4facb629169c318b210bc10279823e76f3c5"
+    },
+    {
+      "name": "CBP-H601_R_FORK_M3X6_3.step",
+      "bytes": 32666,
+      "sha256": "28f11514f494b9e3d01ecd4b34cf9705b73dc5fdb460f56a843e6be5fb5c4afd"
+    },
+    {
+      "name": "CBP-H601_R_FORK_M3X6_4.step",
+      "bytes": 32650,
+      "sha256": "b79207cbf78905a4c3b218a5a5941f1df7075de2300d600da0886d0158072528"
+    },
+    {
+      "name": "CBP-H602_R_MGN_M3X4_1.step",
+      "bytes": 32726,
+      "sha256": "83e9e5f150f0e6bdd24c524a4f76801c85cb85a20d4a89d32ee42df56027327b"
+    },
+    {
+      "name": "CBP-H602_R_MGN_M3X4_2.step",
+      "bytes": 32726,
+      "sha256": "6a058f11662288f00a4b3503c73d9d9b2b5a5b39182a2ceabfec0169c84edd39"
+    },
+    {
+      "name": "CBP-H602_R_MGN_M3X4_3.step",
+      "bytes": 32690,
+      "sha256": "7fe0b2e6ea9522e0ab65b17bdc7c650081afc0945bde3f6360d12339ee88cdc5"
+    },
+    {
+      "name": "CBP-H602_R_MGN_M3X4_4.step",
+      "bytes": 32724,
+      "sha256": "3a6b89cd531ad49a25efac240094ee93d24991f453bca79bad691337e9dc0270"
+    },
+    {
+      "name": "CBP-H603_R_CAP_M3X10_1.step",
+      "bytes": 32813,
+      "sha256": "6a0a6c3519f76900482323d7d878a0aaca26519a582eb16d5b21da0c846a44fc"
+    },
+    {
+      "name": "CBP-H603_R_CAP_M3X10_2.step",
+      "bytes": 32813,
+      "sha256": "0924c61f0f20f0984bc4c2e20aa653cb2010ba04d9f93a7a8e95769f16b5e4b7"
+    },
+    {
+      "name": "CBP-H604_R_PORTAL_AL_M3X8_1.step",
+      "bytes": 32791,
+      "sha256": "7986fdae78150e498e85ef3ef3177faf44886e5adcae137833a6fa1c02b0c96b"
+    },
+    {
+      "name": "CBP-H605_R_PORTAL_AL_WASHER_1.step",
+      "bytes": 9302,
+      "sha256": "d8607600a0910782727640339a366ac13363df879bc757fa9df0c7414afb8618"
+    },
+    {
+      "name": "CBP-H604_R_PORTAL_AL_M3X8_2.step",
+      "bytes": 32711,
+      "sha256": "90d26b67dbf1bf411c39a6c7c070d662259da63c1d313b4fa60c5f0576b5a870"
+    },
+    {
+      "name": "CBP-H605_R_PORTAL_AL_WASHER_2.step",
+      "bytes": 9288,
+      "sha256": "bfb94293836b073e92adb7a97b8788263769c983635db13aeb08e0f5b4dcfc24"
+    },
+    {
+      "name": "CBP-H606_R_PORTAL_CLAMP_M3X12_1.step",
+      "bytes": 32713,
+      "sha256": "c8507c7138a5fcb666a69767e300ad746b5efeb54616e78461839402487eadbe"
+    },
+    {
+      "name": "CBP-H607_R_PORTAL_CLAMP_WASHER_1.step",
+      "bytes": 9274,
+      "sha256": "cbf549eed5af4d6a30f7878c48f79d1aa3e3b68475c44368ea993d63b76acf84"
+    },
+    {
+      "name": "CBP-H606_R_PORTAL_CLAMP_M3X12_2.step",
+      "bytes": 32661,
+      "sha256": "4c0e7fdd2464636006cccd2e113bd08ae54f569436355d88147a5c30b007eaad"
+    },
+    {
+      "name": "CBP-H607_R_PORTAL_CLAMP_WASHER_2.step",
+      "bytes": 9260,
+      "sha256": "bd5d4c1bf3ce5a99266c0e7361292c132e986c5647bf82a87833c9f1da746e8d"
+    },
+    {
+      "name": "CBP-D402_A_1_TOP_BAR.step",
+      "bytes": 39565,
+      "sha256": "d3836604099d11833d22a726ecc44f31325ebf382b77f1ea3d6a8c25b0d08a64"
+    },
+    {
+      "name": "CBP-D402_A_1_FRONT_FOOT_BAR.step",
+      "bytes": 31244,
+      "sha256": "2f005bd31390a4275f2a2acafa8687c86dd7fd578cd68810339ff72d89fdb640"
+    },
+    {
+      "name": "CBP-D402_A_1_REAR_FOOT_BAR.step",
+      "bytes": 40211,
+      "sha256": "3483b7313801cd27a0c7d740663950aec8bf4c6d5f39833516839943390e683e"
+    },
+    {
+      "name": "CBP-D402_A_1_OUTER_CHEEK.step",
+      "bytes": 99435,
+      "sha256": "949e103920addc4e2e557578c724dbd4cdb131120fa40dd0a19cfec013d87c72"
+    },
+    {
+      "name": "CBP-D402_A_1_INNER_CHEEK.step",
+      "bytes": 91219,
+      "sha256": "683f319fad10e8894f866f4d38f49afa4289a94739bed905c828ece495c80742"
+    },
+    {
+      "name": "CBP-D402_A_1_CABLE_TIE_TAB.step",
+      "bytes": 84205,
+      "sha256": "a639825a3a00f6b326880fdb8afc04ba1f7237ae4b9c153bde5c5f5ae6e37cf8"
+    },
+    {
+      "name": "CBP-H610_A_1_TOP_-1_1.step",
+      "bytes": 32855,
+      "sha256": "f89841392c468a67d4eaf01c544b72d740f7b4623ddbd6c2ade574bc24924089"
+    },
+    {
+      "name": "CBP-H610_A_1_TOP_-1_1_W.step",
+      "bytes": 9339,
+      "sha256": "0626088cdd1e16c3af7de04b9c8b778eddd9767bc366c192fd8ba6ccd64c69ad"
+    },
+    {
+      "name": "CBP-H610_A_1_TOP_-1_2.step",
+      "bytes": 32855,
+      "sha256": "afe6b5c5684d096162d0fc5cb347986d586a82d0aa0d71a77caf9c3b58e5c651"
+    },
+    {
+      "name": "CBP-H610_A_1_TOP_-1_2_W.step",
+      "bytes": 9339,
+      "sha256": "93f92f01f85aaef38f88b376ca9e9ded04f4184dbc5c96ce9d906ef4ad7ec5ad"
+    },
+    {
+      "name": "CBP-H611_A_1_FOOT_-1_-1.step",
+      "bytes": 32858,
+      "sha256": "fcc881de66250882ba87af63cfb4c3e60a325b29ff7bd49d0b4c420807e206c9"
+    },
+    {
+      "name": "CBP-H611_A_1_FOOT_-1_-1_W.step",
+      "bytes": 9333,
+      "sha256": "815d993cb649fb35237aea2a086f1f33dd9f26d4d683b7909e4adee2820fea1a"
+    },
+    {
+      "name": "CBP-H611_A_1_FOOT_-1_1.step",
+      "bytes": 32873,
+      "sha256": "0b622744192f68c99290f415da048b89c3e7b4d461d8b97cc0c2f4bb617a1d32"
+    },
+    {
+      "name": "CBP-H611_A_1_FOOT_-1_1_W.step",
+      "bytes": 9347,
+      "sha256": "1cbca41b8d96197d72e52166ea7315e0fcc7784cf5917fb0eda5cb23cc0f19a8"
+    },
+    {
+      "name": "CBP-H610_A_1_TOP_1_1.step",
+      "bytes": 32829,
+      "sha256": "2100ed0a45b0d636ebd1d9858fa4b3a22ff6922f9ad4f45cf5f12090d7d8a937"
+    },
+    {
+      "name": "CBP-H610_A_1_TOP_1_1_W.step",
+      "bytes": 9335,
+      "sha256": "cbb078755509a0fa8ba5acab6bcd79a45f8bec49b95e64502f97730f0ae7abb0"
+    },
+    {
+      "name": "CBP-H610_A_1_TOP_1_2.step",
+      "bytes": 32829,
+      "sha256": "968664b5ad4a86d92b5caa6f44929e3f89c617b614fff3fdfd5164c6306166a8"
+    },
+    {
+      "name": "CBP-H610_A_1_TOP_1_2_W.step",
+      "bytes": 9335,
+      "sha256": "1f74bac6060be75c861177fb724d487be6266becfb6eba2119c50b86adaa8ce7"
+    },
+    {
+      "name": "CBP-H611_A_1_FOOT_1_-1.step",
+      "bytes": 32832,
+      "sha256": "30e3c3681dc1a9073e953e0a7e71b29f1fb0973a97bf86d05cc558d7ab77f768"
+    },
+    {
+      "name": "CBP-H611_A_1_FOOT_1_-1_W.step",
+      "bytes": 9329,
+      "sha256": "c7c1ffbf02da43a3e13ccf65bfd4a83d64c46d663a44282d2d8ae175d0e81d29"
+    },
+    {
+      "name": "CBP-H611_A_1_FOOT_1_1.step",
+      "bytes": 32847,
+      "sha256": "46c04f662fde3820ffeb1d837356b3d2460c992cfc8bc8e0571ffb4e7211d6da"
+    },
+    {
+      "name": "CBP-H611_A_1_FOOT_1_1_W.step",
+      "bytes": 9343,
+      "sha256": "1cf69e0017dcc56b312be0631cf832dc9566fa9f4ac93230decd4bc8a7674949"
+    },
+    {
+      "name": "CBP-H612_A_1_PLATE_-1_-17.step",
+      "bytes": 32750,
+      "sha256": "899b07fcf89cef251be82ccad51bbd021c053ac4eca20be098b6bc3d96655a3e"
+    },
+    {
+      "name": "CBP-H612_A_1_PLATE_-1_-17_W.step",
+      "bytes": 9353,
+      "sha256": "39545c008024fb1cb7aec8550a360cafbb8ba1628819862b8943b7ad86bb6548"
+    },
+    {
+      "name": "CBP-H612_A_1_PLATE_-1_17.step",
+      "bytes": 32717,
+      "sha256": "4940f3f2ac1b19f1ddbc27a823ceaa1f9785e34de24e954b45fe0f141b4deda3"
+    },
+    {
+      "name": "CBP-H612_A_1_PLATE_-1_17_W.step",
+      "bytes": 9339,
+      "sha256": "9a0584e333acca01196d9480e34e8002cfce9911434c9444d2839213e9a65a40"
+    },
+    {
+      "name": "CBP-H612_A_1_PLATE_1_-17.step",
+      "bytes": 32770,
+      "sha256": "9ed19c43b77b5c0f149ff602ec11a7a5cbd422affecce322434e672c1d97d7f7"
+    },
+    {
+      "name": "CBP-H612_A_1_PLATE_1_-17_W.step",
+      "bytes": 9367,
+      "sha256": "32775ac8a360d45ceae4ea44afe86bc95a53ea4803bd62f9f6c4525fde09c85b"
+    },
+    {
+      "name": "CBP-H612_A_1_PLATE_1_17.step",
+      "bytes": 32737,
+      "sha256": "c0a7ef08c3e2f90bed0b8f81acb5c2dae0e058a58197829f41efbbec26279dea"
+    },
+    {
+      "name": "CBP-H612_A_1_PLATE_1_17_W.step",
+      "bytes": 9353,
+      "sha256": "d5d8c2482fae7c71a1aeaa1bf9d06990857a0d195ec01fa5fc09c0ce76bfd7ec"
+    },
+    {
+      "name": "CBP-H613_A_1_FRAME_-6.step",
+      "bytes": 32644,
+      "sha256": "d576c40aac96951c82c2a2d821f7f3988951482685da058904d0ffffd0dc69ef"
+    },
+    {
+      "name": "CBP-H613_A_1_FRAME_-6_W.step",
+      "bytes": 9314,
+      "sha256": "1c1b6bdde36e0550e10633317883ebeb35e5a4fc976b667df4a25d9412b6f500"
+    },
+    {
+      "name": "CBP-H613_A_1_FRAME_-6_HNTT5.step",
+      "bytes": 33898,
+      "sha256": "8be36179d9c1d429408c2ba9d98196fc058feb04fb0e6d8f952725f37af45e87"
+    },
+    {
+      "name": "CBP-H613_A_1_FRAME_6.step",
+      "bytes": 32643,
+      "sha256": "d5ae191ad950985a2d26a29a17d315e03692996288b059d22caa6c66b5a15fed"
+    },
+    {
+      "name": "CBP-H613_A_1_FRAME_6_W.step",
+      "bytes": 9314,
+      "sha256": "054d57db5a3126e8ed8bf335b10b6042cdb40c7fd5584ac39af41819e035ed8e"
+    },
+    {
+      "name": "CBP-H613_A_1_FRAME_6_HNTT5.step",
+      "bytes": 33898,
+      "sha256": "d3899047b5bb7ad5bbfd41c62aa80d5aebd9701d5f618123374bf207e53ac126"
+    },
+    {
+      "name": "CBP-H614_A_1_CABLE_TAB_-9.step",
+      "bytes": 32828,
+      "sha256": "f715b925819161483f422fea9c733ce82843a1e4ee9f822eee5e927f1df3dee3"
+    },
+    {
+      "name": "CBP-H614_A_1_CABLE_TAB_-9_W.step",
+      "bytes": 9356,
+      "sha256": "07baa78a7879877e53633a6f705968b4c1cee40051c708680dd31e9dedfa49fc"
+    },
+    {
+      "name": "CBP-H614_A_1_CABLE_TAB_9.step",
+      "bytes": 32828,
+      "sha256": "983d71dbefdfdf8651fb87d0373d5e6db1b33a28ad076d9a6cd5942736aa4f19"
+    },
+    {
+      "name": "CBP-H614_A_1_CABLE_TAB_9_W.step",
+      "bytes": 9356,
+      "sha256": "d00c9738743c7ecdf5ff49851fdefb7bb984c743779b060fba4a076b28e26432"
+    },
+    {
+      "name": "CBP-D402_A_2_TOP_BAR.step",
+      "bytes": 39563,
+      "sha256": "141eb730bcdd22f607d1ec3a24b704e98122e019620706fd1d7a76f1d1b3bca8"
+    },
+    {
+      "name": "CBP-D402_A_2_FRONT_FOOT_BAR.step",
+      "bytes": 46467,
+      "sha256": "b4eadd54fbae4cf7fcd258b048449ec26dce26ce225500cb3e7151ff3613d63b"
+    },
+    {
+      "name": "CBP-D402_A_2_REAR_FOOT_BAR.step",
+      "bytes": 31258,
+      "sha256": "5055e6f263b891fbcc94b9dc243a861a21a6bc1e9deeeec96ab001ce6b754b60"
+    },
+    {
+      "name": "CBP-D402_A_2_INNER_CHEEK.step",
+      "bytes": 95088,
+      "sha256": "d82568892a15243279106561395da016676e860d05f277e3b6f51261f8ac1060"
+    },
+    {
+      "name": "CBP-D402_A_2_OUTER_CHEEK.step",
+      "bytes": 99443,
+      "sha256": "c2b8f0a2acb5518f0027f1fcdb5fe6d508ddf4b8cd359db432ce62ac2ddbc07c"
+    },
+    {
+      "name": "CBP-D402_A_2_CABLE_TIE_TAB.step",
+      "bytes": 86462,
+      "sha256": "3958a22a61dec3d1287ea5e60e8e02a5c5c488e88b7dee2063b3be798fb67d6c"
+    },
+    {
+      "name": "CBP-H610_A_2_TOP_-1_1.step",
+      "bytes": 32765,
+      "sha256": "b8ca5f6fca7e8ec9b7f6046e11e43e7c0d2e49cf2b75ba94cbed644afc291ac2"
+    },
+    {
+      "name": "CBP-H610_A_2_TOP_-1_1_W.step",
+      "bytes": 9327,
+      "sha256": "bcaf2b3ef7f2a5c7ba93bec0191b25425a13163422de7413b46f755c647c1ae0"
+    },
+    {
+      "name": "CBP-H610_A_2_TOP_-1_2.step",
+      "bytes": 32765,
+      "sha256": "20925d5f2a967e04e09e7ad9b9b8a05fb94950627ba653dc2089ef4e5e4e3b04"
+    },
+    {
+      "name": "CBP-H610_A_2_TOP_-1_2_W.step",
+      "bytes": 9327,
+      "sha256": "0eac46f24d17e09a1d59227f1ad4450bf3ec222c82663224842699ecc21a6ee6"
+    },
+    {
+      "name": "CBP-H611_A_2_FOOT_-1_-1.step",
+      "bytes": 32783,
+      "sha256": "28b687a269b02c4cb321b0c3df7f2d6839aae7ee3a5c4f3411a8209039dc553e"
+    },
+    {
+      "name": "CBP-H611_A_2_FOOT_-1_-1_W.step",
+      "bytes": 9335,
+      "sha256": "b0e1558ae673cb8bd6fdfed9d6ce34847d77f1f7eee7d6d299f7af79a10908ed"
+    },
+    {
+      "name": "CBP-H611_A_2_FOOT_-1_1.step",
+      "bytes": 32771,
+      "sha256": "642957bf63e7e7ae99516fa6a8397a27363cace34c2ec2f8ef62f9ad0e3df8e0"
+    },
+    {
+      "name": "CBP-H611_A_2_FOOT_-1_1_W.step",
+      "bytes": 9321,
+      "sha256": "ee076a010257298aa5a3f7b5e3ae808741381a4f4f64fcb5b7d82d8ffa2f9e5a"
+    },
+    {
+      "name": "CBP-H610_A_2_TOP_1_1.step",
+      "bytes": 32843,
+      "sha256": "3d4bd12cb1b98677099301e287d9818f5f7553011702a64984f7898708c2f4e4"
+    },
+    {
+      "name": "CBP-H610_A_2_TOP_1_1_W.step",
+      "bytes": 9351,
+      "sha256": "59ec835d234c9d5373d64a930276e66cf6f1fd360b248ee719e43c97dd2bd927"
+    },
+    {
+      "name": "CBP-H610_A_2_TOP_1_2.step",
+      "bytes": 32843,
+      "sha256": "4e3636608d04cda20110564f8a5c09c3099a0d6558e99bcc07ab66e6a709d62b"
+    },
+    {
+      "name": "CBP-H610_A_2_TOP_1_2_W.step",
+      "bytes": 9351,
+      "sha256": "2402fbf8db350890a04622406de987993a5c4e9a2738edb9dd3b2b81ed8c3bd7"
+    },
+    {
+      "name": "CBP-H611_A_2_FOOT_1_-1.step",
+      "bytes": 32861,
+      "sha256": "f7b642440b2ec679a038470a63c83ae54d5648885c5b73b2d0188ba837748b17"
+    },
+    {
+      "name": "CBP-H611_A_2_FOOT_1_-1_W.step",
+      "bytes": 9359,
+      "sha256": "1de7f9a8606e8da8afd5bf4de5dd644f1a3cdee9dbb3391efc43b73527db91c2"
+    },
+    {
+      "name": "CBP-H611_A_2_FOOT_1_1.step",
+      "bytes": 32849,
+      "sha256": "8b0ed13b4412ae766d50604911adbaeff1b77bc8abe776853a4b6c641d8e27f2"
+    },
+    {
+      "name": "CBP-H611_A_2_FOOT_1_1_W.step",
+      "bytes": 9345,
+      "sha256": "2c8144c9d652309bf9b316d2404b855f4b998f28c41518671fcec9fc710cd6bd"
+    },
+    {
+      "name": "CBP-H612_A_2_PLATE_-1_-17.step",
+      "bytes": 32774,
+      "sha256": "dd7aba95a3fcfe6f066d6f465c16aefeb49fb0334ac182438dfebbaac71c18ac"
+    },
+    {
+      "name": "CBP-H612_A_2_PLATE_-1_-17_W.step",
+      "bytes": 9355,
+      "sha256": "bf696fe342fa1922ccd10b41ffc0f4eddf73ff2ba043791385ec7afdee85ae6e"
+    },
+    {
+      "name": "CBP-H612_A_2_PLATE_-1_17.step",
+      "bytes": 32792,
+      "sha256": "ef9af71ef5cf6b648d6bd8a7aa1741e1badfd25b792411b8ad689edc7312b274"
+    },
+    {
+      "name": "CBP-H612_A_2_PLATE_-1_17_W.step",
+      "bytes": 9369,
+      "sha256": "611500ae061c69505867b5ae7f4c0e81a6e7b77b0b3213de2b30c848616762db"
+    },
+    {
+      "name": "CBP-H612_A_2_PLATE_1_-17.step",
+      "bytes": 32723,
+      "sha256": "1c3b8e8175c924e83b1e0c65762d9908fd97e40d853c959ecbbeb04820a275ea"
+    },
+    {
+      "name": "CBP-H612_A_2_PLATE_1_-17_W.step",
+      "bytes": 9341,
+      "sha256": "8ea27435a243f006299042684444564c173546cb561f9824ec99b794c732dace"
+    },
+    {
+      "name": "CBP-H612_A_2_PLATE_1_17.step",
+      "bytes": 32740,
+      "sha256": "0261a0d5652fd0ba994bb2464260088f7921e7d1c15de3276edad60fc9113cff"
+    },
+    {
+      "name": "CBP-H612_A_2_PLATE_1_17_W.step",
+      "bytes": 9355,
+      "sha256": "9b739bdfade4d8ffdaf8faf30ac45336df3cf78aa8e0d3a6812b710e739f3ec3"
+    },
+    {
+      "name": "CBP-H613_A_2_FRAME_-6.step",
+      "bytes": 32676,
+      "sha256": "78ace52eb60b4c7f88f19461c8ae59a5bb49aa9aab9ae327bc18c80301ffb673"
+    },
+    {
+      "name": "CBP-H613_A_2_FRAME_-6_W.step",
+      "bytes": 9316,
+      "sha256": "24baeb42c20299d4d839a4792139ada1ae79ec06914cd1f071ae56c5d121e6c1"
+    },
+    {
+      "name": "CBP-H613_A_2_FRAME_-6_HNTT5.step",
+      "bytes": 33900,
+      "sha256": "2d3bdba6278531bfbfb5db8558082daf38ec010ba3a2595486aaa29e9fa23a77"
+    },
+    {
+      "name": "CBP-H613_A_2_FRAME_6.step",
+      "bytes": 32676,
+      "sha256": "ab9958197a0f2b892581e23c5aa61862c20f9afca673754d34d349e9164eb120"
+    },
+    {
+      "name": "CBP-H613_A_2_FRAME_6_W.step",
+      "bytes": 9316,
+      "sha256": "a0d0d49c22b10f31701c2d2f57a209637c6c93bc78ed9bd7a62061b29252ac71"
+    },
+    {
+      "name": "CBP-H613_A_2_FRAME_6_HNTT5.step",
+      "bytes": 33900,
+      "sha256": "efe52b0d616fc15e5cfe68fcfc3ed7d03b90b2dd6fdbb9375428799d42d0b7a4"
+    },
+    {
+      "name": "CBP-H614_A_2_CABLE_TAB_-9.step",
+      "bytes": 32837,
+      "sha256": "f5bfc7d1893e9367915faea5d918eb0f6ef3d02aa4ce1e8ea5279e7ac099563d"
+    },
+    {
+      "name": "CBP-H614_A_2_CABLE_TAB_-9_W.step",
+      "bytes": 9340,
+      "sha256": "f7a54d34886922933238e938fb46f3202bf44a260f8516c71599b929c01ed3ae"
+    },
+    {
+      "name": "CBP-H614_A_2_CABLE_TAB_9.step",
+      "bytes": 32837,
+      "sha256": "2060535be0b2362f9928f6827fc3bcb5010529793356c97d0dd196d260786285"
+    },
+    {
+      "name": "CBP-H614_A_2_CABLE_TAB_9_W.step",
+      "bytes": 9340,
+      "sha256": "828c7fd31ed3dbdba48d58f3d48465e09f6d14f9ba3afd69be39bd1591588219"
+    },
+    {
+      "name": "CBP-D402_B_1_TOP_BAR.step",
+      "bytes": 39499,
+      "sha256": "26edbfc273971600e710eb8a53201e9907ae3b60b092a1661089c8a22dbec51b"
+    },
+    {
+      "name": "CBP-D402_B_1_FRONT_FOOT_BAR.step",
+      "bytes": 31186,
+      "sha256": "a5bb28350429b55232cd345917de9edf8b3b60ab8f0bad57626a3a5fef4068ee"
+    },
+    {
+      "name": "CBP-D402_B_1_REAR_FOOT_BAR.step",
+      "bytes": 40139,
+      "sha256": "942ed19e68ecaa5412540d6adc821c4607ce0bc8a4cfa3b9203aa9fda92382dc"
+    },
+    {
+      "name": "CBP-D402_B_1_INNER_CHEEK.step",
+      "bytes": 90599,
+      "sha256": "08dd675145e64f4e8d453b6bdc7f1d23783e71f20a560cd163b24ca87e45ff8a"
+    },
+    {
+      "name": "CBP-D402_B_1_OUTER_CHEEK.step",
+      "bytes": 99279,
+      "sha256": "c2690d78ff9492512913dd288f47cb33d358ec13369007f1e5ae9ce743fd69dc"
+    },
+    {
+      "name": "CBP-D402_B_1_CABLE_TIE_TAB.step",
+      "bytes": 84057,
+      "sha256": "a5cfd00eaf9e61e0cc16495c732fb93d25a0101c29f85f870a42f073f9540928"
+    },
+    {
+      "name": "CBP-H610_B_1_TOP_-1_1.step",
+      "bytes": 32753,
+      "sha256": "f76f6adab13c4696803b30b657baa3f6f3a75f9961c912a9bc33c56e06d510a4"
+    },
+    {
+      "name": "CBP-H610_B_1_TOP_-1_1_W.step",
+      "bytes": 9313,
+      "sha256": "c011775be1a09b84cc1720e7b5a6c8d28be83113c345deefbe593d756632187e"
+    },
+    {
+      "name": "CBP-H610_B_1_TOP_-1_2.step",
+      "bytes": 32753,
+      "sha256": "ea6f2cd9572be0de0a55b984302dc783e61215cd978a43df1c856c69d19ef344"
+    },
+    {
+      "name": "CBP-H610_B_1_TOP_-1_2_W.step",
+      "bytes": 9313,
+      "sha256": "a82c0e88eff39c7eecb1a2bc9354e4e4cc802b86aef613c2ac9ff2b5ccb1231b"
+    },
+    {
+      "name": "CBP-H611_B_1_FOOT_-1_-1.step",
+      "bytes": 32756,
+      "sha256": "741b7f293ec3fef969bbf0b0905d18d13bc65767f64a31e1d5e49992f530423a"
+    },
+    {
+      "name": "CBP-H611_B_1_FOOT_-1_-1_W.step",
+      "bytes": 9307,
+      "sha256": "7e9a537832528f04408ba3e2e7f9b0d9eb2bc13d9a4d7280b650112eb71d798a"
+    },
+    {
+      "name": "CBP-H611_B_1_FOOT_-1_1.step",
+      "bytes": 32739,
+      "sha256": "1849ac765ea528af38fbcd0229a9c8128b120b1462a383faec8574857b219d58"
+    },
+    {
+      "name": "CBP-H611_B_1_FOOT_-1_1_W.step",
+      "bytes": 9321,
+      "sha256": "752ef2387b15ecf62ec945df7781a8f6b5806edf5fa04a114864660be2a4a58a"
+    },
+    {
+      "name": "CBP-H610_B_1_TOP_1_1.step",
+      "bytes": 32831,
+      "sha256": "f80de8b5d1f6b707433ca2bf673217ba26418f0c79d6c8faff00c110c49ca874"
+    },
+    {
+      "name": "CBP-H610_B_1_TOP_1_1_W.step",
+      "bytes": 9337,
+      "sha256": "4d9426d0d4f4b0e5596f5880cf974306d66d1e398fad23153eeea414edf4fc9d"
+    },
+    {
+      "name": "CBP-H610_B_1_TOP_1_2.step",
+      "bytes": 32831,
+      "sha256": "e03bbe2beb0a4010bcd3c3a764bc6034715ca47ff44bf7bca2eb9d28d4a83584"
+    },
+    {
+      "name": "CBP-H610_B_1_TOP_1_2_W.step",
+      "bytes": 9337,
+      "sha256": "dc6d70b705bee9ab55ca39f2e3bf58a6c1d58f37c5882f057b916fdfd01e299d"
+    },
+    {
+      "name": "CBP-H611_B_1_FOOT_1_-1.step",
+      "bytes": 32834,
+      "sha256": "8dd61d45ece36f2e064d2f9642bb35d1013a56d2734558108e82de34a4aac978"
+    },
+    {
+      "name": "CBP-H611_B_1_FOOT_1_-1_W.step",
+      "bytes": 9331,
+      "sha256": "012967c5ffdab5e6ed964b7e5b8e6e8594125712475514a02659061995be0c00"
+    },
+    {
+      "name": "CBP-H611_B_1_FOOT_1_1.step",
+      "bytes": 32819,
+      "sha256": "135e05426f1a519aa00b68321bec3da7785a74d7982f53015f9dfd4452a43766"
+    },
+    {
+      "name": "CBP-H611_B_1_FOOT_1_1_W.step",
+      "bytes": 9345,
+      "sha256": "70871b3753dcffbb9ff3c29351780f6a08494bf5263f5baca9d9c0df7ab4666b"
+    },
+    {
+      "name": "CBP-H612_B_1_PLATE_-1_-17.step",
+      "bytes": 32720,
+      "sha256": "3cd51c9c55cf9ace65d6f1ed37374a0d147adf1a72c49930d27abc294c6bf9a2"
+    },
+    {
+      "name": "CBP-H612_B_1_PLATE_-1_-17_W.step",
+      "bytes": 9327,
+      "sha256": "52de6fa708ea1b8fd319319e43b755f55d2fde47d3b4e94caae30b3d20f61540"
+    },
+    {
+      "name": "CBP-H612_B_1_PLATE_-1_17.step",
+      "bytes": 32720,
+      "sha256": "0a19572eedfe3c4945995b0d5b9aeeddec5711f81af9d8101be31b3606a140b6"
+    },
+    {
+      "name": "CBP-H612_B_1_PLATE_-1_17_W.step",
+      "bytes": 9341,
+      "sha256": "7a2b429792b748553a9b7339f179bbb30ee8010e6b7c1188375e3ab14fbb4d1c"
+    },
+    {
+      "name": "CBP-H612_B_1_PLATE_1_-17.step",
+      "bytes": 32723,
+      "sha256": "b9da72e21c1768e144308b986518b03583649a0988c5a1e6ba72858854c1bd0c"
+    },
+    {
+      "name": "CBP-H612_B_1_PLATE_1_-17_W.step",
+      "bytes": 9341,
+      "sha256": "a7e002c8ef44c4bc6ab5157e6687ef58bd6f92edb7212d9aec445b7ee0ec3280"
+    },
+    {
+      "name": "CBP-H612_B_1_PLATE_1_17.step",
+      "bytes": 32739,
+      "sha256": "6dcdb489fb6e513a29ad70952156d0864e31a85bf0f2876621c1665f11be6bbd"
+    },
+    {
+      "name": "CBP-H612_B_1_PLATE_1_17_W.step",
+      "bytes": 9355,
+      "sha256": "8083f00032a620dffa1a320f9aeace956aca838e7bfbd749a6ba4c2bf5ab277d"
+    },
+    {
+      "name": "CBP-H613_B_1_FRAME_-6.step",
+      "bytes": 32624,
+      "sha256": "9d81268e9aa66c335e3584449753b9318acc03939531d8e7323a9277535afb15"
+    },
+    {
+      "name": "CBP-H613_B_1_FRAME_-6_W.step",
+      "bytes": 9302,
+      "sha256": "09a5876aa4781d5903b9a5c22d4d51ad43b7160af5bdf651f2bc11c3b09cc048"
+    },
+    {
+      "name": "CBP-H613_B_1_FRAME_-6_HNTT5.step",
+      "bytes": 33844,
+      "sha256": "a6c9e27d64d9349ea2cbf4b6c8c97d95efbbdd8a8d841f1a68d7032329274409"
+    },
+    {
+      "name": "CBP-H613_B_1_FRAME_6.step",
+      "bytes": 32624,
+      "sha256": "b331693dabc1f5e3401e3796c5a6e427004f476744c151248259423aa71a097c"
+    },
+    {
+      "name": "CBP-H613_B_1_FRAME_6_W.step",
+      "bytes": 9302,
+      "sha256": "904c9a4bf5da2e100a30c73de43546edeb1bf3e1f35f72ee5c96d4503513f265"
+    },
+    {
+      "name": "CBP-H613_B_1_FRAME_6_HNTT5.step",
+      "bytes": 33844,
+      "sha256": "029c40bdc3ac1e38e0b7beba9e1e28662347dc9ac7203c7df3f9effa4d11a51e"
+    },
+    {
+      "name": "CBP-H614_B_1_CABLE_TAB_-9.step",
+      "bytes": 32785,
+      "sha256": "9091ecf696c7855f47eb21ef6cacd747c5b14e4aef0b21a6f48bf0d83b629b0f"
+    },
+    {
+      "name": "CBP-H614_B_1_CABLE_TAB_-9_W.step",
+      "bytes": 9344,
+      "sha256": "211666c0f0ac33989e2c345a5e41274a574224273472f7ec10707e2f90629af3"
+    },
+    {
+      "name": "CBP-H614_B_1_CABLE_TAB_9.step",
+      "bytes": 32785,
+      "sha256": "f3ab329bc0f4a4361f1db28e3b4b89fc87b4ea6461683b1ede276d429311bbb3"
+    },
+    {
+      "name": "CBP-H614_B_1_CABLE_TAB_9_W.step",
+      "bytes": 9344,
+      "sha256": "999c0c67f3de706a4fee5045d9c6bd049214038c2ca4b748cf64af938693b821"
+    },
+    {
+      "name": "CBP-D402_B_2_TOP_BAR.step",
+      "bytes": 39633,
+      "sha256": "9fd595fc78499a4724c29963b685c3a3a01cfcad6a9d3eca37b533d3aacd62d0"
+    },
+    {
+      "name": "CBP-D402_B_2_FRONT_FOOT_BAR.step",
+      "bytes": 46553,
+      "sha256": "24bd3d50e23516260739876515d9007df802124f46ea4a7c18fbc91b35500866"
+    },
+    {
+      "name": "CBP-D402_B_2_REAR_FOOT_BAR.step",
+      "bytes": 31318,
+      "sha256": "9530539620c83f31b1814d3403ffb5a91208cf7c84768d61d6cb1912c1d25321"
+    },
+    {
+      "name": "CBP-D402_B_2_OUTER_CHEEK.step",
+      "bytes": 99601,
+      "sha256": "5eaeeaf0e0744556ed689cad227270d1bed44cafe96e3a4649a7a8ed4a4a5f09"
+    },
+    {
+      "name": "CBP-D402_B_2_INNER_CHEEK.step",
+      "bytes": 99445,
+      "sha256": "e1981a9a065c4dd25ed9135ea30f6a7510533b2a43bf766ea2126f4ce565bcb3"
+    },
+    {
+      "name": "CBP-D402_B_2_CABLE_TIE_TAB.step",
+      "bytes": 86612,
+      "sha256": "f5af23b04d8dff34000a1d69f2ed67100c0b86865586e7c1e393c23483186624"
+    },
+    {
+      "name": "CBP-H610_B_2_TOP_-1_1.step",
+      "bytes": 32869,
+      "sha256": "8a56d6226950c00196157c884f874733ca963860b35ae305da5280dfcd669c51"
+    },
+    {
+      "name": "CBP-H610_B_2_TOP_-1_1_W.step",
+      "bytes": 9355,
+      "sha256": "cc013a01db1b1f34e18e53b9ba39e1f5a3c10450d5011625f3b4eae552756ce8"
+    },
+    {
+      "name": "CBP-H610_B_2_TOP_-1_2.step",
+      "bytes": 32869,
+      "sha256": "add17a8e76b67acf5d6c0480cb85970df749dfec41cd4d6e1e8fa44c4d8ba148"
+    },
+    {
+      "name": "CBP-H610_B_2_TOP_-1_2_W.step",
+      "bytes": 9355,
+      "sha256": "41f01e30cc1b3ebe125bf42ce9956bae900c0c1a5567b8b581a37208cf0e3b3c"
+    },
+    {
+      "name": "CBP-H611_B_2_FOOT_-1_-1.step",
+      "bytes": 32855,
+      "sha256": "7b9fcc2d4326d01b4a4bc48b4f8a7f4487e1631151d40763be731c6afe07f06d"
+    },
+    {
+      "name": "CBP-H611_B_2_FOOT_-1_-1_W.step",
+      "bytes": 9363,
+      "sha256": "2ea07e89a5734066715c66918976b0c812395c18bb5094b57e2856a274ef5da4"
+    },
+    {
+      "name": "CBP-H611_B_2_FOOT_-1_1.step",
+      "bytes": 32843,
+      "sha256": "452272fc110d4299b5a18c942709db0494e46f5bec18c6f5db0f481d368aaf28"
+    },
+    {
+      "name": "CBP-H611_B_2_FOOT_-1_1_W.step",
+      "bytes": 9349,
+      "sha256": "f4c4c15aa6d835541048e811d89ce30a8e41b18ee52c68cf9f3403585bb15f36"
+    },
+    {
+      "name": "CBP-H610_B_2_TOP_1_1.step",
+      "bytes": 32843,
+      "sha256": "945b38ec52c70f3b8e87c1f957d85a727d6589c736ebe691407b656270afe71d"
+    },
+    {
+      "name": "CBP-H610_B_2_TOP_1_1_W.step",
+      "bytes": 9351,
+      "sha256": "2e298e8a83b3aba7a6b984527196318a05153c7ea74f77f26724949cd8d95bec"
+    },
+    {
+      "name": "CBP-H610_B_2_TOP_1_2.step",
+      "bytes": 32843,
+      "sha256": "8285d0a55d5c0157e5ec1937452b61c8d9d7bf16f5cf6a6b16aaab4bd1caf36d"
+    },
+    {
+      "name": "CBP-H610_B_2_TOP_1_2_W.step",
+      "bytes": 9351,
+      "sha256": "7c4f6c8c37ef9448516a86303d138ae05049564befb4f33c65609f85b64eef89"
+    },
+    {
+      "name": "CBP-H611_B_2_FOOT_1_-1.step",
+      "bytes": 32831,
+      "sha256": "0f2b161d89f70ec017e6332b57f6beefadbfcc266c8f68afcd10fab54b1befde"
+    },
+    {
+      "name": "CBP-H611_B_2_FOOT_1_-1_W.step",
+      "bytes": 9359,
+      "sha256": "3193871edaba34af5bd6b778f2d51cb1fcdf18bd5ea43d3ea0af508abd108f13"
+    },
+    {
+      "name": "CBP-H611_B_2_FOOT_1_1.step",
+      "bytes": 32819,
+      "sha256": "ebabb3fe4e7438aef02c17c3fe299b5c778f967d11fb12d6d80cef50360d5d41"
+    },
+    {
+      "name": "CBP-H611_B_2_FOOT_1_1_W.step",
+      "bytes": 9345,
+      "sha256": "52576de043e00aa8f646dbb89d4ebd4448cea0f4ae0530866439084e00596878"
+    },
+    {
+      "name": "CBP-H612_B_2_PLATE_-1_-17.step",
+      "bytes": 32824,
+      "sha256": "feeab1a4dd776b0cb914159ebf07761addb796e5d226d1aafacc988c2f0cc59d"
+    },
+    {
+      "name": "CBP-H612_B_2_PLATE_-1_-17_W.step",
+      "bytes": 9383,
+      "sha256": "d22ad6b77cd76688a97e9fba66a77dca7743324fd0750a37ba9f25af0ceabbce"
+    },
+    {
+      "name": "CBP-H612_B_2_PLATE_-1_17.step",
+      "bytes": 32790,
+      "sha256": "b0be285740a660fc8cd522c17734f14f3fc7cd27da930be0405895e00ecc308a"
+    },
+    {
+      "name": "CBP-H612_B_2_PLATE_-1_17_W.step",
+      "bytes": 9369,
+      "sha256": "113880491921027a5b65780faf1a12b6f939269a8b9cb8279eceaf69451eeb99"
+    },
+    {
+      "name": "CBP-H612_B_2_PLATE_1_-17.step",
+      "bytes": 32755,
+      "sha256": "7e4c3d78be4095917e29be38f32c2e37b77efb2cd2725d5c8b17cab9df7893c2"
+    },
+    {
+      "name": "CBP-H612_B_2_PLATE_1_-17_W.step",
+      "bytes": 9369,
+      "sha256": "7150e8f0636f662b753c719686dc7cd1f23a5abd4c10b9df9c399616b30aa14e"
+    },
+    {
+      "name": "CBP-H612_B_2_PLATE_1_17.step",
+      "bytes": 32738,
+      "sha256": "f114ae9df8ec132fd3c45bb43f5f7011af9acd4701a046e1df0276c367a0c98a"
+    },
+    {
+      "name": "CBP-H612_B_2_PLATE_1_17_W.step",
+      "bytes": 9355,
+      "sha256": "6a43a1673127bc6728e3cdb2b0bd765febe513fa451d6ec0527ec7cd5e07d56b"
+    },
+    {
+      "name": "CBP-H613_B_2_FRAME_-6.step",
+      "bytes": 32698,
+      "sha256": "bc0ef2e892678d8cc399f1afe951cc701cb04d9d3440f5bb7f87bc6f53b48afa"
+    },
+    {
+      "name": "CBP-H613_B_2_FRAME_-6_W.step",
+      "bytes": 9330,
+      "sha256": "b30a804a899b2754c3b389f00fd1ee3510af36cdb4290a18334c4045c4cdec6c"
+    },
+    {
+      "name": "CBP-H613_B_2_FRAME_-6_HNTT5.step",
+      "bytes": 33956,
+      "sha256": "7785a7f6938c36c1c483b17f4ef88b38442646ae8f73117dff5b613240b00dc1"
+    },
+    {
+      "name": "CBP-H613_B_2_FRAME_6.step",
+      "bytes": 32697,
+      "sha256": "e196db9d7dcd10ce8240864f60c55994dbafc011d2d9d548a36e31a802227c1f"
+    },
+    {
+      "name": "CBP-H613_B_2_FRAME_6_W.step",
+      "bytes": 9330,
+      "sha256": "f7bee7a7138bf355e8d574021e41cdd3045d03f8462cb5b1077dad65c2b8de1b"
+    },
+    {
+      "name": "CBP-H613_B_2_FRAME_6_HNTT5.step",
+      "bytes": 33956,
+      "sha256": "bdcbdd68fddf721aad3c4e070b2561b603ca1cfa152afca747e239a183012e51"
+    },
+    {
+      "name": "CBP-H614_B_2_CABLE_TAB_-9.step",
+      "bytes": 32820,
+      "sha256": "9ac4f6a85afa29271154d29c629386b7a4c99ed1c0924e730acfbe056d20ddda"
+    },
+    {
+      "name": "CBP-H614_B_2_CABLE_TAB_-9_W.step",
+      "bytes": 9354,
+      "sha256": "9813b3468412e5f9505bde690cb547abd69d1644dcfb137d8f786120933110ad"
+    },
+    {
+      "name": "CBP-H614_B_2_CABLE_TAB_9.step",
+      "bytes": 32820,
+      "sha256": "cbcdaaa6b0f7158d2b1e6f6c54f4d91c5def852ea77e5c010763cc307eee5b33"
+    },
+    {
+      "name": "CBP-H614_B_2_CABLE_TAB_9_W.step",
+      "bytes": 9354,
+      "sha256": "e7ba752dd01b1088560620bff5335003a584f9ae55403f5c832bd35ca1339652"
+    },
+    {
+      "name": "CBP_RevF_Gantry_Supports_DEVELOPMENT.step",
+      "bytes": 7562440,
+      "sha256": "22e5180a2d5ae13ea086d53841b7d59ffba7c083fa30501c45afc3f9c434ea64"
+    },
+    {
+      "name": "CBP_RevF_Gantry_Supports_DEVELOPMENT-parts.json",
+      "bytes": 169094,
+      "sha256": "ea6c01a7588802ca38754bc78095b085ca1d591862f9009f74c04abb124a2544"
+    }
+  ]
+}

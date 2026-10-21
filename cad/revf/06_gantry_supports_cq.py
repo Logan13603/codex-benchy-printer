@@ -8,6 +8,7 @@ from pathlib import Path
 import math
 import runpy
 import cadquery as cq
+from motor_mount_dimensions import motor_mount_specs
 from cq_common import cyl,drill,exportAssembly
 
 _drive=runpy.run_path(str(Path(__file__).with_name('05_drives_cq.py')))
@@ -109,47 +110,56 @@ def build():
         for j,y in enumerate([-5,5],1):
             bolt('CBP-H606_'+hand+'_PORTAL_CLAMP_M3X12_'+str(j),(side*65,y,309.5),(0,0,-1),12)
             washer('CBP-H607_'+hand+'_PORTAL_CLAMP_WASHER_'+str(j),side*65,y,309)
-    # Four motor plates hang from underside extrusion slots. Pedestals lie
-    # beyond the motor body in Y; width45 avoids the rail adapter at X116.
+    # Modular all-metal drive mounts. Each individual bar/sheet is buildable
+    # without undercuts; nominal thread cylinders are explicit exceptions.
+    def vec(p,v,k):return tuple(p[i]+v[i]*k for i in range(3))
+    def sized_bolt(n,p,v,d,L,h,hd,hexaf,mate=None):
+        start=vec(p,v,-h)
+        shape=cyl(d,L,p,v).fuse(cyl(hd,h,start,v))
+        plane=cq.Plane(origin=vec(start,v,-.01),normal=v,xDir=(0,1,0) if abs(v[0])>.5 else (1,0,0))
+        shape=shape.cut(cq.Workplane(plane).polygon(6,hexaf*2/math.sqrt(3)).extrude(h*.7).val())
+        add(n,shape,'steel','fastener','fixed','ISO4762 M'+str(d)+'x'+str(L)+'; nominal thread omitted. Driver axis '+str(v)+'.')
+        if mate:parts[-1]['intentional_thread_mate']=mate
+    def sized_washer(n,p,v,od,id,t):
+        add(n,cyl(od,t,p,v).cut(cyl(id,t,p,v)),'steel','fastener','fixed','Steel washer '+str(od)+'x'+str(id)+'x'+str(t)+'.')
     for axis,z in PLANES.items():
         sign=1 if axis=='A' else -1;face=z-MOTOR_FACE_OFFSET
         for k,(x,y) in enumerate([(-sign*CX,95),(sign*CX,-105)],1):
-            frame_y=130 if y>0 else -130
-            top=box(45,20,7,(x,frame_y,276.5))
-            for dx in [-15,15]:top=drill(top,5.5,7,(x+dx,frame_y,273))
-            hanger=top
-            # Outside-Y crossmembers sit below motor plate, clear body42.3.
-            for dy in [-27,27]:
-                foot=box(42,8,6,(x,y+dy,face-3))
+            tag='CBP-D402_'+axis+'_'+str(k)+'_';sy=130 if y>0 else -130
+            for spec in motor_mount_specs(axis,k,x,y,face):
+                shape=None
+                for f in spec['operations']:
+                    tool=box(*f['size'],f['p']) if f['kind']=='box' else cyl(f['d'],f['L'],f['p'],f['axis'])
+                    shape=tool if f['op']=='new' else shape.fuse(tool) if f['op']=='join' else shape.cut(tool)
+                add(spec['name'],shape,'6061','cnc','fixed',spec['notes'])
+            # Four bolts into top-bar ends and four into foot-bar ends.
+            for side in [-1,1]:
+                v=(-side,0,0)
+                for j,dy in enumerate([-5,5],1):
+                    n='CBP-H610_'+axis+'_'+str(k)+'_TOP_'+str(side)+'_'+str(j)
+                    pp=(x+side*25.5,sy+dy,276)
+                    sized_bolt(n,pp,v,3,10,3,5.5,2.5,tag+'TOP_BAR');sized_washer(n+'_W',pp,v,7,3.2,.5)
+                for foot in [-1,1]:
+                    n='CBP-H611_'+axis+'_'+str(k)+'_FOOT_'+str(side)+'_'+str(foot)
+                    pp=(x+side*25.5,y+foot*32,face-3)
+                    sized_bolt(n,pp,v,3,10,3,5.5,2.5,tag+('REAR' if foot>0 else 'FRONT')+'_FOOT_BAR');sized_washer(n+'_W',pp,v,7,3.2,.5)
+            for foot in [-1,1]:
                 for dx in [-17,17]:
-                    foot=drill(foot,4.4,6,(x+dx,y+dy,face-6))
-                    trap=(cq.Workplane('XY').center(x+dx,y+dy).polygon(6,7.2*2/math.sqrt(3)).extrude(3.3).translate((0,0,face-5.7)).val())
-                    foot=foot.cut(trap)
-                hanger=hanger.fuse(foot)
-            # Two narrow side walls, inside rail adapter, bridge feet to cap.
-            y0=min(y-31,frame_y-10);y1=max(y+31,frame_y+10)
-            for dx in [-20,20]:
-                wall=box(5,y1-y0,280-(face-6),(x+dx,(y0+y1)/2,(face-6+280)/2))
-                # Remove central motor-body region below mounting face.
-                wall=wall.cut(box(43,43,60,(x,y,face-30)))
-                # Clear motor plate; leave outside45mm boundary untouched.
-                wall=wall.cut(box(45.1,64.1,6.1,(x,y,face+3)))
-                hanger=hanger.fuse(wall)
-            sx=1 if x>0 else -1
-            hanger=hanger.cut(box(8,202,10,(sx*113,0,280)))
-            # Socket heads/OD7 washers project above the metal motor plate.
-            # Keep access cylinders through the hanger; front frame-cap
-            # obstruction still requires fitting motor/plate before hanging.
-            for dx in [-15.5,15.5]:
-                for dy in [-15.5,15.5]:hanger=drill(hanger,8,280-(face+6),(x+dx,y+dy,face+6))
-            if k==2:hanger=drill(hanger,28.5,26.2,(sign*(CX-2*R),-105,262.8))
-            if axis=='A' and k==2:
-                # The idler relief disconnects the upper inner wall in front
-                # of the rear pedestal. Omit that unusable island explicitly;
-                # both feet remain joined by the continuous outer wall.
-                low=face+5.95;high=280.1
-                hanger=hanger.cut(box(5.5,19.5,high-low,(x-20,-83.25,(low+high)/2)))
-            add('CBP-D402_'+axis+'_FRAME_HANGER_'+str(k),hanger,motion='fixed',notes='Printed motorhangerdevelopment: railkeepoutX109..117,Y±101,Z275..285; frontR14.25idlerkeepoutZ262.8..289; motorheads/washers8mmaccesscylinders. FrameanchorspreservedY±130. A-front disconnectedupperinnerwall omitted; outerwalljoinsbothfeet. Fitmotor/platebeforehanging duefrontcaptoolobstruction. Narrowwebs/hotmotorcreep/cyclicstiffness unvalidated.')
+                    n='CBP-H612_'+axis+'_'+str(k)+'_PLATE_'+str(foot)+'_'+str(dx)
+                    pp=(x+dx,y+foot*27,face+6.8)
+                    sized_bolt(n,pp,(0,0,-1),4,16,4,7,3,tag+('REAR' if foot>0 else 'FRONT')+'_FOOT_BAR');sized_washer(n+'_W',pp,(0,0,-1),9,4.3,.8)
+            for dx in [-6,6]:
+                n='CBP-H613_'+axis+'_'+str(k)+'_FRAME_'+str(dx);pp=(x+dx,sy,271)
+                sized_bolt(n,pp,(0,0,1),5,14,5,8.5,4,n+'_HNTT5');sized_washer(n+'_W',pp,(0,0,1),10,5.3,1)
+                plane=cq.Plane(origin=(x+dx-5,sy,280),normal=(1,0,0),xDir=(0,1,0))
+                pts=[(-2.9,1.2),(2.9,1.2),(2.9,2),(5,2),(2.9,5.3),(-2.9,5.3),(-5,2),(-2.9,2)]
+                tn=cq.Workplane(plane).polyline(pts).close().extrude(10).val()
+                tn=drill(tn,4.2,4.1,(x+dx,sy,281.2))
+                add(n+'_HNTT5',tn,'steel','fastener','fixed','HNTT5-5 drawing proxy;10x10,T4.1,neck5.8 seated1.2 below extrusion face. Preinsert,5mm screw penetration and3.8mm nominal thread engagement. Exactslot SKU compatibility HOLD.')
+            sf=1 if y>0 else -1
+            for dx in [-9,9]:
+                n='CBP-H614_'+axis+'_'+str(k)+'_CABLE_TAB_'+str(dx);pp=(x+dx,y+sf*38,face-3);v=(0,-sf,0)
+                sized_bolt(n,pp,v,3,6,3,5.5,2.5,tag+('REAR' if sf>0 else 'FRONT')+'_FOOT_BAR');sized_washer(n+'_W',pp,v,7,3.2,.5)
     return parts
 
 

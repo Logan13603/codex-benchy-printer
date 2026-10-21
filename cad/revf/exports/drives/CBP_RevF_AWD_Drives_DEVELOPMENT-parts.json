@@ -1,0 +1,2018 @@
+[
+  {
+    "name": "CBP-P401_A_LDO_MOTOR_1",
+    "material": "mixed",
+    "category": "purchased",
+    "motion_group": "fixed",
+    "notes": "LDO42STH48-2804AC(S35) maker drawing:42.3max,31pitchM3x4.5min,22pilotx2,5shaftx35\u00c2\u00b10.5; cableconnector envelope pending.",
+    "mass_override_g": 350,
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 87040.96740307867,
+    "density_g_cm3": null,
+    "mass_g": 350,
+    "mass_basis": "catalog/declared override",
+    "geometric_mass_g": null,
+    "centroid_mm": [
+      -88.75000000000001,
+      95.0,
+      234.312665344362
+    ],
+    "bbox_mm": [
+      [
+        -109.9,
+        73.85,
+        209.8
+      ],
+      [
+        -67.6,
+        116.15,
+        292.8
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P402_A_36T_DRIVE_1",
+    "material": "aluminum",
+    "category": "purchased",
+    "motion_group": "fixed",
+    "notes": "PROVISIONAL purchased 2GT36T9mm5bore;22.41toothOD27.5flangeOD12wide+8hub. Confirm SKU and owned stock.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 5609.4945502504,
+    "density_g_cm3": 2.7,
+    "mass_g": 15.14563528567608,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 15.14563528567608,
+    "centroid_mm": [
+      -88.76301654052146,
+      94.98698346918536,
+      281.02917947427034
+    ],
+    "bbox_mm": [
+      [
+        -102.5,
+        81.25,
+        268.2999999
+      ],
+      [
+        -75.0,
+        108.75,
+        288.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-D401_A_MOTOR_PLATE_1",
+    "material": "6061",
+    "category": "cnc",
+    "motion_group": "fixed",
+    "notes": "45x64x6 with R2 XY corners; fixed 31mm motor pattern 4x3.5 and 4M4 anchors. Two front \u00d86 Allen access holes match foot bars; use4mmAF key. 8mm through shaft bore; underside 22.10 nominal pilot socket 2.15 deep clears 2mm pilot. FINAL PILOT FIT HOLD pending maker tolerance/measurement. A-front only: R14.25 upper 0.70mm idler pocket floor263.10 preserves pilot register. Deburr0.2, flatness0.05, motor face parallel top0.05. Do not infer validated stiffness. Fixed belt/motor planes retained.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15645.309572027549,
+    "density_g_cm3": 2.7,
+    "mass_g": 42.24233584447439,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 42.24233584447439,
+    "centroid_mm": [
+      -88.75000000000001,
+      95.0,
+      260.8881780564999
+    ],
+    "bbox_mm": [
+      [
+        -111.25,
+        63.0,
+        257.8
+      ],
+      [
+        -66.25,
+        127.0,
+        263.8
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H501_A_MOTOR_1_M3X10_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "M3x10 plus0.5washer;3.5mm motor thread engagement. Heads give0.60mm nominal lateral gap to belt strands; measure/tolerance check required.",
+    "intentional_thread_mate": "CBP-P401_A_LDO_MOTOR_1",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 129.5657294424239,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0170909761230276,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0170909761230276,
+    "centroid_mm": [
+      -104.24999999999997,
+      79.49999999999999,
+      262.21990093727925
+    ],
+    "bbox_mm": [
+      [
+        -107.0,
+        76.75,
+        254.3
+      ],
+      [
+        -101.5,
+        82.25,
+        267.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H502_A_MOTOR_1_WASHER_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "M3 washer 7.0ODx0.5; A-front inner pair OD6 for neighbor idler clearance. Nominal gap0.434mm needs tolerance stack.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642558,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214408,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214408,
+    "centroid_mm": [
+      -104.24999999999997,
+      79.49999999999997,
+      264.04999999999995
+    ],
+    "bbox_mm": [
+      [
+        -107.75,
+        76.0,
+        263.8
+      ],
+      [
+        -100.75,
+        83.0,
+        264.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H501_A_MOTOR_1_M3X10_2",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "M3x10 plus0.5washer;3.5mm motor thread engagement. Heads give0.60mm nominal lateral gap to belt strands; measure/tolerance check required.",
+    "intentional_thread_mate": "CBP-P401_A_LDO_MOTOR_1",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 129.5657294424239,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0170909761230276,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0170909761230276,
+    "centroid_mm": [
+      -104.24999999999997,
+      110.49999999999997,
+      262.21990093727925
+    ],
+    "bbox_mm": [
+      [
+        -107.0,
+        107.75,
+        254.3
+      ],
+      [
+        -101.5,
+        113.25,
+        267.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H502_A_MOTOR_1_WASHER_2",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "M3 washer 7.0ODx0.5; A-front inner pair OD6 for neighbor idler clearance. Nominal gap0.434mm needs tolerance stack.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642558,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214408,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214408,
+    "centroid_mm": [
+      -104.24999999999997,
+      110.5,
+      264.04999999999995
+    ],
+    "bbox_mm": [
+      [
+        -107.75,
+        107.0,
+        263.8
+      ],
+      [
+        -100.75,
+        114.0,
+        264.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H501_A_MOTOR_1_M3X10_3",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "M3x10 plus0.5washer;3.5mm motor thread engagement. Heads give0.60mm nominal lateral gap to belt strands; measure/tolerance check required.",
+    "intentional_thread_mate": "CBP-P401_A_LDO_MOTOR_1",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 129.5657294424239,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0170909761230276,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0170909761230276,
+    "centroid_mm": [
+      -73.25,
+      79.49999999999999,
+      262.21990093727925
+    ],
+    "bbox_mm": [
+      [
+        -76.0,
+        76.75,
+        254.3
+      ],
+      [
+        -70.5,
+        82.25,
+        267.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H502_A_MOTOR_1_WASHER_3",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "M3 washer 7.0ODx0.5; A-front inner pair OD6 for neighbor idler clearance. Nominal gap0.434mm needs tolerance stack.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642558,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214408,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214408,
+    "centroid_mm": [
+      -73.25,
+      79.50000000000001,
+      264.04999999999995
+    ],
+    "bbox_mm": [
+      [
+        -76.75,
+        76.0,
+        263.8
+      ],
+      [
+        -69.75,
+        83.0,
+        264.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H501_A_MOTOR_1_M3X10_4",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "M3x10 plus0.5washer;3.5mm motor thread engagement. Heads give0.60mm nominal lateral gap to belt strands; measure/tolerance check required.",
+    "intentional_thread_mate": "CBP-P401_A_LDO_MOTOR_1",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 129.5657294424239,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0170909761230276,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0170909761230276,
+    "centroid_mm": [
+      -73.25,
+      110.49999999999997,
+      262.21990093727925
+    ],
+    "bbox_mm": [
+      [
+        -76.0,
+        107.75,
+        254.3
+      ],
+      [
+        -70.5,
+        113.25,
+        267.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H502_A_MOTOR_1_WASHER_4",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "M3 washer 7.0ODx0.5; A-front inner pair OD6 for neighbor idler clearance. Nominal gap0.434mm needs tolerance stack.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642558,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214408,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214408,
+    "centroid_mm": [
+      -73.25,
+      110.5,
+      264.04999999999995
+    ],
+    "bbox_mm": [
+      [
+        -76.75,
+        107.0,
+        263.8
+      ],
+      [
+        -69.75,
+        114.0,
+        264.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P401_A_LDO_MOTOR_2",
+    "material": "mixed",
+    "category": "purchased",
+    "motion_group": "fixed",
+    "notes": "LDO42STH48-2804AC(S35) maker drawing:42.3max,31pitchM3x4.5min,22pilotx2,5shaftx35\u00c2\u00b10.5; cableconnector envelope pending.",
+    "mass_override_g": 350,
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 87040.96740307866,
+    "density_g_cm3": null,
+    "mass_g": 350,
+    "mass_basis": "catalog/declared override",
+    "geometric_mass_g": null,
+    "centroid_mm": [
+      88.75000000000004,
+      -105.00000000000011,
+      234.31266534436196
+    ],
+    "bbox_mm": [
+      [
+        67.6,
+        -126.15,
+        209.8
+      ],
+      [
+        109.9,
+        -83.85,
+        292.8
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P402_A_36T_DRIVE_2",
+    "material": "aluminum",
+    "category": "purchased",
+    "motion_group": "fixed",
+    "notes": "PROVISIONAL purchased 2GT36T9mm5bore;22.41toothOD27.5flangeOD12wide+8hub. Confirm SKU and owned stock.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 5609.494550250399,
+    "density_g_cm3": 2.7,
+    "mass_g": 15.145635285676077,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 15.145635285676077,
+    "centroid_mm": [
+      88.73698345947852,
+      -105.01301653081461,
+      281.0291794742702
+    ],
+    "bbox_mm": [
+      [
+        75.0,
+        -118.75,
+        268.2999999
+      ],
+      [
+        102.5,
+        -91.25,
+        288.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-D401_A_MOTOR_PLATE_2",
+    "material": "6061",
+    "category": "cnc",
+    "motion_group": "fixed",
+    "notes": "45x64x6 with R2 XY corners; fixed 31mm motor pattern 4x3.5 and 4M4 anchors. Two front \u00d86 Allen access holes match foot bars; use4mmAF key. 8mm through shaft bore; underside 22.10 nominal pilot socket 2.15 deep clears 2mm pilot. FINAL PILOT FIT HOLD pending maker tolerance/measurement. A-front only: R14.25 upper 0.70mm idler pocket floor263.10 preserves pilot register. Deburr0.2, flatness0.05, motor face parallel top0.05. Do not infer validated stiffness. Fixed belt/motor planes retained.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15091.08280685551,
+    "density_g_cm3": 2.7,
+    "mass_g": 40.74592357850988,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 40.74592357850988,
+    "centroid_mm": [
+      88.98704868184494,
+      -104.43792633880192,
+      260.8536738080044
+    ],
+    "bbox_mm": [
+      [
+        66.24999999999972,
+        -137.0,
+        257.8
+      ],
+      [
+        111.25,
+        -73.0,
+        263.8
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H501_A_MOTOR_2_M3X10_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "M3x10 plus0.5washer;3.5mm motor thread engagement. Heads give0.60mm nominal lateral gap to belt strands; measure/tolerance check required.",
+    "intentional_thread_mate": "CBP-P401_A_LDO_MOTOR_2",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 129.5657294424239,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0170909761230276,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0170909761230276,
+    "centroid_mm": [
+      73.25,
+      -120.49999999999997,
+      262.21990093727925
+    ],
+    "bbox_mm": [
+      [
+        70.5,
+        -123.25,
+        254.3
+      ],
+      [
+        76.0,
+        -117.75,
+        267.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H502_A_MOTOR_2_WASHER_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "M3 washer 6.0ODx0.5; A-front inner pair OD6 for neighbor idler clearance. Nominal gap0.434mm needs tolerance stack.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 10.115928344559144,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.07941003750478927,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.07941003750478927,
+    "centroid_mm": [
+      73.25,
+      -120.5,
+      264.05
+    ],
+    "bbox_mm": [
+      [
+        70.25,
+        -123.5,
+        263.8
+      ],
+      [
+        76.25,
+        -117.5,
+        264.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H501_A_MOTOR_2_M3X10_2",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "M3x10 plus0.5washer;3.5mm motor thread engagement. Heads give0.60mm nominal lateral gap to belt strands; measure/tolerance check required.",
+    "intentional_thread_mate": "CBP-P401_A_LDO_MOTOR_2",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 129.5657294424239,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0170909761230276,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0170909761230276,
+    "centroid_mm": [
+      73.25,
+      -89.5,
+      262.21990093727925
+    ],
+    "bbox_mm": [
+      [
+        70.5,
+        -92.25,
+        254.3
+      ],
+      [
+        76.0,
+        -86.75,
+        267.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H502_A_MOTOR_2_WASHER_2",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "M3 washer 6.0ODx0.5; A-front inner pair OD6 for neighbor idler clearance. Nominal gap0.434mm needs tolerance stack.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 10.115928344559144,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.07941003750478927,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.07941003750478927,
+    "centroid_mm": [
+      73.25,
+      -89.49999999999999,
+      264.05
+    ],
+    "bbox_mm": [
+      [
+        70.25,
+        -92.5,
+        263.8
+      ],
+      [
+        76.25,
+        -86.5,
+        264.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H501_A_MOTOR_2_M3X10_3",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "M3x10 plus0.5washer;3.5mm motor thread engagement. Heads give0.60mm nominal lateral gap to belt strands; measure/tolerance check required.",
+    "intentional_thread_mate": "CBP-P401_A_LDO_MOTOR_2",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 129.5657294424239,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0170909761230276,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0170909761230276,
+    "centroid_mm": [
+      104.24999999999999,
+      -120.49999999999997,
+      262.21990093727925
+    ],
+    "bbox_mm": [
+      [
+        101.5,
+        -123.25,
+        254.3
+      ],
+      [
+        107.0,
+        -117.75,
+        267.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H502_A_MOTOR_2_WASHER_3",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "M3 washer 7.0ODx0.5; A-front inner pair OD6 for neighbor idler clearance. Nominal gap0.434mm needs tolerance stack.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642558,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214408,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214408,
+    "centroid_mm": [
+      104.24999999999997,
+      -120.5,
+      264.04999999999995
+    ],
+    "bbox_mm": [
+      [
+        100.75,
+        -124.0,
+        263.8
+      ],
+      [
+        107.75,
+        -117.0,
+        264.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H501_A_MOTOR_2_M3X10_4",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "M3x10 plus0.5washer;3.5mm motor thread engagement. Heads give0.60mm nominal lateral gap to belt strands; measure/tolerance check required.",
+    "intentional_thread_mate": "CBP-P401_A_LDO_MOTOR_2",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 129.5657294424239,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0170909761230276,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0170909761230276,
+    "centroid_mm": [
+      104.24999999999999,
+      -89.5,
+      262.21990093727925
+    ],
+    "bbox_mm": [
+      [
+        101.5,
+        -92.25,
+        254.3
+      ],
+      [
+        107.0,
+        -86.75,
+        267.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H502_A_MOTOR_2_WASHER_4",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "M3 washer 7.0ODx0.5; A-front inner pair OD6 for neighbor idler clearance. Nominal gap0.434mm needs tolerance stack.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642558,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214408,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214408,
+    "centroid_mm": [
+      104.24999999999997,
+      -89.49999999999997,
+      264.04999999999995
+    ],
+    "bbox_mm": [
+      [
+        100.75,
+        -93.0,
+        263.8
+      ],
+      [
+        107.75,
+        -86.0,
+        264.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P403_A_RETURN_IDLER",
+    "material": "aluminum",
+    "category": "purchased",
+    "motion_group": "fixed",
+    "notes": "PROVISIONAL 36T9mm idler,2x625bearing5x16x5,groove/flange width requires vendor freeze.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 3082.358709504521,
+    "density_g_cm3": 2.7,
+    "mass_g": 8.322368515662207,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 8.322368515662207,
+    "centroid_mm": [
+      -65.83168819476705,
+      -105.0,
+      282.29999999999995
+    ],
+    "bbox_mm": [
+      [
+        -79.58168819476707,
+        -118.75,
+        276.3
+      ],
+      [
+        -52.08168819476707,
+        -91.25,
+        288.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P404_A_RETURN_625_0",
+    "material": "steel",
+    "category": "purchased",
+    "motion_group": "fixed",
+    "notes": "",
+    "mass_override_g": 5.0,
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 907.1348787240528,
+    "density_g_cm3": 7.85,
+    "mass_g": 5.0,
+    "mass_basis": "catalog/declared override",
+    "geometric_mass_g": 7.121008797983815,
+    "centroid_mm": [
+      -65.83168819476705,
+      -104.99999999999999,
+      278.79999999999995
+    ],
+    "bbox_mm": [
+      [
+        -73.83168819476707,
+        -113.0,
+        276.3
+      ],
+      [
+        -57.83168819476707,
+        -97.0,
+        281.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P404_A_RETURN_625_1",
+    "material": "steel",
+    "category": "purchased",
+    "motion_group": "fixed",
+    "notes": "",
+    "mass_override_g": 5.0,
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 907.1348787240528,
+    "density_g_cm3": 7.85,
+    "mass_g": 5.0,
+    "mass_basis": "catalog/declared override",
+    "geometric_mass_g": 7.121008797983815,
+    "centroid_mm": [
+      -65.83168819476705,
+      -104.99999999999999,
+      285.8
+    ],
+    "bbox_mm": [
+      [
+        -73.83168819476707,
+        -113.0,
+        283.3
+      ],
+      [
+        -57.83168819476707,
+        -97.0,
+        288.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P405_A_MOVING_IDLER_-1",
+    "material": "aluminum",
+    "category": "purchased",
+    "motion_group": "gantry",
+    "notes": "Two625bearings not separately modeled in moving pulley; mass pending exact assembly.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 3082.358709504522,
+    "density_g_cm3": 2.7,
+    "mass_g": 8.322368515662209,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 8.322368515662209,
+    "centroid_mm": [
+      -88.75000000000003,
+      -34.99999999999999,
+      282.3
+    ],
+    "bbox_mm": [
+      [
+        -102.5,
+        -48.75,
+        276.3
+      ],
+      [
+        -75.0,
+        -21.25,
+        288.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P407_A_MOVING_625_-1_0",
+    "material": "steel",
+    "category": "purchased",
+    "motion_group": "gantry",
+    "notes": "",
+    "mass_override_g": 5.0,
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 907.1348787240526,
+    "density_g_cm3": 7.85,
+    "mass_g": 5.0,
+    "mass_basis": "catalog/declared override",
+    "geometric_mass_g": 7.121008797983813,
+    "centroid_mm": [
+      -88.75000000000001,
+      -35.0,
+      278.80000000000007
+    ],
+    "bbox_mm": [
+      [
+        -96.75,
+        -43.0,
+        276.3
+      ],
+      [
+        -80.75,
+        -27.0,
+        281.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P407_A_MOVING_625_-1_1",
+    "material": "steel",
+    "category": "purchased",
+    "motion_group": "gantry",
+    "notes": "",
+    "mass_override_g": 5.0,
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 907.1348787240526,
+    "density_g_cm3": 7.85,
+    "mass_g": 5.0,
+    "mass_basis": "catalog/declared override",
+    "geometric_mass_g": 7.121008797983813,
+    "centroid_mm": [
+      -88.75000000000001,
+      -35.0,
+      285.80000000000007
+    ],
+    "bbox_mm": [
+      [
+        -96.75,
+        -43.0,
+        283.3
+      ],
+      [
+        -80.75,
+        -27.0,
+        288.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P405_A_MOVING_IDLER_1",
+    "material": "aluminum",
+    "category": "purchased",
+    "motion_group": "gantry",
+    "notes": "Two625bearings not separately modeled in moving pulley; mass pending exact assembly.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 3082.358709504522,
+    "density_g_cm3": 2.7,
+    "mass_g": 8.322368515662209,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 8.322368515662209,
+    "centroid_mm": [
+      88.75,
+      -34.99999999999999,
+      282.3
+    ],
+    "bbox_mm": [
+      [
+        75.0,
+        -48.75,
+        276.3
+      ],
+      [
+        102.5,
+        -21.25,
+        288.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P407_A_MOVING_625_1_0",
+    "material": "steel",
+    "category": "purchased",
+    "motion_group": "gantry",
+    "notes": "",
+    "mass_override_g": 5.0,
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 907.1348787240526,
+    "density_g_cm3": 7.85,
+    "mass_g": 5.0,
+    "mass_basis": "catalog/declared override",
+    "geometric_mass_g": 7.121008797983813,
+    "centroid_mm": [
+      88.75000000000001,
+      -35.0,
+      278.80000000000007
+    ],
+    "bbox_mm": [
+      [
+        80.75,
+        -43.0,
+        276.3
+      ],
+      [
+        96.75,
+        -27.0,
+        281.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P407_A_MOVING_625_1_1",
+    "material": "steel",
+    "category": "purchased",
+    "motion_group": "gantry",
+    "notes": "",
+    "mass_override_g": 5.0,
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 907.1348787240526,
+    "density_g_cm3": 7.85,
+    "mass_g": 5.0,
+    "mass_basis": "catalog/declared override",
+    "geometric_mass_g": 7.121008797983813,
+    "centroid_mm": [
+      88.75000000000001,
+      -35.0,
+      285.80000000000007
+    ],
+    "bbox_mm": [
+      [
+        80.75,
+        -43.0,
+        283.3
+      ],
+      [
+        96.75,
+        -27.0,
+        288.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P406_A_9MM_BELT_ROUTE",
+    "material": "rubber",
+    "category": "purchased",
+    "motion_group": "belt_distributed",
+    "notes": "Continuous pitch route represented by touching solids; actual2GTteeth omitted. Nominal length 800.08 plusclampengagement; cuttolength.",
+    "shape_valid": true,
+    "solid_count": 11,
+    "volume_mm3": 9937.014567378985,
+    "density_g_cm3": null,
+    "mass_g": null,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": null,
+    "centroid_mm": [
+      -28.09939688427561,
+      -33.040317401601186,
+      282.30000000000007
+    ],
+    "bbox_mm": [
+      [
+        -100.89915590261647,
+        -117.14915590261646,
+        277.8
+      ],
+      [
+        100.89915590261647,
+        107.14915590261646,
+        286.8
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P401_B_LDO_MOTOR_1",
+    "material": "mixed",
+    "category": "purchased",
+    "motion_group": "fixed",
+    "notes": "LDO42STH48-2804AC(S35) maker drawing:42.3max,31pitchM3x4.5min,22pilotx2,5shaftx35\u00c2\u00b10.5; cableconnector envelope pending.",
+    "mass_override_g": 350,
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 87040.96740307873,
+    "density_g_cm3": null,
+    "mass_g": 350,
+    "mass_basis": "catalog/declared override",
+    "geometric_mass_g": null,
+    "centroid_mm": [
+      88.74999999999997,
+      94.99999999999999,
+      221.31266534436168
+    ],
+    "bbox_mm": [
+      [
+        67.6,
+        73.85,
+        196.8
+      ],
+      [
+        109.9,
+        116.15,
+        279.8
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P402_B_36T_DRIVE_1",
+    "material": "aluminum",
+    "category": "purchased",
+    "motion_group": "fixed",
+    "notes": "PROVISIONAL purchased 2GT36T9mm5bore;22.41toothOD27.5flangeOD12wide+8hub. Confirm SKU and owned stock.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 5609.494550250248,
+    "density_g_cm3": 2.7,
+    "mass_g": 15.14563528567567,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 15.14563528567567,
+    "centroid_mm": [
+      88.7369834594785,
+      94.98698346918532,
+      268.02917947427045
+    ],
+    "bbox_mm": [
+      [
+        75.0,
+        81.25,
+        255.29999990000002
+      ],
+      [
+        102.5,
+        108.75,
+        275.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-D401_B_MOTOR_PLATE_1",
+    "material": "6061",
+    "category": "cnc",
+    "motion_group": "fixed",
+    "notes": "45x64x6 with R2 XY corners; fixed 31mm motor pattern 4x3.5 and 4M4 anchors. Two front \u00d86 Allen access holes match foot bars; use4mmAF key. 8mm through shaft bore; underside 22.10 nominal pilot socket 2.15 deep clears 2mm pilot. FINAL PILOT FIT HOLD pending maker tolerance/measurement. A-front only: R14.25 upper 0.70mm idler pocket floor263.10 preserves pilot register. Deburr0.2, flatness0.05, motor face parallel top0.05. Do not infer validated stiffness. Fixed belt/motor planes retained.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15645.309572027549,
+    "density_g_cm3": 2.7,
+    "mass_g": 42.24233584447439,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 42.24233584447439,
+    "centroid_mm": [
+      88.74999999999997,
+      94.99999999999999,
+      247.88817805649987
+    ],
+    "bbox_mm": [
+      [
+        66.25,
+        63.0,
+        244.8
+      ],
+      [
+        111.25,
+        127.0,
+        250.8
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H501_B_MOTOR_1_M3X10_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "M3x10 plus0.5washer;3.5mm motor thread engagement. Heads give0.60mm nominal lateral gap to belt strands; measure/tolerance check required.",
+    "intentional_thread_mate": "CBP-P401_B_LDO_MOTOR_1",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 129.56572944242387,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0170909761230273,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0170909761230273,
+    "centroid_mm": [
+      73.25000000000003,
+      79.5,
+      249.21990093727928
+    ],
+    "bbox_mm": [
+      [
+        70.5,
+        76.75,
+        241.3
+      ],
+      [
+        76.0,
+        82.25,
+        254.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H502_B_MOTOR_1_WASHER_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "M3 washer 7.0ODx0.5; A-front inner pair OD6 for neighbor idler clearance. Nominal gap0.434mm needs tolerance stack.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642558,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214408,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214408,
+    "centroid_mm": [
+      73.25000000000001,
+      79.50000000000001,
+      251.05000000000004
+    ],
+    "bbox_mm": [
+      [
+        69.75,
+        76.0,
+        250.8
+      ],
+      [
+        76.75,
+        83.0,
+        251.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H501_B_MOTOR_1_M3X10_2",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "M3x10 plus0.5washer;3.5mm motor thread engagement. Heads give0.60mm nominal lateral gap to belt strands; measure/tolerance check required.",
+    "intentional_thread_mate": "CBP-P401_B_LDO_MOTOR_1",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 129.56572944242387,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0170909761230273,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0170909761230273,
+    "centroid_mm": [
+      73.25000000000003,
+      110.5,
+      249.21990093727928
+    ],
+    "bbox_mm": [
+      [
+        70.5,
+        107.75,
+        241.3
+      ],
+      [
+        76.0,
+        113.25,
+        254.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H502_B_MOTOR_1_WASHER_2",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "M3 washer 7.0ODx0.5; A-front inner pair OD6 for neighbor idler clearance. Nominal gap0.434mm needs tolerance stack.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642558,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214408,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214408,
+    "centroid_mm": [
+      73.25000000000001,
+      110.5,
+      251.05000000000004
+    ],
+    "bbox_mm": [
+      [
+        69.75,
+        107.0,
+        250.8
+      ],
+      [
+        76.75,
+        114.0,
+        251.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H501_B_MOTOR_1_M3X10_3",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "M3x10 plus0.5washer;3.5mm motor thread engagement. Heads give0.60mm nominal lateral gap to belt strands; measure/tolerance check required.",
+    "intentional_thread_mate": "CBP-P401_B_LDO_MOTOR_1",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 129.56572944242387,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0170909761230273,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0170909761230273,
+    "centroid_mm": [
+      104.25,
+      79.5,
+      249.21990093727928
+    ],
+    "bbox_mm": [
+      [
+        101.5,
+        76.75,
+        241.3
+      ],
+      [
+        107.0,
+        82.25,
+        254.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H502_B_MOTOR_1_WASHER_3",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "M3 washer 7.0ODx0.5; A-front inner pair OD6 for neighbor idler clearance. Nominal gap0.434mm needs tolerance stack.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642558,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214408,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214408,
+    "centroid_mm": [
+      104.24999999999999,
+      79.49999999999997,
+      251.05000000000004
+    ],
+    "bbox_mm": [
+      [
+        100.75,
+        76.0,
+        250.8
+      ],
+      [
+        107.75,
+        83.0,
+        251.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H501_B_MOTOR_1_M3X10_4",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "M3x10 plus0.5washer;3.5mm motor thread engagement. Heads give0.60mm nominal lateral gap to belt strands; measure/tolerance check required.",
+    "intentional_thread_mate": "CBP-P401_B_LDO_MOTOR_1",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 129.56572944242387,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0170909761230273,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0170909761230273,
+    "centroid_mm": [
+      104.25,
+      110.5,
+      249.21990093727928
+    ],
+    "bbox_mm": [
+      [
+        101.5,
+        107.75,
+        241.3
+      ],
+      [
+        107.0,
+        113.25,
+        254.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H502_B_MOTOR_1_WASHER_4",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "M3 washer 7.0ODx0.5; A-front inner pair OD6 for neighbor idler clearance. Nominal gap0.434mm needs tolerance stack.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642558,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214408,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214408,
+    "centroid_mm": [
+      104.24999999999999,
+      110.5,
+      251.05000000000004
+    ],
+    "bbox_mm": [
+      [
+        100.75,
+        107.0,
+        250.8
+      ],
+      [
+        107.75,
+        114.0,
+        251.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P401_B_LDO_MOTOR_2",
+    "material": "mixed",
+    "category": "purchased",
+    "motion_group": "fixed",
+    "notes": "LDO42STH48-2804AC(S35) maker drawing:42.3max,31pitchM3x4.5min,22pilotx2,5shaftx35\u00c2\u00b10.5; cableconnector envelope pending.",
+    "mass_override_g": 350,
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 87040.96740307873,
+    "density_g_cm3": null,
+    "mass_g": 350,
+    "mass_basis": "catalog/declared override",
+    "geometric_mass_g": null,
+    "centroid_mm": [
+      -88.74999999999996,
+      -105.00000000000003,
+      221.31266534436168
+    ],
+    "bbox_mm": [
+      [
+        -109.9,
+        -126.15,
+        196.8
+      ],
+      [
+        -67.6,
+        -83.85,
+        279.8
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P402_B_36T_DRIVE_2",
+    "material": "aluminum",
+    "category": "purchased",
+    "motion_group": "fixed",
+    "notes": "PROVISIONAL purchased 2GT36T9mm5bore;22.41toothOD27.5flangeOD12wide+8hub. Confirm SKU and owned stock.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 5609.494550250248,
+    "density_g_cm3": 2.7,
+    "mass_g": 15.14563528567567,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 15.14563528567567,
+    "centroid_mm": [
+      -88.7630165405214,
+      -105.0130165308146,
+      268.02917947427045
+    ],
+    "bbox_mm": [
+      [
+        -102.5,
+        -118.75,
+        255.29999990000002
+      ],
+      [
+        -75.0,
+        -91.25,
+        275.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-D401_B_MOTOR_PLATE_2",
+    "material": "6061",
+    "category": "cnc",
+    "motion_group": "fixed",
+    "notes": "45x64x6 with R2 XY corners; fixed 31mm motor pattern 4x3.5 and 4M4 anchors. Two front \u00d86 Allen access holes match foot bars; use4mmAF key. 8mm through shaft bore; underside 22.10 nominal pilot socket 2.15 deep clears 2mm pilot. FINAL PILOT FIT HOLD pending maker tolerance/measurement. A-front only: R14.25 upper 0.70mm idler pocket floor263.10 preserves pilot register. Deburr0.2, flatness0.05, motor face parallel top0.05. Do not infer validated stiffness. Fixed belt/motor planes retained.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15306.01756543985,
+    "density_g_cm3": 2.7,
+    "mass_g": 41.326247426687594,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 41.326247426687594,
+    "centroid_mm": [
+      -88.74999999999996,
+      -104.44581925844349,
+      247.89013271972945
+    ],
+    "bbox_mm": [
+      [
+        -111.25,
+        -137.0,
+        244.8
+      ],
+      [
+        -66.25,
+        -73.0,
+        250.8
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H501_B_MOTOR_2_M3X10_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "M3x10 plus0.5washer;3.5mm motor thread engagement. Heads give0.60mm nominal lateral gap to belt strands; measure/tolerance check required.",
+    "intentional_thread_mate": "CBP-P401_B_LDO_MOTOR_2",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 129.56572944242387,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0170909761230273,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0170909761230273,
+    "centroid_mm": [
+      -104.25,
+      -120.50000000000001,
+      249.21990093727928
+    ],
+    "bbox_mm": [
+      [
+        -107.0,
+        -123.25,
+        241.3
+      ],
+      [
+        -101.5,
+        -117.75,
+        254.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H502_B_MOTOR_2_WASHER_1",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "M3 washer 7.0ODx0.5; A-front inner pair OD6 for neighbor idler clearance. Nominal gap0.434mm needs tolerance stack.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642558,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214408,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214408,
+    "centroid_mm": [
+      -104.24999999999997,
+      -120.5,
+      251.05000000000004
+    ],
+    "bbox_mm": [
+      [
+        -107.75,
+        -124.0,
+        250.8
+      ],
+      [
+        -100.75,
+        -117.0,
+        251.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H501_B_MOTOR_2_M3X10_2",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "M3x10 plus0.5washer;3.5mm motor thread engagement. Heads give0.60mm nominal lateral gap to belt strands; measure/tolerance check required.",
+    "intentional_thread_mate": "CBP-P401_B_LDO_MOTOR_2",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 129.56572944242387,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0170909761230273,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0170909761230273,
+    "centroid_mm": [
+      -104.25,
+      -89.49999999999999,
+      249.21990093727928
+    ],
+    "bbox_mm": [
+      [
+        -107.0,
+        -92.25,
+        241.3
+      ],
+      [
+        -101.5,
+        -86.75,
+        254.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H502_B_MOTOR_2_WASHER_2",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "M3 washer 7.0ODx0.5; A-front inner pair OD6 for neighbor idler clearance. Nominal gap0.434mm needs tolerance stack.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642558,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214408,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214408,
+    "centroid_mm": [
+      -104.24999999999997,
+      -89.49999999999999,
+      251.05000000000004
+    ],
+    "bbox_mm": [
+      [
+        -107.75,
+        -93.0,
+        250.8
+      ],
+      [
+        -100.75,
+        -86.0,
+        251.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H501_B_MOTOR_2_M3X10_3",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "M3x10 plus0.5washer;3.5mm motor thread engagement. Heads give0.60mm nominal lateral gap to belt strands; measure/tolerance check required.",
+    "intentional_thread_mate": "CBP-P401_B_LDO_MOTOR_2",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 129.56572944242387,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0170909761230273,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0170909761230273,
+    "centroid_mm": [
+      -73.25,
+      -120.50000000000001,
+      249.21990093727928
+    ],
+    "bbox_mm": [
+      [
+        -76.0,
+        -123.25,
+        241.3
+      ],
+      [
+        -70.5,
+        -117.75,
+        254.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H502_B_MOTOR_2_WASHER_3",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "M3 washer 7.0ODx0.5; A-front inner pair OD6 for neighbor idler clearance. Nominal gap0.434mm needs tolerance stack.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642558,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214408,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214408,
+    "centroid_mm": [
+      -73.25,
+      -120.50000000000001,
+      251.05000000000004
+    ],
+    "bbox_mm": [
+      [
+        -76.75,
+        -124.0,
+        250.8
+      ],
+      [
+        -69.75,
+        -117.0,
+        251.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H501_B_MOTOR_2_M3X10_4",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "M3x10 plus0.5washer;3.5mm motor thread engagement. Heads give0.60mm nominal lateral gap to belt strands; measure/tolerance check required.",
+    "intentional_thread_mate": "CBP-P401_B_LDO_MOTOR_2",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 129.56572944242387,
+    "density_g_cm3": 7.85,
+    "mass_g": 1.0170909761230273,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 1.0170909761230273,
+    "centroid_mm": [
+      -73.25,
+      -89.49999999999999,
+      249.21990093727928
+    ],
+    "bbox_mm": [
+      [
+        -76.0,
+        -92.25,
+        241.3
+      ],
+      [
+        -70.5,
+        -86.75,
+        254.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-H502_B_MOTOR_2_WASHER_4",
+    "material": "steel",
+    "category": "fastener",
+    "motion_group": "fixed",
+    "notes": "M3 washer 7.0ODx0.5; A-front inner pair OD6 for neighbor idler clearance. Nominal gap0.434mm needs tolerance stack.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15.221016406642558,
+    "density_g_cm3": 7.85,
+    "mass_g": 0.11948497879214408,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 0.11948497879214408,
+    "centroid_mm": [
+      -73.25,
+      -89.50000000000001,
+      251.05000000000004
+    ],
+    "bbox_mm": [
+      [
+        -76.75,
+        -93.0,
+        250.8
+      ],
+      [
+        -69.75,
+        -86.0,
+        251.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P403_B_RETURN_IDLER",
+    "material": "aluminum",
+    "category": "purchased",
+    "motion_group": "fixed",
+    "notes": "PROVISIONAL 36T9mm idler,2x625bearing5x16x5,groove/flange width requires vendor freeze.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 3082.358709504521,
+    "density_g_cm3": 2.7,
+    "mass_g": 8.322368515662207,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 8.322368515662207,
+    "centroid_mm": [
+      65.83168819476707,
+      -105.0,
+      269.29999999999984
+    ],
+    "bbox_mm": [
+      [
+        52.08168819476707,
+        -118.75,
+        263.3
+      ],
+      [
+        79.58168819476707,
+        -91.25,
+        275.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P404_B_RETURN_625_0",
+    "material": "steel",
+    "category": "purchased",
+    "motion_group": "fixed",
+    "notes": "",
+    "mass_override_g": 5.0,
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 907.1348787240528,
+    "density_g_cm3": 7.85,
+    "mass_g": 5.0,
+    "mass_basis": "catalog/declared override",
+    "geometric_mass_g": 7.121008797983815,
+    "centroid_mm": [
+      65.83168819476707,
+      -104.99999999999999,
+      265.7999999999999
+    ],
+    "bbox_mm": [
+      [
+        57.83168819476707,
+        -113.0,
+        263.3
+      ],
+      [
+        73.83168819476707,
+        -97.0,
+        268.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P404_B_RETURN_625_1",
+    "material": "steel",
+    "category": "purchased",
+    "motion_group": "fixed",
+    "notes": "",
+    "mass_override_g": 5.0,
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 907.1348787240528,
+    "density_g_cm3": 7.85,
+    "mass_g": 5.0,
+    "mass_basis": "catalog/declared override",
+    "geometric_mass_g": 7.121008797983815,
+    "centroid_mm": [
+      65.83168819476707,
+      -104.99999999999999,
+      272.8
+    ],
+    "bbox_mm": [
+      [
+        57.83168819476707,
+        -113.0,
+        270.3
+      ],
+      [
+        73.83168819476707,
+        -97.0,
+        275.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P405_B_MOVING_IDLER_-1",
+    "material": "aluminum",
+    "category": "purchased",
+    "motion_group": "gantry",
+    "notes": "Two625bearings not separately modeled in moving pulley; mass pending exact assembly.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 3082.358709504522,
+    "density_g_cm3": 2.7,
+    "mass_g": 8.322368515662209,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 8.322368515662209,
+    "centroid_mm": [
+      -88.75000000000003,
+      -34.99999999999999,
+      269.29999999999995
+    ],
+    "bbox_mm": [
+      [
+        -102.5,
+        -48.75,
+        263.3
+      ],
+      [
+        -75.0,
+        -21.25,
+        275.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P407_B_MOVING_625_-1_0",
+    "material": "steel",
+    "category": "purchased",
+    "motion_group": "gantry",
+    "notes": "",
+    "mass_override_g": 5.0,
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 907.1348787240526,
+    "density_g_cm3": 7.85,
+    "mass_g": 5.0,
+    "mass_basis": "catalog/declared override",
+    "geometric_mass_g": 7.121008797983813,
+    "centroid_mm": [
+      -88.75000000000001,
+      -35.0,
+      265.8
+    ],
+    "bbox_mm": [
+      [
+        -96.75,
+        -43.0,
+        263.3
+      ],
+      [
+        -80.75,
+        -27.0,
+        268.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P407_B_MOVING_625_-1_1",
+    "material": "steel",
+    "category": "purchased",
+    "motion_group": "gantry",
+    "notes": "",
+    "mass_override_g": 5.0,
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 907.1348787240526,
+    "density_g_cm3": 7.85,
+    "mass_g": 5.0,
+    "mass_basis": "catalog/declared override",
+    "geometric_mass_g": 7.121008797983813,
+    "centroid_mm": [
+      -88.75000000000001,
+      -35.0,
+      272.8
+    ],
+    "bbox_mm": [
+      [
+        -96.75,
+        -43.0,
+        270.3
+      ],
+      [
+        -80.75,
+        -27.0,
+        275.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P405_B_MOVING_IDLER_1",
+    "material": "aluminum",
+    "category": "purchased",
+    "motion_group": "gantry",
+    "notes": "Two625bearings not separately modeled in moving pulley; mass pending exact assembly.",
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 3082.358709504522,
+    "density_g_cm3": 2.7,
+    "mass_g": 8.322368515662209,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": 8.322368515662209,
+    "centroid_mm": [
+      88.75,
+      -34.99999999999999,
+      269.29999999999995
+    ],
+    "bbox_mm": [
+      [
+        75.0,
+        -48.75,
+        263.3
+      ],
+      [
+        102.5,
+        -21.25,
+        275.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P407_B_MOVING_625_1_0",
+    "material": "steel",
+    "category": "purchased",
+    "motion_group": "gantry",
+    "notes": "",
+    "mass_override_g": 5.0,
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 907.1348787240526,
+    "density_g_cm3": 7.85,
+    "mass_g": 5.0,
+    "mass_basis": "catalog/declared override",
+    "geometric_mass_g": 7.121008797983813,
+    "centroid_mm": [
+      88.75000000000001,
+      -35.0,
+      265.8
+    ],
+    "bbox_mm": [
+      [
+        80.75,
+        -43.0,
+        263.3
+      ],
+      [
+        96.75,
+        -27.0,
+        268.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P407_B_MOVING_625_1_1",
+    "material": "steel",
+    "category": "purchased",
+    "motion_group": "gantry",
+    "notes": "",
+    "mass_override_g": 5.0,
+    "shape_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 907.1348787240526,
+    "density_g_cm3": 7.85,
+    "mass_g": 5.0,
+    "mass_basis": "catalog/declared override",
+    "geometric_mass_g": 7.121008797983813,
+    "centroid_mm": [
+      88.75000000000001,
+      -35.0,
+      272.8
+    ],
+    "bbox_mm": [
+      [
+        80.75,
+        -43.0,
+        270.3
+      ],
+      [
+        96.75,
+        -27.0,
+        275.3
+      ]
+    ]
+  },
+  {
+    "name": "CBP-P406_B_9MM_BELT_ROUTE",
+    "material": "rubber",
+    "category": "purchased",
+    "motion_group": "belt_distributed",
+    "notes": "Continuous pitch route represented by touching solids; actual2GTteeth omitted. Nominal length 800.08 plusclampengagement; cuttolength.",
+    "shape_valid": true,
+    "solid_count": 11,
+    "volume_mm3": 9937.01456737899,
+    "density_g_cm3": null,
+    "mass_g": null,
+    "mass_basis": "CAD volume times assumed material density",
+    "geometric_mass_g": null,
+    "centroid_mm": [
+      28.099396884275652,
+      -33.040317401601264,
+      269.3000000000003
+    ],
+    "bbox_mm": [
+      [
+        -100.89915590261646,
+        -117.14915590261647,
+        264.8
+      ],
+      [
+        100.89915590261647,
+        107.14915590261646,
+        273.8
+      ]
+    ]
+  }
+]

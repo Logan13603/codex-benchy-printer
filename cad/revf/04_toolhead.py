@@ -169,8 +169,12 @@ def _loft(c, name, sections, op, wall=0):
         i.isSolid = True
         i.loftSections.add(profiles[k].profiles.item(0))
         i.loftSections.add(profiles[k + 1].profiles.item(0))
+        if operation in (adsk.fusion.FeatureOperations.CutFeatureOperation,adsk.fusion.FeatureOperations.IntersectFeatureOperation):
+            assert c.bRepBodies.count,'No owned loft target: '+name
+            i.participantBodies=list(c.bRepBodies)
         f = c.features.loftFeatures.add(i)
         assert f, name
+        assert all(b.parentComponent==c for b in f.bodies),'Loft escaped owning component: '+name
         f.name = 'LOFT-' + name + '-SEG-' + str(k)
     for s in profiles:
         s.isVisible = False

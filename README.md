@@ -1,3 +1,5 @@
+> LATEST: [Current checkpoint013](engineering/REVF-013-CHECKPOINT-STATUS.md). Complete native bracing and corrected shading saved as cloud v5. Detailed metal mounts audited offline; native gantry replacement requires recovery inspection.
+
 > **2026-10-21:** [Detailed CAD checkpoint and current holds](cad/REVF-2026-10-21-STATUS.md). Native bed/Z saved; new native frame-bracing integration in progress. No manufacturing release.
 
 # Codex Benchy Printer

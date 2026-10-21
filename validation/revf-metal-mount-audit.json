@@ -1,0 +1,1607 @@
+{
+  "status": "DEVELOPMENT source BRep calculation; not a Fusion/native or physical validation",
+  "source_sha256": {
+    "01_frame_xy_cq.py": "ca96f5a8c68f1ecc88ab372e5f045fb85980d3829cd5c846886b9fd997de3de7",
+    "03_bed_z_cq.py": "7bd3d8e7fec8169acf0d756d23d0b8fb6fe719ce7eeb562fecbc4ec43c00ea54",
+    "05_drives_cq.py": "436ee05909f4830154f9ff73d6bb12cfc2c49053e078ca3071fa7b7a1ccda1ec",
+    "06_gantry_supports_cq.py": "3fbcbde006a924a32ed2c36b7a9a1319f595f97dd85e8675aa1f896bf45bcc2b",
+    "07_frame_bracing_cq.py": "8673ac64917d7deb3cce043ba918f1e15e8ccadcee24ad266a489add19334831",
+    "motor_mount_dimensions.py": "df150bcdc1623aec1c6b9cd63ba332aaea2dca003f516b2c5f242d1eeefe9eca"
+  },
+  "checks": {
+    "drive_internal_all_fasteners": {
+      "hits": [
+        {
+          "a": "CBP-P401_A_LDO_MOTOR_1",
+          "b": "CBP-H501_A_MOTOR_1_M3X10_1",
+          "volume_mm3": 7.559457322700455,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-P401_A_LDO_MOTOR_1",
+          "b": "CBP-H501_A_MOTOR_1_M3X10_2",
+          "volume_mm3": 7.559457322700455,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-P401_A_LDO_MOTOR_1",
+          "b": "CBP-H501_A_MOTOR_1_M3X10_3",
+          "volume_mm3": 7.559457322700455,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-P401_A_LDO_MOTOR_1",
+          "b": "CBP-H501_A_MOTOR_1_M3X10_4",
+          "volume_mm3": 7.559457322700455,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-P402_A_36T_DRIVE_1",
+          "b": "CBP-P406_A_9MM_BELT_ROUTE",
+          "volume_mm3": 151.64579957999237,
+          "thread_exception": false
+        },
+        {
+          "a": "CBP-P401_A_LDO_MOTOR_2",
+          "b": "CBP-H501_A_MOTOR_2_M3X10_1",
+          "volume_mm3": 7.559457322700455,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-P401_A_LDO_MOTOR_2",
+          "b": "CBP-H501_A_MOTOR_2_M3X10_2",
+          "volume_mm3": 7.559457322700455,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-P401_A_LDO_MOTOR_2",
+          "b": "CBP-H501_A_MOTOR_2_M3X10_3",
+          "volume_mm3": 7.559457322700455,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-P401_A_LDO_MOTOR_2",
+          "b": "CBP-H501_A_MOTOR_2_M3X10_4",
+          "volume_mm3": 7.559457322700455,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-P402_A_36T_DRIVE_2",
+          "b": "CBP-P406_A_9MM_BELT_ROUTE",
+          "volume_mm3": 83.94781166977272,
+          "thread_exception": false
+        },
+        {
+          "a": "CBP-P403_A_RETURN_IDLER",
+          "b": "CBP-P406_A_9MM_BELT_ROUTE",
+          "volume_mm3": 83.9478116697781,
+          "thread_exception": false
+        },
+        {
+          "a": "CBP-P405_A_MOVING_IDLER_-1",
+          "b": "CBP-P406_A_9MM_BELT_ROUTE",
+          "volume_mm3": 100.19763542936943,
+          "thread_exception": false
+        },
+        {
+          "a": "CBP-P405_A_MOVING_IDLER_1",
+          "b": "CBP-P406_A_9MM_BELT_ROUTE",
+          "volume_mm3": 83.94781166977309,
+          "thread_exception": false
+        },
+        {
+          "a": "CBP-P401_B_LDO_MOTOR_1",
+          "b": "CBP-H501_B_MOTOR_1_M3X10_1",
+          "volume_mm3": 7.559457322700454,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-P401_B_LDO_MOTOR_1",
+          "b": "CBP-H501_B_MOTOR_1_M3X10_2",
+          "volume_mm3": 7.559457322700454,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-P401_B_LDO_MOTOR_1",
+          "b": "CBP-H501_B_MOTOR_1_M3X10_3",
+          "volume_mm3": 7.559457322700454,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-P401_B_LDO_MOTOR_1",
+          "b": "CBP-H501_B_MOTOR_1_M3X10_4",
+          "volume_mm3": 7.559457322700454,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-P402_B_36T_DRIVE_1",
+          "b": "CBP-P406_B_9MM_BELT_ROUTE",
+          "volume_mm3": 151.64579957994778,
+          "thread_exception": false
+        },
+        {
+          "a": "CBP-P401_B_LDO_MOTOR_2",
+          "b": "CBP-H501_B_MOTOR_2_M3X10_1",
+          "volume_mm3": 7.559457322700454,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-P401_B_LDO_MOTOR_2",
+          "b": "CBP-H501_B_MOTOR_2_M3X10_2",
+          "volume_mm3": 7.559457322700454,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-P401_B_LDO_MOTOR_2",
+          "b": "CBP-H501_B_MOTOR_2_M3X10_3",
+          "volume_mm3": 7.559457322700454,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-P401_B_LDO_MOTOR_2",
+          "b": "CBP-H501_B_MOTOR_2_M3X10_4",
+          "volume_mm3": 7.559457322700454,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-P402_B_36T_DRIVE_2",
+          "b": "CBP-P406_B_9MM_BELT_ROUTE",
+          "volume_mm3": 83.94781166977445,
+          "thread_exception": false
+        },
+        {
+          "a": "CBP-P403_B_RETURN_IDLER",
+          "b": "CBP-P406_B_9MM_BELT_ROUTE",
+          "volume_mm3": 83.94781166979061,
+          "thread_exception": false
+        },
+        {
+          "a": "CBP-P405_B_MOVING_IDLER_-1",
+          "b": "CBP-P406_B_9MM_BELT_ROUTE",
+          "volume_mm3": 83.94781166978419,
+          "thread_exception": false
+        },
+        {
+          "a": "CBP-P405_B_MOVING_IDLER_1",
+          "b": "CBP-P406_B_9MM_BELT_ROUTE",
+          "volume_mm3": 100.19763542931217,
+          "thread_exception": false
+        }
+      ],
+      "closest": null
+    },
+    "mounts_vs_all_nominal": {
+      "hits": [
+        {
+          "a": "CBP-D402_A_1_TOP_BAR",
+          "b": "CBP-H610_A_1_TOP_-1_1",
+          "volume_mm3": 11.879147221386551,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_A_1_TOP_BAR",
+          "b": "CBP-H610_A_1_TOP_-1_2",
+          "volume_mm3": 11.879147221386505,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_A_1_TOP_BAR",
+          "b": "CBP-H610_A_1_TOP_1_1",
+          "volume_mm3": 11.879147221386551,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_A_1_TOP_BAR",
+          "b": "CBP-H610_A_1_TOP_1_2",
+          "volume_mm3": 11.879147221386505,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_A_1_FRONT_FOOT_BAR",
+          "b": "CBP-H611_A_1_FOOT_-1_-1",
+          "volume_mm3": 11.879147221386448,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_A_1_FRONT_FOOT_BAR",
+          "b": "CBP-H611_A_1_FOOT_1_-1",
+          "volume_mm3": 11.879147221386335,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_A_1_FRONT_FOOT_BAR",
+          "b": "CBP-H612_A_1_PLATE_-1_-17",
+          "volume_mm3": 24.08030768976563,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_A_1_FRONT_FOOT_BAR",
+          "b": "CBP-H612_A_1_PLATE_-1_17",
+          "volume_mm3": 24.080307689765633,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_A_1_REAR_FOOT_BAR",
+          "b": "CBP-H611_A_1_FOOT_-1_1",
+          "volume_mm3": 11.879147221386466,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_A_1_REAR_FOOT_BAR",
+          "b": "CBP-H611_A_1_FOOT_1_1",
+          "volume_mm3": 11.879147221386363,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_A_1_REAR_FOOT_BAR",
+          "b": "CBP-H612_A_1_PLATE_1_-17",
+          "volume_mm3": 24.08030768976563,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_A_1_REAR_FOOT_BAR",
+          "b": "CBP-H612_A_1_PLATE_1_17",
+          "volume_mm3": 24.080307689765633,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_A_1_REAR_FOOT_BAR",
+          "b": "CBP-H614_A_1_CABLE_TAB_-9",
+          "volume_mm3": 8.639379797371895,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_A_1_REAR_FOOT_BAR",
+          "b": "CBP-H614_A_1_CABLE_TAB_9",
+          "volume_mm3": 8.639379797371895,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-H613_A_1_FRAME_-6",
+          "b": "CBP-H613_A_1_FRAME_-6_HNTT5",
+          "volume_mm3": 21.96601583389986,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-H613_A_1_FRAME_6",
+          "b": "CBP-H613_A_1_FRAME_6_HNTT5",
+          "volume_mm3": 21.96601583389986,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_A_2_TOP_BAR",
+          "b": "CBP-H610_A_2_TOP_-1_1",
+          "volume_mm3": 11.879147221386505,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_A_2_TOP_BAR",
+          "b": "CBP-H610_A_2_TOP_-1_2",
+          "volume_mm3": 11.879147221386551,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_A_2_TOP_BAR",
+          "b": "CBP-H610_A_2_TOP_1_1",
+          "volume_mm3": 11.879147221386505,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_A_2_TOP_BAR",
+          "b": "CBP-H610_A_2_TOP_1_2",
+          "volume_mm3": 11.879147221386551,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_A_2_FRONT_FOOT_BAR",
+          "b": "CBP-H611_A_2_FOOT_-1_-1",
+          "volume_mm3": 11.879147221386427,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_A_2_FRONT_FOOT_BAR",
+          "b": "CBP-H611_A_2_FOOT_1_-1",
+          "volume_mm3": 11.87914722138632,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_A_2_FRONT_FOOT_BAR",
+          "b": "CBP-H612_A_2_PLATE_-1_-17",
+          "volume_mm3": 24.080307689765558,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_A_2_FRONT_FOOT_BAR",
+          "b": "CBP-H612_A_2_PLATE_-1_17",
+          "volume_mm3": 24.08030768976556,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_A_2_FRONT_FOOT_BAR",
+          "b": "CBP-H614_A_2_CABLE_TAB_-9",
+          "volume_mm3": 8.639379797371975,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_A_2_FRONT_FOOT_BAR",
+          "b": "CBP-H614_A_2_CABLE_TAB_9",
+          "volume_mm3": 8.639379797371975,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_A_2_REAR_FOOT_BAR",
+          "b": "CBP-H611_A_2_FOOT_-1_1",
+          "volume_mm3": 11.879147221386466,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_A_2_REAR_FOOT_BAR",
+          "b": "CBP-H611_A_2_FOOT_1_1",
+          "volume_mm3": 11.879147221386356,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_A_2_REAR_FOOT_BAR",
+          "b": "CBP-H612_A_2_PLATE_1_-17",
+          "volume_mm3": 24.08030768976563,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_A_2_REAR_FOOT_BAR",
+          "b": "CBP-H612_A_2_PLATE_1_17",
+          "volume_mm3": 24.080307689765633,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-H613_A_2_FRAME_-6",
+          "b": "CBP-H613_A_2_FRAME_-6_HNTT5",
+          "volume_mm3": 21.96601583389986,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-H613_A_2_FRAME_6",
+          "b": "CBP-H613_A_2_FRAME_6_HNTT5",
+          "volume_mm3": 21.96601583389986,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_B_1_TOP_BAR",
+          "b": "CBP-H610_B_1_TOP_-1_1",
+          "volume_mm3": 11.879147221386551,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_B_1_TOP_BAR",
+          "b": "CBP-H610_B_1_TOP_-1_2",
+          "volume_mm3": 11.879147221386505,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_B_1_TOP_BAR",
+          "b": "CBP-H610_B_1_TOP_1_1",
+          "volume_mm3": 11.879147221386551,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_B_1_TOP_BAR",
+          "b": "CBP-H610_B_1_TOP_1_2",
+          "volume_mm3": 11.879147221386505,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_B_1_FRONT_FOOT_BAR",
+          "b": "CBP-H611_B_1_FOOT_-1_-1",
+          "volume_mm3": 11.879147221386338,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_B_1_FRONT_FOOT_BAR",
+          "b": "CBP-H611_B_1_FOOT_1_-1",
+          "volume_mm3": 11.879147221386335,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_B_1_FRONT_FOOT_BAR",
+          "b": "CBP-H612_B_1_PLATE_-1_-17",
+          "volume_mm3": 24.08030768976563,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_B_1_FRONT_FOOT_BAR",
+          "b": "CBP-H612_B_1_PLATE_-1_17",
+          "volume_mm3": 24.080307689765633,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_B_1_REAR_FOOT_BAR",
+          "b": "CBP-H611_B_1_FOOT_-1_1",
+          "volume_mm3": 11.879147221386356,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_B_1_REAR_FOOT_BAR",
+          "b": "CBP-H611_B_1_FOOT_1_1",
+          "volume_mm3": 11.879147221386363,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_B_1_REAR_FOOT_BAR",
+          "b": "CBP-H612_B_1_PLATE_1_-17",
+          "volume_mm3": 24.08030768976563,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_B_1_REAR_FOOT_BAR",
+          "b": "CBP-H612_B_1_PLATE_1_17",
+          "volume_mm3": 24.080307689765633,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_B_1_REAR_FOOT_BAR",
+          "b": "CBP-H614_B_1_CABLE_TAB_-9",
+          "volume_mm3": 8.639379797371895,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_B_1_REAR_FOOT_BAR",
+          "b": "CBP-H614_B_1_CABLE_TAB_9",
+          "volume_mm3": 8.639379797371895,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-H613_B_1_FRAME_-6",
+          "b": "CBP-H613_B_1_FRAME_-6_HNTT5",
+          "volume_mm3": 21.96601583389986,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-H613_B_1_FRAME_6",
+          "b": "CBP-H613_B_1_FRAME_6_HNTT5",
+          "volume_mm3": 21.96601583389986,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_B_2_TOP_BAR",
+          "b": "CBP-H610_B_2_TOP_-1_1",
+          "volume_mm3": 11.879147221386505,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_B_2_TOP_BAR",
+          "b": "CBP-H610_B_2_TOP_-1_2",
+          "volume_mm3": 11.879147221386551,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_B_2_TOP_BAR",
+          "b": "CBP-H610_B_2_TOP_1_1",
+          "volume_mm3": 11.879147221386505,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_B_2_TOP_BAR",
+          "b": "CBP-H610_B_2_TOP_1_2",
+          "volume_mm3": 11.879147221386551,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_B_2_FRONT_FOOT_BAR",
+          "b": "CBP-H611_B_2_FOOT_-1_-1",
+          "volume_mm3": 11.87914722138632,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_B_2_FRONT_FOOT_BAR",
+          "b": "CBP-H611_B_2_FOOT_1_-1",
+          "volume_mm3": 11.87914722138632,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_B_2_FRONT_FOOT_BAR",
+          "b": "CBP-H612_B_2_PLATE_-1_-17",
+          "volume_mm3": 24.080307689765558,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_B_2_FRONT_FOOT_BAR",
+          "b": "CBP-H612_B_2_PLATE_-1_17",
+          "volume_mm3": 24.08030768976556,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_B_2_FRONT_FOOT_BAR",
+          "b": "CBP-H614_B_2_CABLE_TAB_-9",
+          "volume_mm3": 8.639379797371898,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_B_2_FRONT_FOOT_BAR",
+          "b": "CBP-H614_B_2_CABLE_TAB_9",
+          "volume_mm3": 8.639379797371898,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_B_2_REAR_FOOT_BAR",
+          "b": "CBP-H611_B_2_FOOT_-1_1",
+          "volume_mm3": 11.87914722138636,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_B_2_REAR_FOOT_BAR",
+          "b": "CBP-H611_B_2_FOOT_1_1",
+          "volume_mm3": 11.879147221386356,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_B_2_REAR_FOOT_BAR",
+          "b": "CBP-H612_B_2_PLATE_1_-17",
+          "volume_mm3": 24.08030768976563,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-D402_B_2_REAR_FOOT_BAR",
+          "b": "CBP-H612_B_2_PLATE_1_17",
+          "volume_mm3": 24.080307689765633,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-H613_B_2_FRAME_-6",
+          "b": "CBP-H613_B_2_FRAME_-6_HNTT5",
+          "volume_mm3": 21.96601583389986,
+          "thread_exception": true
+        },
+        {
+          "a": "CBP-H613_B_2_FRAME_6",
+          "b": "CBP-H613_B_2_FRAME_6_HNTT5",
+          "volume_mm3": 21.96601583389986,
+          "thread_exception": true
+        }
+      ],
+      "closest": null
+    },
+    "mounts_vs_gantry_Y-20": {
+      "hits": [],
+      "closest": {
+        "a": "CBP-D402_A_2_REAR_FOOT_BAR",
+        "b": "CBP-M208_R_SEPARATE_IDLER_FORK",
+        "distance_mm": 4.0
+      }
+    },
+    "mounts_vs_gantry_Y30": {
+      "hits": [],
+      "closest": {
+        "a": "CBP-D402_A_1_OUTER_CHEEK",
+        "b": "CBP-P202_MGN9H_Y_BLOCK_L",
+        "distance_mm": 9.049999999999997
+      }
+    }
+  },
+  "mount_customs": [
+    {
+      "name": "CBP-D401_A_MOTOR_PLATE_1",
+      "material": "6061",
+      "category": "cnc",
+      "motion_group": "fixed",
+      "notes": "45x64x6 with R2 XY corners; fixed 31mm motor pattern 4x3.5 and 4M4 anchors. Two front \u00d86 Allen access holes match foot bars; use4mmAF key. 8mm through shaft bore; underside 22.10 nominal pilot socket 2.15 deep clears 2mm pilot. FINAL PILOT FIT HOLD pending maker tolerance/measurement. A-front only: R14.25 upper 0.70mm idler pocket floor263.10 preserves pilot register. Deburr0.2, flatness0.05, motor face parallel top0.05. Do not infer validated stiffness. Fixed belt/motor planes retained.",
+      "shape_valid": true,
+      "solid_count": 1,
+      "volume_mm3": 15645.309572027549,
+      "density_g_cm3": 2.7,
+      "mass_g": 42.24233584447439,
+      "mass_basis": "CAD volume times assumed material density",
+      "geometric_mass_g": 42.24233584447439,
+      "centroid_mm": [
+        -88.75000000000001,
+        95.0,
+        260.8881780564999
+      ],
+      "bbox_mm": [
+        [
+          -111.25,
+          63.0,
+          257.8
+        ],
+        [
+          -66.25,
+          127.0,
+          263.8
+        ]
+      ]
+    },
+    {
+      "name": "CBP-D401_A_MOTOR_PLATE_2",
+      "material": "6061",
+      "category": "cnc",
+      "motion_group": "fixed",
+      "notes": "45x64x6 with R2 XY corners; fixed 31mm motor pattern 4x3.5 and 4M4 anchors. Two front \u00d86 Allen access holes match foot bars; use4mmAF key. 8mm through shaft bore; underside 22.10 nominal pilot socket 2.15 deep clears 2mm pilot. FINAL PILOT FIT HOLD pending maker tolerance/measurement. A-front only: R14.25 upper 0.70mm idler pocket floor263.10 preserves pilot register. Deburr0.2, flatness0.05, motor face parallel top0.05. Do not infer validated stiffness. Fixed belt/motor planes retained.",
+      "shape_valid": true,
+      "solid_count": 1,
+      "volume_mm3": 15091.08280685551,
+      "density_g_cm3": 2.7,
+      "mass_g": 40.74592357850988,
+      "mass_basis": "CAD volume times assumed material density",
+      "geometric_mass_g": 40.74592357850988,
+      "centroid_mm": [
+        88.98704868184494,
+        -104.43792633880192,
+        260.8536738080044
+      ],
+      "bbox_mm": [
+        [
+          66.24999999999972,
+          -137.0,
+          257.8
+        ],
+        [
+          111.25,
+          -73.0,
+          263.8
+        ]
+      ]
+    },
+    {
+      "name": "CBP-D401_B_MOTOR_PLATE_1",
+      "material": "6061",
+      "category": "cnc",
+      "motion_group": "fixed",
+      "notes": "45x64x6 with R2 XY corners; fixed 31mm motor pattern 4x3.5 and 4M4 anchors. Two front \u00d86 Allen access holes match foot bars; use4mmAF key. 8mm through shaft bore; underside 22.10 nominal pilot socket 2.15 deep clears 2mm pilot. FINAL PILOT FIT HOLD pending maker tolerance/measurement. A-front only: R14.25 upper 0.70mm idler pocket floor263.10 preserves pilot register. Deburr0.2, flatness0.05, motor face parallel top0.05. Do not infer validated stiffness. Fixed belt/motor planes retained.",
+      "shape_valid": true,
+      "solid_count": 1,
+      "volume_mm3": 15645.309572027549,
+      "density_g_cm3": 2.7,
+      "mass_g": 42.24233584447439,
+      "mass_basis": "CAD volume times assumed material density",
+      "geometric_mass_g": 42.24233584447439,
+      "centroid_mm": [
+        88.74999999999997,
+        94.99999999999999,
+        247.88817805649987
+      ],
+      "bbox_mm": [
+        [
+          66.25,
+          63.0,
+          244.8
+        ],
+        [
+          111.25,
+          127.0,
+          250.8
+        ]
+      ]
+    },
+    {
+      "name": "CBP-D401_B_MOTOR_PLATE_2",
+      "material": "6061",
+      "category": "cnc",
+      "motion_group": "fixed",
+      "notes": "45x64x6 with R2 XY corners; fixed 31mm motor pattern 4x3.5 and 4M4 anchors. Two front \u00d86 Allen access holes match foot bars; use4mmAF key. 8mm through shaft bore; underside 22.10 nominal pilot socket 2.15 deep clears 2mm pilot. FINAL PILOT FIT HOLD pending maker tolerance/measurement. A-front only: R14.25 upper 0.70mm idler pocket floor263.10 preserves pilot register. Deburr0.2, flatness0.05, motor face parallel top0.05. Do not infer validated stiffness. Fixed belt/motor planes retained.",
+      "shape_valid": true,
+      "solid_count": 1,
+      "volume_mm3": 15306.01756543985,
+      "density_g_cm3": 2.7,
+      "mass_g": 41.326247426687594,
+      "mass_basis": "CAD volume times assumed material density",
+      "geometric_mass_g": 41.326247426687594,
+      "centroid_mm": [
+        -88.74999999999996,
+        -104.44581925844349,
+        247.89013271972945
+      ],
+      "bbox_mm": [
+        [
+          -111.25,
+          -137.0,
+          244.8
+        ],
+        [
+          -66.25,
+          -73.0,
+          250.8
+        ]
+      ]
+    },
+    {
+      "name": "CBP-D402_A_1_TOP_BAR",
+      "material": "6061",
+      "category": "cnc",
+      "motion_group": "fixed",
+      "notes": "6061-T6 saw/drill stock42x20x8. Four side M3 drill9/fullthread7 minimum; two5.5vertical M5 clearance atXoffsets+/-6mm. M3 axes offset5mm fromM5 so shafts do not intersect. Deburr0.2; underside driver access and preinserted HNTT5 required.",
+      "shape_valid": true,
+      "solid_count": 1,
+      "volume_mm3": 6163.1527021512065,
+      "density_g_cm3": 2.7,
+      "mass_g": 16.640512295808257,
+      "mass_basis": "CAD volume times assumed material density",
+      "geometric_mass_g": 16.640512295808257,
+      "centroid_mm": [
+        -88.75000000000001,
+        130.00000000000003,
+        276.00000000000017
+      ],
+      "bbox_mm": [
+        [
+          -109.75,
+          120.0,
+          272.0
+        ],
+        [
+          -67.75,
+          140.0,
+          280.0
+        ]
+      ]
+    },
+    {
+      "name": "CBP-D402_A_1_FRONT_FOOT_BAR",
+      "material": "6061",
+      "category": "cnc",
+      "motion_group": "fixed",
+      "notes": "6061-T6 stock42x14.3x6. M4 through taps, nominal6mm engagement. EndM3 drill9/fullthread7 minimum; M3 axesY32 versusM4Y27 keep shafts5mm apart. 0.2deburr. Verify tap fit and strip strength.",
+      "shape_valid": true,
+      "solid_count": 1,
+      "volume_mm3": 3412.606874625009,
+      "density_g_cm3": 2.7,
+      "mass_g": 9.214038561487525,
+      "mass_basis": "CAD volume times assumed material density",
+      "geometric_mass_g": 9.214038561487525,
+      "centroid_mm": [
+        -88.74999999999999,
+        66.17591836335589,
+        254.79999999999995
+      ],
+      "bbox_mm": [
+        [
+          -109.75,
+          59.00000000000001,
+          251.8
+        ],
+        [
+          -67.75,
+          73.30000000000001,
+          257.8
+        ]
+      ]
+    },
+    {
+      "name": "CBP-D402_A_1_REAR_FOOT_BAR",
+      "material": "6061",
+      "category": "cnc",
+      "motion_group": "fixed",
+      "notes": "6061-T6 stock42x14.3x6. M4 through taps, nominal6mm engagement. EndM3 drill9/fullthread7 minimum; M3 axesY32 versusM4Y27 keep shafts5mm apart. 0.2deburr. Verify tap fit and strip strength.",
+      "shape_valid": true,
+      "solid_count": 1,
+      "volume_mm3": 3343.8845353277325,
+      "density_g_cm3": 2.7,
+      "mass_g": 9.028488245384878,
+      "mass_basis": "CAD volume times assumed material density",
+      "geometric_mass_g": 9.028488245384878,
+      "centroid_mm": [
+        -88.74999999999999,
+        123.74853545485259,
+        254.8
+      ],
+      "bbox_mm": [
+        [
+          -109.75,
+          116.69999999999999,
+          251.8
+        ],
+        [
+          -67.75,
+          131.0,
+          257.8
+        ]
+      ]
+    },
+    {
+      "name": "CBP-D402_A_1_OUTER_CHEEK",
+      "material": "6061",
+      "category": "cnc",
+      "motion_group": "fixed",
+      "notes": "6061-T6 sheet4. Waterjet/laser two-dimensional profile, body-windowR3; plate-windowR0.5. Minimum lowerUbridge5mm and motor-bottomgap3.5mm. Outer rail relief and front-inner idler step retained. No printed structural path. Static/dynamic stiffness and connector/pigtail envelope unvalidated.",
+      "shape_valid": true,
+      "solid_count": 1,
+      "volume_mm3": 11279.519335743364,
+      "density_g_cm3": 2.7,
+      "mass_g": 30.454702206507086,
+      "mass_basis": "CAD volume times assumed material density",
+      "geometric_mass_g": 30.454702206507086,
+      "centroid_mm": [
+        -111.74999999999997,
+        106.18928565690075,
+        238.67950326622676
+      ],
+      "bbox_mm": [
+        [
+          -113.75,
+          59.0,
+          201.3
+        ],
+        [
+          -109.75,
+          140.0,
+          280.0
+        ]
+      ]
+    },
+    {
+      "name": "CBP-D402_A_1_INNER_CHEEK",
+      "material": "6061",
+      "category": "cnc",
+      "motion_group": "fixed",
+      "notes": "6061-T6 sheet4. Waterjet/laser two-dimensional profile, body-windowR3; plate-windowR0.5. Minimum lowerUbridge5mm and motor-bottomgap3.5mm. Outer rail relief and front-inner idler step retained. No printed structural path. Static/dynamic stiffness and connector/pigtail envelope unvalidated.",
+      "shape_valid": true,
+      "solid_count": 1,
+      "volume_mm3": 12203.51933574336,
+      "density_g_cm3": 2.7,
+      "mass_g": 32.94950220650707,
+      "mass_basis": "CAD volume times assumed material density",
+      "geometric_mass_g": 32.94950220650707,
+      "centroid_mm": [
+        -65.74999999999999,
+        104.20634128804983,
+        241.59990171863248
+      ],
+      "bbox_mm": [
+        [
+          -67.75,
+          59.0,
+          201.3
+        ],
+        [
+          -63.75,
+          140.0,
+          280.0
+        ]
+      ]
+    },
+    {
+      "name": "CBP-D402_A_1_CABLE_TIE_TAB",
+      "material": "6061",
+      "category": "cnc",
+      "motion_group": "fixed",
+      "notes": "6061 sheet1.5 flat30x25, no bend. TwoM3x6 with0.5washers into frame-side foot4mm engagement; drill7/fullthread5.5 minimum, four2x5 tie slots. Route pigtail outside motor before lowerUbridge. Connector/bend radius HOLD pending actualmotor; protect all cable-contact edges.",
+      "shape_valid": true,
+      "solid_count": 1,
+      "volume_mm3": 1039.3410420018054,
+      "density_g_cm3": 2.7,
+      "mass_g": 2.8062208134048747,
+      "mass_basis": "CAD volume times assumed material density",
+      "geometric_mass_g": 2.8062208134048747,
+      "centroid_mm": [
+        -88.75000000000003,
+        131.75000000000003,
+        245.29638222601542
+      ],
+      "bbox_mm": [
+        [
+          -103.75,
+          131.0,
+          232.8
+        ],
+        [
+          -73.75,
+          132.5,
+          257.8
+        ]
+      ]
+    },
+    {
+      "name": "CBP-D402_A_2_TOP_BAR",
+      "material": "6061",
+      "category": "cnc",
+      "motion_group": "fixed",
+      "notes": "6061-T6 saw/drill stock42x20x8. Four side M3 drill9/fullthread7 minimum; two5.5vertical M5 clearance atXoffsets+/-6mm. M3 axes offset5mm fromM5 so shafts do not intersect. Deburr0.2; underside driver access and preinserted HNTT5 required.",
+      "shape_valid": true,
+      "solid_count": 1,
+      "volume_mm3": 6163.1527021512065,
+      "density_g_cm3": 2.7,
+      "mass_g": 16.640512295808257,
+      "mass_basis": "CAD volume times assumed material density",
+      "geometric_mass_g": 16.640512295808257,
+      "centroid_mm": [
+        88.75000000000003,
+        -129.99999999999997,
+        276.00000000000017
+      ],
+      "bbox_mm": [
+        [
+          67.75,
+          -140.0,
+          272.0
+        ],
+        [
+          109.75,
+          -120.0,
+          280.0
+        ]
+      ]
+    },
+    {
+      "name": "CBP-D402_A_2_FRONT_FOOT_BAR",
+      "material": "6061",
+      "category": "cnc",
+      "motion_group": "fixed",
+      "notes": "6061-T6 stock42x14.3x6. M4 through taps, nominal6mm engagement. EndM3 drill9/fullthread7 minimum; M3 axesY32 versusM4Y27 keep shafts5mm apart. 0.2deburr. Verify tap fit and strip strength.",
+      "shape_valid": true,
+      "solid_count": 1,
+      "volume_mm3": 3004.592528740034,
+      "density_g_cm3": 2.7,
+      "mass_g": 8.112399827598093,
+      "mass_basis": "CAD volume times assumed material density",
+      "geometric_mass_g": 8.112399827598093,
+      "centroid_mm": [
+        88.75000000000001,
+        -134.17183681903973,
+        254.8000000000001
+      ],
+      "bbox_mm": [
+        [
+          67.75,
+          -141.0,
+          251.8
+        ],
+        [
+          109.75,
+          -126.69999999999999,
+          257.8
+        ]
+      ]
+    },
+    {
+      "name": "CBP-D402_A_2_REAR_FOOT_BAR",
+      "material": "6061",
+      "category": "cnc",
+      "motion_group": "fixed",
+      "notes": "6061-T6 stock42x14.3x6. M4 through taps, nominal6mm engagement. EndM3 drill9/fullthread7 minimum; M3 axesY32 versusM4Y27 keep shafts5mm apart. 0.2deburr. Verify tap fit and strip strength.",
+      "shape_valid": true,
+      "solid_count": 1,
+      "volume_mm3": 3412.60687462501,
+      "density_g_cm3": 2.7,
+      "mass_g": 9.214038561487527,
+      "mass_basis": "CAD volume times assumed material density",
+      "geometric_mass_g": 9.214038561487527,
+      "centroid_mm": [
+        88.75000000000001,
+        -76.17591836335588,
+        254.79999999999995
+      ],
+      "bbox_mm": [
+        [
+          67.75,
+          -83.30000000000001,
+          251.8
+        ],
+        [
+          109.75,
+          -69.0,
+          257.8
+        ]
+      ]
+    },
+    {
+      "name": "CBP-D402_A_2_INNER_CHEEK",
+      "material": "6061",
+      "category": "cnc",
+      "motion_group": "fixed",
+      "notes": "6061-T6 sheet4. Waterjet/laser two-dimensional profile, body-windowR3; plate-windowR0.5. Minimum lowerUbridge5mm and motor-bottomgap3.5mm. Outer rail relief and front-inner idler step retained. No printed structural path. Static/dynamic stiffness and connector/pigtail envelope unvalidated.",
+      "shape_valid": true,
+      "solid_count": 1,
+      "volume_mm3": 7172.30473390676,
+      "density_g_cm3": 2.7,
+      "mass_g": 19.36522278154825,
+      "mass_basis": "CAD volume times assumed material density",
+      "geometric_mass_g": 19.36522278154825,
+      "centroid_mm": [
+        65.75,
+        -108.36412331135676,
+        231.91455302583918
+      ],
+      "bbox_mm": [
+        [
+          63.75,
+          -141.0,
+          201.3
+        ],
+        [
+          67.75,
+          -69.0,
+          280.0
+        ]
+      ]
+    },
+    {
+      "name": "CBP-D402_A_2_OUTER_CHEEK",
+      "material": "6061",
+      "category": "cnc",
+      "motion_group": "fixed",
+      "notes": "6061-T6 sheet4. Waterjet/laser two-dimensional profile, body-windowR3; plate-windowR0.5. Minimum lowerUbridge5mm and motor-bottomgap3.5mm. Outer rail relief and front-inner idler step retained. No printed structural path. Static/dynamic stiffness and connector/pigtail envelope unvalidated.",
+      "shape_valid": true,
+      "solid_count": 1,
+      "volume_mm3": 8666.319335743357,
+      "density_g_cm3": 2.7,
+      "mass_g": 23.399062206507068,
+      "mass_basis": "CAD volume times assumed material density",
+      "geometric_mass_g": 23.399062206507068,
+      "centroid_mm": [
+        111.7500000000001,
+        -106.42729598586384,
+        239.01444337434566
+      ],
+      "bbox_mm": [
+        [
+          109.75,
+          -141.0,
+          201.3
+        ],
+        [
+          113.75,
+          -69.0,
+          280.0
+        ]
+      ]
+    },
+    {
+      "name": "CBP-D402_A_2_CABLE_TIE_TAB",
+      "material": "6061",
+      "category": "cnc",
+      "motion_group": "fixed",
+      "notes": "6061 sheet1.5 flat30x25, no bend. TwoM3x6 with0.5washers into frame-side foot4mm engagement; drill7/fullthread5.5 minimum, four2x5 tie slots. Route pigtail outside motor before lowerUbridge. Connector/bend radius HOLD pending actualmotor; protect all cable-contact edges.",
+      "shape_valid": true,
+      "solid_count": 1,
+      "volume_mm3": 1039.3410420018051,
+      "density_g_cm3": 2.7,
+      "mass_g": 2.8062208134048743,
+      "mass_basis": "CAD volume times assumed material density",
+      "geometric_mass_g": 2.8062208134048743,
+      "centroid_mm": [
+        88.75000000000001,
+        -141.75000000000003,
+        245.2963822260154
+      ],
+      "bbox_mm": [
+        [
+          73.75,
+          -142.5,
+          232.8
+        ],
+        [
+          103.75,
+          -141.0,
+          257.8
+        ]
+      ]
+    },
+    {
+      "name": "CBP-D402_B_1_TOP_BAR",
+      "material": "6061",
+      "category": "cnc",
+      "motion_group": "fixed",
+      "notes": "6061-T6 saw/drill stock42x20x8. Four side M3 drill9/fullthread7 minimum; two5.5vertical M5 clearance atXoffsets+/-6mm. M3 axes offset5mm fromM5 so shafts do not intersect. Deburr0.2; underside driver access and preinserted HNTT5 required.",
+      "shape_valid": true,
+      "solid_count": 1,
+      "volume_mm3": 6163.1527021512065,
+      "density_g_cm3": 2.7,
+      "mass_g": 16.640512295808257,
+      "mass_basis": "CAD volume times assumed material density",
+      "geometric_mass_g": 16.640512295808257,
+      "centroid_mm": [
+        88.75000000000003,
+        130.00000000000003,
+        276.00000000000017
+      ],
+      "bbox_mm": [
+        [
+          67.75,
+          120.0,
+          272.0
+        ],
+        [
+          109.75,
+          140.0,
+          280.0
+        ]
+      ]
+    },
+    {
+      "name": "CBP-D402_B_1_FRONT_FOOT_BAR",
+      "material": "6061",
+      "category": "cnc",
+      "motion_group": "fixed",
+      "notes": "6061-T6 stock42x14.3x6. M4 through taps, nominal6mm engagement. EndM3 drill9/fullthread7 minimum; M3 axesY32 versusM4Y27 keep shafts5mm apart. 0.2deburr. Verify tap fit and strip strength.",
+      "shape_valid": true,
+      "solid_count": 1,
+      "volume_mm3": 3412.606874625009,
+      "density_g_cm3": 2.7,
+      "mass_g": 9.214038561487525,
+      "mass_basis": "CAD volume times assumed material density",
+      "geometric_mass_g": 9.214038561487525,
+      "centroid_mm": [
+        88.75,
+        66.17591836335589,
+        241.79999999999995
+      ],
+      "bbox_mm": [
+        [
+          67.75,
+          59.00000000000001,
+          238.8
+        ],
+        [
+          109.75,
+          73.30000000000001,
+          244.8
+        ]
+      ]
+    },
+    {
+      "name": "CBP-D402_B_1_REAR_FOOT_BAR",
+      "material": "6061",
+      "category": "cnc",
+      "motion_group": "fixed",
+      "notes": "6061-T6 stock42x14.3x6. M4 through taps, nominal6mm engagement. EndM3 drill9/fullthread7 minimum; M3 axesY32 versusM4Y27 keep shafts5mm apart. 0.2deburr. Verify tap fit and strip strength.",
+      "shape_valid": true,
+      "solid_count": 1,
+      "volume_mm3": 3343.8845353277325,
+      "density_g_cm3": 2.7,
+      "mass_g": 9.028488245384878,
+      "mass_basis": "CAD volume times assumed material density",
+      "geometric_mass_g": 9.028488245384878,
+      "centroid_mm": [
+        88.74999999999999,
+        123.74853545485259,
+        241.79999999999998
+      ],
+      "bbox_mm": [
+        [
+          67.75,
+          116.69999999999999,
+          238.8
+        ],
+        [
+          109.75,
+          131.0,
+          244.8
+        ]
+      ]
+    },
+    {
+      "name": "CBP-D402_B_1_INNER_CHEEK",
+      "material": "6061",
+      "category": "cnc",
+      "motion_group": "fixed",
+      "notes": "6061-T6 sheet4. Waterjet/laser two-dimensional profile, body-windowR3; plate-windowR0.5. Minimum lowerUbridge5mm and motor-bottomgap3.5mm. Outer rail relief and front-inner idler step retained. No printed structural path. Static/dynamic stiffness and connector/pigtail envelope unvalidated.",
+      "shape_valid": true,
+      "solid_count": 1,
+      "volume_mm3": 16415.51933574336,
+      "density_g_cm3": 2.7,
+      "mass_g": 44.321902206507076,
+      "mass_basis": "CAD volume times assumed material density",
+      "geometric_mass_g": 44.321902206507076,
+      "centroid_mm": [
+        65.75000000000006,
+        102.9987578360842,
+        240.0664718323985
+      ],
+      "bbox_mm": [
+        [
+          63.75,
+          59.0,
+          188.3
+        ],
+        [
+          67.75,
+          140.0,
+          280.0
+        ]
+      ]
+    },
+    {
+      "name": "CBP-D402_B_1_OUTER_CHEEK",
+      "material": "6061",
+      "category": "cnc",
+      "motion_group": "fixed",
+      "notes": "6061-T6 sheet4. Waterjet/laser two-dimensional profile, body-windowR3; plate-windowR0.5. Minimum lowerUbridge5mm and motor-bottomgap3.5mm. Outer rail relief and front-inner idler step retained. No printed structural path. Static/dynamic stiffness and connector/pigtail envelope unvalidated.",
+      "shape_valid": true,
+      "solid_count": 1,
+      "volume_mm3": 15491.519335743367,
+      "density_g_cm3": 2.7,
+      "mass_g": 41.82710220650709,
+      "mass_basis": "CAD volume times assumed material density",
+      "geometric_mass_g": 41.82710220650709,
+      "centroid_mm": [
+        111.7499999999999,
+        104.37053111280277,
+        237.8486403026276
+      ],
+      "bbox_mm": [
+        [
+          109.75,
+          59.0,
+          188.3
+        ],
+        [
+          113.75,
+          140.0,
+          280.0
+        ]
+      ]
+    },
+    {
+      "name": "CBP-D402_B_1_CABLE_TIE_TAB",
+      "material": "6061",
+      "category": "cnc",
+      "motion_group": "fixed",
+      "notes": "6061 sheet1.5 flat30x25, no bend. TwoM3x6 with0.5washers into frame-side foot4mm engagement; drill7/fullthread5.5 minimum, four2x5 tie slots. Route pigtail outside motor before lowerUbridge. Connector/bend radius HOLD pending actualmotor; protect all cable-contact edges.",
+      "shape_valid": true,
+      "solid_count": 1,
+      "volume_mm3": 1039.3410420018051,
+      "density_g_cm3": 2.7,
+      "mass_g": 2.8062208134048743,
+      "mass_basis": "CAD volume times assumed material density",
+      "geometric_mass_g": 2.8062208134048743,
+      "centroid_mm": [
+        88.75000000000003,
+        131.75000000000006,
+        232.29638222601548
+      ],
+      "bbox_mm": [
+        [
+          73.75,
+          131.0,
+          219.8
+        ],
+        [
+          103.75,
+          132.5,
+          244.8
+        ]
+      ]
+    },
+    {
+      "name": "CBP-D402_B_2_TOP_BAR",
+      "material": "6061",
+      "category": "cnc",
+      "motion_group": "fixed",
+      "notes": "6061-T6 saw/drill stock42x20x8. Four side M3 drill9/fullthread7 minimum; two5.5vertical M5 clearance atXoffsets+/-6mm. M3 axes offset5mm fromM5 so shafts do not intersect. Deburr0.2; underside driver access and preinserted HNTT5 required.",
+      "shape_valid": true,
+      "solid_count": 1,
+      "volume_mm3": 6163.1527021512065,
+      "density_g_cm3": 2.7,
+      "mass_g": 16.640512295808257,
+      "mass_basis": "CAD volume times assumed material density",
+      "geometric_mass_g": 16.640512295808257,
+      "centroid_mm": [
+        -88.75000000000001,
+        -129.99999999999997,
+        276.00000000000017
+      ],
+      "bbox_mm": [
+        [
+          -109.75,
+          -140.0,
+          272.0
+        ],
+        [
+          -67.75,
+          -120.0,
+          280.0
+        ]
+      ]
+    },
+    {
+      "name": "CBP-D402_B_2_FRONT_FOOT_BAR",
+      "material": "6061",
+      "category": "cnc",
+      "motion_group": "fixed",
+      "notes": "6061-T6 stock42x14.3x6. M4 through taps, nominal6mm engagement. EndM3 drill9/fullthread7 minimum; M3 axesY32 versusM4Y27 keep shafts5mm apart. 0.2deburr. Verify tap fit and strip strength.",
+      "shape_valid": true,
+      "solid_count": 1,
+      "volume_mm3": 3004.5925287400346,
+      "density_g_cm3": 2.7,
+      "mass_g": 8.112399827598093,
+      "mass_basis": "CAD volume times assumed material density",
+      "geometric_mass_g": 8.112399827598093,
+      "centroid_mm": [
+        -88.75,
+        -134.17183681903978,
+        241.80000000000007
+      ],
+      "bbox_mm": [
+        [
+          -109.75,
+          -141.0,
+          238.8
+        ],
+        [
+          -67.75,
+          -126.69999999999999,
+          244.8
+        ]
+      ]
+    },
+    {
+      "name": "CBP-D402_B_2_REAR_FOOT_BAR",
+      "material": "6061",
+      "category": "cnc",
+      "motion_group": "fixed",
+      "notes": "6061-T6 stock42x14.3x6. M4 through taps, nominal6mm engagement. EndM3 drill9/fullthread7 minimum; M3 axesY32 versusM4Y27 keep shafts5mm apart. 0.2deburr. Verify tap fit and strip strength.",
+      "shape_valid": true,
+      "solid_count": 1,
+      "volume_mm3": 3412.60687462501,
+      "density_g_cm3": 2.7,
+      "mass_g": 9.214038561487527,
+      "mass_basis": "CAD volume times assumed material density",
+      "geometric_mass_g": 9.214038561487527,
+      "centroid_mm": [
+        -88.74999999999997,
+        -76.17591836335588,
+        241.79999999999995
+      ],
+      "bbox_mm": [
+        [
+          -109.75,
+          -83.30000000000001,
+          238.8
+        ],
+        [
+          -67.75,
+          -69.0,
+          244.8
+        ]
+      ]
+    },
+    {
+      "name": "CBP-D402_B_2_OUTER_CHEEK",
+      "material": "6061",
+      "category": "cnc",
+      "motion_group": "fixed",
+      "notes": "6061-T6 sheet4. Waterjet/laser two-dimensional profile, body-windowR3; plate-windowR0.5. Minimum lowerUbridge5mm and motor-bottomgap3.5mm. Outer rail relief and front-inner idler step retained. No printed structural path. Static/dynamic stiffness and connector/pigtail envelope unvalidated.",
+      "shape_valid": true,
+      "solid_count": 1,
+      "volume_mm3": 12410.319335743367,
+      "density_g_cm3": 2.7,
+      "mass_g": 33.50786220650709,
+      "mass_basis": "CAD volume times assumed material density",
+      "geometric_mass_g": 33.50786220650709,
+      "centroid_mm": [
+        -111.75,
+        -105.99670302314418,
+        239.5309701392439
+      ],
+      "bbox_mm": [
+        [
+          -113.75,
+          -141.0,
+          188.3
+        ],
+        [
+          -109.75,
+          -69.0,
+          280.0
+        ]
+      ]
+    },
+    {
+      "name": "CBP-D402_B_2_INNER_CHEEK",
+      "material": "6061",
+      "category": "cnc",
+      "motion_group": "fixed",
+      "notes": "6061-T6 sheet4. Waterjet/laser two-dimensional profile, body-windowR3; plate-windowR0.5. Minimum lowerUbridge5mm and motor-bottomgap3.5mm. Outer rail relief and front-inner idler step retained. No printed structural path. Static/dynamic stiffness and connector/pigtail envelope unvalidated.",
+      "shape_valid": true,
+      "solid_count": 1,
+      "volume_mm3": 9503.519335743365,
+      "density_g_cm3": 2.7,
+      "mass_g": 25.65950220650709,
+      "mass_basis": "CAD volume times assumed material density",
+      "geometric_mass_g": 25.65950220650709,
+      "centroid_mm": [
+        -65.74999999999997,
+        -108.80941012704201,
+        230.31167011954318
+      ],
+      "bbox_mm": [
+        [
+          -67.75,
+          -141.0,
+          188.3
+        ],
+        [
+          -63.75,
+          -69.0,
+          280.0
+        ]
+      ]
+    },
+    {
+      "name": "CBP-D402_B_2_CABLE_TIE_TAB",
+      "material": "6061",
+      "category": "cnc",
+      "motion_group": "fixed",
+      "notes": "6061 sheet1.5 flat30x25, no bend. TwoM3x6 with0.5washers into frame-side foot4mm engagement; drill7/fullthread5.5 minimum, four2x5 tie slots. Route pigtail outside motor before lowerUbridge. Connector/bend radius HOLD pending actualmotor; protect all cable-contact edges.",
+      "shape_valid": true,
+      "solid_count": 1,
+      "volume_mm3": 1039.3410420018051,
+      "density_g_cm3": 2.7,
+      "mass_g": 2.8062208134048743,
+      "mass_basis": "CAD volume times assumed material density",
+      "geometric_mass_g": 2.8062208134048743,
+      "centroid_mm": [
+        -88.75,
+        -141.75000000000003,
+        232.2963822260155
+      ],
+      "bbox_mm": [
+        [
+          -103.75,
+          -142.5,
+          219.8
+        ],
+        [
+          -73.75,
+          -141.0,
+          244.8
+        ]
+      ]
+    }
+  ],
+  "full_Y_swept_bbox": {
+    "range_mm": [
+      -20,
+      30
+    ],
+    "zero_pairs_inconclusive": [],
+    "minimum": {
+      "a": "CBP-M208_R_SEPARATE_IDLER_FORK",
+      "b": "CBP-D402_A_2_REAR_FOOT_BAR",
+      "bound_mm": 4.0
+    }
+  },
+  "critical_clearance": {
+    "A_front_plate_B_return": {
+      "hits": [],
+      "closest": {
+        "a": "CBP-D401_A_MOTOR_PLATE_2",
+        "b": "CBP-P403_B_RETURN_IDLER",
+        "distance_mm": 0.19999999999998863
+      }
+    },
+    "A_front_inner_cheek_B_return": {
+      "hits": [],
+      "closest": {
+        "a": "CBP-D402_A_2_INNER_CHEEK",
+        "b": "CBP-P403_B_RETURN_IDLER",
+        "distance_mm": 1.25
+      }
+    },
+    "B_front_inner_cheek_A_return": {
+      "hits": [],
+      "closest": {
+        "a": "CBP-D402_B_2_INNER_CHEEK",
+        "b": "CBP-P403_A_RETURN_IDLER",
+        "distance_mm": 1.25
+      }
+    },
+    "Afront_washer1_return": {
+      "hits": [],
+      "closest": {
+        "a": "CBP-H502_A_MOTOR_2_WASHER_1",
+        "b": "CBP-P403_B_RETURN_IDLER",
+        "distance_mm": 0.43375250169932755
+      }
+    },
+    "Afront_washer2_return": {
+      "hits": [],
+      "closest": {
+        "a": "CBP-H502_A_MOTOR_2_WASHER_2",
+        "b": "CBP-P403_B_RETURN_IDLER",
+        "distance_mm": 0.43375250169932755
+      }
+    },
+    "rearA_motor_lower_bridge": {
+      "hits": [],
+      "closest": {
+        "a": "CBP-P401_A_LDO_MOTOR_1",
+        "b": "CBP-D402_A_1_OUTER_CHEEK",
+        "distance_mm": 2.5436769251345486
+      }
+    },
+    "minimum_motor_screw_head_to_belt_mm": 0.6008440973835434
+  },
+  "driver_access": {
+    "A_1": {
+      "hits": [
+        {
+          "a": "ALLEN_A_1_-6",
+          "b": "CBP-D402_A_1_REAR_FOOT_BAR",
+          "volume_mm3": 85.61639415440136,
+          "thread_exception": false
+        },
+        {
+          "a": "ALLEN_A_1_-6",
+          "b": "CBP-D402_A_1_CABLE_TIE_TAB",
+          "volume_mm3": 121.9085833625701,
+          "thread_exception": false
+        },
+        {
+          "a": "ALLEN_A_1_-6",
+          "b": "CBP-H614_A_1_CABLE_TAB_-9",
+          "volume_mm3": 5.25286988804749,
+          "thread_exception": false
+        },
+        {
+          "a": "ALLEN_A_1_6",
+          "b": "CBP-D402_A_1_REAR_FOOT_BAR",
+          "volume_mm3": 85.61616324214884,
+          "thread_exception": false
+        },
+        {
+          "a": "ALLEN_A_1_6",
+          "b": "CBP-D402_A_1_CABLE_TIE_TAB",
+          "volume_mm3": 121.9086066809969,
+          "thread_exception": false
+        },
+        {
+          "a": "ALLEN_A_1_6",
+          "b": "CBP-H614_A_1_CABLE_TAB_9",
+          "volume_mm3": 5.252614286976975,
+          "thread_exception": false
+        }
+      ],
+      "closest": null
+    },
+    "A_2": {
+      "hits": [],
+      "closest": null
+    },
+    "B_1": {
+      "hits": [
+        {
+          "a": "ALLEN_B_1_-6",
+          "b": "CBP-D402_B_1_REAR_FOOT_BAR",
+          "volume_mm3": 85.61639415441068,
+          "thread_exception": false
+        },
+        {
+          "a": "ALLEN_B_1_-6",
+          "b": "CBP-D402_B_1_CABLE_TIE_TAB",
+          "volume_mm3": 121.90858336408914,
+          "thread_exception": false
+        },
+        {
+          "a": "ALLEN_B_1_-6",
+          "b": "CBP-H614_B_1_CABLE_TAB_-9",
+          "volume_mm3": 5.252869888493979,
+          "thread_exception": false
+        },
+        {
+          "a": "ALLEN_B_1_6",
+          "b": "CBP-D402_B_1_REAR_FOOT_BAR",
+          "volume_mm3": 85.61616324212878,
+          "thread_exception": false
+        },
+        {
+          "a": "ALLEN_B_1_6",
+          "b": "CBP-D402_B_1_CABLE_TIE_TAB",
+          "volume_mm3": 121.90860668164882,
+          "thread_exception": false
+        },
+        {
+          "a": "ALLEN_B_1_6",
+          "b": "CBP-H614_B_1_CABLE_TAB_9",
+          "volume_mm3": 5.252614286320407,
+          "thread_exception": false
+        }
+      ],
+      "closest": null
+    },
+    "B_2": {
+      "hits": [],
+      "closest": null
+    }
+  },
+  "complete": true,
+  "scope": "New metal motor mounts/plates and their hardware against01frame03bed05drives06supports07braces. Head-travel holds are outside this focused audit; no physical strength or Fusion execution claimed.",
+  "expected_drive_proxy_contacts": "10 belt-to-pulley tooth-envelope contacts, plus16 declared motor screw/thread mates. Mounts themselves have64 exact declared screw/thread mates and no other nominal overlaps above0.01mm3."
+}

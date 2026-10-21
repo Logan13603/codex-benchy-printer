@@ -86,8 +86,21 @@ def rect_sketch(c, name, width, depth, cx='0 mm', cy='0 mm', plane=None):
 
 
 def extrude(c,s,distance,op,name,profile=None):
-    f=c.features.extrudeFeatures.addSimple(profile or s.profiles.item(0),vi(distance),op)
+    selected=profile or s.profiles.item(0)
+    scoped=(adsk.fusion.FeatureOperations.CutFeatureOperation,adsk.fusion.FeatureOperations.IntersectFeatureOperation)
+    if op in scoped:
+        assert c.bRepBodies.count,'No owned target bodies for '+name
+        inp=c.features.extrudeFeatures.createInput(selected,op)
+        negative=val(distance)<0
+        extent=adsk.fusion.DistanceExtentDefinition.create(vi('-('+str(distance)+')' if negative else distance))
+        direction=adsk.fusion.ExtentDirections.NegativeExtentDirection if negative else adsk.fusion.ExtentDirections.PositiveExtentDirection
+        assert inp.setOneSideExtent(extent,direction)
+        inp.participantBodies=list(c.bRepBodies)
+        f=c.features.extrudeFeatures.add(inp)
+    else:
+        f=c.features.extrudeFeatures.addSimple(selected,vi(distance),op)
     assert f,name
+    assert all(b.parentComponent==c for b in f.bodies),'Feature escaped owning component: '+name
     f.name=name
     s.isVisible=False
     return f
